@@ -7,7 +7,7 @@ Therefore, whenever you change a file, it can be reflected in the repo easily an
 All files provided must be from Brilliant Diamond 1.3.0
 
 For Aldo's repacker:
-- You will need to supply your own game's dumped assets into the `AssetFolder`, at the time of writing that is `battle_masterdatas`, `common_msbt`, `english`, `contest_masterdatas`, `gamesettings`, `masterdatas` (from the DPR folder), `personal_masterdatas`, and finally the `uimasterdatas`.
+- You will need to supply your own game's dumped assets into the `AssetFolder`, at the time of writing that is `battle_masterdatas`, `common_msbt`, `contest_masterdatas`, `effectdatabase`, `english`, `gamesettings`, `masterdata` (Fureai folder), `masterdatas` (from the DPR folder), `personal_masterdatas`, `ugdata`, and finally the `uimasterdatas`.
 
 For z80Rotom's ev-as:
 - You will need to create a folder called `Dpr` and supply your own `ev_script` file there.
