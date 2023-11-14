@@ -1,0 +1,9 @@
+ev_c01r0204_flag_change:
+	_LDVAL(@WK_ELEVATOR_FLOOR, 3)
+	_END()
+ev_c01r0204_middleman2:
+	_EASY_OBJ_MSG('dp_scenario1%38-msg_c01r0204_middleman2_01')
+	_END()
+ev_c01r0204_woman6:
+	_EASY_OBJ_MSG('dp_scenario1%38-msg_c01r0204_woman6_01')
+	_END()

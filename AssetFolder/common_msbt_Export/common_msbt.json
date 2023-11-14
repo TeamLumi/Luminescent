@@ -1,0 +1,1732 @@
+{
+    "m_Name": "common_msbt",
+    "m_PreloadTable": [
+        {
+            "m_FileID": 0,
+            "m_PathID": -4806269772904410978
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -4152357244298302512
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -3273221715706165731
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 4040826958572502652
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -30446104480903592
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 1480652389342495137
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 7036117994674710655
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 4279345434987437751
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 8520651493188710073
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -7295933064491391750
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -3408213417358207831
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -4565057250528788554
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -2062570998858014774
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -1866254084630028305
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 4603806964179120552
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -2957149933324642376
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -6492131194765209104
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 5615730644659185776
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 181650783534499749
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -6988833882440662554
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 8133181822720443564
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -1660156493191635854
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -2526078555799913763
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -4087591411250441348
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -6169189224632041064
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -8862454878834972809
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -2377836497023119379
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 5792957256733178823
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 72070428660535121
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -764721388369968334
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 5816648265203398252
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -7494693779688637941
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -5589270469253464510
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -1440480159686650331
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -859211632432109066
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 7002385606350307907
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -8281603612828765625
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -5860175393971171666
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 7278894807017319080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -4387244758939279002
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -2355959085168163758
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 6075441330181040392
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -5451002711428129522
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 7930988175905580811
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 2203633077029620231
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 7249462093433752204
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -2323863418786775803
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 1451153840724056830
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -1192283077358752517
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 8612125464436062258
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 6761039401097187929
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -837408026802506535
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -4291033759069241844
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 4759343060414671908
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -3019318066725320664
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -1043901396022265869
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -3940039572357663284
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -7117545699636514441
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -512242348865403463
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -4219608996537720280
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -7089602026377933840
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 4889306579772884805
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -1370385724086864146
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -808914980904702770
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -8130042366902888692
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -1141032251782119233
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -6429044793115243114
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 805707719958365355
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -7633316942142183040
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 606436827681229302
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -1731431273371288631
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 8128390820855581336
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -7452647897225343843
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 4259885268287029912
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3055035474914952722
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 8320132918709390760
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 5816127391877911713
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 2846695630876097912
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -7161410931907325574
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -1210566790388024752
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -2726213011855330055
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -2183746017792317473
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -4204867848004111740
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 4498959723890721465
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 367551094568493721
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -3627236245616426913
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 1014632881678545539
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3846091964721045765
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3694669386670645143
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 1161556428208580250
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 3652094840918934080
+        }
+    ],
+    "m_Container": [
+        [
+            "assets/format_msbt/en/english/english_dlp_whitelist_monsname.asset",
+            {
+                "preloadIndex": 146,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": 4259885268287029912
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/en/english/english_dp_pokedex_diamond.asset",
+            {
+                "preloadIndex": 138,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": 606436827681229302
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/en/english/english_dp_pokedex_pearl.asset",
+            {
+                "preloadIndex": 44,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -2526078555799913763
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/en/english/english_ss_monsname.asset",
+            {
+                "preloadIndex": 64,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -5589270469253464510
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/en/english/english_ss_pokedex.asset",
+            {
+                "preloadIndex": 28,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": 4603806964179120552
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/en/english/english_ss_zkn_form.asset",
+            {
+                "preloadIndex": 54,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": 5792957256733178823
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/en/english/english_ss_zkn_height.asset",
+            {
+                "preloadIndex": 96,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -1192283077358752517
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/en/english/english_ss_zkn_type.asset",
+            {
+                "preloadIndex": 20,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -3408213417358207831
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/en/english/english_ss_zkn_weight.asset",
+            {
+                "preloadIndex": 52,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -2377836497023119379
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/fr/french/french_dlp_whitelist_monsname.asset",
+            {
+                "preloadIndex": 150,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": 8320132918709390760
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/fr/french/french_dp_pokedex_diamond.asset",
+            {
+                "preloadIndex": 82,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": 6075441330181040392
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/fr/french/french_dp_pokedex_pearl.asset",
+            {
+                "preloadIndex": 0,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -4806269772904410978
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/fr/french/french_ss_monsname.asset",
+            {
+                "preloadIndex": 90,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": 7249462093433752204
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/fr/french/french_ss_pokedex.asset",
+            {
+                "preloadIndex": 80,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -2355959085168163758
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/fr/french/french_ss_zkn_form.asset",
+            {
+                "preloadIndex": 84,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -5451002711428129522
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/fr/french/french_ss_zkn_height.asset",
+            {
+                "preloadIndex": 18,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -7295933064491391750
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/fr/french/french_ss_zkn_type.asset",
+            {
+                "preloadIndex": 36,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": 181650783534499749
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/fr/french/french_ss_zkn_weight.asset",
+            {
+                "preloadIndex": 136,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -7633316942142183040
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/ge/german/german_dlp_whitelist_monsname.asset",
+            {
+                "preloadIndex": 10,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": 1480652389342495137
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/ge/german/german_dp_pokedex_diamond.asset",
+            {
+                "preloadIndex": 98,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": 8612125464436062258
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/ge/german/german_dp_pokedex_pearl.asset",
+            {
+                "preloadIndex": 56,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": 72070428660535121
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/ge/german/german_ss_monsname.asset",
+            {
+                "preloadIndex": 8,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -30446104480903592
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/ge/german/german_ss_pokedex.asset",
+            {
+                "preloadIndex": 164,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -4204867848004111740
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/ge/german/german_ss_zkn_form.asset",
+            {
+                "preloadIndex": 78,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -4387244758939279002
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/ge/german/german_ss_zkn_height.asset",
+            {
+                "preloadIndex": 76,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": 7278894807017319080
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/ge/german/german_ss_zkn_type.asset",
+            {
+                "preloadIndex": 70,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": 7002385606350307907
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/ge/german/german_ss_zkn_weight.asset",
+            {
+                "preloadIndex": 110,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -1043901396022265869
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/it/italian/italian_dlp_whitelist_monsname.asset",
+            {
+                "preloadIndex": 160,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -2726213011855330055
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/it/italian/italian_dp_pokedex_diamond.asset",
+            {
+                "preloadIndex": 108,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -3019318066725320664
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/it/italian/italian_dp_pokedex_pearl.asset",
+            {
+                "preloadIndex": 112,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -3940039572357663284
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/it/italian/italian_ss_monsname.asset",
+            {
+                "preloadIndex": 34,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": 5615730644659185776
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/it/italian/italian_ss_pokedex.asset",
+            {
+                "preloadIndex": 104,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -4291033759069241844
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/it/italian/italian_ss_zkn_form.asset",
+            {
+                "preloadIndex": 42,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -1660156493191635854
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/it/italian/italian_ss_zkn_height.asset",
+            {
+                "preloadIndex": 128,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -8130042366902888692
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/it/italian/italian_ss_zkn_type.asset",
+            {
+                "preloadIndex": 86,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": 7930988175905580811
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/it/italian/italian_ss_zkn_weight.asset",
+            {
+                "preloadIndex": 6,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": 4040826958572502652
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/jp/jpn/jpn_dlp_whitelist_monsname.asset",
+            {
+                "preloadIndex": 122,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": 4889306579772884805
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/jp/jpn/jpn_dp_pokedex_diamond.asset",
+            {
+                "preloadIndex": 92,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -2323863418786775803
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/jp/jpn/jpn_dp_pokedex_pearl.asset",
+            {
+                "preloadIndex": 178,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": 1161556428208580250
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/jp/jpn/jpn_ss_monsname.asset",
+            {
+                "preloadIndex": 142,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": 8128390820855581336
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/jp/jpn/jpn_ss_pokedex.asset",
+            {
+                "preloadIndex": 118,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -4219608996537720280
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/jp/jpn/jpn_ss_zkn_form.asset",
+            {
+                "preloadIndex": 38,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -6988833882440662554
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/jp/jpn/jpn_ss_zkn_height.asset",
+            {
+                "preloadIndex": 62,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -7494693779688637941
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/jp/jpn/jpn_ss_zkn_type.asset",
+            {
+                "preloadIndex": 60,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": 5816648265203398252
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/jp/jpn/jpn_ss_zkn_weight.asset",
+            {
+                "preloadIndex": 66,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -1440480159686650331
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/jp/jpn_kanji/jpn_kanji_dlp_whitelist_monsname.asset",
+            {
+                "preloadIndex": 14,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": 4279345434987437751
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/jp/jpn_kanji/jpn_kanji_dp_pokedex_diamond.asset",
+            {
+                "preloadIndex": 152,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": 5816127391877911713
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/jp/jpn_kanji/jpn_kanji_dp_pokedex_pearl.asset",
+            {
+                "preloadIndex": 116,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -512242348865403463
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/jp/jpn_kanji/jpn_kanji_ss_monsname.asset",
+            {
+                "preloadIndex": 132,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -6429044793115243114
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/jp/jpn_kanji/jpn_kanji_ss_pokedex.asset",
+            {
+                "preloadIndex": 130,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -1141032251782119233
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/jp/jpn_kanji/jpn_kanji_ss_zkn_form.asset",
+            {
+                "preloadIndex": 50,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -8862454878834972809
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/jp/jpn_kanji/jpn_kanji_ss_zkn_height.asset",
+            {
+                "preloadIndex": 166,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": 4498959723890721465
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/jp/jpn_kanji/jpn_kanji_ss_zkn_type.asset",
+            {
+                "preloadIndex": 162,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -2183746017792317473
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/jp/jpn_kanji/jpn_kanji_ss_zkn_weight.asset",
+            {
+                "preloadIndex": 102,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -837408026802506535
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/ko/korean/korean_dlp_whitelist_monsname.asset",
+            {
+                "preloadIndex": 158,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -1210566790388024752
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/ko/korean/korean_dp_pokedex_diamond.asset",
+            {
+                "preloadIndex": 168,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": 367551094568493721
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/ko/korean/korean_dp_pokedex_pearl.asset",
+            {
+                "preloadIndex": 32,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -6492131194765209104
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/ko/korean/korean_ss_monsname.asset",
+            {
+                "preloadIndex": 22,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -4565057250528788554
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/ko/korean/korean_ss_pokedex.asset",
+            {
+                "preloadIndex": 26,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -1866254084630028305
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/ko/korean/korean_ss_zkn_form.asset",
+            {
+                "preloadIndex": 46,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -4087591411250441348
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/ko/korean/korean_ss_zkn_height.asset",
+            {
+                "preloadIndex": 154,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": 2846695630876097912
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/ko/korean/korean_ss_zkn_type.asset",
+            {
+                "preloadIndex": 156,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -7161410931907325574
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/ko/korean/korean_ss_zkn_weight.asset",
+            {
+                "preloadIndex": 100,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": 6761039401097187929
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/si/simp_chinese/simp_chinese_dlp_whitelist_monsname.asset",
+            {
+                "preloadIndex": 68,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -859211632432109066
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/si/simp_chinese/simp_chinese_dp_pokedex_diamond.asset",
+            {
+                "preloadIndex": 172,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": 1014632881678545539
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/si/simp_chinese/simp_chinese_dp_pokedex_pearl.asset",
+            {
+                "preloadIndex": 4,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -3273221715706165731
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/si/simp_chinese/simp_chinese_ss_monsname.asset",
+            {
+                "preloadIndex": 170,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -3627236245616426913
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/si/simp_chinese/simp_chinese_ss_pokedex.asset",
+            {
+                "preloadIndex": 2,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -4152357244298302512
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/si/simp_chinese/simp_chinese_ss_zkn_form.asset",
+            {
+                "preloadIndex": 40,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": 8133181822720443564
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/si/simp_chinese/simp_chinese_ss_zkn_height.asset",
+            {
+                "preloadIndex": 114,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -7117545699636514441
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/si/simp_chinese/simp_chinese_ss_zkn_type.asset",
+            {
+                "preloadIndex": 174,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": 3846091964721045765
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/si/simp_chinese/simp_chinese_ss_zkn_weight.asset",
+            {
+                "preloadIndex": 58,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -764721388369968334
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/sp/spanish/spanish_dlp_whitelist_monsname.asset",
+            {
+                "preloadIndex": 120,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -7089602026377933840
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/sp/spanish/spanish_dp_pokedex_diamond.asset",
+            {
+                "preloadIndex": 134,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": 805707719958365355
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/sp/spanish/spanish_dp_pokedex_pearl.asset",
+            {
+                "preloadIndex": 16,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": 8520651493188710073
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/sp/spanish/spanish_ss_monsname.asset",
+            {
+                "preloadIndex": 176,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": 3694669386670645143
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/sp/spanish/spanish_ss_pokedex.asset",
+            {
+                "preloadIndex": 12,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": 7036117994674710655
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/sp/spanish/spanish_ss_zkn_form.asset",
+            {
+                "preloadIndex": 106,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": 4759343060414671908
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/sp/spanish/spanish_ss_zkn_height.asset",
+            {
+                "preloadIndex": 94,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": 1451153840724056830
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/sp/spanish/spanish_ss_zkn_type.asset",
+            {
+                "preloadIndex": 144,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -7452647897225343843
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/sp/spanish/spanish_ss_zkn_weight.asset",
+            {
+                "preloadIndex": 88,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": 2203633077029620231
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/tr/trad_chinese/trad_chinese_dlp_whitelist_monsname.asset",
+            {
+                "preloadIndex": 126,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -808914980904702770
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/tr/trad_chinese/trad_chinese_dp_pokedex_diamond.asset",
+            {
+                "preloadIndex": 30,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -2957149933324642376
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/tr/trad_chinese/trad_chinese_dp_pokedex_pearl.asset",
+            {
+                "preloadIndex": 148,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": 3055035474914952722
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/tr/trad_chinese/trad_chinese_ss_monsname.asset",
+            {
+                "preloadIndex": 140,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -1731431273371288631
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/tr/trad_chinese/trad_chinese_ss_pokedex.asset",
+            {
+                "preloadIndex": 124,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -1370385724086864146
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/tr/trad_chinese/trad_chinese_ss_zkn_form.asset",
+            {
+                "preloadIndex": 48,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -6169189224632041064
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/tr/trad_chinese/trad_chinese_ss_zkn_height.asset",
+            {
+                "preloadIndex": 24,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -2062570998858014774
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/tr/trad_chinese/trad_chinese_ss_zkn_type.asset",
+            {
+                "preloadIndex": 74,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -5860175393971171666
+                }
+            }
+        ],
+        [
+            "assets/format_msbt/tr/trad_chinese/trad_chinese_ss_zkn_weight.asset",
+            {
+                "preloadIndex": 72,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -8281603612828765625
+                }
+            }
+        ]
+    ],
+    "m_MainAsset": {
+        "preloadIndex": 0,
+        "preloadSize": 0,
+        "asset": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        }
+    },
+    "m_RuntimeCompatibility": 1,
+    "m_AssetBundleName": "common_msbt",
+    "m_Dependencies": [],
+    "m_IsStreamedSceneAssetBundle": false,
+    "m_ExplicitDataLayout": 0,
+    "m_PathFlags": 7,
+    "m_SceneHashes": []
+}

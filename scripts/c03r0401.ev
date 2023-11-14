@@ -1,0 +1,216 @@
+ev_c03r0401_woman6:
+	_EASY_OBJ_MSG('dp_scenario1%78-msg_c03r0401_woman6_01')
+	_END()
+ev_c03r0401_assistantm:
+	_TALK_OBJ_START()
+	_IF_FLAGON_JUMP(#FH_01, 'ev_c03r0401_assistantm_06')
+	_TALKMSG('dp_scenario1%78-msg_c03r0401_assistantm_01')
+	_IF_FLAGOFF_JUMP(#FE_TANKENSETTO_GET, 'ev_c03r0401_assistantm_10')
+	_IFVAL_JUMP(@WK_SCENE_KASEKI_MONSNO, 'NE', 0, 'c03r0401_uketori_chk')
+	_KASEKI_COUNT(@SCWK_PARAM0)
+	_IFVAL_JUMP(@SCWK_PARAM0, 'EQ', 0, 'ev_c03r0401_assistantm_09')
+	_TALKMSG('dp_scenario1%78-msg_c03r0401_assistantm_02')
+	_YES_NO_WIN(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_c03r0401_assistantm_05_yes_2')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_c03r0401_assistantm_05')
+	_JUMP('ev_c03r0401_assistantm_05_yes_2')
+ev_c03r0401_assistantm_05_yes_2:
+	_IFVAL_JUMP(@SCWK_PARAM0, 'EQ', 1, 'ev_c03r0401_assistantm_05_yes_3')
+	_JUMP('ev_c03r0401_assistantm_05_yes_4')
+	_END()
+ev_c03r0401_assistantm_05_yes_3:
+	_ITEM_CHK(103, 1, @SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_c03r0401_assistantm_localwork1_itemno_get_sin')
+	_ITEM_CHK(101, 1, @SCWK_ANSWER)
+	_IFVAL_CALL(@SCWK_ANSWER, 'EQ', 1, 'ev_c03r0401_assistantm_localwork2_itemno_get_sin')
+	_ITEM_CHK(102, 1, @SCWK_ANSWER)
+	_IFVAL_CALL(@SCWK_ANSWER, 'EQ', 1, 'ev_c03r0401_assistantm_localwork3_itemno_get_sin')
+	_ITEM_CHK(99, 1, @SCWK_ANSWER)
+	_IFVAL_CALL(@SCWK_ANSWER, 'EQ', 1, 'ev_c03r0401_assistantm_localwork4_itemno_get_sin')
+	_ITEM_CHK(100, 1, @SCWK_ANSWER)
+	_IFVAL_CALL(@SCWK_ANSWER, 'EQ', 1, 'ev_c03r0401_assistantm_localwork5_itemno_get_sin')
+	_ITEM_CHK(104, 1, @SCWK_ANSWER)
+	_IFVAL_CALL(@SCWK_ANSWER, 'EQ', 1, 'ev_c03r0401_assistantm_localwork6_itemno_get_sin')
+	_ITEM_CHK(105, 1, @SCWK_ANSWER)
+	_IFVAL_CALL(@SCWK_ANSWER, 'EQ', 1, 'ev_c03r0401_assistantm_localwork7_itemno_get_sin')
+	_END()
+ev_c03r0401_assistantm_05_yes_4:
+	_ITEM_CHK(103, 1, @SCWK_ANSWER)
+	_IFVAL_CALL(@SCWK_ANSWER, 'EQ', 1, 'ev_c03r0401_assistantm_itemno_check_1_1')
+	_ITEM_CHK(101, 1, @SCWK_ANSWER)
+	_IFVAL_CALL(@SCWK_ANSWER, 'EQ', 1, 'ev_c03r0401_assistantm_itemno_check_2_1')
+	_ITEM_CHK(102, 1, @SCWK_ANSWER)
+	_IFVAL_CALL(@SCWK_ANSWER, 'EQ', 1, 'ev_c03r0401_assistantm_itemno_check_3_1')
+	_ITEM_CHK(99, 1, @SCWK_ANSWER)
+	_IFVAL_CALL(@SCWK_ANSWER, 'EQ', 1, 'ev_c03r0401_assistantm_itemno_check_4_1')
+	_ITEM_CHK(100, 1, @SCWK_ANSWER)
+	_IFVAL_CALL(@SCWK_ANSWER, 'EQ', 1, 'ev_c03r0401_assistantm_itemno_check_5_1')
+	_ITEM_CHK(104, 1, @SCWK_ANSWER)
+	_IFVAL_CALL(@SCWK_ANSWER, 'EQ', 1, 'ev_c03r0401_assistantm_itemno_check_6_1')
+	_ITEM_CHK(105, 1, @SCWK_ANSWER)
+	_IFVAL_CALL(@SCWK_ANSWER, 'EQ', 1, 'ev_c03r0401_assistantm_itemno_check_7_1')
+	_CALL('ev_c03r0401_assistantm_itemno_check_8_1')
+	_OPEN_CUSTUM_WIN(@SCWK_TEMP0)
+	_SWITCH(@SCWK_TEMP0)
+	_CASE_JUMP(0, 'ev_c03r0401_assistantm_localwork1_itemno_get_sin')
+	_CASE_JUMP(1, 'ev_c03r0401_assistantm_localwork2_itemno_get_sin')
+	_CASE_JUMP(2, 'ev_c03r0401_assistantm_localwork3_itemno_get_sin')
+	_CASE_JUMP(3, 'ev_c03r0401_assistantm_localwork4_itemno_get_sin')
+	_CASE_JUMP(4, 'ev_c03r0401_assistantm_localwork5_itemno_get_sin')
+	_CASE_JUMP(5, 'ev_c03r0401_assistantm_localwork6_itemno_get_sin')
+	_CASE_JUMP(6, 'ev_c03r0401_assistantm_localwork7_itemno_get_sin')
+	_CASE_JUMP(7, 'ev_c03r0401_assistantm_05')
+	_JUMP('ev_c03r0401_assistantm_05')
+	_END()
+ev_c03r0401_assistantm_localwork1_itemno_get_sin:
+	_LDWK(@SCWK_PARAM2, 103)
+	_JUMP('ev_c03r0401_menu_skip2_1')
+	_JUMP('ev_c03r0401_assistantm_itemno_check_1_1')
+ev_c03r0401_assistantm_localwork2_itemno_get_sin:
+	_LDWK(@SCWK_PARAM2, 101)
+	_JUMP('ev_c03r0401_menu_skip2_1')
+	_JUMP('ev_c03r0401_assistantm_itemno_check_1_1')
+ev_c03r0401_assistantm_localwork3_itemno_get_sin:
+	_LDWK(@SCWK_PARAM2, 102)
+	_JUMP('ev_c03r0401_menu_skip2_1')
+	_JUMP('ev_c03r0401_assistantm_itemno_check_1_1')
+ev_c03r0401_assistantm_localwork4_itemno_get_sin:
+	_LDWK(@SCWK_PARAM2, 99)
+	_JUMP('ev_c03r0401_menu_skip2_1')
+	_JUMP('ev_c03r0401_assistantm_itemno_check_1_1')
+ev_c03r0401_assistantm_localwork5_itemno_get_sin:
+	_LDWK(@SCWK_PARAM2, 100)
+	_JUMP('ev_c03r0401_menu_skip2_1')
+	_JUMP('ev_c03r0401_assistantm_itemno_check_1_1')
+ev_c03r0401_assistantm_localwork6_itemno_get_sin:
+	_LDWK(@SCWK_PARAM2, 104)
+	_JUMP('ev_c03r0401_menu_skip2_1')
+	_JUMP('ev_c03r0401_assistantm_itemno_check_1_1')
+ev_c03r0401_assistantm_localwork7_itemno_get_sin:
+	_LDWK(@SCWK_PARAM2, 105)
+	_JUMP('ev_c03r0401_menu_skip2_1')
+	_JUMP('ev_c03r0401_assistantm_itemno_check_1_1')
+ev_c03r0401_menu_skip2_1:
+	_ITEMNO_TO_MONSNO(@WK_SCENE_KASEKI_MONSNO, @SCWK_PARAM2)
+	_IFVAL_JUMP(@WK_SCENE_KASEKI_MONSNO, 'EQ', 0, 'ev_c03r0401_assistantm_05')
+	_SUB_ITEM(@SCWK_PARAM2, 1, @SCWK_ANSWER)
+	_JUMP('ev_c03r0401_assistantm_06')
+	_JUMP('ev_c03r0401_assistantm_itemno_check_1_1')
+ev_c03r0401_assistantm_itemno_check_1_1:
+	_ADD_CUSTUM_WIN_LABEL('dp_options%DP_options_156', 0)
+	_RET()
+ev_c03r0401_assistantm_itemno_check_2_1:
+	_ADD_CUSTUM_WIN_LABEL('dp_options%DP_options_157', 1)
+	_RET()
+ev_c03r0401_assistantm_itemno_check_3_1:
+	_ADD_CUSTUM_WIN_LABEL('dp_options%DP_options_158', 2)
+	_RET()
+ev_c03r0401_assistantm_itemno_check_4_1:
+	_ADD_CUSTUM_WIN_LABEL('dp_options%DP_options_159', 3)
+	_RET()
+ev_c03r0401_assistantm_itemno_check_5_1:
+	_ADD_CUSTUM_WIN_LABEL('dp_options%DP_options_160', 4)
+	_RET()
+ev_c03r0401_assistantm_itemno_check_6_1:
+	_ADD_CUSTUM_WIN_LABEL('dp_options%DP_options_161', 5)
+	_RET()
+ev_c03r0401_assistantm_itemno_check_7_1:
+	_ADD_CUSTUM_WIN_LABEL('dp_options%DP_options_162', 6)
+	_RET()
+ev_c03r0401_assistantm_itemno_check_8_1:
+	_ADD_CUSTUM_WIN_LABEL('dp_options%DP_options_192', 7)
+	_RET()
+ev_c03r0401_one_kaseki:
+	_KASEKI_ITEMNO(@SCWK_PARAM2, @SCWK_TEMP0, 1)
+	_ITEMNO_TO_MONSNO(@WK_SCENE_KASEKI_MONSNO, @SCWK_PARAM2)
+	_SUB_ITEM(@SCWK_PARAM2, 1, @SCWK_ANSWER)
+	_JUMP('ev_c03r0401_assistantm_06')
+	_JUMP('ev_c03r0401_assistantm_06')
+ev_c03r0401_assistantm_06:
+	_FLAG_SET(#FH_01)
+	_TALKMSG('dp_scenario1%78-msg_c03r0401_assistantm_06')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c03r0401_assistantm_05:
+	_TALKMSG('dp_scenario1%78-msg_c03r0401_assistantm_05')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+c03r0401_uketori_chk:
+	_POKEMON_NAME_EXTRA(0, @WK_SCENE_KASEKI_MONSNO, 0, 0)
+	_TALK_KEYWAIT('dp_scenario1%78-msg_c03r0401_assistantm_07')
+	_GET_POKE_COUNT(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'LT', 6, 'ev_c03r0401_assistantm_08')
+	_COUNT_MONSBOX_SPACE(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_c03r0401_assistantm_08')
+	_TALKMSG('dp_scenario1%78-msg_c03r0401_assistantm_08')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c03r0401_assistantm_08:
+	_POKEMON_NAME_EXTRA(1, @WK_SCENE_KASEKI_MONSNO, 0, 0)
+	_PLAYER_NAME(0)
+	_ME_PLAY('M_FI013')
+	_TALKMSG('dp_scenario1%78-msg_c03r0401_assistantm_11')
+	_ME_WAIT()
+	_ADD_POKEMON_UI(@WK_SCENE_KASEKI_MONSNO, 1, 0, @SCWK_ANSWER, 3, 0)
+	_LDVAL(@WK_SCENE_KASEKI_MONSNO, 0)
+	_END()
+ev_c03r0401_assistantm_09:
+	_TALKMSG('dp_scenario1%78-msg_c03r0401_assistantm_09')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c03r0401_assistantm_10:
+	_TALKMSG('dp_scenario1%78-msg_c03r0401_assistantm_10')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c03r0401_mount:
+	_EASY_OBJ_MSG('dp_scenario1%78-msg_c03r0401_mount_01')
+	_END()
+ev_c03r0401_babygirl1:
+	_EASY_OBJ_MSG('dp_scenario1%78-msg_c03r0401_babygirl1_01')
+	_END()
+ev_c03r0401_boy1:
+	_EASY_OBJ_MSG('dp_scenario1%78-msg_c03r0401_boy1_01')
+	_END()
+ev_c03r0401_rack1:
+	_EASY_OBJ_MSG('dp_scenario1%78-msg_c03r0401_rack1_01')
+	_END()
+ev_c03r0401_rack2:
+	_EASY_OBJ_MSG('dp_scenario1%78-msg_c03r0401_rack2_01')
+	_END()
+ev_c03r0401_rack3:
+	_EASY_OBJ_MSG('dp_scenario1%78-msg_c03r0401_rack3_01')
+	_END()
+ev_c03r0401_case1:
+	_EASY_OBJ_MSG('dp_scenario1%78-msg_c03r0401_case1_01')
+	_END()
+ev_c03r0401_case2:
+	_EASY_OBJ_MSG('dp_scenario1%78-msg_c03r0401_case2_01')
+	_END()
+ev_c03r0401_case3:
+	_EASY_OBJ_MSG('dp_scenario1%78-msg_c03r0401_case3_01')
+	_END()
+ev_c03r0401_case4:
+	_EASY_OBJ_MSG('dp_scenario1%78-msg_c03r0401_case4_01')
+	_END()
+ev_c03r0401_case5:
+	_EASY_OBJ_MSG('dp_scenario1%78-msg_c03r0401_case5_01')
+	_END()
+ev_c03r0401_script_14:
+	_MACRO_EASY_OBJ_MSG('dp_scenario3', '00_msg_c03r0401_script_14_1', 'It’s a little far from here, but there\nis a city called Eterna City.\rI’ve heard a curious person named the\nUnderground Man lives there.\rWith a name like that, he must be an\nauthority on the Underground.')
+	_END()
+ev_c03r0401_script_15:
+	_MACRO_EASY_OBJ_MSG('dp_scenario3', '00_msg_c03r0401_script_15_1', 'Mining must take a strong mind, not\njust a tough body.\rThink about it. You’re in darkness,\ndigging desperately through rock.')
+	_END()
+ev_c03r0401_script_16:
+	_MACRO_EASY_OBJ_MSG('dp_scenario3', '00_msg_c03r0401_script_16_1', 'The history of Oreburgh Mine...\rYou could call it a history of effort and\nfriendship between people and Pokémon.')
+	_END()

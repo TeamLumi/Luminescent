@@ -1,0 +1,69 @@
+ev_r222_flag_change:
+	_GET_TIME_ZONE(@LOCALWORK0)
+	_IFVAL_JUMP(@LOCALWORK0, 'EQ', 0, 'ev_r222_fc_morning')
+	_IFVAL_JUMP(@LOCALWORK0, 'EQ', 1, 'ev_r222_fc_noon')
+	_IFVAL_JUMP(@LOCALWORK0, 'EQ', 2, 'ev_r222_fc_evening')
+	_IFVAL_JUMP(@LOCALWORK0, 'EQ', 3, 'ev_r222_fc_night')
+	_IFVAL_JUMP(@LOCALWORK0, 'EQ', 4, 'ev_r222_fc_midnight')
+	_END()
+ev_r222_fc_morning:
+	_JUMP('ev_r222_fc_evening')
+ev_r222_fc_noon:
+	_JUMP('ev_r222_fc_evening')
+ev_r222_fc_evening:
+	_FLAG_RESET(#FV_R222_POLICE6_NPC)
+	_FLAG_SET(#FV_R222_POLICE6_TR)
+	_OBJ_DEL('TR_POLICE_06')
+	_END()
+ev_r222_fc_night:
+	_JUMP('ev_r222_fc_midnight')
+ev_r222_fc_midnight:
+	_FLAG_RESET(#FV_R222_POLICE6_TR)
+	_FLAG_SET(#FV_R222_POLICE6_NPC)
+	_OBJ_DEL('R222_POLICE6')
+	_END()
+ev_r222_gorggeousm:
+	_TALK_OBJ_START()
+	_IF_FLAGON_JUMP(#FE_WAZAMASIN56_GET, 'ev_r222_gorggeousm_02')
+	_TALK_KEYWAIT('dp_scenario2%185-msg_r222_gorggeousm_01')
+	_LDVAL(@SCWK_TEMP0, 383)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_ADD_ITEM_CHK(@SCWK_TEMP0, @SCWK_TEMP1, @SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_r222_gorggeousm_item_event_fail')
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_FLAG_SET(#FE_WAZAMASIN56_GET)
+	_JUMP('ev_r222_gorggeousm_02')
+	_JUMP('ev_r222_gorggeousm_02')
+ev_r222_gorggeousm_02:
+	_TALKMSG('dp_scenario2%185-msg_r222_gorggeousm_02')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_r222_gorggeousm_item_event_fail:
+	_CHG_COMMON_SCR('ev_item_event_fail')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_r222_fishing1:
+	_TALK_OBJ_START_TURN_NOT()
+	_TALKMSG('dp_scenario2%185-msg_r222_fishing1_01')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_r222_sign1:
+	_EASY_BOARD_MSG('dp_scenario2%185-msg_r222_sign1_01', 'BOARD_TYPE_ROAD', 0, 2)
+	_END()
+ev_r222_sign2:
+	_EASY_BOARD_MSG('dp_scenario2%185-msg_r222_sign2_01', 'BOARD_TYPE_ROAD', 0, 1)
+	_END()
+ev_r222_sign3:
+	_EASY_BOARD_MSG('dp_scenario2%185-msg_r222_sign3_01', 'BOARD_TYPE_POST', 0)
+	_END()
+ev_r222_sign4:
+	_EASY_BOARD_MSG('dp_scenario2%185-msg_r222_sign4_01', 'BOARD_TYPE_POST', 0)
+	_END()
+ev_r222_police6:
+	_EASY_OBJ_MSG('dp_scenario2%185-msg_r222_police_06_01')
+	_END()

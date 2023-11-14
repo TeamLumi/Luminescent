@@ -1,0 +1,11 @@
+SP_C10R0111_FLAG:
+	_JUMP('ev_c10r0111_flag_change')
+	_SCENE_CHANGE_END()
+	_JUMP('SP_C10R0111_SCENE')
+SP_C10R0111_SCENE:
+	_JUMP('sp_c10r0111_tbl')
+	_SP_EVENT_DATA_END()
+sp_c10r0111_tbl:
+	_IFVAL_JUMP(@WK_SCENE_CL_DOOR, 'EQ', 0, 'ev_c10r0111_champ')
+	;_IF_FLAGON_JUMP($SYS_FLAG_GAME_CLEAR , 'ev_title_defence_prepare')
+	_SCENE_CHANGE_END()

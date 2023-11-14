@@ -1,0 +1,669 @@
+ev_d03r0101_flag_change:
+	_CALL('ev_d03r0101_flag_change_col_del')
+	_IF_FLAGOFF_CALL(#3109, 'ev_t05_ensure_celebi_flags_are_correct')
+	_IF_FLAGOFF_CALL(#2607, 'ev_d03r0101_celebi_reset_portal_one'); Portal visibility flag
+	_IF_FLAGON_CALL($SYS_FLAG_PAIR, 'ev_d03r0101_flag_change_col_set')
+	_IF_FLAGON_JUMP($SYS_FLAG_PAIR, 'ev_d03r0101_flag_change_moved')
+	_IF_FLAGOFF_JUMP(#FE_SEVEN1_CLEAR, 'ev_d03r0101_flag_change_retry')
+	_END()
+ev_d03r0101_flag_change_retry:
+	_LDVAL(@WK_SCENE_D03R0101, 0)
+	_END()
+ev_d03r0101_ensure_celebi_off:
+	_IF_FLAGOFF_CALL(#2616, 'ev_t05_ensure_celebi_flags_are_correct')
+	_RET()
+ev_d03r0101_flag_change_moved:
+	_END()
+ev_d03r0101_flag_change_col_set:
+	_FLAG_RESET(#FV_WALL_PUT)
+	_OBJ_ADD('D03R0101_WALL01')
+	_OBJ_ADD('D03R0101_WALL02')
+	_OBJ_ADD('D03R0101_WALL03')
+	_OBJ_ADD('D03R0101_WALL04')
+	_OBJ_ADD('D03R0101_WALL05')
+	_RET()
+ev_d03r0101_flag_change_col_del:
+	_FLAG_SET(#FV_WALL_PUT)
+	_OBJ_DEL('D03R0101_WALL01')
+	_OBJ_DEL('D03R0101_WALL02')
+	_OBJ_DEL('D03R0101_WALL03')
+	_OBJ_DEL('D03R0101_WALL04')
+	_OBJ_DEL('D03R0101_WALL05')
+	_RET()
+ev_d03r0101_celebi_reset_portal_one:
+	_RELEASE_EFFECT(0); kill old effect in case it exists
+	_TIME_WAIT(5, @SCWK_ANSWER); wait because effect commands are laggy
+	_CALL_EFFECT(0, 245, -74.5, 0.2, 32); spawn portal
+	_EFF_SCALE(0, 0.4, 0.4, 0.4); scale portal
+	_RET()
+pos_d03r0101_seven1_start:
+	_EVENT_START()
+	_BICYCLE_REQ(0)
+	_SYS_FLAG_PAIR_RESET()
+	_CALL('ev_d03r0101_flag_change_col_del')
+	_PLAYER_POS_GET(@SCWK_TEMP0, @SCWK_TEMP1)
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 28, 'pos_d03r0101_seven1_x21')
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 29, 'pos_d03r0101_seven1_x22')
+	_END()
+pos_d03r0101_seven1_x21:
+	_OBJ_ANIME('PAIR_D03R0101_SEVEN1', 'anm_d03r0101_seven1_60')
+	_OBJ_ANIME_WAIT()
+	_JUMP('pos_d03r0101_seven1_common_60')
+	_JUMP('pos_d03r0101_seven1_common_60')
+pos_d03r0101_seven1_x22:
+	_OBJ_ANIME('PAIR_D03R0101_SEVEN1', 'anm_d03r0101_seven1_61')
+	_OBJ_ANIME_WAIT()
+	_JUMP('pos_d03r0101_seven1_common_60')
+	_JUMP('pos_d03r0101_seven1_common_60')
+pos_d03r0101_seven1_common_60:
+	_BLACK_OUT('SCR_WIPE_DIV', 3)
+	_FADE_WAIT()
+	_OBJ_POS_CHANGE_WORLD('HERO', -28, 0, 85)
+	_SXY_DIR_CHANGE('HERO', 180)
+	_OBJ_POS_CHANGE_WORLD('PAIR_D03R0101_SEVEN1', -28, 0, 84)
+	_EVENT_CAMERA_INDEX(132)
+	_BLACK_IN('SCR_WIPE_DIV', 3)
+	_FADE_WAIT()
+	_IF_FLAGOFF_CALL(#FE_D03R0101_SEVEN1_TALK, 'ev_d03r0101_seven1_talk_first')
+	_IF_FLAGON_CALL(#FE_D03R0101_SEVEN1_TALK, 'ev_d03r0101_seven1_talk_second')
+	_PLAYER_NAME(0)
+	_ME_PLAY('M_FI005')
+	_TALK_KEYWAIT('dp_scenario1%106-msg_d03r0101_pair_01')
+	_ME_WAIT()
+	_FLAG_SET(#FE_D03R0101_SEVEN1_TALK)
+	_LDVAL(@WK_SCENE_D03R0101, 1)
+	_LDVAL(@TOWNMAP_GUIDE_SEQUENCE, 4300)
+	_TALK_KEYWAIT('dp_scenario1%106-msg_d03r0101_pair_02')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_EVENT_CAMERA_INDEX(151)
+	_EVENT_CAMERA_END_WAIT()
+	_LDVAL(@SYS_WORK_PAIR_TRAINER_ID, 482)
+	_SYS_FLAG_PAIR_SET()
+	_CALL('ev_d03r0101_flag_change_col_set')
+	_MOVE_CODE_CHANGE('PAIR_D03R0101_SEVEN1', 'MV_PAIR')
+	_NOT_ZONE_DEL_SET('PAIR_D03R0101_SEVEN1', 1)
+	_PAIR_OBJID_SET('PAIR_D03R0101_SEVEN1')
+	_EVENT_END()
+	_END()
+ev_d03r0101_seven1_talk_first:
+	_PLAYER_NAME(0); Editing this function to add the trainer battle with Cheryl
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_ev_d03r0101_seven1_talk_first_1', 'Hello, my name’s Cheryl.\nAnd you are...?\rOK, so your name is {0}.\nI’m sincerely glad to meet you.\r{0}, are you a strong Trainer?\rSorry to be so sudden, but may we have\na battle so I can test your strength?')
+	_TALK_CLOSE()
+	_TRAINER_BTL_SET(737, 0)
+	_TRAINER_LOSE_CHECK(@SCWK_ANSWER)
+	_PC_KAIFUKU(); Heal player after the battle as per RP
+	_PLAYER_NAME(0)
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_ev_d03r0101_seven1_talk_first_2', 'Ah, marvelous!\r{0}, may I ask a big favor\nof you?\rI want to get through this forest,\nbut I’m afraid of doing it alone.\rFrom that battle we just had, I can\nsee you’re a strong Trainer.\rI’ve heard that there is a sinister\ngroup of people called Team Galactic\fabout.\rI think there’d be safety in numbers.\nPlease, may I go through with you?')
+	_RET()
+ev_d03r0101_seven1_talk_second:
+	_PLAYER_NAME(0)
+	_TALK_KEYWAIT('dp_scenario1%106-msg_d03r0101_seven1_02')
+	_RET()
+anm_d03r0101_seven1_60:
+	_AC_MARK_GYOE(1)
+	_ACMD_END()
+anm_d03r0101_seven1_60_2:
+	_AC_DOWN(1, 8)
+	_ACMD_END()
+anm_d03r0101_seven1_61:
+	_AC_MARK_GYOE(1)
+	_ACMD_END()
+anm_d03r0101_seven1_61_2:
+	_AC_DOWN(1, 8)
+	_AC_DIR_R(8)
+	_AC_RIGHT(1, 8)
+	_AC_DIR_D(8)
+	_ACMD_END()
+pos_d03r0101_seven1_end:
+	_EVENT_START()
+	_SYS_FLAG_PAIR_RESET()
+	_CALL('ev_d03r0101_flag_change_col_del')
+	_MOVE_CODE_CHANGE('PAIR_D03R0101_SEVEN1', 'MV_DOWN')
+	_NOT_ZONE_DEL_SET('PAIR_D03R0101_SEVEN1', 0)
+	_OBJ_ANIME('PAIR_D03R0101_SEVEN1', 'anm_d03r0101_seven1_25')
+	_OBJ_ANIME_WAIT()
+	_TALK_KEYWAIT('dp_scenario1%106-msg_d03r0101_seven1_03')
+	_TALK_CLOSE()
+	_BLACK_OUT('SCR_WIPE_DIV', 3)
+	_FADE_WAIT()
+	_PLAYER_POS_GET(@SCWK_TEMP0, @SCWK_TEMP1)
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 28, 'pos_d03r0101_seven1_x01')
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 29, 'pos_d03r0101_seven1_x02')
+	_END()
+pos_d03r0101_seven1_x01:
+	_OBJ_ANIME('PAIR_D03R0101_SEVEN1', 'anm_d03r0101_seven1_20')
+	_OBJ_ANIME_WAIT()
+	_JUMP('pos_d03r0101_seven1_common_10')
+	_JUMP('pos_d03r0101_seven1_common_10')
+pos_d03r0101_seven1_x02:
+	_OBJ_ANIME('PAIR_D03R0101_SEVEN1', 'anm_d03r0101_seven1_21')
+	_OBJ_ANIME_WAIT()
+	_JUMP('pos_d03r0101_seven1_common_10')
+	_JUMP('pos_d03r0101_seven1_common_10')
+pos_d03r0101_seven1_common_10:
+	_SXY_POS_CHANGE('PAIR_D03R0101_SEVEN1', 28, 82)
+	_SXY_DIR_CHANGE('PAIR_D03R0101_SEVEN1', 0)
+	_BLACK_IN('SCR_WIPE_DIV', 3)
+	_FADE_WAIT()
+	_TIME_WAIT(30, @SCWK_ANSWER)
+	_LDVAL(@WK_SCENE_D03R0101, 0)
+	_EVENT_END()
+	_END()
+pos_d03r0101_seven1_goal:
+	_EVENT_START()
+	_SYS_FLAG_PAIR_RESET()
+	_CALL('ev_d03r0101_flag_change_col_del')
+	_OBJ_ANIME('PAIR_D03R0101_SEVEN1', 'anm_d03r0101_seven1_00')
+	_OBJ_ANIME_WAIT()
+	_OBJ_ANIME('PAIR_D03R0101_SEVEN1', 'anm_d03r0101_seven1_00_g')
+	_OBJ_ANIME('HERO', 'anm_d03r0101_player_00')
+	_OBJ_ANIME_WAIT()
+	_BLACK_OUT('SCR_WIPE_DIV', 3)
+	_FADE_WAIT()
+	_EVENT_CAMERA_INDEX(59)
+	_SXY_POS_CHANGE('PAIR_D03R0101_SEVEN1', 82, 36)
+	_SXY_DIR_CHANGE('PAIR_D03R0101_SEVEN1', 0)
+	_SXY_POS_CHANGE('HERO', 82, 37)
+	_SXY_DIR_CHANGE('HERO', 180)
+	_BLACK_IN('SCR_WIPE_DIV', 3)
+	_FADE_WAIT()
+	_PLAYER_NAME(0)
+	_TALK_KEYWAIT('dp_scenario1%106-msg_d03r0101_seven1_04')
+	_MACRO_TALK_KEYWAIT('dp_scenario1', '106-msg_d03r0101_seven1_05_tm', 'This is my token of appreciation.\nPlease accept it!')
+	_LDVAL(@SCWK_TEMP0, 354); TM27
+	_LDVAL(@SCWK_TEMP1, 1); Quantity 1
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_TALK_CLOSE()
+	_EVENT_CAMERA_INDEX(60)
+	_JUMP('pos_d03r0101_seven1_goal_01')
+	_END()
+pos_d03r0101_seven1_goal_01:
+	_OBJ_ANIME('PAIR_D03R0101_SEVEN1', 'anm_d03r0101_seven1_10')
+	_OBJ_ANIME('HERO', 'anm_d03r0101_player_10')
+	_OBJ_ANIME_WAIT()
+	_JUMP('pos_d03r0101_seven1_goal_common')
+	_JUMP('pos_d03r0101_seven1_goal_common')
+pos_d03r0101_seven1_goal_common:
+	_SE_PLAY('S_FI001')
+	_OBJ_DEL('PAIR_D03R0101_SEVEN1')
+	_SE_WAIT('S_FI001')
+	_FLAG_SET(#FE_SEVEN1_CLEAR)
+	_FLAG_SET(#2668); Kill the D03 blockers
+	_LDVAL(@WK_SCENE_D03R0101, 2)
+	_LDVAL(@TOWNMAP_GUIDE_SEQUENCE, 4400)
+	_EVENT_END()
+	_END()
+anm_d03r0101_seven1_25:
+	_AC_WAIT(8)
+	_AC_DIR_U(8)
+	_AC_WAIT(8)
+	_AC_DIR_R(8)
+	_ACMD_END()
+anm_d03r0101_seven1_20:
+	_AC_DIR_D(8)
+	_AC_DOWN(1, 4)
+	_AC_DIR_R(4)
+	_AC_RIGHT(5, 4)
+	_ACMD_END()
+anm_d03r0101_seven1_21:
+	_AC_WAIT(8)
+	_AC_DIR_D(8)
+	_AC_WAIT(8)
+	_AC_DIR_R(8)
+	_ACMD_END()
+anm_d03r0101_seven1_00:
+	_AC_DIR_R(8)
+	_ACMD_END()
+anm_d03r0101_seven1_00_g:
+	_AC_MARK_GYOE(1)
+	_ACMD_END()
+anm_d03r0101_seven1_10:
+	_AC_DIR_R(8)
+	_AC_RIGHT(5, 8)
+	_AC_DIR_R(8)
+	_ACMD_END()
+anm_d03r0101_seven1_11:
+	_AC_DIR_D(8)
+	_AC_DOWN(1, 8)
+	_AC_DIR_R(8)
+	_AC_RIGHT(5, 8)
+	_AC_DIR_R(8)
+	_ACMD_END()
+anm_d03r0101_seven1_12:
+	_AC_DIR_D(8)
+	_AC_DOWN(1, 8)
+	_AC_DIR_R(8)
+	_AC_RIGHT(5, 8)
+	_AC_DIR_R(8)
+	_ACMD_END()
+anm_d03r0101_seven1_13:
+	_AC_DIR_U(8)
+	_AC_UP(1, 8)
+	_AC_DIR_R(8)
+	_AC_RIGHT(5, 8)
+	_AC_DIR_R(8)
+	_ACMD_END()
+anm_d03r0101_seven1_14:
+	_AC_DIR_U(8)
+	_AC_UP(1, 8)
+	_AC_DIR_R(8)
+	_AC_RIGHT(5, 8)
+	_AC_DIR_R(8)
+	_ACMD_END()
+anm_d03r0101_seven1_15:
+	_AC_DIR_U(8)
+	_AC_UP(2, 8)
+	_AC_DIR_R(8)
+	_AC_RIGHT(5, 8)
+	_AC_DIR_R(8)
+	_ACMD_END()
+anm_d03r0101_player_00:
+	_AC_WAIT(24)
+	_AC_DIR_L(8)
+	_ACMD_END()
+anm_d03r0101_player_10:
+	_AC_WAIT(16)
+	_AC_WAIT(8)
+	_AC_DIR_R(8)
+	_ACMD_END()
+anm_d03r0101_player_11:
+	_AC_WAIT(8)
+	_AC_DIR_D(8)
+	_AC_WAIT(8)
+	_AC_DIR_R(8)
+	_ACMD_END()
+anm_d03r0101_player_12:
+	_AC_WAIT(8)
+	_AC_DIR_D(8)
+	_AC_WAIT(8)
+	_AC_DIR_R(8)
+	_ACMD_END()
+anm_d03r0101_player_13:
+	_AC_WAIT(8)
+	_AC_DIR_U(8)
+	_AC_WAIT(8)
+	_AC_DIR_R(8)
+	_ACMD_END()
+anm_d03r0101_player_14:
+	_AC_WAIT(8)
+	_AC_DIR_U(8)
+	_AC_WAIT(8)
+	_AC_DIR_R(8)
+	_ACMD_END()
+anm_d03r0101_player_15:
+	_AC_WAIT(16)
+	_AC_DIR_U(8)
+	_AC_WAIT(8)
+	_AC_DIR_R(8)
+	_ACMD_END()
+ev_d03r0101_seven1_ananuke:
+	_EVENT_START()
+	_PLAYER_NAME(0)
+	_EVENT_END()
+	_END()
+ev_d03r0101_seven1_teleport:
+	_EVENT_START()
+	_PLAYER_NAME(0)
+	_EVENT_END()
+	_END()
+pos_d03r0101_seven1_ghost:
+	_EVENT_START()
+	_EVENT_END()
+	_END()
+ev_d03r0101_boy3:
+	_EASY_OBJ_MSG('dp_scenario1%106-msg_d03r0101_boy3_01')
+	_END()
+ev_d03r0101_leader:
+	_TALK_OBJ_START()
+	_EVENT_CAMERA_INDEX(922)
+	_EVENT_CAMERA_END_WAIT()
+	_TALK_KEYWAIT('dp_scenario1%106-msg_d03r0101_leader_01')
+	_TALK_CLOSE()
+	_OBJ_ANIME('D03R0101_LEADER', 'anm_d03r0101_leader_01')
+	_OBJ_ANIME_WAIT()
+	_TALK_KEYWAIT('dp_scenario1%106-msg_d03r0101_leader_02')
+	_TURN_HERO_SITE()
+	_TALKMSG('dp_scenario1%106-msg_d03r0101_leader_03_1')
+	_TALK_KEYWAIT('dp_scenario1%106-msg_d03r0101_leader_03_2')
+	_TALK_CLOSE()
+	_EVENT_CAMERA_INDEX(923)
+	_EVENT_CAMERA_END_WAIT()
+	_GET_REL_POS_HERO('D03R0101_LEADER', @SCWK_TEMP2)
+	_IFVAL_CALL(@SCWK_TEMP2, 'EQ', 2, 'ev_d03r0101_leader_dir_up')
+	_IFVAL_CALL(@SCWK_TEMP2, 'EQ', 3, 'ev_d03r0101_leader_dir_up')
+	_IFVAL_CALL(@SCWK_TEMP2, 'EQ', 1, 'ev_d03r0101_leader_dir_left')
+	_IFVAL_CALL(@SCWK_TEMP2, 'EQ', 4, 'ev_d03r0101_leader_dir_left')
+	_IFVAL_CALL(@SCWK_TEMP2, 'EQ', 7, 'ev_d03r0101_leader_dir_left')
+	_IFVAL_CALL(@SCWK_TEMP2, 'EQ', 6, 'ev_d03r0101_leader_dir_right')
+	_IFVAL_CALL(@SCWK_TEMP2, 'EQ', 9, 'ev_d03r0101_leader_dir_right')
+	_END()
+ev_d03r0101_leader_dir_up:
+	_OBJ_ANIME('D03R0101_LEADER', 'anm_d03r0101_leader_12')
+	_OBJ_ANIME_WAIT()
+	_JUMP('common_d03r0101_leader')
+	_END()
+ev_d03r0101_leader_dir_down:
+	_OBJ_ANIME('D03R0101_LEADER', 'anm_d03r0101_leader_11')
+	_OBJ_ANIME_WAIT()
+	_JUMP('common_d03r0101_leader')
+	_END()
+ev_d03r0101_leader_dir_left:
+	_OBJ_ANIME('D03R0101_LEADER', 'anm_d03r0101_leader_11')
+	_OBJ_ANIME_WAIT()
+	_JUMP('common_d03r0101_leader')
+	_END()
+ev_d03r0101_leader_dir_right:
+	_OBJ_ANIME('D03R0101_LEADER', 'anm_d03r0101_leader_11')
+	_OBJ_ANIME_WAIT()
+	_JUMP('common_d03r0101_leader')
+	_END()
+common_d03r0101_leader:
+	_OBJ_DEL('D03R0101_LEADER')
+	_TALK_OBJ_END()
+	_END()
+anm_d03r0101_leader_01:
+	_AC_DIR_U(8)
+	_ACMD_END()
+anm_d03r0101_leader_11:
+	_AC_DIR_D(8)
+	_AC_DOWN(2, 8)
+	_AC_DIR_R(8)
+	_AC_RIGHT(11, 8)
+	_ACMD_END()
+anm_d03r0101_leader_12:
+	_AC_DIR_L(8)
+	_AC_LEFT(1, 8)
+	_AC_DIR_D(8)
+	_AC_DOWN(2, 8)
+	_AC_DIR_R(8)
+	_AC_RIGHT(13, 8)
+	_ACMD_END()
+ev_d03r0101_sign1:
+	_EASY_BOARD_MSG('dp_scenario1%106-msg_d03r0101_sign1_01', 'BOARD_TYPE_POST', 0)
+	_END()
+ev_d03r0101_sign2:
+	_EASY_INFOBOARD_MSG('dp_scenario1%106-msg_d03r0101_sign2_01', 'BOARD_TYPE_INFO', 0)
+	_END()
+ev_d03r0101_stone:
+	_EASY_OBJ_MSG('dp_scenario1%106-msg_d03r0101_stone_01')
+	_END()
+pos_d03r0101_celebi_event_start:
+	_EVENT_START()
+	_CALL('ev_block_doc')
+	_TALK_KEYWAIT('dp_scenario3%00-msg_gs_ball_shake')
+	_TALK_CLOSE()
+	_WHITE_OUT('SCR_WIPE_DIV', 6)
+	_FADE_WAIT()
+	_FLAG_RESET(#2606);Enable Celebi
+	_FLAG_RESET(#2607);Enable portal
+	_CALL_EFFECT(0, 245, -74.5, 0.2, 32)
+	_EFF_SCALE(0, 0.4, 0.4, 0.4)
+	_TIME_WAIT(30, @SCWK_ANSWER)
+	_LDVAL(@WK_SCENE_D03R0101, 2); Disable trigger
+	_OBJ_ADD('D03R0101_CELEBI')
+	_OBJ_ADD('D03R0101_PORTAL_1')
+	_TIME_WAIT(15, @SCWK_ANSWER)
+	_WHITE_IN('SCR_WIPE_DIV', 6)
+	_FADE_WAIT()
+	_OBJ_ANIME('D03R0101_CELEBI', 'anm_d03r0101_celebi_down')
+	_OBJ_ANIME_WAIT()
+	_VOICE_PLAY(251, 0, 0)
+	_TALKMSG('dp_scenario3%00-msg_d03r0101_celebi_event_cry')
+	_TALK_CLOSE()
+	_OBJ_ANIME('D03R0101_CELEBI', 'anm_d03r0101_celebi_up')
+	_OBJ_ANIME_WAIT()
+	_OBJ_DEL('D03R0101_CELEBI')
+	_CALL('ev_block_doc_end')
+	_EVENT_END()
+	_END()
+anm_d03r0101_celebi_down:
+	_AC_DIR_D(8)
+	_AC_DOWN(3, 8)
+	_AC_DIR_R(8)
+	_AC_MARK_GYOE()
+	_ACMD_END()
+anm_d03r0101_celebi_up:
+	_AC_DIR_U(8)
+	_AC_UP(3, 8)
+	_ACMD_END()
+ev_d03r0101_portal_one:
+	_TALK_OBJ_START()
+	_MACRO_TALKMSG('dp_scenario3', '00-msg_d03r0101_celebi_event_portal_one', 'It’s a portal through time.\rIt feels as though something friendly\nis waiting for you to reach inside.\rDo you want to reach into the portal?')
+	_YES_NO_WIN(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_d03r0101_portal_no')
+	_TALK_KEYWAIT('dp_scenario3%00-msg_d03r0101_portal_yes_p1'); Wait for the key input
+	_TALK_KEYWAIT('dp_scenario3%00-msg_d03r0101_portal_yes_p2'); Wait for the key input
+	_TALK_CLOSE()
+	_TRAINER_BTL_SET(727, 0);Fight Falkner
+	_TRAINER_LOSE_CHECK(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_c01_common_battle_lose')
+	_STOP_EFFECT(0, 0)
+	_OBJ_ADD('D03R0101_CELEBI')
+	_VOICE_PLAY(251, 0, 0)
+	_TALKMSG('dp_scenario3%00-msg_d03r0101_celebi_event_cry')
+	_TALK_CLOSE()
+	_WHITE_OUT()
+	_FADE_WAIT()
+	_OBJ_DEL('D03R0101_CELEBI')
+	_OBJ_DEL('D03R0101_PORTAL_1')
+	_FLAG_SET(#2606); Disable Celebi
+	_FLAG_SET(#2607); Disable portal
+	_FLAG_RESET(#2608); Enable the next Celebi
+	_OBJ_ADD('D03R0101_CELEBI_2'); Add the next Celebi to the map
+	_WHITE_IN()
+	_FADE_WAIT()
+	_TALK_OBJ_END()
+	_END()
+ev_d03r0101_portal_no:
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_d03r0101_portal_lose:
+	_TRAINER_LOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_celebi_common_start:
+	_EVENT_START();Start event
+	_VOICE_PLAY(251, 0, 0); Play the cry voice
+	_TALKMSG('dp_scenario3%00-msg_d03r0101_celebi_event_cry'); Talk the cry message
+	_TALK_CLOSE(); Close the talking
+	_WHITE_OUT(); White out
+	_FADE_WAIT(); Wait for the fade
+	_RET()
+ev_celebi_common_mid:
+	_CALL_EFFECT(0, 245, @SCWK_TEMP0, 0.2, @SCWK_TEMP1); Call the effect
+	_EFF_SCALE(0, 0.4, 0.4, 0.4); Scale the effect
+	_WHITE_IN(); White in
+	_FADE_WAIT(); Wait for the fade
+	_MACRO_TALKMSG('dp_scenario3', '00-msg_d03r0101_celebi_event_portal_hide', 'The Pokémon fled through a portal!\rYou decide to follow it in.\r...')
+	_TALK_CLOSE(); Close the talking
+	_TIME_WAIT(30, @SCWK_ANSWER); Wait for the key input
+	_TALK_KEYWAIT('dp_scenario3%00-msg_d03r0101_portal_yes_p1'); Wait for the key input
+	_TALK_KEYWAIT('dp_scenario3%00-msg_d03r0101_portal_yes_p2'); Wait for the key input
+	_TALK_CLOSE(); Close the talking
+	_TRAINER_BTL_SET(@SCWK_TEMP2, 0);Fight trainer
+	_TRAINER_LOSE_CHECK(@SCWK_ANSWER); Check the trainer lose
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_c01_common_battle_lose'); If the trainer lose, call the lose event
+	_STOP_EFFECT(0, 0); Stop the effect
+	_RET(); Return
+ev_celebi_common_end_fadeout:
+	_VOICE_PLAY(251, 0, 0); Play the cry voice
+	_TALKMSG('dp_scenario3%00-msg_d03r0101_celebi_event_cry'); Talk the cry message
+	_TALK_CLOSE(); Close the talking
+	_WHITE_OUT(); White out
+	_FADE_WAIT(); Wait for the fade
+	_RET(); Return
+ev_celebi_common_end_fadein:
+	_FLAG_SET_WK(@SCWK_TEMP3); Disable current Celebi by setting the flag
+	_WHITE_IN(); White in
+	_FADE_WAIT(); Wait for the fade
+	_EVENT_END(); End event
+	_RET(); Return to the caller
+ev_celebi_common_lose:
+	_TRAINER_LOSE()
+	_EVENT_END()
+	_END()
+anm_d03r0101_celebi_vanish_on:
+	_AC_INVISIBLE_ON()
+	_ACMD_END()
+anm_d03r0101_celebi_vanish_off:
+	_AC_INVISIBLE_OFF()
+	_ACMD_END()
+ev_d03r0101_celebi_two:
+	_CALL('ev_celebi_common_start'); Start the event
+	_LDVAL(@SCWK_TEMP0, -65); Effect X Position
+	_LDVAL(@SCWK_TEMP1, 35.5); Effect Y position
+	_LDVAL(@SCWK_TEMP2, 728); Fight Bugsy
+	_LDVAL(@SCWK_TEMP3, 2608); Current Celebi Flag
+	_OBJ_ANIME('D03R0101_CELEBI_2', 'anm_d03r0101_celebi_vanish_on'); Delete the Celebi
+	_CALL('ev_celebi_common_mid'); Perform the middle of the event
+	_OBJ_ANIME('D03R0101_CELEBI_2', 'anm_d03r0101_celebi_vanish_off'); Add Celebi
+	_CALL('ev_celebi_common_end_fadeout'); End the event
+	_OBJ_DEL('D03R0101_CELEBI_2'); Delete Celebi
+	_OBJ_ADD('D03R0101_CELEBI_3'); Add the next Celebi to the map
+	_CALL('ev_celebi_common_end_fadein'); End the event
+	_FLAG_RESET(#2609); Enable the next Celebi
+	_END()
+ev_d03r0101_celebi_three:
+	_CALL('ev_celebi_common_start'); Start the event
+	_LDVAL(@SCWK_TEMP0, -82); Effect X Position
+	_LDVAL(@SCWK_TEMP1, 46); Effect Y position
+	_LDVAL(@SCWK_TEMP2, 729); Fight Whitney
+	_LDVAL(@SCWK_TEMP3, 2609); Current Celebi Flag
+	_OBJ_ANIME('D03R0101_CELEBI_3', 'anm_d03r0101_celebi_vanish_on'); Delete the Celebi
+	_CALL('ev_celebi_common_mid'); Perform the middle of the event
+	_OBJ_ANIME('D03R0101_CELEBI_3', 'anm_d03r0101_celebi_vanish_off'); Add Celebi
+	_CALL('ev_celebi_common_end_fadeout'); End the event
+	_OBJ_DEL('D03R0101_CELEBI_3'); Delete Celebi
+	_OBJ_ADD('D03R0101_CELEBI_4'); Add the next Celebi to the map
+	_CALL('ev_celebi_common_end_fadein'); End the event
+	_FLAG_RESET(#2610); Enable the next Celebi
+	_END()
+ev_d03r0101_celebi_four:
+	_CALL('ev_celebi_common_start'); Start the event
+	_LDVAL(@SCWK_TEMP0, -81); Effect X Position
+	_LDVAL(@SCWK_TEMP1, 72); Effect Y position
+	_LDVAL(@SCWK_TEMP2, 730); Fight Morty
+	_LDVAL(@SCWK_TEMP3, 2610); Current Celebi Flag
+	_OBJ_ANIME('D03R0101_CELEBI_4', 'anm_d03r0101_celebi_vanish_on'); Delete the Celebi
+	_CALL('ev_celebi_common_mid'); Perform the middle of the event
+	_OBJ_ANIME('D03R0101_CELEBI_4', 'anm_d03r0101_celebi_vanish_off'); Add Celebi
+	_CALL('ev_celebi_common_end_fadeout'); End the event
+	_OBJ_DEL('D03R0101_CELEBI_4'); Delete Celebi
+	_OBJ_ADD('D03R0101_CELEBI_5'); Add the next Celebi to the map
+	_CALL('ev_celebi_common_end_fadein'); End the event
+	_FLAG_RESET(#2611); Enable the next Celebi
+	_END()
+ev_d03r0101_celebi_five:
+	_CALL('ev_celebi_common_start'); Start the event
+	_LDVAL(@SCWK_TEMP0, -53); Effect X Position
+	_LDVAL(@SCWK_TEMP1, 60); Effect Y position
+	_LDVAL(@SCWK_TEMP2, 731); Fight Chuck
+	_LDVAL(@SCWK_TEMP3, 2611); Current Celebi Flag
+	_OBJ_ANIME('D03R0101_CELEBI_5', 'anm_d03r0101_celebi_vanish_on'); Delete the Celebi
+	_CALL('ev_celebi_common_mid'); Perform the middle of the event
+	_OBJ_ANIME('D03R0101_CELEBI_5', 'anm_d03r0101_celebi_vanish_off'); Add Celebi
+	_CALL('ev_celebi_common_end_fadeout'); End the event
+	_OBJ_DEL('D03R0101_CELEBI_5'); Delete Celebi
+	_OBJ_ADD('D03R0101_CELEBI_6'); Add the next Celebi to the map
+	_CALL('ev_celebi_common_end_fadein'); End the event
+	_FLAG_RESET(#2612); Enable the next Celebi
+	_END()
+ev_d03r0101_celebi_six:
+	_CALL('ev_celebi_common_start'); Start the event
+	_LDVAL(@SCWK_TEMP0, -41); Effect X Position
+	_LDVAL(@SCWK_TEMP1, 58); Effect Y position
+	_LDVAL(@SCWK_TEMP2, 732); Fight Jasmine
+	_LDVAL(@SCWK_TEMP3, 2612); Current Celebi Flag
+	_OBJ_ANIME('D03R0101_CELEBI_6', 'anm_d03r0101_celebi_vanish_on'); Delete the Celebi
+	_CALL('ev_celebi_common_mid'); Perform the middle of the event
+	_OBJ_ANIME('D03R0101_CELEBI_6', 'anm_d03r0101_celebi_vanish_off'); Add Celebi
+	_CALL('ev_celebi_common_end_fadeout'); End the event
+	_OBJ_DEL('D03R0101_CELEBI_6'); Delete Celebi
+	_OBJ_ADD('D03R0101_CELEBI_7'); Add the next Celebi to the map
+	_CALL('ev_celebi_common_end_fadein'); End the event
+	_FLAG_RESET(#2613); Enable the next Celebi
+	_END()
+ev_d03r0101_celebi_seven:
+	_CALL('ev_celebi_common_start'); Start the event
+	_LDVAL(@SCWK_TEMP0, -29); Effect X Position
+	_LDVAL(@SCWK_TEMP1, 64); Effect Y position
+	_LDVAL(@SCWK_TEMP2, 733); Fight Pryce
+	_LDVAL(@SCWK_TEMP3, 2613); Current Celebi Flag
+	_OBJ_ANIME('D03R0101_CELEBI_7', 'anm_d03r0101_celebi_vanish_on'); Delete the Celebi
+	_CALL('ev_celebi_common_mid'); Perform the middle of the event
+	_OBJ_ANIME('D03R0101_CELEBI_7', 'anm_d03r0101_celebi_vanish_off'); Add Celebi
+	_CALL('ev_celebi_common_end_fadeout'); End the event
+	_OBJ_DEL('D03R0101_CELEBI_7'); Delete Celebi
+	_OBJ_ADD('D03R0101_CELEBI_8'); Add the next Celebi to the map
+	_CALL('ev_celebi_common_end_fadein'); End the event
+	_FLAG_RESET(#2614); Enable the next Celebi
+	_END()
+ev_d03r0101_celebi_eight:
+	_CALL('ev_celebi_common_start'); Start the event
+	_LDVAL(@SCWK_TEMP0, -23); Effect X Position
+	_LDVAL(@SCWK_TEMP1, 68); Effect Y position
+	_LDVAL(@SCWK_TEMP2, 734); Fight Claire
+	_LDVAL(@SCWK_TEMP3, 2614); Current Celebi Flag
+	_OBJ_ANIME('D03R0101_CELEBI_8', 'anm_d03r0101_celebi_vanish_on'); Delete the Celebi
+	_CALL('ev_celebi_common_mid'); Perform the middle of the event
+	_OBJ_ANIME('D03R0101_CELEBI_8', 'anm_d03r0101_celebi_vanish_off'); Add Celebi
+	_CALL('ev_celebi_common_end_fadeout'); End the event
+	_OBJ_DEL('D03R0101_CELEBI_8'); Delete Celebi
+	_OBJ_ADD('D03R0101_CELEBI_FINAL'); Add the next Celebi to the map
+	_CALL('ev_celebi_common_end_fadein'); End the event
+	_FLAG_RESET(#2615); Enable the next Celebi
+	_EASY_OBJ_MSG('dp_scenario3%00-msg_d03r0101_final_portal'); Display the message that Celebi is ready for capture
+	_END()
+ev_d03r0101_celebi_final:
+	_EVENT_START()
+	_TALK_KEYWAIT('dp_scenario3%00-msg_d03r0101_celebi_event_cry')
+	_TALK_CLOSE()
+	_SP_WILD_BTL_SET(251, 50); Fight Celebi
+	_SEACRET_POKE_RETRY_CHECK(@SCWK_TEMP0, 251); Get result
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 0, 'ev_d03r0101_celebi_final_lose');CatchChk
+	_OBJ_DEL('D03R0101_CELEBI_FINAL');Delete the Placedata
+	_AUTO_SAVE(); Save
+	_FLAG_SET(#2615); Set the flag to disable the placedata
+	_FLAG_RESET(#2616); Event is over
+	_EVENT_END()
+	_END()
+ev_d03r0101_celebi_final_lose:
+	_EVENT_END()
+	_END()
+pos_d03r0101_scary_mansion:
+	_EVENT_START()
+	_VOICE_PLAY(479, 0, 0)
+	_OBJ_ANIME('PAIR_D03R0101_SEVEN1', 'anm_d03r0101_cheryl_spooked')
+	_OBJ_ANIME_WAIT()
+	_PLAYER_NAME(0)
+	_TALK_KEYWAIT('dp_scenario3%00-msg_cheryl_eek_1')
+	_TALK_KEYWAIT('dp_scenario3%00-msg_cheryl_eek_2')
+	_VOICE_WAIT()
+	_TALK_CLOSE()
+	_OBJ_ANIME('HERO', 'anm_d03r0101_cheryl_stand')
+	_OBJ_ANIME_WAIT()
+	_EVENT_END()
+	_END()
+anm_d03r0101_cheryl_spooked:
+	_AC_MARK_GYOE()
+	_ACMD_END()
+anm_d03r0101_cheryl_stand:
+	_AC_DIR_D(8)
+	_AC_DOWN(4, 8)
+	_ACMD_END()
+ev_d03r0101_stone_event:
+	_IF_FLAGON_JUMP(#2631, 'ev_d03r0101_stone')
+	_EVENT_START()
+	_TALK_KEYWAIT('dp_scenario1%106-msg_d03r0101_stone_01')
+	_OBJ_ANIME('HERO', 'anm_d03r0101_cheryl_spooked')
+	_OBJ_ANIME_WAIT()
+	_TALK_KEYWAIT('dp_scenario3%00_msg_d03r0101_stone_shard_event')
+	_LDVAL(@SCWK_TEMP0, 85); Lead stone ID
+	_LDVAL(@SCWK_TEMP1, 1); 1
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_TALK_CLOSE()
+	_FLAG_SET(#2631); Stone event is over
+	_EVENT_END()
+	_END()

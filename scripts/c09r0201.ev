@@ -1,0 +1,30 @@
+ev_c09r0201_veteran:
+	_TALK_OBJ_START()
+	_TALKMSG('dp_scenario2%197-msg_c09r0201_veteran_01')
+	_ADD_CUSTUM_WIN_LABEL('dp_options%DP_options_837', 0)
+	_ADD_CUSTUM_WIN_LABEL('dp_options%DP_options_838', 1)
+	_ADD_CUSTUM_WIN_LABEL('dp_options%DP_options_839', 2)
+	_ADD_CUSTUM_WIN_LABEL('dp_options%DP_options_840', 3)
+	_OPEN_CUSTUM_WIN(@SCWK_ANSWER, 1)
+	_TALKMSG('dp_scenario2%197-msg_c09r0201_veteran_02')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c09r0201_rokon:
+	_EASY_VOICE_MSG('dp_scenario2%161-msg_C09R0201_rokon', 'PLAY_PV_EV_037_00_00')
+	_END()
+ev_c09r0201_superrod:
+	_TALK_OBJ_START()
+	_IF_FLAGON_JUMP(#2629, 'ev_c09r0201_superrod_end')
+	_TALKMSG('dp_scenario3%00_msg_c09_superrod')
+	_LDVAL(@SCWK_TEMP0, 447); Load super rod value
+	_LDVAL(@SCWK_TEMP1, 1)
+	_FLAG_SET(#2629); Set super rod acquired flag.
+	_CHG_COMMON_SCR('ev_item_event')
+	_JUMP('ev_c09r0201_superrod_end')
+ev_c09r0201_superrod_end:
+	_TALKMSG('dp_scenario3%00_msg_c09_superrod_end')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()

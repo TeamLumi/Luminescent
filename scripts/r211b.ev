@@ -1,0 +1,62 @@
+ev_r211b_man3:
+	_TALK_OBJ_START_TURN_NOT()
+	_IF_FLAGON_JUMP(#FE_WAZAMASIN77_GET, 'ev_r211b_man3_02')
+	_TALK_KEYWAIT('dp_scenario2%89-msg_r211b_man3_01')
+	_TALK_CLOSE()
+	_TURN_HERO_SITE()
+	_OBJ_ANIME(@SCWK_TARGET_OBJID, 'anm_r211b_man3_01')
+	_OBJ_ANIME_WAIT()
+	_TALK_KEYWAIT('dp_scenario2%89-msg_r211b_man3_02')
+	_LDVAL(@SCWK_TEMP0, 404)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_FLAG_SET(#FE_WAZAMASIN77_GET)
+	_JUMP('ev_r211b_man3_02')
+	_JUMP('ev_r211b_man3_02')
+ev_r211b_man3_02:
+	_TURN_HERO_SITE()
+	_TALKMSG('dp_scenario2%89-msg_r211b_man3_03')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_r211b_man3_item_event_fail:
+	_CHG_COMMON_SCR('ev_item_event_fail')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+anm_r211b_man3_01:
+	_AC_MARK_GYOE(1)
+	_ACMD_END()
+ev_r211b_sign1:
+	_EASY_BOARD_MSG('dp_scenario2%89-msg_r211b_sign1_01', 'BOARD_TYPE_ROAD', 0, 2)
+	_END()
+ev_r211b_sign2:
+	_EASY_INFOBOARD_MSG('dp_scenario2%89-msg_r211b_sign2_01', 'BOARD_TYPE_INFO', 0)
+	_END()
+ev_r211b_sign3:
+	_EASY_BOARD_MSG('dp_scenario2%89-msg_r211b_sign3_01', 'BOARD_TYPE_ROAD', 0, 1)
+	_END()
+ev_r211b_entei:
+	_TALK_OBJ_START()
+	_VOICE_PLAY(244, 0, 0)
+	_MACRO_TALK_KEYWAIT('dlp_rotom_message', 'msg_r211b_entei_cry', 'Gyaoo!')
+	_TALK_CLOSE()
+	_VOICE_WAIT()
+	_SET_SYS_FLAG($SYS_FLAG_BTL_RETURN_CALL_SP)
+	_SET_SYS_FLAG($SYS_FLAG_AUTOSAVE_STOP)
+	_SP_WILD_BTL_SET(244, 60)
+	_RESET_SYS_FLAG($SYS_FLAG_AUTOSAVE_STOP)
+	_RESET_SYS_FLAG($SYS_FLAG_BTL_RETURN_CALL_SP)
+	_SEACRET_POKE_RETRY_CHECK(@SCWK_TEMP0, 244)
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 1, 'ev_r211b_entei_capture')
+	_TALK_OBJ_END()
+	_END()
+ev_r211b_entei_end:
+	_TALK_OBJ_END()
+	_END()
+ev_r211b_entei_capture:
+	_OBJ_DEL('R211B_ENTEI')
+	_FLAG_SET(#2804) ; Entei Caught
+	_TALK_OBJ_END()
+	_END()

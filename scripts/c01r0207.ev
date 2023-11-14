@@ -1,0 +1,47 @@
+ev_c01r0207_flag_change:
+	_FLAG_RESET(#FV_C01R0207_STOP)
+	_FLAG_SET(#FH_OBJ02)
+	_IF_FLAGON_JUMP($SYS_FLAG_WILDCARD_001, 'ev_c01r0207_record_open')
+	_SXY_POS_CHANGE('C01R0207_GINESS01', 1032, 1051)
+	_SXY_POS_CHANGE('C01R0207_GINESS02', 1032, 1052)
+	_SXY_POS_CHANGE('C01R0207_GINESS03', 1032, 1053)
+	_END()
+ev_c01r0207_record_open:
+	_IFVAL_JUMP(@WK_SCENE_C11R0101, 'EQ', 1, 'ev_c01r0207_fc_zenkoku_yes')
+	_IF_FLAGOFF_JUMP($SYS_FLAG_WILDCARD_000, 'ev_c01r0207_fc_zenkoku_not')
+	_END()
+ev_c01r0207_fc_zenkoku_yes:
+	_FLAG_SET(#FV_C01R0207_STOP)
+	_OBJ_DEL('C01R0207_STOP_01')
+	_FLAG_RESET(#FH_OBJ02)
+	_OBJ_ADD('C01R0207_GINESS02')
+	_END()
+ev_c01r0207_fc_zenkoku_not:
+	_END()
+ev_guinness_group_btl:
+	_TALK_OBJ_START()
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_c01r0206_global_btl_00', 'What you see scars your mind.\r...\r...\rYou decide against watching any\nlonger.')
+	_TALK_CLOSE()
+	_TALK_END()
+	_END()
+ev_guinness_group_poke:
+	_TALK_OBJ_START()
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_c01r0206_global_btl_01', 'Slowpoke are happily swimming about.\rOne’s tail seems to be shorter\nthan the others.')
+	_TALK_CLOSE()
+	_TALK_END()
+	_END()
+ev_guinness_group_contest:
+	_TALK_OBJ_START()
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_c01r0206_global_btl_02', 'It’s an hour long video of paint drying.\r...\r...\rNo you can’t watch any more.\nGo play the mod.')
+	_TALK_CLOSE()
+	_TALK_END()
+	_END()
+ev_c01r0207_boy2_01:
+	_EASY_OBJ_MSG('dp_scenario1%41-msg_c01r0207_boy2_01')
+	_END()
+ev_c01r0207_girl2_01:
+	_EASY_OBJ_MSG('dp_scenario1%41-msg_c01r0207_girl2_01')
+	_END()
+ev_c01r0207_stop_01:
+	_EASY_OBJ_MSG('dp_scenario1%41-msg_c01r0207_stop_01')
+	_END()

@@ -1,0 +1,11 @@
+SP_R224_INIT:
+	_SP_EVENT_DATA_END()
+SP_R224_OBJ:
+	_JUMP('ev_r224_obj_change')
+	_SP_EVENT_DATA_END()
+SP_R224_SCENE:
+	_JUMP('ev_r224_obj_change')
+	_SP_EVENT_DATA_END()
+SP_R224_FLAG:
+	_JUMP('ev_r224_flag_change')
+	_SP_EVENT_DATA_END()

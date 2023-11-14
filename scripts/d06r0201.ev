@@ -1,0 +1,6 @@
+ev_d06r0201_explore1:
+	_MACRO_EASY_OBJ_MSG('dp_scenario2', '132-msg_d06r0201_explore_01', 'Go upstairs in the Observatory before\nyou start your Safari Game.\rCheck the marsh with the binoculars\nto see where the Pokémon you want\fhappen to be. That’s how you win!')
+	_END()
+ev_d06r0201_sign1:
+	_EASY_BOARD_MSG('dp_scenario2%132-msg_d06r0201_sign1_01', 'BOARD_TYPE_POST', 0)
+	_END()

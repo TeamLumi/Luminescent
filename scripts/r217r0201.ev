@@ -1,0 +1,57 @@
+ev_r217r0201_woman1:
+	_TALK_OBJ_START()
+	_IF_FLAGON_JUMP(#FE_R217R0201_ITEM_GET, 'ev_r217r0201_woman1_02')
+	_TALK_KEYWAIT('dp_scenario2%176-msg_r217r0201_woman1_01')
+	_LDVAL(@SCWK_TEMP0, 247)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_ADD_ITEM_CHK(@SCWK_TEMP0, @SCWK_TEMP1, @SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_r217r201_woman1_item_event_fail')
+	_FLAG_SET(#FE_R217R0201_ITEM_GET)
+	_CHG_COMMON_SCR('ev_item_event')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_r217r201_woman1_item_event_fail:
+	_CHG_COMMON_SCR('ev_item_event_fail')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_r217r0201_woman1_02:
+	_TALKMSG('dp_scenario2%176-msg_r217r0201_woman1_02')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_r217r0201_woman1_rp:
+	_TALK_OBJ_START()
+	_IF_FLAGON_JUMP(#2820, 'ev_r217r0201_woman_invalid')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_r217r0201_woman_1', '...Kekeke...\nWhat a wonderful nightmare...\rI hope nobody ever wakes me up...\nThank you, Darkrai... Zzz...')
+	_TALK_CLOSE()
+	_ITEM_CHK(453, 1, @SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_r217r0201_woman_invalid')
+	_PLAYER_NAME(0)
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_r217r0201_woman_2', '{0}’s Lunar Wing began\nto glow...')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_r217r0201_woman_3', 'The muttering woman woke up!')
+	_ME_PLAY('M_FI002')
+	_OBJ_ANIME('R217R0201_WOMAN1', 'anm_r217r0201_woman1_rp')
+	_OBJ_ANIME_WAIT()
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_r217r0201_woman_4', 'Keh! How dare you!\nI was enjoying that lovely nightmare!\rYou! You don’t get it, do you?\nThe power of the Pitch-Black Pokémon!\rWhy don’t you learn about it?!\nHere, you scoundrel!')
+	_LDVAL(@SCWK_TEMP0, 454); Old Member card
+	_LDVAL(@SCWK_TEMP1, 1); Quantity 1
+	_ADD_ITEM_CHK(@SCWK_TEMP0, @SCWK_TEMP1, @SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_item_event_fail')
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_r217r0201_woman_5', 'Go to the abandoned house in Canalave!\nMeet the amazing Darkrai for yourself!')
+	_TALK_CLOSE()
+	_FLAG_SET(#2820); Hide scary woman
+	_LDVAL(@HAIHUEVENT_ID_D30, 1); Enable Darkrai event?
+	_TALK_OBJ_END()
+	_END()
+ev_r217r0201_woman_invalid:
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_r217r0201_woman_invalid', 'Vivid! Memorable! Mind-numbing!\nNightmares from Darkrai are the best!')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+anm_r217r0201_woman1_rp:
+	_AC_MARK_GYOE()
+	_ACMD_END()

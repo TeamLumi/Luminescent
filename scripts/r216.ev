@@ -1,0 +1,22 @@
+ev_r221_flag_change:
+	_OBJ_DEL('R221_STOPPER3')
+	_OBJ_DEL('R221_STOPPER4')
+	_RET()
+ev_r216_girl4:
+	_EASY_OBJ_MSG('dp_scenario2%172-msg_r216_girl4_01')
+	_END()
+ev_r216_sign1:
+	_EASY_BOARD_MSG('dp_scenario2%172-msg_r216_sign1_01', 'BOARD_TYPE_ROAD', 0, 1)
+	_END()
+ev_r216_sign2:
+	_EASY_BOARD_MSG('dp_scenario2%172-msg_r216_sign2_01', 'BOARD_TYPE_POST', 0)
+	_END()
+ev_r216_blocker:
+	_EASY_OBJ_MSG('dp_scenario2%177-msg_r221_stopper3_01')
+	_END()
+ev_r221_stopper3:
+	_EASY_OBJ_MSG('dp_scenario2%177-msg_r221_stopper3_01')
+	_END()
+ev_r221_stopper4:
+	_EASY_OBJ_MSG('dp_scenario2%177-msg_r221_stopper3_01')
+	_END()

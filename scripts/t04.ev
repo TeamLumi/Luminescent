@@ -1,0 +1,232 @@
+ev_t04_obj_change:
+	_END()
+ev_t04_flag_change:
+	_FLAG_SET(#325)
+	_IFVAL_CALL(@471, 'EQ', 1, 'ev_t04_delete_lucian')
+	_END()
+ev_t04_delete_lucian:
+	_IF_FLAGON_JUMP(#2810, 'ev_t04_delete_lucian_ret')
+	_FLAG_SET(#2810)
+	_OBJ_DEL('T04_LUCIAN')
+	_RET()
+ev_t04_delete_lucian_ret:
+	_RET()
+ev_t04_farmer1:
+	_EASY_OBJ_MSG('dp_scenario2%63-msg_t04_farmer_01')
+	_END()
+ev_t04_cowgirl1:
+	_TALK_OBJ_START()
+	_SYS_FLAG_BADGE_GET($BADGE_ID_C06, @246)
+	_IFVAL_JUMP(@246, 'EQ', 1, 'ev_t04_cowgirl1_02')
+	_TALK_KEYWAIT('dp_scenario2%63-msg_t04_cowgirl_01')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_t04_cowgirl1_02:
+	_TALK_KEYWAIT('dp_scenario2%63-msg_t04_cowgirl_02')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_t04_babygirl1:
+	_EASY_OBJ_MSG('dp_scenario2%63-msg_t04_babygirl1_01')
+	_END()
+ev_t04_woman3:
+	_EASY_OBJ_MSG('dp_scenario2%63-msg_t04_woman3_01')
+	_END()
+ev_t04_sportsman:
+	_EASY_OBJ_MSG('dp_scenario2%63-msg_t04_sportsman_01')
+	_END()
+ev_t04_explore:
+	_TALK_OBJ_START()
+	_POKETCH_CHECK(8, @246)
+	_IFVAL_JUMP(@246, 'EQ', 1, 'ev_t04_explore_03')
+	_SHINOU_ZUKAN_SEE_NUM(@246)
+	_IFVAL_JUMP(@246, 'LT', 50, 'ev_t04_explore_01')
+	_TALK_KEYWAIT('dp_scenario2%63-msg_t04_explore_02_1')
+	_TALK_KEYWAIT('dp_scenario2%63-msg_t04_explore_02_2')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_t04_explore_01:
+	_TALKMSG('dp_scenario2%63-msg_t04_explore_01_1')
+	_TALKMSG('dp_scenario2%63-msg_t04_explore_01_2')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_t04_explore_03:
+	_TALKMSG('dp_scenario2%63-msg_t04_explore_03')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_t04_sign1:
+	_EASY_BOARD_MSG('dp_scenario2%63-msg_t04_sign1_01', 'BOARD_TYPE_TOWN', 0)
+	_END()
+ev_t04_sign2:
+	_EASY_BOARD_MSG('dp_scenario2%63-msg_t04_sign2_01', 'BOARD_TYPE_POST', 0)
+	_END()
+ev_t04_sign3:
+	_EASY_BOARD_MSG('dp_scenario2%63-msg_t04_sign3_01', 'BOARD_TYPE_POST', 0)
+	_END()
+anm_t04_lucian_lose_leave:
+	_AC_DIR_U(4)
+	_AC_VANISH_ON()
+	_ACMD_END()
+ev_t04_lucian_lost:
+	_TALK_OBJ_START()
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_t04_lucian_lost_00', 'Ah, glutton for punishment are we?\nI’m afraid that was all I had time for.\rPerhaps we will meet again in the future.\nSo long, trainer.')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_OBJ_ANIME('T04_LUCIAN', 'anm_t04_lucian_lose_leave')
+	_OBJ_ANIME_WAIT()
+	_FLAG_SET(#2810)
+	_OBJ_DEL('T04_LUCIAN')
+	_TALK_OBJ_END()
+	_END()
+pos_t04_lucian:
+	_TALK_OBJ_START()
+	_LDVAL(@471, 1); Lucian event flag finished
+	_FLAG_RESET(#2810); Enable Lucian
+	_OBJ_ADD('T04_LUCIAN')
+	_OBJ_ANIME('T04_LUCIAN', 'anm_t04_lucian_startled')
+	_OBJ_ANIME_WAIT()
+	_OBJ_ANIME('T04_LUCIAN', 'anm_t04_lucian_walk_down')
+	_OBJ_ANIME_WAIT()
+	_CHARA_LOOK_LOCK('T04_LUCIAN', 'HERO')
+	_CHARA_LOOK_LOCK('HERO', 'T04_LUCIAN')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_t04_lucian_1', 'Ah, hello.\nAre you here to see the ruins?\rAllow me to introduce myself.\rI am Lucian, a user of Psychic-type\nPokémon and a member of the Sinnoh\fregion’s Elite Four.\rRuins are wonderful things, you know.\rThey’re like books—they have the thoughts\n of many people recorded inside them.\rIt allows the thoughts of the authors\nto stretch beyond time and space.\rOh, you’re a Trainer, are you not?\nAre you training any Psychic-type Pokémon?\rIf you are, this Technical Machine\nwill teach them a powerful move.')
+	_LDVAL(@SCWK_TEMP0, 356); TM Psychic
+	_LDVAL(@SCWK_TEMP1, 1); Quantity 1
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_t04_lucian_question', 'As trainers, I feel compelled\nto battle you under common courtesy.\rHowever, I must let you know that I am\nthe strongest of the Elite Four members,\f you are unlikely to win.\rI feel the fairest thing to do\nis use Pokémon akin to your level.\rWhat say you, would you like to\nbattle me knowing this?')
+	_YES_NO_WIN(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_t04_lucian_caution')
+	_JUMP('ev_t04_lucian_no')
+ev_t04_lucian_caution:
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_t04_lucian_caution', 'My dear child, are you sure you\nwant to battle me?\rYour Pokémon are unlikely to come\nthrough this unscathed.')
+	_YES_NO_WIN(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_t04_lucian_yes')
+	_JUMP('ev_t04_lucian_no')
+ev_t04_lucian_no:
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_t04_lucian_2', 'Frankly, I am disappointed,\nbut I understand the restraint.\rI look forward to our meeting in the\nfuture when you are ready for my\ftrue strength.\rI have some further research to\nconduct, so I must take my leave.\rTake care. Perhaps we’ll see each\nother at the Pokémon League some day.')
+	_TALK_CLOSE()
+	_CHARA_LOOK_RELEASE('T04_LUCIAN')
+	_CHARA_LOOK_RELEASE('HERO')
+	_OBJ_ANIME('T04_LUCIAN', 'anm_t04_lucian_walk_up')
+	_OBJ_ANIME_WAIT()
+	_OBJ_DEL('T04_LUCIAN')
+	_FLAG_SET(#2810); Disable Lucian
+	_TALK_OBJ_END()
+	_END()
+ev_t04_lucian_single_battle:
+	_TRAINER_BTL_SET(944, 0)
+	_TRAINER_LOSE_CHECK(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_t04_lucian_yes_lose')
+	_RET()
+ev_t04_lucian_double_battle:
+	_FLAG_SET(#2196); Enable double battles
+	_TRAINER_BTL_SET(944, 0)
+	_TRAINER_LOSE_CHECK(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_t04_lucian_yes_lose')
+	_FLAG_RESET(#2196); Disable double battles
+	_RET()
+ev_t04_lucian_yes:
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_t04_lucian_yes', 'Aha! Now this shall be fun!')
+	_TALK_CLOSE()
+	_CHARA_LOOK_RELEASE('T04_LUCIAN')
+	_CHARA_LOOK_RELEASE('HERO')
+	_2VS2_BATTLE_CHECK(@SCWK_ANSWER)
+	_IFVAL_CALL(@SCWK_ANSWER, 'EQ', 0, 'ev_t04_lucian_single_battle')
+	_IFVAL_CALL(@SCWK_ANSWER, 'EQ', 1, 'ev_t04_lucian_double_battle')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_t04_lucian_win', 'Oh my, I expected a good battle,\nbut to think you have actually beaten me.\rWell played my good trainer,\neven though I was handicapped,\fyou gave me a good thrashing.\rI sincerely look forward to your\neventual challenge upon the Pokémon League.\rI would wish you luck in your endeavour,\nbut I daresay you hardly need it.\rNow, I have some further research to conduct,\nso I must take my leave.\rTake care. Perhaps we’ll see each\nother at the Pokémon League some day.')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_t04_lucian_win_2', 'Oh yes, before I go,\na reward.')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_t04_lucian_win_3', 'I have heard that there is a\nnew merchant in Pastoria City.\rIf you’re serious about growing stronger,\nyou’ll need these.')
+	_LDVAL(@SCWK_TEMP0, 93); Heartscales
+	_LDVAL(@SCWK_TEMP1, 5); Quantity 5
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_TALK_CLOSE()
+	_OBJ_ANIME('T04_LUCIAN', 'anm_t04_lucian_walk_up')
+	_OBJ_ANIME_WAIT()
+	_OBJ_DEL('T04_LUCIAN')
+	_FLAG_SET(#2810); Disable Lucian
+	_TALK_OBJ_END()
+	_END()
+ev_t04_lucian_yes_lose:
+	_FLAG_RESET(#2196); Disable double battles
+	_OBJ_DEL('T04_LUCIAN')
+	_FLAG_SET(#2810); Disable Lucian
+	_TALK_OBJ_END()
+	_END()
+anm_t04_lucian_startled:
+	_AC_DIR_D(8)
+	_AC_MARK_GYOE()
+	_ACMD_END()
+anm_t04_lucian_walk_down:
+	_AC_WAIT(8)
+	_AC_HERO_MATCH_Z(8)
+	_AC_DIR_L(8)
+	_ACMD_END()
+anm_t04_lucian_walk_up:
+	_AC_DIR_U(8)
+	_AC_UP(5, 8)
+	_ACMD_END()
+pos_t04_barry_trigger:
+	_TALK_OBJ_START()
+	_OBJ_ANIME('HERO', 'anm_t04_action_1')
+	_OBJ_ANIME_WAIT()
+	_PLAYER_POS_GET(@SCWK_TEMP0, @SCWK_TEMP1)
+	_FLAG_RESET(#2833)
+	_OBJ_ADD('T04_BARRY_OW18')
+	_SXY_POS_CHANGE('T04_BARRY_OW18', @SCWK_TEMP0, 658)
+	_OBJ_ANIME('HERO', 'anm_t04_action_2')
+	_OBJ_ANIME('T04_BARRY_OW18', 'anm_t04_action_3')
+	_OBJ_ANIME_WAIT()
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_t04_barry_1', 'Yahoo!')
+	_TALK_CLOSE()
+	_OBJ_ANIME('T04_BARRY_OW18', 'anm_t04_action_4')
+	_OBJ_ANIME_WAIT()
+	_RIVAL_NAME(0)
+	_PLAYER_NAME(1)
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_t04_barry_2', 'Hey, {1}!\rI got something cool.\nI’ll show you as a special favor!')
+	_TALK_CLOSE()
+	_OBJ_ANIME('T04_BARRY_OW18', 'anm_t04_action_5')
+	_OBJ_ANIME_WAIT()
+	_RIVAL_NAME(0)
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_t04_barry_3', 'Huh?\nWhat the...\rWhat’s this all about?\r...I got some Seals, but I forgot to\nput them on.\rOh, right.\nIt’s because I was at the ruins.\rThe ruins here are cool.\nYou have to check it out.\rI even found a Hidden Machine.\nIt was Defog!\rThough I don’t think there’s a\nwhole lot of reason to use it!\rAnyway, I’ll battle you another time.\nSee ya!')
+	_TALK_CLOSE()
+	_OBJ_ANIME('T04_BARRY_OW18', 'anm_t04_action_6')
+	_OBJ_ANIME_WAIT()
+	_OBJ_DEL('T04_BARRY_OW18')
+	_FLAG_SET(#2833)
+	_LDVAL(@460, 1)
+	_TALK_OBJ_END()
+	_END()
+anm_t04_action_1:
+	_AC_WAIT(8)
+	_AC_MARK_GYOE()
+	_AC_WAIT(24)
+	_ACMD_END()
+anm_t04_action_2:
+	_AC_DIR_U(4)
+	_ACMD_END()
+anm_t04_action_3:
+	_AC_DOWN(10, 4)
+	_ACMD_END()
+anm_t04_action_4:
+	_AC_DIR_L(4)
+	_AC_WAIT(8)
+	_AC_DIR_R(4)
+	_AC_WAIT(8)
+	_AC_DIR_D(4)
+	_ACMD_END()
+anm_t04_action_5:
+	_AC_MARK_GYOE()
+	_ACMD_END()
+anm_t04_action_6:
+	_AC_DIR_U(4)
+	_AC_UP(10, 4)
+	_ACMD_END()

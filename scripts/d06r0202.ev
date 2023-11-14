@@ -1,0 +1,6 @@
+ev_d06r0202_ambrella1:
+	_MACRO_EASY_OBJ_MSG('dp_scenario2', '133-msg_d06r0202_ambrella_01', 'The Pokémon you see here are different\nfrom day to day. Don’t you think so?')
+	_END()
+ev_d06r0202_sign1:
+	_EASY_BOARD_MSG('dp_scenario2%133-msg_d06r0202_sign1_01', 'BOARD_TYPE_POST', 0)
+	_END()

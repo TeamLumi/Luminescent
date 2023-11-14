@@ -1,0 +1,89 @@
+ev_r209r0102_flag_change:
+	_SET_SYS_FLAG($SYS_FLAG_MAP_INFO_STOP)
+	_IF_FLAGOFF_CALL(#3102, 'ev_r209r0102_setup_litwick'); Litwick event flag
+	_IF_FLAGOFF_JUMP(#3103, 'ev_r209r0102_litwick_scene'); Litwick event flag
+	_IF_FLAGON_CALL(#3102, 'ev_r209r0102_disable_litwick')
+	_END()
+ev_r209r0102_setup_litwick:
+	_BGM_PLAY('D25')
+	_OBJ_DEL('TR_TANPAN_18')
+	_FLAG_SET(#3104); Hide trainer NPC
+	_FLAG_RESET(#2922); Enable Litwick event NPCs
+	_OBJ_ADD('R209R0102_LITWICK_NPC1')
+	_OBJ_ADD('R209R0102_LITWICK_NPC2')
+	_RET()
+ev_r209r0102_disable_litwick:
+	_OBJ_DEL('R209R0102_LITWICK_NPC1')
+	_OBJ_DEL('R209R0102_LITWICK_NPC1')
+	_FLAG_RESET(#3104); Enable trainer npc
+	_FLAG_SET(#2922); Enable Litwick event NPCs
+	_OBJ_ADD('TR_TANPAN_18')
+	_END()
+ev_r209r0102:
+	_RET()
+anm_r209r0102_litwick_scene:
+	_AC_DIR_U(6)
+	_AC_WAIT(4)
+	_AC_MARK_GYOE()
+	_AC_DIR_R(6)
+	_AC_RIGHT(1, 6)
+	_AC_DIR_D(6)
+	_AC_DOWN(2, 6)
+	_AC_DIR_L(6)
+	_AC_LEFT(7, 6)
+	_AC_DIR_U(6)
+	_AC_UP(2, 4)
+	_AC_DIR_L(4)
+	_AC_LEFT(1, 4)
+	_AC_DIR_U(4)
+	_AC_UP(3, 4)
+	_AC_DIR_R(4)
+	_AC_VANISH_ON()
+	_ACMD_END()
+anm_r209r0102_litwick_hero:
+	_AC_DIR_D(6)
+	_AC_WAIT(4)
+	_AC_MARK_GYOE()
+	_AC_WAIT(12)
+	_AC_DOWN(4, 6)
+	_AC_DIR_L(8)
+	_AC_WAIT(8)
+	_AC_DIR_U(8)
+	_AC_WAIT(8)
+	_AC_DIR_L(8)
+	_AC_WAIT(8)
+	_AC_DIR_U(8)
+	_ACMD_END()
+ev_r209r0102_litwick_scene:
+	_EVENT_START()
+	_CALL('ev_block_doc')
+	_TIME_WAIT(30, @SCWK_ANSWER)
+	_VOICE_PLAY(607, 0, 0)
+	_OBJ_ANIME('R209R0102_LITWICK', 'anm_r209r0102_litwick_scene')
+	_OBJ_ANIME('HERO', 'anm_r209r0102_litwick_hero')
+	_OBJ_ANIME_WAIT()
+	_OBJ_DEL('R209R0102_LITWICK')
+	_SE_PLAY('S_FI001')
+	_FLAG_SET(#3103); R209R0102 event is over.
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_r209r0102_litwick_00', 'You recall ghastly stories about Litwick.\rGo check on the people nearby.')
+	_TALK_CLOSE()
+	_CALL('ev_block_doc_end')
+	_EVENT_END()
+	_END()
+ev_r209r0102_litwick_npc1:
+	_TALK_OBJ_START()
+	_IF_FLAGON_JUMP(#3105, 'ev_r209r0102_litwick_npc1_2')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_r209r0102_litwick_npc1_00', 'Sorry, I’m not in the mood to talk\nright now.\r...\rThere was a Ghost Pokémon beside me?\rI don’t think it did anything to me,\nalthough...\rI have noticed myself feeling drained\nafter visiting my partner here.\rMust just be the atmosphere.')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_r209r0102_litwick_npc1_01', 'Can you go now?\nI’m visiting my partner here.\rRest in peace, Dudu. You were the best rock snake\na guy could ask for.')
+	_TALK_CLOSE()
+	_FLAG_SET(#3105)
+	_TALK_OBJ_END()
+	_END()
+ev_r209r0102_litwick_npc1_2:
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_r209r0102_litwick_npc1_02', 'Please leave me alone.')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_r209r0102_litwick_npc2:
+	_MACRO_EASY_OBJ_MSG('dp_scenario3', '00_msg_r209r0102_litwick_npc2_00', 'The person is too fatigued to respond.')
+	_END()

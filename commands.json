@@ -1,0 +1,228 @@
+[
+    {
+        "Id": 3000,
+        "Name": "_FAKE_COMMAND"
+    },
+    {
+        "Id": 226,
+        "Name": "_SET_WEATHER",
+        "Description": "Sets the weather.",
+        "Dummy": false,
+        "Animation": false,
+        "Args": [
+            {
+                "TentativeName": "Weather",
+                "Description": "The ID of the weather to change to.",
+                "Type": [
+                    "Number",
+                    "Work"
+                ],
+                "Optional": false
+            }
+        ]
+    },
+    {
+        "Id": 1236,
+        "Name": "_TEMOTI_FORMNO",
+        "Description": "Returns the form id of the Pokémon at the given index in the party.",
+        "Dummy": false,
+        "Animation": false,
+        "Args": [
+            {
+                "TentativeName": "Index",
+                "Description": "The index that points to the given Pokémon.",
+                "Type": [
+                    "Number",
+                    "Work"
+                ],
+                "Optional": false
+            },
+            {
+                "TentativeName": "Result",
+                "Description": "The work in which to put the result in.",
+                "Type": [
+                    "Work"
+                ],
+                "Optional": false
+            }
+        ]
+    },
+    {
+        "Id": 1237,
+        "Name": "_TEMOTI_BOX_FORMNO",
+        "Description": "Returns the form id of the Pokémon at the given index and tray index.",
+        "Dummy": false,
+        "Animation": false,
+        "Args": [
+            {
+                "TentativeName": "Index",
+                "Description": "The index that points to the given Pokémon.",
+                "Type": [
+                    "Number",
+                    "Work"
+                ],
+                "Optional": false
+            },
+            {
+                "TentativeName": "TrayIndex",
+                "Description": "The tray index in which to look for the given Pokémon.",
+                "Type": [
+                    "Number",
+                    "Work"
+                ],
+                "Optional": false
+            },
+            {
+                "TentativeName": "Result",
+                "Description": "The work in which to put the result in.",
+                "Type": [
+                    "Work"
+                ],
+                "Optional": false
+            }
+        ]
+    },
+    {
+        "Id": 1238,
+        "Name": "_GET_BOX_POKE_SEIKAKU",
+        "Description": "Returns the nature id of the Pokémon at the given index and tray index.",
+        "Dummy": false,
+        "Animation": false,
+        "Args": [
+            {
+                "TentativeName": "Index",
+                "Description": "The index that points to the given Pokémon.",
+                "Type": [
+                    "Number",
+                    "Work"
+                ],
+                "Optional": false
+            },
+            {
+                "TentativeName": "TrayIndex",
+                "Description": "The tray index in which to look for the given Pokémon.",
+                "Type": [
+                    "Number",
+                    "Work"
+                ],
+                "Optional": false
+            },
+            {
+                "TentativeName": "Result",
+                "Description": "The work in which to put the result in.",
+                "Type": [
+                    "Work"
+                ],
+                "Optional": false
+            }
+        ]
+    },
+    {
+        "Id": 1239,
+        "Name": "_RELEASE_BOX_POKE",
+        "Description": "Releases the Pokémon at the given index and tray index.",
+        "Dummy": false,
+        "Animation": false,
+        "Args": [
+            {
+                "TentativeName": "Index",
+                "Description": "The index that points to the given Pokémon.",
+                "Type": [
+                    "Number",
+                    "Work"
+                ],
+                "Optional": false
+            },
+            {
+                "TentativeName": "TrayIndex",
+                "Description": "The tray index in which to look for the given Pokémon.",
+                "Type": [
+                    "Number",
+                    "Work"
+                ],
+                "Optional": false
+            }
+        ]
+    },
+    {
+        "Id": 1240,
+        "Name": "_TOGGLE_COLLISION_BOX",
+        "Description": "Toggles the collision box of a GameObject on the map",
+        "Dummy": false,
+        "Animation": false,
+        "Args": [
+            {
+                "TentativeName": "Name",
+                "Description": "Name of the GameObject in String format.",
+                "Type": [
+                    "Number",
+                    "Work"
+                ],
+                "Optional": false
+            },
+            {
+                "TentativeName": "ToggleValue",
+                "Description": "0 = off / 1 = on. Value to toggle the collision on or off accordingly.",
+                "Type": [
+                    "Number",
+                    "Work"
+                ],
+                "Optional": false
+            }
+        ]
+    },
+    {
+        "Id": 1241,
+        "Name": "_INSTALL_CHECK",
+        "Description": "Toggles the collision box of a GameObject on the map",
+        "Dummy": false,
+        "Animation": false,
+        "Args": [
+            {
+                "TentativeName": "Name",
+                "Description": "Sets Work to 69 if ExeFS are properly installed.",
+                "Type": [
+                    "Number",
+                    "Work"
+                ],
+                "Optional": false
+            }
+        ]
+    },
+    {
+        "Id": 1248,
+        "Name": "_CHANGE_FORMNO",
+        "Description": "Sets the form of the Pokémon at the given index and tray index",
+        "Dummy": false,
+        "Animation": false,
+        "Args": [
+            {
+                "TentativeName": "Index",
+                "Description": "The index that points to the given Pokémon.",
+                "Type": [
+                    "Number",
+                    "Work"
+                ],
+                "Optional": false
+            },
+            {
+                "TentativeName": "trayIndex",
+                "Description": "The tray index in which to look for the given Pokémon",
+                "Type": [
+                    "Number",
+                    "Work"
+                ],
+                "Optional": false
+            },
+            {
+                "TentativeName": "FormMo",
+                "Description": "The form to set the Pokémon to",
+                "Type": [
+                    "Number",
+                    "Work"
+                ],
+                "Optional": false
+            }
+        ]
+    }
+]

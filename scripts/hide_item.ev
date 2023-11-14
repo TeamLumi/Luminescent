@@ -1,0 +1,1860 @@
+ev_hide_item_0:
+	_LDVAL(@SCWK_PARAM0, 90)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 603)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_1:
+	_LDVAL(@SCWK_PARAM0, 89)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 604)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_2:
+	_LDVAL(@SCWK_PARAM0, 88)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 605)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_3:
+	_LDVAL(@SCWK_PARAM0, 93)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 606)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_4:
+	_LDVAL(@SCWK_PARAM0, 81)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 607)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_5:
+	_LDVAL(@SCWK_PARAM0, 87)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 608)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_6:
+	_LDVAL(@SCWK_PARAM0, 52)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 609)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_7:
+	_LDVAL(@SCWK_PARAM0, 49)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 610)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_8:
+	_LDVAL(@SCWK_PARAM0, 51)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 611)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_9:
+	_LDVAL(@SCWK_PARAM0, 91)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 612)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_10:
+	_LDVAL(@SCWK_PARAM0, 48)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 613)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_11:
+	_LDVAL(@SCWK_PARAM0, 50)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 614)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_12:
+	_LDVAL(@SCWK_PARAM0, 41)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 615)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_13:
+	_LDVAL(@SCWK_PARAM0, 2)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 616)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_14:
+	_LDVAL(@SCWK_PARAM0, 87)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 617)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_15:
+	_LDVAL(@SCWK_PARAM0, 91)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 618)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_16:
+	_LDVAL(@SCWK_PARAM0, 46)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 619)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_17:
+	_LDVAL(@SCWK_PARAM0, 1235)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 620)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_18:
+	_LDVAL(@SCWK_PARAM0, 91)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 621)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_19:
+	_LDVAL(@SCWK_PARAM0, 77)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 622)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_20:
+	_LDVAL(@SCWK_PARAM0, 35)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 623)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_21:
+	_LDVAL(@SCWK_PARAM0, 91)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 624)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_22:
+	_LDVAL(@SCWK_PARAM0, 58)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 625)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_23:
+	_LDVAL(@SCWK_PARAM0, 56)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 626)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_24:
+	_LDVAL(@SCWK_PARAM0, 36)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 627)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_25:
+	_LDVAL(@SCWK_PARAM0, 90)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 628)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_26:
+	_LDVAL(@SCWK_PARAM0, 55)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 629)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_27:
+	_LDVAL(@SCWK_PARAM0, 37)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 630)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_28:
+	_LDVAL(@SCWK_PARAM0, 80)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 631)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_29:
+	_LDVAL(@SCWK_PARAM0, 27)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 632)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_30:
+	_LDVAL(@SCWK_PARAM0, 2)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 633)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_31:
+	_LDVAL(@SCWK_PARAM0, 29)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 634)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_32:
+	_LDVAL(@SCWK_PARAM0, 91)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 635)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_33:
+	_LDVAL(@SCWK_PARAM0, 61)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 636)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_34:
+	_LDVAL(@SCWK_PARAM0, 50)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 637)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_35:
+	_LDVAL(@SCWK_PARAM0, 62)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 638)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_36:
+	_LDVAL(@SCWK_PARAM0, 24)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 639)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_37:
+	_LDVAL(@SCWK_PARAM0, 90)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 640)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_38:
+	_LDVAL(@SCWK_PARAM0, 36)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 641)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_39:
+	_LDVAL(@SCWK_PARAM0, 92)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 642)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_40:
+	_LDVAL(@SCWK_PARAM0, 23)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 643)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_41:
+	_LDVAL(@SCWK_PARAM0, 90)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 644)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_42:
+	_LDVAL(@SCWK_PARAM0, 50)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 645)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_43:
+	_LDVAL(@SCWK_PARAM0, 1243)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 646)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_44:
+	_LDVAL(@SCWK_PARAM0, 1242)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 647)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_45:
+	_LDVAL(@SCWK_PARAM0, 1248)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 648)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_46:
+	_LDVAL(@SCWK_PARAM0, 61)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 649)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_47:
+	_LDVAL(@SCWK_PARAM0, 57)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 650)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_48:
+	_LDVAL(@SCWK_PARAM0, 3)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 651)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_49:
+	_LDVAL(@SCWK_PARAM0, 42)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 652)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_50:
+	_LDVAL(@SCWK_PARAM0, 50)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 653)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_51:
+	_LDVAL(@SCWK_PARAM0, 78)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 654)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_52:
+	_LDVAL(@SCWK_PARAM0, 246)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 655)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_53:
+	_LDVAL(@SCWK_PARAM0, 34)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 656)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_54:
+	_LDVAL(@SCWK_PARAM0, 90)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 657)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_55:
+	_LDVAL(@SCWK_PARAM0, 91)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 658)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_56:
+	_LDVAL(@SCWK_PARAM0, 56)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 659)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_57:
+	_LDVAL(@SCWK_PARAM0, 58)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 660)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_57_1:
+	_LDVAL(@SCWK_PARAM0, 451)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 2541)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_58:
+	_LDVAL(@SCWK_PARAM0, 50)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 661)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_59:
+	_LDVAL(@SCWK_PARAM0, 91)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 662)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_60:
+	_LDVAL(@SCWK_PARAM0, 93)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 663)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_61:
+	_LDVAL(@SCWK_PARAM0, 645)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 664)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_62:
+	_LDVAL(@SCWK_PARAM0, 82)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 665)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_63:
+	_LDVAL(@SCWK_PARAM0, 84)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 666)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_64:
+	_LDVAL(@SCWK_PARAM0, 92)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 667)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_65:
+	_LDVAL(@SCWK_PARAM0, 2)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 668)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_66:
+	_LDVAL(@SCWK_PARAM0, 29)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 669)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_67:
+	_LDVAL(@SCWK_PARAM0, 23)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 670)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_68:
+	_LDVAL(@SCWK_PARAM0, 50)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 671)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_69:
+	_LDVAL(@SCWK_PARAM0, 93)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 672)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_70:
+	_LDVAL(@SCWK_PARAM0, 41)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 673)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_71:
+	_LDVAL(@SCWK_PARAM0, 93)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 674)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_72:
+	_LDVAL(@SCWK_PARAM0, 50)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 675)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_73:
+	_LDVAL(@SCWK_PARAM0, 2)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 676)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_74:
+	_LDVAL(@SCWK_PARAM0, 45)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 677)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_75:
+	_LDVAL(@SCWK_PARAM0, 2)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 678)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_76:
+	_LDVAL(@SCWK_PARAM0, 94)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 679)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_77:
+	_LDVAL(@SCWK_PARAM0, 25)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 680)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_78:
+	_LDVAL(@SCWK_PARAM0, 51)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 681)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_79:
+	_LDVAL(@SCWK_PARAM0, 94)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 682)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_80:
+	_LDVAL(@SCWK_PARAM0, 28)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 683)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_81:
+	_LDVAL(@SCWK_PARAM0, 94)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 684)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_82:
+	_LDVAL(@SCWK_PARAM0, 94)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 685)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_83:
+	_LDVAL(@SCWK_PARAM0, 94)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 686)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_84:
+	_LDVAL(@SCWK_PARAM0, 27)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 687)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_85:
+	_LDVAL(@SCWK_PARAM0, 94)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 688)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_86:
+	_LDVAL(@SCWK_PARAM0, 29)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 689)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_87:
+	_LDVAL(@SCWK_PARAM0, 91)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 690)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_88:
+	_LDVAL(@SCWK_PARAM0, 29)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 691)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_89:
+	_LDVAL(@SCWK_PARAM0, 90)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 692)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_90:
+	_LDVAL(@SCWK_PARAM0, 47)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 693)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_91:
+	_LDVAL(@SCWK_PARAM0, 91)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 694)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_92:
+	_LDVAL(@SCWK_PARAM0, 2)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 695)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_93:
+	_LDVAL(@SCWK_PARAM0, 82)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 696)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_94:
+	_LDVAL(@SCWK_PARAM0, 23)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 697)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_95:
+	_LDVAL(@SCWK_PARAM0, 59)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 698)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_96:
+	_LDVAL(@SCWK_PARAM0, 54)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 699)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_97:
+	_LDVAL(@SCWK_PARAM0, 54)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 700)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_98:
+	_LDVAL(@SCWK_PARAM0, 63)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 701)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_99:
+	_LDVAL(@SCWK_PARAM0, 3)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 702)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_100:
+	_LDVAL(@SCWK_PARAM0, 26)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 703)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_101:
+	_LDVAL(@SCWK_PARAM0, 90)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 704)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_102:
+	_LDVAL(@SCWK_PARAM0, 108)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 705)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_103:
+	_LDVAL(@SCWK_PARAM0, 91)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 706)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_104:
+	_LDVAL(@SCWK_PARAM0, 91)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 707)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_105:
+	_LDVAL(@SCWK_PARAM0, 91)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 708)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_106:
+	_LDVAL(@SCWK_PARAM0, 91)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 709)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_107:
+	_LDVAL(@SCWK_PARAM0, 91)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 710)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_108:
+	_LDVAL(@SCWK_PARAM0, 94)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 711)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_109:
+	_LDVAL(@SCWK_PARAM0, 1606)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 712)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_110:
+	_LDVAL(@SCWK_PARAM0, 63)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 713)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_111:
+	_LDVAL(@SCWK_PARAM0, 24)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 714)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_112:
+	_LDVAL(@SCWK_PARAM0, 40)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 715)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_113:
+	_LDVAL(@SCWK_PARAM0, 50)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 716)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_114:
+	_LDVAL(@SCWK_PARAM0, 92)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 717)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_115:
+	_LDVAL(@SCWK_PARAM0, 326)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 718)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_116:
+	_LDVAL(@SCWK_PARAM0, 45)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 719)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_117:
+	_LDVAL(@SCWK_PARAM0, 86)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 720)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_118:
+	_LDVAL(@SCWK_PARAM0, 87)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 721)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_119:
+	_LDVAL(@SCWK_PARAM0, 80)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 722)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_120:
+	_LDVAL(@SCWK_PARAM0, 27)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 723)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_121:
+	_LDVAL(@SCWK_PARAM0, 90)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 724)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_122:
+	_LDVAL(@SCWK_PARAM0, 90)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 725)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_123:
+	_LDVAL(@SCWK_PARAM0, 26)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 726)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_124:
+	_LDVAL(@SCWK_PARAM0, 86)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 727)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_125:
+	_LDVAL(@SCWK_PARAM0, 34)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 728)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_126:
+	_LDVAL(@SCWK_PARAM0, 50)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 729)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_127:
+	_LDVAL(@SCWK_PARAM0, 50)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 730)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_128:
+	_LDVAL(@SCWK_PARAM0, 28)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 731)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_129:
+	_LDVAL(@SCWK_PARAM0, 2)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 732)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_130:
+	_LDVAL(@SCWK_PARAM0, 86)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 733)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_131:
+	_LDVAL(@SCWK_PARAM0, 91)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 734)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_132:
+	_LDVAL(@SCWK_PARAM0, 2)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 735)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_133:
+	_LDVAL(@SCWK_PARAM0, 76)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 736)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_134:
+	_LDVAL(@SCWK_PARAM0, 28)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 737)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_135:
+	_LDVAL(@SCWK_PARAM0, 91)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 738)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_136:
+	_LDVAL(@SCWK_PARAM0, 94)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 739)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_137:
+	_LDVAL(@SCWK_PARAM0, 3)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 740)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_138:
+	_LDVAL(@SCWK_PARAM0, 50)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 741)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_139:
+	_LDVAL(@SCWK_PARAM0, 107)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 742)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_140:
+	_LDVAL(@SCWK_PARAM0, 3)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 743)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_141:
+	_LDVAL(@SCWK_PARAM0, 49)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 744)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_142:
+	_LDVAL(@SCWK_PARAM0, 88)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 745)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_143:
+	_LDVAL(@SCWK_PARAM0, 39)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 746)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_144:
+	_LDVAL(@SCWK_PARAM0, 46)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 747)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_145:
+	_LDVAL(@SCWK_PARAM0, 39)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 748)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_146:
+	_LDVAL(@SCWK_PARAM0, 109)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 749)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_147:
+	_LDVAL(@SCWK_PARAM0, 27)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 750)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_148:
+	_LDVAL(@SCWK_PARAM0, 50)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 751)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_149:
+	_LDVAL(@SCWK_PARAM0, 25)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 752)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_150:
+	_LDVAL(@SCWK_PARAM0, 3)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 753)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_151:
+	_LDVAL(@SCWK_PARAM0, 77)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 754)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_152:
+	_LDVAL(@SCWK_PARAM0, 87)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 755)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_153:
+	_LDVAL(@SCWK_PARAM0, 45)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 756)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_154:
+	_LDVAL(@SCWK_PARAM0, 29)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 757)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_155:
+	_LDVAL(@SCWK_PARAM0, 87)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 758)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_156:
+	_LDVAL(@SCWK_PARAM0, 25)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 759)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_157:
+	_LDVAL(@SCWK_PARAM0, 93)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 760)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_158:
+	_LDVAL(@SCWK_PARAM0, 88)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 761)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_159:
+	_LDVAL(@SCWK_PARAM0, 88)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 762)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_160:
+	_LDVAL(@SCWK_PARAM0, 89)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 763)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_161:
+	_LDVAL(@SCWK_PARAM0, 93)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 764)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_162:
+	_LDVAL(@SCWK_PARAM0, 88)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 765)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_163:
+	_LDVAL(@SCWK_PARAM0, 93)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 766)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_164:
+	_LDVAL(@SCWK_PARAM0, 87)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 767)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_165:
+	_LDVAL(@SCWK_PARAM0, 48)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 768)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_166:
+	_LDVAL(@SCWK_PARAM0, 327)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 769)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_167:
+	_LDVAL(@SCWK_PARAM0, 28)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 770)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_168:
+	_LDVAL(@SCWK_PARAM0, 3)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 771)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_169:
+	_LDVAL(@SCWK_PARAM0, 47)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 772)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_170:
+	_LDVAL(@SCWK_PARAM0, 51)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 773)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_171:
+	_LDVAL(@SCWK_PARAM0, 37)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 774)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_172:
+	_LDVAL(@SCWK_PARAM0, 92)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 775)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_173:
+	_LDVAL(@SCWK_PARAM0, 27)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 776)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_174:
+	_LDVAL(@SCWK_PARAM0, 2)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 777)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_175:
+	_LDVAL(@SCWK_PARAM0, 47)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 778)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_176:
+	_LDVAL(@SCWK_PARAM0, 46)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 779)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_177:
+	_LDVAL(@SCWK_PARAM0, 24)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 780)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_178:
+	_LDVAL(@SCWK_PARAM0, 77)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 781)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_179:
+	_LDVAL(@SCWK_PARAM0, 2)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 782)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_180:
+	_LDVAL(@SCWK_PARAM0, 29)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 783)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_181:
+	_LDVAL(@SCWK_PARAM0, 52)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 784)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_182:
+	_LDVAL(@SCWK_PARAM0, 87)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 785)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_183:
+	_LDVAL(@SCWK_PARAM0, 29)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 786)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_184:
+	_LDVAL(@SCWK_PARAM0, 25)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 787)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_185:
+	_LDVAL(@SCWK_PARAM0, 2)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 788)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_186:
+	_LDVAL(@SCWK_PARAM0, 48)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 789)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_187:
+	_LDVAL(@SCWK_PARAM0, 88)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 790)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_188:
+	_LDVAL(@SCWK_PARAM0, 93)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 791)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_189:
+	_LDVAL(@SCWK_PARAM0, 93)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 792)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_190:
+	_LDVAL(@SCWK_PARAM0, 2)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 793)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_191:
+	_LDVAL(@SCWK_PARAM0, 23)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 794)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_192:
+	_LDVAL(@SCWK_PARAM0, 87)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 795)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_193:
+	_LDVAL(@SCWK_PARAM0, 88)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 796)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_194:
+	_LDVAL(@SCWK_PARAM0, 52)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 797)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_195:
+	_LDVAL(@SCWK_PARAM0, 2)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 798)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_196:
+	_LDVAL(@SCWK_PARAM0, 50)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 799)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_197:
+	_LDVAL(@SCWK_PARAM0, 88)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 800)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_198:
+	_LDVAL(@SCWK_PARAM0, 93)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 801)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_199:
+	_LDVAL(@SCWK_PARAM0, 89)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 802)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_200:
+	_LDVAL(@SCWK_PARAM0, 88)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 803)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_201:
+	_LDVAL(@SCWK_PARAM0, 50)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 804)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_202:
+	_LDVAL(@SCWK_PARAM0, 87)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 805)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_203:
+	_LDVAL(@SCWK_PARAM0, 85)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 806)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_204:
+	_LDVAL(@SCWK_PARAM0, 2)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 807)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_205:
+	_LDVAL(@SCWK_PARAM0, 77)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 808)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_206:
+	_LDVAL(@SCWK_PARAM0, 91)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 809)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_207:
+	_LDVAL(@SCWK_PARAM0, 77)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 810)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_208:
+	_LDVAL(@SCWK_PARAM0, 50)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 811)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_209:
+	_LDVAL(@SCWK_PARAM0, 92)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 812)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_210:
+	_LDVAL(@SCWK_PARAM0, 23)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 813)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_211:
+	_LDVAL(@SCWK_PARAM0, 91)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 814)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_212:
+	_LDVAL(@SCWK_PARAM0, 53)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 815)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_213:
+	_LDVAL(@SCWK_PARAM0, 83)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 816)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_214:
+	_LDVAL(@SCWK_PARAM0, 111)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 817)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_215:
+	_LDVAL(@SCWK_PARAM0, 87)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 818)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_216:
+	_LDVAL(@SCWK_PARAM0, 87)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 819)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_217:
+	_LDVAL(@SCWK_PARAM0, 51)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 820)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_218:
+	_LDVAL(@SCWK_PARAM0, 92)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 821)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_219:
+	_LDVAL(@SCWK_PARAM0, 89)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 822)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_220:
+	_LDVAL(@SCWK_PARAM0, 87)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 823)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_221:
+	_LDVAL(@SCWK_PARAM0, 93)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 824)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_222:
+	_LDVAL(@SCWK_PARAM0, 93)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 825)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_223:
+	_LDVAL(@SCWK_PARAM0, 87)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 826)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_224:
+	_LDVAL(@SCWK_PARAM0, 53)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 827)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_225:
+	_LDVAL(@SCWK_PARAM0, 86)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 828)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_226:
+	_LDVAL(@SCWK_PARAM0, 93)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 829)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_227:
+	_LDVAL(@SCWK_PARAM0, 50)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 830)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_228:
+	_LDVAL(@SCWK_PARAM0, 84)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 831)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_229:
+	_LDVAL(@SCWK_PARAM0, 2)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 832)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_230:
+	_LDVAL(@SCWK_PARAM0, 50)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 833)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_231:
+	_LDVAL(@SCWK_PARAM0, 85)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 834)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_232:
+	_LDVAL(@SCWK_PARAM0, 25)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 835)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_233:
+	_LDVAL(@SCWK_PARAM0, 87)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 836)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+
+ev_hide_item_234_1:
+	_LDVAL(@SCWK_PARAM0, 77)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 2675)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+ev_hide_item_234:
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+ev_hide_item_235:
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+ev_hide_item_236:
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+ev_hide_item_237:
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+ev_hide_item_238:
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+ev_hide_item_239:
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+ev_hide_item_240:
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+ev_hide_item_241:
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+ev_hide_item_242:
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+ev_hide_item_243:
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+ev_hide_item_244:
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+ev_hide_item_245:
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+ev_hide_item_246:
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+ev_hide_item_247:
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+ev_hide_item_248:
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+ev_hide_item_249:
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+ev_hide_item_250:
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+ev_hide_item_251:
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+ev_hide_item_252:
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+ev_hide_item_253:
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+ev_hide_item_254:
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+ev_hide_item_255:
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+ev_hide_item_256:
+	_LDVAL(@SCWK_PARAM0, 1239)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 2584)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+ev_hide_item_257:
+	_LDVAL(@SCWK_PARAM0, 1232)
+	_LDVAL(@SCWK_PARAM1, 1)
+	_LDVAL(@SCWK_PARAM2, 2585)
+	_JUMP('ev_hide_item_start')
+	_JUMP('ev_hide_item_start')
+ev_hide_item_start:
+	_TALK_START()
+	_SE_WAIT('UI_COMMON_SELECT')
+	_LDWK(@SCWK_TEMP0, @SCWK_PARAM0)
+	_LDWK(@SCWK_TEMP1, @SCWK_PARAM1)
+	_LDWK(@SCWK_TEMP2, @SCWK_PARAM2)
+	_ADD_ITEM_CHK(@SCWK_TEMP0, @SCWK_TEMP1, @SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_itemget_hideitem_true')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_itemget_hideitem_false')
+	_END()
+ev_hide_item_end:
+	_AC_ANIM_RELEASE('HERO')
+	_TALK_CLOSE()
+	_TALK_END()
+	_END()
+ev_itemget_hideitem_true:
+	_CHG_COMMON_SCR('ev_pocket_me_set')
+	_GET_FORM(@SCWK_ANSWER)
+	_IFVAL_CALL(@SCWK_ANSWER, 'EQ', 0, 'ev_itemget_hiroianime')
+	_IFVAL_CALL(@LOCALWORK9, 'NE', 100, 'ev_itemget_hideitem_box_del')
+	_TV_ENTRY_WATCH_HIDE_ITEM(@SCWK_TEMP0)
+	_ADD_ITEM(@SCWK_TEMP0, @SCWK_TEMP1, @SCWK_ANSWER)
+	_WAZA_ITEM_CHK(@SCWK_TEMP0, @SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_itemget_hideitem_yes_wazam')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_itemget_hideitem_no_wazam')
+	_AC_ANIM_RELEASE('HERO')
+	_END()
+ev_itemget_hideitem_box_del:
+	_OBJ_DEL(@SCWK_TARGET_OBJID)
+	_RET()
+ev_itemget_hideitem_true_2:
+	_ME_WAIT()
+	_AUSU_ITEM_CHECK(@SCWK_TEMP0, @SCWK_ANSWER)
+	_IFVAL_CALL(@SCWK_ANSWER, 'EQ', 1, 'ev_itemget_hide_item_item_ausunopureeto')
+	_PLAYER_NAME(0)
+	_ITEM_NAME(1, @SCWK_TEMP0, 1)
+	_GET_POCKET_NO(@SCWK_TEMP0, @SCWK_ANSWER)
+	_SWITCH(@SCWK_ANSWER)
+	_CASE_JUMP(8, 'hideitem_bag_poke_11')
+	_CASE_JUMP(4, 'hideitem_bag_poke_10')
+	_CASE_JUMP(3, 'hideitem_bag_poke_15')
+	_CASE_JUMP(0, 'hideitem_bag_poke_14')
+	_CASE_JUMP(1, 'hideitem_bag_poke_16')
+	_CASE_JUMP(2, 'hideitem_bag_poke_17')
+	_CASE_JUMP(6, 'hideitem_bag_poke_13')
+	_CASE_JUMP(5, 'hideitem_bag_poke_12')
+	_AC_ANIM_RELEASE('HERO')
+	_END()
+hideitem_bag_poke_10:
+	_GET_POCKET_NO(@SCWK_TEMP0, @SCWK_ANSWER)
+	_POCKET_NAME(2, @SCWK_ANSWER)
+	_JUMP('ev_itemget_hideitem_common_10')
+	_END()
+hideitem_bag_poke_11:
+	_GET_POCKET_NO(@SCWK_TEMP0, @SCWK_ANSWER)
+	_POCKET_NAME(2, @SCWK_ANSWER)
+	_JUMP('ev_itemget_hideitem_common_10')
+	_END()
+hideitem_bag_poke_12:
+	_GET_POCKET_NO(@SCWK_TEMP0, @SCWK_ANSWER)
+	_POCKET_NAME(2, @SCWK_ANSWER)
+	_JUMP('ev_itemget_hideitem_common_10')
+	_END()
+hideitem_bag_poke_13:
+	_GET_POCKET_NO(@SCWK_TEMP0, @SCWK_ANSWER)
+	_POCKET_NAME(2, @SCWK_ANSWER)
+	_JUMP('ev_itemget_hideitem_common_10')
+	_END()
+hideitem_bag_poke_14:
+	_GET_POCKET_NO(@SCWK_TEMP0, @SCWK_ANSWER)
+	_POCKET_NAME(2, @SCWK_ANSWER)
+	_JUMP('ev_itemget_hideitem_common_10')
+	_END()
+hideitem_bag_poke_15:
+	_GET_POCKET_NO(@SCWK_TEMP0, @SCWK_ANSWER)
+	_POCKET_NAME(2, @SCWK_ANSWER)
+	_JUMP('ev_itemget_hideitem_common_10')
+	_END()
+hideitem_bag_poke_16:
+	_GET_POCKET_NO(@SCWK_TEMP0, @SCWK_ANSWER)
+	_POCKET_NAME(2, @SCWK_ANSWER)
+	_JUMP('ev_itemget_hideitem_common_10')
+	_END()
+hideitem_bag_poke_17:
+	_GET_POCKET_NO(@SCWK_TEMP0, @SCWK_ANSWER)
+	_POCKET_NAME(2, @SCWK_ANSWER)
+	_JUMP('ev_itemget_hideitem_common_10')
+	_END()
+ev_itemget_hideitem_common_10:
+	_NONE_USE_NUMBER('KAKUSHI_ITEM_TV_SET')
+	_FLAG_SET_WK(@SCWK_TEMP2)
+	_TALKMSG('dp_scenario3%94-msg_hide_item_get_10')
+	_LAST_KEYWAIT()
+	_LDVAL(@SCWK_ANSWER, 1)
+	_JUMP('ev_hide_item_end')
+	_END()
+ev_itemget_hideitem_yes_wazam:
+	_PLAYER_NAME(0)
+	_ITEM_NAME(1, @SCWK_TEMP0, 1)
+	_ITEM_WAZA_NAME(2, @SCWK_TEMP0)
+	_TALKMSG('dp_scenario3%94-msg_hide_item_get_07')
+	_ME_WAIT()
+	_JUMP('ev_itemget_hideitem_true_2')
+	_END()
+ev_itemget_hideitem_no_wazam:
+	_PLAYER_NAME(0)
+	_ITEM_NAME(1, @SCWK_TEMP0, 1)
+	_TALKMSG('dp_scenario3%94-msg_hide_item_get_04')
+	_ME_WAIT()
+	_JUMP('ev_itemget_hideitem_true_2')
+	_END()
+ev_itemget_hideitem_false:
+	_ITEM_NAME(0, @SCWK_TEMP0, 1)
+	_TALKMSG('dp_scenario3%94-msg_hide_item_get_05')
+	_LAST_KEYWAIT()
+	_LDVAL(@SCWK_ANSWER, 0)
+	_JUMP('ev_hide_item_end')
+	_END()
+ev_itemget_hide_item_item_ausunopureeto:
+	_CHG_COMMON_SCR('ev_plate_msg')
+	_RET()
+ev_itemget_hide_hiroianime:
+	_AC_ANIM_LOCK('HERO')
+	_OBJ_ANIME('HERO', 'anm_item_get_pose_b')
+	_RET()
+anm_item_get_pose_b:
+	_AC_ANIME_DURATION(0.130000)
+	_AC_INDEX_ANIME(12, 1)
+	_AC_WAIT(28)
+	_AC_INDEX_ANIME(74, 1)
+	_ACMD_END()

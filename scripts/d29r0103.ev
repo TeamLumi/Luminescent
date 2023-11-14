@@ -1,0 +1,65 @@
+ev_d29r0103_flag_change:
+	_ARRIVE_FLAG_SET($FLAG_ARRIVE_D29R0103)
+	_END()
+ev_d29r0103_init_change:
+	_IF_FLAGOFF_JUMP(#FE_D05R0114_CLEAR, 'ev_d29r0103_init_change_obj_del')
+	_IF_FLAGON_JUMP(#FE_D29R0103_LEGEND_CLEAR, 'ev_d29r0103_init_change_obj_del')
+	_IF_FLAGON_JUMP(#FE_D29R0103_RETRY, 'ev_d29r0103_init_change_obj_del')
+	_FLAG_RESET(#FV_D29R0103_REI)
+	_OBJ_ADD('D29R0103_REI')
+	_END()
+ev_d29r0103_init_change_obj_del:
+	_FLAG_SET(#FV_D29R0103_REI)
+	_OBJ_DEL('D29R0103_REI')
+	_END()
+ev_d29r0103_rei:
+	_EVENT_START()
+	_EVENT_CAMERA_INDEX(448)
+	_EVENT_CAMERA_END_WAIT()
+	_CALL('ev_another_out')
+	_TALK_OBJ_START()
+	_VOICE_PLAY(480, 0, 0)
+	_TALK_KEYWAIT('dp_scenario2%191-msg_d29r0103_sppoke1_01')
+	_TALK_CLOSE()
+	_EVENT_CAMERA_INDEX(449)
+	_EVENT_CAMERA_END_WAIT()
+	_SP_WILD_BTL_SET(480, 60); Fight Uxie
+	_SEACRET_POKE_RETRY_CHECK(@SCWK_TEMP0, 480); Get result
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 0, 'ev_d29r0103_rei_lose');CatchChk
+	_FLAG_SET(#FV_D29R0103_REI)
+	_OBJ_DEL('D29R0103_REI')
+	_JUMP('ev_d29r0103_legend_event_clear')
+ev_d29r0103_legend_event_clear:
+	_FLAG_SET(#FE_D29R0103_LEGEND_CLEAR)
+	_CALL('ev_d29r0103_auto_save')
+	_TALK_OBJ_END()
+	_CALL('ev_another_out_end')
+	_EVENT_END()
+	_END()
+ev_d29r0103_rei_lose:
+	_TALK_OBJ_END()
+	_CALL('ev_another_out_end')
+	_EVENT_END()
+	_END()
+ev_d29r0103_legend_capture_ng:
+	_TIME_WAIT(10, @SCWK_ANSWER)
+	_OBJ_DEL('D29R0103_REI')
+	_CALL_EFFECT(0, 'EF_F_CS_CHAP110_KIRA_YELLOW_END', -14, 1, 10)
+	_TIME_WAIT(10, @SCWK_ANSWER)
+	_TALKMSG('dp_scenario2%191-msg_d29r0103_sppoke1_02')
+	_FLAG_SET(#FE_D29R0103_RETRY)
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_RELEASE_EFFECT(0)
+	_TALK_OBJ_END()
+	_CALL('ev_another_out_end')
+	_EVENT_END()
+	_END()
+ev_d29r0103_legend_lose:
+	_NORMAL_LOSE()
+	_TALK_OBJ_END()
+	_EVENT_END()
+	_END()
+ev_d29r0103_auto_save:
+	_AUTO_SAVE()
+	_RET()

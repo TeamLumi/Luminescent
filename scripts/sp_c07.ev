@@ -1,0 +1,9 @@
+SP_C07_FLAG:
+	_JUMP('ev_c07_flag_change')
+	_SP_EVENT_DATA_END()
+SP_C07_SCENE:
+	_JUMP('sp_c07_tbl')
+	_SP_EVENT_DATA_END()
+sp_c07_tbl:
+	_SCENE_CHANGE_DATA(@WK_SCENE_C07_SUPPORT_GYM_AFTER, 1, 'ev_c07_support_gym_after')
+	_SCENE_CHANGE_END()

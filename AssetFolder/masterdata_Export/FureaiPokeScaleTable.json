@@ -1,0 +1,4082 @@
+{
+    "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": -9125259970382524229
+    },
+    "m_Name": "FureaiPokeScaleTable",
+    "Table": [
+        {
+            "PokeID": 1,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 2,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 3,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 4,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 5,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 6,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 7,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 8,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 9,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 10,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 11,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 12,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 13,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 14,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 15,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 16,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 17,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 18,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 19,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 20,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 21,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 22,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 23,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 24,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 25,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 26,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 27,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 28,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 29,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 30,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 31,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 32,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 33,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 34,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 35,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 36,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 37,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 38,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 39,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 40,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 41,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 42,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 43,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 44,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 45,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 46,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 47,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 48,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 49,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 50,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 51,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 52,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 53,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 54,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 55,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 56,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 57,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 58,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 59,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 60,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 61,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 62,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 63,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 64,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 65,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 66,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 67,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 68,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 69,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 70,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 71,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 72,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 73,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 74,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 75,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 76,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 77,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 78,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 79,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 80,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 81,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 82,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 83,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 84,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 85,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 86,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 87,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 88,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 89,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 90,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 91,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 92,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 93,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 94,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 95,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 96,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 97,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 98,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 99,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 100,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 101,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 102,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 103,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 104,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 105,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 106,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 107,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 108,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 109,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 110,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 111,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 112,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 113,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 114,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 115,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 116,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 117,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 118,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 119,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 120,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 121,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 122,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 123,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 124,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 125,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 126,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 127,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 128,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 129,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 130,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 131,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 132,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 133,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 134,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 135,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 136,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 137,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 138,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 139,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 140,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 141,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 142,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 143,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 144,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 145,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 146,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 147,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 148,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 149,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 150,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 151,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 152,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 153,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 154,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 155,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 156,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 157,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 158,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 159,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 160,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 161,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 162,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 163,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 164,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 165,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 166,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 167,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 168,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 169,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 170,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 171,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 172,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 173,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 174,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 175,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 176,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 177,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 178,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 179,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 180,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 181,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 182,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 183,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 184,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 185,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 186,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 187,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 188,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 189,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 190,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 191,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 192,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 193,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 194,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 195,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 196,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 197,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 198,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 199,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 200,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 201,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 202,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 203,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 204,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 205,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 206,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 207,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 208,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 209,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 210,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 211,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 212,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 213,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 214,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 215,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 216,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 217,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 218,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 219,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 220,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 221,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 222,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 223,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 224,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 225,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 226,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 227,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 228,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 229,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 230,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 231,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 232,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 233,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 234,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 235,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 236,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 237,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 238,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 239,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 240,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 241,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 242,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 243,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 244,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 245,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 246,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 247,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 248,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 249,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 250,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 251,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 252,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 253,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 254,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 255,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 256,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 257,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 258,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 259,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 260,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 261,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 262,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 263,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 264,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 265,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 266,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 267,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 268,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 269,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 270,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 271,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 272,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 273,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 274,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 275,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 276,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 277,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 278,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 279,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 280,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 281,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 282,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 283,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 284,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 285,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 286,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 287,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 288,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 289,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 290,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 291,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 292,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 293,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 294,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 295,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 296,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 297,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 298,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 299,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 300,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 301,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 302,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 303,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 304,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 305,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 306,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 307,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 308,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 309,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 310,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 311,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 312,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 313,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 314,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 315,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 316,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 317,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 318,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 319,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 320,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 321,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 322,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 323,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 324,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 325,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 326,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 327,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 328,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 329,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 330,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 331,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 332,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 333,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 334,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 335,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 336,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 337,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 338,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 339,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 340,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 341,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 342,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 343,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 344,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 345,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 346,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 347,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 348,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 349,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 350,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 351,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 352,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 353,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 354,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 355,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 356,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 357,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 358,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 359,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 360,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 361,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 362,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 363,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 364,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 365,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 366,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 367,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 368,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 369,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 370,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 371,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 372,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 373,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 374,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 375,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 376,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 377,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 378,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 379,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 380,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 381,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 382,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 383,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 384,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 385,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 386,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 387,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 388,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 389,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 390,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 391,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 392,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 393,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 394,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 395,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 396,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 397,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 398,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 399,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 400,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 401,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 402,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 403,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 404,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 405,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 406,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 407,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 408,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 409,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 410,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 411,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 412,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 413,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 414,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 415,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 416,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 417,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 418,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 419,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 420,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 421,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 422,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 423,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 424,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 425,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 426,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 427,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 428,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 429,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 430,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 431,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 432,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 433,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 434,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 435,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 436,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 437,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 438,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 439,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 440,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 441,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 442,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 443,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 444,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 445,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 446,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 447,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 448,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 449,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 450,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 451,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 452,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 453,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 454,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 455,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 456,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 457,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 458,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 459,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 460,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 461,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 462,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 463,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 464,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 465,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 466,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 467,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 468,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 469,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 470,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 471,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 472,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 473,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 474,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 475,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 476,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 477,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 478,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 479,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 480,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 481,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 482,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 483,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 484,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 485,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 486,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 487,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 488,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 489,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 490,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 491,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 492,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 493,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 494,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 495,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 496,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 497,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 498,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 499,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 500,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 501,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 502,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 503,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 504,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 505,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 506,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 507,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 508,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 509,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 510,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 511,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 512,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 513,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 514,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 515,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 516,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 517,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 518,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 519,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 520,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 521,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 522,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 523,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 524,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 525,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 526,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 527,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 528,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 529,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 530,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 531,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 532,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 533,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 534,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 535,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 536,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 537,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 538,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 539,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 540,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 541,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 542,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 543,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 544,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 545,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 546,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 547,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 548,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 549,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 550,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 551,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 552,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 553,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 554,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 555,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 556,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 557,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 558,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 559,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 560,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 561,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 562,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 563,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 564,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 565,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 566,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 567,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 568,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 569,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 570,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 571,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 572,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 573,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 574,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 575,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 576,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 577,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 578,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 579,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 580,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 581,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 582,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 583,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 584,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 585,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 586,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 587,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 588,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 589,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 590,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 591,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 592,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 593,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 594,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 595,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 596,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 597,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 598,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 599,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 600,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 601,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 602,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 603,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 604,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 605,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 606,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 607,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 608,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 609,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 610,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 611,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 612,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 613,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 614,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 615,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 616,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 617,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 618,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 619,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 620,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 621,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 622,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 623,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 624,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 625,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 626,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 627,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 628,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 629,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 630,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 631,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 632,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 633,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 634,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 635,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 636,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 637,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 638,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 639,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 640,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 641,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 642,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 643,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 644,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 645,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 646,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 647,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 648,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 649,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 650,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 651,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 652,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 653,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 654,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 655,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 656,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 657,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 658,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 659,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 660,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 661,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 662,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 663,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 664,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 665,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 666,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 667,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 668,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 669,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 670,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 671,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 672,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 673,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 674,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 675,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 676,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 677,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 678,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 679,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 680,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 681,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 682,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 683,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 684,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 685,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 686,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 687,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 688,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 689,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 690,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 691,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 692,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 693,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 694,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 695,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 696,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 697,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 698,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 699,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 700,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 701,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 702,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 703,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 704,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 705,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 706,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 707,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 708,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 709,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 710,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 711,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 712,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 713,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 714,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 715,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 716,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 717,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 718,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 719,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 720,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 721,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 722,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 723,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 724,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 725,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 726,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 727,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 728,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 729,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 730,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 731,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 732,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 733,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 734,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 735,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 736,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 737,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 738,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 739,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 740,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 741,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 742,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 743,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 744,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 745,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 746,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 747,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 748,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 749,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 750,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 751,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 752,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 753,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 754,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 755,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 756,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 757,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 758,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 759,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 760,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 761,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 762,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 763,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 764,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 765,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 766,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 767,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 768,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 769,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 770,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 771,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 772,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 773,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 774,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 775,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 776,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 777,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 778,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 779,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 780,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 781,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 782,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 783,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 784,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 785,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 786,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 787,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 788,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 789,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 790,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 791,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 792,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 793,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 794,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 795,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 796,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 797,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 798,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 799,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 800,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 801,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 802,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 803,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 804,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 805,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 806,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 807,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 808,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 809,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 810,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 811,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 812,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 813,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 814,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 815,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 816,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 817,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 818,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 819,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 820,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 821,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 822,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 823,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 824,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 825,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 826,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 827,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 828,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 829,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 830,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 831,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 832,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 833,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 834,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 835,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 836,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 837,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 838,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 839,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 840,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 841,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 842,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 843,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 844,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 845,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 846,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 847,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 848,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 849,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 850,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 851,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 852,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 853,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 854,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 855,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 856,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 857,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 858,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 859,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 860,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 861,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 862,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 863,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 864,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 865,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 866,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 867,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 868,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 869,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 870,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 871,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 872,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 873,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 874,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 875,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 876,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 877,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 878,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 879,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 880,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 881,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 882,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 883,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 884,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 885,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 886,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 887,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 888,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 889,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 890,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 891,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 892,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 893,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 894,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 895,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 896,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 897,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 898,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 899,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 900,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 901,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 902,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 903,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 904,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 905,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 906,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 907,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 908,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 909,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 910,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 911,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 912,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 913,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 914,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 915,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 916,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 917,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 918,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 919,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 920,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 921,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 922,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 923,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 924,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 925,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 926,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 927,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 928,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 929,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 930,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 931,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 932,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 933,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 934,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 935,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 936,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 937,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 938,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 939,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 940,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 941,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 942,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 943,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 944,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 945,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 946,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 947,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 948,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 949,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 950,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 951,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 952,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 953,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 954,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 955,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 956,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 957,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 958,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 959,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 960,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 961,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 962,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 963,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 964,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 965,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 966,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 967,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 968,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 969,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 970,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 971,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 972,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 973,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 974,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 975,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 976,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 977,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 978,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 979,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 980,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 981,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 982,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 983,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 984,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 985,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 986,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 987,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 988,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 989,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 990,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 991,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 992,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 993,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 994,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 995,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 996,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 997,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 998,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 999,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 1000,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 1001,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 1002,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 1003,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 1004,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 1005,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 1006,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 1007,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 1008,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 1009,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 1010,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 1011,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 1012,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 1013,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 1014,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 1015,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 1016,
+            "Hosei": 1.0
+        },
+        {
+            "PokeID": 1017,
+            "Hosei": 1.0
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "m_Name": "masterdatas/effectdatabase",
+    "m_PreloadTable": [
+        {
+            "m_FileID": 0,
+            "m_PathID": -5996967219975043118
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -3480208905477447690
+        }
+    ],
+    "m_Container": [
+        [
+            "assets/masterdatas/effectdatabase.asset",
+            {
+                "preloadIndex": 0,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -5996967219975043118
+                }
+            }
+        ]
+    ],
+    "m_MainAsset": {
+        "preloadIndex": 0,
+        "preloadSize": 0,
+        "asset": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        }
+    },
+    "m_RuntimeCompatibility": 1,
+    "m_AssetBundleName": "masterdatas/effectdatabase",
+    "m_Dependencies": [],
+    "m_IsStreamedSceneAssetBundle": false,
+    "m_ExplicitDataLayout": 0,
+    "m_PathFlags": 7,
+    "m_SceneHashes": []
+}

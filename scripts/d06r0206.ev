@@ -1,0 +1,20 @@
+ev_d06r0206_man3:
+	_TALK_OBJ_START()
+	_IF_FLAGON_JUMP(#FE_D06R0206_ITEM_GET, 'ev_d06r0206_man3_end')
+	_MACRO_TALKMSG('dp_scenario2', '137-msg_d06r0206_man3_01', 'I picked this up during a Safari Game.\rI don’t collect Shards, so you can\nhave it. Take it away, even.')
+	_LDVAL(@SCWK_TEMP0, 93); Heart scales
+	_LDVAL(@SCWK_TEMP1, 3)
+	_FLAG_SET(#FE_D06R0206_ITEM_GET)
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_d06r0206_man3_end:
+	_MACRO_TALKMSG('dp_scenario2', '137-msg_d06r0206_man3_02', 'Do those turn into something\ngood if you collect them?')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_d06r0206_sign1:
+	_EASY_BOARD_MSG('dp_scenario2%137-msg_d06r0206_sign1_01', 'BOARD_TYPE_POST', 0)
+	_END()

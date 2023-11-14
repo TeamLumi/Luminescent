@@ -1,0 +1,4082 @@
+{
+    "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": -8760156685110305845
+    },
+    "m_Name": "HirobaEnterablePoke",
+    "EnterablePoke": [
+        {
+            "PokeID": 1,
+            "ZenkokuPokeID": 1
+        },
+        {
+            "PokeID": 2,
+            "ZenkokuPokeID": 2
+        },
+        {
+            "PokeID": 3,
+            "ZenkokuPokeID": 3
+        },
+        {
+            "PokeID": 4,
+            "ZenkokuPokeID": 4
+        },
+        {
+            "PokeID": 5,
+            "ZenkokuPokeID": 5
+        },
+        {
+            "PokeID": 6,
+            "ZenkokuPokeID": 6
+        },
+        {
+            "PokeID": 7,
+            "ZenkokuPokeID": 7
+        },
+        {
+            "PokeID": 8,
+            "ZenkokuPokeID": 8
+        },
+        {
+            "PokeID": 9,
+            "ZenkokuPokeID": 9
+        },
+        {
+            "PokeID": 10,
+            "ZenkokuPokeID": 10
+        },
+        {
+            "PokeID": 11,
+            "ZenkokuPokeID": 11
+        },
+        {
+            "PokeID": 12,
+            "ZenkokuPokeID": 12
+        },
+        {
+            "PokeID": 13,
+            "ZenkokuPokeID": 13
+        },
+        {
+            "PokeID": 14,
+            "ZenkokuPokeID": 14
+        },
+        {
+            "PokeID": 15,
+            "ZenkokuPokeID": 15
+        },
+        {
+            "PokeID": 16,
+            "ZenkokuPokeID": 16
+        },
+        {
+            "PokeID": 17,
+            "ZenkokuPokeID": 17
+        },
+        {
+            "PokeID": 18,
+            "ZenkokuPokeID": 18
+        },
+        {
+            "PokeID": 19,
+            "ZenkokuPokeID": 19
+        },
+        {
+            "PokeID": 20,
+            "ZenkokuPokeID": 20
+        },
+        {
+            "PokeID": 21,
+            "ZenkokuPokeID": 21
+        },
+        {
+            "PokeID": 22,
+            "ZenkokuPokeID": 22
+        },
+        {
+            "PokeID": 23,
+            "ZenkokuPokeID": 23
+        },
+        {
+            "PokeID": 24,
+            "ZenkokuPokeID": 24
+        },
+        {
+            "PokeID": 25,
+            "ZenkokuPokeID": 25
+        },
+        {
+            "PokeID": 26,
+            "ZenkokuPokeID": 26
+        },
+        {
+            "PokeID": 27,
+            "ZenkokuPokeID": 27
+        },
+        {
+            "PokeID": 28,
+            "ZenkokuPokeID": 28
+        },
+        {
+            "PokeID": 29,
+            "ZenkokuPokeID": 29
+        },
+        {
+            "PokeID": 30,
+            "ZenkokuPokeID": 30
+        },
+        {
+            "PokeID": 31,
+            "ZenkokuPokeID": 31
+        },
+        {
+            "PokeID": 32,
+            "ZenkokuPokeID": 32
+        },
+        {
+            "PokeID": 33,
+            "ZenkokuPokeID": 33
+        },
+        {
+            "PokeID": 34,
+            "ZenkokuPokeID": 34
+        },
+        {
+            "PokeID": 35,
+            "ZenkokuPokeID": 35
+        },
+        {
+            "PokeID": 36,
+            "ZenkokuPokeID": 36
+        },
+        {
+            "PokeID": 37,
+            "ZenkokuPokeID": 37
+        },
+        {
+            "PokeID": 38,
+            "ZenkokuPokeID": 38
+        },
+        {
+            "PokeID": 39,
+            "ZenkokuPokeID": 39
+        },
+        {
+            "PokeID": 40,
+            "ZenkokuPokeID": 40
+        },
+        {
+            "PokeID": 41,
+            "ZenkokuPokeID": 41
+        },
+        {
+            "PokeID": 42,
+            "ZenkokuPokeID": 42
+        },
+        {
+            "PokeID": 43,
+            "ZenkokuPokeID": 43
+        },
+        {
+            "PokeID": 44,
+            "ZenkokuPokeID": 44
+        },
+        {
+            "PokeID": 45,
+            "ZenkokuPokeID": 45
+        },
+        {
+            "PokeID": 46,
+            "ZenkokuPokeID": 46
+        },
+        {
+            "PokeID": 47,
+            "ZenkokuPokeID": 47
+        },
+        {
+            "PokeID": 48,
+            "ZenkokuPokeID": 48
+        },
+        {
+            "PokeID": 49,
+            "ZenkokuPokeID": 49
+        },
+        {
+            "PokeID": 50,
+            "ZenkokuPokeID": 50
+        },
+        {
+            "PokeID": 51,
+            "ZenkokuPokeID": 51
+        },
+        {
+            "PokeID": 52,
+            "ZenkokuPokeID": 52
+        },
+        {
+            "PokeID": 53,
+            "ZenkokuPokeID": 53
+        },
+        {
+            "PokeID": 54,
+            "ZenkokuPokeID": 54
+        },
+        {
+            "PokeID": 55,
+            "ZenkokuPokeID": 55
+        },
+        {
+            "PokeID": 56,
+            "ZenkokuPokeID": 56
+        },
+        {
+            "PokeID": 57,
+            "ZenkokuPokeID": 57
+        },
+        {
+            "PokeID": 58,
+            "ZenkokuPokeID": 58
+        },
+        {
+            "PokeID": 59,
+            "ZenkokuPokeID": 59
+        },
+        {
+            "PokeID": 60,
+            "ZenkokuPokeID": 60
+        },
+        {
+            "PokeID": 61,
+            "ZenkokuPokeID": 61
+        },
+        {
+            "PokeID": 62,
+            "ZenkokuPokeID": 62
+        },
+        {
+            "PokeID": 63,
+            "ZenkokuPokeID": 63
+        },
+        {
+            "PokeID": 64,
+            "ZenkokuPokeID": 64
+        },
+        {
+            "PokeID": 65,
+            "ZenkokuPokeID": 65
+        },
+        {
+            "PokeID": 66,
+            "ZenkokuPokeID": 66
+        },
+        {
+            "PokeID": 67,
+            "ZenkokuPokeID": 67
+        },
+        {
+            "PokeID": 68,
+            "ZenkokuPokeID": 68
+        },
+        {
+            "PokeID": 69,
+            "ZenkokuPokeID": 69
+        },
+        {
+            "PokeID": 70,
+            "ZenkokuPokeID": 70
+        },
+        {
+            "PokeID": 71,
+            "ZenkokuPokeID": 71
+        },
+        {
+            "PokeID": 72,
+            "ZenkokuPokeID": 72
+        },
+        {
+            "PokeID": 73,
+            "ZenkokuPokeID": 73
+        },
+        {
+            "PokeID": 74,
+            "ZenkokuPokeID": 74
+        },
+        {
+            "PokeID": 75,
+            "ZenkokuPokeID": 75
+        },
+        {
+            "PokeID": 76,
+            "ZenkokuPokeID": 76
+        },
+        {
+            "PokeID": 77,
+            "ZenkokuPokeID": 77
+        },
+        {
+            "PokeID": 78,
+            "ZenkokuPokeID": 78
+        },
+        {
+            "PokeID": 79,
+            "ZenkokuPokeID": 79
+        },
+        {
+            "PokeID": 80,
+            "ZenkokuPokeID": 80
+        },
+        {
+            "PokeID": 81,
+            "ZenkokuPokeID": 81
+        },
+        {
+            "PokeID": 82,
+            "ZenkokuPokeID": 82
+        },
+        {
+            "PokeID": 83,
+            "ZenkokuPokeID": 83
+        },
+        {
+            "PokeID": 84,
+            "ZenkokuPokeID": 84
+        },
+        {
+            "PokeID": 85,
+            "ZenkokuPokeID": 85
+        },
+        {
+            "PokeID": 86,
+            "ZenkokuPokeID": 86
+        },
+        {
+            "PokeID": 87,
+            "ZenkokuPokeID": 87
+        },
+        {
+            "PokeID": 88,
+            "ZenkokuPokeID": 88
+        },
+        {
+            "PokeID": 89,
+            "ZenkokuPokeID": 89
+        },
+        {
+            "PokeID": 90,
+            "ZenkokuPokeID": 90
+        },
+        {
+            "PokeID": 91,
+            "ZenkokuPokeID": 91
+        },
+        {
+            "PokeID": 92,
+            "ZenkokuPokeID": 92
+        },
+        {
+            "PokeID": 93,
+            "ZenkokuPokeID": 93
+        },
+        {
+            "PokeID": 94,
+            "ZenkokuPokeID": 94
+        },
+        {
+            "PokeID": 95,
+            "ZenkokuPokeID": 95
+        },
+        {
+            "PokeID": 96,
+            "ZenkokuPokeID": 96
+        },
+        {
+            "PokeID": 97,
+            "ZenkokuPokeID": 97
+        },
+        {
+            "PokeID": 98,
+            "ZenkokuPokeID": 98
+        },
+        {
+            "PokeID": 99,
+            "ZenkokuPokeID": 99
+        },
+        {
+            "PokeID": 100,
+            "ZenkokuPokeID": 100
+        },
+        {
+            "PokeID": 101,
+            "ZenkokuPokeID": 101
+        },
+        {
+            "PokeID": 102,
+            "ZenkokuPokeID": 102
+        },
+        {
+            "PokeID": 103,
+            "ZenkokuPokeID": 103
+        },
+        {
+            "PokeID": 104,
+            "ZenkokuPokeID": 104
+        },
+        {
+            "PokeID": 105,
+            "ZenkokuPokeID": 105
+        },
+        {
+            "PokeID": 106,
+            "ZenkokuPokeID": 106
+        },
+        {
+            "PokeID": 107,
+            "ZenkokuPokeID": 107
+        },
+        {
+            "PokeID": 108,
+            "ZenkokuPokeID": 108
+        },
+        {
+            "PokeID": 109,
+            "ZenkokuPokeID": 109
+        },
+        {
+            "PokeID": 110,
+            "ZenkokuPokeID": 110
+        },
+        {
+            "PokeID": 111,
+            "ZenkokuPokeID": 111
+        },
+        {
+            "PokeID": 112,
+            "ZenkokuPokeID": 112
+        },
+        {
+            "PokeID": 113,
+            "ZenkokuPokeID": 113
+        },
+        {
+            "PokeID": 114,
+            "ZenkokuPokeID": 114
+        },
+        {
+            "PokeID": 115,
+            "ZenkokuPokeID": 115
+        },
+        {
+            "PokeID": 116,
+            "ZenkokuPokeID": 116
+        },
+        {
+            "PokeID": 117,
+            "ZenkokuPokeID": 117
+        },
+        {
+            "PokeID": 118,
+            "ZenkokuPokeID": 118
+        },
+        {
+            "PokeID": 119,
+            "ZenkokuPokeID": 119
+        },
+        {
+            "PokeID": 120,
+            "ZenkokuPokeID": 120
+        },
+        {
+            "PokeID": 121,
+            "ZenkokuPokeID": 121
+        },
+        {
+            "PokeID": 122,
+            "ZenkokuPokeID": 122
+        },
+        {
+            "PokeID": 123,
+            "ZenkokuPokeID": 123
+        },
+        {
+            "PokeID": 124,
+            "ZenkokuPokeID": 124
+        },
+        {
+            "PokeID": 125,
+            "ZenkokuPokeID": 125
+        },
+        {
+            "PokeID": 126,
+            "ZenkokuPokeID": 126
+        },
+        {
+            "PokeID": 127,
+            "ZenkokuPokeID": 127
+        },
+        {
+            "PokeID": 128,
+            "ZenkokuPokeID": 128
+        },
+        {
+            "PokeID": 129,
+            "ZenkokuPokeID": 129
+        },
+        {
+            "PokeID": 130,
+            "ZenkokuPokeID": 130
+        },
+        {
+            "PokeID": 131,
+            "ZenkokuPokeID": 131
+        },
+        {
+            "PokeID": 132,
+            "ZenkokuPokeID": 132
+        },
+        {
+            "PokeID": 133,
+            "ZenkokuPokeID": 133
+        },
+        {
+            "PokeID": 134,
+            "ZenkokuPokeID": 134
+        },
+        {
+            "PokeID": 135,
+            "ZenkokuPokeID": 135
+        },
+        {
+            "PokeID": 136,
+            "ZenkokuPokeID": 136
+        },
+        {
+            "PokeID": 137,
+            "ZenkokuPokeID": 137
+        },
+        {
+            "PokeID": 138,
+            "ZenkokuPokeID": 138
+        },
+        {
+            "PokeID": 139,
+            "ZenkokuPokeID": 139
+        },
+        {
+            "PokeID": 140,
+            "ZenkokuPokeID": 140
+        },
+        {
+            "PokeID": 141,
+            "ZenkokuPokeID": 141
+        },
+        {
+            "PokeID": 142,
+            "ZenkokuPokeID": 142
+        },
+        {
+            "PokeID": 143,
+            "ZenkokuPokeID": 143
+        },
+        {
+            "PokeID": 144,
+            "ZenkokuPokeID": 144
+        },
+        {
+            "PokeID": 145,
+            "ZenkokuPokeID": 145
+        },
+        {
+            "PokeID": 146,
+            "ZenkokuPokeID": 146
+        },
+        {
+            "PokeID": 147,
+            "ZenkokuPokeID": 147
+        },
+        {
+            "PokeID": 148,
+            "ZenkokuPokeID": 148
+        },
+        {
+            "PokeID": 149,
+            "ZenkokuPokeID": 149
+        },
+        {
+            "PokeID": 150,
+            "ZenkokuPokeID": 150
+        },
+        {
+            "PokeID": 151,
+            "ZenkokuPokeID": 151
+        },
+        {
+            "PokeID": 152,
+            "ZenkokuPokeID": 152
+        },
+        {
+            "PokeID": 153,
+            "ZenkokuPokeID": 153
+        },
+        {
+            "PokeID": 154,
+            "ZenkokuPokeID": 154
+        },
+        {
+            "PokeID": 155,
+            "ZenkokuPokeID": 155
+        },
+        {
+            "PokeID": 156,
+            "ZenkokuPokeID": 156
+        },
+        {
+            "PokeID": 157,
+            "ZenkokuPokeID": 157
+        },
+        {
+            "PokeID": 158,
+            "ZenkokuPokeID": 158
+        },
+        {
+            "PokeID": 159,
+            "ZenkokuPokeID": 159
+        },
+        {
+            "PokeID": 160,
+            "ZenkokuPokeID": 160
+        },
+        {
+            "PokeID": 161,
+            "ZenkokuPokeID": 161
+        },
+        {
+            "PokeID": 162,
+            "ZenkokuPokeID": 162
+        },
+        {
+            "PokeID": 163,
+            "ZenkokuPokeID": 163
+        },
+        {
+            "PokeID": 164,
+            "ZenkokuPokeID": 164
+        },
+        {
+            "PokeID": 165,
+            "ZenkokuPokeID": 165
+        },
+        {
+            "PokeID": 166,
+            "ZenkokuPokeID": 166
+        },
+        {
+            "PokeID": 167,
+            "ZenkokuPokeID": 167
+        },
+        {
+            "PokeID": 168,
+            "ZenkokuPokeID": 168
+        },
+        {
+            "PokeID": 169,
+            "ZenkokuPokeID": 169
+        },
+        {
+            "PokeID": 170,
+            "ZenkokuPokeID": 170
+        },
+        {
+            "PokeID": 171,
+            "ZenkokuPokeID": 171
+        },
+        {
+            "PokeID": 172,
+            "ZenkokuPokeID": 172
+        },
+        {
+            "PokeID": 173,
+            "ZenkokuPokeID": 173
+        },
+        {
+            "PokeID": 174,
+            "ZenkokuPokeID": 174
+        },
+        {
+            "PokeID": 175,
+            "ZenkokuPokeID": 175
+        },
+        {
+            "PokeID": 176,
+            "ZenkokuPokeID": 176
+        },
+        {
+            "PokeID": 177,
+            "ZenkokuPokeID": 177
+        },
+        {
+            "PokeID": 178,
+            "ZenkokuPokeID": 178
+        },
+        {
+            "PokeID": 179,
+            "ZenkokuPokeID": 179
+        },
+        {
+            "PokeID": 180,
+            "ZenkokuPokeID": 180
+        },
+        {
+            "PokeID": 181,
+            "ZenkokuPokeID": 181
+        },
+        {
+            "PokeID": 182,
+            "ZenkokuPokeID": 182
+        },
+        {
+            "PokeID": 183,
+            "ZenkokuPokeID": 183
+        },
+        {
+            "PokeID": 184,
+            "ZenkokuPokeID": 184
+        },
+        {
+            "PokeID": 185,
+            "ZenkokuPokeID": 185
+        },
+        {
+            "PokeID": 186,
+            "ZenkokuPokeID": 186
+        },
+        {
+            "PokeID": 187,
+            "ZenkokuPokeID": 187
+        },
+        {
+            "PokeID": 188,
+            "ZenkokuPokeID": 188
+        },
+        {
+            "PokeID": 189,
+            "ZenkokuPokeID": 189
+        },
+        {
+            "PokeID": 190,
+            "ZenkokuPokeID": 190
+        },
+        {
+            "PokeID": 191,
+            "ZenkokuPokeID": 191
+        },
+        {
+            "PokeID": 192,
+            "ZenkokuPokeID": 192
+        },
+        {
+            "PokeID": 193,
+            "ZenkokuPokeID": 193
+        },
+        {
+            "PokeID": 194,
+            "ZenkokuPokeID": 194
+        },
+        {
+            "PokeID": 195,
+            "ZenkokuPokeID": 195
+        },
+        {
+            "PokeID": 196,
+            "ZenkokuPokeID": 196
+        },
+        {
+            "PokeID": 197,
+            "ZenkokuPokeID": 197
+        },
+        {
+            "PokeID": 198,
+            "ZenkokuPokeID": 198
+        },
+        {
+            "PokeID": 199,
+            "ZenkokuPokeID": 199
+        },
+        {
+            "PokeID": 200,
+            "ZenkokuPokeID": 200
+        },
+        {
+            "PokeID": 201,
+            "ZenkokuPokeID": 201
+        },
+        {
+            "PokeID": 202,
+            "ZenkokuPokeID": 202
+        },
+        {
+            "PokeID": 203,
+            "ZenkokuPokeID": 203
+        },
+        {
+            "PokeID": 204,
+            "ZenkokuPokeID": 204
+        },
+        {
+            "PokeID": 205,
+            "ZenkokuPokeID": 205
+        },
+        {
+            "PokeID": 206,
+            "ZenkokuPokeID": 206
+        },
+        {
+            "PokeID": 207,
+            "ZenkokuPokeID": 207
+        },
+        {
+            "PokeID": 208,
+            "ZenkokuPokeID": 208
+        },
+        {
+            "PokeID": 209,
+            "ZenkokuPokeID": 209
+        },
+        {
+            "PokeID": 210,
+            "ZenkokuPokeID": 210
+        },
+        {
+            "PokeID": 211,
+            "ZenkokuPokeID": 211
+        },
+        {
+            "PokeID": 212,
+            "ZenkokuPokeID": 212
+        },
+        {
+            "PokeID": 213,
+            "ZenkokuPokeID": 213
+        },
+        {
+            "PokeID": 214,
+            "ZenkokuPokeID": 214
+        },
+        {
+            "PokeID": 215,
+            "ZenkokuPokeID": 215
+        },
+        {
+            "PokeID": 216,
+            "ZenkokuPokeID": 216
+        },
+        {
+            "PokeID": 217,
+            "ZenkokuPokeID": 217
+        },
+        {
+            "PokeID": 218,
+            "ZenkokuPokeID": 218
+        },
+        {
+            "PokeID": 219,
+            "ZenkokuPokeID": 219
+        },
+        {
+            "PokeID": 220,
+            "ZenkokuPokeID": 220
+        },
+        {
+            "PokeID": 221,
+            "ZenkokuPokeID": 221
+        },
+        {
+            "PokeID": 222,
+            "ZenkokuPokeID": 222
+        },
+        {
+            "PokeID": 223,
+            "ZenkokuPokeID": 223
+        },
+        {
+            "PokeID": 224,
+            "ZenkokuPokeID": 224
+        },
+        {
+            "PokeID": 225,
+            "ZenkokuPokeID": 225
+        },
+        {
+            "PokeID": 226,
+            "ZenkokuPokeID": 226
+        },
+        {
+            "PokeID": 227,
+            "ZenkokuPokeID": 227
+        },
+        {
+            "PokeID": 228,
+            "ZenkokuPokeID": 228
+        },
+        {
+            "PokeID": 229,
+            "ZenkokuPokeID": 229
+        },
+        {
+            "PokeID": 230,
+            "ZenkokuPokeID": 230
+        },
+        {
+            "PokeID": 231,
+            "ZenkokuPokeID": 231
+        },
+        {
+            "PokeID": 232,
+            "ZenkokuPokeID": 232
+        },
+        {
+            "PokeID": 233,
+            "ZenkokuPokeID": 233
+        },
+        {
+            "PokeID": 234,
+            "ZenkokuPokeID": 234
+        },
+        {
+            "PokeID": 235,
+            "ZenkokuPokeID": 235
+        },
+        {
+            "PokeID": 236,
+            "ZenkokuPokeID": 236
+        },
+        {
+            "PokeID": 237,
+            "ZenkokuPokeID": 237
+        },
+        {
+            "PokeID": 238,
+            "ZenkokuPokeID": 238
+        },
+        {
+            "PokeID": 239,
+            "ZenkokuPokeID": 239
+        },
+        {
+            "PokeID": 240,
+            "ZenkokuPokeID": 240
+        },
+        {
+            "PokeID": 241,
+            "ZenkokuPokeID": 241
+        },
+        {
+            "PokeID": 242,
+            "ZenkokuPokeID": 242
+        },
+        {
+            "PokeID": 243,
+            "ZenkokuPokeID": 243
+        },
+        {
+            "PokeID": 244,
+            "ZenkokuPokeID": 244
+        },
+        {
+            "PokeID": 245,
+            "ZenkokuPokeID": 245
+        },
+        {
+            "PokeID": 246,
+            "ZenkokuPokeID": 246
+        },
+        {
+            "PokeID": 247,
+            "ZenkokuPokeID": 247
+        },
+        {
+            "PokeID": 248,
+            "ZenkokuPokeID": 248
+        },
+        {
+            "PokeID": 249,
+            "ZenkokuPokeID": 249
+        },
+        {
+            "PokeID": 250,
+            "ZenkokuPokeID": 250
+        },
+        {
+            "PokeID": 251,
+            "ZenkokuPokeID": 251
+        },
+        {
+            "PokeID": 252,
+            "ZenkokuPokeID": 252
+        },
+        {
+            "PokeID": 253,
+            "ZenkokuPokeID": 253
+        },
+        {
+            "PokeID": 254,
+            "ZenkokuPokeID": 254
+        },
+        {
+            "PokeID": 255,
+            "ZenkokuPokeID": 255
+        },
+        {
+            "PokeID": 256,
+            "ZenkokuPokeID": 256
+        },
+        {
+            "PokeID": 257,
+            "ZenkokuPokeID": 257
+        },
+        {
+            "PokeID": 258,
+            "ZenkokuPokeID": 258
+        },
+        {
+            "PokeID": 259,
+            "ZenkokuPokeID": 259
+        },
+        {
+            "PokeID": 260,
+            "ZenkokuPokeID": 260
+        },
+        {
+            "PokeID": 261,
+            "ZenkokuPokeID": 261
+        },
+        {
+            "PokeID": 262,
+            "ZenkokuPokeID": 262
+        },
+        {
+            "PokeID": 263,
+            "ZenkokuPokeID": 263
+        },
+        {
+            "PokeID": 264,
+            "ZenkokuPokeID": 264
+        },
+        {
+            "PokeID": 265,
+            "ZenkokuPokeID": 265
+        },
+        {
+            "PokeID": 266,
+            "ZenkokuPokeID": 266
+        },
+        {
+            "PokeID": 267,
+            "ZenkokuPokeID": 267
+        },
+        {
+            "PokeID": 268,
+            "ZenkokuPokeID": 268
+        },
+        {
+            "PokeID": 269,
+            "ZenkokuPokeID": 269
+        },
+        {
+            "PokeID": 270,
+            "ZenkokuPokeID": 270
+        },
+        {
+            "PokeID": 271,
+            "ZenkokuPokeID": 271
+        },
+        {
+            "PokeID": 272,
+            "ZenkokuPokeID": 272
+        },
+        {
+            "PokeID": 273,
+            "ZenkokuPokeID": 273
+        },
+        {
+            "PokeID": 274,
+            "ZenkokuPokeID": 274
+        },
+        {
+            "PokeID": 275,
+            "ZenkokuPokeID": 275
+        },
+        {
+            "PokeID": 276,
+            "ZenkokuPokeID": 276
+        },
+        {
+            "PokeID": 277,
+            "ZenkokuPokeID": 277
+        },
+        {
+            "PokeID": 278,
+            "ZenkokuPokeID": 278
+        },
+        {
+            "PokeID": 279,
+            "ZenkokuPokeID": 279
+        },
+        {
+            "PokeID": 280,
+            "ZenkokuPokeID": 280
+        },
+        {
+            "PokeID": 281,
+            "ZenkokuPokeID": 281
+        },
+        {
+            "PokeID": 282,
+            "ZenkokuPokeID": 282
+        },
+        {
+            "PokeID": 283,
+            "ZenkokuPokeID": 283
+        },
+        {
+            "PokeID": 284,
+            "ZenkokuPokeID": 284
+        },
+        {
+            "PokeID": 285,
+            "ZenkokuPokeID": 285
+        },
+        {
+            "PokeID": 286,
+            "ZenkokuPokeID": 286
+        },
+        {
+            "PokeID": 287,
+            "ZenkokuPokeID": 287
+        },
+        {
+            "PokeID": 288,
+            "ZenkokuPokeID": 288
+        },
+        {
+            "PokeID": 289,
+            "ZenkokuPokeID": 289
+        },
+        {
+            "PokeID": 290,
+            "ZenkokuPokeID": 290
+        },
+        {
+            "PokeID": 291,
+            "ZenkokuPokeID": 291
+        },
+        {
+            "PokeID": 292,
+            "ZenkokuPokeID": 292
+        },
+        {
+            "PokeID": 293,
+            "ZenkokuPokeID": 293
+        },
+        {
+            "PokeID": 294,
+            "ZenkokuPokeID": 294
+        },
+        {
+            "PokeID": 295,
+            "ZenkokuPokeID": 295
+        },
+        {
+            "PokeID": 296,
+            "ZenkokuPokeID": 296
+        },
+        {
+            "PokeID": 297,
+            "ZenkokuPokeID": 297
+        },
+        {
+            "PokeID": 298,
+            "ZenkokuPokeID": 298
+        },
+        {
+            "PokeID": 299,
+            "ZenkokuPokeID": 299
+        },
+        {
+            "PokeID": 300,
+            "ZenkokuPokeID": 300
+        },
+        {
+            "PokeID": 301,
+            "ZenkokuPokeID": 301
+        },
+        {
+            "PokeID": 302,
+            "ZenkokuPokeID": 302
+        },
+        {
+            "PokeID": 303,
+            "ZenkokuPokeID": 303
+        },
+        {
+            "PokeID": 304,
+            "ZenkokuPokeID": 304
+        },
+        {
+            "PokeID": 305,
+            "ZenkokuPokeID": 305
+        },
+        {
+            "PokeID": 306,
+            "ZenkokuPokeID": 306
+        },
+        {
+            "PokeID": 307,
+            "ZenkokuPokeID": 307
+        },
+        {
+            "PokeID": 308,
+            "ZenkokuPokeID": 308
+        },
+        {
+            "PokeID": 309,
+            "ZenkokuPokeID": 309
+        },
+        {
+            "PokeID": 310,
+            "ZenkokuPokeID": 310
+        },
+        {
+            "PokeID": 311,
+            "ZenkokuPokeID": 311
+        },
+        {
+            "PokeID": 312,
+            "ZenkokuPokeID": 312
+        },
+        {
+            "PokeID": 313,
+            "ZenkokuPokeID": 313
+        },
+        {
+            "PokeID": 314,
+            "ZenkokuPokeID": 314
+        },
+        {
+            "PokeID": 315,
+            "ZenkokuPokeID": 315
+        },
+        {
+            "PokeID": 316,
+            "ZenkokuPokeID": 316
+        },
+        {
+            "PokeID": 317,
+            "ZenkokuPokeID": 317
+        },
+        {
+            "PokeID": 318,
+            "ZenkokuPokeID": 318
+        },
+        {
+            "PokeID": 319,
+            "ZenkokuPokeID": 319
+        },
+        {
+            "PokeID": 320,
+            "ZenkokuPokeID": 320
+        },
+        {
+            "PokeID": 321,
+            "ZenkokuPokeID": 321
+        },
+        {
+            "PokeID": 322,
+            "ZenkokuPokeID": 322
+        },
+        {
+            "PokeID": 323,
+            "ZenkokuPokeID": 323
+        },
+        {
+            "PokeID": 324,
+            "ZenkokuPokeID": 324
+        },
+        {
+            "PokeID": 325,
+            "ZenkokuPokeID": 325
+        },
+        {
+            "PokeID": 326,
+            "ZenkokuPokeID": 326
+        },
+        {
+            "PokeID": 327,
+            "ZenkokuPokeID": 327
+        },
+        {
+            "PokeID": 328,
+            "ZenkokuPokeID": 328
+        },
+        {
+            "PokeID": 329,
+            "ZenkokuPokeID": 329
+        },
+        {
+            "PokeID": 330,
+            "ZenkokuPokeID": 330
+        },
+        {
+            "PokeID": 331,
+            "ZenkokuPokeID": 331
+        },
+        {
+            "PokeID": 332,
+            "ZenkokuPokeID": 332
+        },
+        {
+            "PokeID": 333,
+            "ZenkokuPokeID": 333
+        },
+        {
+            "PokeID": 334,
+            "ZenkokuPokeID": 334
+        },
+        {
+            "PokeID": 335,
+            "ZenkokuPokeID": 335
+        },
+        {
+            "PokeID": 336,
+            "ZenkokuPokeID": 336
+        },
+        {
+            "PokeID": 337,
+            "ZenkokuPokeID": 337
+        },
+        {
+            "PokeID": 338,
+            "ZenkokuPokeID": 338
+        },
+        {
+            "PokeID": 339,
+            "ZenkokuPokeID": 339
+        },
+        {
+            "PokeID": 340,
+            "ZenkokuPokeID": 340
+        },
+        {
+            "PokeID": 341,
+            "ZenkokuPokeID": 341
+        },
+        {
+            "PokeID": 342,
+            "ZenkokuPokeID": 342
+        },
+        {
+            "PokeID": 343,
+            "ZenkokuPokeID": 343
+        },
+        {
+            "PokeID": 344,
+            "ZenkokuPokeID": 344
+        },
+        {
+            "PokeID": 345,
+            "ZenkokuPokeID": 345
+        },
+        {
+            "PokeID": 346,
+            "ZenkokuPokeID": 346
+        },
+        {
+            "PokeID": 347,
+            "ZenkokuPokeID": 347
+        },
+        {
+            "PokeID": 348,
+            "ZenkokuPokeID": 348
+        },
+        {
+            "PokeID": 349,
+            "ZenkokuPokeID": 349
+        },
+        {
+            "PokeID": 350,
+            "ZenkokuPokeID": 350
+        },
+        {
+            "PokeID": 351,
+            "ZenkokuPokeID": 351
+        },
+        {
+            "PokeID": 352,
+            "ZenkokuPokeID": 352
+        },
+        {
+            "PokeID": 353,
+            "ZenkokuPokeID": 353
+        },
+        {
+            "PokeID": 354,
+            "ZenkokuPokeID": 354
+        },
+        {
+            "PokeID": 355,
+            "ZenkokuPokeID": 355
+        },
+        {
+            "PokeID": 356,
+            "ZenkokuPokeID": 356
+        },
+        {
+            "PokeID": 357,
+            "ZenkokuPokeID": 357
+        },
+        {
+            "PokeID": 358,
+            "ZenkokuPokeID": 358
+        },
+        {
+            "PokeID": 359,
+            "ZenkokuPokeID": 359
+        },
+        {
+            "PokeID": 360,
+            "ZenkokuPokeID": 360
+        },
+        {
+            "PokeID": 361,
+            "ZenkokuPokeID": 361
+        },
+        {
+            "PokeID": 362,
+            "ZenkokuPokeID": 362
+        },
+        {
+            "PokeID": 363,
+            "ZenkokuPokeID": 363
+        },
+        {
+            "PokeID": 364,
+            "ZenkokuPokeID": 364
+        },
+        {
+            "PokeID": 365,
+            "ZenkokuPokeID": 365
+        },
+        {
+            "PokeID": 366,
+            "ZenkokuPokeID": 366
+        },
+        {
+            "PokeID": 367,
+            "ZenkokuPokeID": 367
+        },
+        {
+            "PokeID": 368,
+            "ZenkokuPokeID": 368
+        },
+        {
+            "PokeID": 369,
+            "ZenkokuPokeID": 369
+        },
+        {
+            "PokeID": 370,
+            "ZenkokuPokeID": 370
+        },
+        {
+            "PokeID": 371,
+            "ZenkokuPokeID": 371
+        },
+        {
+            "PokeID": 372,
+            "ZenkokuPokeID": 372
+        },
+        {
+            "PokeID": 373,
+            "ZenkokuPokeID": 373
+        },
+        {
+            "PokeID": 374,
+            "ZenkokuPokeID": 374
+        },
+        {
+            "PokeID": 375,
+            "ZenkokuPokeID": 375
+        },
+        {
+            "PokeID": 376,
+            "ZenkokuPokeID": 376
+        },
+        {
+            "PokeID": 377,
+            "ZenkokuPokeID": 377
+        },
+        {
+            "PokeID": 378,
+            "ZenkokuPokeID": 378
+        },
+        {
+            "PokeID": 379,
+            "ZenkokuPokeID": 379
+        },
+        {
+            "PokeID": 380,
+            "ZenkokuPokeID": 380
+        },
+        {
+            "PokeID": 381,
+            "ZenkokuPokeID": 381
+        },
+        {
+            "PokeID": 382,
+            "ZenkokuPokeID": 382
+        },
+        {
+            "PokeID": 383,
+            "ZenkokuPokeID": 383
+        },
+        {
+            "PokeID": 384,
+            "ZenkokuPokeID": 384
+        },
+        {
+            "PokeID": 385,
+            "ZenkokuPokeID": 385
+        },
+        {
+            "PokeID": 386,
+            "ZenkokuPokeID": 386
+        },
+        {
+            "PokeID": 387,
+            "ZenkokuPokeID": 387
+        },
+        {
+            "PokeID": 388,
+            "ZenkokuPokeID": 388
+        },
+        {
+            "PokeID": 389,
+            "ZenkokuPokeID": 389
+        },
+        {
+            "PokeID": 390,
+            "ZenkokuPokeID": 390
+        },
+        {
+            "PokeID": 391,
+            "ZenkokuPokeID": 391
+        },
+        {
+            "PokeID": 392,
+            "ZenkokuPokeID": 392
+        },
+        {
+            "PokeID": 393,
+            "ZenkokuPokeID": 393
+        },
+        {
+            "PokeID": 394,
+            "ZenkokuPokeID": 394
+        },
+        {
+            "PokeID": 395,
+            "ZenkokuPokeID": 395
+        },
+        {
+            "PokeID": 396,
+            "ZenkokuPokeID": 396
+        },
+        {
+            "PokeID": 397,
+            "ZenkokuPokeID": 397
+        },
+        {
+            "PokeID": 398,
+            "ZenkokuPokeID": 398
+        },
+        {
+            "PokeID": 399,
+            "ZenkokuPokeID": 399
+        },
+        {
+            "PokeID": 400,
+            "ZenkokuPokeID": 400
+        },
+        {
+            "PokeID": 401,
+            "ZenkokuPokeID": 401
+        },
+        {
+            "PokeID": 402,
+            "ZenkokuPokeID": 402
+        },
+        {
+            "PokeID": 403,
+            "ZenkokuPokeID": 403
+        },
+        {
+            "PokeID": 404,
+            "ZenkokuPokeID": 404
+        },
+        {
+            "PokeID": 405,
+            "ZenkokuPokeID": 405
+        },
+        {
+            "PokeID": 406,
+            "ZenkokuPokeID": 406
+        },
+        {
+            "PokeID": 407,
+            "ZenkokuPokeID": 407
+        },
+        {
+            "PokeID": 408,
+            "ZenkokuPokeID": 408
+        },
+        {
+            "PokeID": 409,
+            "ZenkokuPokeID": 409
+        },
+        {
+            "PokeID": 410,
+            "ZenkokuPokeID": 410
+        },
+        {
+            "PokeID": 411,
+            "ZenkokuPokeID": 411
+        },
+        {
+            "PokeID": 412,
+            "ZenkokuPokeID": 412
+        },
+        {
+            "PokeID": 413,
+            "ZenkokuPokeID": 413
+        },
+        {
+            "PokeID": 414,
+            "ZenkokuPokeID": 414
+        },
+        {
+            "PokeID": 415,
+            "ZenkokuPokeID": 415
+        },
+        {
+            "PokeID": 416,
+            "ZenkokuPokeID": 416
+        },
+        {
+            "PokeID": 417,
+            "ZenkokuPokeID": 417
+        },
+        {
+            "PokeID": 418,
+            "ZenkokuPokeID": 418
+        },
+        {
+            "PokeID": 419,
+            "ZenkokuPokeID": 419
+        },
+        {
+            "PokeID": 420,
+            "ZenkokuPokeID": 420
+        },
+        {
+            "PokeID": 421,
+            "ZenkokuPokeID": 421
+        },
+        {
+            "PokeID": 422,
+            "ZenkokuPokeID": 422
+        },
+        {
+            "PokeID": 423,
+            "ZenkokuPokeID": 423
+        },
+        {
+            "PokeID": 424,
+            "ZenkokuPokeID": 424
+        },
+        {
+            "PokeID": 425,
+            "ZenkokuPokeID": 425
+        },
+        {
+            "PokeID": 426,
+            "ZenkokuPokeID": 426
+        },
+        {
+            "PokeID": 427,
+            "ZenkokuPokeID": 427
+        },
+        {
+            "PokeID": 428,
+            "ZenkokuPokeID": 428
+        },
+        {
+            "PokeID": 429,
+            "ZenkokuPokeID": 429
+        },
+        {
+            "PokeID": 430,
+            "ZenkokuPokeID": 430
+        },
+        {
+            "PokeID": 431,
+            "ZenkokuPokeID": 431
+        },
+        {
+            "PokeID": 432,
+            "ZenkokuPokeID": 432
+        },
+        {
+            "PokeID": 433,
+            "ZenkokuPokeID": 433
+        },
+        {
+            "PokeID": 434,
+            "ZenkokuPokeID": 434
+        },
+        {
+            "PokeID": 435,
+            "ZenkokuPokeID": 435
+        },
+        {
+            "PokeID": 436,
+            "ZenkokuPokeID": 436
+        },
+        {
+            "PokeID": 437,
+            "ZenkokuPokeID": 437
+        },
+        {
+            "PokeID": 438,
+            "ZenkokuPokeID": 438
+        },
+        {
+            "PokeID": 439,
+            "ZenkokuPokeID": 439
+        },
+        {
+            "PokeID": 440,
+            "ZenkokuPokeID": 440
+        },
+        {
+            "PokeID": 441,
+            "ZenkokuPokeID": 441
+        },
+        {
+            "PokeID": 442,
+            "ZenkokuPokeID": 442
+        },
+        {
+            "PokeID": 443,
+            "ZenkokuPokeID": 443
+        },
+        {
+            "PokeID": 444,
+            "ZenkokuPokeID": 444
+        },
+        {
+            "PokeID": 445,
+            "ZenkokuPokeID": 445
+        },
+        {
+            "PokeID": 446,
+            "ZenkokuPokeID": 446
+        },
+        {
+            "PokeID": 447,
+            "ZenkokuPokeID": 447
+        },
+        {
+            "PokeID": 448,
+            "ZenkokuPokeID": 448
+        },
+        {
+            "PokeID": 449,
+            "ZenkokuPokeID": 449
+        },
+        {
+            "PokeID": 450,
+            "ZenkokuPokeID": 450
+        },
+        {
+            "PokeID": 451,
+            "ZenkokuPokeID": 451
+        },
+        {
+            "PokeID": 452,
+            "ZenkokuPokeID": 452
+        },
+        {
+            "PokeID": 453,
+            "ZenkokuPokeID": 453
+        },
+        {
+            "PokeID": 454,
+            "ZenkokuPokeID": 454
+        },
+        {
+            "PokeID": 455,
+            "ZenkokuPokeID": 455
+        },
+        {
+            "PokeID": 456,
+            "ZenkokuPokeID": 456
+        },
+        {
+            "PokeID": 457,
+            "ZenkokuPokeID": 457
+        },
+        {
+            "PokeID": 458,
+            "ZenkokuPokeID": 458
+        },
+        {
+            "PokeID": 459,
+            "ZenkokuPokeID": 459
+        },
+        {
+            "PokeID": 460,
+            "ZenkokuPokeID": 460
+        },
+        {
+            "PokeID": 461,
+            "ZenkokuPokeID": 461
+        },
+        {
+            "PokeID": 462,
+            "ZenkokuPokeID": 462
+        },
+        {
+            "PokeID": 463,
+            "ZenkokuPokeID": 463
+        },
+        {
+            "PokeID": 464,
+            "ZenkokuPokeID": 464
+        },
+        {
+            "PokeID": 465,
+            "ZenkokuPokeID": 465
+        },
+        {
+            "PokeID": 466,
+            "ZenkokuPokeID": 466
+        },
+        {
+            "PokeID": 467,
+            "ZenkokuPokeID": 467
+        },
+        {
+            "PokeID": 468,
+            "ZenkokuPokeID": 468
+        },
+        {
+            "PokeID": 469,
+            "ZenkokuPokeID": 469
+        },
+        {
+            "PokeID": 470,
+            "ZenkokuPokeID": 470
+        },
+        {
+            "PokeID": 471,
+            "ZenkokuPokeID": 471
+        },
+        {
+            "PokeID": 472,
+            "ZenkokuPokeID": 472
+        },
+        {
+            "PokeID": 473,
+            "ZenkokuPokeID": 473
+        },
+        {
+            "PokeID": 474,
+            "ZenkokuPokeID": 474
+        },
+        {
+            "PokeID": 475,
+            "ZenkokuPokeID": 475
+        },
+        {
+            "PokeID": 476,
+            "ZenkokuPokeID": 476
+        },
+        {
+            "PokeID": 477,
+            "ZenkokuPokeID": 477
+        },
+        {
+            "PokeID": 478,
+            "ZenkokuPokeID": 478
+        },
+        {
+            "PokeID": 479,
+            "ZenkokuPokeID": 479
+        },
+        {
+            "PokeID": 480,
+            "ZenkokuPokeID": 480
+        },
+        {
+            "PokeID": 481,
+            "ZenkokuPokeID": 481
+        },
+        {
+            "PokeID": 482,
+            "ZenkokuPokeID": 482
+        },
+        {
+            "PokeID": 483,
+            "ZenkokuPokeID": 483
+        },
+        {
+            "PokeID": 484,
+            "ZenkokuPokeID": 484
+        },
+        {
+            "PokeID": 485,
+            "ZenkokuPokeID": 485
+        },
+        {
+            "PokeID": 486,
+            "ZenkokuPokeID": 486
+        },
+        {
+            "PokeID": 487,
+            "ZenkokuPokeID": 487
+        },
+        {
+            "PokeID": 488,
+            "ZenkokuPokeID": 488
+        },
+        {
+            "PokeID": 489,
+            "ZenkokuPokeID": 489
+        },
+        {
+            "PokeID": 490,
+            "ZenkokuPokeID": 490
+        },
+        {
+            "PokeID": 491,
+            "ZenkokuPokeID": 491
+        },
+        {
+            "PokeID": 492,
+            "ZenkokuPokeID": 492
+        },
+        {
+            "PokeID": 493,
+            "ZenkokuPokeID": 493
+        },
+        {
+            "PokeID": 494,
+            "ZenkokuPokeID": 494
+        },
+        {
+            "PokeID": 495,
+            "ZenkokuPokeID": 495
+        },
+        {
+            "PokeID": 496,
+            "ZenkokuPokeID": 496
+        },
+        {
+            "PokeID": 497,
+            "ZenkokuPokeID": 497
+        },
+        {
+            "PokeID": 498,
+            "ZenkokuPokeID": 498
+        },
+        {
+            "PokeID": 499,
+            "ZenkokuPokeID": 499
+        },
+        {
+            "PokeID": 500,
+            "ZenkokuPokeID": 500
+        },
+        {
+            "PokeID": 501,
+            "ZenkokuPokeID": 501
+        },
+        {
+            "PokeID": 502,
+            "ZenkokuPokeID": 502
+        },
+        {
+            "PokeID": 503,
+            "ZenkokuPokeID": 503
+        },
+        {
+            "PokeID": 504,
+            "ZenkokuPokeID": 504
+        },
+        {
+            "PokeID": 505,
+            "ZenkokuPokeID": 505
+        },
+        {
+            "PokeID": 506,
+            "ZenkokuPokeID": 506
+        },
+        {
+            "PokeID": 507,
+            "ZenkokuPokeID": 507
+        },
+        {
+            "PokeID": 508,
+            "ZenkokuPokeID": 508
+        },
+        {
+            "PokeID": 509,
+            "ZenkokuPokeID": 509
+        },
+        {
+            "PokeID": 510,
+            "ZenkokuPokeID": 510
+        },
+        {
+            "PokeID": 511,
+            "ZenkokuPokeID": 511
+        },
+        {
+            "PokeID": 512,
+            "ZenkokuPokeID": 512
+        },
+        {
+            "PokeID": 513,
+            "ZenkokuPokeID": 513
+        },
+        {
+            "PokeID": 514,
+            "ZenkokuPokeID": 514
+        },
+        {
+            "PokeID": 515,
+            "ZenkokuPokeID": 515
+        },
+        {
+            "PokeID": 516,
+            "ZenkokuPokeID": 516
+        },
+        {
+            "PokeID": 517,
+            "ZenkokuPokeID": 517
+        },
+        {
+            "PokeID": 518,
+            "ZenkokuPokeID": 518
+        },
+        {
+            "PokeID": 519,
+            "ZenkokuPokeID": 519
+        },
+        {
+            "PokeID": 520,
+            "ZenkokuPokeID": 520
+        },
+        {
+            "PokeID": 521,
+            "ZenkokuPokeID": 521
+        },
+        {
+            "PokeID": 522,
+            "ZenkokuPokeID": 522
+        },
+        {
+            "PokeID": 523,
+            "ZenkokuPokeID": 523
+        },
+        {
+            "PokeID": 524,
+            "ZenkokuPokeID": 524
+        },
+        {
+            "PokeID": 525,
+            "ZenkokuPokeID": 525
+        },
+        {
+            "PokeID": 526,
+            "ZenkokuPokeID": 526
+        },
+        {
+            "PokeID": 527,
+            "ZenkokuPokeID": 527
+        },
+        {
+            "PokeID": 528,
+            "ZenkokuPokeID": 528
+        },
+        {
+            "PokeID": 529,
+            "ZenkokuPokeID": 529
+        },
+        {
+            "PokeID": 530,
+            "ZenkokuPokeID": 530
+        },
+        {
+            "PokeID": 531,
+            "ZenkokuPokeID": 531
+        },
+        {
+            "PokeID": 532,
+            "ZenkokuPokeID": 532
+        },
+        {
+            "PokeID": 533,
+            "ZenkokuPokeID": 533
+        },
+        {
+            "PokeID": 534,
+            "ZenkokuPokeID": 534
+        },
+        {
+            "PokeID": 535,
+            "ZenkokuPokeID": 535
+        },
+        {
+            "PokeID": 536,
+            "ZenkokuPokeID": 536
+        },
+        {
+            "PokeID": 537,
+            "ZenkokuPokeID": 537
+        },
+        {
+            "PokeID": 538,
+            "ZenkokuPokeID": 538
+        },
+        {
+            "PokeID": 539,
+            "ZenkokuPokeID": 539
+        },
+        {
+            "PokeID": 540,
+            "ZenkokuPokeID": 540
+        },
+        {
+            "PokeID": 541,
+            "ZenkokuPokeID": 541
+        },
+        {
+            "PokeID": 542,
+            "ZenkokuPokeID": 542
+        },
+        {
+            "PokeID": 543,
+            "ZenkokuPokeID": 543
+        },
+        {
+            "PokeID": 544,
+            "ZenkokuPokeID": 544
+        },
+        {
+            "PokeID": 545,
+            "ZenkokuPokeID": 545
+        },
+        {
+            "PokeID": 546,
+            "ZenkokuPokeID": 546
+        },
+        {
+            "PokeID": 547,
+            "ZenkokuPokeID": 547
+        },
+        {
+            "PokeID": 548,
+            "ZenkokuPokeID": 548
+        },
+        {
+            "PokeID": 549,
+            "ZenkokuPokeID": 549
+        },
+        {
+            "PokeID": 550,
+            "ZenkokuPokeID": 550
+        },
+        {
+            "PokeID": 551,
+            "ZenkokuPokeID": 551
+        },
+        {
+            "PokeID": 552,
+            "ZenkokuPokeID": 552
+        },
+        {
+            "PokeID": 553,
+            "ZenkokuPokeID": 553
+        },
+        {
+            "PokeID": 554,
+            "ZenkokuPokeID": 554
+        },
+        {
+            "PokeID": 555,
+            "ZenkokuPokeID": 555
+        },
+        {
+            "PokeID": 556,
+            "ZenkokuPokeID": 556
+        },
+        {
+            "PokeID": 557,
+            "ZenkokuPokeID": 557
+        },
+        {
+            "PokeID": 558,
+            "ZenkokuPokeID": 558
+        },
+        {
+            "PokeID": 559,
+            "ZenkokuPokeID": 559
+        },
+        {
+            "PokeID": 560,
+            "ZenkokuPokeID": 560
+        },
+        {
+            "PokeID": 561,
+            "ZenkokuPokeID": 561
+        },
+        {
+            "PokeID": 562,
+            "ZenkokuPokeID": 562
+        },
+        {
+            "PokeID": 563,
+            "ZenkokuPokeID": 563
+        },
+        {
+            "PokeID": 564,
+            "ZenkokuPokeID": 564
+        },
+        {
+            "PokeID": 565,
+            "ZenkokuPokeID": 565
+        },
+        {
+            "PokeID": 566,
+            "ZenkokuPokeID": 566
+        },
+        {
+            "PokeID": 567,
+            "ZenkokuPokeID": 567
+        },
+        {
+            "PokeID": 568,
+            "ZenkokuPokeID": 568
+        },
+        {
+            "PokeID": 569,
+            "ZenkokuPokeID": 569
+        },
+        {
+            "PokeID": 570,
+            "ZenkokuPokeID": 570
+        },
+        {
+            "PokeID": 571,
+            "ZenkokuPokeID": 571
+        },
+        {
+            "PokeID": 572,
+            "ZenkokuPokeID": 572
+        },
+        {
+            "PokeID": 573,
+            "ZenkokuPokeID": 573
+        },
+        {
+            "PokeID": 574,
+            "ZenkokuPokeID": 574
+        },
+        {
+            "PokeID": 575,
+            "ZenkokuPokeID": 575
+        },
+        {
+            "PokeID": 576,
+            "ZenkokuPokeID": 576
+        },
+        {
+            "PokeID": 577,
+            "ZenkokuPokeID": 577
+        },
+        {
+            "PokeID": 578,
+            "ZenkokuPokeID": 578
+        },
+        {
+            "PokeID": 579,
+            "ZenkokuPokeID": 579
+        },
+        {
+            "PokeID": 580,
+            "ZenkokuPokeID": 580
+        },
+        {
+            "PokeID": 581,
+            "ZenkokuPokeID": 581
+        },
+        {
+            "PokeID": 582,
+            "ZenkokuPokeID": 582
+        },
+        {
+            "PokeID": 583,
+            "ZenkokuPokeID": 583
+        },
+        {
+            "PokeID": 584,
+            "ZenkokuPokeID": 584
+        },
+        {
+            "PokeID": 585,
+            "ZenkokuPokeID": 585
+        },
+        {
+            "PokeID": 586,
+            "ZenkokuPokeID": 586
+        },
+        {
+            "PokeID": 587,
+            "ZenkokuPokeID": 587
+        },
+        {
+            "PokeID": 588,
+            "ZenkokuPokeID": 588
+        },
+        {
+            "PokeID": 589,
+            "ZenkokuPokeID": 589
+        },
+        {
+            "PokeID": 590,
+            "ZenkokuPokeID": 590
+        },
+        {
+            "PokeID": 591,
+            "ZenkokuPokeID": 591
+        },
+        {
+            "PokeID": 592,
+            "ZenkokuPokeID": 592
+        },
+        {
+            "PokeID": 593,
+            "ZenkokuPokeID": 593
+        },
+        {
+            "PokeID": 594,
+            "ZenkokuPokeID": 594
+        },
+        {
+            "PokeID": 595,
+            "ZenkokuPokeID": 595
+        },
+        {
+            "PokeID": 596,
+            "ZenkokuPokeID": 596
+        },
+        {
+            "PokeID": 597,
+            "ZenkokuPokeID": 597
+        },
+        {
+            "PokeID": 598,
+            "ZenkokuPokeID": 598
+        },
+        {
+            "PokeID": 599,
+            "ZenkokuPokeID": 599
+        },
+        {
+            "PokeID": 600,
+            "ZenkokuPokeID": 600
+        },
+        {
+            "PokeID": 601,
+            "ZenkokuPokeID": 601
+        },
+        {
+            "PokeID": 602,
+            "ZenkokuPokeID": 602
+        },
+        {
+            "PokeID": 603,
+            "ZenkokuPokeID": 603
+        },
+        {
+            "PokeID": 604,
+            "ZenkokuPokeID": 604
+        },
+        {
+            "PokeID": 605,
+            "ZenkokuPokeID": 605
+        },
+        {
+            "PokeID": 606,
+            "ZenkokuPokeID": 606
+        },
+        {
+            "PokeID": 607,
+            "ZenkokuPokeID": 607
+        },
+        {
+            "PokeID": 608,
+            "ZenkokuPokeID": 608
+        },
+        {
+            "PokeID": 609,
+            "ZenkokuPokeID": 609
+        },
+        {
+            "PokeID": 610,
+            "ZenkokuPokeID": 610
+        },
+        {
+            "PokeID": 611,
+            "ZenkokuPokeID": 611
+        },
+        {
+            "PokeID": 612,
+            "ZenkokuPokeID": 612
+        },
+        {
+            "PokeID": 613,
+            "ZenkokuPokeID": 613
+        },
+        {
+            "PokeID": 614,
+            "ZenkokuPokeID": 614
+        },
+        {
+            "PokeID": 615,
+            "ZenkokuPokeID": 615
+        },
+        {
+            "PokeID": 616,
+            "ZenkokuPokeID": 616
+        },
+        {
+            "PokeID": 617,
+            "ZenkokuPokeID": 617
+        },
+        {
+            "PokeID": 618,
+            "ZenkokuPokeID": 618
+        },
+        {
+            "PokeID": 619,
+            "ZenkokuPokeID": 619
+        },
+        {
+            "PokeID": 620,
+            "ZenkokuPokeID": 620
+        },
+        {
+            "PokeID": 621,
+            "ZenkokuPokeID": 621
+        },
+        {
+            "PokeID": 622,
+            "ZenkokuPokeID": 622
+        },
+        {
+            "PokeID": 623,
+            "ZenkokuPokeID": 623
+        },
+        {
+            "PokeID": 624,
+            "ZenkokuPokeID": 624
+        },
+        {
+            "PokeID": 625,
+            "ZenkokuPokeID": 625
+        },
+        {
+            "PokeID": 626,
+            "ZenkokuPokeID": 626
+        },
+        {
+            "PokeID": 627,
+            "ZenkokuPokeID": 627
+        },
+        {
+            "PokeID": 628,
+            "ZenkokuPokeID": 628
+        },
+        {
+            "PokeID": 629,
+            "ZenkokuPokeID": 629
+        },
+        {
+            "PokeID": 630,
+            "ZenkokuPokeID": 630
+        },
+        {
+            "PokeID": 631,
+            "ZenkokuPokeID": 631
+        },
+        {
+            "PokeID": 632,
+            "ZenkokuPokeID": 632
+        },
+        {
+            "PokeID": 633,
+            "ZenkokuPokeID": 633
+        },
+        {
+            "PokeID": 634,
+            "ZenkokuPokeID": 634
+        },
+        {
+            "PokeID": 635,
+            "ZenkokuPokeID": 635
+        },
+        {
+            "PokeID": 636,
+            "ZenkokuPokeID": 636
+        },
+        {
+            "PokeID": 637,
+            "ZenkokuPokeID": 637
+        },
+        {
+            "PokeID": 638,
+            "ZenkokuPokeID": 638
+        },
+        {
+            "PokeID": 639,
+            "ZenkokuPokeID": 639
+        },
+        {
+            "PokeID": 640,
+            "ZenkokuPokeID": 640
+        },
+        {
+            "PokeID": 641,
+            "ZenkokuPokeID": 641
+        },
+        {
+            "PokeID": 642,
+            "ZenkokuPokeID": 642
+        },
+        {
+            "PokeID": 643,
+            "ZenkokuPokeID": 643
+        },
+        {
+            "PokeID": 644,
+            "ZenkokuPokeID": 644
+        },
+        {
+            "PokeID": 645,
+            "ZenkokuPokeID": 645
+        },
+        {
+            "PokeID": 646,
+            "ZenkokuPokeID": 646
+        },
+        {
+            "PokeID": 647,
+            "ZenkokuPokeID": 647
+        },
+        {
+            "PokeID": 648,
+            "ZenkokuPokeID": 648
+        },
+        {
+            "PokeID": 649,
+            "ZenkokuPokeID": 649
+        },
+        {
+            "PokeID": 650,
+            "ZenkokuPokeID": 650
+        },
+        {
+            "PokeID": 651,
+            "ZenkokuPokeID": 651
+        },
+        {
+            "PokeID": 652,
+            "ZenkokuPokeID": 652
+        },
+        {
+            "PokeID": 653,
+            "ZenkokuPokeID": 653
+        },
+        {
+            "PokeID": 654,
+            "ZenkokuPokeID": 654
+        },
+        {
+            "PokeID": 655,
+            "ZenkokuPokeID": 655
+        },
+        {
+            "PokeID": 656,
+            "ZenkokuPokeID": 656
+        },
+        {
+            "PokeID": 657,
+            "ZenkokuPokeID": 657
+        },
+        {
+            "PokeID": 658,
+            "ZenkokuPokeID": 658
+        },
+        {
+            "PokeID": 659,
+            "ZenkokuPokeID": 659
+        },
+        {
+            "PokeID": 660,
+            "ZenkokuPokeID": 660
+        },
+        {
+            "PokeID": 661,
+            "ZenkokuPokeID": 661
+        },
+        {
+            "PokeID": 662,
+            "ZenkokuPokeID": 662
+        },
+        {
+            "PokeID": 663,
+            "ZenkokuPokeID": 663
+        },
+        {
+            "PokeID": 664,
+            "ZenkokuPokeID": 664
+        },
+        {
+            "PokeID": 665,
+            "ZenkokuPokeID": 665
+        },
+        {
+            "PokeID": 666,
+            "ZenkokuPokeID": 666
+        },
+        {
+            "PokeID": 667,
+            "ZenkokuPokeID": 667
+        },
+        {
+            "PokeID": 668,
+            "ZenkokuPokeID": 668
+        },
+        {
+            "PokeID": 669,
+            "ZenkokuPokeID": 669
+        },
+        {
+            "PokeID": 670,
+            "ZenkokuPokeID": 670
+        },
+        {
+            "PokeID": 671,
+            "ZenkokuPokeID": 671
+        },
+        {
+            "PokeID": 672,
+            "ZenkokuPokeID": 672
+        },
+        {
+            "PokeID": 673,
+            "ZenkokuPokeID": 673
+        },
+        {
+            "PokeID": 674,
+            "ZenkokuPokeID": 674
+        },
+        {
+            "PokeID": 675,
+            "ZenkokuPokeID": 675
+        },
+        {
+            "PokeID": 676,
+            "ZenkokuPokeID": 676
+        },
+        {
+            "PokeID": 677,
+            "ZenkokuPokeID": 677
+        },
+        {
+            "PokeID": 678,
+            "ZenkokuPokeID": 678
+        },
+        {
+            "PokeID": 679,
+            "ZenkokuPokeID": 679
+        },
+        {
+            "PokeID": 680,
+            "ZenkokuPokeID": 680
+        },
+        {
+            "PokeID": 681,
+            "ZenkokuPokeID": 681
+        },
+        {
+            "PokeID": 682,
+            "ZenkokuPokeID": 682
+        },
+        {
+            "PokeID": 683,
+            "ZenkokuPokeID": 683
+        },
+        {
+            "PokeID": 684,
+            "ZenkokuPokeID": 684
+        },
+        {
+            "PokeID": 685,
+            "ZenkokuPokeID": 685
+        },
+        {
+            "PokeID": 686,
+            "ZenkokuPokeID": 686
+        },
+        {
+            "PokeID": 687,
+            "ZenkokuPokeID": 687
+        },
+        {
+            "PokeID": 688,
+            "ZenkokuPokeID": 688
+        },
+        {
+            "PokeID": 689,
+            "ZenkokuPokeID": 689
+        },
+        {
+            "PokeID": 690,
+            "ZenkokuPokeID": 690
+        },
+        {
+            "PokeID": 691,
+            "ZenkokuPokeID": 691
+        },
+        {
+            "PokeID": 692,
+            "ZenkokuPokeID": 692
+        },
+        {
+            "PokeID": 693,
+            "ZenkokuPokeID": 693
+        },
+        {
+            "PokeID": 694,
+            "ZenkokuPokeID": 694
+        },
+        {
+            "PokeID": 695,
+            "ZenkokuPokeID": 695
+        },
+        {
+            "PokeID": 696,
+            "ZenkokuPokeID": 696
+        },
+        {
+            "PokeID": 697,
+            "ZenkokuPokeID": 697
+        },
+        {
+            "PokeID": 698,
+            "ZenkokuPokeID": 698
+        },
+        {
+            "PokeID": 699,
+            "ZenkokuPokeID": 699
+        },
+        {
+            "PokeID": 700,
+            "ZenkokuPokeID": 700
+        },
+        {
+            "PokeID": 701,
+            "ZenkokuPokeID": 701
+        },
+        {
+            "PokeID": 702,
+            "ZenkokuPokeID": 702
+        },
+        {
+            "PokeID": 703,
+            "ZenkokuPokeID": 703
+        },
+        {
+            "PokeID": 704,
+            "ZenkokuPokeID": 704
+        },
+        {
+            "PokeID": 705,
+            "ZenkokuPokeID": 705
+        },
+        {
+            "PokeID": 706,
+            "ZenkokuPokeID": 706
+        },
+        {
+            "PokeID": 707,
+            "ZenkokuPokeID": 707
+        },
+        {
+            "PokeID": 708,
+            "ZenkokuPokeID": 708
+        },
+        {
+            "PokeID": 709,
+            "ZenkokuPokeID": 709
+        },
+        {
+            "PokeID": 710,
+            "ZenkokuPokeID": 710
+        },
+        {
+            "PokeID": 711,
+            "ZenkokuPokeID": 711
+        },
+        {
+            "PokeID": 712,
+            "ZenkokuPokeID": 712
+        },
+        {
+            "PokeID": 713,
+            "ZenkokuPokeID": 713
+        },
+        {
+            "PokeID": 714,
+            "ZenkokuPokeID": 714
+        },
+        {
+            "PokeID": 715,
+            "ZenkokuPokeID": 715
+        },
+        {
+            "PokeID": 716,
+            "ZenkokuPokeID": 716
+        },
+        {
+            "PokeID": 717,
+            "ZenkokuPokeID": 717
+        },
+        {
+            "PokeID": 718,
+            "ZenkokuPokeID": 718
+        },
+        {
+            "PokeID": 719,
+            "ZenkokuPokeID": 719
+        },
+        {
+            "PokeID": 720,
+            "ZenkokuPokeID": 720
+        },
+        {
+            "PokeID": 721,
+            "ZenkokuPokeID": 721
+        },
+        {
+            "PokeID": 722,
+            "ZenkokuPokeID": 722
+        },
+        {
+            "PokeID": 723,
+            "ZenkokuPokeID": 723
+        },
+        {
+            "PokeID": 724,
+            "ZenkokuPokeID": 724
+        },
+        {
+            "PokeID": 725,
+            "ZenkokuPokeID": 725
+        },
+        {
+            "PokeID": 726,
+            "ZenkokuPokeID": 726
+        },
+        {
+            "PokeID": 727,
+            "ZenkokuPokeID": 727
+        },
+        {
+            "PokeID": 728,
+            "ZenkokuPokeID": 728
+        },
+        {
+            "PokeID": 729,
+            "ZenkokuPokeID": 729
+        },
+        {
+            "PokeID": 730,
+            "ZenkokuPokeID": 730
+        },
+        {
+            "PokeID": 731,
+            "ZenkokuPokeID": 731
+        },
+        {
+            "PokeID": 732,
+            "ZenkokuPokeID": 732
+        },
+        {
+            "PokeID": 733,
+            "ZenkokuPokeID": 733
+        },
+        {
+            "PokeID": 734,
+            "ZenkokuPokeID": 734
+        },
+        {
+            "PokeID": 735,
+            "ZenkokuPokeID": 735
+        },
+        {
+            "PokeID": 736,
+            "ZenkokuPokeID": 736
+        },
+        {
+            "PokeID": 737,
+            "ZenkokuPokeID": 737
+        },
+        {
+            "PokeID": 738,
+            "ZenkokuPokeID": 738
+        },
+        {
+            "PokeID": 739,
+            "ZenkokuPokeID": 739
+        },
+        {
+            "PokeID": 740,
+            "ZenkokuPokeID": 740
+        },
+        {
+            "PokeID": 741,
+            "ZenkokuPokeID": 741
+        },
+        {
+            "PokeID": 742,
+            "ZenkokuPokeID": 742
+        },
+        {
+            "PokeID": 743,
+            "ZenkokuPokeID": 743
+        },
+        {
+            "PokeID": 744,
+            "ZenkokuPokeID": 744
+        },
+        {
+            "PokeID": 745,
+            "ZenkokuPokeID": 745
+        },
+        {
+            "PokeID": 746,
+            "ZenkokuPokeID": 746
+        },
+        {
+            "PokeID": 747,
+            "ZenkokuPokeID": 747
+        },
+        {
+            "PokeID": 748,
+            "ZenkokuPokeID": 748
+        },
+        {
+            "PokeID": 749,
+            "ZenkokuPokeID": 749
+        },
+        {
+            "PokeID": 750,
+            "ZenkokuPokeID": 750
+        },
+        {
+            "PokeID": 751,
+            "ZenkokuPokeID": 751
+        },
+        {
+            "PokeID": 752,
+            "ZenkokuPokeID": 752
+        },
+        {
+            "PokeID": 753,
+            "ZenkokuPokeID": 753
+        },
+        {
+            "PokeID": 754,
+            "ZenkokuPokeID": 754
+        },
+        {
+            "PokeID": 755,
+            "ZenkokuPokeID": 755
+        },
+        {
+            "PokeID": 756,
+            "ZenkokuPokeID": 756
+        },
+        {
+            "PokeID": 757,
+            "ZenkokuPokeID": 757
+        },
+        {
+            "PokeID": 758,
+            "ZenkokuPokeID": 758
+        },
+        {
+            "PokeID": 759,
+            "ZenkokuPokeID": 759
+        },
+        {
+            "PokeID": 760,
+            "ZenkokuPokeID": 760
+        },
+        {
+            "PokeID": 761,
+            "ZenkokuPokeID": 761
+        },
+        {
+            "PokeID": 762,
+            "ZenkokuPokeID": 762
+        },
+        {
+            "PokeID": 763,
+            "ZenkokuPokeID": 763
+        },
+        {
+            "PokeID": 764,
+            "ZenkokuPokeID": 764
+        },
+        {
+            "PokeID": 765,
+            "ZenkokuPokeID": 765
+        },
+        {
+            "PokeID": 766,
+            "ZenkokuPokeID": 766
+        },
+        {
+            "PokeID": 767,
+            "ZenkokuPokeID": 767
+        },
+        {
+            "PokeID": 768,
+            "ZenkokuPokeID": 768
+        },
+        {
+            "PokeID": 769,
+            "ZenkokuPokeID": 769
+        },
+        {
+            "PokeID": 770,
+            "ZenkokuPokeID": 770
+        },
+        {
+            "PokeID": 771,
+            "ZenkokuPokeID": 771
+        },
+        {
+            "PokeID": 772,
+            "ZenkokuPokeID": 772
+        },
+        {
+            "PokeID": 773,
+            "ZenkokuPokeID": 773
+        },
+        {
+            "PokeID": 774,
+            "ZenkokuPokeID": 774
+        },
+        {
+            "PokeID": 775,
+            "ZenkokuPokeID": 775
+        },
+        {
+            "PokeID": 776,
+            "ZenkokuPokeID": 776
+        },
+        {
+            "PokeID": 777,
+            "ZenkokuPokeID": 777
+        },
+        {
+            "PokeID": 778,
+            "ZenkokuPokeID": 778
+        },
+        {
+            "PokeID": 779,
+            "ZenkokuPokeID": 779
+        },
+        {
+            "PokeID": 780,
+            "ZenkokuPokeID": 780
+        },
+        {
+            "PokeID": 781,
+            "ZenkokuPokeID": 781
+        },
+        {
+            "PokeID": 782,
+            "ZenkokuPokeID": 782
+        },
+        {
+            "PokeID": 783,
+            "ZenkokuPokeID": 783
+        },
+        {
+            "PokeID": 784,
+            "ZenkokuPokeID": 784
+        },
+        {
+            "PokeID": 785,
+            "ZenkokuPokeID": 785
+        },
+        {
+            "PokeID": 786,
+            "ZenkokuPokeID": 786
+        },
+        {
+            "PokeID": 787,
+            "ZenkokuPokeID": 787
+        },
+        {
+            "PokeID": 788,
+            "ZenkokuPokeID": 788
+        },
+        {
+            "PokeID": 789,
+            "ZenkokuPokeID": 789
+        },
+        {
+            "PokeID": 790,
+            "ZenkokuPokeID": 790
+        },
+        {
+            "PokeID": 791,
+            "ZenkokuPokeID": 791
+        },
+        {
+            "PokeID": 792,
+            "ZenkokuPokeID": 792
+        },
+        {
+            "PokeID": 793,
+            "ZenkokuPokeID": 793
+        },
+        {
+            "PokeID": 794,
+            "ZenkokuPokeID": 794
+        },
+        {
+            "PokeID": 795,
+            "ZenkokuPokeID": 795
+        },
+        {
+            "PokeID": 796,
+            "ZenkokuPokeID": 796
+        },
+        {
+            "PokeID": 797,
+            "ZenkokuPokeID": 797
+        },
+        {
+            "PokeID": 798,
+            "ZenkokuPokeID": 798
+        },
+        {
+            "PokeID": 799,
+            "ZenkokuPokeID": 799
+        },
+        {
+            "PokeID": 800,
+            "ZenkokuPokeID": 800
+        },
+        {
+            "PokeID": 801,
+            "ZenkokuPokeID": 801
+        },
+        {
+            "PokeID": 802,
+            "ZenkokuPokeID": 802
+        },
+        {
+            "PokeID": 803,
+            "ZenkokuPokeID": 803
+        },
+        {
+            "PokeID": 804,
+            "ZenkokuPokeID": 804
+        },
+        {
+            "PokeID": 805,
+            "ZenkokuPokeID": 805
+        },
+        {
+            "PokeID": 806,
+            "ZenkokuPokeID": 806
+        },
+        {
+            "PokeID": 807,
+            "ZenkokuPokeID": 807
+        },
+        {
+            "PokeID": 808,
+            "ZenkokuPokeID": 808
+        },
+        {
+            "PokeID": 809,
+            "ZenkokuPokeID": 809
+        },
+        {
+            "PokeID": 810,
+            "ZenkokuPokeID": 810
+        },
+        {
+            "PokeID": 811,
+            "ZenkokuPokeID": 811
+        },
+        {
+            "PokeID": 812,
+            "ZenkokuPokeID": 812
+        },
+        {
+            "PokeID": 813,
+            "ZenkokuPokeID": 813
+        },
+        {
+            "PokeID": 814,
+            "ZenkokuPokeID": 814
+        },
+        {
+            "PokeID": 815,
+            "ZenkokuPokeID": 815
+        },
+        {
+            "PokeID": 816,
+            "ZenkokuPokeID": 816
+        },
+        {
+            "PokeID": 817,
+            "ZenkokuPokeID": 817
+        },
+        {
+            "PokeID": 818,
+            "ZenkokuPokeID": 818
+        },
+        {
+            "PokeID": 819,
+            "ZenkokuPokeID": 819
+        },
+        {
+            "PokeID": 820,
+            "ZenkokuPokeID": 820
+        },
+        {
+            "PokeID": 821,
+            "ZenkokuPokeID": 821
+        },
+        {
+            "PokeID": 822,
+            "ZenkokuPokeID": 822
+        },
+        {
+            "PokeID": 823,
+            "ZenkokuPokeID": 823
+        },
+        {
+            "PokeID": 824,
+            "ZenkokuPokeID": 824
+        },
+        {
+            "PokeID": 825,
+            "ZenkokuPokeID": 825
+        },
+        {
+            "PokeID": 826,
+            "ZenkokuPokeID": 826
+        },
+        {
+            "PokeID": 827,
+            "ZenkokuPokeID": 827
+        },
+        {
+            "PokeID": 828,
+            "ZenkokuPokeID": 828
+        },
+        {
+            "PokeID": 829,
+            "ZenkokuPokeID": 829
+        },
+        {
+            "PokeID": 830,
+            "ZenkokuPokeID": 830
+        },
+        {
+            "PokeID": 831,
+            "ZenkokuPokeID": 831
+        },
+        {
+            "PokeID": 832,
+            "ZenkokuPokeID": 832
+        },
+        {
+            "PokeID": 833,
+            "ZenkokuPokeID": 833
+        },
+        {
+            "PokeID": 834,
+            "ZenkokuPokeID": 834
+        },
+        {
+            "PokeID": 835,
+            "ZenkokuPokeID": 835
+        },
+        {
+            "PokeID": 836,
+            "ZenkokuPokeID": 836
+        },
+        {
+            "PokeID": 837,
+            "ZenkokuPokeID": 837
+        },
+        {
+            "PokeID": 838,
+            "ZenkokuPokeID": 838
+        },
+        {
+            "PokeID": 839,
+            "ZenkokuPokeID": 839
+        },
+        {
+            "PokeID": 840,
+            "ZenkokuPokeID": 840
+        },
+        {
+            "PokeID": 841,
+            "ZenkokuPokeID": 841
+        },
+        {
+            "PokeID": 842,
+            "ZenkokuPokeID": 842
+        },
+        {
+            "PokeID": 843,
+            "ZenkokuPokeID": 843
+        },
+        {
+            "PokeID": 844,
+            "ZenkokuPokeID": 844
+        },
+        {
+            "PokeID": 845,
+            "ZenkokuPokeID": 845
+        },
+        {
+            "PokeID": 846,
+            "ZenkokuPokeID": 846
+        },
+        {
+            "PokeID": 847,
+            "ZenkokuPokeID": 847
+        },
+        {
+            "PokeID": 848,
+            "ZenkokuPokeID": 848
+        },
+        {
+            "PokeID": 849,
+            "ZenkokuPokeID": 849
+        },
+        {
+            "PokeID": 850,
+            "ZenkokuPokeID": 850
+        },
+        {
+            "PokeID": 851,
+            "ZenkokuPokeID": 851
+        },
+        {
+            "PokeID": 852,
+            "ZenkokuPokeID": 852
+        },
+        {
+            "PokeID": 853,
+            "ZenkokuPokeID": 853
+        },
+        {
+            "PokeID": 854,
+            "ZenkokuPokeID": 854
+        },
+        {
+            "PokeID": 855,
+            "ZenkokuPokeID": 855
+        },
+        {
+            "PokeID": 856,
+            "ZenkokuPokeID": 856
+        },
+        {
+            "PokeID": 857,
+            "ZenkokuPokeID": 857
+        },
+        {
+            "PokeID": 858,
+            "ZenkokuPokeID": 858
+        },
+        {
+            "PokeID": 859,
+            "ZenkokuPokeID": 859
+        },
+        {
+            "PokeID": 860,
+            "ZenkokuPokeID": 860
+        },
+        {
+            "PokeID": 861,
+            "ZenkokuPokeID": 861
+        },
+        {
+            "PokeID": 862,
+            "ZenkokuPokeID": 862
+        },
+        {
+            "PokeID": 863,
+            "ZenkokuPokeID": 863
+        },
+        {
+            "PokeID": 864,
+            "ZenkokuPokeID": 864
+        },
+        {
+            "PokeID": 865,
+            "ZenkokuPokeID": 865
+        },
+        {
+            "PokeID": 866,
+            "ZenkokuPokeID": 866
+        },
+        {
+            "PokeID": 867,
+            "ZenkokuPokeID": 867
+        },
+        {
+            "PokeID": 868,
+            "ZenkokuPokeID": 868
+        },
+        {
+            "PokeID": 869,
+            "ZenkokuPokeID": 869
+        },
+        {
+            "PokeID": 870,
+            "ZenkokuPokeID": 870
+        },
+        {
+            "PokeID": 871,
+            "ZenkokuPokeID": 871
+        },
+        {
+            "PokeID": 872,
+            "ZenkokuPokeID": 872
+        },
+        {
+            "PokeID": 873,
+            "ZenkokuPokeID": 873
+        },
+        {
+            "PokeID": 874,
+            "ZenkokuPokeID": 874
+        },
+        {
+            "PokeID": 875,
+            "ZenkokuPokeID": 875
+        },
+        {
+            "PokeID": 876,
+            "ZenkokuPokeID": 876
+        },
+        {
+            "PokeID": 877,
+            "ZenkokuPokeID": 877
+        },
+        {
+            "PokeID": 878,
+            "ZenkokuPokeID": 878
+        },
+        {
+            "PokeID": 879,
+            "ZenkokuPokeID": 879
+        },
+        {
+            "PokeID": 880,
+            "ZenkokuPokeID": 880
+        },
+        {
+            "PokeID": 881,
+            "ZenkokuPokeID": 881
+        },
+        {
+            "PokeID": 882,
+            "ZenkokuPokeID": 882
+        },
+        {
+            "PokeID": 883,
+            "ZenkokuPokeID": 883
+        },
+        {
+            "PokeID": 884,
+            "ZenkokuPokeID": 884
+        },
+        {
+            "PokeID": 885,
+            "ZenkokuPokeID": 885
+        },
+        {
+            "PokeID": 886,
+            "ZenkokuPokeID": 886
+        },
+        {
+            "PokeID": 887,
+            "ZenkokuPokeID": 887
+        },
+        {
+            "PokeID": 888,
+            "ZenkokuPokeID": 888
+        },
+        {
+            "PokeID": 889,
+            "ZenkokuPokeID": 889
+        },
+        {
+            "PokeID": 890,
+            "ZenkokuPokeID": 890
+        },
+        {
+            "PokeID": 891,
+            "ZenkokuPokeID": 891
+        },
+        {
+            "PokeID": 892,
+            "ZenkokuPokeID": 892
+        },
+        {
+            "PokeID": 893,
+            "ZenkokuPokeID": 893
+        },
+        {
+            "PokeID": 894,
+            "ZenkokuPokeID": 894
+        },
+        {
+            "PokeID": 895,
+            "ZenkokuPokeID": 895
+        },
+        {
+            "PokeID": 896,
+            "ZenkokuPokeID": 896
+        },
+        {
+            "PokeID": 897,
+            "ZenkokuPokeID": 897
+        },
+        {
+            "PokeID": 898,
+            "ZenkokuPokeID": 898
+        },
+        {
+            "PokeID": 899,
+            "ZenkokuPokeID": 899
+        },
+        {
+            "PokeID": 900,
+            "ZenkokuPokeID": 900
+        },
+        {
+            "PokeID": 901,
+            "ZenkokuPokeID": 901
+        },
+        {
+            "PokeID": 902,
+            "ZenkokuPokeID": 902
+        },
+        {
+            "PokeID": 903,
+            "ZenkokuPokeID": 903
+        },
+        {
+            "PokeID": 904,
+            "ZenkokuPokeID": 904
+        },
+        {
+            "PokeID": 905,
+            "ZenkokuPokeID": 905
+        },
+        {
+            "PokeID": 906,
+            "ZenkokuPokeID": 906
+        },
+        {
+            "PokeID": 907,
+            "ZenkokuPokeID": 907
+        },
+        {
+            "PokeID": 908,
+            "ZenkokuPokeID": 908
+        },
+        {
+            "PokeID": 909,
+            "ZenkokuPokeID": 909
+        },
+        {
+            "PokeID": 910,
+            "ZenkokuPokeID": 910
+        },
+        {
+            "PokeID": 911,
+            "ZenkokuPokeID": 911
+        },
+        {
+            "PokeID": 912,
+            "ZenkokuPokeID": 912
+        },
+        {
+            "PokeID": 913,
+            "ZenkokuPokeID": 913
+        },
+        {
+            "PokeID": 914,
+            "ZenkokuPokeID": 914
+        },
+        {
+            "PokeID": 915,
+            "ZenkokuPokeID": 915
+        },
+        {
+            "PokeID": 916,
+            "ZenkokuPokeID": 916
+        },
+        {
+            "PokeID": 917,
+            "ZenkokuPokeID": 917
+        },
+        {
+            "PokeID": 918,
+            "ZenkokuPokeID": 918
+        },
+        {
+            "PokeID": 919,
+            "ZenkokuPokeID": 919
+        },
+        {
+            "PokeID": 920,
+            "ZenkokuPokeID": 920
+        },
+        {
+            "PokeID": 921,
+            "ZenkokuPokeID": 921
+        },
+        {
+            "PokeID": 922,
+            "ZenkokuPokeID": 922
+        },
+        {
+            "PokeID": 923,
+            "ZenkokuPokeID": 923
+        },
+        {
+            "PokeID": 924,
+            "ZenkokuPokeID": 924
+        },
+        {
+            "PokeID": 925,
+            "ZenkokuPokeID": 925
+        },
+        {
+            "PokeID": 926,
+            "ZenkokuPokeID": 926
+        },
+        {
+            "PokeID": 927,
+            "ZenkokuPokeID": 927
+        },
+        {
+            "PokeID": 928,
+            "ZenkokuPokeID": 928
+        },
+        {
+            "PokeID": 929,
+            "ZenkokuPokeID": 929
+        },
+        {
+            "PokeID": 930,
+            "ZenkokuPokeID": 930
+        },
+        {
+            "PokeID": 931,
+            "ZenkokuPokeID": 931
+        },
+        {
+            "PokeID": 932,
+            "ZenkokuPokeID": 932
+        },
+        {
+            "PokeID": 933,
+            "ZenkokuPokeID": 933
+        },
+        {
+            "PokeID": 934,
+            "ZenkokuPokeID": 934
+        },
+        {
+            "PokeID": 935,
+            "ZenkokuPokeID": 935
+        },
+        {
+            "PokeID": 936,
+            "ZenkokuPokeID": 936
+        },
+        {
+            "PokeID": 937,
+            "ZenkokuPokeID": 937
+        },
+        {
+            "PokeID": 938,
+            "ZenkokuPokeID": 938
+        },
+        {
+            "PokeID": 939,
+            "ZenkokuPokeID": 939
+        },
+        {
+            "PokeID": 940,
+            "ZenkokuPokeID": 940
+        },
+        {
+            "PokeID": 941,
+            "ZenkokuPokeID": 941
+        },
+        {
+            "PokeID": 942,
+            "ZenkokuPokeID": 942
+        },
+        {
+            "PokeID": 943,
+            "ZenkokuPokeID": 943
+        },
+        {
+            "PokeID": 944,
+            "ZenkokuPokeID": 944
+        },
+        {
+            "PokeID": 945,
+            "ZenkokuPokeID": 945
+        },
+        {
+            "PokeID": 946,
+            "ZenkokuPokeID": 946
+        },
+        {
+            "PokeID": 947,
+            "ZenkokuPokeID": 947
+        },
+        {
+            "PokeID": 948,
+            "ZenkokuPokeID": 948
+        },
+        {
+            "PokeID": 949,
+            "ZenkokuPokeID": 949
+        },
+        {
+            "PokeID": 950,
+            "ZenkokuPokeID": 950
+        },
+        {
+            "PokeID": 951,
+            "ZenkokuPokeID": 951
+        },
+        {
+            "PokeID": 952,
+            "ZenkokuPokeID": 952
+        },
+        {
+            "PokeID": 953,
+            "ZenkokuPokeID": 953
+        },
+        {
+            "PokeID": 954,
+            "ZenkokuPokeID": 954
+        },
+        {
+            "PokeID": 955,
+            "ZenkokuPokeID": 955
+        },
+        {
+            "PokeID": 956,
+            "ZenkokuPokeID": 956
+        },
+        {
+            "PokeID": 957,
+            "ZenkokuPokeID": 957
+        },
+        {
+            "PokeID": 958,
+            "ZenkokuPokeID": 958
+        },
+        {
+            "PokeID": 959,
+            "ZenkokuPokeID": 959
+        },
+        {
+            "PokeID": 960,
+            "ZenkokuPokeID": 960
+        },
+        {
+            "PokeID": 961,
+            "ZenkokuPokeID": 961
+        },
+        {
+            "PokeID": 962,
+            "ZenkokuPokeID": 962
+        },
+        {
+            "PokeID": 963,
+            "ZenkokuPokeID": 963
+        },
+        {
+            "PokeID": 964,
+            "ZenkokuPokeID": 964
+        },
+        {
+            "PokeID": 965,
+            "ZenkokuPokeID": 965
+        },
+        {
+            "PokeID": 966,
+            "ZenkokuPokeID": 966
+        },
+        {
+            "PokeID": 967,
+            "ZenkokuPokeID": 967
+        },
+        {
+            "PokeID": 968,
+            "ZenkokuPokeID": 968
+        },
+        {
+            "PokeID": 969,
+            "ZenkokuPokeID": 969
+        },
+        {
+            "PokeID": 970,
+            "ZenkokuPokeID": 970
+        },
+        {
+            "PokeID": 971,
+            "ZenkokuPokeID": 971
+        },
+        {
+            "PokeID": 972,
+            "ZenkokuPokeID": 972
+        },
+        {
+            "PokeID": 973,
+            "ZenkokuPokeID": 973
+        },
+        {
+            "PokeID": 974,
+            "ZenkokuPokeID": 974
+        },
+        {
+            "PokeID": 975,
+            "ZenkokuPokeID": 975
+        },
+        {
+            "PokeID": 976,
+            "ZenkokuPokeID": 976
+        },
+        {
+            "PokeID": 977,
+            "ZenkokuPokeID": 977
+        },
+        {
+            "PokeID": 978,
+            "ZenkokuPokeID": 978
+        },
+        {
+            "PokeID": 979,
+            "ZenkokuPokeID": 979
+        },
+        {
+            "PokeID": 980,
+            "ZenkokuPokeID": 980
+        },
+        {
+            "PokeID": 981,
+            "ZenkokuPokeID": 981
+        },
+        {
+            "PokeID": 982,
+            "ZenkokuPokeID": 982
+        },
+        {
+            "PokeID": 983,
+            "ZenkokuPokeID": 983
+        },
+        {
+            "PokeID": 984,
+            "ZenkokuPokeID": 984
+        },
+        {
+            "PokeID": 985,
+            "ZenkokuPokeID": 985
+        },
+        {
+            "PokeID": 986,
+            "ZenkokuPokeID": 986
+        },
+        {
+            "PokeID": 987,
+            "ZenkokuPokeID": 987
+        },
+        {
+            "PokeID": 988,
+            "ZenkokuPokeID": 988
+        },
+        {
+            "PokeID": 989,
+            "ZenkokuPokeID": 989
+        },
+        {
+            "PokeID": 990,
+            "ZenkokuPokeID": 990
+        },
+        {
+            "PokeID": 991,
+            "ZenkokuPokeID": 991
+        },
+        {
+            "PokeID": 992,
+            "ZenkokuPokeID": 992
+        },
+        {
+            "PokeID": 993,
+            "ZenkokuPokeID": 993
+        },
+        {
+            "PokeID": 994,
+            "ZenkokuPokeID": 994
+        },
+        {
+            "PokeID": 995,
+            "ZenkokuPokeID": 995
+        },
+        {
+            "PokeID": 996,
+            "ZenkokuPokeID": 996
+        },
+        {
+            "PokeID": 997,
+            "ZenkokuPokeID": 997
+        },
+        {
+            "PokeID": 998,
+            "ZenkokuPokeID": 998
+        },
+        {
+            "PokeID": 999,
+            "ZenkokuPokeID": 999
+        },
+        {
+            "PokeID": 1000,
+            "ZenkokuPokeID": 1000
+        },
+        {
+            "PokeID": 1001,
+            "ZenkokuPokeID": 1001
+        },
+        {
+            "PokeID": 1002,
+            "ZenkokuPokeID": 1002
+        },
+        {
+            "PokeID": 1003,
+            "ZenkokuPokeID": 1003
+        },
+        {
+            "PokeID": 1004,
+            "ZenkokuPokeID": 1004
+        },
+        {
+            "PokeID": 1005,
+            "ZenkokuPokeID": 1005
+        },
+        {
+            "PokeID": 1006,
+            "ZenkokuPokeID": 1006
+        },
+        {
+            "PokeID": 1007,
+            "ZenkokuPokeID": 1007
+        },
+        {
+            "PokeID": 1008,
+            "ZenkokuPokeID": 1008
+        },
+        {
+            "PokeID": 1009,
+            "ZenkokuPokeID": 1009
+        },
+        {
+            "PokeID": 1010,
+            "ZenkokuPokeID": 1010
+        },
+        {
+            "PokeID": 1011,
+            "ZenkokuPokeID": 1011
+        },
+        {
+            "PokeID": 1012,
+            "ZenkokuPokeID": 1012
+        },
+        {
+            "PokeID": 1013,
+            "ZenkokuPokeID": 1013
+        },
+        {
+            "PokeID": 1014,
+            "ZenkokuPokeID": 1014
+        },
+        {
+            "PokeID": 1015,
+            "ZenkokuPokeID": 1015
+        },
+        {
+            "PokeID": 1016,
+            "ZenkokuPokeID": 1016
+        },
+        {
+            "PokeID": 1017,
+            "ZenkokuPokeID": 1017
+        }
+    ]
+}

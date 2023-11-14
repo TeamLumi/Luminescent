@@ -1,0 +1,1441 @@
+door_simple:
+	_CALL('ev_another_out_door')
+	_OBJ_ANIME('HERO', 'anm_door_dir_common')
+	_OBJ_ANIME_WAIT()
+	_HIT_DOOR_ANIME(0)
+	_SE_PLAY('S_FI012')
+	_FOV_OFFSET_RATE(-0.030000, 10)
+	_TIME_WAIT(10, @SCWK_ANSWER)
+	_SET_EVENT_CAMERA_PARAM(40, 15, 8)
+	_EVENT_CAMERA_FRAME(16)
+	_EVENT_CAMERA_MODE(1)
+	_OBJ_ANIME('HERO', 'anm_door_common')
+	_OBJ_ANIME_WAIT()
+	_FADE_SPEED(15)
+	_BLACK_OUT()
+	_TIME_WAIT(5, @SCWK_ANSWER)
+	_HIT_DOOR_ANIME(1)
+	_FADE_WAIT()
+	_EVENT_CAMERA_END_WAIT()
+	_FADE_SPEED(15)
+	_CAMERA_TARGET_HERO()
+	_FOV_OFFSET_RATE(0, 0)
+	_END()
+door_pokecen:
+	_CALL('ev_another_out_door')
+	_OBJ_ANIME('HERO', 'anm_door_dir_common')
+	_OBJ_ANIME_WAIT()
+	_HIT_DOOR_ANIME(0)
+	_EVENT_CAMERA_INDEX(98)
+	_SE_PLAY('S_FI014')
+	_TIME_WAIT(10, @SCWK_ANSWER)
+	_OBJ_ANIME('HERO', 'anm_door_common')
+	_OBJ_ANIME_WAIT()
+	_HIT_DOOR_ANIME(1)
+	_SE_PLAY('S_FI015')
+	_TIME_WAIT(15, @SCWK_ANSWER)
+	_FADE_SPEED(7)
+	_BLACK_OUT()
+	_FADE_WAIT()
+	_EVENT_CAMERA_INDEX(99)
+	_CALL('ev_healthcheck'); Attempt to correct flags
+	_END()
+door_walk_d:
+	_CALL('ev_pair_poke_is_del')
+	_EV_ENTITY_PLAYER_MOVE_START()
+	_SE_PLAY('S_FI001')
+	_FADE_SPEED(7)
+	_BLACK_OUT()
+	_FADE_WAIT()
+	_EV_ENTITY_PLAYER_MOVE_END()
+	_EV_ENTITY_PLAYER_MOVE_RESET()
+	_END()
+door_walk_u:
+	_JUMP('door_walk_r')
+door_walk_l:
+	_JUMP('door_walk_r')
+door_walk_r:
+	_EV_ENTITY_PLAYER_MOVE_START()
+	_SE_PLAY('S_FI001')
+	_FADE_SPEED(7)
+	_BLACK_OUT()
+	_FADE_WAIT()
+	_EV_ENTITY_PLAYER_MOVE_END()
+	_EV_ENTITY_PLAYER_MOVE_RESET()
+	_END()
+door_sekisyo_walk_u:
+	_JUMP('door_sekisyo_walk_r')
+door_sekisyo_walk_d:
+	_JUMP('door_sekisyo_walk_r')
+door_sekisyo_walk_l:
+	_JUMP('door_sekisyo_walk_r')
+door_sekisyo_walk_r:
+	_FLAG_SET(#FLAG_STOP_ZONE_PROGRAM)
+	_EV_ENTITY_PLAYER_MOVE_START()
+	_SE_PLAY('S_FI001')
+	_FADE_SPEED(7)
+	_BLACK_OUT()
+	_FADE_WAIT()
+	_EV_ENTITY_PLAYER_MOVE_END()
+	_EV_ENTITY_PLAYER_MOVE_RESET()
+	_END()
+door_sekisyo_walk_zitensya:
+	_FLAG_SET(#FLAG_STOP_ZONE_PROGRAM)
+	_EV_ENTITY_PLAYER_MOVE_START()
+	_SE_PLAY('S_FI001')
+	_FADE_SPEED(7)
+	_BLACK_OUT()
+	_FADE_WAIT()
+	_EV_ENTITY_PLAYER_MOVE_END()
+	_EV_ENTITY_PLAYER_MOVE_RESET()
+	_FLAG_RESET(#FE_C04R0401_IS_RAID_BICYCLE)
+	_BICYCLE_CHECK(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'door_sekisyo_walk_raid_on')
+	_END()
+door_sekisyo_walk_raid_on:
+	_FLAG_SET(#FE_C04R0401_IS_RAID_BICYCLE)
+	_RET()
+door_doukutu_in:
+	_EV_ENTITY_PLAYER_MOVE_START()
+	_SE_PLAY('S_FI001')
+	_FADE_SPEED(7)
+	_FADE_DUNGEON_OUT()
+	_FADE_WAIT()
+	_EV_ENTITY_PLAYER_MOVE_END()
+	_EV_ENTITY_PLAYER_MOVE_RESET()
+	_END()
+door_doukutu_u:
+	_JUMP('door_doukutu_r')
+door_doukutu_d:
+	_JUMP('door_doukutu_r')
+door_doukutu_l:
+	_JUMP('door_doukutu_r')
+door_doukutu_r:
+	_EV_ENTITY_PLAYER_MOVE_START()
+	_SE_PLAY('S_FI001')
+	_FADE_SPEED(7)
+	_WHITE_OUT()
+	_FADE_WAIT()
+	_EV_ENTITY_PLAYER_MOVE_END()
+	_EV_ENTITY_PLAYER_MOVE_RESET()
+	_END()
+door_elevator:
+	_OBJ_ANIME('HERO', 'anm_door_dir_common')
+	_OBJ_ANIME_WAIT()
+	_HIT_DOOR_ANIME(0)
+	_SE_PLAY('S_FI014')
+	_TIME_WAIT(10, @SCWK_ANSWER)
+	_OBJ_ANIME('HERO', 'anm_elevator_common')
+	_OBJ_ANIME_WAIT()
+	_HIT_DOOR_ANIME(1)
+	_SE_PLAY('S_FI015')
+	_TIME_WAIT(15, @SCWK_ANSWER)
+	_BLACK_OUT()
+	_FADE_WAIT()
+	_END()
+door_tobari:
+	_CALL('ev_another_out_door')
+	_OBJ_ANIME('HERO', 'anm_door_dir_common')
+	_OBJ_ANIME_WAIT()
+	_HIT_DOOR_ANIME(0)
+	_EVENT_CAMERA_INDEX(95)
+	_SE_PLAY('S_FI014')
+	_TIME_WAIT(10, @SCWK_ANSWER)
+	_OBJ_ANIME('HERO', 'anm_door_common')
+	_OBJ_ANIME_WAIT()
+	_HIT_DOOR_ANIME(1)
+	_SE_PLAY('S_FI015')
+	_TIME_WAIT(15, @SCWK_ANSWER)
+	_FADE_SPEED(7)
+	_BLACK_OUT()
+	_FADE_WAIT()
+	_EVENT_CAMERA_INDEX(99)
+	_END()
+door_d31:
+	_CALL('ev_another_out_door')
+	_OBJ_ANIME('HERO', 'anm_door_dir_common')
+	_OBJ_ANIME_WAIT()
+	_HIT_DOOR_ANIME(0)
+	_EVENT_CAMERA_INDEX(289)
+	_SE_PLAY('S_FI014')
+	_TIME_WAIT(10, @SCWK_ANSWER)
+	_PLAYER_POS_GET(@SCWK_TEMP0, @SCWK_TEMP1)
+	_IFVAL_JUMP(@SCWK_TEMP1, 'EQ', 11, 'door_d31_z11')
+	_OBJ_ANIME('HERO', 'anm_door_tower')
+	_OBJ_ANIME_WAIT()
+	_HIT_DOOR_ANIME(1)
+	_SE_PLAY('S_FI015')
+	_TIME_WAIT(15, @SCWK_ANSWER)
+	_FADE_SPEED(7)
+	_BLACK_OUT()
+	_FADE_WAIT()
+	_EVENT_CAMERA_INDEX(99)
+	_END()
+door_d31_z11:
+	_OBJ_ANIME('HERO', 'anm_door_tower_11')
+	_OBJ_ANIME_WAIT()
+	_HIT_DOOR_ANIME(1)
+	_SE_PLAY('S_FI015')
+	_TIME_WAIT(15, @SCWK_ANSWER)
+	_FADE_SPEED(7)
+	_BLACK_OUT()
+	_FADE_WAIT()
+	_EVENT_CAMERA_INDEX(99)
+	_END()
+door_zui:
+	_CALL('ev_another_out_door')
+	_OBJ_ANIME('HERO', 'anm_door_dir_common')
+	_OBJ_ANIME_WAIT()
+	_HIT_DOOR_ANIME(0)
+	_EVENT_CAMERA_INDEX(295)
+	_SE_PLAY('S_FI014')
+	_TIME_WAIT(10, @SCWK_ANSWER)
+	_OBJ_ANIME('HERO', 'anm_door_common')
+	_OBJ_ANIME_WAIT()
+	_HIT_DOOR_ANIME(1)
+	_SE_PLAY('S_FI015')
+	_TIME_WAIT(15, @SCWK_ANSWER)
+	_FADE_SPEED(7)
+	_BLACK_OUT()
+	_FADE_WAIT()
+	_EVENT_CAMERA_INDEX(99)
+	_END()
+door_nagisa:
+	_CALL('ev_another_out_door')
+	_OBJ_ANIME('HERO', 'anm_door_dir_common')
+	_OBJ_ANIME_WAIT()
+	_HIT_DOOR_ANIME(0)
+	_EVENT_CAMERA_INDEX(306)
+	_SE_PLAY('S_FI014')
+	_TIME_WAIT(10, @SCWK_ANSWER)
+	_OBJ_ANIME('HERO', 'anm_door_common')
+	_OBJ_ANIME_WAIT()
+	_HIT_DOOR_ANIME(1)
+	_SE_PLAY('S_FI015')
+	_TIME_WAIT(15, @SCWK_ANSWER)
+	_FADE_SPEED(7)
+	_BLACK_OUT()
+	_FADE_WAIT()
+	_EVENT_CAMERA_INDEX(99)
+	_END()
+anm_elevator_common:
+	_AC_UP_CENTER(3, 8)
+	_ACMD_END()
+anm_door_tower:
+	_AC_UP_CENTER(3, -1)
+	_ACMD_END()
+anm_door_tower_11:
+	_AC_UP_CENTER(2, -1)
+	_ACMD_END()
+anm_door_common:
+	_AC_UP_CENTER(2, -1)
+	_ACMD_END()
+anm_door_dir_common:
+	_AC_DIR_UP_CENTER(2, -1)
+	_ACMD_END()
+anm_door_walk_common_up:
+	_AC_UP_CENTER(2, 8)
+	_ACMD_END()
+anm_door_walk_common_down:
+	_AC_DOWN_CENTER(2, 8)
+	_ACMD_END()
+anm_door_walk_common_left:
+	_AC_LEFT_CENTER(2, 8)
+	_ACMD_END()
+anm_door_walk_common_right:
+	_AC_RIGHT_CENTER(2, 8)
+	_ACMD_END()
+door_exit_simple:
+	_FADE_BUILDING_IN()
+	_PLAYER_POS_GET(@SCWK_TEMP0, @SCWK_TEMP1)
+	_SUB_WK(@SCWK_TEMP1, 2)
+	_SXY_POS_CHANGE('HERO', @SCWK_TEMP0, @SCWK_TEMP1)
+	_DOOR_FORCE_ANIME_END(0)
+	_SET_EVENT_CAMERA_PARAM(40, 15, 8)
+	_EVENT_CAMERA_FRAME(0)
+	_EVENT_CAMERA_MODE(1)
+	_EVENT_CAMERA_WAIT()
+	_OBJ_ANIME('HERO', 'anm_exit_common_down')
+	_TIME_WAIT(8, @SCWK_ANSWER)
+	_EVENT_CAMERA_FRAME(16)
+	_EVENT_CAMERA_MODE(0)
+	_HIT_DOOR_ANIME(1)
+	_HIT_DOOR_ANIME_WAIT()
+	_SE_PLAY('S_FI013')
+	_CAMERA_TARGET_HERO()
+	_GET_NOW_ZONE_ID(@SCWK_TEMP0)
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 429, 'ev_stop_door_out3')
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 422, 'ev_stop_door_hat_time')
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 110, 'ev_stop_door_pastoria_event')
+	_END()
+ev_stop_door_hat_time:
+	_IFVAL_JUMP(@WK_SCENE_T01R0201, 'EQ', 6, 'ev_stop_door_out_set')
+	_END()
+ev_door_end:
+	_END()
+ev_stop_door_pastoria_event:
+	_PLAYER_POS_GET(@SCWK_TEMP0, @SCWK_TEMP1)
+	_IFVAL_JUMP(@SCWK_TEMP0, 'NE',  589, 'ev_door_end')
+	_IFVAL_JUMP(@SCWK_TEMP0, 'NE',  828, 'ev_door_end')
+	_IFVAL_JUMP(@WK_SCENE_C06, 'NE',  1, 'ev_door_end')
+	_IF_FLAGON_JUMP(#2545, 'ev_door_end')
+	_CALL('ev_block_doc')
+	_END()
+door_exit_pokecen:
+	_DUMMY_SET_POS_HERO()
+	_CAMERA_TARGET_DUMMY()
+	_PLAYER_POS_GET(@SCWK_TEMP0, @SCWK_TEMP1)
+	_SUB_WK(@SCWK_TEMP1, 2)
+	_SXY_POS_CHANGE('HERO', @SCWK_TEMP0, @SCWK_TEMP1)
+	_DOOR_FORCE_ANIME_END(0)
+	_EVENT_CAMERA_INDEX(96)
+	_EVENT_CAMERA_END_WAIT()
+	_TIME_WAIT(8, @SCWK_ANSWER)
+	_EVENT_CAMERA_INDEX(97)
+	_OBJ_ANIME('HERO', 'anm_exit_common_down')
+	_TIME_WAIT(8, @SCWK_ANSWER)
+	_EVENT_CAMERA_FRAME(16)
+	_EVENT_CAMERA_MODE(0)
+	_SE_PLAY('S_FI015')
+	_HIT_DOOR_ANIME(1)
+	_HIT_DOOR_ANIME_WAIT()
+	_CAMERA_TARGET_HERO()
+	_GET_NOW_ZONE_ID(@SCWK_TEMP0)
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 110, 'ev_stop_door_pastoria_event')
+	_END()
+ev_stop_door_out1:
+	_IFVAL_JUMP(@TOWNMAP_GUIDE_SEQUENCE, 'EQ', 8200, 'ev_stop_door_out_set')
+	_END()
+ev_stop_door_out3:
+	_IFVAL_JUMP(@WK_SCENE_T02, 'EQ', 3, 'ev_stop_door_out_set')
+	_END()
+ev_stop_door_out_set:
+	_CALL('ev_block_doc')
+	_END()
+door_exit_walk_u:
+	_DUMMY_SET_POS_HERO()
+	_CAMERA_TARGET_DUMMY()
+	_PLAYER_POS_GET(@SCWK_TEMP0, @SCWK_TEMP1)
+	_ADD_WK(@SCWK_TEMP1, 1)
+	_SXY_POS_CHANGE('HERO', @SCWK_TEMP0, @SCWK_TEMP1)
+	_OBJ_ANIME('HERO', 'anm_exit_common_up1')
+	_OBJ_ANIME_WAIT()
+	_CAMERA_TARGET_HERO()
+	_END()
+door_exit_walk_d:
+	_DUMMY_SET_POS_HERO()
+	_CAMERA_TARGET_DUMMY()
+	_PLAYER_POS_GET(@SCWK_TEMP0, @SCWK_TEMP1)
+	_SUB_WK(@SCWK_TEMP1, 1)
+	_SXY_POS_CHANGE('HERO', @SCWK_TEMP0, @SCWK_TEMP1)
+	_OBJ_ANIME('HERO', 'anm_exit_common_down1')
+	_OBJ_ANIME_WAIT()
+	_CAMERA_TARGET_HERO()
+	_END()
+door_exit_walk_l:
+	_DUMMY_SET_POS_HERO()
+	_CAMERA_TARGET_DUMMY()
+	_PLAYER_POS_GET(@SCWK_TEMP0, @SCWK_TEMP1)
+	_ADD_WK(@SCWK_TEMP0, 1)
+	_SXY_POS_CHANGE('HERO', @SCWK_TEMP0, @SCWK_TEMP1)
+	_OBJ_ANIME('HERO', 'anm_exit_common_left1')
+	_OBJ_ANIME_WAIT()
+	_CAMERA_TARGET_HERO()
+	_END()
+door_exit_walk_r:
+	_DUMMY_SET_POS_HERO()
+	_CAMERA_TARGET_DUMMY()
+	_PLAYER_POS_GET(@SCWK_TEMP0, @SCWK_TEMP1)
+	_SUB_WK(@SCWK_TEMP0, 1)
+	_SXY_POS_CHANGE('HERO', @SCWK_TEMP0, @SCWK_TEMP1)
+	_OBJ_ANIME('HERO', 'anm_exit_common_right1')
+	_OBJ_ANIME_WAIT()
+	_CAMERA_TARGET_HERO()
+	_END()
+door_sekisyo_exit_walk_u:
+	_FLAG_SET(#FLAG_STOP_ZONE_PROGRAM)
+	_DUMMY_SET_POS_HERO()
+	_CAMERA_TARGET_DUMMY()
+	_FADE_AREA_IN(2)
+	_PLAYER_POS_GET(@SCWK_TEMP0, @SCWK_TEMP1)
+	_ADD_WK(@SCWK_TEMP1, 1)
+	_SXY_POS_CHANGE('HERO', @SCWK_TEMP0, @SCWK_TEMP1)
+	_OBJ_ANIME('HERO', 'anm_exit_common_up1')
+	_OBJ_ANIME_WAIT()
+	_CAMERA_TARGET_HERO()
+	_FLAG_RESET(#FLAG_STOP_ZONE_PROGRAM)
+	_END()
+door_sekisyo_exit_walk_d:
+	_FLAG_SET(#FLAG_STOP_ZONE_PROGRAM)
+	_DUMMY_SET_POS_HERO()
+	_CAMERA_TARGET_DUMMY()
+	_FADE_AREA_IN(1)
+	_PLAYER_POS_GET(@SCWK_TEMP0, @SCWK_TEMP1)
+	_SUB_WK(@SCWK_TEMP1, 1)
+	_SXY_POS_CHANGE('HERO', @SCWK_TEMP0, @SCWK_TEMP1)
+	_OBJ_ANIME('HERO', 'anm_exit_common_down1')
+	_OBJ_ANIME_WAIT()
+	_CAMERA_TARGET_HERO()
+	_FLAG_RESET(#FLAG_STOP_ZONE_PROGRAM)
+	_END()
+door_sekisyo_exit_walk_l:
+	_FLAG_SET(#FLAG_STOP_ZONE_PROGRAM)
+	_DUMMY_SET_POS_HERO()
+	_CAMERA_TARGET_DUMMY()
+	_FADE_AREA_IN(4)
+	_PLAYER_POS_GET(@SCWK_TEMP0, @SCWK_TEMP1)
+	_ADD_WK(@SCWK_TEMP0, 1)
+	_SXY_POS_CHANGE('HERO', @SCWK_TEMP0, @SCWK_TEMP1)
+	_OBJ_ANIME('HERO', 'anm_exit_common_left1')
+	_OBJ_ANIME_WAIT()
+	_CAMERA_TARGET_HERO()
+	_FLAG_RESET(#FLAG_STOP_ZONE_PROGRAM)
+	_END()
+door_sekisyo_exit_walk_r:
+	_FLAG_SET(#FLAG_STOP_ZONE_PROGRAM)
+	_DUMMY_SET_POS_HERO()
+	_CAMERA_TARGET_DUMMY()
+	_FADE_AREA_IN(3)
+	_PLAYER_POS_GET(@SCWK_TEMP0, @SCWK_TEMP1)
+	_SUB_WK(@SCWK_TEMP0, 1)
+	_SXY_POS_CHANGE('HERO', @SCWK_TEMP0, @SCWK_TEMP1)
+	_OBJ_ANIME('HERO', 'anm_exit_common_right1')
+	_OBJ_ANIME_WAIT()
+	_CAMERA_TARGET_HERO()
+	_FLAG_RESET(#FLAG_STOP_ZONE_PROGRAM)
+	_END()
+door_exit_doukutu_u:
+	_DUMMY_SET_POS_HERO()
+	_CAMERA_TARGET_DUMMY()
+	_PLAYER_POS_GET(@SCWK_TEMP0, @SCWK_TEMP1)
+	_ADD_WK(@SCWK_TEMP1, 2)
+	_SXY_POS_CHANGE('HERO', @SCWK_TEMP0, @SCWK_TEMP1)
+	_OBJ_ANIME('HERO', 'anm_door_walk_common_up')
+	_OBJ_ANIME_WAIT()
+	_CAMERA_TARGET_HERO()
+	_END()
+door_exit_doukutu_d:
+	_DUMMY_SET_POS_HERO()
+	_CAMERA_TARGET_DUMMY()
+	_PLAYER_POS_GET(@SCWK_TEMP0, @SCWK_TEMP1)
+	_SUB_WK(@SCWK_TEMP1, 2)
+	_SXY_POS_CHANGE('HERO', @SCWK_TEMP0, @SCWK_TEMP1)
+	_OBJ_ANIME('HERO', 'anm_door_walk_common_down')
+	_OBJ_ANIME_WAIT()
+	_CAMERA_TARGET_HERO()
+	_END()
+door_exit_doukutu_l:
+	_DUMMY_SET_POS_HERO()
+	_CAMERA_TARGET_DUMMY()
+	_PLAYER_POS_GET(@SCWK_TEMP0, @SCWK_TEMP1)
+	_ADD_WK(@SCWK_TEMP0, 2)
+	_SXY_POS_CHANGE('HERO', @SCWK_TEMP0, @SCWK_TEMP1)
+	_OBJ_ANIME('HERO', 'anm_door_walk_common_left')
+	_OBJ_ANIME_WAIT()
+	_CAMERA_TARGET_HERO()
+	_END()
+door_exit_doukutu_r:
+	_DUMMY_SET_POS_HERO()
+	_CAMERA_TARGET_DUMMY()
+	_PLAYER_POS_GET(@SCWK_TEMP0, @SCWK_TEMP1)
+	_SUB_WK(@SCWK_TEMP0, 2)
+	_SXY_POS_CHANGE('HERO', @SCWK_TEMP0, @SCWK_TEMP1)
+	_OBJ_ANIME('HERO', 'anm_door_walk_common_right')
+	_OBJ_ANIME_WAIT()
+	_CAMERA_TARGET_HERO()
+	_END()
+door_exit_elevator:
+	_PLAYER_POS_GET(@SCWK_TEMP0, @SCWK_TEMP1)
+	_SUB_WK(@SCWK_TEMP1, 2)
+	_SXY_POS_CHANGE('HERO', @SCWK_TEMP0, @SCWK_TEMP1)
+	_DOOR_FORCE_ANIME_END(0)
+	_TIME_WAIT(8, @SCWK_ANSWER)
+	_OBJ_ANIME('HERO', 'anm_exit_common_down')
+	_TIME_WAIT(8, @SCWK_ANSWER)
+	_SE_PLAY('S_FI015')
+	_HIT_DOOR_ANIME(1)
+	_HIT_DOOR_ANIME_WAIT()
+	_END()
+door_exit_tobari:
+	_DUMMY_SET_POS_HERO()
+	_CAMERA_TARGET_DUMMY()
+	_PLAYER_POS_GET(@SCWK_TEMP0, @SCWK_TEMP1)
+	_SUB_WK(@SCWK_TEMP1, 2)
+	_SXY_POS_CHANGE('HERO', @SCWK_TEMP0, @SCWK_TEMP1)
+	_DOOR_FORCE_ANIME_END(0)
+	_EVENT_CAMERA_INDEX(93)
+	_EVENT_CAMERA_END_WAIT()
+	_TIME_WAIT(8, @SCWK_ANSWER)
+	_EVENT_CAMERA_INDEX(94)
+	_OBJ_ANIME('HERO', 'anm_exit_common_down')
+	_TIME_WAIT(8, @SCWK_ANSWER)
+	_SE_PLAY('S_FI015')
+	_HIT_DOOR_ANIME(1)
+	_HIT_DOOR_ANIME_WAIT()
+	_CAMERA_TARGET_HERO()
+	_END()
+door_exit_d31:
+	_DUMMY_SET_POS_HERO()
+	_CAMERA_TARGET_DUMMY()
+	_PLAYER_POS_GET(@SCWK_TEMP0, @SCWK_TEMP1)
+	_SUB_WK(@SCWK_TEMP1, 3)
+	_SXY_POS_CHANGE('HERO', @SCWK_TEMP0, @SCWK_TEMP1)
+	_DOOR_FORCE_ANIME_END(0)
+	_EVENT_CAMERA_INDEX(287)
+	_EVENT_CAMERA_END_WAIT()
+	_TIME_WAIT(8, @SCWK_ANSWER)
+	_EVENT_CAMERA_INDEX(288)
+	_OBJ_ANIME('HERO', 'anm_exit_common_down2')
+	_TIME_WAIT(28, @SCWK_ANSWER)
+	_SE_PLAY('S_FI015')
+	_HIT_DOOR_ANIME(1)
+	_HIT_DOOR_ANIME_WAIT()
+	_RESET_SYS_FLAG($SYS_ZENMETU_MUSI)
+	_CAMERA_TARGET_HERO()
+	_END()
+door_exit_zui:
+	_DUMMY_SET_POS_HERO()
+	_CAMERA_TARGET_DUMMY()
+	_PLAYER_POS_GET(@SCWK_TEMP0, @SCWK_TEMP1)
+	_SUB_WK(@SCWK_TEMP1, 2)
+	_SXY_POS_CHANGE('HERO', @SCWK_TEMP0, @SCWK_TEMP1)
+	_DOOR_FORCE_ANIME_END(0)
+	_EVENT_CAMERA_INDEX(296)
+	_EVENT_CAMERA_END_WAIT()
+	_TIME_WAIT(8, @SCWK_ANSWER)
+	_EVENT_CAMERA_INDEX(297)
+	_OBJ_ANIME('HERO', 'anm_exit_common_down')
+	_TIME_WAIT(8, @SCWK_ANSWER)
+	_SE_PLAY('S_FI015')
+	_HIT_DOOR_ANIME(1)
+	_HIT_DOOR_ANIME_WAIT()
+	_CAMERA_TARGET_HERO()
+	_END()
+anm_exit_common_down:
+	_AC_DOWN(2, 8)
+	_ACMD_END()
+anm_exit_common_down2:
+	_AC_DOWN(3, 8)
+	_ACMD_END()
+anm_exit_common_up1:
+	_AC_UP(1, 8)
+	_ACMD_END()
+anm_exit_common_down1:
+	_AC_DOWN(1, 8)
+	_ACMD_END()
+anm_exit_common_left1:
+	_AC_LEFT(1, 8)
+	_ACMD_END()
+anm_exit_common_right1:
+	_AC_RIGHT(1, 8)
+	_ACMD_END()
+anm_exit_common_left1_dir:
+	_AC_DIR_LEFT_CENTER(2, -1)
+	_ACMD_END()
+anm_exit_common_left1_hudou:
+	_AC_LEFT(2, 26, 1)
+	_ACMD_END()
+anm_exit_common_right1_out:
+	_AC_RIGHT(1, 26, 1)
+	_AC_RIGHT(1, 12)
+	_ACMD_END()
+anm_exit_common_right1_dir:
+	_AC_DIR_RIGHT_CENTER(2, -1)
+	_ACMD_END()
+anm_exit_common_right1_hudou:
+	_AC_RIGHT(2, 26, 1)
+	_ACMD_END()
+anm_exit_common_left_out:
+	_AC_LEFT(1, 26, 1)
+	_AC_LEFT(1, 12)
+	_ACMD_END()
+door_escalator1_1:
+	_OBJ_ANIME('HERO', 'anm_exit_common_left1_dir')
+	_OBJ_ANIME_WAIT()
+	_OBJ_ANIME('HERO', 'anm_exit_common_left1_hudou')
+	_TIME_WAIT(2, @SCWK_ANSWER)
+	_EVENT_ENTITY_CLIP_PLAY('P_RO_005_Escalator_03', 1)
+	_SE_PLAY('S_FI019')
+	_TIME_WAIT(17, @SCWK_ANSWER)
+	_FADE_SPEED(7)
+	_BLACK_OUT()
+	_OBJ_ANIME_WAIT()
+	_FADE_WAIT()
+	_END()
+door_escalator1_2:
+	_EVENT_START()
+	_PLAYER_POS_GET(@SCWK_TEMP0, @SCWK_TEMP1)
+	_SUB_WK(@SCWK_TEMP0, 1)
+	_SXY_POS_CHANGE('HERO', @SCWK_TEMP0, @SCWK_TEMP1)
+	_OBJ_ANIME('HERO', 'anm_exit_common_right1_out')
+	_EVENT_ENTITY_CLIP_PLAY('P_RO_005_Escalator_04', 1)
+	_SE_PLAY('S_FI019')
+	_OBJ_ANIME_WAIT()
+	_EVENT_ENTITY_CLIP_PLAY('P_RO_005_Escalator_04', 0)
+	_EVENT_END()
+	_END()
+door_escalator2_1:
+	_OBJ_ANIME('HERO', 'anm_exit_common_right1_dir')
+	_OBJ_ANIME_WAIT()
+	_OBJ_ANIME('HERO', 'anm_exit_common_right1_hudou')
+	_TIME_WAIT(2, @SCWK_ANSWER)
+	_EVENT_ENTITY_CLIP_PLAY('P_RO_005_Escalator_04', 2)
+	_SE_PLAY('S_FI019')
+	_TIME_WAIT(17, @SCWK_ANSWER)
+	_FADE_SPEED(7)
+	_BLACK_OUT()
+	_OBJ_ANIME_WAIT()
+	_FADE_WAIT()
+	_END()
+door_escalator2_2:
+	_EVENT_START()
+	_PLAYER_POS_GET(@SCWK_TEMP0, @SCWK_TEMP1)
+	_ADD_WK(@SCWK_TEMP0, 1)
+	_SXY_POS_CHANGE('HERO', @SCWK_TEMP0, @SCWK_TEMP1)
+	_OBJ_ANIME('HERO', 'anm_exit_common_left_out')
+	_EVENT_ENTITY_CLIP_PLAY('P_RO_005_Escalator_03', 2)
+	_SE_PLAY('S_FI019')
+	_OBJ_ANIME_WAIT()
+	_EVENT_ENTITY_CLIP_PLAY('P_RO_005_Escalator_03', 0)
+	_EVENT_END()
+	_END()
+door_escalator3_1:
+	_EVENT_START()
+	_OBJ_ANIME('HERO', 'anm_exit_common_left1_dir')
+	_OBJ_ANIME_WAIT()
+	_OBJ_ANIME('HERO', 'anm_exit_common_left1_hudou')
+	_TIME_WAIT(2, @SCWK_ANSWER)
+	_EVENT_ENTITY_CLIP_PLAY('P_RO_005_Escalator_04', 2)
+	_SE_PLAY('S_FI019')
+	_TIME_WAIT(17, @SCWK_ANSWER)
+	_FADE_SPEED(7)
+	_BLACK_OUT()
+	_OBJ_ANIME_WAIT()
+	_FADE_WAIT()
+	_EVENT_END()
+	_END()
+door_escalator3_2:
+	_EVENT_START()
+	_PLAYER_POS_GET(@SCWK_TEMP0, @SCWK_TEMP1)
+	_SUB_WK(@SCWK_TEMP0, 1)
+	_SXY_POS_CHANGE('HERO', @SCWK_TEMP0, @SCWK_TEMP1)
+	_OBJ_ANIME('HERO', 'anm_exit_common_right1_out')
+	_EVENT_ENTITY_CLIP_PLAY('P_RO_005_Escalator_03', 2)
+	_SE_PLAY('S_FI019')
+	_OBJ_ANIME_WAIT()
+	_EVENT_ENTITY_CLIP_PLAY('P_RO_005_Escalator_03', 0)
+	_EVENT_END()
+	_END()
+door_escalator4_1:
+	_OBJ_ANIME('HERO', 'anm_exit_common_right1_dir')
+	_OBJ_ANIME_WAIT()
+	_OBJ_ANIME('HERO', 'anm_exit_common_right1_hudou')
+	_TIME_WAIT(2, @SCWK_ANSWER)
+	_EVENT_ENTITY_CLIP_PLAY('P_RO_005_Escalator_03', 1)
+	_SE_PLAY('S_FI019')
+	_TIME_WAIT(17, @SCWK_ANSWER)
+	_FADE_SPEED(7)
+	_BLACK_OUT()
+	_OBJ_ANIME_WAIT()
+	_FADE_WAIT()
+	_EVENT_END()
+	_END()
+door_escalator4_2:
+	_EVENT_START()
+	_PLAYER_POS_GET(@SCWK_TEMP0, @SCWK_TEMP1)
+	_ADD_WK(@SCWK_TEMP0, 1)
+	_SXY_POS_CHANGE('HERO', @SCWK_TEMP0, @SCWK_TEMP1)
+	_OBJ_ANIME('HERO', 'anm_exit_common_left_out')
+	_EVENT_ENTITY_CLIP_PLAY('P_RO_005_Escalator_04', 1)
+	_SE_PLAY('S_FI019')
+	_OBJ_ANIME_WAIT()
+	_EVENT_ENTITY_CLIP_PLAY('P_RO_005_Escalator_04', 0)
+	_EVENT_END()
+	_END()
+door_walk_u_r209:
+	_EV_ENTITY_PLAYER_MOVE_START()
+	_SE_PLAY('S_FI001')
+	_FADE_SPEED(7)
+	_BLACK_OUT()
+	_FADE_WAIT()
+	_SET_SYS_FLAG($SYS_FLAG_MAP_INFO_STOP)
+	_EV_ENTITY_PLAYER_MOVE_END()
+	_EV_ENTITY_PLAYER_MOVE_RESET()
+	_END()
+door_walk_d_r209r0101:
+	_EVENT_START()
+	_SE_PLAY('S_FI001')
+	_FADE_SPEED(7)
+	_BLACK_OUT()
+	_FADE_WAIT()
+	_RESET_SYS_FLAG($SYS_FLAG_MAP_INFO_STOP)
+	_EVENT_END()
+	_END()
+door_walk_u_mechanical:
+	_EV_ENTITY_PLAYER_MOVE_START()
+	_SE_PLAY('S_FI230')
+	_FADE_SPEED(7)
+	_BLACK_OUT()
+	_FADE_WAIT()
+	_EV_ENTITY_PLAYER_MOVE_END()
+	_EV_ENTITY_PLAYER_MOVE_RESET()
+	_END()
+door_warp_panel_start:
+	_EVENT_START()
+	_WARP_PANEL_START()
+	_EVENT_END()
+	_END()
+door_warp_panel_end:
+	_EVENT_START()
+	_WARP_PANEL_END()
+	_EVENT_END()
+	_END()
+ev_healthcheck:
+	_CALL('ev_healthcheck_palmer'); Palmer = 1
+	_CALL('ev_healthcheck_doorrowan'); Doorrowan = 1
+	_CALL('ev_healthcheck_slowpoke_stopper'); Slowpoke stopper healthcheck
+	_CALL('ev_healthcheck_biker_stopper'); Biker stopper healthcheck
+	_CALL('ev_healthcheck_hasbike'); Make sure the player has the bike.
+	_CALL('ev_healthcheck_expshare'); Make sure the player has the Exp. Share.
+	_CALL('ev_healthcheck_pokeradar'); Make sure the player has the radar.
+	_CALL('ev_healthcheck_init_inverse_flags'); Initialize the flags that should've been fixed on startup.
+	_CALL('ev_healthcheck_followcheck'); Make sure the player's pokemon follow flag is set.
+	_CALL('ev_healthcheck_styles') ; Make sure the player has all outfits unlocked
+	_CALL('ev_healthcheck_check_dexmode'); Make sure the player's dex is set.
+	_CALL('ev_healthcheck_has_shoes'); Make sure the player has shoes.
+	_CALL('ev_healthcheck_r206r0101_stoppers'); Make sure the R206R0101 stoppers are accurate.
+	_CALL('ev_healthcheck_r204b_grunt_stoppers'); Make sure the R204B grunt stoppers are accurate.
+	_CALL('ev_healthcheck_d03_blockers'); Make sure the D03 blockers are accurate.
+	_CALL('ev_healthcheck_hm_flags'); Make sure the HM flags are accurate.
+	_CALL('ev_healthcheck_has_ds_sounds'); Make sure the player has the DS sounds.
+	_CALL('ev_healthcheck_fix_boxes'); Make sure the player's box names are correct
+	_CALL('ev_healthcheck_lookerblocker_fixer'); Make sure the player's looker blocker is correct.
+	_CALL('ev_healthcheck_fix_lucian'); Disable Lucian
+	_CALL('ev_healthcheck_fix_whiteout'); Disable bugged whiteout protection
+	_CALL('ev_healthcheck_fix_r212a_blockers'); Make sure the R212A blockers are accurate.
+	_CALL('ev_healthcheck_fix_pastoria_event'); Make sure the Pastoria event is accurate.
+	_CALL('ev_healthcheck_reset_mew_event'); Reset the whole Mew event once per save.
+	_CALL('ev_healthcheck_fix_ball_capsules'); Fix Ball Capsule bug
+	_CALL('ev_healthcheck_fix_eterna_city'); Set new Eterna events as complete if trainer is post-Eterna
+	_CALL('ev_healthcheck_enforce_double_battles_off'); Make sure double battle flag is off
+	_CALL('ev_healthcheck_enable_iv_judge'); Make sure IV judge is enabled
+	_CALL('ev_healthcheck_fix_hearthome_city'); Make sure the Hearthhome city is correct.
+	_CALL('ev_healthcheck_fix_mira_event'); Fix Mira event blocker.
+	_CALL('ev_healthcheck_fix_c01_looker'); Fix old saves' Jubilife Looker visibility
+	_CALL('ev_healthcheck_fix_dialga_palkia_sp'); Fix Dialga/Palkia hanging about
+	_CALL('ev_healthcheck_fix_d09_blocker'); Fix fat man blocking path
+	_CALL('ev_healthcheck_lookerblocker_fixer_2'); Fix other way someone corrupted their save in Jub
+	_CALL('ev_healthcheck_c06_hide_grunts'); Hide Spare grunts in C06
+	_CALL('ev_healthcheck_check_poketch_apps'); Try to fix player poketch apps
+	_CALL('ev_healthcheck_fix_mansion_event'); End the mansion event if the user is past it.
+	_CALL('ev_healthcheck_sunnyshore_fix'); Update Sunnyshore flags
+	_CALL('ev_healthcheck_orebourgh_boy_fix'); Update the boy to not stop the champ.
+	_CALL('ev_healthcheck_fix_l01_entrance'); Fix L01 entrance value for older saves
+	_CALL('ev_healthcheck_canalave_advicedude_fix'); Fix Canalave man
+	_CALL('ev_healthcheck_victoryroad_stopper_fix'); Fix Victory Road stoppers
+	_CALL('ev_healthcheck_fix_mtcoronet_looker')
+	_CALL('ev_healthcheck_check_spear_shaymin'); Fix Shaymin Spear Pillar scene
+	_CALL('ev_healthcheck_give_incense_burner'); Add the incense burner
+	_CALL('ev_healthcheck_enable_flowers'); correct the flags
+	_CALL('ev_healthcheck_check_hisui_flowers'); Check Hisui flower status
+	_CALL('ev_healthcheck_c05_blockers')
+	_CALL('ev_healthcheck_fix_barry_fight_flag')
+	_CALL('ev_healthcheck_check_c10_shaymin_event')
+	_CALL('ev_healthcheck_form_shuffle_flag_reset'); Reset events
+	_CALL('ev_healthcheck_add_missing_boss_items'); Check for missing Griseous Orb and Magma Stone
+	_CALL('ev_healthcheck_infinite_repel_check'); Add infinite repel
+	_CALL('ev_healthcheck_update_hotfix_stopdatas'); mansion grunt stopdatas
+	_RET()
+ev_healthcheck_return:
+	_RET(); Helper function to early return
+ev_healthcheck_update_hotfix_stopdatas:
+	_IFVAL_JUMP(@486, 'EQ', 2, 'ev_healthcheck_return')
+	_IF_FLAGOFF_JUMP(#2729, 'ev_healthcheck_return')
+	_LDVAL(@486, 2)
+	_RET()
+ev_healthcheck_check_c10_shaymin_event:
+	_IFVAL_JUMP(@WK_SCENE_C10R0101, 'EQ', 0, 'ev_healthcheck_return')
+	_IFVAL_JUMP(@469, 'EQ', 1, 'ev_healthcheck_return')
+	_LDVAL(@469, 1); Shaymin event should have already happened
+	_ITEM_CHK(466, 1, @SCWK_ANSWER); Does player have Gracidea
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_healthcheck_return')
+	_ADD_ITEM(466, 1, @SCWK_ANSWER); If no, give one
+	_RET()
+ev_healthcheck_fix_barry_fight_flag:
+	_IF_FLAGOFF_JUMP(#2547, 'ev_healthcheck_return')
+	_FLAG_RESET(#2547)
+	_RET()
+ev_healthcheck_check_spear_shaymin:
+	_IF_FLAGOFF_JUMP(#1618, 'ev_healthcheck_return'); If player has not unlocked Kakure road, return
+	_IFVAL_JUMP(@468, 'GT', 0, 'ev_healthcheck_return')
+	_LDVAL(@468, 1)
+	_FLAG_SET(#2727); Kill the trigger of odd scene
+	_FLAG_SET(#2826)
+	_FLAG_SET(#2827)
+	_RET()
+ev_healthcheck_c05_blockers:
+	_SYS_FLAG_BADGE_GET($BADGE_ID_C05, @SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_healthcheck_return')
+	_FLAG_SET(#FV_C05_STOPPER)
+	_RET()
+ev_healthcheck_check_hisui_flowers:
+	_IFVAL_JUMP(@468, 'EQ', 0, 'ev_healthcheck_return')
+	_IF_FLAGON_JUMP(#2564, 'ev_healthcheck_return')
+	_FLAG_SET(#2564); Enable the Hisui flower
+	_RET()
+ev_healthcheck_enable_flowers:
+	_IF_FLAGON_JUMP(#2566, 'ev_healthcheck_return'); If done before, go home
+	_LDVAL(@485, 0); My check = 0;
+	_IF_FLAGON_CALL(#2561, 'ev_healthcheck_enable_flowers_add_unova_modifier')
+	_IF_FLAGON_CALL(#2562, 'ev_healthcheck_enable_flowers_add_kalos_modifier')
+	_IF_FLAGON_CALL(#2563, 'ev_healthcheck_enable_flowers_add_alola_modifier')
+	_IF_FLAGON_CALL(#2565, 'ev_healthcheck_enable_flowers_add_galar_modifier')
+	_IFVAL_JUMP(@485, 'EQ', 15, 'ev_healthcheck_return'); If A + B + C + D, go home
+	_JUMP('ev_healthcheck_check_flowers')
+ev_healthcheck_check_flowers:
+	_IFVAL_JUMP(@WK_SCENE_D27R0101, 'EQ', 0, 'ev_healthcheck_return'); Hasn't progressed enough
+	_IFVAL_CALL(@485, 'EQ', 0, 'ev_healthcheck_enable_unova_flower'); Hasn't chosen a flower
+	_IFVAL_JUMP(@WK_SCENE_C05_JUDGE, 'EQ', 0, 'ev_healthcheck_return'); Hasn't progressed enough
+	_IFVAL_CALL(@485, 'EQ', 1, 'ev_healthcheck_enable_kalos_flower'); If has only chosen A, enable B
+	_IFVAL_CALL(@485, 'EQ', 2, 'ev_healthcheck_enable_unova_flower'); If has only chosen B, enable A
+	_IFVAL_CALL(@485, 'EQ', 4, 'ev_healthcheck_enable_kalos_flower'); If has only chosen C, enable B
+	_IFVAL_CALL(@485, 'EQ', 8, 'ev_healthcheck_enable_kalos_flower'); If has only chosen D, enable B
+	_IFVAL_JUMP(@WK_SCENE_C06, 'LT', 4, 'ev_healthcheck_return'); Hasn't progressed enough
+	_IFVAL_CALL(@485, 'EQ', 3, 'ev_healthcheck_enable_alola_flower'); If A + B, enable C
+	_IFVAL_CALL(@485, 'EQ', 5, 'ev_healthcheck_enable_kalos_flower'); If A + C, enable B
+	_IFVAL_CALL(@485, 'EQ', 6, 'ev_healthcheck_enable_unova_flower'); If B + C, enable A
+	_IFVAL_CALL(@485, 'EQ', 9, 'ev_healthcheck_enable_kalos_flower'); If A + D, enable B
+	_IFVAL_CALL(@485, 'EQ', 10, 'ev_healthcheck_enable_unova_flower'); If B + D, enable A
+	_IFVAL_CALL(@485, 'EQ', 12, 'ev_healthcheck_enable_unova_flower'); If C + D, enable A
+	_IFVAL_JUMP(@469, 'EQ', 0, 'ev_healthcheck_return'); Hasn't progressed enough
+	_IFVAL_CALL(@485, 'EQ', 7, 'ev_healthcheck_enable_galar_flower'); If A + B + C, enable D
+	_IFVAL_CALL(@485, 'EQ', 11, 'ev_healthcheck_enable_alola_flower'); If A + B + D, enable C
+	_IFVAL_CALL(@485, 'EQ', 13, 'ev_healthcheck_enable_kalos_flower'); If A + C + D, enable B
+	_IFVAL_CALL(@485, 'EQ', 14, 'ev_healthcheck_enable_unova_flower'); If B + C + D, enable A
+	_FLAG_SET(#2566); Performed this check
+	_RET()
+ev_healthcheck_enable_unova_flower:
+	_FLAG_SET(#2561)
+	_ADD_WK(@485, 1)
+	_RET()
+ev_healthcheck_enable_kalos_flower:
+	_FLAG_SET(#2562)
+	_ADD_WK(@485, 2)
+	_RET()
+ev_healthcheck_enable_alola_flower:
+	_FLAG_SET(#2563)
+	_ADD_WK(@485, 4)
+	_RET()
+ev_healthcheck_enable_galar_flower:
+	_FLAG_SET(#2565)
+	_ADD_WK(@485, 8)
+	_RET()
+ev_healthcheck_enable_flowers_add_unova_modifier:
+	_ADD_WK(@485, 1)
+	_RET()
+ev_healthcheck_enable_flowers_add_kalos_modifier:
+	_ADD_WK(@485, 2)
+	_RET()
+ev_healthcheck_enable_flowers_add_alola_modifier:
+	_ADD_WK(@485, 4)
+	_RET()
+ev_healthcheck_enable_flowers_add_galar_modifier:
+	_ADD_WK(@485, 8)
+	_RET()
+ev_healthcheck_give_incense_burner:
+	_ITEM_CHK(1833, 1, @SCWK_ANSWER); PokeRadar item check
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_healthcheck_return')
+	_ADD_ITEM(1833, 1, @SCWK_ANSWER)
+	_RET()
+ev_healthcheck_fix_mtcoronet_looker:
+	_IF_FLAGOFF_JUMP(#2780, 'ev_healthcheck_return')
+	_FLAG_SET(#2826)
+	_RET()
+ev_healthcheck_victoryroad_stopper_fix:
+	_IFVAL_JUMP(@WK_SCENE_C10R0101, 'LT', 1, 'ev_healthcheck_return')
+	_IF_FLAGON_JUMP(#2777, 'ev_healthcheck_return')
+	_FLAG_SET(#2777)
+	_RET()
+ev_healthcheck_canalave_advicedude_fix:
+	_SYS_FLAG_BADGE_GET($BADGE_ID_C02, @SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_healthcheck_return'); If the player has not defeated Byron, return.
+	_FLAG_SET(#2722); Hide advice dude
+	_RET()
+ev_healthcheck_orebourgh_boy_fix:
+	_SYS_FLAG_BADGE_GET($BADGE_ID_C03, @SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_healthcheck_return')
+	_IFVAL_JUMP(@482, 'GE', 1, 'ev_healthcheck_return')
+	_LDVAL(@482, 1)
+	_RET()
+ev_healthcheck_sunnyshore_fix:
+	_IFVAL_JUMP(@WK_SCENE_C10R0101, 'LT', 1, 'ev_healthcheck_return')
+	_IFVAL_JUMP(@WK_SCENE_C08, 'GE', 3, 'ev_healthcheck_return')
+	_LDVAL(@WK_SCENE_C08, 3)
+	_RET()
+ev_healthcheck_fix_mansion_event:
+	_IF_FLAGOFF_JUMP($FLAG_ARRIVE_T04, 'ev_healthcheck_return'); If the player has not been to Solaceon
+	_IF_FLAGON_JUMP(#2580, 'ev_healthcheck_return'); If the event has been checked
+	_FLAG_SET(#2733); 2565
+	_FLAG_SET(#2734); Barry OW20
+	_FLAG_SET(#2735); 2561
+	_FLAG_SET(#2736); 2564
+	_FLAG_SET(#2738); 2562
+	_FLAG_SET(#2737); 2563
+	_FLAG_SET(#2714); 2218
+	_FLAG_SET(#2715); 2219
+	_FLAG_SET(#2716)
+	_FLAG_SET(#2747); 2220; Related to script 7
+	_FLAG_SET(#2713); 2554
+	_LDVAL(@479, 1);SetVar 16559 1; Disable police blocker on R209
+	_FLAG_SET(#2748);SetVar 16498 1; Disable current trigger
+	_FLAG_RESET(#2728); 2553
+	_FLAG_SET(#2729); Mansion Event over flag
+	_FLAG_SET(#2730); grunt blockers
+	_FLAG_SET(#2732); grunt blockers
+	_LDVAL(@486, 2); Remove grunt blocker and rival trigger event
+	_FLAG_SET(#2580); Check has been handled
+	_RET()
+ev_disable_incense_burner:
+	_LDVAL(@495, 0); Kill incense burner
+	_RET()
+ev_healthcheck_fix_l01_entrance:
+	_IFVAL_JUMP(@483, 'NE', 0, 'ev_healthcheck_return');If already fixed, return
+	_LDVAL(@483, 1); Fix the param
+	_RET()
+ev_healthcheck_check_poketch_apps:
+	_IF_FLAGOFF_JUMP(#FE_POKETCH_GET, 'ev_healthcheck_return'); Has the Poketch
+	_IF_FLAGON_JUMP(#2550, 'ev_healthcheck_return'); Already checked
+	_LDVAL(@SCWK_TEMP0, 2)
+	_CALL('ev_poketch_soft_get_sub')
+	_LDVAL(@SCWK_TEMP0, 5)
+	_CALL('ev_poketch_soft_get_sub')
+	_LDVAL(@SCWK_TEMP0, 6)
+	_CALL('ev_poketch_soft_get_sub')
+	_LDVAL(@SCWK_TEMP0, 7)
+	_CALL('ev_poketch_soft_get_sub')
+	_LDVAL(@SCWK_TEMP0, 8)
+	_CALL('ev_poketch_soft_get_sub')
+	_LDVAL(@SCWK_TEMP0, 9)
+	_CALL('ev_poketch_soft_get_sub')
+	_LDVAL(@SCWK_TEMP0, 10)
+	_CALL('ev_poketch_soft_get_sub')
+	_LDVAL(@SCWK_TEMP0, 11)
+	_CALL('ev_poketch_soft_get_sub')
+	_LDVAL(@SCWK_TEMP0, 12)
+	_CALL('ev_poketch_soft_get_sub')
+	_LDVAL(@SCWK_TEMP0, 13)
+	_CALL('ev_poketch_soft_get_sub')
+	_LDVAL(@SCWK_TEMP0, 14)
+	_CALL('ev_poketch_soft_get_sub')
+	_LDVAL(@SCWK_TEMP0, 15)
+	_CALL('ev_poketch_soft_get_sub')
+	_LDVAL(@SCWK_TEMP0, 16)
+	_CALL('ev_poketch_soft_get_sub')
+	_LDVAL(@SCWK_TEMP0, 17)
+	_CALL('ev_poketch_soft_get_sub')
+	_LDVAL(@SCWK_TEMP0, 18)
+	_CALL('ev_poketch_soft_get_sub')
+	_LDVAL(@SCWK_TEMP0, 19)
+	_CALL('ev_poketch_soft_get_sub')
+	_FLAG_SET(#2550); Checked for poketch apps
+	_RET()
+ev_healthcheck_c06_hide_grunts:
+	_SYS_FLAG_BADGE_COUNT(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'LT', 5, 'ev_healthcheck_return')
+	_FLAG_SET(#2758)
+	_RET()
+ev_healthcheck_fix_d09_blocker:
+	_IF_FLAGOFF_JUMP($FLAG_ARRIVE_C10R0101, 'ev_healthcheck_return')
+	_FLAG_SET(#2777)
+	_RET()
+ev_healthcheck_fix_dialga_palkia_sp:
+	_IF_FLAGOFF_JUMP(#FE_D05R0114_CLEAR, 'ev_healthcheck_return')
+	_IF_FLAGON_JUMP(#2880, 'ev_healthcheck_return')
+	_FLAG_SET(#2880)
+	_RET()
+ev_healthcheck_fix_c01_looker:
+	_FLAG_SET(#2760)
+	_RET()
+ev_healthcheck_fix_mira_event:
+	_IFVAL_JUMP(@WK_SCENE_D05R0101, 'EQ', 0, 'ev_healthcheck_return')
+	_IFVAL_JUMP(@478, 'EQ', 1, 'ev_healthcheck_return')
+	_LDVAL(@478, 1); Mira event check
+	_FLAG_SET(#2699); Mira is dialogued
+	_FLAG_SET(#2700); Mira is dialogued
+	_FLAG_SET(#2702); Mira is battled
+	_FLAG_SET(#2703); Mira item found
+	_FLAG_SET(#2698); Mira is gone
+	_FLAG_SET(#2815); Disable the wall
+	_LDVAL(@WK_SCENE_D21R0101, 100); Event is done
+	_RET()	
+ev_healthcheck_fix_gameclear_bug:
+	_IFVAL_JUMP(@WK_SCENE_T01R0201_GAME_CLEAR, 'GE', 1, 'ev_healthcheck_return')
+	_SYS_FLAG_GAME_CLEAR_GET(@LOCALWORK0)
+	_IFVAL_JUMP(@LOCALWORK0, 'EQ', 0, 'ev_healthcheck_return')
+	_RESET_SYS_FLAG($SYS_FLAG_GAME_CLEAR)
+	_RET()
+ev_healthcheck_enable_iv_judge:
+	_IF_FLAGON_JUMP(#FE_D31R0201_JUDGE_TALK, 'ev_healthcheck_return');If already enabled, return
+	_FLAG_SET(#FE_D31R0201_JUDGE_TALK)
+	_RET()
+ev_healthcheck_enforce_double_battles_off:
+	_FLAG_RESET(#2196)
+	_RET()
+ev_healthcheck_bad_items:
+	_LDVAL(@SCWK_TEMP0, 467);Check for dupe secret key
+	_GET_ITEM_COUNT(@SCWK_TEMP0, @SCWK_ANSWER)
+	_IFVAL_CALL(@SCWK_ANSWER, 'GT', 1, 'ev_healthcheck_bad_items_remove')
+	_LDVAL(@SCWK_TEMP0, 450); Check for dupe bikes
+	_GET_ITEM_COUNT(@SCWK_TEMP0, @SCWK_ANSWER)
+	_IFVAL_CALL(@SCWK_ANSWER, 'GT', 1, 'ev_healthcheck_bad_items_remove')
+	_LDVAL(@SCWK_TEMP0, 872); Check for bad secret key
+	_GET_ITEM_COUNT(@SCWK_TEMP0, @SCWK_ANSWER)
+	_IFVAL_CALL(@SCWK_ANSWER, 'GE', 1, 'ev_healthcheck_bad_items_remove')
+	_RET()
+ev_healthcheck_bad_items_remove:
+	_LDVAL(@SCWK_TEMP1, @SCWK_ANSWER); Load count into temp1
+	_SUB_WK(@SCWK_TEMP1, 1); Subtract 1 from count
+	_SUB_ITEM(@SCWK_TEMP0, @SCWK_TEMP1, @SCWK_ANSWER); Subtract all but one of the items
+	_RET()
+ev_healthcheck_palmer:
+	_FLAG_SET(#2080); Disable Palmer by default. Can't get to a PC before he should be disabled.
+	_RET()
+ev_healthcheck_doorrowan:
+	_FLAG_SET(#2297); Disable Doorrowan by default. He should be disabled before you can get to him.
+	_RET()
+ev_healthcheck_slowpoke_stopper:
+	_IF_FLAGOFF_JUMP(#FE_HIDEN_03_GET, 'ev_healthcheck_return'); If 126 is off, the stopper should be active.
+	_FLAG_SET(#2200); Disable the slowpoke stoppers.
+	_RET()
+ev_healthcheck_expshare:
+	_IFVAL_JUMP(@WK_SCENE_T01R0201, 'LT', 6, 'ev_healthcheck_return')
+	_IF_FLAGOFF_JUMP(#2556, 'ev_healthcheck_giveexpshare')
+	_RET()
+ev_healthcheck_giveexpshare:
+	_LDVAL(@SCWK_TEMP0, 216); Exp. Share/Kanto Slate
+	_LDVAL(@SCWK_TEMP1, 1); Quantity 1
+	_ADD_ITEM(@SCWK_TEMP0, @SCWK_TEMP1, @SCWK_ANSWER)
+	_FLAG_SET(#2556)
+	_RET()
+ev_healthcheck_hasbike:
+	_IFVAL_JUMP(@WK_SCENE_T01R0201, 'LT', 6, 'ev_healthcheck_return')
+	_ITEM_CHK(450, 1, @SCWK_ANSWER); Check if the player has a bike.
+	_IFVAL_JUMP(@246, 'EQ', 0, 'ev_healthcheck_givebike'); If the player doesn't have a bike, give them one.
+	_RET()
+ev_healthcheck_givebike:
+	_LDVAL(@SCWK_TEMP0, 3); Set the bike colour
+	_BICYCLE_COLOR_SET(@SCWK_TEMP0); Give the player a green bike.
+	_ADD_ITEM(450, 1, @SCWK_ANSWER); Add the bike to the inventory.
+	_RET()
+ev_healthcheck_pokeradar:
+	_ITEM_CHK(431, 1, @SCWK_ANSWER); PokeRadar item check
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_healthcheck_return'); If the player has the PokeRadar, skip the flag correction.
+	_LDVAL(@SCWK_TEMP0, 431); Set the PokeRadar Item ID
+	_LDVAL(@SCWK_TEMP1, 1); Set the PokeRadar quantity
+	_ADD_ITEM(@SCWK_TEMP0, @SCWK_TEMP1, @246); Add PokeRadar to the inventory, skip UI because game will crash if you use UI functions during transition
+	_RET()
+ev_healthcheck_followcheck:
+	_IF_FLAGON_JUMP(#FE_DONE_FUREAI, 'ev_healthcheck_return'); If the player's pokemon follow flag is on, skip the flag correction.
+	_FLAG_SET(#FE_DONE_FUREAI)
+	_SET_SYS_FLAG($SYS_FUREAI_EXIT)
+	_RET()
+ev_healthcheck_styles:
+	_FLAG_SET(#1247)
+	_FLAG_SET(#1248) ; FE_STAYLE_003, Activate Platinum Outfit
+	_FLAG_SET(#1249)
+	_FLAG_SET(#1250)
+	_FLAG_SET(#1251)
+	_FLAG_SET(#1252)
+	_FLAG_SET(#1253)
+	_FLAG_SET(#1254)
+	_FLAG_SET(#1255)
+	_FLAG_SET(#1256)
+	_FLAG_SET(#1257)
+	_RET()
+ev_healthcheck_init_inverse_flags:
+	_IF_FLAGON_JUMP(#2617, 'ev_healthcheck_return'); If the flag is on. Skip the flag correction, because it has already been done.
+	_FLAG_SET(#2617); Set the flag to indicate that the flags have been corrected.
+	_FLAG_SET(#2800);Hide Articuno
+	_FLAG_SET(#2801);Hide Zapdos
+	_FLAG_SET(#2802);Hide Moltres
+	_FLAG_SET(#2803);Hide Raikou
+	_FLAG_SET(#2804);Hide Entei
+	_FLAG_SET(#2805);Hide Suicine
+	_FLAG_SET(#2806);Hide Lugia
+	_FLAG_SET(#2807);Hide Ho-Oh
+	_FLAG_SET(#2808);Hide Jirachi
+	_FLAG_SET(#2809);Hide Jirachi event Jigglypuff
+	_FLAG_SET(#2810);Hide Lucian Sol. Town
+	_FLAG_SET(#2811);Hide Maylene R217
+	_FLAG_SET(#2812);Hide Aaron Hearthome
+	_FLAG_SET(#2813);Hide Mew Torchic
+	_FLAG_SET(#2814);Hide Mew Mew in Torchic area
+	_FLAG_SET(#2815);Hide Mira event wall
+	_FLAG_SET(#2816);Hide Mews
+	_FLAG_SET(#2817)
+	_FLAG_SET(#2818)
+	_FLAG_SET(#2819)
+	_FLAG_SET(#2820)
+	_FLAG_SET(#2821)
+	_FLAG_SET(#2822)
+	_FLAG_SET(#2823)
+	_FLAG_SET(#2824)
+	_FLAG_SET(#2825)
+	_FLAG_SET(#2826)
+	_FLAG_SET(#2827)
+	_FLAG_SET(#2828)
+	_FLAG_SET(#2829)
+	_FLAG_SET(#2830)
+	_FLAG_SET(#2831)
+	_FLAG_SET(#2832)
+	_FLAG_SET(#2833)
+	_FLAG_SET(#2834)
+	_FLAG_SET(#2835)
+	_FLAG_SET(#2836)
+	_FLAG_SET(#2837)
+	_FLAG_SET(#2838)
+	_FLAG_SET(#2839)
+	_FLAG_SET(#2840)
+	_FLAG_SET(#2841)
+	_FLAG_SET(#2842)
+	_FLAG_SET(#2843)
+	_FLAG_SET(#2844)
+	_FLAG_SET(#2845)
+	_FLAG_SET(#2846)
+	_FLAG_SET(#2847)
+	_FLAG_SET(#2848)
+	_FLAG_SET(#2849)
+	_FLAG_SET(#2850)
+	_FLAG_SET(#2851)
+	_FLAG_SET(#2852)
+	_FLAG_SET(#2853)
+	_FLAG_SET(#2854)
+	_FLAG_SET(#2855)
+	_FLAG_SET(#2856)
+	_FLAG_SET(#2857)
+	_FLAG_SET(#2858)
+	_FLAG_SET(#2859)
+	_FLAG_SET(#2860)
+	_FLAG_SET(#2861)
+	_FLAG_SET(#2862)
+	_FLAG_SET(#2863)
+	_FLAG_SET(#2864)
+	_FLAG_SET(#2865)
+	_FLAG_SET(#2866)
+	_FLAG_SET(#2867)
+	_FLAG_SET(#2868)
+	_FLAG_SET(#2869)
+	_FLAG_SET(#2870)
+	_FLAG_SET(#2871)
+	_FLAG_SET(#2872)
+	_FLAG_SET(#2873)
+	_FLAG_SET(#2874)
+	_FLAG_SET(#2875)
+	_FLAG_SET(#2876)
+	_FLAG_SET(#2877)
+	_FLAG_SET(#2878)
+	_FLAG_SET(#2879)
+	_FLAG_SET(#2880)
+	_FLAG_SET(#2881)
+	_FLAG_SET(#2882)
+	_FLAG_SET(#2883)
+	_FLAG_SET(#2884)
+	_FLAG_SET(#2885)
+	_FLAG_SET(#2886)
+	_FLAG_SET(#2887)
+	_FLAG_SET(#2888)
+	_FLAG_SET(#2889)
+	_FLAG_SET(#2890)
+	_FLAG_SET(#2891)
+	_FLAG_SET(#2892)
+	_FLAG_SET(#2893)
+	_FLAG_SET(#2894)
+	_FLAG_SET(#2895)
+	_FLAG_SET(#2896)
+	_FLAG_SET(#2897)
+	_FLAG_SET(#2898)
+	_FLAG_SET(#2899)
+	_FLAG_SET(#2900)
+	_FLAG_SET(#2901)
+	_FLAG_SET(#2902)
+	_FLAG_SET(#2903)
+	_FLAG_SET(#2904)
+	_FLAG_SET(#2905)
+	_FLAG_SET(#2906)
+	_FLAG_SET(#2907)
+	_FLAG_SET(#2908)
+	_FLAG_SET(#2909)
+	_FLAG_SET(#2910)
+	_FLAG_SET(#2911)
+	_FLAG_SET(#2912)
+	_FLAG_SET(#2913)
+	_FLAG_SET(#2914)
+	_FLAG_SET(#2915)
+	_FLAG_SET(#2916)
+	_FLAG_SET(#2917)
+	_FLAG_SET(#2918)
+	_FLAG_SET(#2919)
+	_FLAG_SET(#2920)
+	_FLAG_SET(#2921)
+	_FLAG_SET(#2922)
+	_FLAG_SET(#2923)
+	_FLAG_SET(#2924)
+	_FLAG_SET(#2925)
+	_FLAG_SET(#2926)
+	_FLAG_SET(#2927)
+	_FLAG_SET(#2928)
+	_FLAG_SET(#2929)
+	_FLAG_SET(#2930)
+	_FLAG_SET(#2931)
+	_FLAG_SET(#2932)
+	_FLAG_SET(#2933)
+	_FLAG_SET(#2934)
+	_FLAG_SET(#2935)
+	_FLAG_SET(#2936)
+	_FLAG_SET(#2937)
+	_FLAG_SET(#2938)
+	_FLAG_SET(#2939)
+	_FLAG_SET(#2940)
+	_FLAG_SET(#2941)
+	_FLAG_SET(#2942)
+	_FLAG_SET(#2943)
+	_FLAG_SET(#2944)
+	_FLAG_SET(#2945)
+	_FLAG_SET(#2946)
+	_FLAG_SET(#2947)
+	_FLAG_SET(#2948)
+	_FLAG_SET(#2949)
+	_FLAG_SET(#2950)
+	_FLAG_SET(#2951)
+	_FLAG_SET(#2952)
+	_FLAG_SET(#2953)
+	_FLAG_SET(#2954)
+	_FLAG_SET(#2955)
+	_FLAG_SET(#2956)
+	_FLAG_SET(#2957)
+	_FLAG_SET(#2958)
+	_FLAG_SET(#2959)
+	_FLAG_SET(#2960)
+	_FLAG_SET(#2961)
+	_FLAG_SET(#2962)
+	_FLAG_SET(#2963)
+	_FLAG_SET(#2964)
+	_FLAG_SET(#2965)
+	_FLAG_SET(#2966)
+	_FLAG_SET(#2967)
+	_FLAG_SET(#2968)
+	_FLAG_SET(#2969)
+	_FLAG_SET(#2970)
+	_FLAG_SET(#2971)
+	_FLAG_SET(#2972)
+	_FLAG_SET(#2973)
+	_FLAG_SET(#2974)
+	_FLAG_SET(#2975)
+	_FLAG_SET(#2976)
+	_FLAG_SET(#2977)
+	_FLAG_SET(#2978)
+	_FLAG_SET(#2979)
+	_FLAG_SET(#2980)
+	_FLAG_SET(#2981)
+	_FLAG_SET(#2982)
+	_FLAG_SET(#2983)
+	_FLAG_SET(#2984)
+	_FLAG_SET(#2985)
+	_FLAG_SET(#2986)
+	_FLAG_SET(#2987)
+	_FLAG_SET(#2988)
+	_FLAG_SET(#2989)
+	_FLAG_SET(#2990)
+	_FLAG_SET(#2991)
+	_FLAG_SET(#2992)
+	_FLAG_SET(#2993)
+	_FLAG_SET(#2994)
+	_FLAG_SET(#2995)
+	_FLAG_SET(#2996)
+	_FLAG_SET(#2997)
+	_FLAG_SET(#2998)
+	_FLAG_SET(#2999)
+	_FLAG_SET(#3000)
+	_RET()
+ev_healthcheck_check_dexmode:
+	_ZENKOKU_ZUKAN_FLAG(2, @246); 1 = Set, 2 = Get
+	_IFVAL_JUMP(@246, 'EQ', 1, 'ev_healthcheck_return'); If National Dex, return
+	_FLAG_SET(#600); Set this flag because Smack told me to
+	_ZENKOKU_ZUKAN_FLAG(1, @246); Enable national dex mode
+	_RET()
+ev_healthcheck_biker_stopper:
+	_SYS_FLAG_BADGE_COUNT(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'LT', 2, 'ev_healthcheck_return'); If not enough badges, return
+	_FLAG_SET(#2406); Disable the biker stopper.
+	_RET()
+ev_healthcheck_has_shoes:
+	_SYS_FLAG_SHOES_SET(); Make sure the player has running shoes
+	_RET()
+ev_healthcheck_r206r0101_stoppers:
+	_IF_FLAGOFF_JUMP(#FE_C04R0204_WIN, 'ev_healthcheck_return'); If the player has not beaten Jupiter, return
+	_FLAG_SET(#2618); Kill the R206R0101 stoppers
+	_RET()
+ev_healthcheck_r204b_grunt_stoppers:
+	_SYS_FLAG_BADGE_COUNT(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'LT', 1, 'ev_healthcheck_r204b_grunt_stoppers_activate'); If not enough badges, return
+	_FLAG_SET(#2623); Disable the R204B Grunt stoppers.
+	_RET()
+ev_healthcheck_r204b_grunt_stoppers_activate:
+	_FLAG_RESET(#2623); Enable the R204B Grunt stoppers.
+	_RET()
+ev_healthcheck_d03_blockers:
+	_IF_FLAGOFF_JUMP(#FE_SEVEN1_CLEAR, 'ev_healthcheck_return'); If the player has not finished the Cheryl quest, return
+	_FLAG_SET(#2668); Kill the D03 blockers
+	_RET()
+ev_healthcheck_hm_flags:
+	_SYS_FLAG_BADGE_GET($BADGE_ID_C06, @SCWK_ANSWER); If has Wake's badge, check for Waterfall TM
+	_IFVAL_CALL(@SCWK_ANSWER, 'EQ', 1, 'ev_healthcheck_waterfall_tm_check'); When the player receives Waterfall from wake, the flag should be set.
+	_ITEM_CHK(425, 1, @SCWK_ANSWER); TM item check
+	_IFVAL_CALL(@SCWK_ANSWER, 'EQ', 1, 'ev_healthcheck_defog_flag_fix'); When player has picked up defog, make sure the flag is set
+	_IF_FLAGON_CALL(#FE_SEVEN3_CLEAR, 'ev_healthcheck_strength_flag_fix'); When Riley event is done, make sure flag is active
+	_RET()
+ev_healthcheck_waterfall_tm_check:
+	_ITEM_CHK(426, 1, @SCWK_ANSWER); TM item check
+	_IFVAL_CALL(@SCWK_ANSWER, 'EQ', 0, 'ev_healthcheck_give_waterfall_tm'); When TM is not in inventory, give it
+	_RET()
+ev_healthcheck_give_waterfall_tm:
+	_ADD_ITEM(426, 1, @246)
+	_FLAG_SET(#FE_HIDEN_07_GET)
+	_RET()
+ev_healthcheck_defog_flag_fix:
+	_FLAG_SET(#FE_HIDEN_05_GET)
+	_RET()
+ev_healthcheck_strength_flag_fix:
+	_ITEM_CHK(423, 1, @SCWK_ANSWER); TM item check
+	_IFVAL_CALL(@SCWK_ANSWER, 'EQ', 0, 'ev_healthcheck_strength_give_strength'); When TM is not in inventory, give it
+	_FLAG_SET(#FE_HIDEN_04_GET)
+	_RET()
+ev_healthcheck_strength_give_strength:
+	_ADD_ITEM(423, 1, @246)
+	_RET()
+ev_healthcheck_has_ds_sounds:
+	_IF_FLAGON_JUMP(#2705, 'ev_healthcheck_return'); If the player has the DS sounds, return
+	_IF_FLAGON_JUMP(#FE_POKETCH_GET, 'ev_healthcheck_ds_sounds_item_check'); If the DS Sound flag is disabled, but player has the Poketch, give the DS sounds
+	_RET()
+ev_healthcheck_ds_sounds_item_check:
+	_ITEM_CHK(1822, 1, @SCWK_ANSWER); TM item check	
+	_IFVAL_CALL(@SCWK_ANSWER, 'EQ', 0, 'ev_healthcheck_ds_sounds_give'); When TM is not in inventory, give it
+	_FLAG_SET(#2705); Set DS sounds flag
+	_RET()
+ev_healthcheck_ds_sounds_give:
+	_ADD_ITEM(1822, 1, @SCWK_ANSWER)
+	_RET()
+ev_healthcheck_fix_boxes:
+	_SYS_FLAG_BADGE_COUNT(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'LT', 1, 'ev_healthcheck_return'); If not enough badges, return
+	_FLAG_SET(#2706); Fix box titles
+	_RET()
+ev_healthcheck_lookerblocker_fixer:
+	_IF_FLAGOFF_JUMP(#FE_POKETCH_GET, 'ev_healthcheck_return'); If the player has not picked up the Poketch, return
+	_IF_FLAGON_JUMP(#2710, 'ev_healthcheck_return'); If the player has not fixed the Looker blocker, return
+	_LDVAL(@462, 2)
+	_FLAG_SET(#FV_C01_ASSISTANTM)
+	_FLAG_SET(#2710)
+	_RET()
+ev_healthcheck_lookerblocker_fixer_2:
+	_IFVAL_JUMP(@WK_SCENE_C01, 'LT', 2, 'ev_healthcheck_return')
+	_LDVAL(@462, 2)
+	_FLAG_SET(#FV_C01_ASSISTANTM)
+	_FLAG_SET(#2710)
+	_RET()
+ev_healthcheck_fix_lucian:
+	_FLAG_SET(#2810); Set Lucian's flag
+	_RET()
+ev_healthcheck_fix_whiteout:
+	_LDVAL(@476, 0)
+	_RET()
+ev_healthcheck_fix_portable_pc:
+	_IFVAL_JUMP(@TOWNMAP_GUIDE_SEQUENCE, 'LT', 3500, 'ev_healthcheck_return'); If the player has not spoken to Bebe, return.
+	_RESET_SYS_FLAG($SYS_BOX_SYSTEM_OFF)
+	_RET()
+ev_healthcheck_fix_r212a_blockers:
+	_SYS_FLAG_BADGE_GET($BADGE_ID_C07, @SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_healthcheck_return')
+	_IF_FLAGON_JUMP(#2704, 'ev_healthcheck_return'); If the player has fixed the R212A blockers, return
+	_FLAG_SET(#2704); Set R212A blockers flag
+	_RET()
+ev_healthcheck_fix_pastoria_event:
+	_SYS_FLAG_BADGE_COUNT(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'NE', 5, 'ev_healthcheck_return'); If the player has not enough badges, return
+	_IF_FLAGON_JUMP(#2758, 'ev_healthcheck_return'); If the player has fixed the Pastoria event, return
+	_FLAG_SET(#2750); Set Pastoria event flag
+	_RET()
+ev_healthcheck_reset_mew_event:
+	_IF_FLAGON_JUMP(#2759, 'ev_healthcheck_return'); If the player has fixed the Mew event, return
+	_FLAG_RESET(#2300); Show Shroomish
+	_FLAG_SET(#2813); Hide Torchic
+	_FLAG_SET(#2814); Hide NPC
+	_FLAG_SET(#2816); Hide Torchic Mew
+	_FLAG_SET(#2817)
+	_FLAG_SET(#2818)
+	_FLAG_SET(#2819)
+	_FLAG_SET(#2759); Mew event has been reset
+	_RET()
+ev_healthcheck_fix_ball_capsules:
+	_SYS_FLAG_BADGE_COUNT(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'LT', 2, 'ev_healthcheck_return')
+	_LDVAL(@WK_SCENE_C01, 4)
+	_RET()
+ev_healthcheck_fix_eterna_city:
+	_IF_FLAGOFF_JUMP(#FE_C04R0204_WIN, 'ev_healthcheck_return')
+	_FLAG_SET(#2717);Hide eterna cyrus
+	_FLAG_SET(#2685); hide grunt blocker
+	_IF_FLAGON_JUMP(#2779, 'ev_healthcheck_fix_eterna_city_has_egg')
+	_IFVAL_JUMP(@WK_SCENE_C04, 'GE', 3, 'ev_healthcheck_return')
+	_LDVAL(@WK_SCENE_C04, 3)
+	_RET()
+ev_healthcheck_fix_eterna_city_has_egg:
+	_LDVAL(@WK_SCENE_C04, 5)
+	_RET()
+ev_healthcheck_fix_hearthome_city:
+	_IF_FLAGON_CALL(#FV_C05R0701_STOPPER, 'ev_healthcheck_fix_hearthome_rival')
+	_SYS_FLAG_BADGE_COUNT(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'LT', 3, 'ev_healthcheck_return')
+	_FLAG_SET(#2773); Hide Aaron Triggers
+	_RET()
+ev_healthcheck_fix_hearthome_rival:
+	_IF_FLAGON_JUMP(#2772, 'ev_healthcheck_return')
+	_FLAG_SET(#2775); Hide Rival Triggers
+	_FLAG_SET(#2772); Hide Rival
+	_RET()
+ev_healthcheck_form_shuffle_flag_reset:
+	_IF_FLAGON_JUMP(#2587, 'ev_healthcheck_return')
+	_FLAG_RESET(#2791); Mewtwo greeting text
+	_FLAG_RESET(#3002); Mewtwo
+	_FLAG_RESET(#3003); Pikachu
+	_FLAG_RESET(#3006); Venu
+	_FLAG_RESET(#3007); Charizard
+	_FLAG_RESET(#3008); Blastoise
+	_FLAG_RESET(#2542); Gengar
+	_FLAG_SET(#2587)
+	_RET()
+ev_healthcheck_add_missing_boss_items:
+	_IF_FLAGON_CALL(#FE_D17R0104_LEGEND_CLEAR, 'ev_healthcheck_check_gris_orb')
+	_IF_FLAGON_CALL(#FE_D16R0103_LEGEND_CLEAR, 'ev_healthcheck_check_magma_stone')
+	_RET()
+ev_healthcheck_check_gris_orb:
+	_IF_FLAGON_JUMP(#2588, 'ev_healthcheck_return')
+	_ITEM_CHK(112, 1, @SCWK_ANSWER)
+	_IFVAL_CALL(@SCWK_ANSWER, 'GT', 0, 'ev_healthcheck_return')
+	_ADD_ITEM(112, 1, @SCWK_ANSWER); If no, give one
+	_FLAG_SET(#2588)
+	_RET()
+ev_healthcheck_check_magma_stone:
+	_IF_FLAGON_JUMP(#2589, 'ev_healthcheck_return')
+	_ITEM_CHK(458, 1, @SCWK_ANSWER)
+	_IFVAL_CALL(@SCWK_ANSWER, 'GT', 0, 'ev_healthcheck_return')
+	_ADD_ITEM(458, 1, @SCWK_ANSWER); If no, give one
+	_FLAG_SET(#2589)
+	_RET()
+ev_healthcheck_infinite_repel_check:
+	_ITEM_CHK(1835, 1, @SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_healthcheck_add_infinite_repel')
+	_RET()
+ev_healthcheck_add_infinite_repel:
+	_ADD_ITEM(1835, 1, @SCWK_ANSWER); Add Infinite Repel
+	_RET()

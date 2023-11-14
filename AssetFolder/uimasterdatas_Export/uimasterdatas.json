@@ -1,0 +1,136 @@
+{
+    "m_Name": "masterdatas/uimasterdatas",
+    "m_PreloadTable": [
+        {
+            "m_FileID": 0,
+            "m_PathID": -825026976058485151
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -222864550585366019
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -7648046347882251191
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -4884930157258551224
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -988952209982912665
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 1808946202618440650
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -9013009317654351287
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -2190812856523321133
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -6549995876188259799
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -597317356875603247
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -4707133447494192659
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 7056471235963064427
+        }
+    ],
+    "m_Container": [
+        [
+            "assets/masterdatas/distributiontable.asset",
+            {
+                "preloadIndex": 2,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -7648046347882251191
+                }
+            }
+        ],
+        [
+            "assets/masterdatas/inputlimittable.asset",
+            {
+                "preloadIndex": 8,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -6549995876188259799
+                }
+            }
+        ],
+        [
+            "assets/masterdatas/placenametable.asset",
+            {
+                "preloadIndex": 4,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": 1808946202618440650
+                }
+            }
+        ],
+        [
+            "assets/masterdatas/townmapguidetable.asset",
+            {
+                "preloadIndex": 10,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -4707133447494192659
+                }
+            }
+        ],
+        [
+            "assets/masterdatas/townmaptable.asset",
+            {
+                "preloadIndex": 6,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -2190812856523321133
+                }
+            }
+        ],
+        [
+            "assets/masterdatas/uidatabase.asset",
+            {
+                "preloadIndex": 0,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -825026976058485151
+                }
+            }
+        ]
+    ],
+    "m_MainAsset": {
+        "preloadIndex": 0,
+        "preloadSize": 0,
+        "asset": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        }
+    },
+    "m_RuntimeCompatibility": 1,
+    "m_AssetBundleName": "masterdatas/uimasterdatas",
+    "m_Dependencies": [],
+    "m_IsStreamedSceneAssetBundle": false,
+    "m_ExplicitDataLayout": 0,
+    "m_PathFlags": 7,
+    "m_SceneHashes": []
+}

@@ -1,0 +1,6 @@
+ev_d06r0203_bigman1:
+	_MACRO_EASY_OBJ_MSG('dp_scenario2', '134-msg_d06r0203_bigman_01_1', 'Throwing food at Pokémon makes them\nmore likely to bolt.\rBut when they’re eating, it makes them\neasier to catch.\rIf you throw mud at them, they get\nharder to catch...\rBut they also get less likely to bolt\nout of anger.\rUrgh, what to do...?')
+	_END()
+ev_d06r0203_sign1:
+	_EASY_BOARD_MSG('dp_scenario2%134-msg_d06r0203_sign1_01', 'BOARD_TYPE_POST', 0)
+	_END()

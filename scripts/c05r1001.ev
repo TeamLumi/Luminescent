@@ -1,0 +1,62 @@
+ev_c05r1001_flag_change:
+	_TV_INTERVIEWER_CHECK(11, @LOCALWORK0)
+	_IFVAL_JUMP(@LOCALWORK0, 'EQ', 0, 'ev_c05r1001_interviewer_off')
+	_FLAG_RESET(#FV_TV_INTERVIEW_11)
+	_END()
+ev_c05r1001_interviewer_off:
+	_FLAG_SET(#FV_TV_INTERVIEW_11)
+	_RET()
+ev_c05r1001_obj_change:
+	_END()
+ev_c05r1001_idol:
+	_TALK_OBJ_START()
+	_TALKMSG('dp_scenario2%54-msg_c05r1001_idol_01_1')
+	_TALK_KEYWAIT('dp_scenario2%54-msg_c05r1001_idol_01_2')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c05r1001_oldman2:
+	_TALK_OBJ_START_TURN_NOT()
+	_TALKMSG('dp_scenario2%54-msg_c05r1001_oldman2_01')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c05r1001_oldwoman2:
+	_TALK_OBJ_START_TURN_NOT()
+	_TALKMSG('dp_scenario2%54-msg_c05r1001_oldwoman2_01')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c05r1001_scald:
+	_TALK_OBJ_START()
+	_IF_FLAGON_JUMP(#2684, 'ev_c05r1001_scald_done')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_ev_c05r1001_scald', 'Argh! Ow!\nThat hurts!\rI was adding some boiling water to the\npot to prepare it for Poffin making,\nand I spilt it all over me!\rDo you have a Burn Heal?\nIt’d be really useful right now...')
+	_YES_NO_WIN(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'NE', 0, 'ev_c05r1001_scald_no')
+	_ITEM_CHK(19, 1, @SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_c05r1001_scald_no')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msgev_c05r1001_scald_have_item', 'Oh, fantastic!\nLet me just apply it...')
+	_SUB_ITEM(19, 1, @SCWK_ANSWER)
+	_BLACK_OUT('SCR_WIPE_DIV', 3)
+	_FADE_WAIT()
+	_ME_PLAY('M_FI002')
+	_BLACK_IN('SCR_WIPE_DIV', 3)
+	_FADE_WAIT()
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msgev_c05r1001_scald_2', 'Ah! That’s much better.\nThank you very much.\rIn fact, I can do more than just\ngive thanks!\rHere’s a Technical Machine—one that’ll\nput a Pokémon in the same situation!')
+	_LDVAL(@SCWK_TEMP0, 382); Scald TM
+	_LDVAL(@SCWK_TEMP1, 1); Quantity 1
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_FLAG_SET(#2684)
+	_JUMP('ev_c05r1001_scald_done')
+ev_c05r1001_scald_done:
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msgev_c05r1001_scald_4', 'Scald is a Water-type move that\nshoots boiling water at the opponent.\rPokémon won’t be hurt as badly as\nI was, but that move can still leave\fa nasty burn on its target!')
+	_JUMP('ev_c05r1001_scald_end')
+ev_c05r1001_scald_end:
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c05r1001_scald_no:
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msgev_c05r1001_scald_no', 'You don’t... That’s too bad.\nThen I should get some cold water...')
+	_JUMP('ev_c05r1001_scald_end')

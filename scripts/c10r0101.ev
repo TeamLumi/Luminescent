@@ -1,0 +1,1258 @@
+ev_c10r0101_flag_change:
+	_ARRIVE_FLAG_SET('FLAG_ARRIVE_CHAMPLEAGUE')
+	_FLAG_SET(#FV_C10R0103_DOOR_01)
+	_FLAG_SET(#FV_C10R0105_DOOR_01)
+	_FLAG_SET(#FV_C10R0107_DOOR_01)
+	_FLAG_SET(#FV_C10R0109_DOOR_01)
+	_FLAG_RESET(#FV_C10R0103_DOOR_02)
+	_FLAG_RESET(#FV_C10R0105_DOOR_02)
+	_FLAG_RESET(#FV_C10R0107_DOOR_02)
+	_FLAG_RESET(#FV_C10R0109_DOOR_02)
+	_IFVAL_CALL(@WK_SCENE_C10R0101, 'EQ', 0, 'ev_c10r0101_rival_before')
+	_IFVAL_CALL(@WK_SCENE_C10R0101, 'GE', 1, 'ev_c10r0101_rival_after')
+	_OBJ_DEL('C10R0101_RIVAL')
+	_FLAG_RESET(#FE_BIGFOUR1_WIN)
+	_FLAG_RESET(#FE_BIGFOUR2_WIN)
+	_FLAG_RESET(#FE_BIGFOUR3_WIN)
+	_FLAG_RESET(#FE_BIGFOUR4_WIN)
+	_FLAG_RESET(#FE_C10R0111_CHAMP_WIN)
+	_IF_FLAGON_CALL($SYS_FLAG_WILDCARD_000, 'ev_c10r0101_flag_change_a')
+	_IF_FLAGOFF_CALL($SYS_FLAG_WILDCARD_000, 'ev_c10r0101_flag_change_b')
+	_IF_FLAGON_JUMP(#FE_C10R0101_VETERAN, 'ev_c10r0101_flag_change_pos')
+	_END()
+ev_c10r0101_flag_change_pos:
+	_SXY_POS_CHANGE('C10R0101_VETERAN2', 12, 3)
+	_OBJ_ADD('C10R0101_VETERAN2')
+	_FLAG_RESET(#FV_C10R0101_VETERAN2)
+	_FLAG_SET(#FV_C10R0101_VETERAN1)
+	_OBJ_DEL('C10R0101_VETERAN1')
+	_END()
+ev_c10r0101_flag_change_a:
+	_FLAG_SET(#FV_STOPPER_FRIENDBOOK)
+	_RET()
+ev_c10r0101_flag_change_b:
+	_FLAG_RESET(#FV_STOPPER_FRIENDBOOK)
+	_SXY_EXIT_POS_CHANGE(3, 80, 80)
+	_RET()
+ev_c10r0101_rival_before:
+	_FLAG_SET(#FV_C10R0101_VETERAN2)
+	_FLAG_RESET(#FV_C10R0101_VETERAN1)
+	_RET()
+ev_c10r0101_rival_after:
+	_FLAG_SET(#FV_C10R0101_VETERAN1)
+	_FLAG_RESET(#FV_C10R0101_VETERAN2)
+	_RET()
+ev_c10r0101_veteran:
+	_TALK_OBJ_START()
+	_EVENT_START()
+	_IF_FLAGON_JUMP(#FE_C10R0101_VETERAN, 'ev_c10r0101_veteran_02')
+	_EVENT_CAMERA_INDEX(463)
+	_EVENT_CAMERA_END_WAIT()
+	_TALKMSG('dp_scenario3%19-msg_c10r0101_veteran_01_1')
+	_TALKMSG('dp_scenario3%19-msg_c10r0101_veteran_01_2')
+	_TALK_KEYWAIT('dp_scenario3%19-msg_c10r0101_veteran_01_3')
+	_TALK_CLOSE()
+	_ME_PLAY('M_FI006')
+	_ME_WAIT()
+	_PLAYER_POS_GET(@SCWK_TEMP0, @SCWK_TEMP1)
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 11, 'ev_c10r0101_veteran_dir_up')
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 12, 'ev_c10r0101_veteran_dir_left')
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 10, 'ev_c10r0101_veteran_dir_right')
+	_END()
+ev_c10r0101_veteran_dir_up:
+	_OBJ_ANIME('C10R0101_VETERAN2', 'anm_c10r0101_veteran_01')
+	_OBJ_ANIME_WAIT()
+	_JUMP('common_c10r0101_veteran_dir')
+	_JUMP('common_c10r0101_veteran_dir')
+ev_c10r0101_veteran_dir_left:
+	_OBJ_ANIME('C10R0101_VETERAN2', 'anm_c10r0101_veteran_02')
+	_OBJ_ANIME_WAIT()
+	_JUMP('common_c10r0101_veteran_dir')
+	_JUMP('common_c10r0101_veteran_dir')
+ev_c10r0101_veteran_dir_right:
+	_OBJ_ANIME('C10R0101_VETERAN2', 'anm_c10r0101_veteran_03')
+	_OBJ_ANIME_WAIT()
+	_JUMP('common_c10r0101_veteran_dir')
+	_JUMP('common_c10r0101_veteran_dir')
+common_c10r0101_veteran_dir:
+	_FLAG_SET(#FE_C10R0101_VETERAN)
+	_TALKMSG('dp_scenario3%19-msg_c10r0101_veteran_02')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_EVENT_CAMERA_INDEX(464)
+	_EVENT_CAMERA_END_WAIT()
+	_LDVAL(@TOWNMAP_GUIDE_SEQUENCE, 12000)
+	_TALK_OBJ_END()
+	_EVENT_END()
+	_END()
+ev_c10r0101_veteran_02:
+	_TALKMSG('dp_scenario3%19-msg_c10r0101_veteran_03')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_EVENT_END()
+	_END()
+anm_c10r0101_veteran_01:
+	_AC_DIR_R(4)
+	_AC_RIGHT(1, 8)
+	_AC_DIR_D(8)
+	_ACMD_END()
+anm_c10r0101_veteran_02:
+	_AC_DIR_L(4)
+	_AC_LEFT(1, 8)
+	_AC_DIR_R(8)
+	_ACMD_END()
+anm_c10r0101_veteran_03:
+	_AC_DIR_R(4)
+	_AC_RIGHT(1, 8)
+	_AC_DIR_L(8)
+	_ACMD_END()
+ev_c10r0101_shop:
+	_TALK_OBJ_START()
+	_CHG_COMMON_SCR('ev_shop_start_talk')
+	_LDVAL(@LOCALWORK3, 0)
+	_JUMP('ev_c10r0101_shop_re')
+	_END()
+ev_c10r0101_shop_re:
+	_IFVAL_CALL(@LOCALWORK3, 'EQ', 1, 'ev_c10r0101_shop_sonohoka')
+	_ADD_CUSTUM_WIN_LABEL('ss_fld_shop%SS_fld_shop_197', 0)
+	_ADD_CUSTUM_WIN_LABEL('ss_fld_shop%SS_fld_shop_198', 1)
+	_ADD_CUSTUM_WIN_LABEL('ss_fld_shop%SS_fld_shop_199', 2)
+	_OPEN_CUSTUM_WIN(@SCWK_TEMP0)
+	_SWITCH(@SCWK_TEMP0)
+	_CASE_JUMP(0, 'ev_c10r0101_shop_buy')
+	_CASE_JUMP(1, 'ev_c10r0101_shop_sell')
+	_CASE_JUMP(2, 'ev_c10r0101_shop_end')
+	_JUMP('ev_c10r0101_shop_end')
+	_END()
+ev_c10r0101_shop_sonohoka:
+	_TALKMSG('dp_scenario1%28-mes_shop_01_03')
+	_RET()
+ev_c10r0101_shop_buy:
+	_LDVAL(@LOCALWORK3, 1)
+	_TALK_CLOSE_NO_CLEAR()
+	_PLAYER_POS_GET(@SCWK_TEMP0, @SCWK_TEMP1)
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 15, 'ev_c10fs0101_01')
+	_EVENT_CAMERA_INDEX(300)
+	_JUMP('ev_c10fs0101_01a')
+	_END()
+ev_c10fs0101_01a:
+	_EVENT_CAMERA_END_WAIT()
+	_DPR_SHOP_OPEN('C10R0101')
+	_DPR_SHOP_OPEN_WAIT()
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 15, 'ev_c10fs0101_02')
+	_EVENT_CAMERA_INDEX(301)
+	_JUMP('ev_c10fs0101_02a')
+	_END()
+ev_c10fs0101_02a:
+	_EVENT_CAMERA_END_WAIT()
+	_JUMP('ev_c10r0101_shop_re')
+	_END()
+ev_c10fs0101_01:
+	_EVENT_CAMERA_INDEX(302)
+	_JUMP('ev_c10fs0101_01a')
+	_END()
+ev_c10fs0101_02:
+	_EVENT_CAMERA_INDEX(303)
+	_JUMP('ev_c10fs0101_02a')
+	_END()
+ev_c10r0101_shop_sell:
+	_LDVAL(@LOCALWORK3, 1)
+	_TALK_CLOSE_NO_CLEAR()
+	_SHOP_OPEN_SELL()
+	_DPR_SHOP_OPEN_WAIT()
+	_JUMP('ev_c10r0101_shop_re')
+	_END()
+ev_c10r0101_shop_end:
+	_TALKMSG('ss_fld_shop%SS_fld_shop_202')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c10r0101_fix_shop:
+	_TALK_OBJ_START()
+	_CHG_COMMON_SCR('ev_shop_start_talk')
+	_TALK_CLOSE_NO_CLEAR()
+	_FIX_SHOP_CALL('ID_SHOP_ITEM_PK_FS')
+	_TALK_OBJ_END()
+	_END()
+ev_c10r0101_rival:
+	_EVENT_START()
+	_FLAG_RESET(#FV_C10R0101_RIVAL)
+	_OBJ_ADD('C10R0101_RIVAL')
+	_EVENT_CAMERA_INDEX(461)
+	_EVENT_CAMERA_END_WAIT()
+	_CHG_COMMON_SCR('ev_the_rival_play')
+	_PLAYER_POS_GET(@SCWK_TEMP0, @SCWK_TEMP1)
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 10, 'ev_c10r0101_rival_x1')
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 11, 'ev_c10r0101_rival_x2')
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 12, 'ev_c10r0101_rival_x3')
+	_END()
+ev_c10r0101_rival_x1:
+	_OBJ_ANIME('C10R0101_RIVAL', 'anm_c10r0101_rival_01')
+	_OBJ_ANIME_WAIT()
+	_JUMP('common_c10r0101_rival_01')
+	_JUMP('ev_c10r0101_rival_btl_coomon')
+ev_c10r0101_rival_x2:
+	_OBJ_ANIME('C10R0101_RIVAL', 'anm_c10r0101_rival_02')
+	_OBJ_ANIME_WAIT()
+	_JUMP('common_c10r0101_rival_01')
+	_JUMP('ev_c10r0101_rival_btl_coomon')
+ev_c10r0101_rival_x3:
+	_OBJ_ANIME('C10R0101_RIVAL', 'anm_c10r0101_rival_03')
+	_OBJ_ANIME_WAIT()
+	_JUMP('common_c10r0101_rival_01')
+	_JUMP('ev_c10r0101_rival_btl_coomon')
+common_c10r0101_rival_01:
+	_OBJ_ANIME('HERO', 'anm_c10r0101_player_01')
+	_OBJ_ANIME_WAIT()
+	_RIVAL_NAME(0)
+	_TALKMSG('dp_scenario3%19-msg_c10r0101_rival_01_1')
+	_TALK_KEYWAIT('dp_scenario3%19-msg_c10r0101_rival_01_2')
+	_TALK_CLOSE()
+	_LDWK(@WK_PLAY_REPO_NO, 20)
+	_FLAG_SET(#FE_PLAY_REPO)
+	_FIRST_POKE_NO_GET(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 387, 'ev_c10r0101_rival_02')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 390, 'ev_c10r0101_rival_03')
+	_JUMP('ev_c10r0101_rival_01')
+	_JUMP('ev_c10r0101_rival_btl_coomon')
+ev_c10r0101_randomteam_barry_turtwig:
+	_GET_RND(@SCWK_ANSWER, 4)
+	_LDVAL(@SCWK_TEMP3, 799)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_random_team_end')
+	_LDVAL(@SCWK_TEMP3, 800)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_random_team_end')
+	_LDVAL(@SCWK_TEMP3, 801)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 2, 'ev_random_team_end')
+	_LDVAL(@SCWK_TEMP3, 802)
+	_RET()
+ev_c10r0101_randomteam_barry_chimchar:
+	_GET_RND(@SCWK_ANSWER, 4)
+	_LDVAL(@SCWK_TEMP3, 803)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_random_team_end')
+	_LDVAL(@SCWK_TEMP3, 804)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_random_team_end')
+	_LDVAL(@SCWK_TEMP3, 805)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 2, 'ev_random_team_end')
+	_LDVAL(@SCWK_TEMP3, 806)
+	_RET()
+ev_c10r0101_randomteam_barry_piplup:
+	_GET_RND(@SCWK_ANSWER, 4)
+	_LDVAL(@SCWK_TEMP3, 807)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_random_team_end')
+	_LDVAL(@SCWK_TEMP3, 808)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_random_team_end')
+	_LDVAL(@SCWK_TEMP3, 809)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 2, 'ev_random_team_end')
+	_LDVAL(@SCWK_TEMP3, 810)
+	_RET()
+ev_c10r0101_rival_01:
+	_CALL('ev_c10r0101_randomteam_barry_piplup')
+	_TRAINER_BTL_SET(@SCWK_TEMP3, 0)
+	_TRAINER_LOSE_CHECK(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_c10r0101_rival_battle_lose')
+	_JUMP('ev_c10r0101_rival_btl_coomon')
+	_JUMP('ev_c10r0101_rival_btl_coomon')
+ev_c10r0101_rival_02:
+	_CALL('ev_c10r0101_randomteam_barry_turtwig')
+	_TRAINER_BTL_SET(@SCWK_TEMP3, 0)
+	_TRAINER_LOSE_CHECK(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_c10r0101_rival_battle_lose')
+	_JUMP('ev_c10r0101_rival_btl_coomon')
+	_JUMP('ev_c10r0101_rival_btl_coomon')
+ev_c10r0101_rival_03:
+	_CALL('ev_c10r0101_randomteam_barry_chimchar')
+	_TRAINER_BTL_SET(@SCWK_TEMP3, 0)
+	_TRAINER_LOSE_CHECK(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_c10r0101_rival_battle_lose')
+	_JUMP('ev_c10r0101_rival_btl_coomon')
+	_JUMP('ev_c10r0101_rival_btl_coomon')
+ev_c10r0101_rival_btl_coomon:
+	_IF_FLAGON_CALL(#FE_PLAY_REPO, 'ev_to_write_play_repo')
+	_OBJ_ADD('C10R0101_RIVAL')
+	_OBJ_ADD('C10R0101_VETERAN2')
+	_FLAG_RESET(#FV_C10R0101_VETERAN2)
+	_FLAG_SET(#FV_C10R0101_VETERAN1)
+	_OBJ_DEL('C10R0101_VETERAN1')
+	_RIVAL_NAME(0)
+	_PLAYER_NAME(1)
+	_TALKMSG('dp_scenario3%19-msg_c10r0101_rival_02_1')
+	_TALK_KEYWAIT('dp_scenario3%19-msg_c10r0101_rival_02_2')
+	_TALK_CLOSE()
+	_LDVAL(@WK_SCENE_C10R0101, 1)
+	_PLAYER_POS_GET(@SCWK_TEMP0, @SCWK_TEMP1)
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 10, 'ev_c10r0101_rival_x11')
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 11, 'ev_c10r0101_rival_x12')
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 12, 'ev_c10r0101_rival_x13')
+	_END()
+ev_c10r0101_rival_x11:
+	_OBJ_ANIME('C10R0101_RIVAL', 'anm_c10r0101_rival_11')
+	_OBJ_ANIME_WAIT()
+	_JUMP('common_c10r0101_rival_11')
+	_JUMP('common_c10r0101_rival_11')
+ev_c10r0101_rival_x12:
+	_OBJ_ANIME('C10R0101_RIVAL', 'anm_c10r0101_rival_12')
+	_OBJ_ANIME_WAIT()
+	_JUMP('common_c10r0101_rival_11')
+	_JUMP('common_c10r0101_rival_11')
+ev_c10r0101_rival_x13:
+	_OBJ_ANIME('C10R0101_RIVAL', 'anm_c10r0101_rival_13')
+	_OBJ_ANIME_WAIT()
+	_JUMP('common_c10r0101_rival_11')
+	_JUMP('common_c10r0101_rival_11')
+common_c10r0101_rival_11:
+	_SE_PLAY('S_FI001')
+	_OBJ_DEL('C10R0101_RIVAL')
+	_SE_WAIT('S_FI001')
+	_LDVAL(@WK_SCENE_C10R0101, 1)
+	_LDVAL(@TOWNMAP_GUIDE_SEQUENCE, 11900)
+	_EVENT_END()
+	_EVENT_CAMERA_INDEX(462)
+	_EVENT_CAMERA_END_WAIT()
+	_END()
+ev_c10r0101_rival_battle_lose:
+	_EVENT_END()
+	_EVENT_CAMERA_INDEX(462)
+	_EVENT_CAMERA_END_WAIT()
+	_END()
+anm_c10r0101_player_01:
+	_AC_DIR_D(8)
+	_ACMD_END()
+anm_c10r0101_rival_01:
+	_AC_DIR_U(4)
+	_AC_UP(3, 4)
+	_AC_DIR_L(4)
+	_AC_LEFT(1, 4)
+	_AC_DIR_U(4)
+	_AC_UP(3, 4)
+	_ACMD_END()
+anm_c10r0101_rival_02:
+	_AC_DIR_U(4)
+	_AC_UP(6, 4)
+	_ACMD_END()
+anm_c10r0101_rival_03:
+	_AC_DIR_U(4)
+	_AC_UP(3, 4)
+	_AC_DIR_R(4)
+	_AC_RIGHT(1, 4)
+	_AC_DIR_U(4)
+	_AC_UP(3, 4)
+	_ACMD_END()
+anm_c10r0101_rival_11:
+	_AC_DIR_D(4)
+	_AC_DOWN(3, 4)
+	_AC_DIR_R(4)
+	_AC_RIGHT(1, 4)
+	_AC_DIR_D(4)
+	_AC_DOWN(3, 4)
+	_ACMD_END()
+anm_c10r0101_rival_12:
+	_AC_DIR_D(4)
+	_AC_DOWN(6, 4)
+	_ACMD_END()
+anm_c10r0101_rival_13:
+	_AC_DIR_D(4)
+	_AC_DOWN(3, 4)
+	_AC_DIR_L(4)
+	_AC_LEFT(1, 4)
+	_AC_DIR_D(4)
+	_AC_DOWN(3, 4)
+	_ACMD_END()
+ev_c10r0101_woman3:
+	_TALK_OBJ_START_TURN_NOT()
+	_TALKMSG('dp_scenario3%19-msg_c10r0101_woman3_01')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c10r0101_pcwoman1:
+	_LDVAL(@SCWK_TEMP3, 'C10R0101_PCWOMAN1_01')
+	_CHG_COMMON_SCR('ev_heal_p01')
+	_END()
+ev_c10r0101_reset_man:
+	_TALK_OBJ_START()
+	_IF_FLAGOFF_JUMP(#3110, 'ev_c10r0101_reset_man_greeting')
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_c10r0101_reset_man_03', 'Hello again, trainer.\rDo you wish to make use\nof my services?')
+	_YES_NO_WIN(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_c10r0101_reset_man_select_pokemon')
+	_JUMP('ev_c10r0101_reset_man_no')
+ev_c10r0101_reset_man_no:
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_c10r0101_reset_man_no_00', 'I see.\rI will remain here regardless,\nshould you change your mind.')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c10r0101_reset_man_greeting:
+	_FLAG_SET(#3110)
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_c10r0101_reset_man_00', 'Hello trainer, I expected you would come to\nfind me eventually.\rI am known as the Reset Guru.')
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_c10r0101_reset_man_01', 'My services are of a very specific nature.\rThere are certain Pokémon in this region\nthat one could consider unique.\rMy family has specialised in these\nspecies for many a generation.\rI can enable you to return them to\nthe environment from which they came.\fFor whatever reason you desire.')
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_c10r0101_reset_man_01_1', 'What I refer to by unique...\rHmm, yes.\rThese would typically be referred to by\ntrainers as "Legends" or "Mythicals".\rHowever, this is not always the case.\rA Pokémon whose likeness is never to be found\nanywhere but its original position.\rThat is what I can offer to reset.')
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_c10r0101_reset_man_02', 'So tell me, do you wish to avail\nyourself of my services?')
+	_YES_NO_WIN(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_c10r0101_reset_man_select_pokemon')
+	_JUMP('ev_c10r0101_reset_man_no')
+ev_c10r0101_reset_man_cancel:
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_c10r0101_reset_man_no_01', 'Not interested?\rI will remain here regardless,\nshould you change your mind.')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c10r0101_reset_man_select_pokemon:
+	_TALK_CLOSE()
+	_POKELIST_SET_PROC(20)
+	_POKELIST_GET_RESULT(@SCWK_TEMP0, @SCWK_TEMP1)
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', -1, 'ev_c10r0101_reset_man_cancel')
+	_TEMOTI_BOX_MONSNO(@SCWK_TEMP0, @SCWK_TEMP1, @SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 94, 'ev_c10r0101_reset_man_gengar')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 479, 'ev_c10r0101_reset_man_rotom')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 144, 'ev_c10r0101_reset_man_articuno')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 145, 'ev_c10r0101_reset_man_zapdos')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 146, 'ev_c10r0101_reset_man_moltres')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 151, 'ev_c10r0101_reset_man_mew')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 243, 'ev_c10r0101_reset_man_raikou')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 244, 'ev_c10r0101_reset_man_entei')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 245, 'ev_c10r0101_reset_man_suicune')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 249, 'ev_c10r0101_reset_man_lugia')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 250, 'ev_c10r0101_reset_man_hooh')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 377, 'ev_c10r0101_reset_man_regirock')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 378, 'ev_c10r0101_reset_man_regice')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 379, 'ev_c10r0101_reset_man_registeel')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 380, 'ev_c10r0101_reset_man_latias')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 381, 'ev_c10r0101_reset_man_latios')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 382, 'ev_c10r0101_reset_man_kyogre')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 383, 'ev_c10r0101_reset_man_groudon')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 384, 'ev_c10r0101_reset_man_rayquaza')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 385, 'ev_c10r0101_reset_man_jirachi')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 386, 'ev_c10r0101_reset_man_deoxys')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 480, 'ev_c10r0101_reset_man_uxie')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 481, 'ev_c10r0101_reset_man_mesprit')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 482, 'ev_c10r0101_reset_man_azelf')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 483, 'ev_c10r0101_reset_man_dialga')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 484, 'ev_c10r0101_reset_man_palkia')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 485, 'ev_c10r0101_reset_man_heatran')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 486, 'ev_c10r0101_reset_man_regigigas')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 490, 'ev_c10r0101_reset_man_manaphy')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 95, 'ev_c10r0101_reset_man_crystal_onix')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 172, 'ev_c10r0101_reset_man_pichu')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 957, 'ev_c10r0101_reset_man_tinkatuff')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 958, 'ev_c10r0101_reset_man_tinkatuff')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 959, 'ev_c10r0101_reset_man_tinkatuff')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 607, 'ev_c10r0101_reset_man_chandelure')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 608, 'ev_c10r0101_reset_man_chandelure')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 609, 'ev_c10r0101_reset_man_chandelure')
+	_JUMP('ev_c10r0101_reset_man_cancel')
+ev_c10r0101_reset_man_invalid_form:
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_c10r0101_reset_man_no_02', 'I am afraid that is the wrong form.\rI cannot work with this one.')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c10r0101_reset_man_gengar:
+	_TEMOTI_BOX_FORMNO(@SCWK_TEMP0, @SCWK_TEMP1, @SCWK_PARAM0)
+	_IFVAL_JUMP(@SCWK_PARAM0, 'NE', 3, 'ev_c10r0101_reset_man_invalid_form')
+	_FLAG_RESET(#2542); Reset Gengar
+	_RELEASE_BOX_POKE(@SCWK_TEMP0, @SCWK_TEMP1); Release Gengar
+	_JUMP('ev_c10r0101_reset_man_finished')
+ev_c10r0101_reset_man_rotom:
+	_FLAG_RESET(#FE_D25R0106_SPPOKE_CLEAR); Reset Rotom
+	_RELEASE_BOX_POKE(@SCWK_TEMP0, @SCWK_TEMP1); Release Pokemon
+	_JUMP('ev_c10r0101_reset_man_finished')
+ev_c10r0101_reset_man_articuno:
+	_FLAG_RESET(#2800); Reset Articuno
+	_RELEASE_BOX_POKE(@SCWK_TEMP0, @SCWK_TEMP1); Release Pokemon
+	_JUMP('ev_c10r0101_reset_man_finished')
+ev_c10r0101_reset_man_zapdos:
+	_FLAG_RESET(#2801)
+	_RELEASE_BOX_POKE(@SCWK_TEMP0, @SCWK_TEMP1); Release Pokemon
+	_JUMP('ev_c10r0101_reset_man_finished')
+ev_c10r0101_reset_man_moltres:
+	_FLAG_RESET(#2802)
+	_RELEASE_BOX_POKE(@SCWK_TEMP0, @SCWK_TEMP1); Release Pokemon
+	_JUMP('ev_c10r0101_reset_man_finished')
+ev_c10r0101_reset_man_mew:
+	_FLAG_RESET(#2819)
+	_RELEASE_BOX_POKE(@SCWK_TEMP0, @SCWK_TEMP1); Release Pokemon
+	_JUMP('ev_c10r0101_reset_man_finished')
+ev_c10r0101_reset_man_raikou:
+	_FLAG_RESET(#2803)
+	_RELEASE_BOX_POKE(@SCWK_TEMP0, @SCWK_TEMP1); Release Pokemon
+	_JUMP('ev_c10r0101_reset_man_finished')
+ev_c10r0101_reset_man_entei:
+	_FLAG_RESET(#2804)
+	_RELEASE_BOX_POKE(@SCWK_TEMP0, @SCWK_TEMP1); Release Pokemon
+	_JUMP('ev_c10r0101_reset_man_finished')
+ev_c10r0101_reset_man_suicune:
+	_FLAG_RESET(#2805)
+	_RELEASE_BOX_POKE(@SCWK_TEMP0, @SCWK_TEMP1); Release Pokemon
+	_JUMP('ev_c10r0101_reset_man_finished')
+ev_c10r0101_reset_man_lugia:
+	_FLAG_RESET(#2806)
+	_RELEASE_BOX_POKE(@SCWK_TEMP0, @SCWK_TEMP1); Release Pokemon
+	_JUMP('ev_c10r0101_reset_man_finished')
+ev_c10r0101_reset_man_hooh:
+	_FLAG_RESET(#2807)
+	_RELEASE_BOX_POKE(@SCWK_TEMP0, @SCWK_TEMP1); Release Pokemon
+	_JUMP('ev_c10r0101_reset_man_finished')
+ev_c10r0101_reset_man_regirock:
+	_FLAG_RESET(#2889)
+	_RELEASE_BOX_POKE(@SCWK_TEMP0, @SCWK_TEMP1); Release Pokemon
+	_JUMP('ev_c10r0101_reset_man_finished')
+ev_c10r0101_reset_man_regice:
+	_FLAG_RESET(#2888)
+	_RELEASE_BOX_POKE(@SCWK_TEMP0, @SCWK_TEMP1); Release Pokemon
+	_JUMP('ev_c10r0101_reset_man_finished')
+ev_c10r0101_reset_man_registeel:
+	_FLAG_RESET(#2887)
+	_RELEASE_BOX_POKE(@SCWK_TEMP0, @SCWK_TEMP1); Release Pokemon
+	_JUMP('ev_c10r0101_reset_man_finished')
+ev_c10r0101_reset_man_latias:
+	_FLAG_RESET(#2786)
+	_RELEASE_BOX_POKE(@SCWK_TEMP0, @SCWK_TEMP1); Release Pokemon
+	_JUMP('ev_c10r0101_reset_man_finished')
+ev_c10r0101_reset_man_latios:
+	_FLAG_RESET(#2787)
+	_RELEASE_BOX_POKE(@SCWK_TEMP0, @SCWK_TEMP1); Release Pokemon
+	_JUMP('ev_c10r0101_reset_man_finished')
+ev_c10r0101_reset_man_kyogre:
+	_FLAG_RESET(#2858)
+	_RELEASE_BOX_POKE(@SCWK_TEMP0, @SCWK_TEMP1); Release Pokemon
+	_JUMP('ev_c10r0101_reset_man_finished')
+ev_c10r0101_reset_man_groudon:
+	_FLAG_RESET(#2859)
+	_RELEASE_BOX_POKE(@SCWK_TEMP0, @SCWK_TEMP1); Release Pokemon
+	_JUMP('ev_c10r0101_reset_man_finished')
+ev_c10r0101_reset_man_rayquaza:
+	_FLAG_RESET(#2860)
+	_RELEASE_BOX_POKE(@SCWK_TEMP0, @SCWK_TEMP1); Release Pokemon
+	_JUMP('ev_c10r0101_reset_man_finished')
+ev_c10r0101_reset_man_jirachi:
+	_FLAG_RESET(#2808)
+	_RELEASE_BOX_POKE(@SCWK_TEMP0, @SCWK_TEMP1); Release Pokemon
+	_JUMP('ev_c10r0101_reset_man_finished')
+ev_c10r0101_reset_man_deoxys:
+	_FLAG_RESET(#2865)
+	_RELEASE_BOX_POKE(@SCWK_TEMP0, @SCWK_TEMP1); Release Pokemon
+	_JUMP('ev_c10r0101_reset_man_finished')
+ev_c10r0101_reset_man_uxie:
+	_FLAG_RESET(#FV_D29R0103_REI)
+	_FLAG_RESET(#FE_D29R0103_LEGEND_CLEAR)
+	_RELEASE_BOX_POKE(@SCWK_TEMP0, @SCWK_TEMP1); Release Pokemon
+	_JUMP('ev_c10r0101_reset_man_finished')
+ev_c10r0101_reset_man_mesprit:
+	_FLAG_RESET(#FV_D27R0103_AI)
+	_FLAG_RESET(#FE_D27R0103_LEGEND_CLEAR)
+	_RELEASE_BOX_POKE(@SCWK_TEMP0, @SCWK_TEMP1); Release Pokemon
+	_JUMP('ev_c10r0101_reset_man_finished')
+ev_c10r0101_reset_man_azelf:
+	_FLAG_RESET(#FV_D28R0103_HAI)
+	_FLAG_RESET(#FE_D28R0103_LEGEND_CLEAR)
+	_RELEASE_BOX_POKE(@SCWK_TEMP0, @SCWK_TEMP1); Release Pokemon
+	_JUMP('ev_c10r0101_reset_man_finished')
+ev_c10r0101_reset_man_dialga:
+	_IF_FLAGOFF_JUMP(#2862, 'ev_c10r0101_reset_man_cannot_spawn'); Do not spawn if Palkia is active
+	_FLAG_RESET(#2790); Enable legendary checks
+	_FLAG_RESET(#2861); Enable Dialga
+	_RELEASE_BOX_POKE(@SCWK_TEMP0, @SCWK_TEMP1); Release Pokemon
+	_JUMP('ev_c10r0101_reset_man_finished')
+ev_c10r0101_reset_man_palkia:
+	_IF_FLAGOFF_JUMP(#2861, 'ev_c10r0101_reset_man_cannot_spawn'); Do not spawn if Dialga is active
+	_FLAG_SET(#2789); Enable allow-palkia flag
+	_FLAG_RESET(#2790); Enable legendary checks
+	_FLAG_RESET(#2862); Enable Palkia
+	_RELEASE_BOX_POKE(@SCWK_TEMP0, @SCWK_TEMP1); Release Pokemon
+	_JUMP('ev_c10r0101_reset_man_finished')
+ev_c10r0101_reset_man_heatran:
+	_FLAG_RESET(#FV_D16R0103_HIIDORAN)
+	_FLAG_RESET(#FE_D16R0103_LEGEND_CLEAR)
+	_RELEASE_BOX_POKE(@SCWK_TEMP0, @SCWK_TEMP1); Release Pokemon
+	_JUMP('ev_c10r0101_reset_man_finished')
+ev_c10r0101_reset_man_regigigas:
+	_FLAG_RESET(#FE_D20R0106_LEGEND_CLEAR)
+	_FLAG_RESET(#FV_D20R0106_LEGEND)
+	_RELEASE_BOX_POKE(@SCWK_TEMP0, @SCWK_TEMP1); Release Pokemon
+	_JUMP('ev_c10r0101_reset_man_finished')
+ev_c10r0101_reset_man_manaphy:
+	_RELEASE_BOX_POKE(@SCWK_TEMP0, @SCWK_TEMP1); Release Pokemon
+	_ADD_TAMAGO(490, 60013); Manaphy egg
+	_JUMP('ev_c10r0101_reset_man_finished')
+ev_c10r0101_reset_man_crystal_onix:
+	_TEMOTI_BOX_FORMNO(@SCWK_TEMP0, @SCWK_TEMP1, @SCWK_PARAM0)
+	_IFVAL_JUMP(@SCWK_PARAM0, 'NE', 1, 'ev_c10r0101_reset_man_invalid_form')
+	_FLAG_SET(#3111); Is a reset
+	_FLAG_RESET(#2874); Reset Crystal Onix
+	_RELEASE_BOX_POKE(@SCWK_TEMP0, @SCWK_TEMP1); Release Crystal Onix
+	_JUMP('ev_c10r0101_reset_man_finished')
+ev_c10r0101_reset_man_pichu:
+	_TEMOTI_BOX_FORMNO(@SCWK_TEMP0, @SCWK_TEMP1, @SCWK_PARAM0)
+	_IFVAL_JUMP(@SCWK_PARAM0, 'NE', 1, 'ev_c10r0101_reset_man_invalid_form')
+	_FLAG_RESET(#2892); Reset Pichu event
+	_RELEASE_BOX_POKE(@SCWK_TEMP0, @SCWK_TEMP1); Release Notched Pichu
+	_JUMP('ev_c10r0101_reset_man_finished')
+ev_c10r0101_reset_man_tinkatuff:
+	_FLAG_RESET(#3121); Enable Tinka event again
+	_RELEASE_BOX_POKE(@SCWK_TEMP0, @SCWK_TEMP1); Release Pokemon
+	_JUMP('ev_c10r0101_reset_man_finished')
+ev_c10r0101_reset_man_chandelure:
+	_FLAG_RESET(#2927)
+	_FLAG_SET(#3112); Is a reset
+	_RELEASE_BOX_POKE(@SCWK_TEMP0, @SCWK_TEMP1); Release Pokemon
+	_JUMP('ev_c10r0101_reset_man_finished')
+ev_c10r0101_reset_man_finished:
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_c10r0101_reset_man_04', 'That Pokémon has been returned to\ntheir home.\rYou will find it there.')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c10r0101_reset_man_cannot_spawn:
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_c10r0101_reset_man_05', 'There is already a Pokémon where this one belongs.\rYou must catch it first.')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c10r0101_tm_handler_check_tms:
+	_IF_FLAGOFF_CALL(#1062, 'ev_c10r0101_tm_handler_tm01')
+	_IF_FLAGOFF_CALL(#978, 'ev_c10r0101_tm_handler_tm02')
+	_IF_FLAGOFF_CALL(#3002, 'ev_c10r0101_tm_handler_tm03')
+	_IF_FLAGOFF_CALL(#915, 'ev_c10r0101_tm_handler_tm04')
+	_IF_FLAGOFF_CALL(#1067, 'ev_c10r0101_tm_handler_tm05')
+	_IF_FLAGOFF_CALL(#2688, 'ev_c10r0101_tm_handler_tm06')
+	_IF_FLAGOFF_CALL(#930, 'ev_c10r0101_tm_handler_tm07')
+	_IF_FLAGOFF_CALL(#910, 'ev_c10r0101_tm_handler_tm08')
+	_IF_FLAGOFF_CALL(#1050, 'ev_c10r0101_tm_handler_tm09')
+	_IF_FLAGOFF_CALL(#232, 'ev_c10r0101_tm_handler_tm10')
+	_IF_FLAGOFF_CALL(#2691, 'ev_c10r0101_tm_handler_tm11')
+	_IF_FLAGOFF_CALL(#901, 'ev_c10r0101_tm_handler_tm12')
+	_IF_FLAGOFF_CALL(#2676, 'ev_c10r0101_tm_handler_tm13')
+	_IF_FLAGOFF_CALL(#954, 'ev_c10r0101_tm_handler_tm14')
+	_IF_FLAGOFF_CALL(#2677, 'ev_c10r0101_tm_handler_tm15')
+	_IF_FLAGOFF_CALL(#960, 'ev_c10r0101_tm_handler_tm16')
+	_IF_FLAGOFF_CALL(#2680, 'ev_c10r0101_tm_handler_tm17')
+	_IF_FLAGOFF_CALL(#3047, 'ev_c10r0101_tm_handler_tm18')
+	_IF_FLAGOFF_CALL(#1072, 'ev_c10r0101_tm_handler_tm19')
+	_IF_FLAGOFF_CALL(#2597, 'ev_c10r0101_tm_handler_tm20')
+	_IF_FLAGOFF_CALL(#1015, 'ev_c10r0101_tm_handler_tm21')
+	_IF_FLAGOFF_CALL(#1080, 'ev_c10r0101_tm_handler_tm22')
+	_IF_FLAGOFF_CALL(#878, 'ev_c10r0101_tm_handler_tm23')
+	_IF_FLAGOFF_CALL(#885, 'ev_c10r0101_tm_handler_tm24')
+	_IF_FLAGOFF_CALL(#896, 'ev_c10r0101_tm_handler_tm25')
+	_IF_FLAGOFF_CALL(#2620, 'ev_c10r0101_tm_handler_tm26')
+	_IF_FLAGOFF_CALL(#188, 'ev_c10r0101_tm_handler_tm27')
+	_IF_FLAGOFF_CALL(#2664, 'ev_c10r0101_tm_handler_tm28')
+	_IF_FLAGOFF_CALL(#2810, 'ev_c10r0101_tm_handler_tm29')
+	_IF_FLAGOFF_CALL(#86, 'ev_c10r0101_tm_handler_tm30')
+	_IF_FLAGOFF_CALL(#2694, 'ev_c10r0101_tm_handler_tm31')
+	_IF_FLAGOFF_CALL(#1084, 'ev_c10r0101_tm_handler_tm32')
+	_IF_FLAGOFF_CALL(#988, 'ev_c10r0101_tm_handler_tm33')
+	_IF_FLAGOFF_CALL(#1111, 'ev_c10r0101_tm_handler_tm34')
+	_IF_FLAGOFF_CALL(#882, 'ev_c10r0101_tm_handler_tm35')
+	_IF_FLAGOFF_CALL(#3063, 'ev_c10r0101_tm_handler_tm36')
+	_IF_FLAGOFF_CALL(#3031, 'ev_c10r0101_tm_handler_tm37')
+	_IF_FLAGOFF_CALL(#896, 'ev_c10r0101_tm_handler_tm38')
+	_IF_FLAGOFF_CALL(#992, 'ev_c10r0101_tm_handler_tm39')
+	_IF_FLAGOFF_CALL(#2681, 'ev_c10r0101_tm_handler_tm40')
+	_IF_FLAGOFF_CALL(#881, 'ev_c10r0101_tm_handler_tm41')
+	_IF_FLAGOFF_CALL(#2682, 'ev_c10r0101_tm_handler_tm42')
+	_IF_FLAGOFF_CALL(#1019, 'ev_c10r0101_tm_handler_tm43')
+	_IF_FLAGOFF_CALL(#2665, 'ev_c10r0101_tm_handler_tm44')
+	_IF_FLAGOFF_CALL(#1021, 'ev_c10r0101_tm_handler_tm45')
+	_IF_FLAGOFF_CALL(#941, 'ev_c10r0101_tm_handler_tm46')
+	_IF_FLAGOFF_CALL(#1073, 'ev_c10r0101_tm_handler_tm47')
+	_IF_FLAGOFF_CALL(#2683, 'ev_c10r0101_tm_handler_tm48')
+	_IF_FLAGOFF_CALL(#1009, 'ev_c10r0101_tm_handler_tm49')
+	_IF_FLAGOFF_CALL(#311, 'ev_c10r0101_tm_handler_tm50')
+	_IF_FLAGOFF_CALL(#160, 'ev_c10r0101_tm_handler_tm51')
+	_IF_FLAGOFF_CALL(#2811, 'ev_c10r0101_tm_handler_tm52')
+	_IF_FLAGOFF_CALL(#1042, 'ev_c10r0101_tm_handler_tm53')
+	_IF_FLAGOFF_CALL(#225, 'ev_c10r0101_tm_handler_tm54')
+	_IF_FLAGOFF_CALL(#2684, 'ev_c10r0101_tm_handler_tm55')
+	_IF_FLAGOFF_CALL(#3011, 'ev_c10r0101_tm_handler_tm56')
+	_IF_FLAGOFF_CALL(#143, 'ev_c10r0101_tm_handler_tm57')
+	_IF_FLAGOFF_CALL(#1046, 'ev_c10r0101_tm_handler_tm58')
+	_IF_FLAGOFF_CALL(#3066, 'ev_c10r0101_tm_handler_tm59')
+	_IF_FLAGOFF_CALL(#118, 'ev_c10r0101_tm_handler_tm60')
+	_IF_FLAGOFF_CALL(#1076, 'ev_c10r0101_tm_handler_tm61')
+	_IF_FLAGOFF_CALL(#2686, 'ev_c10r0101_tm_handler_tm62')
+	_IF_FLAGOFF_CALL(#165, 'ev_c10r0101_tm_handler_tm63')
+	_IF_FLAGOFF_CALL(#1112, 'ev_c10r0101_tm_handler_tm65')
+	_IF_FLAGOFF_CALL(#166, 'ev_c10r0101_tm_handler_tm66')
+	_IF_FLAGOFF_CALL(#155, 'ev_c10r0101_tm_handler_tm67')
+	_IF_FLAGOFF_CALL(#923, 'ev_c10r0101_tm_handler_tm68')
+	_IF_FLAGOFF_CALL(#899, 'ev_c10r0101_tm_handler_tm69')
+	_IF_FLAGOFF_CALL(#1068, 'ev_c10r0101_tm_handler_tm70')
+	_IF_FLAGOFF_CALL(#1069, 'ev_c10r0101_tm_handler_tm71')
+	_IF_FLAGOFF_CALL(#119, 'ev_c10r0101_tm_handler_tm72')
+	_IF_FLAGOFF_CALL(#989, 'ev_c10r0101_tm_handler_tm73')
+	_IF_FLAGOFF_CALL(#872, 'ev_c10r0101_tm_handler_tm74')
+	_IF_FLAGOFF_CALL(#2622, 'ev_c10r0101_tm_handler_tm75')
+	_IF_FLAGOFF_CALL(#80, 'ev_c10r0101_tm_handler_tm76')
+	_IF_FLAGOFF_CALL(#159, 'ev_c10r0101_tm_handler_tm77')
+	_IF_FLAGOFF_CALL(#158, 'ev_c10r0101_tm_handler_tm78')
+	_IF_FLAGOFF_CALL(#889, 'ev_c10r0101_tm_handler_tm79')
+	_IF_FLAGOFF_CALL(#2405, 'ev_c10r0101_tm_handler_tm80')
+	_IF_FLAGOFF_CALL(#2853, 'ev_c10r0101_tm_handler_tm81')
+	_IF_FLAGOFF_CALL(#887, 'ev_c10r0101_tm_handler_tm82')
+	_IF_FLAGOFF_CALL(#2695, 'ev_c10r0101_tm_handler_tm83')
+	_IF_FLAGOFF_CALL(#999, 'ev_c10r0101_tm_handler_tm84')
+	_IF_FLAGOFF_CALL(#2698, 'ev_c10r0101_tm_handler_tm85')
+	_IF_FLAGOFF_CALL(#79, 'ev_c10r0101_tm_handler_tm86')
+	_IF_FLAGOFF_CALL(#997, 'ev_c10r0101_tm_handler_tm87')
+	_IF_FLAGOFF_CALL(#893, 'ev_c10r0101_tm_handler_tm88')
+	_IF_FLAGOFF_CALL(#861, 'ev_c10r0101_tm_handler_tm89')
+	_IF_FLAGOFF_CALL(#1032, 'ev_c10r0101_tm_handler_tm90')
+	_IF_FLAGOFF_CALL(#107, 'ev_c10r0101_tm_handler_tm91')
+	_IF_FLAGOFF_CALL(#163, 'ev_c10r0101_tm_handler_tm92')
+	_IF_FLAGOFF_CALL(#108, 'ev_c10r0101_tm_handler_tm93')
+	_IF_FLAGOFF_CALL(#1095, 'ev_c10r0101_tm_handler_tm94')
+	_IF_FLAGOFF_CALL(#110, 'ev_c10r0101_tm_handler_tm95')
+	_IF_FLAGOFF_CALL(#111, 'ev_c10r0101_tm_handler_tm96')
+	_IF_FLAGOFF_CALL(#920, 'ev_c10r0101_tm_handler_tm97')
+	_IF_FLAGOFF_CALL(#113, 'ev_c10r0101_tm_handler_tm98')
+	_IF_FLAGOFF_CALL(#114, 'ev_c10r0101_tm_handler_tm99')
+	_IF_FLAGOFF_CALL(#115, 'ev_c10r0101_tm_handler_tm100')
+	_CALL('ev_c10r0101_tm_handler_tm64')
+	_CALL('ev_c10r0101_tm_handler_tm101')
+	_CALL('ev_c10r0101_tm_handler_tm102')
+	_CALL('ev_c10r0101_tm_handler_tm103')
+	_CALL('ev_c10r0101_tm_handler_tm104')
+	_JUMP('ev_c10r0101_tm_handler_end')
+ev_c10r0101_tm_handler_common:
+	_ITEM_CHK(@SCWK_TEMP0, @SCWK_TEMP1, @SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_c10r0101_tm_handler_failed')
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_FLAG_SET_WK(@SCWK_TEMP3)
+	_RET()
+ev_c10r0101_tm_handler_common_no_flag:
+	_ITEM_CHK(@SCWK_TEMP0, @SCWK_TEMP1, @SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_c10r0101_tm_handler_failed')
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_RET()
+ev_c10r0101_tm_handler_tm01:
+	_LDVAL(@SCWK_TEMP0, 328)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 1062)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm02:
+	_LDVAL(@SCWK_TEMP0, 329)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 978)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm03:
+	_LDVAL(@SCWK_TEMP0, 330)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 3002)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm04:
+	_LDVAL(@SCWK_TEMP0, 331)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 915)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm05:
+	_LDVAL(@SCWK_TEMP0, 332)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 1067)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm06:
+	_LDVAL(@SCWK_TEMP0, 333)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 2688)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm07:
+	_LDVAL(@SCWK_TEMP0, 334)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 930)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm08:
+	_LDVAL(@SCWK_TEMP0, 335)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 910)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm09:
+	_LDVAL(@SCWK_TEMP0, 336)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 1050)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm10:
+	_LDVAL(@SCWK_TEMP0, 337)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 232)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm11:
+	_LDVAL(@SCWK_TEMP0, 338)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 2691)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm12:
+	_LDVAL(@SCWK_TEMP0, 339)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 901)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm13:
+	_LDVAL(@SCWK_TEMP0, 340)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 2676)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm14:
+	_LDVAL(@SCWK_TEMP0, 341)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 954)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm15:
+	_LDVAL(@SCWK_TEMP0, 342)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 2677)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm16:
+	_LDVAL(@SCWK_TEMP0, 343)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 960)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm17:
+	_LDVAL(@SCWK_TEMP0, 344)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 2680)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm18:
+	_LDVAL(@SCWK_TEMP0, 345)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 3047)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm19:
+	_LDVAL(@SCWK_TEMP0, 346)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 1072)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm20:
+	_LDVAL(@SCWK_TEMP0, 347)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 2597)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm21:
+	_LDVAL(@SCWK_TEMP0, 348)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 1015)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm22:
+	_LDVAL(@SCWK_TEMP0, 349)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 1080)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm23:
+	_LDVAL(@SCWK_TEMP0, 350)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 878)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm24:
+	_LDVAL(@SCWK_TEMP0, 351)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 885)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm25:
+	_LDVAL(@SCWK_TEMP0, 352)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 896)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm26:
+	_LDVAL(@SCWK_TEMP0, 353)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 2620)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm27:
+	_LDVAL(@SCWK_TEMP0, 354)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 188)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm28:
+	_LDVAL(@SCWK_TEMP0, 355)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 2664)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm29:
+	_LDVAL(@SCWK_TEMP0, 356)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 2810)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm30:
+	_LDVAL(@SCWK_TEMP0, 357)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 86)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm31:
+	_LDVAL(@SCWK_TEMP0, 358)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 2694)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm32:
+	_LDVAL(@SCWK_TEMP0, 359)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 1084)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm33:
+	_LDVAL(@SCWK_TEMP0, 360)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 988)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm34:
+	_LDVAL(@SCWK_TEMP0, 361)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 1111)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm35:
+	_LDVAL(@SCWK_TEMP0, 362)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 882)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm36:
+	_LDVAL(@SCWK_TEMP0, 363)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 3063)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm37:
+	_LDVAL(@SCWK_TEMP0, 364)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 3031)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm38:
+	_LDVAL(@SCWK_TEMP0, 365)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 896)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm39:
+	_LDVAL(@SCWK_TEMP0, 366)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 992)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm40:
+	_LDVAL(@SCWK_TEMP0, 367)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 2681)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm41:
+	_LDVAL(@SCWK_TEMP0, 368)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 881)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm42:
+	_LDVAL(@SCWK_TEMP0, 369)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 2682)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm43:
+	_LDVAL(@SCWK_TEMP0, 370)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 1019)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm44:
+	_LDVAL(@SCWK_TEMP0, 371)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 2665)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm45:
+	_LDVAL(@SCWK_TEMP0, 372)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 1021)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm46:
+	_LDVAL(@SCWK_TEMP0, 373)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 941)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm47:
+	_LDVAL(@SCWK_TEMP0, 374)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 1073)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm48:
+	_LDVAL(@SCWK_TEMP0, 375)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 2683)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm49:
+	_LDVAL(@SCWK_TEMP0, 376)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 1009)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm50:
+	_LDVAL(@SCWK_TEMP0, 377)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 311)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm51:
+	_LDVAL(@SCWK_TEMP0, 378)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 160)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm52:
+	_LDVAL(@SCWK_TEMP0, 379)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 2811)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm53:
+	_LDVAL(@SCWK_TEMP0, 380)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 1042)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm54:
+	_LDVAL(@SCWK_TEMP0, 381)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 225)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm55:
+	_LDVAL(@SCWK_TEMP0, 382)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 2684)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm56:
+	_LDVAL(@SCWK_TEMP0, 383)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 3011)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm57:
+	_LDVAL(@SCWK_TEMP0, 384)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 143)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm58:
+	_LDVAL(@SCWK_TEMP0, 385)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 1046)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm59:
+	_LDVAL(@SCWK_TEMP0, 386)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 3066)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm60:
+	_LDVAL(@SCWK_TEMP0, 387)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 118)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm61:
+	_LDVAL(@SCWK_TEMP0, 388)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 1076)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm62:
+	_LDVAL(@SCWK_TEMP0, 389)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 2686)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm63:
+	_LDVAL(@SCWK_TEMP0, 390)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 165)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm64:
+	_LDVAL(@SCWK_TEMP0, 391)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_JUMP('ev_c10r0101_tm_handler_common_no_flag')
+ev_c10r0101_tm_handler_tm65:
+	_LDVAL(@SCWK_TEMP0, 392)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 1112)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm66:
+	_LDVAL(@SCWK_TEMP0, 393)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 166)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm67:
+	_LDVAL(@SCWK_TEMP0, 394)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 155)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm68:
+	_LDVAL(@SCWK_TEMP0, 395)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 923)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm69:
+	_LDVAL(@SCWK_TEMP0, 396)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 899)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm70:
+	_LDVAL(@SCWK_TEMP0, 397)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 1068)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm71:
+	_LDVAL(@SCWK_TEMP0, 398)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 1069)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm72:
+	_LDVAL(@SCWK_TEMP0, 399)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 119)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm73:
+	_LDVAL(@SCWK_TEMP0, 400)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 989)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm74:
+	_LDVAL(@SCWK_TEMP0, 401)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 872)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm75:
+	_LDVAL(@SCWK_TEMP0, 402)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 2622)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm76:
+	_LDVAL(@SCWK_TEMP0, 403)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 80)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm77:
+	_LDVAL(@SCWK_TEMP0, 404)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 159)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm78:
+	_LDVAL(@SCWK_TEMP0, 405)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 158)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm79:
+	_LDVAL(@SCWK_TEMP0, 406)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 889)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm80:
+	_LDVAL(@SCWK_TEMP0, 407)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 2405)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm81:
+	_LDVAL(@SCWK_TEMP0, 408)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 2853)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm82:
+	_LDVAL(@SCWK_TEMP0, 409)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 887)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm83:
+	_LDVAL(@SCWK_TEMP0, 410)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 2695)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm84:
+	_LDVAL(@SCWK_TEMP0, 411)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 999)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm85:
+	_LDVAL(@SCWK_TEMP0, 412)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 2698)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm86:
+	_LDVAL(@SCWK_TEMP0, 413)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 79)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm87:
+	_LDVAL(@SCWK_TEMP0, 414)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 997)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm88:
+	_LDVAL(@SCWK_TEMP0, 415)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 893)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm89:
+	_LDVAL(@SCWK_TEMP0, 416)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 861)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm90:
+	_LDVAL(@SCWK_TEMP0, 417)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 1032)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm91:
+	_LDVAL(@SCWK_TEMP0, 418)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 107)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm92:
+	_LDVAL(@SCWK_TEMP0, 419)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 163)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm93:
+	_LDVAL(@SCWK_TEMP0, 420)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 108)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm94:
+	_LDVAL(@SCWK_TEMP0, 421)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 1095)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm95:
+	_LDVAL(@SCWK_TEMP0, 422)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 110)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm96:
+	_LDVAL(@SCWK_TEMP0, 423)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 111)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm97:
+	_LDVAL(@SCWK_TEMP0, 424)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 920)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm98:
+	_LDVAL(@SCWK_TEMP0, 425)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 113)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm99:
+	_LDVAL(@SCWK_TEMP0, 426)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 114)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm100:
+	_LDVAL(@SCWK_TEMP0, 427)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_LDVAL(@SCWK_TEMP3, 115)
+	_JUMP('ev_c10r0101_tm_handler_common')
+ev_c10r0101_tm_handler_tm101:
+	_LDVAL(@SCWK_TEMP0, 1130)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_JUMP('ev_c10r0101_tm_handler_common_no_flag')
+ev_c10r0101_tm_handler_tm102:
+	_LDVAL(@SCWK_TEMP0, 1131)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_JUMP('ev_c10r0101_tm_handler_common_no_flag')
+ev_c10r0101_tm_handler_tm103:
+	_LDVAL(@SCWK_TEMP0, 1132)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_JUMP('ev_c10r0101_tm_handler_common_no_flag')
+ev_c10r0101_tm_handler_tm104:
+	_LDVAL(@SCWK_TEMP0, 1133)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_JUMP('ev_c10r0101_tm_handler_common_no_flag')
+ev_c10r0101_tm_handler_end:
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_c10r0101_tm_handler_00', 'All done.\rHave a nice day, trainer.')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c10r0101_tm_handler:
+	_TALK_OBJ_START()
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_c10r0101_tm_handler_01', 'Greetings trainer.\rI can give you any TMs you\nmay have missed.\rWould you like to check?')
+	_YES_NO_WIN(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_c10r0101_tm_handler_yes')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_c10r0101_tm_handler_02', 'I’ll be here if you change your mind.')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c10r0101_tm_handler_yes:
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_c10r0101_tm_handler_03', 'This will take a moment...')
+	_TALK_CLOSE()
+	_JUMP('ev_c10r0101_tm_handler_check_tms')
+ev_c10r0101_tm_handler_failed:
+	_RET()

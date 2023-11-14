@@ -1,0 +1,9 @@
+SP_C05_SCENE:
+	_IF_FLAGOFF_CALL(#2772, 'ev_c05_check_c05r0601_barry')
+	_JUMP('sp_c05_tbl')
+	_SP_EVENT_DATA_END()
+SP_C05_FLAG:
+	_JUMP('ev_c05_flag_change')
+	_SP_EVENT_DATA_END()
+sp_c05_tbl:
+	_SCENE_CHANGE_END()

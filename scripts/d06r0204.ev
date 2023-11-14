@@ -1,0 +1,6 @@
+ev_d06r0204_boy3:
+	_MACRO_EASY_OBJ_MSG('dp_scenario2', '135-msg_d06r0204_boy3_01', 'When you’re walking on boggy parts,\nsometimes you get sucked down.\rPokémon may appear while you’re\nstruggling to get out, too.')
+	_END()
+ev_d06r0204_sign1:
+	_EASY_BOARD_MSG('dp_scenario2%135-msg_d06r0204_sign1_01', 'BOARD_TYPE_POST', 0)
+	_END()

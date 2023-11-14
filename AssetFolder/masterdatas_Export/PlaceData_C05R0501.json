@@ -1,0 +1,287 @@
+{
+    "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 4652281892236711381
+    },
+    "m_Name": "PlaceData_C05R0501",
+    "Data": [
+        {
+            "ID": "C05R0501_AARON",
+            "zoneID": 98,
+            "TrainerID": 0,
+            "ObjectGraphicIndex": 26,
+            "ColorIndex": 0,
+            "Position": {
+                "x": 1.0,
+                "y": 7.0
+            },
+            "HeightLayer": 0,
+            "HeightIgnore": 0,
+            "Size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "Rotation": 270,
+            "MoveLimit": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "EventType": 0,
+            "MoveCode": 17,
+            "MoveParam0": 0,
+            "MoveParam1": 0,
+            "MoveParam2": 0,
+            "TalkLabel": "",
+            "ContactLabel": "",
+            "Work": 2853,
+            "Dowsing": 0,
+            "LoadFirst": 0,
+            "DoNotLoad": 4000,
+            "TalkToRange": 1.25,
+            "TalkToSize": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "TalkBit": 15
+        },
+        {
+            "ID": "C05R0501_AARON_TRIGGER1",
+            "zoneID": 98,
+            "TrainerID": 10008,
+            "ObjectGraphicIndex": 556,
+            "ColorIndex": 0,
+            "Position": {
+                "x": 7.0,
+                "y": 5.0
+            },
+            "HeightLayer": 0,
+            "HeightIgnore": 0,
+            "Size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "Rotation": 0,
+            "MoveLimit": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "EventType": 1,
+            "MoveCode": 16,
+            "MoveParam0": 1,
+            "MoveParam1": 0,
+            "MoveParam2": 0,
+            "TalkLabel": "",
+            "ContactLabel": "",
+            "Work": 2773,
+            "Dowsing": 0,
+            "LoadFirst": 0,
+            "DoNotLoad": 4000,
+            "TalkToRange": 1.25,
+            "TalkToSize": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "TalkBit": 15
+        },
+        {
+            "ID": "C05R0501_AARON_TRIGGER2",
+            "zoneID": 98,
+            "TrainerID": 10008,
+            "ObjectGraphicIndex": 556,
+            "ColorIndex": 0,
+            "Position": {
+                "x": 7.0,
+                "y": 6.0
+            },
+            "HeightLayer": 0,
+            "HeightIgnore": 0,
+            "Size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "Rotation": 0,
+            "MoveLimit": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "EventType": 1,
+            "MoveCode": 16,
+            "MoveParam0": 1,
+            "MoveParam1": 0,
+            "MoveParam2": 0,
+            "TalkLabel": "",
+            "ContactLabel": "",
+            "Work": 2773,
+            "Dowsing": 0,
+            "LoadFirst": 0,
+            "DoNotLoad": 4000,
+            "TalkToRange": 1.25,
+            "TalkToSize": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "TalkBit": 15
+        },
+        {
+            "ID": "C05R0501_AARON_TRIGGER3",
+            "zoneID": 98,
+            "TrainerID": 10008,
+            "ObjectGraphicIndex": 556,
+            "ColorIndex": 0,
+            "Position": {
+                "x": 7.0,
+                "y": 7.0
+            },
+            "HeightLayer": 0,
+            "HeightIgnore": 0,
+            "Size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "Rotation": 0,
+            "MoveLimit": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "EventType": 1,
+            "MoveCode": 16,
+            "MoveParam0": 1,
+            "MoveParam1": 0,
+            "MoveParam2": 0,
+            "TalkLabel": "",
+            "ContactLabel": "",
+            "Work": 2773,
+            "Dowsing": 0,
+            "LoadFirst": 0,
+            "DoNotLoad": 4000,
+            "TalkToRange": 1.25,
+            "TalkToSize": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "TalkBit": 15
+        },
+        {
+            "ID": "C05R0501_AARON_TRIGGER4",
+            "zoneID": 98,
+            "TrainerID": 10008,
+            "ObjectGraphicIndex": 556,
+            "ColorIndex": 0,
+            "Position": {
+                "x": 7.0,
+                "y": 8.0
+            },
+            "HeightLayer": 0,
+            "HeightIgnore": 0,
+            "Size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "Rotation": 0,
+            "MoveLimit": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "EventType": 1,
+            "MoveCode": 16,
+            "MoveParam0": 1,
+            "MoveParam1": 0,
+            "MoveParam2": 0,
+            "TalkLabel": "",
+            "ContactLabel": "",
+            "Work": 2773,
+            "Dowsing": 0,
+            "LoadFirst": 0,
+            "DoNotLoad": 4000,
+            "TalkToRange": 1.25,
+            "TalkToSize": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "TalkBit": 15
+        },
+        {
+            "ID": "C05R0501_AARON_TRIGGER5",
+            "zoneID": 98,
+            "TrainerID": 10008,
+            "ObjectGraphicIndex": 556,
+            "ColorIndex": 0,
+            "Position": {
+                "x": 7.0,
+                "y": 9.0
+            },
+            "HeightLayer": 0,
+            "HeightIgnore": 0,
+            "Size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "Rotation": 0,
+            "MoveLimit": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "EventType": 1,
+            "MoveCode": 16,
+            "MoveParam0": 1,
+            "MoveParam1": 0,
+            "MoveParam2": 0,
+            "TalkLabel": "",
+            "ContactLabel": "",
+            "Work": 2773,
+            "Dowsing": 0,
+            "LoadFirst": 0,
+            "DoNotLoad": 4000,
+            "TalkToRange": 1.25,
+            "TalkToSize": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "TalkBit": 15
+        },
+        {
+            "ID": "C05R0501_TOWN_MAP",
+            "zoneID": 98,
+            "TrainerID": 0,
+            "ObjectGraphicIndex": -1,
+            "ColorIndex": 0,
+            "Position": {
+                "x": -5.5,
+                "y": 4.0
+            },
+            "HeightLayer": 0,
+            "HeightIgnore": 0,
+            "Size": {
+                "x": 2.0,
+                "y": 1.0
+            },
+            "Rotation": 0,
+            "MoveLimit": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "EventType": 0,
+            "MoveCode": 0,
+            "MoveParam0": 0,
+            "MoveParam1": 0,
+            "MoveParam2": 0,
+            "TalkLabel": "ev_tmap_bg",
+            "ContactLabel": "",
+            "Work": 4000,
+            "Dowsing": 0,
+            "LoadFirst": 0,
+            "DoNotLoad": 4000,
+            "TalkToRange": 1.25,
+            "TalkToSize": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "TalkBit": 2
+        }
+    ]
+}

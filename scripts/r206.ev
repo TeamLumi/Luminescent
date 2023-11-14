@@ -1,0 +1,62 @@
+ev_r206_bgm_start:
+	_IF_FLAGOFF_CALL(#FE_C04R0401_IS_RAID_BICYCLE, 'ev_r206_se_call')
+	_BGM_PLAY('BICYCLE')
+	_BICYCLE_REQ(1)
+	_LDVAL(@WK_SCENE_CYCLINGROAD, 0)
+	_END()
+ev_r206_se_call:
+	_SE_PLAY('S_FI009')
+	_RET()
+ev_r206_flag_change:
+	_ARRIVE_FLAG_SET($FLAG_ARRIVE_R206)
+	_IF_FLAGOFF_JUMP(#FE_SEVEN2_CLEAR, 'ev_d21r0101_flag_change_retry')
+	_IF_FLAGON_JUMP(#FE_SEVEN2_CLEAR, 'ev_d21r0101_miru_del')
+	_END()
+ev_r206_obj_change:
+	_IF_FLAGON_CALL($SYS_FLAG_CYCLINGROAD, 'ev_r206_obj_change_cyclingmode')
+	_GET_BEFORE_ZONE_ID(@LOCALWORK0)
+	_IFVAL_JUMP(@LOCALWORK0, 'EQ', 69, 'ev_r206_flag_change_hero_bicycle')
+	_IFVAL_JUMP(@LOCALWORK0, 'EQ', 363, 'ev_r206_flag_change_hero_bicycle')
+	_END()
+ev_r206_flag_change_hero_bicycle:
+	_IF_FLAGON_JUMP(#FH_03, 'ev_r206_flag_change_end')
+	_PLAYER_POS_GET(@LOCALWORK0, @LOCALWORK1)
+	_IFVAL_JUMP(@LOCALWORK0, 'LT', 299, 'ev_r206_flag_change_end')
+	_IFVAL_JUMP(@LOCALWORK0, 'GT', 306, 'ev_r206_flag_change_end')
+	_IFVAL_JUMP(@LOCALWORK1, 'EQ', 576, 'ev_r206_flag_change_hero_bicycle_pos')
+	_IFVAL_JUMP(@LOCALWORK1, 'EQ', 681, 'ev_r206_flag_change_hero_bicycle_pos')
+	_END()
+ev_r206_flag_change_hero_bicycle_pos:
+	_FLAG_SET(#FH_03)
+	_SET_SYS_FLAG($SYS_FLAG_CYCLINGROAD)
+	_LDVAL(@WK_SCENE_CYCLINGROAD, 1)
+	_CYCLING_ROAD_SET(1)
+	_END()
+ev_r206_flag_change_end:
+	_END()
+ev_r206_obj_change_cyclingmode:
+	_CYCLING_ROAD_SET(1)
+	_RET()
+ev_d21r0101_miru_del:
+	_FLAG_SET(#FV_D21R0101_SEVEN2)
+	_IF_FLAGON_JUMP($SYS_FLAG_PAIR, 'ev_d21r0101_miru_poor')
+	_END()
+ev_d21r0101_miru_poor:
+	_SYS_FLAG_PAIR_RESET()
+	_FLAG_SET(#FV_D21R0101_SEVEN2)
+	_END()
+ev_r206_girl1a:
+	_EASY_OBJ_MSG('dp_scenario2%22-msg_r206_girl1a_01')
+	_END()
+ev_r206_boy2a:
+	_EASY_OBJ_MSG('dp_scenario2%22-msg_r206_boy2a_01')
+	_END()
+ev_r206_sign1:
+	_EASY_BOARD_MSG('dp_scenario2%22-msg_r206_sign1_01', 'BOARD_TYPE_ROAD', 0, 3)
+	_END()
+ev_r206_sign2:
+	_EASY_BOARD_MSG('dp_scenario2%22-msg_r206_sign2_01', 'BOARD_TYPE_ROAD', 0, 4)
+	_END()
+ev_r206_sign3:
+	_EASY_INFOBOARD_MSG('dp_scenario2%22-msg_r206_sign3_01', 'BOARD_TYPE_INFO', 0)
+	_END()

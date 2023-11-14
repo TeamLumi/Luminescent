@@ -1,0 +1,216 @@
+ev_c03r0701_workman:
+	_EASY_OBJ_MSG('dp_scenario1%83-msg_c03r0701_workman_01')
+	_END()
+ev_c03r0701_steven:
+    _TALK_OBJ_START()
+    _IF_FLAGON_JUMP(#2782, 'ev_c03r0701_steven_options')
+    _IF_FLAGON_JUMP(#2783, 'ev_c03r0701_steven_beldum')
+    _MACRO_TALKMSG('dp_scenario3', '00_msg_c03r0701_0', 'Hi! My name is Steven Stone.\nThe Champion from the Hoenn Region.\rI’m interested in rare stones,\nso I travel here and there.\rThe Oreburgh Mine sometimes discovers\nrare stones while they mine for coal.\rI wanted to be here to see any\ndiscoveries they make in person.\rOh! You have a Pokédex.\nSo you are also in search of Pokémon.\rLet me see...\nI think I can help you with that.')
+    _LAST_KEYWAIT()
+    _TALK_CLOSE()
+    _FLAG_SET(#2783)
+    _JUMP('ev_c03r0701_steven_beldum')
+    _TALK_OBJ_END()
+    _END()
+ev_c03r0701_steven_beldum:
+    _POKE_WINDOW_PUT(374)
+    _MACRO_TALKMSG('dp_scenario3', '00_msg_c03r0701_1', 'This is my favourite Pokémon.\nIts name is Beldum.\rWould you be willing to raise it?\nIt’ll be useful for your Pokédex.')
+    _YES_NO_WIN(@SCWK_ANSWER)
+    _IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_c03r0701_steven_beldum_no')
+    _ME_PLAY('M_FI013')
+    _PLAYER_NAME(0)
+    _MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_c03r0701_4', '{0} obtained a Beldum!')
+    _ADD_POKEMON_UI(374, 10, 0, @SCWK_ANSWER, 3, 0)
+    _TALK_CLOSE()
+    _MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_c03r0701_6', 'Take good care of it.\rYour caring for it will make me\nvery happy.\rNow, if you want to talk about stones...\nPlease come and talk to me at any time.')
+    _TALK_CLOSE()
+    _FLAG_SET(#2782)
+    _TALK_OBJ_END()
+    _END()
+ev_c03r0701_steven_beldum_no:
+    _MACRO_TALKMSG('dp_scenario3', '00_msg_c03r0701_3', 'Are you sure?\nPerhaps you are quite cautious...')
+    _LAST_KEYWAIT()
+    _TALK_CLOSE()
+    _TALK_OBJ_END()
+    _END()
+ev_c03r0701_steven_options:
+    _MACRO_TALKMSG('dp_scenario3', '00_msg_c03r0701_options_1', 'What would you like to discuss?')
+    _CALL('ev_c03r0701_steven_generate_options')
+    _OPEN_CUSTUM_WIN(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_c03r0701_steven_general')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_c03r0701_steven_quests')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 2, 'ev_c03r0701_steven_check_battle')
+    _IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 3, 'ev_c03r0701_steven_cancel')
+	_JUMP('ev_c03r0701_steven_cancel')
+ev_c03r0701_steven_cancel:
+    _TALK_CLOSE()
+    _TALK_OBJ_END()
+    _END()
+ev_c03r0701_steven_generate_options:
+    _IF_FLAGOFF_JUMP($SYS_FLAG_GAME_CLEAR, 'ev_c03r0701_steven_no_clear_options')
+    _MACRO_ADD_CUSTUM_WIN_LABEL('dp_options', 'DP_options_steven1', 'General', 0)
+	_MACRO_ADD_CUSTUM_WIN_LABEL('dp_options', 'DP_options_steven3', 'Quests', 1)
+    _MACRO_ADD_CUSTUM_WIN_LABEL('dp_options', 'DP_options_steven_battle', 'Battle', 2)
+	_MACRO_ADD_CUSTUM_WIN_LABEL('dp_options', 'DP_options_steven4', 'Nothing', 3)
+	_RET()
+ev_c03r0701_steven_no_clear_options:
+    _MACRO_ADD_CUSTUM_WIN_LABEL('dp_options', 'DP_options_steven1', 'General', 0)
+    _MACRO_ADD_CUSTUM_WIN_LABEL('dp_options', 'DP_options_steven_battle', 'Battle', 2)
+	_MACRO_ADD_CUSTUM_WIN_LABEL('dp_options', 'DP_options_steven4', 'Nothing', 3)
+    _RET()
+ev_c03r0701_steven_general:
+    _GET_RND(@SCWK_TEMP0, 4); Random general dialogue function from Renegade Platinum
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 0, 'ev_c03r0701_steven_general_01')
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 1, 'ev_c03r0701_steven_general_02')
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 2, 'ev_c03r0701_steven_general_03')
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 3, 'ev_c03r0701_steven_general_04')
+	_JUMP('ev_c03r0701_steven_general_05')
+ev_c03r0701_steven_general_01:
+    _MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_c03r0701_12', 'Have you been to Hoenn before?\rIt’s such a beautiful place, with the\nclearest ocean you can imagine.\rThere’s lots of places to excavate\nrare stones from, too.\rFor example, there is a place called\nGranite Cave, on a small island...\rI once met a young Trainer much like\nyourself at that cave, in fact.')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c03r0701_steven_general_02:
+    _MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_c03r0701_13', 'The Beldum I gave to you is\nan example of a Steel-type Pokémon.\rThat particular texture!\nThe cool and glowing bodies!\rSuch uniquenesses are only for the\namazing Steel-type Pokémon!\rMy Metagross is truly strong and cool!\nNothing else comes close!')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c03r0701_steven_general_03:
+    _MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_c03r0701_14', 'Have you heard of a place\ncalled the Unova region before?\rThere’s a place called Driftveil City\nwhere you can mine emeralds.\rI’d love to visit there.\nIf only I had a good excuse...')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c03r0701_steven_general_04:
+    _MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_c03r0701_15', 'Do you know of Alola?\nIt’s a tropical region, like Hoenn.\rOver in Alola, they wield a unique power\nknown as Z-moves, using a Z-Ring.\rA Z-ring is a bracelet made by refining\nsomething called a Sparkling Stone.\rI would love to see a Sparkling Stone.\nBut they’re hard to come by.')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c03r0701_steven_general_05:
+    _MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_c03r0701_16', 'I recently gave up a villa that\nI owned on Sinnoh’s Battle Zone island.\rIt was quite a nice place, actually.\nBut it was a bit too far away...')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c03r0701_steven_quests:
+    _IF_FLAGOFF_JUMP(#2784, 'ev_c03r0701_steven_magma_stone')
+    _IF_FLAGOFF_JUMP(#2785, 'ev_c03r0701_steven_latias_twins')
+    _MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_c03r0701_26', 'Thank you for all of your help\nin satisfying my unusual requests.\rOh, I never got your name, did I?\n...But I won’t ask for it this time.\rOur fun will have to wait for the\nright time.')
+    _TALK_CLOSE()
+    _TALK_OBJ_END()
+    _END()
+ev_c03r0701_steven_check_battle:
+    _IF_FLAGOFF_JUMP($SYS_FLAG_GAME_CLEAR, 'ev_c03r0701_steven_battle_denied')
+    _JUMP('ev_c03r0701_steven_battle')
+ev_c03r0701_steven_battle_denied:
+    _MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_c03r0701_steven_battle_0', 'A battle?\rI won’t deny that you’re a very\ninteresting Trainer.\rSadly, as you are now...\nYou wouldn’t stand a chance.')
+    _JUMP('ev_c03r0701_steven_end')
+ev_c03r0701_steven_battle:
+    _MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_c03r0701_steven_battle_1', 'A battle?\nWith the Champion of the Sinnoh region?\rI’ll gladly accept such an offer.\rIf you’re going to mount a serious\nchallenge...\rPrepare for the worst!')
+    _TALK_CLOSE()
+    _TRAINER_BTL_SET(1081, 0)
+    _TRAINER_LOSE_CHECK(@SCWK_ANSWER)
+    _TRAINER_LOSE_CHECK(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_c03r0701_steven_end')
+    _MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_c03r0701_steven_battle_2', 'You...\nYou’ve become very strong.\rFufufu.\nI hope we can battle again.')
+    _JUMP('ev_c03r0701_steven_end')
+ev_c03r0701_steven_end:
+    _TALK_CLOSE()
+    _TALK_OBJ_END()
+    _END()
+anm_c03r0701_steven:
+    _AC_MARK_GYOE()
+    _END()
+anm_c03r0701_steven_1:
+    _AC_DIR_L(4)
+    _AC_MARK_EMO(9)
+    _AC_WAIT(30)
+    _ACMD_END()
+ev_c03r0701_steven_magma_stone:
+    _MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_c03r0701_17', 'There’s a particular stone\nin Sinnoh that I’m interested in...\rHave you heard of the Magma Stone?\rIt’s a big, red stone formed by rocks\nmelting in intensely hot magma.\rLegends say that the stone is able to\ncontrol a legendary Pokémon, too.\rIt’s meant to be one-of-a-kind.\nI’d love to see it.')
+    _ITEM_CHK(458, 1, @SCWK_ANSWER)
+    _IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_c03r0701_steven_end')
+    _OBJ_ANIME('C03R0701_STEVEN', 'anm_c03r0701_steven')
+    _OBJ_ANIME_WAIT()
+    _MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_c03r0701_18', 'That rock you have there...\nThat’s the Magma Stone, isn’t it?!\rYou’ve captured the Pokémon it was\nmeant to control? Very impressive.\rIn that case... \rI would very much appreciate some\ntime to inspect that Magma Stone.')
+    _TALK_CLOSE()
+    _PLAYER_NAME(0)
+    _MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_c03r0701_19', '{0} handed over the Magma Stone.')
+    _TALK_CLOSE()
+    _OBJ_ANIME('C03R0701_STEVEN', 'anm_c03r0701_steven_1')
+    _OBJ_ANIME_WAIT()
+    _CHARA_LOOK_LOCK('C03R0701_STEVEN', 'HERO')
+    _CHARA_LOOK_RELEASE('C03R0701_STEVEN')
+    _MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_c03r0701_20', 'Let me share an equally\nvaluable stone with you.\rBehold this beautiful gem.\nThis is the Soul Dew!')
+    _LDVAL(@SCWK_TEMP0, 225); Soul Dew
+	_LDVAL(@SCWK_TEMP1, 1); Quantity 1
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+    _MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_c03r0701_21', 'Have you heard of the two\nPokémon called Latias and Latios?\rThe Soul Dew is said to be the spirits\nof these two Pokémon, solidified.\rThe spirits of these Pokémon and the\nSoul Dew are said to call out to\fone another...\rLatias and Latios make their home in a\nplace known as Southern Island.\rBut that’s in the Hoenn region...\nAnd this is Sinnoh...\rDoes Sinnoh have any secluded islands\nyou could take the Soul Dew to?\rIt might be worth a try if you want to\ncomplete that Pokédex of yours.\rIf you do manage to capture both of \nthose Pokémon, show them to me.')
+    _TALK_CLOSE()
+    _FLAG_SET(#2784)
+    _TALK_OBJ_END()
+    _END()
+ev_c03r0701_steven_latias_twins:
+    _TEMOTI_POKE_CHK(@SCWK_ANSWER, 380) ; Latias
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_c03r0701_steven_cancel')
+    _TEMOTI_POKE_CHK(@SCWK_ANSWER, 381) ; Latios
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_c03r0701_steven_cancel')
+    _MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_c03r0701_22', 'That’s Latias and Latios in\nyour party, isn’t it?!\rVery impressive. You really are the\nreal deal, young Trainer!\rAs promised, here’s a reward.\nThe ancient artifacts of Hoenn!')
+    _TALK_CLOSE()
+    _LDVAL(@SCWK_TEMP0, 534); Red Orb
+	_LDVAL(@SCWK_TEMP1, 1); Quantity 1
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+    _LDVAL(@SCWK_TEMP0, 535); Blue Orb
+	_LDVAL(@SCWK_TEMP1, 1); Quantity 1
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+    _LDVAL(@SCWK_TEMP0, 532); Jade Orb
+	_LDVAL(@SCWK_TEMP1, 1); Quantity 1
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+    _MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_c03r0701_25', 'In Hoenn, legends say the\nbattle between Groudon and Kyogre\fis what shaped the lands and seas.\rBut then the Pokémon that rules the\nskies, known as Rayquaza, came down\fand halted the battle.\rEach of those Orbs I gave you has a\nconnection with one of those Pokémon.\rPerhaps fate will allow you to meet\nthem for yourself.\rHmm...\rAn underground cave, filled with a\nlarge amount of water...\rA heated mountain, surrounded by\nlava and molten rock...\rA place that stretches into the sky,\nwhere only powerful Trainers gather...\rIf you were to visit places like that...\nYou may just be able to find them.')
+    _TALK_CLOSE()
+    _FLAG_RESET(#2858); Kyogre
+    _FLAG_RESET(#2859); Groudon
+    _FLAG_RESET(#2860); Rayray
+    _FLAG_SET(#2785); Given the orbs
+    _TALK_OBJ_END()
+    _END()
+ev_c03r0701_legend_end:
+    _EVENT_END()
+    _END()
+ev_c10_legend:
+    _EVENT_START()
+    _VOICE_PLAY(384, 0, 0)
+    _VOICE_WAIT()
+    _SP_WILD_BTL_SET(384, 90); Fight Rayquaza
+	_SEACRET_POKE_RETRY_CHECK(@SCWK_TEMP0, 384); Get result
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 0, 'ev_c03r0701_legend_end');CatchChk
+    _FLAG_SET(#2860)
+    _OBJ_DEL('C10_RAyQUAZA')
+    _EVENT_END()
+    _END()
+ev_d16r0101_legend:
+    _EVENT_START()
+    _VOICE_PLAY(383, 0, 0)
+    _VOICE_WAIT()
+    _SP_WILD_BTL_SET(383, 90); Fight Groudon
+	_SEACRET_POKE_RETRY_CHECK(@SCWK_TEMP0, 383); Get result
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 0, 'ev_c03r0701_legend_end');CatchChk
+    _FLAG_SET(#2859)
+    _OBJ_DEL('D16R0103_LEGEND')
+    _EVENT_END()
+    _END()
+ev_w230_kyogre:
+    _EVENT_START()
+    _VOICE_PLAY(382, 0, 0)
+    _VOICE_WAIT()
+    _SP_WILD_BTL_SET(382, 90); Fight Kyogre
+	_SEACRET_POKE_RETRY_CHECK(@SCWK_TEMP0, 382); Get result
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 0, 'ev_c03r0701_legend_end');CatchChk
+    _FLAG_SET(#2858)
+    _FLAG_RESET(#2582); Enable trainers again
+    _OBJ_DEL('W230_KYOGRE')
+    _EVENT_END()
+    _END()

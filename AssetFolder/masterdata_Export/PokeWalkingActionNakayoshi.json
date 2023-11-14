@@ -1,0 +1,86 @@
+{
+    "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 4956053988984680872
+    },
+    "m_Name": "PokeWalkingActionNakayoshi",
+    "Sheet1": [
+        {
+            "NakayoshiRank": 5,
+            "PositionHosei": 0.3499999940395355,
+            "SpeedDownStartDistanceHosei": 0.800000011920929,
+            "SpeedDownEndDistanceHosei": 0.800000011920929,
+            "WalkStartDistanceHosei": 0.5,
+            "RunStartDistanceHosei": 0.5,
+            "KutibueSpeedHosei": 2.0,
+            "StopKakurituHosei": 5,
+            "KyoroKakurituHosei": 3,
+            "LookOtherPokeKakurituHosei": 10
+        },
+        {
+            "NakayoshiRank": 4,
+            "PositionHosei": 0.5,
+            "SpeedDownStartDistanceHosei": 1.0,
+            "SpeedDownEndDistanceHosei": 1.0,
+            "WalkStartDistanceHosei": 0.5,
+            "RunStartDistanceHosei": 0.5,
+            "KutibueSpeedHosei": 1.5,
+            "StopKakurituHosei": 8,
+            "KyoroKakurituHosei": 5,
+            "LookOtherPokeKakurituHosei": 10
+        },
+        {
+            "NakayoshiRank": 3,
+            "PositionHosei": 0.800000011920929,
+            "SpeedDownStartDistanceHosei": 1.2000000476837158,
+            "SpeedDownEndDistanceHosei": 1.2000000476837158,
+            "WalkStartDistanceHosei": 0.800000011920929,
+            "RunStartDistanceHosei": 0.800000011920929,
+            "KutibueSpeedHosei": 1.2000000476837158,
+            "StopKakurituHosei": 10,
+            "KyoroKakurituHosei": 8,
+            "LookOtherPokeKakurituHosei": 15
+        },
+        {
+            "NakayoshiRank": 2,
+            "PositionHosei": 0.800000011920929,
+            "SpeedDownStartDistanceHosei": 1.5,
+            "SpeedDownEndDistanceHosei": 1.5,
+            "WalkStartDistanceHosei": 0.800000011920929,
+            "RunStartDistanceHosei": 0.800000011920929,
+            "KutibueSpeedHosei": 1.0,
+            "StopKakurituHosei": 12,
+            "KyoroKakurituHosei": 8,
+            "LookOtherPokeKakurituHosei": 15
+        },
+        {
+            "NakayoshiRank": 1,
+            "PositionHosei": 1.2000000476837158,
+            "SpeedDownStartDistanceHosei": 1.75,
+            "SpeedDownEndDistanceHosei": 1.75,
+            "WalkStartDistanceHosei": 1.2000000476837158,
+            "RunStartDistanceHosei": 1.2000000476837158,
+            "KutibueSpeedHosei": 0.8500000238418579,
+            "StopKakurituHosei": 15,
+            "KyoroKakurituHosei": 10,
+            "LookOtherPokeKakurituHosei": 25
+        },
+        {
+            "NakayoshiRank": 0,
+            "PositionHosei": 1.399999976158142,
+            "SpeedDownStartDistanceHosei": 2.0,
+            "SpeedDownEndDistanceHosei": 2.0,
+            "WalkStartDistanceHosei": 1.2999999523162842,
+            "RunStartDistanceHosei": 1.2999999523162842,
+            "KutibueSpeedHosei": 0.699999988079071,
+            "StopKakurituHosei": 20,
+            "KyoroKakurituHosei": 10,
+            "LookOtherPokeKakurituHosei": 25
+        }
+    ]
+}

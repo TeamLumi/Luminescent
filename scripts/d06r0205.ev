@@ -1,0 +1,6 @@
+ev_d06r0205_boy2:
+	_MACRO_EASY_OBJ_MSG('dp_scenario2', '135-msg_d06r0204_boy3_01', 'Quick, quick, out in the sticks.\nTo and fro we go, we’re quick~♫\rIf you’re thinking about going deep\ninto the marsh, I recommend you take\fthe Great Marsh Quick Trams.')
+	_END()
+ev_d06r0205_sign1:
+	_EASY_BOARD_MSG('dp_scenario2%136-msg_d06r0205_sign1_01', 'BOARD_TYPE_POST', 0)
+	_END()

@@ -1,0 +1,35 @@
+ev_r221_flag_change:
+	_IF_FLAGOFF_JUMP($SYS_FLAG_GAME_CLEAR, 'ev_r221_fc_zenkoku_not')
+	_ZENKOKU_ZUKAN_FLAG(2, @LOCALWORK0)
+	_IFVAL_JUMP(@LOCALWORK0, 'EQ', 0, 'ev_r221_fc_zenkoku_not')
+	_IF_FLAGOFF_JUMP($SYS_FLAG_WILDCARD_000, 'ev_r221_fc_zenkoku_not')
+	_FLAG_SET(#FV_R221_STOPPER1)
+	_FLAG_SET(#FV_R221_STOPPER2)
+	_OBJ_DEL('R221_STOPPER1')
+	_OBJ_DEL('R221_STOPPER2')
+	_LDVAL(@LOCALWORK31, 1)
+	_JUMP('ev_r221_fc_zenkoku_not')
+ev_r221_fc_zenkoku_not:
+	_END()
+ev_r221_stopper1:
+	_EASY_OBJ_MSG('dp_scenario2%177-msg_r221_stopper1_01')
+	_END()
+ev_r221_stopper2:
+	_EASY_OBJ_MSG('dp_scenario2%177-msg_r221_stopper2_01')
+	_END()
+ev_r221_sign1:
+	_EASY_BOARD_MSG('dp_scenario2%177-msg_r221_sign1_01', 'BOARD_TYPE_POST', 0)
+	_END()
+pos_r221_pw_workman_out01:
+	_OBJ_ANIME('HERO', 'anm_r221_pw_workman_out01')
+	_OBJ_ANIME_WAIT()
+	_END()
+anm_r221_pw_workman_out01:
+	_AC_DIR_D(8)
+	_AC_WORLD_X(306.500000, 8)
+	_AC_WORLD_Z(913, 8)
+	_ACMD_END()
+ev_r221_worker:
+	_MACRO_EASY_OBJ_MSG('dp_scenario3', '00_msg_r221_worker_00', 'Pal Park isn’t open yet.\nWe’re still setting up.')
+	_END()
+	_END()

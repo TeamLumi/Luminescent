@@ -1,0 +1,52 @@
+ev_d09r0101_flag_change:
+	_ARRIVE_FLAG_SET($FLAG_ARRIVE_D09R0101)
+	_IF_FLAGOFF_JUMP($SYS_FLAG_GAME_CLEAR, 'ev_d09r0101_fc_stopper_end')
+	_ZENKOKU_ZUKAN_FLAG(2, @LOCALWORK0)
+	_IFVAL_JUMP(@LOCALWORK0, 'EQ', 0, 'ev_d09r0101_fc_stopper_end')
+	_FLAG_SET(#FV_D09R0101_BIGMAN)
+	_JUMP('ev_d09r0101_fc_stopper_end')
+ev_d09r0101_fc_stopper_end:
+	_END()
+ev_d09r0101_seven4_01:
+	_END()
+ev_d09r0101_seven4_03:
+	_END()
+ev_d09r0101_seven4_04:
+	_END()
+ev_d09r0101_seven4_05:
+	_END()
+ev_d09r0101_seven4_06:
+	_END()
+ev_d09r0101_seven4_07:
+	_END()
+ev_d09r0101_seven4_08:
+	_END()
+ev_d09r0101_bigman:
+	_TALK_OBJ_START()
+	_TALKMSG('dp_scenario3%15-msg_d09r0101_bigman_01_1')
+	_TALKMSG('dp_scenario3%15-msg_d09r0101_bigman_01_2')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_d09r0101_nurse:
+	_TALK_OBJ_START()
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_ev_d09r0101_nurse_1', 'Hello, Trainer!\nAllow me heal your Pokémon.')
+	_BLACK_OUT('SCR_WIPE_DIV', 3)
+	_FADE_WAIT()
+	_PC_KAIFUKU()
+	_ME_PLAY('M_FI002')
+	_ME_WAIT()
+	_BLACK_IN('SCR_WIPE_DIV', 3)
+	_FADE_WAIT()
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_ev_d09r0101_nurse_2', 'Good luck with your challenge!\nYou can do it!')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_d09r0101_stopper_talk:
+	_MACRO_EASY_OBJ_MSG('dp_scenario3', '00_msg_d09r0101_blocker', 'Let me size you up...\r...\n...\rYou’re not quite ready yet.\rHave you been to Route 224?\nIt’s through a passage to the east.\fYou can hone your skills there.')
+	_END()
+ev_d09r0101_stopper_talk_poke:
+	_VOICE_PLAY(65, 0, 0)
+	_MACRO_EASY_OBJ_MSG('dp_scenario3', '00_msg_d09r0101_blocker_1', 'Guu-gooh!')
+	_END()

@@ -1,0 +1,21 @@
+ev_d22r0102_flag_change:
+	_ARRIVE_FLAG_SET($FLAG_ARRIVE_D22R0101)
+	_END()
+ev_d22r0102_mania:
+	_TALK_OBJ_START()
+	_ANOON_SEE_NUM(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'GE', 'ANOON_SEE_NUM_2', 'ev_r22r0102_mania_02')
+	_TALKMSG('dp_scenario2%112-msg_d22r0102_mania_01_1')
+	_TALKMSG('dp_scenario2%112-msg_d22r0102_mania_01_2')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_r22r0102_mania_02:
+	_TALKMSG('dp_scenario2%112-msg_d22r0102_mania_02_1')
+	_TALKMSG('dp_scenario2%112-msg_d22r0102_mania_02_2')
+	_TALKMSG('dp_scenario2%112-msg_d22r0102_mania_02_3')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()

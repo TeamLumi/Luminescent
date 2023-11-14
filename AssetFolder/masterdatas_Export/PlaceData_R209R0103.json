@@ -1,0 +1,326 @@
+{
+    "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 4652281892236711381
+    },
+    "m_Name": "PlaceData_R209R0103",
+    "Data": [
+        {
+            "ID": "TR_DAISUKIM_04",
+            "zoneID": 370,
+            "TrainerID": 403,
+            "ObjectGraphicIndex": 69,
+            "ColorIndex": 0,
+            "Position": {
+                "x": 7.0,
+                "y": 6.0
+            },
+            "HeightLayer": 0,
+            "HeightIgnore": 0,
+            "Size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "Rotation": 90,
+            "MoveLimit": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "EventType": 1,
+            "MoveCode": 16,
+            "MoveParam0": 1,
+            "MoveParam1": 0,
+            "MoveParam2": 0,
+            "TalkLabel": "ev_DAISUKIM_04",
+            "ContactLabel": "",
+            "Work": 3107,
+            "Dowsing": 0,
+            "LoadFirst": 0,
+            "DoNotLoad": 4000,
+            "TalkToRange": 1.25,
+            "TalkToSize": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "TalkBit": 15
+        },
+        {
+            "ID": "TR_HEADS_03",
+            "zoneID": 370,
+            "TrainerID": 402,
+            "ObjectGraphicIndex": 68,
+            "ColorIndex": 0,
+            "Position": {
+                "x": 5.0,
+                "y": 14.0
+            },
+            "HeightLayer": 0,
+            "HeightIgnore": 0,
+            "Size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "Rotation": 270,
+            "MoveLimit": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "EventType": 1,
+            "MoveCode": 7,
+            "MoveParam0": 2,
+            "MoveParam1": 0,
+            "MoveParam2": 0,
+            "TalkLabel": "ev_HEADS_03",
+            "ContactLabel": "",
+            "Work": 3107,
+            "Dowsing": 0,
+            "LoadFirst": 0,
+            "DoNotLoad": 4000,
+            "TalkToRange": 1.25,
+            "TalkToSize": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "TalkBit": 15
+        },
+        {
+            "ID": "FLD_ITEM_199",
+            "zoneID": 370,
+            "TrainerID": 0,
+            "ObjectGraphicIndex": 500,
+            "ColorIndex": 0,
+            "Position": {
+                "x": 1.0,
+                "y": 13.0
+            },
+            "HeightLayer": 0,
+            "HeightIgnore": 0,
+            "Size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "Rotation": 0,
+            "MoveLimit": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "EventType": 0,
+            "MoveCode": 0,
+            "MoveParam0": 0,
+            "MoveParam1": 0,
+            "MoveParam2": 0,
+            "TalkLabel": "ev_fld_item_199",
+            "ContactLabel": "",
+            "Work": 1079,
+            "Dowsing": 0,
+            "LoadFirst": 0,
+            "DoNotLoad": 4000,
+            "TalkToRange": 1.25,
+            "TalkToSize": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "TalkBit": 15
+        },
+        {
+            "ID": "R209R0103_LAMPENT",
+            "zoneID": 370,
+            "TrainerID": 0,
+            "ObjectGraphicIndex": 6081100,
+            "ColorIndex": 0,
+            "Position": {
+                "x": 6.0,
+                "y": 6.0
+            },
+            "HeightLayer": 0,
+            "HeightIgnore": 0,
+            "Size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "Rotation": 270,
+            "MoveLimit": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "EventType": 0,
+            "MoveCode": 17,
+            "MoveParam0": 0,
+            "MoveParam1": 0,
+            "MoveParam2": 0,
+            "TalkLabel": "",
+            "ContactLabel": "",
+            "Work": 3108,
+            "Dowsing": 0,
+            "LoadFirst": 0,
+            "DoNotLoad": 4000,
+            "TalkToRange": 1.25,
+            "TalkToSize": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "TalkBit": 15
+        },
+        {
+            "ID": "R209R0103_LAMPENT2",
+            "zoneID": 370,
+            "TrainerID": 0,
+            "ObjectGraphicIndex": 6081100,
+            "ColorIndex": 0,
+            "Position": {
+                "x": 3.0,
+                "y": 3.0
+            },
+            "HeightLayer": 0,
+            "HeightIgnore": 0,
+            "Size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "Rotation": 0,
+            "MoveLimit": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "EventType": 0,
+            "MoveCode": 0,
+            "MoveParam0": 0,
+            "MoveParam1": 0,
+            "MoveParam2": 0,
+            "TalkLabel": "ev_r209r0103_lampent",
+            "ContactLabel": "",
+            "Work": 2926,
+            "Dowsing": 0,
+            "LoadFirst": 0,
+            "DoNotLoad": 4000,
+            "TalkToRange": 1.25,
+            "TalkToSize": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "TalkBit": 15
+        },
+        {
+            "ID": "R209R0103_LAMPENT_NPC1",
+            "zoneID": 370,
+            "TrainerID": 0,
+            "ObjectGraphicIndex": 38,
+            "ColorIndex": 0,
+            "Position": {
+                "x": 7.0,
+                "y": 6.0
+            },
+            "HeightLayer": 0,
+            "HeightIgnore": 0,
+            "Size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "Rotation": 180,
+            "MoveLimit": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "EventType": 9,
+            "MoveCode": 14,
+            "MoveParam0": 0,
+            "MoveParam1": 0,
+            "MoveParam2": 0,
+            "TalkLabel": "ev_r209r0103_litwick_npc_1",
+            "ContactLabel": "",
+            "Work": 2923,
+            "Dowsing": 0,
+            "LoadFirst": 0,
+            "DoNotLoad": 4000,
+            "TalkToRange": 1.25,
+            "TalkToSize": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "TalkBit": 15
+        },
+        {
+            "ID": "R209R0103_LAMPENT_NPC2",
+            "zoneID": 370,
+            "TrainerID": 0,
+            "ObjectGraphicIndex": 32,
+            "ColorIndex": 0,
+            "Position": {
+                "x": 4.0,
+                "y": 8.0
+            },
+            "HeightLayer": 0,
+            "HeightIgnore": 0,
+            "Size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "Rotation": 0,
+            "MoveLimit": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "EventType": 0,
+            "MoveCode": 0,
+            "MoveParam0": 0,
+            "MoveParam1": 0,
+            "MoveParam2": 0,
+            "TalkLabel": "ev_r209r0103_litwick_npc_2",
+            "ContactLabel": "",
+            "Work": 2924,
+            "Dowsing": 0,
+            "LoadFirst": 0,
+            "DoNotLoad": 4000,
+            "TalkToRange": 1.25,
+            "TalkToSize": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "TalkBit": 15
+        },
+        {
+            "ID": "R209R0103_LAMPENT_NPC2_OLD",
+            "zoneID": 370,
+            "TrainerID": 0,
+            "ObjectGraphicIndex": 32,
+            "ColorIndex": 0,
+            "Position": {
+                "x": 4.0,
+                "y": 8.0
+            },
+            "HeightLayer": 0,
+            "HeightIgnore": 0,
+            "Size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "Rotation": 0,
+            "MoveLimit": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "EventType": 0,
+            "MoveCode": 0,
+            "MoveParam0": 0,
+            "MoveParam1": 0,
+            "MoveParam2": 3,
+            "TalkLabel": "ev_r209r0103_litwick_npc_2",
+            "ContactLabel": "",
+            "Work": 2925,
+            "Dowsing": 0,
+            "LoadFirst": 0,
+            "DoNotLoad": 4000,
+            "TalkToRange": 1.25,
+            "TalkToSize": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "TalkBit": 15
+        }
+    ]
+}

@@ -1,0 +1,8150 @@
+{
+    "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 4154892558487435353
+    },
+    "m_Name": "FreeSanpoActionProbability",
+    "Sheet1": [
+        {
+            "種類": "フシギダネ",
+            "MonsNo": 1,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "フシギソウ",
+            "MonsNo": 2,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "フシギバナ",
+            "MonsNo": 3,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ヒトカゲ",
+            "MonsNo": 4,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "リザード",
+            "MonsNo": 5,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "リザードン",
+            "MonsNo": 6,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ゼニガメ",
+            "MonsNo": 7,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "カメール",
+            "MonsNo": 8,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "カメックス",
+            "MonsNo": 9,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "キャタピ",
+            "MonsNo": 10,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "トランセル",
+            "MonsNo": 11,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "バタフリー",
+            "MonsNo": 12,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ビードル",
+            "MonsNo": 13,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "コクーン",
+            "MonsNo": 14,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "スピアー",
+            "MonsNo": 15,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ポッポ",
+            "MonsNo": 16,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ピジョン",
+            "MonsNo": 17,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ピジョット",
+            "MonsNo": 18,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "コラッタ",
+            "MonsNo": 19,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ラッタ",
+            "MonsNo": 20,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "オニスズメ",
+            "MonsNo": 21,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "オニドリル",
+            "MonsNo": 22,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "アーボ",
+            "MonsNo": 23,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "アーボック",
+            "MonsNo": 24,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ピカチュウ",
+            "MonsNo": 25,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 100,
+            "Run": 100
+        },
+        {
+            "種類": "ライチュウ",
+            "MonsNo": 26,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "サンド",
+            "MonsNo": 27,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "サンドパン",
+            "MonsNo": 28,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ニドラン♀",
+            "MonsNo": 29,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ニドリーナ",
+            "MonsNo": 30,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ニドクイン",
+            "MonsNo": 31,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ニドラン♂",
+            "MonsNo": 32,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ニドリーノ",
+            "MonsNo": 33,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ニドキング",
+            "MonsNo": 34,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ピッピ",
+            "MonsNo": 35,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ピクシー",
+            "MonsNo": 36,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ロコン",
+            "MonsNo": 37,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "キュウコン",
+            "MonsNo": 38,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "プリン",
+            "MonsNo": 39,
+            "Kyoro": 100,
+            "Sleep": 50,
+            "UroUro": 150,
+            "Run": 100
+        },
+        {
+            "種類": "プクリン",
+            "MonsNo": 40,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ズバット",
+            "MonsNo": 41,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ゴルバット",
+            "MonsNo": 42,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ナゾノクサ",
+            "MonsNo": 43,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "クサイハナ",
+            "MonsNo": 44,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ラフレシア",
+            "MonsNo": 45,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "パラス",
+            "MonsNo": 46,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "パラセクト",
+            "MonsNo": 47,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "コンパン",
+            "MonsNo": 48,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "モルフォン",
+            "MonsNo": 49,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ディグダ",
+            "MonsNo": 50,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ダグトリオ",
+            "MonsNo": 51,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ニャース",
+            "MonsNo": 52,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ペルシアン",
+            "MonsNo": 53,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "コダック",
+            "MonsNo": 54,
+            "Kyoro": 100,
+            "Sleep": 100,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ゴルダック",
+            "MonsNo": 55,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "マンキー",
+            "MonsNo": 56,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "オコリザル",
+            "MonsNo": 57,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ガーディ",
+            "MonsNo": 58,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ウインディ",
+            "MonsNo": 59,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ニョロモ",
+            "MonsNo": 60,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ニョロゾ",
+            "MonsNo": 61,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ニョロボン",
+            "MonsNo": 62,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ケーシィ",
+            "MonsNo": 63,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ユンゲラー",
+            "MonsNo": 64,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "フーディン",
+            "MonsNo": 65,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ワンリキー",
+            "MonsNo": 66,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ゴーリキー",
+            "MonsNo": 67,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "カイリキー",
+            "MonsNo": 68,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "マダツボミ",
+            "MonsNo": 69,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ウツドン",
+            "MonsNo": 70,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ウツボット",
+            "MonsNo": 71,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "メノクラゲ",
+            "MonsNo": 72,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ドククラゲ",
+            "MonsNo": 73,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "イシツブテ",
+            "MonsNo": 74,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ゴローン",
+            "MonsNo": 75,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ゴローニャ",
+            "MonsNo": 76,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ポニータ",
+            "MonsNo": 77,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ギャロップ",
+            "MonsNo": 78,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ヤドン",
+            "MonsNo": 79,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ヤドラン",
+            "MonsNo": 80,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "コイル",
+            "MonsNo": 81,
+            "Kyoro": 81,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "レアコイル",
+            "MonsNo": 82,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "カモネギ",
+            "MonsNo": 83,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ドードー",
+            "MonsNo": 84,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ドードリオ",
+            "MonsNo": 85,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "パウワウ",
+            "MonsNo": 86,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ジュゴン",
+            "MonsNo": 87,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ベトベター",
+            "MonsNo": 88,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ベトベトン",
+            "MonsNo": 89,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "シェルダー",
+            "MonsNo": 90,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "パルシェン",
+            "MonsNo": 91,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ゴース",
+            "MonsNo": 92,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ゴースト",
+            "MonsNo": 93,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ゲンガー",
+            "MonsNo": 94,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "イワーク",
+            "MonsNo": 95,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "スリープ",
+            "MonsNo": 96,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "スリーパー",
+            "MonsNo": 97,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "クラブ",
+            "MonsNo": 98,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "キングラー",
+            "MonsNo": 99,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ビリリダマ",
+            "MonsNo": 100,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "マルマイン",
+            "MonsNo": 101,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "タマタマ",
+            "MonsNo": 102,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ナッシー",
+            "MonsNo": 103,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "カラカラ",
+            "MonsNo": 104,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ガラガラ",
+            "MonsNo": 105,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "サワムラー",
+            "MonsNo": 106,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "エビワラー",
+            "MonsNo": 107,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ベロリンガ",
+            "MonsNo": 108,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ドガース",
+            "MonsNo": 109,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "マタドガス",
+            "MonsNo": 110,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "サイホーン",
+            "MonsNo": 111,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "サイドン",
+            "MonsNo": 112,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ラッキー",
+            "MonsNo": 113,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "モンジャラ",
+            "MonsNo": 114,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ガルーラ",
+            "MonsNo": 115,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "タッツー",
+            "MonsNo": 116,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "シードラ",
+            "MonsNo": 117,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "トサキント",
+            "MonsNo": 118,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "アズマオウ",
+            "MonsNo": 119,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ヒトデマン",
+            "MonsNo": 120,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "スターミー",
+            "MonsNo": 121,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "バリヤード",
+            "MonsNo": 122,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ストライク",
+            "MonsNo": 123,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ルージュラ",
+            "MonsNo": 124,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "エレブー",
+            "MonsNo": 125,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ブーバー",
+            "MonsNo": 126,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "カイロス",
+            "MonsNo": 127,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ケンタロス",
+            "MonsNo": 128,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "コイキング",
+            "MonsNo": 129,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ギャラドス",
+            "MonsNo": 130,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ラプラス",
+            "MonsNo": 131,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "メタモン",
+            "MonsNo": 132,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "イーブイ",
+            "MonsNo": 133,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "シャワーズ",
+            "MonsNo": 134,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "サンダース",
+            "MonsNo": 135,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ブースター",
+            "MonsNo": 136,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ポリゴン",
+            "MonsNo": 137,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "オムナイト",
+            "MonsNo": 138,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "オムスター",
+            "MonsNo": 139,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "カブト",
+            "MonsNo": 140,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "カブトプス",
+            "MonsNo": 141,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "プテラ",
+            "MonsNo": 142,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "カビゴン",
+            "MonsNo": 143,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "フリーザー",
+            "MonsNo": 144,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "サンダー",
+            "MonsNo": 145,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ファイヤー",
+            "MonsNo": 146,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ミニリュウ",
+            "MonsNo": 147,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ハクリュー",
+            "MonsNo": 148,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "カイリュー",
+            "MonsNo": 149,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ミュウツー",
+            "MonsNo": 150,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ミュウ",
+            "MonsNo": 151,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "チコリータ",
+            "MonsNo": 152,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ベイリーフ",
+            "MonsNo": 153,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "メガニウム",
+            "MonsNo": 154,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ヒノアラシ",
+            "MonsNo": 155,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "マグマラシ",
+            "MonsNo": 156,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "バクフーン",
+            "MonsNo": 157,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ワニノコ",
+            "MonsNo": 158,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "アリゲイツ",
+            "MonsNo": 159,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "オーダイル",
+            "MonsNo": 160,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "オタチ",
+            "MonsNo": 161,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "オオタチ",
+            "MonsNo": 162,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ホーホー",
+            "MonsNo": 163,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ヨルノズク",
+            "MonsNo": 164,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "レディバ",
+            "MonsNo": 165,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "レディアン",
+            "MonsNo": 166,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "イトマル",
+            "MonsNo": 167,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "アリアドス",
+            "MonsNo": 168,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "クロバット",
+            "MonsNo": 169,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "チョンチー",
+            "MonsNo": 170,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ランターン",
+            "MonsNo": 171,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ピチュー",
+            "MonsNo": 172,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ピィ",
+            "MonsNo": 173,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ププリン",
+            "MonsNo": 174,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "トゲピー",
+            "MonsNo": 175,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "トゲチック",
+            "MonsNo": 176,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ネイティ",
+            "MonsNo": 177,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ネイティオ",
+            "MonsNo": 178,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "メリープ",
+            "MonsNo": 179,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "モココ",
+            "MonsNo": 180,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "デンリュウ",
+            "MonsNo": 181,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "キレイハナ",
+            "MonsNo": 182,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "マリル",
+            "MonsNo": 183,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "マリルリ",
+            "MonsNo": 184,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ウソッキー",
+            "MonsNo": 185,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ニョロトノ",
+            "MonsNo": 186,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ハネッコ",
+            "MonsNo": 187,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ポポッコ",
+            "MonsNo": 188,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ワタッコ",
+            "MonsNo": 189,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "エイパム",
+            "MonsNo": 190,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ヒマナッツ",
+            "MonsNo": 191,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "キマワリ",
+            "MonsNo": 192,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ヤンヤンマ",
+            "MonsNo": 193,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ウパー",
+            "MonsNo": 194,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ヌオー",
+            "MonsNo": 195,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "エーフィ",
+            "MonsNo": 196,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ブラッキー",
+            "MonsNo": 197,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ヤミカラス",
+            "MonsNo": 198,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ヤドキング",
+            "MonsNo": 199,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ムウマ",
+            "MonsNo": 200,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "アンノーン",
+            "MonsNo": 201,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ソーナンス",
+            "MonsNo": 202,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "キリンリキ",
+            "MonsNo": 203,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "クヌギダマ",
+            "MonsNo": 204,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "フォレトス",
+            "MonsNo": 205,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ノコッチ",
+            "MonsNo": 206,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "グライガー",
+            "MonsNo": 207,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ハガネール",
+            "MonsNo": 208,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ブルー",
+            "MonsNo": 209,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "グランブル",
+            "MonsNo": 210,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ハリーセン",
+            "MonsNo": 211,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ハッサム",
+            "MonsNo": 212,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ツボツボ",
+            "MonsNo": 213,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ヘラクロス",
+            "MonsNo": 214,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ニューラ",
+            "MonsNo": 215,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ヒメグマ",
+            "MonsNo": 216,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "リングマ",
+            "MonsNo": 217,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "マグマッグ",
+            "MonsNo": 218,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "マグカルゴ",
+            "MonsNo": 219,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ウリムー",
+            "MonsNo": 220,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "イノムー",
+            "MonsNo": 221,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "サニーゴ",
+            "MonsNo": 222,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "テッポウオ",
+            "MonsNo": 223,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "オクタン",
+            "MonsNo": 224,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "デリバード",
+            "MonsNo": 225,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "マンタイン",
+            "MonsNo": 226,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "エアームド",
+            "MonsNo": 227,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "デルビル",
+            "MonsNo": 228,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ヘルガー",
+            "MonsNo": 229,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "キングドラ",
+            "MonsNo": 230,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ゴマゾウ",
+            "MonsNo": 231,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ドンファン",
+            "MonsNo": 232,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ポリゴン２",
+            "MonsNo": 233,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "オドシシ",
+            "MonsNo": 234,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ドーブル",
+            "MonsNo": 235,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "バルキー",
+            "MonsNo": 236,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "カポエラー",
+            "MonsNo": 237,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ムチュール",
+            "MonsNo": 238,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "エレキッド",
+            "MonsNo": 239,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ブビィ",
+            "MonsNo": 240,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ミルタンク",
+            "MonsNo": 241,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ハピナス",
+            "MonsNo": 242,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ライコウ",
+            "MonsNo": 243,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "エンテイ",
+            "MonsNo": 244,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "スイクン",
+            "MonsNo": 245,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ヨーギラス",
+            "MonsNo": 246,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "サナギラス",
+            "MonsNo": 247,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "バンギラス",
+            "MonsNo": 248,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ルギア",
+            "MonsNo": 249,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ホウオウ",
+            "MonsNo": 250,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "セレビィ",
+            "MonsNo": 251,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "キモリ",
+            "MonsNo": 252,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ジュプトル",
+            "MonsNo": 253,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ジュカイン",
+            "MonsNo": 254,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "アチャモ",
+            "MonsNo": 255,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ワカシャモ",
+            "MonsNo": 256,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "バシャーモ",
+            "MonsNo": 257,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ミズゴロウ",
+            "MonsNo": 258,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ヌマクロー",
+            "MonsNo": 259,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ラグラージ",
+            "MonsNo": 260,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ポチエナ",
+            "MonsNo": 261,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "グラエナ",
+            "MonsNo": 262,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ジグザグマ",
+            "MonsNo": 263,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "マッスグマ",
+            "MonsNo": 264,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ケムッソ",
+            "MonsNo": 265,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "カラサリス",
+            "MonsNo": 266,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "アゲハント",
+            "MonsNo": 267,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "マユルド",
+            "MonsNo": 268,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ドクケイル",
+            "MonsNo": 269,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ハスボー",
+            "MonsNo": 270,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ハスブレロ",
+            "MonsNo": 271,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ルンパッパ",
+            "MonsNo": 272,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "タネボー",
+            "MonsNo": 273,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "コノハナ",
+            "MonsNo": 274,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ダーテング",
+            "MonsNo": 275,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "スバメ",
+            "MonsNo": 276,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "オオスバメ",
+            "MonsNo": 277,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "キャモメ",
+            "MonsNo": 278,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ペリッパー",
+            "MonsNo": 279,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ラルトス",
+            "MonsNo": 280,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "キルリア",
+            "MonsNo": 281,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "サーナイト",
+            "MonsNo": 282,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "アメタマ",
+            "MonsNo": 283,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "アメモース",
+            "MonsNo": 284,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "キノココ",
+            "MonsNo": 285,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "キノガッサ",
+            "MonsNo": 286,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ナマケロ",
+            "MonsNo": 287,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ヤルキモノ",
+            "MonsNo": 288,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ケッキング",
+            "MonsNo": 289,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ツチニン",
+            "MonsNo": 290,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "テッカニン",
+            "MonsNo": 291,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ヌケニン",
+            "MonsNo": 292,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ゴニョニョ",
+            "MonsNo": 293,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ドゴーム",
+            "MonsNo": 294,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "バクオング",
+            "MonsNo": 295,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "マクノシタ",
+            "MonsNo": 296,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ハリテヤマ",
+            "MonsNo": 297,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ルリリ",
+            "MonsNo": 298,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ノズパス",
+            "MonsNo": 299,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "エネコ",
+            "MonsNo": 300,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "エネコロロ",
+            "MonsNo": 301,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ヤミラミ",
+            "MonsNo": 302,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "クチート",
+            "MonsNo": 303,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ココドラ",
+            "MonsNo": 304,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "コドラ",
+            "MonsNo": 305,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ボスゴドラ",
+            "MonsNo": 306,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "アサナン",
+            "MonsNo": 307,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "チャーレム",
+            "MonsNo": 308,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ラクライ",
+            "MonsNo": 309,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ライボルト",
+            "MonsNo": 310,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "プラスル",
+            "MonsNo": 311,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "マイナン",
+            "MonsNo": 312,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "バルビート",
+            "MonsNo": 313,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "イルミーゼ",
+            "MonsNo": 314,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ロゼリア",
+            "MonsNo": 315,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ゴクリン",
+            "MonsNo": 316,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "マルノーム",
+            "MonsNo": 317,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "キバニア",
+            "MonsNo": 318,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "サメハダー",
+            "MonsNo": 319,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ホエルコ",
+            "MonsNo": 320,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ホエルオー",
+            "MonsNo": 321,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ドンメル",
+            "MonsNo": 322,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "バクーダ",
+            "MonsNo": 323,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "コータス",
+            "MonsNo": 324,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "バネブー",
+            "MonsNo": 325,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ブーピッグ",
+            "MonsNo": 326,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "パッチール",
+            "MonsNo": 327,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ナックラー",
+            "MonsNo": 328,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ビブラーバ",
+            "MonsNo": 329,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "フライゴン",
+            "MonsNo": 330,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "サボネア",
+            "MonsNo": 331,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ノクタス",
+            "MonsNo": 332,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "チルット",
+            "MonsNo": 333,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "チルタリス",
+            "MonsNo": 334,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ザングース",
+            "MonsNo": 335,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ハブネーク",
+            "MonsNo": 336,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ルナトーン",
+            "MonsNo": 337,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ソルロック",
+            "MonsNo": 338,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ドジョッチ",
+            "MonsNo": 339,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ナマズン",
+            "MonsNo": 340,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ヘイガニ",
+            "MonsNo": 341,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "シザリガー",
+            "MonsNo": 342,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ヤジロン",
+            "MonsNo": 343,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ネンドール",
+            "MonsNo": 344,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "リリーラ",
+            "MonsNo": 345,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ユレイドル",
+            "MonsNo": 346,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "アノプス",
+            "MonsNo": 347,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "アーマルド",
+            "MonsNo": 348,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ヒンバス",
+            "MonsNo": 349,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ミロカロス",
+            "MonsNo": 350,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ポワルン",
+            "MonsNo": 351,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "カクレオン",
+            "MonsNo": 352,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "カゲボウズ",
+            "MonsNo": 353,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ジュペッタ",
+            "MonsNo": 354,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ヨマワル",
+            "MonsNo": 355,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "サマヨール",
+            "MonsNo": 356,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "トロピウス",
+            "MonsNo": 357,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "チリーン",
+            "MonsNo": 358,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "アブソル",
+            "MonsNo": 359,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ソーナノ",
+            "MonsNo": 360,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ユキワラシ",
+            "MonsNo": 361,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "オニゴーリ",
+            "MonsNo": 362,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "タマザラシ",
+            "MonsNo": 363,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "トドグラー",
+            "MonsNo": 364,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "トドゼルガ",
+            "MonsNo": 365,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "パールル",
+            "MonsNo": 366,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ハンテール",
+            "MonsNo": 367,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "サクラビス",
+            "MonsNo": 368,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ジーランス",
+            "MonsNo": 369,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ラブカス",
+            "MonsNo": 370,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "タツベイ",
+            "MonsNo": 371,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "コモルー",
+            "MonsNo": 372,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ボーマンダ",
+            "MonsNo": 373,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ダンバル",
+            "MonsNo": 374,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "メタング",
+            "MonsNo": 375,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "メタグロス",
+            "MonsNo": 376,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "レジロック",
+            "MonsNo": 377,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "レジアイス",
+            "MonsNo": 378,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "レジスチル",
+            "MonsNo": 379,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ラティアス",
+            "MonsNo": 380,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ラティオス",
+            "MonsNo": 381,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "カイオーガ",
+            "MonsNo": 382,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "グラードン",
+            "MonsNo": 383,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "レックウザ",
+            "MonsNo": 384,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ジラーチ",
+            "MonsNo": 385,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "デオキシス",
+            "MonsNo": 386,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ナエトル",
+            "MonsNo": 387,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ハヤシガメ",
+            "MonsNo": 388,
+            "Kyoro": 100,
+            "Sleep": 60,
+            "UroUro": 150,
+            "Run": 25
+        },
+        {
+            "種類": "ドダイトス",
+            "MonsNo": 389,
+            "Kyoro": 100,
+            "Sleep": 60,
+            "UroUro": 150,
+            "Run": 25
+        },
+        {
+            "種類": "ヒコザル",
+            "MonsNo": 390,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "モウカザル",
+            "MonsNo": 391,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ゴウカザル",
+            "MonsNo": 392,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ポッチャマ",
+            "MonsNo": 393,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 100
+        },
+        {
+            "種類": "ポッタイシ",
+            "MonsNo": 394,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "エンペルト",
+            "MonsNo": 395,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ムックル",
+            "MonsNo": 396,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ムクバード",
+            "MonsNo": 397,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ムクホーク",
+            "MonsNo": 398,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ビッパ",
+            "MonsNo": 399,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ビーダル",
+            "MonsNo": 400,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "コロボーシ",
+            "MonsNo": 401,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "コロトック",
+            "MonsNo": 402,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "コリンク",
+            "MonsNo": 403,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ルクシオ",
+            "MonsNo": 404,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "レントラー",
+            "MonsNo": 405,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "スボミー",
+            "MonsNo": 406,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ロズレイド",
+            "MonsNo": 407,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ズガイドス",
+            "MonsNo": 408,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ラムパルド",
+            "MonsNo": 409,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "タテトプス",
+            "MonsNo": 410,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "トリデプス",
+            "MonsNo": 411,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ミノムッチ",
+            "MonsNo": 412,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ミノマダム",
+            "MonsNo": 413,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ガーメイル",
+            "MonsNo": 414,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ミツハニー",
+            "MonsNo": 415,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ビークイン",
+            "MonsNo": 416,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "パチリス",
+            "MonsNo": 417,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ブイゼル",
+            "MonsNo": 418,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "フローゼル",
+            "MonsNo": 419,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "チェリンボ",
+            "MonsNo": 420,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "チェリム",
+            "MonsNo": 421,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "カラナクシ",
+            "MonsNo": 422,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "トリトドン",
+            "MonsNo": 423,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "エテボース",
+            "MonsNo": 424,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "フワンテ",
+            "MonsNo": 425,
+            "Kyoro": 100,
+            "Sleep": 40,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "フワライド",
+            "MonsNo": 426,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ミミロル",
+            "MonsNo": 427,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ミミロップ",
+            "MonsNo": 428,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ムウマージ",
+            "MonsNo": 429,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ドンカラス",
+            "MonsNo": 430,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ニャルマー",
+            "MonsNo": 431,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ブニャット",
+            "MonsNo": 432,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "リーシャン",
+            "MonsNo": 433,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "スカンプー",
+            "MonsNo": 434,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "スカタンク",
+            "MonsNo": 435,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ドーミラー",
+            "MonsNo": 436,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ドータクン",
+            "MonsNo": 437,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ウソハチ",
+            "MonsNo": 438,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "マネネ",
+            "MonsNo": 439,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ピンプク",
+            "MonsNo": 440,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ペラップ",
+            "MonsNo": 441,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ミカルゲ",
+            "MonsNo": 442,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "フカマル",
+            "MonsNo": 443,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ガバイト",
+            "MonsNo": 444,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ガブリアス",
+            "MonsNo": 445,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ゴンベ",
+            "MonsNo": 446,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "リオル",
+            "MonsNo": 447,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ルカリオ",
+            "MonsNo": 448,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ヒポポタス",
+            "MonsNo": 449,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "カバルドン",
+            "MonsNo": 450,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "スコルピ",
+            "MonsNo": 451,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ドラピオン",
+            "MonsNo": 452,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "グレッグル",
+            "MonsNo": 453,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ドクロッグ",
+            "MonsNo": 454,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "マスキッパ",
+            "MonsNo": 455,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ケイコウオ",
+            "MonsNo": 456,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ネオラント",
+            "MonsNo": 457,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "タマンタ",
+            "MonsNo": 458,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ユキカブリ",
+            "MonsNo": 459,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ユキノオー",
+            "MonsNo": 460,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "マニューラ",
+            "MonsNo": 461,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ジバコイル",
+            "MonsNo": 462,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ベロベルト",
+            "MonsNo": 463,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ドサイドン",
+            "MonsNo": 464,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "モジャンボ",
+            "MonsNo": 465,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "エレキブル",
+            "MonsNo": 466,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ブーバーン",
+            "MonsNo": 467,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "トゲキッス",
+            "MonsNo": 468,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "メガヤンマ",
+            "MonsNo": 469,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "リーフィア",
+            "MonsNo": 470,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "グレイシア",
+            "MonsNo": 471,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "グライオン",
+            "MonsNo": 472,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "マンムー",
+            "MonsNo": 473,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ポリゴンZ",
+            "MonsNo": 474,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "エルレイド",
+            "MonsNo": 475,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ダイノーズ",
+            "MonsNo": 476,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ヨノワール",
+            "MonsNo": 477,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ユキメノコ",
+            "MonsNo": 478,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ロトム",
+            "MonsNo": 479,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ユクシー",
+            "MonsNo": 480,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "エムリット",
+            "MonsNo": 481,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "アグノム",
+            "MonsNo": 482,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ディアルガ",
+            "MonsNo": 483,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "パルキア",
+            "MonsNo": 484,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ヒードラン",
+            "MonsNo": 485,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "レジギガス",
+            "MonsNo": 486,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ギラティナ",
+            "MonsNo": 487,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "クレセリア",
+            "MonsNo": 488,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "フィオネ",
+            "MonsNo": 489,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "マナフィ",
+            "MonsNo": 490,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ダークライ",
+            "MonsNo": 491,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "シェイミ",
+            "MonsNo": 492,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "アルセウス",
+            "MonsNo": 493,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ビクティニ",
+            "MonsNo": 494,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ツタージャ",
+            "MonsNo": 495,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ジャノビー",
+            "MonsNo": 496,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ジャローダ",
+            "MonsNo": 497,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ポカブ",
+            "MonsNo": 498,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "チャオブー",
+            "MonsNo": 499,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "エンブオー",
+            "MonsNo": 500,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ミジュマル",
+            "MonsNo": 501,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "フタチマル",
+            "MonsNo": 502,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ダイケンキ",
+            "MonsNo": 503,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ミネズミ",
+            "MonsNo": 504,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ミルホッグ",
+            "MonsNo": 505,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ヨーテリー",
+            "MonsNo": 506,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ハーデリア",
+            "MonsNo": 507,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ムーランド",
+            "MonsNo": 508,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "チョロネコ",
+            "MonsNo": 509,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "レパルダス",
+            "MonsNo": 510,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ヤナップ",
+            "MonsNo": 511,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ヤナッキー",
+            "MonsNo": 512,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "バオップ",
+            "MonsNo": 513,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "バオッキー",
+            "MonsNo": 514,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ヒヤップ",
+            "MonsNo": 515,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ヒヤッキー",
+            "MonsNo": 516,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ムンナ",
+            "MonsNo": 517,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ムシャーナ",
+            "MonsNo": 518,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "マメパト",
+            "MonsNo": 519,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ハトーボー",
+            "MonsNo": 520,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ケンホロウ",
+            "MonsNo": 521,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "シママ",
+            "MonsNo": 522,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ゼブライカ",
+            "MonsNo": 523,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ダンゴロ",
+            "MonsNo": 524,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ガントル",
+            "MonsNo": 525,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ギガイアス",
+            "MonsNo": 526,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "コロモリ",
+            "MonsNo": 527,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ココロモリ",
+            "MonsNo": 528,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "モグリュー",
+            "MonsNo": 529,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ドリュウズ",
+            "MonsNo": 530,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "タブンネ",
+            "MonsNo": 531,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ドッコラー",
+            "MonsNo": 532,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ドテッコツ",
+            "MonsNo": 533,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ローブシン",
+            "MonsNo": 534,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "オタマロ",
+            "MonsNo": 535,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ガマガル",
+            "MonsNo": 536,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ガマゲロゲ",
+            "MonsNo": 537,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ナゲキ",
+            "MonsNo": 538,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ダゲキ",
+            "MonsNo": 539,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "クルミル",
+            "MonsNo": 540,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "クルマユ",
+            "MonsNo": 541,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ハハコモリ",
+            "MonsNo": 542,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "フシデ",
+            "MonsNo": 543,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ホイーガ",
+            "MonsNo": 544,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ペンドラー",
+            "MonsNo": 545,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "モンメン",
+            "MonsNo": 546,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "エルフーン",
+            "MonsNo": 547,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "チュリネ",
+            "MonsNo": 548,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ドレディア",
+            "MonsNo": 549,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "バスラオ",
+            "MonsNo": 550,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "メグロコ",
+            "MonsNo": 551,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ワルビル",
+            "MonsNo": 552,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ワルビアル",
+            "MonsNo": 553,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ダルマッカ",
+            "MonsNo": 554,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ヒヒダルマ",
+            "MonsNo": 555,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "マラカッチ",
+            "MonsNo": 556,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "イシズマイ",
+            "MonsNo": 557,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "イワパレス",
+            "MonsNo": 558,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ズルッグ",
+            "MonsNo": 559,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ズルズキン",
+            "MonsNo": 560,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "シンボラー",
+            "MonsNo": 561,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "デスマス",
+            "MonsNo": 562,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "デスカーン",
+            "MonsNo": 563,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "プロトーガ",
+            "MonsNo": 564,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "アバゴーラ",
+            "MonsNo": 565,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "アーケン",
+            "MonsNo": 566,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "アーケオス",
+            "MonsNo": 567,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ヤブクロン",
+            "MonsNo": 568,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ダストダス",
+            "MonsNo": 569,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ゾロア",
+            "MonsNo": 570,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ゾロアーク",
+            "MonsNo": 571,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "チラーミィ",
+            "MonsNo": 572,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "チラチーノ",
+            "MonsNo": 573,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ゴチム",
+            "MonsNo": 574,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ゴチミル",
+            "MonsNo": 575,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ゴチルゼル",
+            "MonsNo": 576,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ユニラン",
+            "MonsNo": 577,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ダブラン",
+            "MonsNo": 578,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ランクルス",
+            "MonsNo": 579,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "コアルヒー",
+            "MonsNo": 580,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "スワンナ",
+            "MonsNo": 581,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "バニプッチ",
+            "MonsNo": 582,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "バニリッチ",
+            "MonsNo": 583,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "バイバニラ",
+            "MonsNo": 584,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "シキジカ",
+            "MonsNo": 585,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "メブキジカ",
+            "MonsNo": 586,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "エモンガ",
+            "MonsNo": 587,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "カブルモ",
+            "MonsNo": 588,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "シュバルゴ",
+            "MonsNo": 589,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "タマゲタケ",
+            "MonsNo": 590,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "モロバレル",
+            "MonsNo": 591,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "プルリル",
+            "MonsNo": 592,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ブルンゲル",
+            "MonsNo": 593,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ママンボウ",
+            "MonsNo": 594,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "バチュル",
+            "MonsNo": 595,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "デンチュラ",
+            "MonsNo": 596,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "テッシード",
+            "MonsNo": 597,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ナットレイ",
+            "MonsNo": 598,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ギアル",
+            "MonsNo": 599,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ギギアル",
+            "MonsNo": 600,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ギギギアル",
+            "MonsNo": 601,
+            "Kyoro": 601,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "シビシラス",
+            "MonsNo": 602,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "シビビール",
+            "MonsNo": 603,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "シビルドン",
+            "MonsNo": 604,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "リグレー",
+            "MonsNo": 605,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "オーベム",
+            "MonsNo": 606,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ヒトモシ",
+            "MonsNo": 607,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ランプラー",
+            "MonsNo": 608,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "シャンデラ",
+            "MonsNo": 609,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "キバゴ",
+            "MonsNo": 610,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "オノンド",
+            "MonsNo": 611,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "オノノクス",
+            "MonsNo": 612,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "クマシュン",
+            "MonsNo": 613,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ツンベアー",
+            "MonsNo": 614,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "フリージオ",
+            "MonsNo": 615,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "チョボマキ",
+            "MonsNo": 616,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "アギルダー",
+            "MonsNo": 617,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "マッギョ",
+            "MonsNo": 618,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "コジョフー",
+            "MonsNo": 619,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "コジョンド",
+            "MonsNo": 620,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "クリムガン",
+            "MonsNo": 621,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ゴビット",
+            "MonsNo": 622,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ゴルーグ",
+            "MonsNo": 623,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "コマタナ",
+            "MonsNo": 624,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "キリキザン",
+            "MonsNo": 625,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "バッフロン",
+            "MonsNo": 626,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ワシボン",
+            "MonsNo": 627,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ウォーグル",
+            "MonsNo": 628,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "バルチャイ",
+            "MonsNo": 629,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "バルジーナ",
+            "MonsNo": 630,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "クイタラン",
+            "MonsNo": 631,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "アイアント",
+            "MonsNo": 632,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "モノズ",
+            "MonsNo": 633,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ジヘッド",
+            "MonsNo": 634,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "サザンドラ",
+            "MonsNo": 635,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "メラルバ",
+            "MonsNo": 636,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ウルガモス",
+            "MonsNo": 637,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "コバルオン",
+            "MonsNo": 638,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "テラキオン",
+            "MonsNo": 639,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ビリジオン",
+            "MonsNo": 640,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "トルネロス",
+            "MonsNo": 641,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ボルトロス",
+            "MonsNo": 642,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "レシラム",
+            "MonsNo": 643,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ゼクロム",
+            "MonsNo": 644,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ランドロス",
+            "MonsNo": 645,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "キュレム",
+            "MonsNo": 646,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ケルディオ",
+            "MonsNo": 647,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "メロエッタ",
+            "MonsNo": 648,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ゲノセクト",
+            "MonsNo": 649,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ハリマロン",
+            "MonsNo": 650,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ハリボーグ",
+            "MonsNo": 651,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ブリガロン",
+            "MonsNo": 652,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "フォッコ",
+            "MonsNo": 653,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "テールナー",
+            "MonsNo": 654,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "マフォクシー",
+            "MonsNo": 655,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ケロマツ",
+            "MonsNo": 656,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ゲコガシラ",
+            "MonsNo": 657,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ゲッコウガ",
+            "MonsNo": 658,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ホルビー",
+            "MonsNo": 659,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ホルード",
+            "MonsNo": 660,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ヤヤコマ",
+            "MonsNo": 661,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ヒノヤコマ",
+            "MonsNo": 662,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ファイアロー",
+            "MonsNo": 663,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "コフキムシ",
+            "MonsNo": 664,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "コフーライ",
+            "MonsNo": 665,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ビビヨン",
+            "MonsNo": 666,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "シシコ",
+            "MonsNo": 667,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "カエンジシ",
+            "MonsNo": 668,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "フラベベ",
+            "MonsNo": 669,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "フラエッテ",
+            "MonsNo": 670,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "フラージェス",
+            "MonsNo": 671,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "メェークル",
+            "MonsNo": 672,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ゴーゴート",
+            "MonsNo": 673,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ヤンチャム",
+            "MonsNo": 674,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ゴロンダ",
+            "MonsNo": 675,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "トリミアン",
+            "MonsNo": 676,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ニャスパー",
+            "MonsNo": 677,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ニャオニクス",
+            "MonsNo": 678,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ヒトツキ",
+            "MonsNo": 679,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ニダンギル",
+            "MonsNo": 680,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ギルガルド",
+            "MonsNo": 681,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "シュシュプ",
+            "MonsNo": 682,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "フレフワン",
+            "MonsNo": 683,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ペロッパフ",
+            "MonsNo": 684,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ペロリーム",
+            "MonsNo": 685,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "マーイーカ",
+            "MonsNo": 686,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "カラマネロ",
+            "MonsNo": 687,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "カメテテ",
+            "MonsNo": 688,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ガメノデス",
+            "MonsNo": 689,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "クズモー",
+            "MonsNo": 690,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ドラミドロ",
+            "MonsNo": 691,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ウデッポウ",
+            "MonsNo": 692,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ブロスター",
+            "MonsNo": 693,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "エリキテル",
+            "MonsNo": 694,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "エレザード",
+            "MonsNo": 695,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "チゴラス",
+            "MonsNo": 696,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ガチゴラス",
+            "MonsNo": 697,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "アマルス",
+            "MonsNo": 698,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "アマルルガ",
+            "MonsNo": 699,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ニンフィア",
+            "MonsNo": 700,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ルチャブル",
+            "MonsNo": 701,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "デデンネ",
+            "MonsNo": 702,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "メレシー",
+            "MonsNo": 703,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ヌメラ",
+            "MonsNo": 704,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ヌメイル",
+            "MonsNo": 705,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ヌメルゴン",
+            "MonsNo": 706,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "クレッフィ",
+            "MonsNo": 707,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ボクレー",
+            "MonsNo": 708,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "オーロット",
+            "MonsNo": 709,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "バケッチャ",
+            "MonsNo": 710,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "パンプジン",
+            "MonsNo": 711,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "カチコール",
+            "MonsNo": 712,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "クレベース",
+            "MonsNo": 713,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "オンバット",
+            "MonsNo": 714,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "オンバーン",
+            "MonsNo": 715,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ゼルネアス",
+            "MonsNo": 716,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "イベルタル",
+            "MonsNo": 717,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ジガルデ",
+            "MonsNo": 718,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ディアンシー",
+            "MonsNo": 719,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "フーパ",
+            "MonsNo": 720,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ボルケニオン",
+            "MonsNo": 721,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "モクロー",
+            "MonsNo": 722,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "フクスロー",
+            "MonsNo": 723,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ジュナイパー",
+            "MonsNo": 724,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ニャビー",
+            "MonsNo": 725,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ニャヒート",
+            "MonsNo": 726,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ガオガエン",
+            "MonsNo": 727,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "アシマリ",
+            "MonsNo": 728,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "オシャマリ",
+            "MonsNo": 729,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "アシレーヌ",
+            "MonsNo": 730,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ツツケラ",
+            "MonsNo": 731,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ケララッパ",
+            "MonsNo": 732,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ドデカバシ",
+            "MonsNo": 733,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ヤングース",
+            "MonsNo": 734,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "デカグース",
+            "MonsNo": 735,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "アゴジムシ",
+            "MonsNo": 736,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "デンヂムシ",
+            "MonsNo": 737,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "クワガノン",
+            "MonsNo": 738,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "マケンカニ",
+            "MonsNo": 739,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ケケンカニ",
+            "MonsNo": 740,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "オドリドリ",
+            "MonsNo": 741,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "アブリー",
+            "MonsNo": 742,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "アブリボン",
+            "MonsNo": 743,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "イワンコ",
+            "MonsNo": 744,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ルガルガン",
+            "MonsNo": 745,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ヨワシ",
+            "MonsNo": 746,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ヒドイデ",
+            "MonsNo": 747,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ドヒドイデ",
+            "MonsNo": 748,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ドロバンコ",
+            "MonsNo": 749,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "バンバドロ",
+            "MonsNo": 750,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "シズクモ",
+            "MonsNo": 751,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "オニシズクモ",
+            "MonsNo": 752,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "カリキリ",
+            "MonsNo": 753,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ラランテス",
+            "MonsNo": 754,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ネマシュ",
+            "MonsNo": 755,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "マシェード",
+            "MonsNo": 756,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ヤトウモリ",
+            "MonsNo": 757,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "エンニュート",
+            "MonsNo": 758,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ヌイコグマ",
+            "MonsNo": 759,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "キテルグマ",
+            "MonsNo": 760,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "アマカジ",
+            "MonsNo": 761,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "アママイコ",
+            "MonsNo": 762,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "アマージョ",
+            "MonsNo": 763,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "キュワワー",
+            "MonsNo": 764,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ヤレユータン",
+            "MonsNo": 765,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ナゲツケサル",
+            "MonsNo": 766,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "コソクムシ",
+            "MonsNo": 767,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "グソクムシャ",
+            "MonsNo": 768,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "スナバァ",
+            "MonsNo": 769,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "シロデスナ",
+            "MonsNo": 770,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ナマコブシ",
+            "MonsNo": 771,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "タイプ：ヌル",
+            "MonsNo": 772,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "シルヴァディ",
+            "MonsNo": 773,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "メテノ",
+            "MonsNo": 774,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ネッコアラ",
+            "MonsNo": 775,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "バクガメス",
+            "MonsNo": 776,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "トゲデマル",
+            "MonsNo": 777,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ミミッキュ",
+            "MonsNo": 778,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ハギギシリ",
+            "MonsNo": 779,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ジジーロン",
+            "MonsNo": 780,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ダダリン",
+            "MonsNo": 781,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ジャラコ",
+            "MonsNo": 782,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ジャランゴ",
+            "MonsNo": 783,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ジャラランガ",
+            "MonsNo": 784,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "カプ・コケコ",
+            "MonsNo": 785,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "カプ・テテフ",
+            "MonsNo": 786,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "カプ・ブルル",
+            "MonsNo": 787,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "カプ・レヒレ",
+            "MonsNo": 788,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "コスモッグ",
+            "MonsNo": 789,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "コスモウム",
+            "MonsNo": 790,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ソルガレオ",
+            "MonsNo": 791,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ルナアーラ",
+            "MonsNo": 792,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ウツロイド",
+            "MonsNo": 793,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "マッシブーン",
+            "MonsNo": 794,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "フェローチェ",
+            "MonsNo": 795,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "デンジュモク",
+            "MonsNo": 796,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "テッカグヤ",
+            "MonsNo": 797,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "カミツルギ",
+            "MonsNo": 798,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "アクジキング",
+            "MonsNo": 799,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ネクロズマ",
+            "MonsNo": 800,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "マギアナ",
+            "MonsNo": 801,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "マーシャドー",
+            "MonsNo": 802,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ベベノム",
+            "MonsNo": 803,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "アーゴヨン",
+            "MonsNo": 804,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ツンデツンデ",
+            "MonsNo": 805,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ズガドーン",
+            "MonsNo": 806,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ゼラオラ",
+            "MonsNo": 807,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "メルタン",
+            "MonsNo": 808,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "メルメタル",
+            "MonsNo": 809,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "サルノリ",
+            "MonsNo": 810,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "バチンキー",
+            "MonsNo": 811,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ゴリランダー",
+            "MonsNo": 812,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ヒバニー",
+            "MonsNo": 813,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ラビフット",
+            "MonsNo": 814,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "エースバーン",
+            "MonsNo": 815,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "メッソン",
+            "MonsNo": 816,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ジメレオン",
+            "MonsNo": 817,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "インテレオン",
+            "MonsNo": 818,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ホシガリス",
+            "MonsNo": 819,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ヨクバリス",
+            "MonsNo": 820,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ココガラ",
+            "MonsNo": 821,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "アオガラス",
+            "MonsNo": 822,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "アーマーガア",
+            "MonsNo": 823,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "サッチムシ",
+            "MonsNo": 824,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "レドームシ",
+            "MonsNo": 825,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "イオルブ",
+            "MonsNo": 826,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "クスネ",
+            "MonsNo": 827,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "フォクスライ",
+            "MonsNo": 828,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ヒメンカ",
+            "MonsNo": 829,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ワタシラガ",
+            "MonsNo": 830,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ウールー",
+            "MonsNo": 831,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "バイウールー",
+            "MonsNo": 832,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "カムカメ",
+            "MonsNo": 833,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "カジリガメ",
+            "MonsNo": 834,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ワンパチ",
+            "MonsNo": 835,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "パルスワン",
+            "MonsNo": 836,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "タンドン",
+            "MonsNo": 837,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "トロッゴン",
+            "MonsNo": 838,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "セキタンザン",
+            "MonsNo": 839,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "カジッチュ",
+            "MonsNo": 840,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "アップリュー",
+            "MonsNo": 841,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "タルップル",
+            "MonsNo": 842,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "スナヘビ",
+            "MonsNo": 843,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "サダイジャ",
+            "MonsNo": 844,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ウッウ",
+            "MonsNo": 845,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "サシカマス",
+            "MonsNo": 846,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "カマスジョー",
+            "MonsNo": 847,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "エレズン",
+            "MonsNo": 848,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ストリンダー",
+            "MonsNo": 849,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ヤクデ",
+            "MonsNo": 850,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "マルヤクデ",
+            "MonsNo": 851,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "タタッコ",
+            "MonsNo": 852,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "オトスパス",
+            "MonsNo": 853,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ヤバチャ",
+            "MonsNo": 854,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ポットデス",
+            "MonsNo": 855,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ミブリム",
+            "MonsNo": 856,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "テブリム",
+            "MonsNo": 857,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ブリムオン",
+            "MonsNo": 858,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ベロバー",
+            "MonsNo": 859,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ギモー",
+            "MonsNo": 860,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "オーロンゲ",
+            "MonsNo": 861,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "タチフサグマ",
+            "MonsNo": 862,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ニャイキング",
+            "MonsNo": 863,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "サニゴーン",
+            "MonsNo": 864,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ネギガナイト",
+            "MonsNo": 865,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "バリコオル",
+            "MonsNo": 866,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "デスバーン",
+            "MonsNo": 867,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "マホミル",
+            "MonsNo": 868,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "マホイップ",
+            "MonsNo": 869,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "タイレーツ",
+            "MonsNo": 870,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "バチンウニ",
+            "MonsNo": 871,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ユキハミ",
+            "MonsNo": 872,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "モスノウ",
+            "MonsNo": 873,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "イシヘンジン",
+            "MonsNo": 874,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "コオリッポ",
+            "MonsNo": 875,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "イエッサン",
+            "MonsNo": 976,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "モルペコ",
+            "MonsNo": 877,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ゾウドウ",
+            "MonsNo": 878,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ダイオウドウ",
+            "MonsNo": 879,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "パッチラゴン",
+            "MonsNo": 880,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "パッチルドン",
+            "MonsNo": 881,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ウオノラゴン",
+            "MonsNo": 882,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ウオチルドン",
+            "MonsNo": 883,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ジュラルドン",
+            "MonsNo": 884,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ドラメシヤ",
+            "MonsNo": 885,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ドロンチ",
+            "MonsNo": 886,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ドラパルト",
+            "MonsNo": 887,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ザシアン",
+            "MonsNo": 888,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ザマゼンタ",
+            "MonsNo": 889,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ムゲンダイナ",
+            "MonsNo": 890,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ダクマ",
+            "MonsNo": 891,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ウーラオス",
+            "MonsNo": 892,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ザルード",
+            "MonsNo": 893,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "レジエレキ",
+            "MonsNo": 894,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "レジドラゴ",
+            "MonsNo": 895,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ブリザポス",
+            "MonsNo": 896,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "レイスポス",
+            "MonsNo": 897,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "バドレックス",
+            "MonsNo": 898,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "アヤシシ",
+            "MonsNo": 899,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "バサギリ",
+            "MonsNo": 900,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ガチグマ",
+            "MonsNo": 901,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "イダイトウ",
+            "MonsNo": 902,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "オオニューラ",
+            "MonsNo": 903,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ハリーマン",
+            "MonsNo": 904,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ラブトロス",
+            "MonsNo": 905,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ニャオハ",
+            "MonsNo": 906,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ニャローテ",
+            "MonsNo": 907,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "マスカーニャ",
+            "MonsNo": 908,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ホゲータ",
+            "MonsNo": 909,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "アチゲータ",
+            "MonsNo": 910,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ラウドボーン",
+            "MonsNo": 911,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "クワッス",
+            "MonsNo": 912,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ウェルカモ",
+            "MonsNo": 913,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ウェーニバル",
+            "MonsNo": 914,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "グルトン",
+            "MonsNo": 915,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "パフュートン",
+            "MonsNo": 916,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "タマンチュラ",
+            "MonsNo": 917,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ワナイダー",
+            "MonsNo": 918,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "マメバッタ",
+            "MonsNo": 919,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "エクスレッグ",
+            "MonsNo": 920,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "パモ",
+            "MonsNo": 921,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "パモット",
+            "MonsNo": 922,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "パーモット",
+            "MonsNo": 923,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ワッカネズミ",
+            "MonsNo": 924,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "イッカネズミ",
+            "MonsNo": 925,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "パピモッチ",
+            "MonsNo": 926,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "バウッツェル",
+            "MonsNo": 927,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ミニーブ",
+            "MonsNo": 928,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "オリーニョ",
+            "MonsNo": 929,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "オリーヴァ",
+            "MonsNo": 930,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "イキリンコ",
+            "MonsNo": 931,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "コジオ",
+            "MonsNo": 932,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ジオヅム",
+            "MonsNo": 933,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "キョジオーン",
+            "MonsNo": 934,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "カルボウ",
+            "MonsNo": 935,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "グレンアルマ",
+            "MonsNo": 936,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ソウブレイズ",
+            "MonsNo": 937,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ズピカ",
+            "MonsNo": 938,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ハラバリー",
+            "MonsNo": 939,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "カイデン",
+            "MonsNo": 940,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "タイカイデン",
+            "MonsNo": 941,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "オラチフ",
+            "MonsNo": 942,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "マフィティフ",
+            "MonsNo": 943,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "シルシュルー",
+            "MonsNo": 944,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "タギングル",
+            "MonsNo": 945,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "アノクサ",
+            "MonsNo": 946,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "アノホラグサ",
+            "MonsNo": 947,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ノノクラゲ",
+            "MonsNo": 948,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "リククラゲ",
+            "MonsNo": 949,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ガケガニ",
+            "MonsNo": 950,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "カプサイジ",
+            "MonsNo": 951,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "スコヴィラン",
+            "MonsNo": 952,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "シガロコ",
+            "MonsNo": 953,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ベラカス",
+            "MonsNo": 954,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ヒラヒナ",
+            "MonsNo": 955,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "クエスパトラ",
+            "MonsNo": 956,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "カヌチャン",
+            "MonsNo": 957,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ナカヌチャン",
+            "MonsNo": 958,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "デカヌチャン",
+            "MonsNo": 959,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ウミディグダ",
+            "MonsNo": 960,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ウミトリオ",
+            "MonsNo": 961,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "オトシドリ",
+            "MonsNo": 962,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ナミイルカ",
+            "MonsNo": 963,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "イルカマン",
+            "MonsNo": 964,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ブロロン",
+            "MonsNo": 965,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ブロロローム",
+            "MonsNo": 966,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "モトトカゲ",
+            "MonsNo": 967,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ミミズズ",
+            "MonsNo": 968,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "キラーメ",
+            "MonsNo": 969,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "キラフロル",
+            "MonsNo": 970,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ボチ",
+            "MonsNo": 971,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ハカドッグ",
+            "MonsNo": 972,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "カラミンゴ",
+            "MonsNo": 973,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "アルクジラ",
+            "MonsNo": 974,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ハルクジラ",
+            "MonsNo": 975,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ミガルーサ",
+            "MonsNo": 976,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ヘイラッシャ",
+            "MonsNo": 977,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "シャリタツ",
+            "MonsNo": 978,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "コノヨザル",
+            "MonsNo": 979,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ドオー",
+            "MonsNo": 980,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "リキキリン",
+            "MonsNo": 981,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ノココッチ",
+            "MonsNo": 982,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ドドゲザン",
+            "MonsNo": 983,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "イダイナキバ",
+            "MonsNo": 984,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "サケブシッポ",
+            "MonsNo": 985,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "アラブルタケ",
+            "MonsNo": 986,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ハバタクカミ",
+            "MonsNo": 987,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "チヲハウハネ",
+            "MonsNo": 988,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "スナノケガワ",
+            "MonsNo": 989,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "テツノワダチ",
+            "MonsNo": 990,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "テツノツツミ",
+            "MonsNo": 991,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "テツノカイナ",
+            "MonsNo": 992,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "テツノコウベ",
+            "MonsNo": 993,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "テツノドクガ",
+            "MonsNo": 994,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "テツノイバラ",
+            "MonsNo": 995,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "セビエ",
+            "MonsNo": 996,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "セゴール",
+            "MonsNo": 997,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "セグレイブ",
+            "MonsNo": 998,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "コレクレー",
+            "MonsNo": 999,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "サーフゴー",
+            "MonsNo": 1000,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "チオンジェン",
+            "MonsNo": 1001,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "パオジアン",
+            "MonsNo": 1002,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ディンルー",
+            "MonsNo": 1003,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "イーユイ",
+            "MonsNo": 1004,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "トドロクツキ",
+            "MonsNo": 1005,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "テツノブジン",
+            "MonsNo": 1006,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "コライドン",
+            "MonsNo": 1007,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ミライドン",
+            "MonsNo": 1008,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ウネルミナモ",
+            "MonsNo": 1009,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "テツノイサハ",
+            "MonsNo": 1010,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "カミッチュ",
+            "MonsNo": 1011,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "チャデス",
+            "MonsNo": 1012,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "ヤバソチャ",
+            "MonsNo": 1013,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "イイネイヌ",
+            "MonsNo": 1014,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "マシマシラ",
+            "MonsNo": 1015,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "キチキギス",
+            "MonsNo": 1016,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        },
+        {
+            "種類": "オーガポン",
+            "MonsNo": 1017,
+            "Kyoro": 100,
+            "Sleep": 30,
+            "UroUro": 150,
+            "Run": 50
+        }
+    ]
+}

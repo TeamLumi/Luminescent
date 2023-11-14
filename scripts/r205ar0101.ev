@@ -1,0 +1,135 @@
+ev_r205ar0101_middlewoman1:
+	_TALK_OBJ_START()
+	_TALKMSG('dp_scenario1%103-msg_r205ar0101_middlewoman1_01')
+	_YES_NO_WIN(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'r205ar0101_middlewoman1_02')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'r205ar0101_middlewoman1_03')
+	_END()
+r205ar0101_middlewoman1_02:
+	_TALK_CLOSE()
+	_BLACK_OUT('SCR_WIPE_DIV', 3)
+	_FADE_WAIT()
+	_ME_PLAY('M_FI002')
+	_ME_WAIT()
+	_PC_KAIFUKU()
+	_TIME_WAIT(60, @SCWK_ANSWER)
+	_BLACK_IN('SCR_WIPE_DIV', 3)
+	_FADE_WAIT()
+	_TALKMSG('dp_scenario1%103-msg_r205ar0101_middlewoman1_02')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+r205ar0101_middlewoman1_03:
+	_TALKMSG('dp_scenario1%103-msg_r205ar0101_middlewoman1_03')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_r205ar0101_seven1:
+	_EASY_OBJ_MSG('dp_scenario1%103-msg_r205ar0101_seven1_04')
+	_END()
+ev_r205ar0101_dj:
+	_TALK_OBJ_START()
+	_IF_FLAGON_JUMP(#2579, 'ev_r205ar0101_dj_tutor_me')
+	_SYS_FLAG_BADGE_COUNT(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'LT', 2, 'ev_r205ar0101_dj_badge_fail')
+	_TALKMSG('dp_scenario3%00_msg_dj_00')
+	_CALL('ev_r205ar0101_dj_first_eeveelution_party_check')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_dj_check_box_question', 'You don’t seem to have an Eevee with you\ndo you want to show me one from your box?')
+	_YES_NO_WIN(@SCWK_ANSWER)
+	_IFVAL_CALL(@SCWK_ANSWER, 'EQ', 0, 'ev_r205ar0101_dj_check_box')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_dj_bye', 'See ya!')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_r205ar0101_dj_badge_fail:
+	_IF_FLAGON_JUMP(#2578, 'ev_r205ar0101_dj_badge_fail_2')
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_dj_00', 'I’m here in search of a special rock for\na special Pokémon of mine.\rDo you know it?\rEevee evolves inside Eterna Forest because\nof the energy there.\rNo other evolution can overpower that\nreaction!')
+	_TALK_CLOSE()
+	_TEMOTI_POKE_CHK(133, @SCWK_ANSWER); Eevee
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_r205ar0101_dj_pre_gardenia_has_eevee')
+	_TALK_OBJ_END()
+	_END()
+ev_r205ar0101_dj_pre_gardenia_has_eevee:
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_dj_00_01', 'Oh... You know about Eevees, huh?\rCan I see how many badges you’ve got?\r...\r...\rHm, one.\nOkay.\rCome back when you’ve gotten your next one,\nI want to propose a deal with you.')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_FLAG_SET(#2578); Has spoken to, pre-Gardenia
+	_END()
+ev_r205ar0101_dj_badge_fail_2:
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_dj_00_02', 'Do you have your Forest Badge yet?\nNo?\rOkay, I’ll be here for a while longer.\nCome see me again!')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_r205ar0101_dj_has_eevee_in_party:
+	_NICK_NAME(0, @SCWK_ANSWER)
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_dj_01', 'Oh my gosh! {0}, hi!\nLook at how sweet it is.\rOkay, I’m decided.\nHere’s an Eevee for you.')
+	_ADD_POKEMON_UI(133, 25, 0, @SCWK_ANSWER, 6, 1); Give the player the special Eevee, 6 IVs.
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_dj_02', 'This is a special Eevee my sister\nbred.\rIt’s got a ton of hidden potential but\nit turns out it can’t evolve at all.\rI was going to take it on an adventure with me,\nbut I think it would get a lot more out of going\fwith you while you’re on your gym challenge!')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_dj_03', 'I’m developing some special moves with the\nrest of my sweeties,\fso here’s the deal.\rShow me your love for all Eevees!\rFor every Eevee you raise to a new evolution,\nI’ll let you in on the secrets of our cool moves.')
+	_TALK_CLOSE()
+	_CALL('ev_r205ar0101_dj_eeveelution_party_check')
+	_TALK_OBJ_END()
+	_END()
+ev_r205ar0101_dj_has_eevee_in_box:
+	_NICK_NAME_ALL(0, @SCWK_PARAM0, @SCWK_PARAM3)
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_dj_01_00', 'Oh my gosh! {0}, hi!\nLook at how sweet it is.\rOkay, I’m decided.\nHere’s an Eevee for you.')
+	_ADD_POKEMON_UI(133, 25, 0, @SCWK_ANSWER, 6, 1); Give the player the special Eevee, 6 IVs.
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_dj_02', 'This is a special Eevee my sister\nbred.\rIt’s got a ton of hidden potential but\nit turns out it can’t evolve at all.\rI was going to take it on an adventure with me,\nbut I think it would get a lot more out of going\fwith you while you’re on your gym challenge!')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_dj_03', 'I’m developing some special moves with the\nrest of my sweeties,\fso here’s the deal.\rShow me your love for all Eevees!\rFor every Eevee you raise to a new evolution,\nI’ll let you in on the secrets of our cool moves.')
+	_TALK_CLOSE()
+	_CALL('ev_r205ar0101_dj_eeveelution_party_check')
+	_TALK_OBJ_END()
+	_END()
+ev_r205ar0101_dj_check_box:
+	_POKELIST_SET_PROC(2); Open Pokémon list with an argument of 2 because it seems to work
+  	_POKELIST_GET_RESULT(@SCWK_PARAM0, @SCWK_PARAM3); Argument 1 is the bag/box position, Argument 2 is the box number (0 = Bag)
+	_IFVAL_JUMP(@SCWK_PARAM0, 'EQ', -1, 'ev_plat_movetutor_end'); If SCK_PARAM0 is -1, it means you chose nothing.
+	_TEMOTI_BOX_MONSNO(@SCWK_PARAM0, @SCWK_PARAM3, @SCWK_PARAM1)
+	_IFVAL_JUMP(@SCWK_PARAM1, 'EQ', 133, 'ev_r205ar0101_dj_has_eevee_in_box')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_dj_01_02', 'Come back when you have an Eevee.')
+	_TALK_CLOSE()
+	_RET()
+ev_r205ar0101_dj_first_eeveelution_party_check:
+	_TEMOTI_POKE_CHK(133, @SCWK_ANSWER); Eevee
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_r205ar0101_dj_has_eevee_in_party')
+	_TEMOTI_POKE_CHK(134, @SCWK_ANSWER); Vape
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_r205ar0101_dj_has_eevee_in_party')
+	_TEMOTI_POKE_CHK(135, @SCWK_ANSWER); Jolt
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_r205ar0101_dj_has_eevee_in_party')
+	_TEMOTI_POKE_CHK(136, @SCWK_ANSWER); Flareon
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_r205ar0101_dj_has_eevee_in_party')
+	_TEMOTI_POKE_CHK(196, @SCWK_ANSWER); Espeon
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_r205ar0101_dj_has_eevee_in_party')
+	_TEMOTI_POKE_CHK(197, @SCWK_ANSWER); Umbreom
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_r205ar0101_dj_has_eevee_in_party')
+	_TEMOTI_POKE_CHK(470, @SCWK_ANSWER); Leafeon
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_r205ar0101_dj_has_eevee_in_party')
+	_TEMOTI_POKE_CHK(471, @SCWK_ANSWER); Glaceon
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_r205ar0101_dj_has_eevee_in_party')
+	_TEMOTI_POKE_CHK(700, @SCWK_ANSWER); Sylveon
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_r205ar0101_dj_has_eevee_in_party')
+	_RET()
+ev_r205ar0101_dj_eeveelution_party_check:
+	_TEMOTI_POKE_CHK(134, @SCWK_ANSWER); Vape
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_r205ar0101_dj_tutor_me')
+	_TEMOTI_POKE_CHK(135, @SCWK_ANSWER); Jolt
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_r205ar0101_dj_tutor_me')
+	_TEMOTI_POKE_CHK(136, @SCWK_ANSWER); Flareon
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_r205ar0101_dj_tutor_me')
+	_TEMOTI_POKE_CHK(196, @SCWK_ANSWER); Espeon
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_r205ar0101_dj_tutor_me')
+	_TEMOTI_POKE_CHK(197, @SCWK_ANSWER); Umbreom
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_r205ar0101_dj_tutor_me')
+	_TEMOTI_POKE_CHK(470, @SCWK_ANSWER); Leafeon
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_r205ar0101_dj_tutor_me')
+	_TEMOTI_POKE_CHK(471, @SCWK_ANSWER); Glaceon
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_r205ar0101_dj_tutor_me')
+	_TEMOTI_POKE_CHK(700, @SCWK_ANSWER); Sylveon
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_r205ar0101_dj_tutor_me')
+	_RET()
+ev_r205ar0101_dj_tutor_me:
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_dj_03_00', 'You’ve already got an Eeveelution,\nso you can pick one before I move on!')

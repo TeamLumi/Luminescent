@@ -1,0 +1,77 @@
+{
+    "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": -2397383894462940797
+    },
+    "m_Name": "FreeSanpoUrouroOffset",
+    "Sheet1": [
+        {
+            "PositionID": 1,
+            "LeftUpX": -3,
+            "LeftUpZ": -3,
+            "RightDownX": 3,
+            "RightDownZ": 3
+        },
+        {
+            "PositionID": 2,
+            "LeftUpX": -3,
+            "LeftUpZ": -3,
+            "RightDownX": 3,
+            "RightDownZ": 3
+        },
+        {
+            "PositionID": 3,
+            "LeftUpX": -2,
+            "LeftUpZ": -3,
+            "RightDownX": 3,
+            "RightDownZ": 3
+        },
+        {
+            "PositionID": 4,
+            "LeftUpX": -3,
+            "LeftUpZ": -3,
+            "RightDownX": 3,
+            "RightDownZ": 3
+        },
+        {
+            "PositionID": 5,
+            "LeftUpX": -1,
+            "LeftUpZ": 0,
+            "RightDownX": 1,
+            "RightDownZ": 0
+        },
+        {
+            "PositionID": 6,
+            "LeftUpX": -2,
+            "LeftUpZ": 0,
+            "RightDownX": 0,
+            "RightDownZ": 3
+        },
+        {
+            "PositionID": 7,
+            "LeftUpX": 0,
+            "LeftUpZ": 0,
+            "RightDownX": 0,
+            "RightDownZ": 0
+        },
+        {
+            "PositionID": 8,
+            "LeftUpX": 0,
+            "LeftUpZ": -2,
+            "RightDownX": 2,
+            "RightDownZ": 3
+        },
+        {
+            "PositionID": 9,
+            "LeftUpX": -3,
+            "LeftUpZ": -3,
+            "RightDownX": 3,
+            "RightDownZ": 3
+        }
+    ]
+}

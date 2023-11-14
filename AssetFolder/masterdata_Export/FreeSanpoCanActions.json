@@ -1,0 +1,5099 @@
+{
+    "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 710914955673491222
+    },
+    "m_Name": "FreeSanpoCanActions",
+    "Sheet1": [
+        {
+            "PokeID": 1,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 2,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 3,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 4,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 5,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 6,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 7,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 8,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 9,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 10,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 11,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 12,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 13,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 14,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 15,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 16,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 17,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 18,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 19,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 20,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 21,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 22,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 23,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 24,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 25,
+            "IsCanRun": 1,
+            "IsCanSleepAnimation": 1
+        },
+        {
+            "PokeID": 26,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 27,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 28,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 29,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 30,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 31,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 32,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 33,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 34,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 35,
+            "IsCanRun": 1,
+            "IsCanSleepAnimation": 1
+        },
+        {
+            "PokeID": 36,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 37,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 38,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 39,
+            "IsCanRun": 1,
+            "IsCanSleepAnimation": 1
+        },
+        {
+            "PokeID": 40,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 41,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 42,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 43,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 44,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 45,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 46,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 47,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 48,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 49,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 50,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 51,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 52,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 53,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 54,
+            "IsCanRun": 1,
+            "IsCanSleepAnimation": 1
+        },
+        {
+            "PokeID": 55,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 56,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 57,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 58,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 59,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 60,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 61,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 62,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 63,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 64,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 65,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 66,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 67,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 68,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 69,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 70,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 71,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 72,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 73,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 74,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 75,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 76,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 77,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 78,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 79,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 80,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 81,
+            "IsCanRun": 1,
+            "IsCanSleepAnimation": 1
+        },
+        {
+            "PokeID": 82,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 83,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 84,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 85,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 86,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 87,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 88,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 89,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 90,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 91,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 92,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 93,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 94,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 95,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 96,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 97,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 98,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 99,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 100,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 101,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 102,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 103,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 104,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 105,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 106,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 107,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 108,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 109,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 110,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 111,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 112,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 113,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 114,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 115,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 116,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 117,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 118,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 119,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 120,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 121,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 122,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 123,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 124,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 125,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 126,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 127,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 128,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 129,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 130,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 131,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 132,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 133,
+            "IsCanRun": 1,
+            "IsCanSleepAnimation": 1
+        },
+        {
+            "PokeID": 134,
+            "IsCanRun": 1,
+            "IsCanSleepAnimation": 1
+        },
+        {
+            "PokeID": 135,
+            "IsCanRun": 1,
+            "IsCanSleepAnimation": 1
+        },
+        {
+            "PokeID": 136,
+            "IsCanRun": 1,
+            "IsCanSleepAnimation": 1
+        },
+        {
+            "PokeID": 137,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 138,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 139,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 140,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 141,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 142,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 143,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 144,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 145,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 146,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 147,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 148,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 149,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 150,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 151,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 152,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 153,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 154,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 155,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 156,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 157,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 158,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 159,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 160,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 161,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 162,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 163,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 164,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 165,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 166,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 167,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 168,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 169,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 170,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 171,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 172,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 173,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 174,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 175,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 176,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 177,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 178,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 179,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 180,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 181,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 182,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 183,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 184,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 185,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 186,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 187,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 188,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 189,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 190,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 191,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 192,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 193,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 194,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 195,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 196,
+            "IsCanRun": 1,
+            "IsCanSleepAnimation": 1
+        },
+        {
+            "PokeID": 197,
+            "IsCanRun": 1,
+            "IsCanSleepAnimation": 1
+        },
+        {
+            "PokeID": 198,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 199,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 200,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 201,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 202,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 203,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 204,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 205,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 206,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 207,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 208,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 209,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 210,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 211,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 212,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 213,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 214,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 215,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 216,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 217,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 218,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 219,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 220,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 221,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 222,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 223,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 224,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 225,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 226,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 227,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 228,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 229,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 230,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 231,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 232,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 233,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 234,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 235,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 236,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 237,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 238,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 239,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 240,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 241,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 242,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 243,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 244,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 245,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 246,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 247,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 248,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 249,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 250,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 251,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 252,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 253,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 254,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 255,
+            "IsCanRun": 1,
+            "IsCanSleepAnimation": 1
+        },
+        {
+            "PokeID": 256,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 257,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 258,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 259,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 260,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 261,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 262,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 263,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 264,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 265,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 266,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 267,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 268,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 269,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 270,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 271,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 272,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 273,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 274,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 275,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 276,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 277,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 278,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 279,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 280,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 281,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 282,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 283,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 284,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 285,
+            "IsCanRun": 1,
+            "IsCanSleepAnimation": 1
+        },
+        {
+            "PokeID": 286,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 287,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 288,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 289,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 290,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 291,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 292,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 293,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 294,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 295,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 296,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 297,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 298,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 299,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 300,
+            "IsCanRun": 1,
+            "IsCanSleepAnimation": 1
+        },
+        {
+            "PokeID": 301,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 302,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 303,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 304,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 305,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 306,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 307,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 308,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 309,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 310,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 311,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 312,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 313,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 314,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 315,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 316,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 317,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 318,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 319,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 320,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 321,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 322,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 323,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 324,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 325,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 326,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 327,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 328,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 329,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 330,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 331,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 332,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 333,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 334,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 335,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 336,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 337,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 338,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 339,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 340,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 341,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 342,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 343,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 344,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 345,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 346,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 347,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 348,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 349,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 350,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 351,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 352,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 353,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 354,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 355,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 356,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 357,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 358,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 359,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 360,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 361,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 362,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 363,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 364,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 365,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 366,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 367,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 368,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 369,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 370,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 371,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 372,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 373,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 374,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 375,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 376,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 377,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 378,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 379,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 380,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 381,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 382,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 383,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 384,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 385,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 386,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 387,
+            "IsCanRun": 1,
+            "IsCanSleepAnimation": 1
+        },
+        {
+            "PokeID": 388,
+            "IsCanRun": 1,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 389,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 390,
+            "IsCanRun": 1,
+            "IsCanSleepAnimation": 1
+        },
+        {
+            "PokeID": 391,
+            "IsCanRun": 1,
+            "IsCanSleepAnimation": 1
+        },
+        {
+            "PokeID": 392,
+            "IsCanRun": 1,
+            "IsCanSleepAnimation": 1
+        },
+        {
+            "PokeID": 393,
+            "IsCanRun": 1,
+            "IsCanSleepAnimation": 1
+        },
+        {
+            "PokeID": 394,
+            "IsCanRun": 1,
+            "IsCanSleepAnimation": 1
+        },
+        {
+            "PokeID": 395,
+            "IsCanRun": 1,
+            "IsCanSleepAnimation": 1
+        },
+        {
+            "PokeID": 396,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 397,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 398,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 399,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 400,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 401,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 402,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 403,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 404,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 405,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 406,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 407,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 408,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 409,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 410,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 411,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 412,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 413,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 414,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 415,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 416,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 417,
+            "IsCanRun": 1,
+            "IsCanSleepAnimation": 1
+        },
+        {
+            "PokeID": 418,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 419,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 420,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 421,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 422,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 423,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 424,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 425,
+            "IsCanRun": 1,
+            "IsCanSleepAnimation": 1
+        },
+        {
+            "PokeID": 426,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 427,
+            "IsCanRun": 1,
+            "IsCanSleepAnimation": 1
+        },
+        {
+            "PokeID": 428,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 429,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 430,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 431,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 432,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 433,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 434,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 435,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 436,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 437,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 438,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 439,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 440,
+            "IsCanRun": 1,
+            "IsCanSleepAnimation": 1
+        },
+        {
+            "PokeID": 441,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 442,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 443,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 444,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 445,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 446,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 447,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 448,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 449,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 450,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 451,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 452,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 453,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 454,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 455,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 456,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 457,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 458,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 459,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 460,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 461,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 462,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 463,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 464,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 465,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 466,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 467,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 468,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 469,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 470,
+            "IsCanRun": 1,
+            "IsCanSleepAnimation": 1
+        },
+        {
+            "PokeID": 471,
+            "IsCanRun": 1,
+            "IsCanSleepAnimation": 1
+        },
+        {
+            "PokeID": 472,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 473,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 474,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 475,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 476,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 477,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 478,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 479,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 480,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 481,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 482,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 483,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 484,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 485,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 486,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 487,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 488,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 489,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 490,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 491,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 492,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 493,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 494,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 495,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 496,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 497,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 498,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 499,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 500,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 501,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 502,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 503,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 504,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 505,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 506,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 507,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 508,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 509,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 510,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 511,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 512,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 513,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 514,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 515,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 516,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 517,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 518,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 519,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 520,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 521,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 522,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 523,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 524,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 525,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 526,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 527,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 528,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 529,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 530,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 531,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 532,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 533,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 534,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 535,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 536,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 537,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 538,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 539,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 540,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 541,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 542,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 543,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 544,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 545,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 546,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 547,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 548,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 549,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 550,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 551,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 552,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 553,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 554,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 555,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 556,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 557,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 558,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 559,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 560,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 561,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 562,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 563,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 564,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 565,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 566,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 567,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 568,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 569,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 570,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 571,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 572,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 573,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 574,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 575,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 576,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 577,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 578,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 579,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 580,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 581,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 582,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 583,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 584,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 585,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 586,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 587,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 588,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 589,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 590,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 591,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 592,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 593,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 594,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 595,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 596,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 597,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 598,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 599,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 600,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 601,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 602,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 603,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 604,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 605,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 606,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 607,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 608,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 609,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 610,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 611,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 612,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 613,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 614,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 615,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 616,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 617,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 618,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 619,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 620,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 621,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 622,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 623,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 624,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 625,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 626,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 627,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 628,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 629,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 630,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 631,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 632,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 633,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 634,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 635,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 636,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 637,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 638,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 639,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 640,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 641,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 642,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 643,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 644,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 645,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 646,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 647,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 648,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 649,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 650,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 651,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 652,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 653,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 654,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 655,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 656,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 657,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 658,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 659,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 660,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 661,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 662,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 663,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 664,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 665,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 666,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 667,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 668,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 669,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 670,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 671,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 672,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 673,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 674,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 675,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 676,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 677,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 678,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 679,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 680,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 681,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 682,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 683,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 684,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 685,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 686,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 687,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 688,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 689,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 690,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 691,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 692,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 693,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 694,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 695,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 696,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 697,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 698,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 699,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 700,
+            "IsCanRun": 1,
+            "IsCanSleepAnimation": 1
+        },
+        {
+            "PokeID": 701,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 702,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 703,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 704,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 705,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 706,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 707,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 708,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 709,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 710,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 711,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 712,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 713,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 714,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 715,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 716,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 717,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 718,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 719,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 720,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 721,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 722,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 723,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 724,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 725,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 726,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 727,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 728,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 729,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 730,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 731,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 732,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 733,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 734,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 735,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 736,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 737,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 738,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 739,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 740,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 741,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 742,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 743,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 744,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 745,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 746,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 747,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 748,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 749,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 750,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 751,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 752,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 753,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 754,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 755,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 756,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 757,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 758,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 759,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 760,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 761,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 762,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 763,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 764,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 765,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 766,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 767,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 768,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 769,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 770,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 771,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 772,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 773,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 774,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 775,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 776,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 777,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 778,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 779,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 780,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 781,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 782,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 783,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 784,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 785,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 786,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 787,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 788,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 789,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 790,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 791,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 792,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 793,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 794,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 795,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 796,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 797,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 798,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 799,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 800,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 801,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 802,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 803,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 804,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 805,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 806,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 807,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 808,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 809,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 810,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 811,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 812,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 813,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 814,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 815,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 816,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 817,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 818,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 819,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 820,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 821,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 822,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 823,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 824,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 825,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 826,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 827,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 828,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 829,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 830,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 831,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 832,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 833,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 834,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 835,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 836,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 837,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 838,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 839,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 840,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 841,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 842,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 843,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 844,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 845,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 846,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 847,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 848,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 849,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 850,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 851,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 852,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 853,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 854,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 855,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 856,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 857,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 858,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 859,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 860,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 861,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 862,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 863,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 864,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 865,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 866,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 867,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 868,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 869,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 870,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 871,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 872,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 873,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 874,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 875,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 876,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 877,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 878,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 879,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 880,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 881,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 882,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 883,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 884,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 885,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 886,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 887,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 888,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 889,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 890,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 891,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 892,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 893,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 894,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 895,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 896,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 897,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 898,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 899,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 900,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 901,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 902,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 903,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 904,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 905,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 906,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 907,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 908,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 909,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 910,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 911,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 912,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 913,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 914,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 915,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 916,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 917,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 918,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 919,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 920,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 921,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 922,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 923,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 924,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 925,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 926,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 927,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 928,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 929,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 930,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 931,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 932,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 933,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 934,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 935,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 936,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 937,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 938,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 939,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 940,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 941,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 942,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 943,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 944,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 945,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 946,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 947,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 948,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 949,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 950,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 951,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 952,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 953,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 954,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 955,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 956,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 957,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 958,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 959,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 960,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 961,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 962,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 963,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 964,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 965,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 966,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 967,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 968,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 969,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 970,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 971,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 972,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 973,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 974,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 975,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 976,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 977,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 978,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 979,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 980,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 981,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 982,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 983,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 984,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 985,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 986,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 987,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 988,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 989,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 990,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 991,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 992,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 993,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 994,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 995,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 996,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 997,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 998,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 999,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 1000,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 1001,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 1002,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 1003,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 1004,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 1005,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 1006,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 1007,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 1008,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 1009,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 1010,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 1011,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 1012,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 1013,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 1014,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 1015,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 1016,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        },
+        {
+            "PokeID": 1017,
+            "IsCanRun": 0,
+            "IsCanSleepAnimation": 0
+        }
+    ]
+}

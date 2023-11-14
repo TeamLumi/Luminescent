@@ -1,0 +1,59 @@
+{
+    "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 8423137904901713306
+    },
+    "m_Name": "StopData_D21R0101",
+    "Data": [
+        {
+            "ID": "SCRID_D21R0101_SEVEN2_GOAL",
+            "Position": {
+                "x": 41.0,
+                "y": 52.0
+            },
+            "HeightLayer": 0,
+            "Size": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "ContactLabel": "ev_d21r0101_mira_script_4",
+            "Param": 99,
+            "Work": 77
+        },
+        {
+            "ID": "SCRID_D21R0101_SEVEN2_LEAVE_EARLY",
+            "Position": {
+                "x": 40.0,
+                "y": 42.0
+            },
+            "HeightLayer": 0,
+            "Size": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "ContactLabel": "ev_d21r0101_mira_script_6",
+            "Param": 1,
+            "Work": 77
+        },
+        {
+            "ID": "SCRID_D21R0101_SEVEN2_CAME_BACK",
+            "Position": {
+                "x": 39.0,
+                "y": 42.0
+            },
+            "HeightLayer": 0,
+            "Size": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "ContactLabel": "ev_d21r0101_mira_script_7",
+            "Param": 2,
+            "Work": 77
+        }
+    ]
+}

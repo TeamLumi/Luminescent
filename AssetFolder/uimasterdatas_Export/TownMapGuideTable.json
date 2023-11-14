@@ -1,0 +1,1022 @@
+{
+    "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 7056471235963064427
+    },
+    "m_Name": "TownMapGuideTable",
+    "Guide": [
+        {
+            "Id": 100,
+            "TownMapX": -1,
+            "TownMapY": -1,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_01"
+        },
+        {
+            "Id": 200,
+            "TownMapX": 3,
+            "TownMapY": 25,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_02"
+        },
+        {
+            "Id": 300,
+            "TownMapX": 3,
+            "TownMapY": 25,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_03"
+        },
+        {
+            "Id": 400,
+            "TownMapX": 3,
+            "TownMapY": 25,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_04"
+        },
+        {
+            "Id": 500,
+            "TownMapX": 3,
+            "TownMapY": 25,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_04"
+        },
+        {
+            "Id": 600,
+            "TownMapX": 3,
+            "TownMapY": 25,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_05"
+        },
+        {
+            "Id": 700,
+            "TownMapX": 3,
+            "TownMapY": 24,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_04"
+        },
+        {
+            "Id": 800,
+            "TownMapX": 3,
+            "TownMapY": 24,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_06"
+        },
+        {
+            "Id": 900,
+            "TownMapX": 2,
+            "TownMapY": 24,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_06"
+        },
+        {
+            "Id": 1000,
+            "TownMapX": 2,
+            "TownMapY": 24,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_06"
+        },
+        {
+            "Id": 1100,
+            "TownMapX": 3,
+            "TownMapY": 24,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_06"
+        },
+        {
+            "Id": 1200,
+            "TownMapX": 3,
+            "TownMapY": 24,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_07"
+        },
+        {
+            "Id": 1300,
+            "TownMapX": 3,
+            "TownMapY": 25,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_07"
+        },
+        {
+            "Id": 1400,
+            "TownMapX": 6,
+            "TownMapY": 24,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_08"
+        },
+        {
+            "Id": 1500,
+            "TownMapX": 6,
+            "TownMapY": 24,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_08"
+        },
+        {
+            "Id": 1600,
+            "TownMapX": 3,
+            "TownMapY": 25,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_09"
+        },
+        {
+            "Id": 1700,
+            "TownMapX": 3,
+            "TownMapY": 25,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_09"
+        },
+        {
+            "Id": 1800,
+            "TownMapX": 5,
+            "TownMapY": 23,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_10"
+        },
+        {
+            "Id": 1900,
+            "TownMapX": 6,
+            "TownMapY": 21,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_10"
+        },
+        {
+            "Id": 2000,
+            "TownMapX": 6,
+            "TownMapY": 21,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_11"
+        },
+        {
+            "Id": 2100,
+            "TownMapX": 6,
+            "TownMapY": 21,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_12"
+        },
+        {
+            "Id": 2200,
+            "TownMapX": 6,
+            "TownMapY": 21,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_13"
+        },
+        {
+            "Id": 2300,
+            "TownMapX": 6,
+            "TownMapY": 21,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_13"
+        },
+        {
+            "Id": 2400,
+            "TownMapX": 6,
+            "TownMapY": 21,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_13"
+        },
+        {
+            "Id": 2500,
+            "TownMapX": 6,
+            "TownMapY": 21,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_14"
+        },
+        {
+            "Id": 2600,
+            "TownMapX": 10,
+            "TownMapY": 20,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_15"
+        },
+        {
+            "Id": 2700,
+            "TownMapX": 10,
+            "TownMapY": 20,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_15"
+        },
+        {
+            "Id": 2800,
+            "TownMapX": 10,
+            "TownMapY": 20,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_15"
+        },
+        {
+            "Id": 2900,
+            "TownMapX": 10,
+            "TownMapY": 20,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_15"
+        },
+        {
+            "Id": 3000,
+            "TownMapX": 11,
+            "TownMapY": 21,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_16"
+        },
+        {
+            "Id": 3100,
+            "TownMapX": 10,
+            "TownMapY": 20,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_17"
+        },
+        {
+            "Id": 3200,
+            "TownMapX": 10,
+            "TownMapY": 20,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_18"
+        },
+        {
+            "Id": 3300,
+            "TownMapX": 6,
+            "TownMapY": 20,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_19"
+        },
+        {
+            "Id": 3400,
+            "TownMapX": 6,
+            "TownMapY": 20,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_19"
+        },
+        {
+            "Id": 3500,
+            "TownMapX": 11,
+            "TownMapY": 13,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_21"
+        },
+        {
+            "Id": 3600,
+            "TownMapX": 9,
+            "TownMapY": 17,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_22"
+        },
+        {
+            "Id": 3700,
+            "TownMapX": 6,
+            "TownMapY": 16,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_23"
+        },
+        {
+            "Id": 3800,
+            "TownMapX": 6,
+            "TownMapY": 16,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_23"
+        },
+        {
+            "Id": 3900,
+            "TownMapX": 6,
+            "TownMapY": 16,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_23"
+        },
+        {
+            "Id": 4000,
+            "TownMapX": 9,
+            "TownMapY": 17,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_24"
+        },
+        {
+            "Id": 4100,
+            "TownMapX": 9,
+            "TownMapY": 17,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_25"
+        },
+        {
+            "Id": 4200,
+            "TownMapX": 11,
+            "TownMapY": 13,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_21"
+        },
+        {
+            "Id": 4300,
+            "TownMapX": 11,
+            "TownMapY": 13,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_27"
+        },
+        {
+            "Id": 4400,
+            "TownMapX": 11,
+            "TownMapY": 13,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_21"
+        },
+        {
+            "Id": 4500,
+            "TownMapX": 11,
+            "TownMapY": 13,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_80"
+        },
+        {
+            "Id": 4550,
+            "TownMapX": 11,
+            "TownMapY": 9,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_80_1"
+        },
+        {
+            "Id": 4600,
+            "TownMapX": 11,
+            "TownMapY": 14,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_29"
+        },
+        {
+            "Id": 4700,
+            "TownMapX": 11,
+            "TownMapY": 14,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_30"
+        },
+        {
+            "Id": 4800,
+            "TownMapX": 11,
+            "TownMapY": 14,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_30"
+        },
+        {
+            "Id": 4900,
+            "TownMapX": 11,
+            "TownMapY": 14,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_30"
+        },
+        {
+            "Id": 5000,
+            "TownMapX": 11,
+            "TownMapY": 14,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_30"
+        },
+        {
+            "Id": 5100,
+            "TownMapX": 11,
+            "TownMapY": 14,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_29"
+        },
+        {
+            "Id": 5200,
+            "TownMapX": 11,
+            "TownMapY": 13,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_80"
+        },
+        {
+            "Id": 5250,
+            "TownMapX": 11,
+            "TownMapY": 13,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_93"
+        },
+        {
+            "Id": 5300,
+            "TownMapX": 11,
+            "TownMapY": 13,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_81"
+        },
+        {
+            "Id": 5400,
+            "TownMapX": 11,
+            "TownMapY": 14,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_32"
+        },
+        {
+            "Id": 5500,
+            "TownMapX": 11,
+            "TownMapY": 14,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_33"
+        },
+        {
+            "Id": 5600,
+            "TownMapX": 11,
+            "TownMapY": 17,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_34"
+        },
+        {
+            "Id": 5610,
+            "TownMapX": 11,
+            "TownMapY": 16,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_34_1"
+        },
+        {
+            "Id": 5700,
+            "TownMapX": 16,
+            "TownMapY": 19,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_35"
+        },
+        {
+            "Id": 5800,
+            "TownMapX": 16,
+            "TownMapY": 19,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_35"
+        },
+        {
+            "Id": 5900,
+            "TownMapX": 17,
+            "TownMapY": 18,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_36"
+        },
+        {
+            "Id": 6000,
+            "TownMapX": 17,
+            "TownMapY": 18,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_36"
+        },
+        {
+            "Id": 6100,
+            "TownMapX": 17,
+            "TownMapY": 18,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_37"
+        },
+        {
+            "Id": 6150,
+            "TownMapX": 17,
+            "TownMapY": 18,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_48"
+        },
+        {
+            "Id": 6200,
+            "TownMapX": 25,
+            "TownMapY": 15,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_38_1"
+        },
+        {
+            "Id": 6250,
+            "TownMapX": 17,
+            "TownMapY": 21,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_38"
+        },
+        {
+            "Id": 6260,
+            "TownMapX": 25,
+            "TownMapY": 15,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_38_1"
+        },
+        {
+            "Id": 6300,
+            "TownMapX": 25,
+            "TownMapY": 16,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_82"
+        },
+        {
+            "Id": 6400,
+            "TownMapX": 25,
+            "TownMapY": 16,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_39"
+        },
+        {
+            "Id": 6500,
+            "TownMapX": 25,
+            "TownMapY": 16,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_40"
+        },
+        {
+            "Id": 6600,
+            "TownMapX": 25,
+            "TownMapY": 15,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_41"
+        },
+        {
+            "Id": 6700,
+            "TownMapX": 23,
+            "TownMapY": 23,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_83"
+        },
+        {
+            "Id": 6800,
+            "TownMapX": 22,
+            "TownMapY": 23,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_42"
+        },
+        {
+            "Id": 6900,
+            "TownMapX": 23,
+            "TownMapY": 23,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_43"
+        },
+        {
+            "Id": 7000,
+            "TownMapX": 23,
+            "TownMapY": 23,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_44"
+        },
+        {
+            "Id": 7100,
+            "TownMapX": 25,
+            "TownMapY": 24,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_44"
+        },
+        {
+            "Id": 7200,
+            "TownMapX": 26,
+            "TownMapY": 22,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_44"
+        },
+        {
+            "Id": 7300,
+            "TownMapX": 26,
+            "TownMapY": 21,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_44"
+        },
+        {
+            "Id": 7400,
+            "TownMapX": 26,
+            "TownMapY": 21,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_94"
+        },
+        {
+            "Id": 7500,
+            "TownMapX": 20,
+            "TownMapY": 15,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_46"
+        },
+        {
+            "Id": 7600,
+            "TownMapX": 16,
+            "TownMapY": 13,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_47"
+        },
+        {
+            "Id": 7700,
+            "TownMapX": 16,
+            "TownMapY": 13,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_84"
+        },
+        {
+            "Id": 7800,
+            "TownMapX": 16,
+            "TownMapY": 13,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_85"
+        },
+        {
+            "Id": 7900,
+            "TownMapX": 1,
+            "TownMapY": 20,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_48_1"
+        },
+        {
+            "Id": 8000,
+            "TownMapX": 1,
+            "TownMapY": 20,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_48_1"
+        },
+        {
+            "Id": 8100,
+            "TownMapX": 1,
+            "TownMapY": 20,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_48_1"
+        },
+        {
+            "Id": 8200,
+            "TownMapX": 17,
+            "TownMapY": 18,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_40"
+        },
+        {
+            "Id": 8300,
+            "TownMapX": 1,
+            "TownMapY": 20,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_49"
+        },
+        {
+            "Id": 8350,
+            "TownMapX": 10,
+            "TownMapY": 26,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_49_1"
+        },
+        {
+            "Id": 8400,
+            "TownMapX": 1,
+            "TownMapY": 20,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_86"
+        },
+        {
+            "Id": 8450,
+            "TownMapX": 1,
+            "TownMapY": 20,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_86_1"
+        },
+        {
+            "Id": 8460,
+            "TownMapX": 1,
+            "TownMapY": 20,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_post_riley"
+        },
+        {
+            "Id": 8500,
+            "TownMapX": 1,
+            "TownMapY": 19,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_50"
+        },
+        {
+            "Id": 8600,
+            "TownMapX": 1,
+            "TownMapY": 19,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_40"
+        },
+        {
+            "Id": 8700,
+            "TownMapX": 1,
+            "TownMapY": 19,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_51"
+        },
+        {
+            "Id": 8800,
+            "TownMapX": 1,
+            "TownMapY": 19,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_52"
+        },
+        {
+            "Id": 8900,
+            "TownMapX": 26,
+            "TownMapY": 20,
+            "MSFile": "",
+            "MSLabel": ""
+        },
+        {
+            "Id": 9000,
+            "TownMapX": 25,
+            "TownMapY": 20,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_53"
+        },
+        {
+            "Id": 9100,
+            "TownMapX": 2,
+            "TownMapY": 24,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_54"
+        },
+        {
+            "Id": 9200,
+            "TownMapX": 2,
+            "TownMapY": 24,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_87"
+        },
+        {
+            "Id": 9300,
+            "TownMapX": 11,
+            "TownMapY": 2,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_55"
+        },
+        {
+            "Id": 9400,
+            "TownMapX": 20,
+            "TownMapY": 18,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_88"
+        },
+        {
+            "Id": 9500,
+            "TownMapX": 11,
+            "TownMapY": 2,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_55"
+        },
+        {
+            "Id": 9600,
+            "TownMapX": 13,
+            "TownMapY": 2,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_56"
+        },
+        {
+            "Id": 9650,
+            "TownMapX": 13,
+            "TownMapY": 2,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_95"
+        },
+        {
+            "Id": 9700,
+            "TownMapX": 11,
+            "TownMapY": 2,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_55"
+        },
+        {
+            "Id": 9800,
+            "TownMapX": 26,
+            "TownMapY": 15,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_89"
+        },
+        {
+            "Id": 9900,
+            "TownMapX": 25,
+            "TownMapY": 15,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_58"
+        },
+        {
+            "Id": 10000,
+            "TownMapX": 25,
+            "TownMapY": 15,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_59"
+        },
+        {
+            "Id": 10100,
+            "TownMapX": 26,
+            "TownMapY": 15,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_90"
+        },
+        {
+            "Id": 10200,
+            "TownMapX": 26,
+            "TownMapY": 15,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_60"
+        },
+        {
+            "Id": 10300,
+            "TownMapX": 26,
+            "TownMapY": 15,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_90"
+        },
+        {
+            "Id": 10400,
+            "TownMapX": 26,
+            "TownMapY": 15,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_61"
+        },
+        {
+            "Id": 10500,
+            "TownMapX": 26,
+            "TownMapY": 15,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_61"
+        },
+        {
+            "Id": 10600,
+            "TownMapX": 26,
+            "TownMapY": 15,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_62"
+        },
+        {
+            "Id": 10700,
+            "TownMapX": 13,
+            "TownMapY": 15,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_63"
+        },
+        {
+            "Id": 10800,
+            "TownMapX": 11,
+            "TownMapY": 5,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_91"
+        },
+        {
+            "Id": 10900,
+            "TownMapX": 13,
+            "TownMapY": 15,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_63"
+        },
+        {
+            "Id": 11000,
+            "TownMapX": 13,
+            "TownMapY": 15,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_63"
+        },
+        {
+            "Id": 11100,
+            "TownMapX": 13,
+            "TownMapY": 15,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_63"
+        },
+        {
+            "Id": 11200,
+            "TownMapX": 13,
+            "TownMapY": 15,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_64"
+        },
+        {
+            "Id": 11250,
+            "TownMapX": 6,
+            "TownMapY": 24,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_64_1"
+        },
+        {
+            "Id": 11300,
+            "TownMapX": 30,
+            "TownMapY": 21,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_65"
+        },
+        {
+            "Id": 11400,
+            "TownMapX": 31,
+            "TownMapY": 21,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_66"
+        },
+        {
+            "Id": 11500,
+            "TownMapX": 30,
+            "TownMapY": 20,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_67"
+        },
+        {
+            "Id": 11600,
+            "TownMapX": 30,
+            "TownMapY": 20,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_67"
+        },
+        {
+            "Id": 11700,
+            "TownMapX": 30,
+            "TownMapY": 20,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_68"
+        },
+        {
+            "Id": 11800,
+            "TownMapX": 30,
+            "TownMapY": 13,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_68"
+        },
+        {
+            "Id": 11900,
+            "TownMapX": 30,
+            "TownMapY": 13,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_68"
+        },
+        {
+            "Id": 12000,
+            "TownMapX": 30,
+            "TownMapY": 13,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_92"
+        },
+        {
+            "Id": 12100,
+            "TownMapX": 0,
+            "TownMapY": 0,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_69"
+        },
+        {
+            "Id": 12200,
+            "TownMapX": 0,
+            "TownMapY": 0,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_70"
+        },
+        {
+            "Id": 12300,
+            "TownMapX": 0,
+            "TownMapY": 0,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_71"
+        },
+        {
+            "Id": 12400,
+            "TownMapX": 0,
+            "TownMapY": 0,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_72"
+        },
+        {
+            "Id": 12500,
+            "TownMapX": 30,
+            "TownMapY": 13,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_73"
+        },
+        {
+            "Id": 12600,
+            "TownMapX": 3,
+            "TownMapY": 25,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_74"
+        },
+        {
+            "Id": 12650,
+            "TownMapX": -10,
+            "TownMapY": -10,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_79"
+        },
+        {
+            "Id": 12700,
+            "TownMapX": 13,
+            "TownMapY": 2,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_75"
+        },
+        {
+            "Id": 12800,
+            "TownMapX": 22,
+            "TownMapY": 10,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_75"
+        },
+        {
+            "Id": 12900,
+            "TownMapX": 22,
+            "TownMapY": 10,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_76"
+        },
+        {
+            "Id": 13000,
+            "TownMapX": 23,
+            "TownMapY": 9,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_77"
+        },
+        {
+            "Id": 13100,
+            "TownMapX": 6,
+            "TownMapY": 24,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_78"
+        },
+        {
+            "Id": 13200,
+            "TownMapX": -10,
+            "TownMapY": -10,
+            "MSFile": "ss_xmenu_timeline",
+            "MSLabel": "ui_msg_xmenu_timeline_guide_79"
+        }
+    ]
+}

@@ -1,0 +1,104 @@
+{
+    "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 8423137904901713306
+    },
+    "m_Name": "StopData_A09",
+    "Data": [
+        {
+            "ID": "SCRID_POS_C09_TRIGGER1",
+            "Position": {
+                "x": 362.0,
+                "y": 239.0
+            },
+            "HeightLayer": 2,
+            "Size": {
+                "x": 1.0,
+                "y": 8.0
+            },
+            "ContactLabel": "pos_c09_tremor1",
+            "Param": 0,
+            "Work": 470
+        },
+        {
+            "ID": "SCRID_POS_C09_TRIGGER2",
+            "Position": {
+                "x": 366.0,
+                "y": 236.0
+            },
+            "HeightLayer": 2,
+            "Size": {
+                "x": 2.0,
+                "y": 1.0
+            },
+            "ContactLabel": "pos_c09_tremor2",
+            "Param": 1,
+            "Work": 470
+        },
+        {
+            "ID": "SCRID_POS_C09_TRIGGER3",
+            "Position": {
+                "x": 366.0,
+                "y": 228.0
+            },
+            "HeightLayer": 2,
+            "Size": {
+                "x": 2.0,
+                "y": 1.0
+            },
+            "ContactLabel": "pos_c09_tremor3",
+            "Param": 2,
+            "Work": 470
+        },
+        {
+            "ID": "SCRID_POS_C09_TRIGGER4",
+            "Position": {
+                "x": 366.0,
+                "y": 213.0
+            },
+            "HeightLayer": 2,
+            "Size": {
+                "x": 2.0,
+                "y": 1.0
+            },
+            "ContactLabel": "pos_c09_tremor4",
+            "Param": 3,
+            "Work": 470
+        },
+        {
+            "ID": "SCRID_POS_C09_TRIGGER5",
+            "Position": {
+                "x": 366.0,
+                "y": 203.0
+            },
+            "HeightLayer": 2,
+            "Size": {
+                "x": 2.0,
+                "y": 1.0
+            },
+            "ContactLabel": "pos_c09_tremor5",
+            "Param": 4,
+            "Work": 470
+        },
+        {
+            "ID": "SCRID_POS_R217_LEADER",
+            "Position": {
+                "x": 302.0,
+                "y": 376.0
+            },
+            "HeightLayer": 2,
+            "Size": {
+                "x": 2.0,
+                "y": 1.0
+            },
+            "ContactLabel": "pos_r217_leader",
+            "Param": 0,
+            "Work": 474
+        }
+    ]
+}

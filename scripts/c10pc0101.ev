@@ -1,0 +1,37 @@
+ev_c10pc0101_flag_change:
+	_LDVAL(@HIDEMAP_ID_C10, 1)
+	_IF_FLAGON_JUMP($SYS_FLAG_WILDCARD_000, 'ev_c10pc0101_flag_change_end')
+	_FLAG_RESET(#FV_STOPPER_FRIENDBOOK)
+	_SXY_EXIT_POS_CHANGE(2, 80, 80)
+	_END()
+ev_c10pc0101_flag_change_end:
+	_SYS_FLAG_BADGE_GET($BADGE_ID_C03, @SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_c010pc0101_flag_change_del_stopper')
+	_END()
+ev_c010pc0101_flag_change_del_stopper:
+	_FLAG_SET(#FV_STOPPER_FRIENDBOOK)
+	_END()
+ev_c10pc0101_pcwoman1:
+	_LDVAL(@SCWK_TEMP3, 'C10PC0101_PCWOMAN1')
+	_CHG_COMMON_SCR('ev_heal_p01')
+	_END()
+ev_c10pc0101_shop:
+	_TALK_OBJ_START()
+	_CHG_COMMON_SCR('ev_shop_start_talk')
+	_TALK_CLOSE_NO_CLEAR()
+	_SHOP_CALL(1)
+	_TALK_OBJ_END()
+	_END()
+ev_c10pc0101_fix_shop:
+	_TALK_OBJ_START()
+	_CHG_COMMON_SCR('ev_shop_start_talk')
+	_TALK_CLOSE_NO_CLEAR()
+	_FIX_SHOP_CALL('ID_SHOP_ITEM_PK_FS')
+	_TALK_OBJ_END()
+	_END()
+ev_c10pc0101_veteran:
+	_EASY_OBJ_MSG('dp_scenario3%18-msg_c10pc0101_veteran_01')
+	_END()
+ev_c10pc0101_woman:
+	_EASY_OBJ_MSG('dp_scenario3%18-msg_c10pc0101_woman3_01')
+	_END()

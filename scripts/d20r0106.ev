@@ -1,0 +1,185 @@
+ev_d20r0106_init_change:
+	_IF_FLAGON_JUMP(#FE_D20R0106_LEGEND_CLEAR, 'ev_d20r0106_init_change_obj_del')
+	_IF_FLAGON_JUMP(#FE_D20R0106_RETRY, 'ev_d20r0106_init_change_obj_del')
+	_FLAG_RESET(#FV_D20R0106_LEGEND)
+	_OBJ_ADD('D20R0106_LEGEND_01')
+	_OBJ_ANIME_SPEED('D20R0106_LEGEND_01', 0)
+	_OBJ_POS_CHANGE_WORLD('D20R0106_LEGEND_01', -11, 1, 11.5)
+	_END()
+ev_d20r0106_init_change_obj_del:
+	_FLAG_SET(#FV_D20R0106_LEGEND)
+	_OBJ_DEL('D20R0106_LEGEND_01')
+	_END()
+ev_d20r0106_scene_change:
+	_IF_FLAGOFF_JUMP(#FE_D20R0106_ZOU_FIRST, 'ev_d20r0106_zou_seen')
+	_END()
+ev_d20r0106_zou_seen:
+	_CALL('ev_block_doc')
+	_EVENT_START()
+	_OBJ_INVISIBLE('HERO')
+	_EVENT_CAMERA_INDEX(359)
+	_EVENT_CAMERA_END_WAIT()
+	_EVENT_CAMERA_INDEX(23)
+	_TIME_WAIT(1, @SCWK_TEMP0)
+	_OBJ_VISIBLE('HERO')
+	_EVENT_CAMERA_END_WAIT()
+	_CALL('ev_block_doc_end')
+	_FLAG_SET(#FE_D20R0106_ZOU_FIRST)
+	_EVENT_END()
+	_END()
+ev_d20r0106_legend_01:
+	_EVENT_START()
+	_SE_PLAY('UI_COMMON_SELECT')
+	_SE_WAIT('UI_COMMON_SELECT')
+	_IF_FLAGON_JUMP(#FE_D20R0106_LEGEND_UNSEAL, 'ev_d20r0106_legend_unseal_01')
+	_JUMP('ev_d20r0106_legend_seal_01')
+ev_d20r0106_legend_seal_01:
+	_TEMOTI_POKE_CHK(@SCWK_ANSWER, 377)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_d20r0106_legend_unseal_ng')
+	_TEMOTI_POKE_CHK(@SCWK_ANSWER, 378)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_d20r0106_legend_unseal_ng')
+	_TEMOTI_POKE_CHK(@SCWK_ANSWER, 379)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_d20r0106_legend_unseal_ng')
+	_FLAG_SET(#FE_D20R0106_LEGEND_UNSEAL)
+	_PLAYER_NAME(0)
+	_TALKMSG('dp_scenario2%199-msg_d20r0106_sppoke12_02_1')
+	_TALK_KEYWAIT('dp_scenario2%199-msg_d20r0106_sppoke12_02_2')
+	_TALK_CLOSE()
+	_OBJ_ANIME_SPEED('D20R0106_LEGEND_01', 0.200000)
+	_JUMP('ev_d20r0106_legend_unseal_01')
+	_END()
+ev_d20r0106_legend_unseal_ng:
+	_PLAYER_NAME(0)
+	_TALKMSG('dp_scenario2%199-msg_d20r0106_sppoke12_01_1')
+	_TALKMSG('dp_scenario2%199-msg_d20r0106_sppoke12_01_2')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_EVENT_END()
+	_END()
+ev_d20r0106_legend_unseal_01:
+	_TIME_WAIT(20, @SCWK_ANSWER)
+	_OBJ_ANIME_SPEED('D20R0106_LEGEND_01', 0.400000)
+	_TIME_WAIT(20, @SCWK_ANSWER)
+	_TALK_KEYWAIT('dp_scenario2%199-msg_d20r0106_sppoke12_03')
+	_TALK_CLOSE()
+	_OBJ_ANIME_SPEED('D20R0106_LEGEND_01', 1)
+	_VOICE_PLAY(486, 0, 0)
+	_VOICE_WAIT()
+	_SET_SYS_FLAG($SYS_FLAG_AUTOSAVE_STOP)
+	_FLAG_SET(#FE_INIT_CHANGE_OBJ_DEL)
+	_SP_WILD_BTL_SET(486, 80)
+	_FLAG_RESET(#FE_INIT_CHANGE_OBJ_DEL)
+	_RESET_SYS_FLAG($SYS_FLAG_AUTOSAVE_STOP)
+	_SEACRET_POKE_RETRY_CHECK(@SCWK_TEMP0, 486)
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 0, 'ev_d20r0106_legend_capture_ng')
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 1, 'ev_d20r0106_legend_event_clear')
+	_END()
+ev_d20r0106_legend_event_clear:
+	_FLAG_SET(#FE_D20R0106_LEGEND_CLEAR)
+	_OBJ_DEL('D20R0106_LEGEND_01')
+	_FLAG_SET(#FV_D20R0106_LEGEND)
+	_CALL('ev_d20r0106_auto_save')
+	_EVENT_END()
+	_END()
+ev_d20r0106_legend_capture_ng:
+	_EVENT_END()
+	_END()
+ev_d20r0106_legend_lose:
+	_NORMAL_LOSE()
+	_EVENT_END()
+	_END()
+ev_d20r0106_auto_save:
+	_AUTO_SAVE()
+	_RET()
+ev_d20r0106_story_start:
+	_EVENT_START(); Start event
+	_TALK_OBJ_START()
+	_CALL('ev_d20r0106_story_greeting'); Initial greeting
+	_PLAYER_NAME(0)
+	_TALK_KEYWAIT('dp_scenario3%00_msg_d20r0601_maylene1'); Maylene dialogue
+	_CHARA_LOOK_RELEASE('HERO'); Release Hero look lock
+	_CHARA_LOOK_LOCK('HERO', 'D20R0106_CANDICE'); Look at Candice
+	_TALK_KEYWAIT('dp_scenario3%00_msg_d20r0601_candice1'); Candice dialogue
+	_CHARA_LOOK_RELEASE('HERO'); Release Hero look lock
+	_CHARA_LOOK_LOCK('HERO', 'D20R0106_MAYLENE'); Look at Maylene
+	_TALK_KEYWAIT('dp_scenario3%00_msg_d20r0601_maylene2'); Maylene dialogue
+	_CHARA_LOOK_RELEASE('D20R0106_MAYLENE'); Maylene look release
+	_CHARA_LOOK_RELEASE('D20R0106_CANDICE'); Candice look release
+	_CHARA_LOOK_RELEASE('HERO'); Release Hero look lock
+	_OBJ_ANIME('HERO', 'anm_d20r0106_hero_stepforward'); Step forward to battle
+	_OBJ_ANIME_WAIT()
+	_VOICE_PLAY(486, 0, 0); Regigigas cry
+	_TALK_KEYWAIT('dp_scenario3%00_msg_d20r0601_slumbering'); Regigigas scream
+	_TALK_CLOSE()
+	_CALL('ev_d20r0106_story_battle'); Battle event
+	_CHARA_LOOK_LOCK('HERO', 'D20R0106_CANDICE'); Look at Candice
+	_CHARA_LOOK_LOCK('D20R0106_CANDICE', 'HERO'); Look at Candice
+	_TALK_KEYWAIT('dp_scenario3%00_msg_d20r0601_candice2'); Candice dialogue 
+	_TALK_KEYWAIT('dp_scenario3%00_msg_d20r0601_candice3'); Candice dialogue
+	_CALL('ev_d20r0106_story_give_rockclimb'); Give Rock Climb
+	_TALK_KEYWAIT('dp_scenario3%00_msg_d20r0601_candice4'); Candice dialogue
+	_CHARA_LOOK_RELEASE('HERO'); Release Hero look lock
+	_CHARA_LOOK_LOCK('HERO', 'D20R0106_MAYLENE'); Look at Maylene
+	_CHARA_LOOK_LOCK('D20R0106_MAYLENE', 'HERO'); Maylene notices the player
+	_PLAYER_NAME(0)
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_d20r0601_maylene3', '{0}...\nI’d like to thank you as well.\rWe’ll keep training hard so that\nwe can battle with you, {0}'); Maylene dialogue
+	_TALK_CLOSE()
+	_CHARA_LOOK_RELEASE('D20R0106_MAYLENE'); Maylene look release
+	_CHARA_LOOK_RELEASE('D20R0106_CANDICE'); Candice look release
+	_CHARA_LOOK_RELEASE('HERO'); Release Hero look lock
+	_JUMP('ev_d20r0106_story_end'); End event
+ev_d20r0106_story_greeting:
+	_CHARA_LOOK_LOCK('D20R0106_MAYLENE', 'HERO'); Maylene notices the player
+	_CHARA_LOOK_LOCK('D20R0106_CANDICE', 'HERO'); Candice notices the player
+	_OBJ_ANIME('D20R0106_MAYLENE', 'anm_d20r0106_startled_greeting'); Maylene is startled
+	_OBJ_ANIME('D20R0106_CANDICE', 'anm_d20r0106_startled_greeting'); Candice is startled
+	_CHARA_LOOK_LOCK('HERO', 'D20R0106_MAYLENE')
+	_TALK_KEYWAIT('dp_scenario3%00_msg_d20r0601_maylene_move_pokemon'); Maylene orders ace out of the way
+	_OBJ_ANIME('D20R0106_ACE', 'anm_d20r0106_move_ace'); Ace moves out of the way
+	_OBJ_ANIME_WAIT()
+	_OBJ_ANIME('HERO', 'anm_d20r0106_hero_greeting'); Hero moves to Maylene
+	_RET()
+ev_d20r0106_story_battle:
+	_BLACK_OUT('SCR_WIPE_DIV', 3); ####### This function will have the battle when it is ready #########
+	_FADE_WAIT()
+	_TIME_WAIT(60, @SCWK_ANSWER)
+	_BLACK_IN('SCR_WIPE_DIV', 3)
+	_FADE_WAIT()
+	_RET()
+ev_d20r0106_story_give_rockclimb:
+	_LDVAL(@SCWK_TEMP0, 427); Load TM100 Rock climb value
+	_LDVAL(@SCWK_TEMP1, 1)
+	_CHG_COMMON_SCR('ev_item_event')
+	_FLAG_SET(#FE_HIDEN_08_GET)
+	_IFVAL_CALL(@TOWNMAP_GUIDE_SEQUENCE, 'EQ', 10800, 'ev_fld_item_161_anaunce_upd')
+	_RET()
+ev_d20r0106_story_end:
+	_BLACK_OUT('SCR_WIPE_DIV', 3)
+	_FADE_WAIT()
+	_FLAG_SET(#2625); Despawn the gym guy
+	_FLAG_SET(#2627); Despawn the gym leaders + ace
+	_FLAG_SET(#2628); Event finished.
+	_OBJ_DEL('D20R0106_MAYLENE')
+	_OBJ_DEL('D20R0106_CANDICE')
+	_OBJ_DEL('D20R0106_ACE')
+	_BLACK_IN('SCR_WIPE_DIV', 3)
+	_FADE_WAIT()
+	_TALK_OBJ_END()
+	_EVENT_END()
+	_END()
+anm_d20r0106_startled_greeting:
+	_AC_MARK_GYOE()
+	_ACMD_END()
+anm_d20r0106_move_ace:
+	_AC_DIR_L(8)
+	_AC_LEFT(1, 8)
+	_AC_DIR_U(8)
+	_ACMD_END()
+anm_d20r0106_hero_greeting:
+	_AC_DIR_U(8)
+	_AC_UP(2, 8)
+	_ACMD_END()
+anm_d20r0106_hero_stepforward:
+	_AC_DIR_U(8)
+	_AC_UP(1, 8)
+	_ACMD_END()

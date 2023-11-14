@@ -1,0 +1,27 @@
+ev_c04r0302_oldwoman1:
+	_TALK_OBJ_START()
+	_IF_FLAGON_JUMP(#FE_C04R0302_ITEM_GET, 'ev_c04r0302_oldwoman1_02')
+	_TALK_KEYWAIT('dp_scenario2%10-msg_c04r0302_oldwoman1_01')
+	_LDVAL(@SCWK_TEMP0, 394)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_ADD_ITEM_CHK(@SCWK_TEMP0, @SCWK_TEMP1, @SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_c04r0302_oldwoman1_item_event_fail')
+	_FLAG_SET(#FE_C04R0302_ITEM_GET)
+	_CHG_COMMON_SCR('ev_item_event')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c04r0302_oldwoman1_item_event_fail:
+	_CHG_COMMON_SCR('ev_item_event_fail')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c04r0302_oldwoman1_02:
+	_TALKMSG('dp_scenario2%10-msg_c04r0302_oldwoman1_02')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c04r0302_babygirl1:
+	_EASY_OBJ_MSG('dp_scenario2%10-msg_c04r0302_babygirl1_01')
+	_END()

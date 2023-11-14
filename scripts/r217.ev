@@ -1,0 +1,120 @@
+ev_r217_flag_change:
+	_IF_FLAGON_CALL(#FE_HIDEN_08_GET, 'ev_r217_anaunce_chk')
+	_IF_FLAGON_JUMP(#FE_R217R0201_ITEM_GET, 'ev_r217r0201_woman1_del')
+	_END()
+ev_r217r0201_woman1_del:
+	_FLAG_SET(#FV_R217R0201_WOMAN1)
+	_END()
+ev_r217_anaunce_chk:
+	_IFVAL_CALL(@TOWNMAP_GUIDE_SEQUENCE, 'EQ', 10800, 'ev_r217_anaunce_upd')
+	_END()
+ev_r217_anaunce_upd:
+	_LDVAL(@TOWNMAP_GUIDE_SEQUENCE, 10900)
+	_RET()
+ev_r217_stone:
+	_EASY_OBJ_MSG('dp_scenario2%174-msg_r217_stone_01')
+	_END()
+ev_r217_stone_event:
+	_IF_FLAGON_JUMP(#2762, 'ev_r217_stone')
+	_TALK_OBJ_START()
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_r217_stone_1', 'The boulder is encrusted with ice.\nIt is bone chilling to touch.\r...\rA piece of the boulder fell off...')
+	_LDVAL(@SCWK_TEMP0, 849); Ice stone ID
+	_LDVAL(@SCWK_TEMP1, 1); 1
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_TALK_CLOSE()
+	_FLAG_SET(#2762); Stone event is over
+	_END()
+ev_r217_sign1:
+	_EASY_BOARD_MSG('dp_scenario2%174-msg_r217_sign1_01', 'BOARD_TYPE_ROAD', 0, 10)
+	_END()
+ev_r217_girl4:
+	_EASY_OBJ_MSG('dp_scenario2%174-msg_r217_girl4_01')
+	_END()
+pos_r217_leader:
+	_TALK_OBJ_START()
+	_FLAG_RESET(#2811); Enable Maylene
+	_OBJ_ADD('R217_MAYLENE')
+	_PLAYER_POS_GET(@SCWK_TEMP0, @SCWK_TEMP1)
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 302, 'pos_r217_leader_x03')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 303, 'pos_r217_leader_x02')
+	_CHARA_LOOK_LOCK('R217_MAYLENE', 'HERO')
+	_CHARA_LOOK_LOCK('HERO', 'R217_MAYLENE')
+	_PLAYER_NAME(0)
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_pos_r217_leader', 'Oh, {0}.')
+	_OBJ_ANIME('R217_MAYLENE', 'anm_r217_maylene_walk_up')
+	_OBJ_ANIME_WAIT()
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_pos_r217_leader_1', 'Um, are you maybe on your way to\nSnowpoint City?\rThat’s where I’m going, too.\rIf I use Fly, I can get there instantly,\nbut I’m walking for my training.\rI’m used to the cold, but it takes lots\nof focus to walk through the snow.\rEspecially because I’m lightly dressed\nand barefoot...\rIt’s important for your Pokémon to\nbe able to focus in battle, too.\rYou should give this Technical Machine\na try...')
+	_LDVAL(@SCWK_TEMP0, 379); Focus Blast
+	_LDVAL(@SCWK_TEMP1, 1)
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_pos_r217_leader_2', 'Um, that contains Focus Blast.\nIt’s a very strong Fighting-type move.\r...Achoo!\rOh, that was nothing.\nReally, I’m not cold at all!\rI’ll be going now.\nPlease take care!')
+	_TALK_CLOSE()
+	_PLAYER_POS_GET(@SCWK_TEMP0, @SCWK_TEMP1)
+	_CHARA_LOOK_RELEASE('R217_MAYLENE')
+	_CHARA_LOOK_RELEASE('HERO')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 302, 'pos_r217_leader_leave_x03')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 303, 'pos_r217_leader_leave_x02')
+	_OBJ_DEL('R217_MAYLENE')
+	_FLAG_SET(#2811); Disable Maylene
+	_LDVAL(@474, 1); Kill the event trigger
+	_TALK_OBJ_END()
+	_END()
+pos_r217_leader_leave_x03:
+	_OBJ_ANIME('R217_MAYLENE', 'anm_r217_leader_leave_x03')
+	_OBJ_ANIME_WAIT()
+	_RET()
+pos_r217_leader_leave_x02:
+	_OBJ_ANIME('R217_MAYLENE', 'anm_r217_leader_leave_x02')
+	_OBJ_ANIME_WAIT()
+	_RET()
+pos_r217_leader_x03:
+	_OBJ_ANIME('R217_MAYLENE', 'anm_r217_maylene_start_x03')
+	_OBJ_ANIME_WAIT()
+	_RET()
+pos_r217_leader_x02:
+	_OBJ_ANIME('R217_MAYLENE', 'anm_r217_maylene_start_x02')
+	_OBJ_ANIME_WAIT()
+	_RET()
+anm_r217_maylene_start_x03:
+	_AC_DIR_U(8)
+	_AC_UP(4, 6)
+	_AC_DIR_L(8)
+	_AC_LEFT(3, 6)
+	_AC_DIR_U(8)
+	_AC_UP(1, 6)
+	_AC_WAIT(15)
+	_AC_MARK_GYOE()
+	_ACMD_END()
+anm_r217_maylene_start_x02:
+	_AC_DIR_U(8)
+	_AC_UP(4, 6)
+	_AC_DIR_L(8)
+	_AC_LEFT(2, 6)
+	_AC_DIR_U(8)
+	_AC_UP(1, 6)
+	_AC_WAIT(15)
+	_AC_MARK_GYOE()
+	_ACMD_END()
+anm_r217_maylene_walk_up:
+	_AC_UP(1,6)
+	_ACMD_END()
+anm_r217_leader_leave_x03:
+	_AC_DIR_R(6)
+	_AC_RIGHT(1, 6)
+	_AC_DIR_U(6)
+	_AC_UP(3, 6)
+	_AC_DIR_R(6)
+	_AC_RIGHT(2, 6)
+	_AC_DIR_U(6)
+	_AC_UP(9, 6)
+	_ACMD_END()
+anm_r217_leader_leave_x02:
+	_AC_DIR_L(6)
+	_AC_LEFT(1, 6)
+	_AC_DIR_U(6)
+	_AC_UP(3, 6)
+	_AC_DIR_R(6)
+	_AC_RIGHT(3, 6)
+	_AC_DIR_U(6)
+	_AC_UP(9, 6)
+	_ACMD_END()

@@ -1,0 +1,60 @@
+{
+    "m_Name": "md/contest_masterdatas",
+    "m_PreloadTable": [
+        {
+            "m_FileID": 0,
+            "m_PathID": 6043003319320684311
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 7199735202301021212
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 7385250837906679420
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 8762309700947785017
+        }
+    ],
+    "m_Container": [
+        [
+            "assets/masterdatas/contestdatas/contestconfigdatas.asset",
+            {
+                "preloadIndex": 0,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": 7199735202301021212
+                }
+            }
+        ],
+        [
+            "assets/masterdatas/contestdatas/contestmasterdatas.asset",
+            {
+                "preloadIndex": 2,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": 7385250837906679420
+                }
+            }
+        ]
+    ],
+    "m_MainAsset": {
+        "preloadIndex": 0,
+        "preloadSize": 0,
+        "asset": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        }
+    },
+    "m_RuntimeCompatibility": 1,
+    "m_AssetBundleName": "md/contest_masterdatas",
+    "m_Dependencies": [],
+    "m_IsStreamedSceneAssetBundle": false,
+    "m_ExplicitDataLayout": 0,
+    "m_PathFlags": 7,
+    "m_SceneHashes": []
+}

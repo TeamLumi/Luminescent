@@ -1,0 +1,38 @@
+ev_r204b_boy2:
+	_EASY_OBJ_MSG('dp_scenario1%90-msg_r204b_boy2_01')
+	_END()
+ev_r204b_woman3:
+	_TALK_OBJ_START()
+	_IF_FLAGON_JUMP(#FE_WAZAMASIN78_GET, 'ev_r204b_woman3_02')
+	_TALK_KEYWAIT('dp_scenario1%90-msg_r204b_woman3_01')
+	_LDVAL(@SCWK_TEMP0, 405)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_ADD_ITEM_CHK(@SCWK_TEMP0, @SCWK_TEMP1, @SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_r204b_woman3_item_event_fail')
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_FLAG_SET(#FE_WAZAMASIN78_GET)
+	_JUMP('ev_r204b_woman3_02')
+	_JUMP('ev_r204b_woman3_02')
+ev_r204b_woman3_02:
+	_TALKMSG('dp_scenario1%90-msg_r204b_woman3_02_1')
+	_TALK_KEYWAIT('dp_scenario1%90-msg_r204b_woman3_02_2', 1)
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_r204b_woman3_item_event_fail:
+	_CHG_COMMON_SCR('ev_item_event_fail')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_r204b_sign1:
+	_EASY_BOARD_MSG('dp_scenario1%90-msg_r204b_sign1_01', 'BOARD_TYPE_ROAD', 0, 13)
+	_END()
+ev_r204b_galactic_1:
+	_EASY_OBJ_MSG('dp_scenario3%00_msg_r204_galactic_1')
+	_END()
+ev_r204b_galactic_main:
+	_EASY_OBJ_MSG('dp_scenario3%00_msg_r204_galactic_main')
+	_END()
+ev_r204b_galactic_2:
+	_EASY_OBJ_MSG('dp_scenario3%00_msg_r204_galactic_2')
+	_END()

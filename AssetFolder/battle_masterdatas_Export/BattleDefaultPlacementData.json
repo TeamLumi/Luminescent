@@ -1,0 +1,1985 @@
+{
+    "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 4976757957293442982
+    },
+    "m_Name": "BattleDefaultPlacementData",
+    "DefaultCharaPlacementData": [
+        {
+            "BtlRule": 0,
+            "BtlvPos": 0,
+            "Size": 1,
+            "PokePos": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 3.5
+            },
+            "TrainerPos": {
+                "x": 1.0,
+                "y": 0.0,
+                "z": 6.5
+            },
+            "RotY": 180,
+            "UseSituation": 0
+        },
+        {
+            "BtlRule": 0,
+            "BtlvPos": 0,
+            "Size": 2,
+            "PokePos": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 4.0
+            },
+            "TrainerPos": {
+                "x": 2.0,
+                "y": 0.0,
+                "z": 8.0
+            },
+            "RotY": 180,
+            "UseSituation": 0
+        },
+        {
+            "BtlRule": 0,
+            "BtlvPos": 0,
+            "Size": 3,
+            "PokePos": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 7.0
+            },
+            "TrainerPos": {
+                "x": 2.5,
+                "y": 0.0,
+                "z": 11.5
+            },
+            "RotY": 180,
+            "UseSituation": 0
+        },
+        {
+            "BtlRule": 0,
+            "BtlvPos": 0,
+            "Size": 4,
+            "PokePos": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 7.0
+            },
+            "TrainerPos": {
+                "x": 3.0,
+                "y": 0.0,
+                "z": 12.5
+            },
+            "RotY": 180,
+            "UseSituation": 0
+        },
+        {
+            "BtlRule": 0,
+            "BtlvPos": 1,
+            "Size": 1,
+            "PokePos": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -3.5
+            },
+            "TrainerPos": {
+                "x": 1.0,
+                "y": 0.0,
+                "z": -6.5
+            },
+            "RotY": 0,
+            "UseSituation": 0
+        },
+        {
+            "BtlRule": 0,
+            "BtlvPos": 1,
+            "Size": 2,
+            "PokePos": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -4.0
+            },
+            "TrainerPos": {
+                "x": 2.0,
+                "y": 0.0,
+                "z": -8.0
+            },
+            "RotY": 0,
+            "UseSituation": 0
+        },
+        {
+            "BtlRule": 0,
+            "BtlvPos": 1,
+            "Size": 3,
+            "PokePos": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -7.0
+            },
+            "TrainerPos": {
+                "x": 2.5,
+                "y": 0.0,
+                "z": -11.5
+            },
+            "RotY": 0,
+            "UseSituation": 0
+        },
+        {
+            "BtlRule": 0,
+            "BtlvPos": 1,
+            "Size": 4,
+            "PokePos": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -7.0
+            },
+            "TrainerPos": {
+                "x": 3.0,
+                "y": 0.0,
+                "z": -12.5
+            },
+            "RotY": 0,
+            "UseSituation": 0
+        },
+        {
+            "BtlRule": 1,
+            "BtlvPos": 0,
+            "Size": 1,
+            "PokePos": {
+                "x": 2.75,
+                "y": 0.0,
+                "z": 3.5
+            },
+            "TrainerPos": {
+                "x": 1.0,
+                "y": 0.0,
+                "z": 10.5
+            },
+            "RotY": 180,
+            "UseSituation": 0
+        },
+        {
+            "BtlRule": 1,
+            "BtlvPos": 0,
+            "Size": 2,
+            "PokePos": {
+                "x": 3.0,
+                "y": 0.0,
+                "z": 4.0
+            },
+            "TrainerPos": {
+                "x": 1.0,
+                "y": 0.0,
+                "z": 11.5
+            },
+            "RotY": 180,
+            "UseSituation": 0
+        },
+        {
+            "BtlRule": 1,
+            "BtlvPos": 0,
+            "Size": 3,
+            "PokePos": {
+                "x": 4.0,
+                "y": 0.0,
+                "z": 7.0
+            },
+            "TrainerPos": {
+                "x": 1.0,
+                "y": 0.0,
+                "z": 12.5
+            },
+            "RotY": 180,
+            "UseSituation": 0
+        },
+        {
+            "BtlRule": 1,
+            "BtlvPos": 0,
+            "Size": 4,
+            "PokePos": {
+                "x": 6.0,
+                "y": 0.0,
+                "z": 7.0
+            },
+            "TrainerPos": {
+                "x": 1.0,
+                "y": 0.0,
+                "z": 12.5
+            },
+            "RotY": 180,
+            "UseSituation": 0
+        },
+        {
+            "BtlRule": 1,
+            "BtlvPos": 2,
+            "Size": 1,
+            "PokePos": {
+                "x": -2.75,
+                "y": 0.0,
+                "z": 3.5
+            },
+            "TrainerPos": {
+                "x": -1.0,
+                "y": 0.0,
+                "z": 10.5
+            },
+            "RotY": 180,
+            "UseSituation": 0
+        },
+        {
+            "BtlRule": 1,
+            "BtlvPos": 2,
+            "Size": 2,
+            "PokePos": {
+                "x": -3.0,
+                "y": 0.0,
+                "z": 4.0
+            },
+            "TrainerPos": {
+                "x": -1.0,
+                "y": 0.0,
+                "z": 11.5
+            },
+            "RotY": 180,
+            "UseSituation": 0
+        },
+        {
+            "BtlRule": 1,
+            "BtlvPos": 2,
+            "Size": 3,
+            "PokePos": {
+                "x": -4.0,
+                "y": 0.0,
+                "z": 7.0
+            },
+            "TrainerPos": {
+                "x": -1.0,
+                "y": 0.0,
+                "z": 12.5
+            },
+            "RotY": 180,
+            "UseSituation": 0
+        },
+        {
+            "BtlRule": 1,
+            "BtlvPos": 2,
+            "Size": 4,
+            "PokePos": {
+                "x": -6.0,
+                "y": 0.0,
+                "z": 7.0
+            },
+            "TrainerPos": {
+                "x": -1.0,
+                "y": 0.0,
+                "z": 12.5
+            },
+            "RotY": 180,
+            "UseSituation": 0
+        },
+        {
+            "BtlRule": 1,
+            "BtlvPos": 1,
+            "Size": 1,
+            "PokePos": {
+                "x": -2.75,
+                "y": 0.0,
+                "z": -3.5
+            },
+            "TrainerPos": {
+                "x": -1.0,
+                "y": 0.0,
+                "z": -10.5
+            },
+            "RotY": 0,
+            "UseSituation": 0
+        },
+        {
+            "BtlRule": 1,
+            "BtlvPos": 1,
+            "Size": 2,
+            "PokePos": {
+                "x": -3.0,
+                "y": 0.0,
+                "z": -4.0
+            },
+            "TrainerPos": {
+                "x": -1.0,
+                "y": 0.0,
+                "z": -11.5
+            },
+            "RotY": 0,
+            "UseSituation": 0
+        },
+        {
+            "BtlRule": 1,
+            "BtlvPos": 1,
+            "Size": 3,
+            "PokePos": {
+                "x": -4.0,
+                "y": 0.0,
+                "z": -7.0
+            },
+            "TrainerPos": {
+                "x": -1.0,
+                "y": 0.0,
+                "z": -12.5
+            },
+            "RotY": 0,
+            "UseSituation": 0
+        },
+        {
+            "BtlRule": 1,
+            "BtlvPos": 1,
+            "Size": 4,
+            "PokePos": {
+                "x": -6.0,
+                "y": 0.0,
+                "z": -7.0
+            },
+            "TrainerPos": {
+                "x": -1.0,
+                "y": 0.0,
+                "z": -12.5
+            },
+            "RotY": 0,
+            "UseSituation": 0
+        },
+        {
+            "BtlRule": 1,
+            "BtlvPos": 3,
+            "Size": 1,
+            "PokePos": {
+                "x": 2.75,
+                "y": 0.0,
+                "z": -3.5
+            },
+            "TrainerPos": {
+                "x": 1.0,
+                "y": 0.0,
+                "z": -10.5
+            },
+            "RotY": 0,
+            "UseSituation": 0
+        },
+        {
+            "BtlRule": 1,
+            "BtlvPos": 3,
+            "Size": 2,
+            "PokePos": {
+                "x": 3.0,
+                "y": 0.0,
+                "z": -4.0
+            },
+            "TrainerPos": {
+                "x": 1.0,
+                "y": 0.0,
+                "z": -11.5
+            },
+            "RotY": 0,
+            "UseSituation": 0
+        },
+        {
+            "BtlRule": 1,
+            "BtlvPos": 3,
+            "Size": 3,
+            "PokePos": {
+                "x": 4.0,
+                "y": 0.0,
+                "z": -7.0
+            },
+            "TrainerPos": {
+                "x": 1.0,
+                "y": 0.0,
+                "z": -12.5
+            },
+            "RotY": 0,
+            "UseSituation": 0
+        },
+        {
+            "BtlRule": 1,
+            "BtlvPos": 3,
+            "Size": 4,
+            "PokePos": {
+                "x": 6.0,
+                "y": 0.0,
+                "z": -7.0
+            },
+            "TrainerPos": {
+                "x": 1.0,
+                "y": 0.0,
+                "z": -12.5
+            },
+            "RotY": 0,
+            "UseSituation": 0
+        },
+        {
+            "BtlRule": 0,
+            "BtlvPos": 0,
+            "Size": 1,
+            "PokePos": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 3.5
+            },
+            "TrainerPos": {
+                "x": 1.0,
+                "y": 0.0,
+                "z": 6.5
+            },
+            "RotY": 180,
+            "UseSituation": 1
+        },
+        {
+            "BtlRule": 0,
+            "BtlvPos": 0,
+            "Size": 2,
+            "PokePos": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 4.0
+            },
+            "TrainerPos": {
+                "x": 2.0,
+                "y": 0.0,
+                "z": 8.0
+            },
+            "RotY": 180,
+            "UseSituation": 1
+        },
+        {
+            "BtlRule": 0,
+            "BtlvPos": 0,
+            "Size": 3,
+            "PokePos": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 7.0
+            },
+            "TrainerPos": {
+                "x": 2.5,
+                "y": 0.0,
+                "z": 11.5
+            },
+            "RotY": 180,
+            "UseSituation": 1
+        },
+        {
+            "BtlRule": 0,
+            "BtlvPos": 0,
+            "Size": 4,
+            "PokePos": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 7.0
+            },
+            "TrainerPos": {
+                "x": 3.0,
+                "y": 0.0,
+                "z": 12.5
+            },
+            "RotY": 180,
+            "UseSituation": 1
+        },
+        {
+            "BtlRule": 0,
+            "BtlvPos": 1,
+            "Size": 1,
+            "PokePos": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -3.5
+            },
+            "TrainerPos": {
+                "x": 1.0,
+                "y": 0.0,
+                "z": -6.5
+            },
+            "RotY": 0,
+            "UseSituation": 1
+        },
+        {
+            "BtlRule": 0,
+            "BtlvPos": 1,
+            "Size": 2,
+            "PokePos": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -4.0
+            },
+            "TrainerPos": {
+                "x": 2.0,
+                "y": 0.0,
+                "z": -8.0
+            },
+            "RotY": 0,
+            "UseSituation": 1
+        },
+        {
+            "BtlRule": 0,
+            "BtlvPos": 1,
+            "Size": 3,
+            "PokePos": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -7.0
+            },
+            "TrainerPos": {
+                "x": 2.5,
+                "y": 0.0,
+                "z": -11.5
+            },
+            "RotY": 0,
+            "UseSituation": 1
+        },
+        {
+            "BtlRule": 0,
+            "BtlvPos": 1,
+            "Size": 4,
+            "PokePos": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -7.5
+            },
+            "TrainerPos": {
+                "x": 3.0,
+                "y": 0.0,
+                "z": -12.5
+            },
+            "RotY": 0,
+            "UseSituation": 1
+        },
+        {
+            "BtlRule": 1,
+            "BtlvPos": 0,
+            "Size": 1,
+            "PokePos": {
+                "x": 2.75,
+                "y": 0.0,
+                "z": 3.5
+            },
+            "TrainerPos": {
+                "x": 1.0,
+                "y": 0.0,
+                "z": 10.5
+            },
+            "RotY": 180,
+            "UseSituation": 1
+        },
+        {
+            "BtlRule": 1,
+            "BtlvPos": 0,
+            "Size": 2,
+            "PokePos": {
+                "x": 3.0,
+                "y": 0.0,
+                "z": 4.0
+            },
+            "TrainerPos": {
+                "x": 1.0,
+                "y": 0.0,
+                "z": 11.5
+            },
+            "RotY": 180,
+            "UseSituation": 1
+        },
+        {
+            "BtlRule": 1,
+            "BtlvPos": 0,
+            "Size": 3,
+            "PokePos": {
+                "x": 4.0,
+                "y": 0.0,
+                "z": 7.0
+            },
+            "TrainerPos": {
+                "x": 1.0,
+                "y": 0.0,
+                "z": 12.5
+            },
+            "RotY": 180,
+            "UseSituation": 1
+        },
+        {
+            "BtlRule": 1,
+            "BtlvPos": 0,
+            "Size": 4,
+            "PokePos": {
+                "x": 6.0,
+                "y": 0.0,
+                "z": 7.0
+            },
+            "TrainerPos": {
+                "x": 1.0,
+                "y": 0.0,
+                "z": 12.5
+            },
+            "RotY": 180,
+            "UseSituation": 1
+        },
+        {
+            "BtlRule": 1,
+            "BtlvPos": 2,
+            "Size": 1,
+            "PokePos": {
+                "x": -2.75,
+                "y": 0.0,
+                "z": 3.5
+            },
+            "TrainerPos": {
+                "x": -1.0,
+                "y": 0.0,
+                "z": 10.5
+            },
+            "RotY": 180,
+            "UseSituation": 1
+        },
+        {
+            "BtlRule": 1,
+            "BtlvPos": 2,
+            "Size": 2,
+            "PokePos": {
+                "x": -3.0,
+                "y": 0.0,
+                "z": 4.0
+            },
+            "TrainerPos": {
+                "x": -1.0,
+                "y": 0.0,
+                "z": 11.5
+            },
+            "RotY": 180,
+            "UseSituation": 1
+        },
+        {
+            "BtlRule": 1,
+            "BtlvPos": 2,
+            "Size": 3,
+            "PokePos": {
+                "x": -4.0,
+                "y": 0.0,
+                "z": 7.0
+            },
+            "TrainerPos": {
+                "x": -1.0,
+                "y": 0.0,
+                "z": 12.5
+            },
+            "RotY": 180,
+            "UseSituation": 1
+        },
+        {
+            "BtlRule": 1,
+            "BtlvPos": 2,
+            "Size": 4,
+            "PokePos": {
+                "x": -6.0,
+                "y": 0.0,
+                "z": 7.0
+            },
+            "TrainerPos": {
+                "x": -1.0,
+                "y": 0.0,
+                "z": 12.5
+            },
+            "RotY": 180,
+            "UseSituation": 1
+        },
+        {
+            "BtlRule": 1,
+            "BtlvPos": 1,
+            "Size": 1,
+            "PokePos": {
+                "x": -2.75,
+                "y": 0.0,
+                "z": -3.5
+            },
+            "TrainerPos": {
+                "x": -1.0,
+                "y": 0.0,
+                "z": -10.5
+            },
+            "RotY": 0,
+            "UseSituation": 1
+        },
+        {
+            "BtlRule": 1,
+            "BtlvPos": 1,
+            "Size": 2,
+            "PokePos": {
+                "x": -3.0,
+                "y": 0.0,
+                "z": -4.0
+            },
+            "TrainerPos": {
+                "x": -1.0,
+                "y": 0.0,
+                "z": -11.5
+            },
+            "RotY": 0,
+            "UseSituation": 1
+        },
+        {
+            "BtlRule": 1,
+            "BtlvPos": 1,
+            "Size": 3,
+            "PokePos": {
+                "x": -4.0,
+                "y": 0.0,
+                "z": -7.0
+            },
+            "TrainerPos": {
+                "x": -1.0,
+                "y": 0.0,
+                "z": -12.5
+            },
+            "RotY": 0,
+            "UseSituation": 1
+        },
+        {
+            "BtlRule": 1,
+            "BtlvPos": 1,
+            "Size": 4,
+            "PokePos": {
+                "x": -6.0,
+                "y": 0.0,
+                "z": -7.0
+            },
+            "TrainerPos": {
+                "x": -1.0,
+                "y": 0.0,
+                "z": -12.5
+            },
+            "RotY": 0,
+            "UseSituation": 1
+        },
+        {
+            "BtlRule": 1,
+            "BtlvPos": 3,
+            "Size": 1,
+            "PokePos": {
+                "x": 2.75,
+                "y": 0.0,
+                "z": -3.5
+            },
+            "TrainerPos": {
+                "x": 1.0,
+                "y": 0.0,
+                "z": -10.5
+            },
+            "RotY": 0,
+            "UseSituation": 1
+        },
+        {
+            "BtlRule": 1,
+            "BtlvPos": 3,
+            "Size": 2,
+            "PokePos": {
+                "x": 3.0,
+                "y": 0.0,
+                "z": -4.0
+            },
+            "TrainerPos": {
+                "x": 1.0,
+                "y": 0.0,
+                "z": -11.5
+            },
+            "RotY": 0,
+            "UseSituation": 1
+        },
+        {
+            "BtlRule": 1,
+            "BtlvPos": 3,
+            "Size": 3,
+            "PokePos": {
+                "x": 4.0,
+                "y": 0.0,
+                "z": -7.0
+            },
+            "TrainerPos": {
+                "x": 1.0,
+                "y": 0.0,
+                "z": -12.5
+            },
+            "RotY": 0,
+            "UseSituation": 1
+        },
+        {
+            "BtlRule": 1,
+            "BtlvPos": 3,
+            "Size": 4,
+            "PokePos": {
+                "x": 6.0,
+                "y": 0.0,
+                "z": -7.0
+            },
+            "TrainerPos": {
+                "x": 1.0,
+                "y": 0.0,
+                "z": -12.5
+            },
+            "RotY": 0,
+            "UseSituation": 1
+        },
+        {
+            "BtlRule": 3,
+            "BtlvPos": 0,
+            "Size": 3,
+            "PokePos": {
+                "x": -9999.0,
+                "y": -9999.0,
+                "z": 2.5
+            },
+            "TrainerPos": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 3.2200000286102295
+            },
+            "RotY": 200,
+            "UseSituation": 0
+        },
+        {
+            "BtlRule": 3,
+            "BtlvPos": 1,
+            "Size": 1,
+            "PokePos": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -1.5
+            },
+            "TrainerPos": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "RotY": 0,
+            "UseSituation": 0
+        },
+        {
+            "BtlRule": 3,
+            "BtlvPos": 1,
+            "Size": 2,
+            "PokePos": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -2.5
+            },
+            "TrainerPos": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "RotY": 0,
+            "UseSituation": 0
+        },
+        {
+            "BtlRule": 3,
+            "BtlvPos": 1,
+            "Size": 3,
+            "PokePos": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -3.5
+            },
+            "TrainerPos": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "RotY": 0,
+            "UseSituation": 0
+        }
+    ],
+    "DefaultCameraPlacementData": [
+        {
+            "BtlRule": 0,
+            "PokeSizeP": 1,
+            "PokeSizeE": 1,
+            "MainCamPos": {
+                "x": -1.187000036239624,
+                "y": 0.5009999871253967,
+                "z": 6.5
+            },
+            "MainCamRot": {
+                "x": -1.4559999704360962,
+                "y": 166.0489959716797,
+                "z": 0.0
+            },
+            "MainCamNear": 0.009999999776482582,
+            "MainCamFar": 3000.0,
+            "MainCamFov": 34.0,
+            "SubCamPos": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamRot": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamNear": 0.0,
+            "SubCamFar": 0.0,
+            "SubCamFov": 0.0
+        },
+        {
+            "BtlRule": 0,
+            "PokeSizeP": 1,
+            "PokeSizeE": 2,
+            "MainCamPos": {
+                "x": -1.25,
+                "y": 0.5699999928474426,
+                "z": 6.800000190734863
+            },
+            "MainCamRot": {
+                "x": -1.2680000066757202,
+                "y": 167.18499755859375,
+                "z": 0.0
+            },
+            "MainCamNear": 0.009999999776482582,
+            "MainCamFar": 3000.0,
+            "MainCamFov": 34.0,
+            "SubCamPos": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamRot": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamNear": 0.0,
+            "SubCamFar": 0.0,
+            "SubCamFov": 0.0
+        },
+        {
+            "BtlRule": 0,
+            "PokeSizeP": 1,
+            "PokeSizeE": 3,
+            "MainCamPos": {
+                "x": -1.5579999685287476,
+                "y": 0.7300000190734863,
+                "z": 7.690999984741211
+            },
+            "MainCamRot": {
+                "x": -1.5479999780654907,
+                "y": 167.63400268554688,
+                "z": 0.0
+            },
+            "MainCamNear": 0.009999999776482582,
+            "MainCamFar": 3000.0,
+            "MainCamFov": 34.0,
+            "SubCamPos": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamRot": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamNear": 0.0,
+            "SubCamFar": 0.0,
+            "SubCamFov": 0.0
+        },
+        {
+            "BtlRule": 0,
+            "PokeSizeP": 1,
+            "PokeSizeE": 4,
+            "MainCamPos": {
+                "x": -1.7000000476837158,
+                "y": 0.20000000298023224,
+                "z": 8.0
+            },
+            "MainCamRot": {
+                "x": -10.0,
+                "y": 168.0,
+                "z": 0.0
+            },
+            "MainCamNear": 0.009999999776482582,
+            "MainCamFar": 3000.0,
+            "MainCamFov": 34.0,
+            "SubCamPos": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamRot": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamNear": 0.0,
+            "SubCamFar": 0.0,
+            "SubCamFov": 0.0
+        },
+        {
+            "BtlRule": 0,
+            "PokeSizeP": 2,
+            "PokeSizeE": 1,
+            "MainCamPos": {
+                "x": -2.0769999027252197,
+                "y": 0.8939999938011169,
+                "z": 8.529000282287598
+            },
+            "MainCamRot": {
+                "x": -1.5379999876022339,
+                "y": 161.95199584960938,
+                "z": 0.0
+            },
+            "MainCamNear": 0.009999999776482582,
+            "MainCamFar": 3000.0,
+            "MainCamFov": 34.0,
+            "SubCamPos": {
+                "x": 0.0,
+                "y": 2.0,
+                "z": 0.0
+            },
+            "SubCamRot": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamNear": 0.0,
+            "SubCamFar": 0.0,
+            "SubCamFov": 0.0
+        },
+        {
+            "BtlRule": 0,
+            "PokeSizeP": 2,
+            "PokeSizeE": 2,
+            "MainCamPos": {
+                "x": -2.0,
+                "y": 0.8849999904632568,
+                "z": 8.878999710083008
+            },
+            "MainCamRot": {
+                "x": -2.802999973297119,
+                "y": 165.0,
+                "z": 0.0
+            },
+            "MainCamNear": 0.009999999776482582,
+            "MainCamFar": 3000.0,
+            "MainCamFov": 34.0,
+            "SubCamPos": {
+                "x": 0.0,
+                "y": 2.0,
+                "z": 0.0
+            },
+            "SubCamRot": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamNear": 0.0,
+            "SubCamFar": 0.0,
+            "SubCamFov": 0.0
+        },
+        {
+            "BtlRule": 0,
+            "PokeSizeP": 2,
+            "PokeSizeE": 3,
+            "MainCamPos": {
+                "x": -2.2899999618530273,
+                "y": 1.0,
+                "z": 9.479999542236328
+            },
+            "MainCamRot": {
+                "x": -2.1579999923706055,
+                "y": 165.28799438476562,
+                "z": 0.0
+            },
+            "MainCamNear": 0.009999999776482582,
+            "MainCamFar": 3000.0,
+            "MainCamFov": 34.0,
+            "SubCamPos": {
+                "x": 0.0,
+                "y": 2.0,
+                "z": 0.0
+            },
+            "SubCamRot": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamNear": 0.0,
+            "SubCamFar": 0.0,
+            "SubCamFov": 0.0
+        },
+        {
+            "BtlRule": 0,
+            "PokeSizeP": 2,
+            "PokeSizeE": 4,
+            "MainCamPos": {
+                "x": -2.2899999618530273,
+                "y": 0.6000000238418579,
+                "z": 10.0
+            },
+            "MainCamRot": {
+                "x": -6.940000057220459,
+                "y": 165.5,
+                "z": 0.0
+            },
+            "MainCamNear": 0.009999999776482582,
+            "MainCamFar": 3000.0,
+            "MainCamFov": 34.0,
+            "SubCamPos": {
+                "x": 0.0,
+                "y": 2.0,
+                "z": 0.0
+            },
+            "SubCamRot": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamNear": 0.0,
+            "SubCamFar": 0.0,
+            "SubCamFov": 0.0
+        },
+        {
+            "BtlRule": 0,
+            "PokeSizeP": 3,
+            "PokeSizeE": 1,
+            "MainCamPos": {
+                "x": -3.5,
+                "y": 1.5099999904632568,
+                "z": 14.180000305175781
+            },
+            "MainCamRot": {
+                "x": -2.299999952316284,
+                "y": 161.5,
+                "z": 0.0
+            },
+            "MainCamNear": 0.009999999776482582,
+            "MainCamFar": 3000.0,
+            "MainCamFov": 34.0,
+            "SubCamPos": {
+                "x": 0.0,
+                "y": 3.0,
+                "z": 0.0
+            },
+            "SubCamRot": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamNear": 0.0,
+            "SubCamFar": 0.0,
+            "SubCamFov": 0.0
+        },
+        {
+            "BtlRule": 0,
+            "PokeSizeP": 3,
+            "PokeSizeE": 2,
+            "MainCamPos": {
+                "x": -3.5,
+                "y": 1.5099999904632568,
+                "z": 14.180000305175781
+            },
+            "MainCamRot": {
+                "x": -2.299999952316284,
+                "y": 161.5,
+                "z": 0.0
+            },
+            "MainCamNear": 0.009999999776482582,
+            "MainCamFar": 3000.0,
+            "MainCamFov": 34.0,
+            "SubCamPos": {
+                "x": 0.0,
+                "y": 3.0,
+                "z": 0.0
+            },
+            "SubCamRot": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamNear": 0.0,
+            "SubCamFar": 0.0,
+            "SubCamFov": 0.0
+        },
+        {
+            "BtlRule": 0,
+            "PokeSizeP": 3,
+            "PokeSizeE": 3,
+            "MainCamPos": {
+                "x": -3.5,
+                "y": 1.5099999904632568,
+                "z": 14.180000305175781
+            },
+            "MainCamRot": {
+                "x": -2.299999952316284,
+                "y": 161.5,
+                "z": 0.0
+            },
+            "MainCamNear": 0.009999999776482582,
+            "MainCamFar": 3000.0,
+            "MainCamFov": 34.0,
+            "SubCamPos": {
+                "x": 0.0,
+                "y": 3.0,
+                "z": 0.0
+            },
+            "SubCamRot": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamNear": 0.0,
+            "SubCamFar": 0.0,
+            "SubCamFov": 0.0
+        },
+        {
+            "BtlRule": 0,
+            "PokeSizeP": 3,
+            "PokeSizeE": 4,
+            "MainCamPos": {
+                "x": -3.5,
+                "y": 1.5099999904632568,
+                "z": 14.180000305175781
+            },
+            "MainCamRot": {
+                "x": -2.299999952316284,
+                "y": 161.5,
+                "z": 0.0
+            },
+            "MainCamNear": 0.009999999776482582,
+            "MainCamFar": 3000.0,
+            "MainCamFov": 34.0,
+            "SubCamPos": {
+                "x": 0.0,
+                "y": 3.0,
+                "z": 0.0
+            },
+            "SubCamRot": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamNear": 0.0,
+            "SubCamFar": 0.0,
+            "SubCamFov": 0.0
+        },
+        {
+            "BtlRule": 0,
+            "PokeSizeP": 4,
+            "PokeSizeE": 1,
+            "MainCamPos": {
+                "x": -6.21999979019165,
+                "y": 2.0,
+                "z": 20.0
+            },
+            "MainCamRot": {
+                "x": -9.59000015258789,
+                "y": 159.6199951171875,
+                "z": 0.0
+            },
+            "MainCamNear": 0.009999999776482582,
+            "MainCamFar": 3000.0,
+            "MainCamFov": 34.0,
+            "SubCamPos": {
+                "x": 0.0,
+                "y": 3.0,
+                "z": 0.0
+            },
+            "SubCamRot": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamNear": 0.0,
+            "SubCamFar": 0.0,
+            "SubCamFov": 0.0
+        },
+        {
+            "BtlRule": 0,
+            "PokeSizeP": 4,
+            "PokeSizeE": 2,
+            "MainCamPos": {
+                "x": -6.21999979019165,
+                "y": 2.0,
+                "z": 20.0
+            },
+            "MainCamRot": {
+                "x": -9.59000015258789,
+                "y": 159.6199951171875,
+                "z": 0.0
+            },
+            "MainCamNear": 0.009999999776482582,
+            "MainCamFar": 3000.0,
+            "MainCamFov": 34.0,
+            "SubCamPos": {
+                "x": 0.0,
+                "y": 3.0,
+                "z": 0.0
+            },
+            "SubCamRot": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamNear": 0.0,
+            "SubCamFar": 0.0,
+            "SubCamFov": 0.0
+        },
+        {
+            "BtlRule": 0,
+            "PokeSizeP": 4,
+            "PokeSizeE": 3,
+            "MainCamPos": {
+                "x": -6.21999979019165,
+                "y": 2.0,
+                "z": 20.0
+            },
+            "MainCamRot": {
+                "x": -9.59000015258789,
+                "y": 159.6199951171875,
+                "z": 0.0
+            },
+            "MainCamNear": 0.009999999776482582,
+            "MainCamFar": 3000.0,
+            "MainCamFov": 34.0,
+            "SubCamPos": {
+                "x": 0.0,
+                "y": 3.0,
+                "z": 0.0
+            },
+            "SubCamRot": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamNear": 0.0,
+            "SubCamFar": 0.0,
+            "SubCamFov": 0.0
+        },
+        {
+            "BtlRule": 0,
+            "PokeSizeP": 4,
+            "PokeSizeE": 4,
+            "MainCamPos": {
+                "x": -6.21999979019165,
+                "y": 2.0,
+                "z": 20.0
+            },
+            "MainCamRot": {
+                "x": -9.59000015258789,
+                "y": 159.6199951171875,
+                "z": 0.0
+            },
+            "MainCamNear": 0.009999999776482582,
+            "MainCamFar": 3000.0,
+            "MainCamFov": 34.0,
+            "SubCamPos": {
+                "x": 0.0,
+                "y": 3.0,
+                "z": 0.0
+            },
+            "SubCamRot": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamNear": 0.0,
+            "SubCamFar": 0.0,
+            "SubCamFov": 0.0
+        },
+        {
+            "BtlRule": 1,
+            "PokeSizeP": 1,
+            "PokeSizeE": 1,
+            "MainCamPos": {
+                "x": -2.3499999046325684,
+                "y": 3.299999952316284,
+                "z": 9.75
+            },
+            "MainCamRot": {
+                "x": 19.799999237060547,
+                "y": 167.6999969482422,
+                "z": 0.0
+            },
+            "MainCamNear": 0.009999999776482582,
+            "MainCamFar": 3000.0,
+            "MainCamFov": 34.0,
+            "SubCamPos": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamRot": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamNear": 0.0,
+            "SubCamFar": 0.0,
+            "SubCamFov": 0.0
+        },
+        {
+            "BtlRule": 1,
+            "PokeSizeP": 1,
+            "PokeSizeE": 2,
+            "MainCamPos": {
+                "x": -2.5,
+                "y": 3.0,
+                "z": 10.100000381469727
+            },
+            "MainCamRot": {
+                "x": 15.34000015258789,
+                "y": 167.6999969482422,
+                "z": 0.0
+            },
+            "MainCamNear": 0.009999999776482582,
+            "MainCamFar": 3000.0,
+            "MainCamFov": 34.0,
+            "SubCamPos": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamRot": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamNear": 0.0,
+            "SubCamFar": 0.0,
+            "SubCamFov": 0.0
+        },
+        {
+            "BtlRule": 1,
+            "PokeSizeP": 1,
+            "PokeSizeE": 3,
+            "MainCamPos": {
+                "x": -2.9000000953674316,
+                "y": 3.9600000381469727,
+                "z": 12.899999618530273
+            },
+            "MainCamRot": {
+                "x": 11.489999771118164,
+                "y": 169.97000122070312,
+                "z": 0.0
+            },
+            "MainCamNear": 0.009999999776482582,
+            "MainCamFar": 3000.0,
+            "MainCamFov": 34.0,
+            "SubCamPos": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamRot": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamNear": 0.0,
+            "SubCamFar": 0.0,
+            "SubCamFov": 0.0
+        },
+        {
+            "BtlRule": 1,
+            "PokeSizeP": 1,
+            "PokeSizeE": 4,
+            "MainCamPos": {
+                "x": -2.9000000953674316,
+                "y": 2.299999952316284,
+                "z": 12.600000381469727
+            },
+            "MainCamRot": {
+                "x": 2.5,
+                "y": 169.97000122070312,
+                "z": 0.0
+            },
+            "MainCamNear": 0.009999999776482582,
+            "MainCamFar": 3000.0,
+            "MainCamFov": 34.0,
+            "SubCamPos": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamRot": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamNear": 0.0,
+            "SubCamFar": 0.0,
+            "SubCamFov": 0.0
+        },
+        {
+            "BtlRule": 1,
+            "PokeSizeP": 2,
+            "PokeSizeE": 1,
+            "MainCamPos": {
+                "x": -2.75,
+                "y": 3.75,
+                "z": 12.5
+            },
+            "MainCamRot": {
+                "x": 17.600000381469727,
+                "y": 167.6999969482422,
+                "z": 0.0
+            },
+            "MainCamNear": 0.009999999776482582,
+            "MainCamFar": 3000.0,
+            "MainCamFov": 34.0,
+            "SubCamPos": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamRot": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamNear": 0.0,
+            "SubCamFar": 0.0,
+            "SubCamFov": 0.0
+        },
+        {
+            "BtlRule": 1,
+            "PokeSizeP": 2,
+            "PokeSizeE": 2,
+            "MainCamPos": {
+                "x": -2.799999952316284,
+                "y": 4.0,
+                "z": 13.0
+            },
+            "MainCamRot": {
+                "x": 15.680000305175781,
+                "y": 168.5,
+                "z": 0.0
+            },
+            "MainCamNear": 0.009999999776482582,
+            "MainCamFar": 3000.0,
+            "MainCamFov": 34.0,
+            "SubCamPos": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamRot": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamNear": 0.0,
+            "SubCamFar": 0.0,
+            "SubCamFov": 0.0
+        },
+        {
+            "BtlRule": 1,
+            "PokeSizeP": 2,
+            "PokeSizeE": 3,
+            "MainCamPos": {
+                "x": -2.75,
+                "y": 4.0,
+                "z": 14.0
+            },
+            "MainCamRot": {
+                "x": 11.899999618530273,
+                "y": 170.10000610351562,
+                "z": 0.0
+            },
+            "MainCamNear": 0.009999999776482582,
+            "MainCamFar": 3000.0,
+            "MainCamFov": 34.0,
+            "SubCamPos": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamRot": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamNear": 0.0,
+            "SubCamFar": 0.0,
+            "SubCamFov": 0.0
+        },
+        {
+            "BtlRule": 1,
+            "PokeSizeP": 2,
+            "PokeSizeE": 4,
+            "MainCamPos": {
+                "x": -2.75,
+                "y": 3.5,
+                "z": 14.5
+            },
+            "MainCamRot": {
+                "x": 6.900000095367432,
+                "y": 170.10000610351562,
+                "z": 0.0
+            },
+            "MainCamNear": 0.009999999776482582,
+            "MainCamFar": 3000.0,
+            "MainCamFov": 34.0,
+            "SubCamPos": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamRot": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamNear": 0.0,
+            "SubCamFar": 0.0,
+            "SubCamFov": 0.0
+        },
+        {
+            "BtlRule": 1,
+            "PokeSizeP": 3,
+            "PokeSizeE": 1,
+            "MainCamPos": {
+                "x": -3.5199999809265137,
+                "y": 6.699999809265137,
+                "z": 19.0
+            },
+            "MainCamRot": {
+                "x": 15.100000381469727,
+                "y": 168.5,
+                "z": 0.0
+            },
+            "MainCamNear": 0.009999999776482582,
+            "MainCamFar": 3000.0,
+            "MainCamFov": 34.0,
+            "SubCamPos": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamRot": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamNear": 0.0,
+            "SubCamFar": 0.0,
+            "SubCamFov": 0.0
+        },
+        {
+            "BtlRule": 1,
+            "PokeSizeP": 3,
+            "PokeSizeE": 2,
+            "MainCamPos": {
+                "x": -3.5199999809265137,
+                "y": 6.699999809265137,
+                "z": 19.0
+            },
+            "MainCamRot": {
+                "x": 15.100000381469727,
+                "y": 168.5,
+                "z": 0.0
+            },
+            "MainCamNear": 0.009999999776482582,
+            "MainCamFar": 3000.0,
+            "MainCamFov": 34.0,
+            "SubCamPos": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamRot": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamNear": 0.0,
+            "SubCamFar": 0.0,
+            "SubCamFov": 0.0
+        },
+        {
+            "BtlRule": 1,
+            "PokeSizeP": 3,
+            "PokeSizeE": 3,
+            "MainCamPos": {
+                "x": -3.5199999809265137,
+                "y": 6.699999809265137,
+                "z": 19.0
+            },
+            "MainCamRot": {
+                "x": 15.100000381469727,
+                "y": 168.5,
+                "z": 0.0
+            },
+            "MainCamNear": 0.009999999776482582,
+            "MainCamFar": 3000.0,
+            "MainCamFov": 34.0,
+            "SubCamPos": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamRot": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamNear": 0.0,
+            "SubCamFar": 0.0,
+            "SubCamFov": 0.0
+        },
+        {
+            "BtlRule": 1,
+            "PokeSizeP": 3,
+            "PokeSizeE": 4,
+            "MainCamPos": {
+                "x": -3.5199999809265137,
+                "y": 6.699999809265137,
+                "z": 19.0
+            },
+            "MainCamRot": {
+                "x": 15.100000381469727,
+                "y": 168.5,
+                "z": 0.0
+            },
+            "MainCamNear": 0.009999999776482582,
+            "MainCamFar": 3000.0,
+            "MainCamFov": 34.0,
+            "SubCamPos": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamRot": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamNear": 0.0,
+            "SubCamFar": 0.0,
+            "SubCamFov": 0.0
+        },
+        {
+            "BtlRule": 1,
+            "PokeSizeP": 4,
+            "PokeSizeE": 1,
+            "MainCamPos": {
+                "x": -4.5,
+                "y": 10.0,
+                "z": 23.0
+            },
+            "MainCamRot": {
+                "x": 17.899999618530273,
+                "y": 166.86000061035156,
+                "z": 0.0
+            },
+            "MainCamNear": 0.009999999776482582,
+            "MainCamFar": 3000.0,
+            "MainCamFov": 34.0,
+            "SubCamPos": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamRot": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamNear": 0.0,
+            "SubCamFar": 0.0,
+            "SubCamFov": 0.0
+        },
+        {
+            "BtlRule": 1,
+            "PokeSizeP": 4,
+            "PokeSizeE": 2,
+            "MainCamPos": {
+                "x": -4.5,
+                "y": 10.0,
+                "z": 23.0
+            },
+            "MainCamRot": {
+                "x": 17.899999618530273,
+                "y": 166.86000061035156,
+                "z": 0.0
+            },
+            "MainCamNear": 0.009999999776482582,
+            "MainCamFar": 3000.0,
+            "MainCamFov": 34.0,
+            "SubCamPos": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamRot": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamNear": 0.0,
+            "SubCamFar": 0.0,
+            "SubCamFov": 0.0
+        },
+        {
+            "BtlRule": 1,
+            "PokeSizeP": 4,
+            "PokeSizeE": 3,
+            "MainCamPos": {
+                "x": -4.5,
+                "y": 10.0,
+                "z": 23.0
+            },
+            "MainCamRot": {
+                "x": 17.899999618530273,
+                "y": 166.86000061035156,
+                "z": 0.0
+            },
+            "MainCamNear": 0.009999999776482582,
+            "MainCamFar": 3000.0,
+            "MainCamFov": 34.0,
+            "SubCamPos": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamRot": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamNear": 0.0,
+            "SubCamFar": 0.0,
+            "SubCamFov": 0.0
+        },
+        {
+            "BtlRule": 1,
+            "PokeSizeP": 4,
+            "PokeSizeE": 4,
+            "MainCamPos": {
+                "x": -3.5199999809265137,
+                "y": 6.699999809265137,
+                "z": 19.0
+            },
+            "MainCamRot": {
+                "x": 15.100000381469727,
+                "y": 168.5,
+                "z": 0.0
+            },
+            "MainCamNear": 0.009999999776482582,
+            "MainCamFar": 3000.0,
+            "MainCamFov": 34.0,
+            "SubCamPos": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamRot": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamNear": 0.0,
+            "SubCamFar": 0.0,
+            "SubCamFov": 0.0
+        },
+        {
+            "BtlRule": 3,
+            "PokeSizeP": 3,
+            "PokeSizeE": 1,
+            "MainCamPos": {
+                "x": -2.0,
+                "y": 1.2000000476837158,
+                "z": 5.0
+            },
+            "MainCamRot": {
+                "x": 4.0,
+                "y": 150.0,
+                "z": 0.0
+            },
+            "MainCamNear": 0.009999999776482582,
+            "MainCamFar": 3000.0,
+            "MainCamFov": 34.0,
+            "SubCamPos": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamRot": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamNear": 0.0,
+            "SubCamFar": 0.0,
+            "SubCamFov": 0.0
+        },
+        {
+            "BtlRule": 3,
+            "PokeSizeP": 3,
+            "PokeSizeE": 2,
+            "MainCamPos": {
+                "x": -2.0,
+                "y": 1.2000000476837158,
+                "z": 5.0
+            },
+            "MainCamRot": {
+                "x": 4.0,
+                "y": 150.0,
+                "z": 0.0
+            },
+            "MainCamNear": 0.009999999776482582,
+            "MainCamFar": 3000.0,
+            "MainCamFov": 34.0,
+            "SubCamPos": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamRot": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamNear": 0.0,
+            "SubCamFar": 0.0,
+            "SubCamFov": 0.0
+        },
+        {
+            "BtlRule": 3,
+            "PokeSizeP": 3,
+            "PokeSizeE": 3,
+            "MainCamPos": {
+                "x": -2.0,
+                "y": 1.2000000476837158,
+                "z": 5.0
+            },
+            "MainCamRot": {
+                "x": 4.0,
+                "y": 150.0,
+                "z": 0.0
+            },
+            "MainCamNear": 0.009999999776482582,
+            "MainCamFar": 3000.0,
+            "MainCamFov": 34.0,
+            "SubCamPos": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamRot": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "SubCamNear": 0.0,
+            "SubCamFar": 0.0,
+            "SubCamFov": 0.0
+        }
+    ]
+}

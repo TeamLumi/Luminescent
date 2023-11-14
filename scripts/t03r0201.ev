@@ -1,0 +1,105 @@
+ev_t03r0201_middleman1:
+	_EASY_OBJ_MSG('dp_scenario1%96-msg_t03r0201_middleman1_01')
+	_END()
+ev_t03r0201_middlewoman1:
+	_EASY_OBJ_MSG('dp_scenario1%96-msg_t03r0201_middlewoman1_01')
+	_END()
+ev_t03r0201_item_fanatic:
+	_TALK_OBJ_START()
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_t03r0201_fanatic_greeting', 'I’m a total fanatic about items.\nThere’s so many interesting ones!\rDid you know some items only work\nwith specific species of Pokémon?\rIf you can show me a Pokémon that\ncan use a special item like that...\rI’ll share that special item with you!')
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_t03r0201_fanatic_show', 'Did you want to show me a Pokémon\nthat can use a special item?')
+	_CALL('ev_item_fanatic_check_party')
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_t03r0201_fanatic_nothing', 'Hmm...\rIt doesn’t look like any Pokémon in\nyour party can use a special item.')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_item_fanatic_check_party:
+	_TEMOTI_POKE_CHK(@SCWK_ANSWER, 25)
+	_IFVAL_CALL(@SCWK_ANSWER, 'EQ', 1, 'ev_item_fanatic_pikachu_25')
+	_TEMOTI_POKE_CHK(@SCWK_ANSWER, 83)
+	_IFVAL_CALL(@SCWK_ANSWER, 'EQ', 1, 'ev_item_fanatic_farfetch_83')
+	_TEMOTI_POKE_CHK(@SCWK_ANSWER, 104)
+	_IFVAL_CALL(@SCWK_ANSWER, 'EQ', 1, 'ev_item_fanatic_cubone_104')
+	_TEMOTI_POKE_CHK(@SCWK_ANSWER, 105)
+	_IFVAL_CALL(@SCWK_ANSWER, 'EQ', 1, 'ev_item_fanatic_marowak_105')
+	_TEMOTI_POKE_CHK(@SCWK_ANSWER, 113)
+	_IFVAL_CALL(@SCWK_ANSWER, 'EQ', 1, 'ev_item_fanatic_chansey_113')
+	_TEMOTI_POKE_CHK(@SCWK_ANSWER, 132)
+	_IFVAL_CALL(@SCWK_ANSWER, 'EQ', 1, 'ev_item_fanatic_ditto_132')
+	_TEMOTI_POKE_CHK(@SCWK_ANSWER, 366)
+	_IFVAL_CALL(@SCWK_ANSWER, 'EQ', 1, 'ev_item_fanatic_clamperl_366')
+	_TEMOTI_POKE_CHK(@SCWK_ANSWER, 865); Sirfetch'd 
+	_IFVAL_CALL(@SCWK_ANSWER, 'EQ', 1, 'ev_item_fanatic_farfetch_83')
+	_TEMOTI_POKE_CHK(@SCWK_ANSWER, 1067); Sirfetch'd 
+	_IFVAL_CALL(@SCWK_ANSWER, 'EQ', 1, 'ev_item_fanatic_farfetch_83')
+	_RET()
+ev_item_fanatic_pikachu_25:
+	_LDVAL(@SCWK_TEMP3, 25)
+	_IF_FLAGON_JUMP(#2632, 'ev_item_fanatic_duplicate')
+	_LDVAL(@SCWK_TEMP0, 236); Light ball
+	_LDVAL(@SCWK_TEMP1, 1); Quantity 1
+	_FLAG_SET(#2632); Prevent duplicate
+	_JUMP('ev_item_fanatic_give_item')
+ev_item_fanatic_farfetch_83:
+	_LDVAL(@SCWK_TEMP3, 83)
+	_IF_FLAGON_JUMP(#2633, 'ev_item_fanatic_duplicate')
+	_LDVAL(@SCWK_TEMP0, 259); Leek
+	_LDVAL(@SCWK_TEMP1, 1); Quantity 1
+	_FLAG_SET(#2633); Prevent duplicate
+	_JUMP('ev_item_fanatic_give_item')
+ev_item_fanatic_cubone_104:
+	_LDVAL(@SCWK_TEMP3, 104)
+	_IF_FLAGON_JUMP(#2634, 'ev_item_fanatic_duplicate')
+	_LDVAL(@SCWK_TEMP0, 258); Thick Club
+	_LDVAL(@SCWK_TEMP1, 1); Quantity 1
+	_FLAG_SET(#2634); Prevent duplicate
+	_JUMP('ev_item_fanatic_give_item')
+ev_item_fanatic_marowak_105:
+	_LDVAL(@SCWK_TEMP3, 105)
+	_IF_FLAGON_JUMP(#2634, 'ev_item_fanatic_duplicate')
+	_LDVAL(@SCWK_TEMP0, 258); Thick Club
+	_LDVAL(@SCWK_TEMP1, 1); Quantity 1
+	_FLAG_SET(#2634); Prevent duplicate
+	_JUMP('ev_item_fanatic_give_item')
+ev_item_fanatic_chansey_113:
+	_LDVAL(@SCWK_TEMP3, 113)
+	_IF_FLAGON_JUMP(#2635, 'ev_item_fanatic_duplicate')
+	_LDVAL(@SCWK_TEMP0, 256); Lucky Punch
+	_LDVAL(@SCWK_TEMP1, 1); Quantity 1
+	_FLAG_SET(#2635); Prevent duplicate
+	_JUMP('ev_item_fanatic_give_item')
+ev_item_fanatic_ditto_132:
+	_LDVAL(@SCWK_TEMP3, 132)
+	_IF_FLAGON_JUMP(#2636, 'ev_item_fanatic_duplicate')
+	_LDVAL(@SCWK_TEMP0, 274); Quick Powder
+	_LDVAL(@SCWK_TEMP2, 257); Metal Powder
+	_LDVAL(@SCWK_TEMP1, 1); Quantity 1
+	_FLAG_SET(#2636); Prevent duplicate
+	_JUMP('ev_item_fanatic_give_item_two')
+ev_item_fanatic_clamperl_366:
+	_LDVAL(@SCWK_TEMP3, 366)
+	_IF_FLAGON_JUMP(#2637, 'ev_item_fanatic_duplicate')
+	_LDVAL(@SCWK_TEMP0, 226); Quick Powder
+	_LDVAL(@SCWK_TEMP2, 227); Metal Powder
+	_LDVAL(@SCWK_TEMP1, 1); Quantity 1
+	_FLAG_SET(#2637); Prevent duplicate
+	_JUMP('ev_item_fanatic_give_item_two')
+ev_item_fanatic_give_item:
+	_POKEMON_NAME_EXTRA(0, @SCWK_TEMP3, 0, 0)
+	_ITEM_NAME(1, @SCWK_TEMP0, 1)
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_t03r0201_fanatic_give_item', 'Oh?\nThat’s a {0}!\rYes, there is an item that only\nthat Pokémon can use!\rHere’s one for you!')
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_item_fanatic_duplicate:
+	_RET()
+ev_item_fanatic_give_item_two:
+	_POKEMON_NAME_EXTRA(0, @SCWK_TEMP3, 0, 0)
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_t03r0201_fanatic_give_item_two', 'Oh, my!\nThat’s a {0}!\rThere are actually two special items\nthat a {0} can use!\rI’ll give you both of them!')
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_LDVAL(@SCWK_TEMP0, @SCWK_TEMP2); Load the second item
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()

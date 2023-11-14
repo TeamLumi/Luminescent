@@ -1,0 +1,61 @@
+ev_t03r0301_woman1:
+	_TALK_OBJ_START()
+	; TODO: Use different flag for this trade
+	_IF_FLAGON_JUMP(#2001, 'ev_pokechange_t03r0301_woman1_end')
+	;_TALKMSG('dp_scenario2%196-msg_c09r0101_woman2_01') Bad dialogue
+	_MACRO_TALK_KEYWAIT('dp_scenario2', '00_msg_t03r0301_woman1_01', 'By any chance, do you have a Pokémon\ncalled Cherubi?\rIf you do, would you like to trade\nyour Cherubi for my Skorupi?')
+	_YES_NO_WIN(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_pokechange_t03r0301_woman1_yes_01')
+	_JUMP('ev_pokechange_t03r0301_woman1_no_01')
+ev_pokechange_t03r0301_woman1_yes_01:
+	_TALK_CLOSE()
+	_POKELIST_SET_PROC(2)
+	_POKELIST_GET_RESULT(@SCWK_TEMP0, @SCWK_TEMP1)
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', -1, 'ev_pokechange_t03r0301_woman1_no_01')
+	_TEMOTI_BOX_MONSNO(@SCWK_TEMP0, @SCWK_TEMP1, @SCWK_ANSWER)
+	_IFVAL_CALL(@SCWK_ANSWER, 'NE', 420, 'ev_pokechange_t03r0301_woman1_different')
+	_TALK_CLOSE()
+	_LOCALKOUKAN_APPLY(2, @SCWK_TEMP1, @SCWK_TEMP0)
+	_FLAG_SET(#2001)
+	_MACRO_TALK_KEYWAIT('dp_scenario2', '00_msg_t03r0301_woman1_02', 'Skorupi isn’t fitting for such a\nbeautiful lady like myself.\rJust kidding!\rPlease treat my Skorupi nicely.\nI’ll be good to your Cherubi, too!')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_pokechange_t03r0301_woman1_different:
+	_TALK_CLOSE()
+	_FLD_TRADE_DEL()
+	_TALKMSG('dp_scenario2%196-msg_c09r0101_woman2_03')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_pokechange_t03r0301_woman1_no_01:
+	_TALKMSG('dp_scenario2%196-msg_c09r0101_woman2_04')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_pokechange_t03r0301_woman1_end:
+	_TALKMSG('dp_scenario2%196-msg_c09r0101_woman2_05')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_t03r0301_aerialace:
+	_TALK_OBJ_START()
+	_IF_FLAGON_JUMP(#2681, 'ev_t03r0301_aerialace_done')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_ev_t03r0301_aerialace', 'Santoryu?\rNitoryu?\rAll you need is one sword to\nperform the Turning Swallow Cut!\rYour enemies will be cut down\nbefore they can even blink!\rBut swordsmanship is difficult in\nmy old age...\rYour Pokémon can perform a similar\ntechnique too, you know.\rTake this TM, youngster.')
+	_LDVAL(@SCWK_TEMP0, 367); Aerial Ace TM
+	_LDVAL(@SCWK_TEMP1, 1); Quantity 1
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msgev_t03r0301_aerialace_2', 'That TM contains Aerial Ace.\rWith its swiftness and accuracy, the\nmove will never miss its target.')
+	_FLAG_SET(#2681)
+	_JUMP('ev_t03r0301_aerialace_end')
+ev_t03r0301_aerialace_done:
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msgev_t03r0301_aerialace_3', 'Ah, I do miss practicing the way\nof the sword in my youth.')
+	_JUMP('ev_t03r0301_aerialace_end')
+ev_t03r0301_aerialace_end:
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()

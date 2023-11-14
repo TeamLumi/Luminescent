@@ -1,0 +1,62 @@
+ev_d17r0101:
+	_END()
+ev_d17r0101_cynthia_event:
+	_TALK_OBJ_START()
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_d17r0101_00', '...This place?!')
+	_TALK_CLOSE()
+	_OBJ_ANIME('D17R0101_CYNTHIA', 'anm_d17r0101_action_1')
+	_OBJ_ANIME_WAIT()
+	_OBJ_ANIME('HERO', 'anm_d17r0101_action_2')
+	_OBJ_ANIME_WAIT()
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_d17r0101_01', 'It’s the Sendoff Spring...\rIt’s said to somehow lead to the great\nbeyond...\rAnd Giratina was said to live in a world\non the opposite side of ours...')
+	_TALK_CLOSE()
+	_OBJ_ANIME('D17R0101_CYNTHIA', 'anm_d17r0101_action_3')
+	_OBJ_ANIME_WAIT()
+	_PLAYER_NAME(0)
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_d17r0101_02',  'Oh! I’m sincerely sorry!\nIt’s very rude of me!\r{0}, you’re incredible!\nYou really are a fantastic Trainer!\rLet me say this on behalf of all Sinnoh:\n{0}, thank you!\rOh! That’s right!\nYou have to go tell Prof. Rowan!\rHe was very worried about you.\nYou should visit him at his lab.')
+	_TALK_CLOSE()
+	_OBJ_ANIME('D17R0101_CYNTHIA', 'anm_d17r0101_action_4')
+	_OBJ_ANIME_WAIT()
+	_FLAG_SET(#2771); Hide Cynthia
+	_FLAG_SET(#2852); Hide the pair of mars/jupiter
+	_FLAG_RESET(#2851); Show other Cynthia
+	_OBJ_DEL('D17R0101_CYNTHIA_TRIGGER')
+	_OBJ_ADD('D17R0101_CYNTHIA2')
+	_OBJ_DEL('D17R0101_CYNTHIA')
+	_LDVAL(@TOWNMAP_GUIDE_SEQUENCE, 11250)
+	_TALK_OBJ_END()
+	_END()
+anm_d17r0101_action_turn_left:
+	_AC_DIR_L(4)
+	_ACMD_END()
+anm_d17r0101_action_1:
+	_AC_MARK_GYOE()
+	_AC_WAIT(8)
+	_AC_DIR_L(8)
+	_AC_WAIT(8)
+	_AC_DIR_R(8)
+	_AC_WAIT(8)
+	_AC_DIR_D(8)
+	_AC_DOWN(1, 8)
+	_ACMD_END()
+anm_d17r0101_action_2:
+	_AC_DOWN(1, 8)
+	_AC_DIR_R(8)
+	_ACMD_END()
+anm_d17r0101_action_3:
+	_AC_DIR_L(8)
+	_ACMD_END()
+anm_d17r0101_action_4:
+	_AC_DIR_U(8)
+	_AC_UP(1, 8)
+	_AC_DIR_L(8)
+	_AC_LEFT(1, 8)
+	_AC_DIR_D(8)
+	_ACMD_END()
+ev_d17r0101_cynthia_talk:
+	_TALK_OBJ_START()
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_d17r0101_talk_00', 'You have to go tell Prof.\nRowan about this at his lab.\rHe was very worried about you.')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_d17r0101_talk_01', 'Sigh...\nI wish I could have battled Giratina.\rOh, don’t mind me.\nI’m only musing out loud.\rYou deserve the glory and all the\nthanks for what you did.')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()

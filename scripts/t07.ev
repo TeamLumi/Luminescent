@@ -1,0 +1,71 @@
+ev_t07_woman2a:
+	_EASY_OBJ_MSG('dp_scenario3%48-msg_t07_woman2a_01')
+	_END()
+ev_t07_woman2b:
+	_EASY_OBJ_MSG('dp_scenario3%48-msg_t07_woman2b_01')
+	_END()
+ev_t07_woman3:
+	_EASY_OBJ_MSG('dp_scenario3%48-msg_t07_woman3_01')
+	_END()
+ev_t07_fighter:
+	_EASY_OBJ_MSG('dp_scenario3%48-msg_t07_fighter_01')
+	_END()
+ev_t07_sign1:
+	_EASY_BOARD_MSG('dp_scenario3%48-msg_t07_sign1_01', 'BOARD_TYPE_TOWN', 0)
+	_END()
+ev_t07_sign2:
+	_EASY_BOARD_MSG('dp_scenario3%48-msg_t07_sign2_01', 'BOARD_TYPE_POST', 0)
+	_END()
+ev_t07_swimmerm_1:
+	_EASY_OBJ_MSG('dp_scenario3%48-msg_t07_swimmerm_01')
+	_END()
+anm_t07_dragonite_1:
+	_AC_DIR_R(4)
+	_AC_RIGHT(10, 4)
+	_AC_MARK_GYOE()
+	_ACMD_END()
+anm_t07_dragonite_2:
+	_AC_WAIT(40)
+	_AC_DIR_L(4)
+	_ACMD_END()
+anm_t07_dragonite_3:
+	_AC_DIR_L(4)
+	_AC_LEFT(12, 4)
+	_ACMD_END()
+pos_t07_dragonite:
+	_TALK_OBJ_START()
+	_PLAYER_POS_GET(@SCWK_TEMP0, @SCWK_TEMP1)
+	_FLAG_RESET(#2864)
+	_OBJ_ADD('T07_DRAGONITE')
+	_SXY_POS_CHANGE('T07_DRAGONITE', 810, @SCWK_TEMP1)
+	_OBJ_ANIME('T07_DRAGONITE', 'anm_t07_dragonite_1')
+	_OBJ_ANIME('HERO', 'anm_t07_dragonite_2')
+	_OBJ_ANIME_WAIT()
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_t07_dragonite', 'You received a letter from the Dragonite!')
+	_LDVAL(@SCWK_TEMP0, 1824); Odd Invitation
+	_LDVAL(@SCWK_TEMP1, 1); Quantity 1
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_TALK_CLOSE()
+	_FLAG_RESET(#2845); Reveal Mewtwo in case E4 didn't work
+	_FLAG_SET(#3012)
+	_FLAG_SET(#3011)
+	_FLAG_SET(#3013)
+	_FLAG_RESET(#3002)
+	_FLAG_RESET(#3003)
+	_FLAG_RESET(#3004)
+	_FLAG_RESET(#3005)
+	_FLAG_RESET(#3006)
+	_FLAG_RESET(#3007)
+	_FLAG_RESET(#3008)
+	_PLAYER_NAME(0)
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_t07_dragonite_2', '{0} thanked the Dragonite.')
+	_TALK_CLOSE()
+	_VOICE_PLAY(149, 0, 0)
+	_OBJ_ANIME('T07_DRAGONITE', 'anm_t07_dragonite_3')
+	_OBJ_ANIME_WAIT()
+	_OBJ_DEL('T07_DRAGONITE')
+	_FLAG_SET(#2864)
+	_LDVAL(@466, 1)
+	_TALK_OBJ_END()
+	_END()
+

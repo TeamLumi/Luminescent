@@ -1,0 +1,140 @@
+ev_c05r1201_explore:
+	_TALK_OBJ_START()
+	_TALKMSG('dp_scenario2%57-msg_c05r1201_explore_01_1')
+	_TALKMSG('dp_scenario2%57-msg_c05r1201_explore_01_2')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c05r1201_oldman2:
+	_EASY_OBJ_MSG('dp_scenario2%57-msg_c05r1201_oldman2_01')
+	_END()
+ev_c05r1201_babyboy1:
+	_EASY_OBJ_MSG('dp_scenario2%57-msg_c05r1201_babyboy1_01')
+	_END()
+ev_c05r1201_oldwoman2:
+	_TALK_OBJ_START_TURN_NOT()
+	_TALKMSG('dp_scenario2%57-msg_c05r1201_oldwoman2_01_1')
+	_TALKMSG('dp_scenario2%57-msg_c05r1201_oldwoman2_01_2')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c05r1201_woman3:
+	_TALK_OBJ_START_TURN_NOT()
+	_TALKMSG('dp_scenario2%57-msg_c05r1201_woman3_01')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c05r1201_middlewoman1:
+	_TALK_OBJ_START_TURN_NOT()
+	_TALKMSG('dp_scenario2%57-msg_c05r1201_middlewoman1_01')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c05r1201_oldwoman_rest:
+	_IF_FLAGON_JUMP(#2665, 'ev_c05r1201_oldwoman_rest_done')
+	_TALK_OBJ_START_TURN_NOT()
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_c05r1201_oldwoman2_01', 'Ah... These old bones are tired.\nI need a long, rejuvenating rest.\rI wish I could Rest like a Pokémon...\rYou are a Trainer, are you not?\rYou can let your Pokémon take\na well deserved Rest with this TM...')
+	_LDVAL(@SCWK_TEMP0, 371); rest tm
+	_LDVAL(@SCWK_TEMP1, 1)
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_FLAG_SET(#2665)
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c05r1201_oldwoman_rest_done:
+	_MACRO_EASY_OBJ_MSG('dp_scenario3', '00_msg_c05r1201_oldwoman_rest_done', 'The Original One...\nDo you think it ever needs to Rest?')
+	_END()
+ev_arceus_check_done:
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_c05r1201_natdex_done', 'You must journey to the Spear Pillar\nat the peak of Mt. Coronet.\rIf you are truly the one who is fated\nto meet with the Original One...\rThen it will undoubtedly respond to\nthe sound of the Azure Flute.')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c05r1201_oldwoman_arceus:
+	_TALK_OBJ_START()
+	_IF_FLAGOFF_CALL($SYS_FLAG_GAME_CLEAR, 'ev_c05r1201_oldwoman_arceus_no_clear')
+	_IF_FLAGON_JUMP(#2799, 'ev_arceus_check_done')
+	_IF_FLAGON_JUMP(#2798, 'ev_arceus_check_plates')
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_c05r1201_0', 'Greetings, child.\rWelcome to this place of worship for\nthat which we call the Original One.\rIt is the creator of both our land and\nthe Pokémon found within legends.\rMere weaklings like us cannot hope\nto ever meet the Original One...\rYou’d have to be the Champion to even\nstand a chance of being worthy.\rNevertheless, we continue to offer\nour gratitude for its blessings.')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_OBJ_ANIME('C05R1201_OLDWOMAN2', 'anm_c05r1201_1')
+	_OBJ_ANIME_WAIT()
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_c05r1201_trainers_1', 'Oh, goodness... \nYou’re the new Champion, aren’t you?\rPerhaps, child, you could be the one\nto finally meet the Original One.\rBut first, you must prove that you\nhave mastery over all Pokémon types!')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_c05r1201_trainers_2', 'There are seventeen Type Master trainers\naround Sinnoh, each possessing a Plate.\rDefeat them using the same type in a\none-on-one battle to win the Plate.\rIf you gather all seventeen of the\nOriginal One’s Plates, return here!')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_FLAG_SET(#2798)
+	_FLAG_RESET(#2867); All master trainers revealed.
+	_TALK_OBJ_END()
+	_END()
+ev_c05r1201_oldwoman_arceus_no_clear:
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_c05r1201_old_woman_no_clear_0', 'Greetings, child.\rWelcome to this place of worship for\nthat which we call the Original One.\rIt is the creator of both our land and\nthe Pokémon found within legends.\rMere weaklings like us cannot hope\nto ever meet the Original One...\rYou’d have to be the Champion to even\nstand a chance of being worthy.\rNevertheless, we continue to offer\nour gratitude for its blessings.')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_arceus_no_plate:
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_c05r1201_plates_1', 'You appear to be missing a plate...')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_arceus_check_plates:
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_c05r1201_plates_0', 'There are seventeen Type Master trainers\naround Sinnoh, each possessing a Plate.\rDefeat them using the same type in a\none-on-one battle to win the Plate.\rIf you gather all seventeen of the\nOriginal One’s Plates, return here!')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_ITEM_CHK(298, 1, @SCWK_ANSWER); Flame plate
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_arceus_no_plate')
+	_ITEM_CHK(299, 1, @SCWK_ANSWER); Splash plate
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_arceus_no_plate')
+	_ITEM_CHK(300, 1, @SCWK_ANSWER); Zap Plate
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_arceus_no_plate')
+	_ITEM_CHK(301, 1, @SCWK_ANSWER); Meadow plate
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_arceus_no_plate')
+	_ITEM_CHK(302, 1, @SCWK_ANSWER); Icicle Plate
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_arceus_no_plate')
+	_ITEM_CHK(303, 1, @SCWK_ANSWER); Fist Plate
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_arceus_no_plate')
+	_ITEM_CHK(304, 1, @SCWK_ANSWER); Toxic plate
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_arceus_no_plate')
+	_ITEM_CHK(305, 1, @SCWK_ANSWER); Earth Plate
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_arceus_no_plate')
+	_ITEM_CHK(306, 1, @SCWK_ANSWER); Sky Plate
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_arceus_no_plate')
+	_ITEM_CHK(307, 1, @SCWK_ANSWER); Mind Plate
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_arceus_no_plate')
+	_ITEM_CHK(308, 1, @SCWK_ANSWER); Insect Plate
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_arceus_no_plate')
+	_ITEM_CHK(309, 1, @SCWK_ANSWER); Stone Plate
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_arceus_no_plate')
+	_ITEM_CHK(310, 1, @SCWK_ANSWER); Spooky Plate
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_arceus_no_plate')
+	_ITEM_CHK(311, 1, @SCWK_ANSWER); Draco Plate
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_arceus_no_plate')
+	_ITEM_CHK(312, 1, @SCWK_ANSWER); Dread Plate
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_arceus_no_plate')
+	_ITEM_CHK(313, 1, @SCWK_ANSWER); Iron Plate
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_arceus_no_plate')
+	_ITEM_CHK(644, 1, @SCWK_ANSWER); Iron Plate
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_arceus_no_plate')
+	_OBJ_ANIME('C05R1201_OLDWOMAN2', 'anm_c05r1201_1')
+	_OBJ_ANIME_WAIT()
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_c05r1201_all_plates', 'All seventeen Plates are indeed currently\nin your possession...\rExcellent work, young Champion.\rBut I am afraid that your challenge\ndoes not end here.\rThe Original One is the creator of all.\nYou must understand what all means.')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_c05r1201_2', 'Very well done, young Champion.\rAs you have proven yourself worthy,\nI shall bequeath this to you.\rThe ancient relic known only as the\nAzure Flute!')
+	_LDVAL(@SCWK_TEMP0, 455); Azure Flute
+	_LDVAL(@SCWK_TEMP1, 1); Quantity 1
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_TALK_CLOSE()
+	_LDVAL(@WK_SCENE_D05R0116, 1)
+	_FLAG_SET(#2799)
+	_TALK_OBJ_END()
+	_END()
+anm_c05r1201_1:
+	_AC_MARK_GYOE()
+	_ACMD_END()
+	

@@ -1,0 +1,382 @@
+ev_support_game_clear:
+	_TALK_OBJ_START()
+	_GET_MY_SEX(@SCWK_TEMP0)
+	_IF_FLAGOFF_JUMP(#FE_C01_BIRTHDAY, 'ev_support_game_clear_b')
+	_BIRTH_DAY_CHECK(@WK_PLAYER_BIRTH_MOUNTH, @WK_PLAYER_BIRTH_DAY, @SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'support_event_birthday')
+	_JUMP('ev_support_game_clear_b')
+	_END()
+ev_support_game_clear_b:
+	_IF_FLAGON_JUMP(#FE_D16R0101_RIVAL_TALK, 'ev_support_btl')
+	_JUMP('ev_support_game_clear_c')
+	_END()
+ev_support_game_clear_c:
+	_ZUKAN_CHK_SHINOU(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_support_game_clear_chk_zenkoku')
+	_IF_FLAGOFF_JUMP(#FE_T05R0101_OLDWOMAN1, 'support_event_02')
+	_IF_FLAGON_JUMP(#FE_D05R0114_SPPOKE_GET, 'support_event_00')
+	_IFVAL_JUMP(@WK_SCENE_D05R0114, 'NE', 5, 'support_event_00')
+	_JUMP('support_event_01')
+	_JUMP('ev_support_game_clear_chk_zenkoku')
+ev_support_game_clear_chk_zenkoku:
+	_ZENKOKU_ZUKAN_FLAG(2, @SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'support_event_03')
+	_IF_FLAGOFF_JUMP(#FE_GENERATE_START, 'support_event_04')
+	_IF_FLAGOFF_JUMP(#FE_C05R0901_POKEMON_GET, 'support_event_05')
+	_ZUKAN_CHK_NATIONAL(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'support_event_10')
+	_JUMP('support_event_100')
+	_END()
+support_event_100:
+	_GET_RND(@SCWK_ANSWER, 4)
+	_SWITCH(@SCWK_ANSWER)
+	_CASE_JUMP(0, 'support_event_06')
+	_CASE_JUMP(1, 'support_event_07')
+	_CASE_JUMP(2, 'support_event_08')
+	_CASE_JUMP(3, 'support_event_09')
+	_END()
+support_event_birthday:
+	_PLAYER_NAME(0)
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 0, 's_player_male_msg_birthday')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 1, 's_player_female_msg_birthday')
+	_JUMP('common_support_event_end')
+	_END()
+support_event_10:
+	_PLAYER_NAME(0)
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 0, 's_player_male_msg_10')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 1, 's_player_female_msg_10')
+	_JUMP('common_support_event_end')
+	_END()
+support_event_09:
+	_PLAYER_NAME(0)
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 0, 's_player_male_msg_09')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 1, 's_player_female_msg_09')
+	_JUMP('common_support_event_end')
+	_END()
+support_event_08:
+	_FLAG_SET(#FE_SUPPORT_POKETORE_3)
+	_PLAYER_NAME(0)
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 0, 's_player_male_msg_08')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 1, 's_player_female_msg_08')
+	_JUMP('common_support_event_end')
+	_END()
+support_event_07:
+	_FLAG_SET(#FE_SUPPORT_POKETORE_2)
+	_PLAYER_NAME(0)
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 0, 's_player_male_msg_07')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 1, 's_player_female_msg_07')
+	_JUMP('common_support_event_end')
+	_END()
+support_event_06:
+	_FLAG_SET(#FE_SUPPORT_POKETORE_1)
+	_PLAYER_NAME(0)
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 0, 's_player_male_msg_06')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 1, 's_player_female_msg_06')
+	_JUMP('common_support_event_end')
+	_END()
+support_event_05:
+	_PLAYER_NAME(0)
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 0, 's_player_male_msg_05')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 1, 's_player_female_msg_05')
+	_JUMP('common_support_event_end')
+	_END()
+support_event_04:
+	_PLAYER_NAME(0)
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 0, 's_player_male_msg_04')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 1, 's_player_female_msg_04')
+	_JUMP('common_support_event_end')
+	_END()
+support_event_03:
+	_PLAYER_NAME(0)
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 0, 's_player_male_msg_03')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 1, 's_player_female_msg_03')
+	_JUMP('common_support_event_end')
+	_END()
+support_event_02:
+	_PLAYER_NAME(0)
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 0, 's_player_male_msg_02')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 1, 's_player_female_msg_02')
+	_JUMP('common_support_event_end')
+	_END()
+support_event_01:
+	_PLAYER_NAME(0)
+	_PM_VERSION_GET(@SCWK_ANSWER)
+	_IFVAL_CALL(@SCWK_ANSWER, 'EQ', 48, 'sub_support_event_01_diamond')
+	_IFVAL_CALL(@SCWK_ANSWER, 'EQ', 49, 'sub_support_event_01_pearl')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 0, 's_player_male_msg_01')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 1, 's_player_female_msg_01')
+	_JUMP('common_support_event_end')
+	_END()
+sub_support_event_01_diamond:
+	_POKEMON_NAME_EXTRA(1, 483, 0, 0)
+	_RET()
+sub_support_event_01_pearl:
+	_POKEMON_NAME_EXTRA(1, 484, 0, 0)
+	_RET()
+support_event_00:
+	_PLAYER_NAME(0)
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 0, 's_player_male_msg_00')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 1, 's_player_female_msg_00')
+	_JUMP('common_support_event_end')
+	_END()
+common_support_event_end:
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+s_player_male_msg_birthday:
+	_TALKMSG('dp_scenario1%11-msg_heroine_11')
+	_YES_NO_WIN(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'yes_male_player_birthday')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'no_male_player_birthday')
+	_END()
+yes_male_player_birthday:
+	_TALKMSG('dp_scenario1%11-msg_heroine_12')
+	_RET()
+no_male_player_birthday:
+	_TALKMSG('dp_scenario1%11-msg_heroine_13')
+	_RET()
+s_player_female_msg_birthday:
+	_TALKMSG('dp_scenario1%11-msg_hero_11')
+	_YES_NO_WIN(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'yes_female_player_birthday')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'no_female_player_birthday')
+	_END()
+yes_female_player_birthday:
+	_TALKMSG('dp_scenario1%11-msg_hero_12')
+	_RET()
+no_female_player_birthday:
+	_TALKMSG('dp_scenario1%11-msg_hero_13')
+	_RET()
+s_player_male_msg_00:
+	_TALKMSG('dp_scenario1%11-msg_heroine_14')
+	_RET()
+s_player_female_msg_00:
+	_TALKMSG('dp_scenario1%11-msg_hero_14')
+	_RET()
+s_player_male_msg_01:
+	_TALKMSG('dp_scenario1%11-msg_heroine_01')
+	_RET()
+s_player_female_msg_01:
+	_TALKMSG('dp_scenario1%11-msg_hero_01')
+	_RET()
+s_player_male_msg_02:
+	_TALKMSG('dp_scenario1%11-msg_heroine_02')
+	_RET()
+s_player_female_msg_02:
+	_TALKMSG('dp_scenario1%11-msg_hero_02')
+	_RET()
+s_player_male_msg_03:
+	_TALKMSG('dp_scenario1%11-msg_heroine_03_1')
+	_TALKMSG('dp_scenario1%11-msg_heroine_03_2')
+	_RET()
+s_player_female_msg_03:
+	_TALKMSG('dp_scenario1%11-msg_hero_03_1')
+	_TALKMSG('dp_scenario1%11-msg_hero_03_2')
+	_RET()
+s_player_male_msg_04:
+	_TALKMSG('dp_scenario1%11-msg_heroine_04')
+	_RET()
+s_player_female_msg_04:
+	_TALKMSG('dp_scenario1%11-msg_hero_04')
+	_RET()
+s_player_male_msg_05:
+	_TALKMSG('dp_scenario1%11-msg_heroine_05_1')
+	_TALKMSG('dp_scenario1%11-msg_heroine_05_2')
+	_RET()
+s_player_female_msg_05:
+	_TALKMSG('dp_scenario1%11-msg_hero_05_1')
+	_TALKMSG('dp_scenario1%11-msg_hero_05_2')
+	_RET()
+s_player_male_msg_06:
+	_TALKMSG('dp_scenario1%11-msg_heroine_06_1')
+	_TALKMSG('dp_scenario1%11-msg_heroine_06_2')
+	_RET()
+s_player_female_msg_06:
+	_TALKMSG('dp_scenario1%11-msg_hero_06_1')
+	_TALKMSG('dp_scenario1%11-msg_hero_06_2')
+	_RET()
+s_player_male_msg_07:
+	_TALKMSG('dp_scenario1%11-msg_heroine_07_1')
+	_TALKMSG('dp_scenario1%11-msg_heroine_07_2')
+	_RET()
+s_player_female_msg_07:
+	_TALKMSG('dp_scenario1%11-msg_hero_07_1')
+	_TALKMSG('dp_scenario1%11-msg_hero_07_2')
+	_RET()
+s_player_male_msg_08:
+	_TALKMSG('dp_scenario1%11-msg_heroine_08')
+	_RET()
+s_player_female_msg_08:
+	_TALKMSG('dp_scenario1%11-msg_hero_08')
+	_RET()
+s_player_male_msg_09:
+	_TALKMSG('dp_scenario1%11-msg_heroine_09_1')
+	_TALKMSG('dp_scenario1%11-msg_heroine_09_2')
+	_RET()
+s_player_female_msg_09:
+	_TALKMSG('dp_scenario1%11-msg_hero_09_1')
+	_TALKMSG('dp_scenario1%11-msg_hero_09_2')
+	_RET()
+s_player_male_msg_10:
+	_TALKMSG('dp_scenario1%11-msg_heroine_10_1')
+	_TALKMSG('dp_scenario1%11-msg_heroine_10_2')
+	_RET()
+s_player_female_msg_10:
+	_TALKMSG('dp_scenario1%11-msg_hero_10_1')
+	_TALKMSG('dp_scenario1%11-msg_hero_10_2')
+	_RET()
+ev_support_btl:
+	_IF_FLAGON_JUMP(#TMFLG_T02_SUP_RETRUN_MATCH, 'ev_support_game_clear_c')
+	_CHK_WEEK(@LOCALWORK0)
+	_IFVAL_JUMP(@LOCALWORK0, 'EQ', 1, 'ev_support_game_clear_c')
+	_IFVAL_JUMP(@LOCALWORK0, 'EQ', 2, 'ev_support_game_clear_c')
+	_IFVAL_JUMP(@LOCALWORK0, 'EQ', 3, 'ev_support_game_clear_c')
+	_IFVAL_JUMP(@LOCALWORK0, 'EQ', 4, 'ev_support_game_clear_c')
+	_IFVAL_JUMP(@LOCALWORK0, 'EQ', 5, 'ev_support_game_clear_c')
+	_PLAYER_NAME(0)
+	_LDVAL(@LOCALWORK1, 0)
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 0, 'ev_support_btl_male')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 1, 'ev_support_btl_female')
+	_IFVAL_JUMP(@LOCALWORK1, 'EQ', 1, 'common_support_event_end')
+	_TALK_CLOSE()
+	_JUMP('ev_t02_sup_btl_fast')
+	_END()
+ev_support_btl_male:
+	_TALKMSG('dp_scenario1%11-msg_heroine_17_01')
+	_YES_NO_WIN(@SCWK_ANSWER)
+	_IFVAL_CALL(@SCWK_ANSWER, 'EQ', 0, 'ev_support_btl_male1')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_support_btl_male2')
+	_RET()
+ev_support_btl_male1:
+	_TALKMSG('dp_scenario1%11-msg_heroine_17_02')
+	_RET()
+ev_support_btl_male2:
+	_TALKMSG('dp_scenario1%11-msg_heroine_17_03')
+	_LDVAL(@LOCALWORK1, 1)
+	_RET()
+ev_support_btl_female:
+	_TALKMSG('dp_scenario1%11-msg_hero_17_01')
+	_YES_NO_WIN(@SCWK_ANSWER)
+	_IFVAL_CALL(@SCWK_ANSWER, 'EQ', 0, 'ev_support_btl_fmale1')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_support_btl_fmale2')
+	_RET()
+ev_support_btl_fmale1:
+	_TALKMSG('dp_scenario1%11-msg_hero_17_02')
+	_RET()
+ev_support_btl_fmale2:
+	_TALKMSG('dp_scenario1%11-msg_hero_17_03')
+	_LDVAL(@LOCALWORK1, 1)
+	_RET()
+ev_t02_sup_btl_fast:
+	_IF_FLAGOFF_JUMP(#FE_T02_SUP_BTL_WIN, 'ev_t02_sup_btl_lvup_before')
+	_DENDOU_NUM_GET(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'LT', 10, 'ev_t02_sup_btl_lvup_before')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'GE', 10, 'ev_t02_sup_btl_lvup_after')
+	_END()
+ev_t02_sup_btl_lvup_before:
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 0, 'ev_t02_sup_btl_heroin_lvup_before')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 1, 'ev_t02_sup_btl_hero_lvup_before')
+	_END()
+ev_t02_sup_btl_lvup_after:
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 0, 'ev_t02_sup_btl_heroin_lvup_after')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 1, 'ev_t02_sup_btl_hero_lvup_after')
+	_END()
+ev_t02_sup_btl_heroin_lvup_before:
+	_FIRST_POKE_NO_GET(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 387, 'ev_t02_sup_btl_heroin_set9'); Empoleon 1068
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 390, 'ev_t02_sup_btl_heroin_set7'); Torterra 1069
+	_JUMP('ev_t02_sup_btl_heroin_set8'); Infernape 1067
+	_END()
+ev_t02_sup_btl_hero_lvup_before:
+	_FIRST_POKE_NO_GET(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 387, 'ev_t02_sup_btl_hero_set9'); 1071
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 390, 'ev_t02_sup_btl_hero_set7'); 1072
+	_JUMP('ev_t02_sup_btl_hero_set8'); 1070
+	_END()
+ev_t02_sup_btl_heroin_lvup_after:
+	_FIRST_POKE_NO_GET(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 387, 'ev_t02_sup_btl_heroin_set12'); Empoleon 1068
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 390, 'ev_t02_sup_btl_heroin_set10'); Torterra 1069
+	_JUMP('ev_t02_sup_btl_heroin_set11'); Infernape 1067
+	_END()
+ev_t02_sup_btl_hero_lvup_after:
+	_FIRST_POKE_NO_GET(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 387, 'ev_t02_sup_btl_hero_set12')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 390, 'ev_t02_sup_btl_hero_set10')
+	_JUMP('ev_t02_sup_btl_hero_set11')
+	_END()
+ev_t02_sup_btl_hero_set7:
+	_TRAINER_BTL_SET(1072, 0)
+	_JUMP('ev_t02_sup_btl_hero_end')
+	_JUMP('ev_t02_sup_btl_hero_end')
+ev_t02_sup_btl_hero_set8:
+	_TRAINER_BTL_SET(1070, 0)
+	_JUMP('ev_t02_sup_btl_hero_end')
+	_JUMP('ev_t02_sup_btl_hero_end')
+ev_t02_sup_btl_hero_set9:
+	_TRAINER_BTL_SET(1071, 0)
+	_JUMP('ev_t02_sup_btl_hero_end')
+	_JUMP('ev_t02_sup_btl_hero_end')
+ev_t02_sup_btl_hero_set10:
+	_TRAINER_BTL_SET(1072, 0)
+	_JUMP('ev_t02_sup_btl_hero_end')
+	_JUMP('ev_t02_sup_btl_hero_end')
+ev_t02_sup_btl_hero_set11:
+	_TRAINER_BTL_SET(1070, 0)
+	_JUMP('ev_t02_sup_btl_hero_end')
+	_JUMP('ev_t02_sup_btl_hero_end')
+ev_t02_sup_btl_hero_set12:
+	_TRAINER_BTL_SET(1071, 0)
+	_JUMP('ev_t02_sup_btl_hero_end')
+	_JUMP('ev_t02_sup_btl_hero_end')
+ev_t02_sup_btl_heroin_set7:
+	_TRAINER_BTL_SET(1069, 0)
+	_JUMP('ev_t02_sup_btl_heroin_end')
+	_JUMP('ev_t02_sup_btl_hero_end')
+ev_t02_sup_btl_heroin_set8:
+	_TRAINER_BTL_SET(1067, 0)
+	_JUMP('ev_t02_sup_btl_heroin_end')
+	_JUMP('ev_t02_sup_btl_hero_end')
+ev_t02_sup_btl_heroin_set9:
+	_TRAINER_BTL_SET(1068, 0)
+	_JUMP('ev_t02_sup_btl_heroin_end')
+	_JUMP('ev_t02_sup_btl_hero_end')
+ev_t02_sup_btl_heroin_set10:
+	_TRAINER_BTL_SET(1069, 0)
+	_JUMP('ev_t02_sup_btl_heroin_end')
+	_JUMP('ev_t02_sup_btl_hero_end')
+ev_t02_sup_btl_heroin_set11:
+	_TRAINER_BTL_SET(1067, 0)
+	_JUMP('ev_t02_sup_btl_heroin_end')
+	_JUMP('ev_t02_sup_btl_hero_end')
+ev_t02_sup_btl_heroin_set12:
+	_TRAINER_BTL_SET(1068, 0)
+	_JUMP('ev_t02_sup_btl_heroin_end')
+	_JUMP('ev_t02_sup_btl_hero_end')
+ev_t02_sup_btl_hero_end:
+	_TRAINER_LOSE_CHECK(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_t02_sup_battle_lose')
+	_PLAYER_NAME(0)
+	_TALK_KEYWAIT('dp_scenario1%11-msg_hero_17_04')
+	_FLAG_SET(#TMFLG_T02_SUP_RETRUN_MATCH)
+	_FLAG_SET(#FE_T02_SUP_BTL_WIN)
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_t02_sup_btl_heroin_end:
+	_TRAINER_LOSE_CHECK(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_t02_sup_battle_lose')
+	_PLAYER_NAME(0)
+	_TALK_KEYWAIT('dp_scenario1%11-msg_heroine_17_04')
+	_FLAG_SET(#TMFLG_T02_SUP_RETRUN_MATCH)
+	_FLAG_SET(#FE_T02_SUP_BTL_WIN)
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_t02_sup_battle_lose:
+	_TRAINER_LOSE()
+	_EVENT_END()
+	_END()

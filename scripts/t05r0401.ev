@@ -1,0 +1,18 @@
+ev_t05r0401_fighter:
+	_TALK_OBJ_START()
+	_POKETCH_CHECK(10, @SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_t05r0401_fighter_02')
+	_TALK_KEYWAIT('dp_scenario2%159-msg_t05r0401_fighter_01')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_t05r0401_fighter_02:
+	_TALKMSG('dp_scenario2%159-msg_t05r0401_fighter_02')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_t05r0401_gonbe:
+	_EASY_VOICE_MSG('dp_scenario2%159-msg_t05r0401_gonbe_01', 'PLAY_PV_EV_440_00_00', 0)
+	_END()

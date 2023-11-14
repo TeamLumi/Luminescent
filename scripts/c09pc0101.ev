@@ -1,0 +1,52 @@
+ev_c09pc0101_flag_change:
+	_IF_FLAGON_JUMP($SYS_FLAG_WILDCARD_000, 'ev_c09pc0101_flag_change_end')
+	_FLAG_RESET(#FV_STOPPER_FRIENDBOOK)
+	_SXY_EXIT_POS_CHANGE(2, 80, 80)
+	_END()
+ev_c09pc0101_flag_change_end:
+	_SYS_FLAG_BADGE_GET($BADGE_ID_C03, @SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_c09pc0101_flag_change_del_stopper')
+	_END()
+ev_c09pc0101_flag_change_del_stopper:
+	_FLAG_SET(#FV_STOPPER_FRIENDBOOK)
+	_END()
+ev_c09pc0101_pcwoman1:
+	_LDVAL(@SCWK_TEMP3, 'C09PC0101_PCWOMAN1')
+	_CHG_COMMON_SCR('ev_heal_p01')
+	_END()
+ev_c09pc0101_girl1:
+	_EASY_OBJ_MSG('dp_scenario2%195-msg_c09pc0101_girl1_01')
+	_END()
+ev_c09pc0101_girl2:
+	_IF_FLAGON_JUMP($SYS_FLAG_GAME_CLEAR, 'ev_c09pc0101_girl2_clear')
+	_EASY_OBJ_MSG('dp_scenario2%195-msg_c09pc0101_girl2_01')
+	_END()
+ev_c09pc0101_koduck:
+	_EASY_VOICE_MSG('dp_scenario2%195-msg_c09pc0101_koduck_01', 'PLAY_PV_EV_054_00_00')
+	_END()
+ev_c09pc0101_girl2_clear:
+	_TALK_OBJ_START()
+	_IF_FLAGON_JUMP(#2577, 'ev_c09pc0101_girl2_finished')
+	_MACRO_TALKMSG('dp_scenario3', '0_msg_c09pc0101_girl2_clear', 'Apparently three new statues have appeared\nin the temple.\rOur town has legends about those\nyou know.\rThey say that those who can awaken\nthe legendary titans will conquer the giant.\rDo you want to know more?')
+	_YES_NO_WIN(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_c09pc0101_girl2_no')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_c09pc0101_girl2_clear_2', 'I’m good friends with one of the guards,\nNephenee.\rShe said that the ritual to awaken them requires\nthree items, but that there isnt a trainer strong\fenough to beat them.\rYou’re the Champion though, aren’t you?\rMaybe you can help Neph out.')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_c09pc0101_girl2_clear_3', 'You need a Hard Stone, Iron Ball and\na Never-Melt Ice.\fGood luck!')
+	_TALK_CLOSE()
+	_FLAG_SET(#2577)
+	_FLAG_RESET(#2887)
+	_FLAG_RESET(#2888)
+	_FLAG_RESET(#2889)
+	_FLAG_SET(#2576)
+	_TALK_OBJ_END()
+	_END()
+ev_c09pc0101_girl2_finished:
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_c09pc0101_girl2_clear_3', 'You need a Hard Stone, Iron Ball and\na Never-Melt Ice.\fGood luck!')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c09pc0101_girl2_no:
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_c09pc0101_girl2_clear_4', 'Oh, alright then.')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()

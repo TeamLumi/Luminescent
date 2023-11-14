@@ -1,0 +1,129 @@
+ev_c01fs0101_shop_01:
+	_TALK_OBJ_START()
+	_CHG_COMMON_SCR('ev_shop_start_talk')
+	_LDVAL(@LOCALWORK3, 0)
+	_JUMP('ev_c01fs0101_shop_re')
+	_END()
+ev_c01fs0101_shop_re:
+	_IFVAL_CALL(@LOCALWORK3, 'EQ', 1, 'ev_c01fs0101_shop_sonohoka')
+	_ADD_CUSTUM_WIN_LABEL('ss_fld_shop%SS_fld_shop_197', 0)
+	_ADD_CUSTUM_WIN_LABEL('ss_fld_shop%SS_fld_shop_198', 1)
+	_ADD_CUSTUM_WIN_LABEL('ss_fld_shop%SS_fld_shop_199', 2)
+	_OPEN_CUSTUM_WIN(@SCWK_TEMP0)
+	_SWITCH(@SCWK_TEMP0)
+	_CASE_JUMP(0, 'ev_c01fs0101_shop_buy')
+	_CASE_JUMP(1, 'ev_c01fs0101_shop_sell')
+	_CASE_JUMP(2, 'ev_c01fs0101_shop_end')
+	_JUMP('ev_c01fs0101_shop_end')
+	_END()
+ev_c01fs0101_shop_sonohoka:
+	_TALKMSG('dp_scenario1%28-mes_shop_01_03')
+	_RET()
+ev_c01fs0101_shop_buy:
+	_LDVAL(@LOCALWORK3, 1)
+	_TALK_CLOSE_NO_CLEAR()
+	_PLAYER_POS_GET(@SCWK_TEMP0, @SCWK_TEMP1)
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 5, 'ev_c01fs0101_01')
+	_EVENT_CAMERA_INDEX(300)
+	_JUMP('ev_c01fs0101_01a')
+	_END()
+ev_c01fs0101_01a:
+	_EVENT_CAMERA_END_WAIT()
+	_DPR_SHOP_OPEN('C01FS0101')
+	_DPR_SHOP_OPEN_WAIT()
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 5, 'ev_c01fs0101_02')
+	_EVENT_CAMERA_INDEX(301)
+	_JUMP('ev_c01fs0101_02a')
+	_END()
+ev_c01fs0101_02a:
+	_EVENT_CAMERA_END_WAIT()
+	_JUMP('ev_c01fs0101_shop_re')
+	_END()
+ev_c01fs0101_01:
+	_EVENT_CAMERA_INDEX(304)
+	_JUMP('ev_c01fs0101_01a')
+	_END()
+ev_c01fs0101_02:
+	_EVENT_CAMERA_INDEX(305)
+	_JUMP('ev_c01fs0101_02a')
+	_END()
+ev_c01fs0101_shop_sell:
+	_LDVAL(@LOCALWORK3, 1)
+	_TALK_CLOSE_NO_CLEAR()
+	_SHOP_OPEN_SELL()
+	_DPR_SHOP_OPEN_WAIT()
+	_JUMP('ev_c01fs0101_shop_re')
+	_END()
+ev_c01fs0101_shop_end:
+	_TALKMSG('ss_fld_shop%SS_fld_shop_202')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c01fs0101_fix_shop:
+	_TALK_OBJ_START()
+	_CHG_COMMON_SCR('ev_shop_start_talk')
+	_TALK_CLOSE_NO_CLEAR()
+	_FIX_SHOP_CALL('ID_SHOP_ITEM_C01_FS')
+	_TALK_OBJ_END()
+	_END()
+ev_c01fs0101_man2a:
+	_EASY_OBJ_MSG('dp_scenario1%30-msg_c01fc0101_man2a_01')
+	_END()
+ev_c01fs0101_middlewoman1a:
+	_SYS_FLAG_BADGE_COUNT(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'GE', 5, 'ev_c01fs0101_middlewoman_gt5')
+	_EASY_OBJ_MSG('dp_scenario1%30-msg_c01fc0101_middlewoman1a_01')
+	_END()
+anm_c01fs0101_action_1:
+	_AC_MARK_GYOE()
+	_ACMD_END()
+anm_c01fs0101_action_2:
+	_AC_DIR_R(4)
+	_ACMD_END()
+anm_c01fs0101_action_3:
+	_AC_DIR_L(4)
+	_ACMD_END()
+ev_c01fs0101_middlewoman_gt5:
+	_TALK_OBJ_START_TURN_NOT()
+	_IF_FLAGON_JUMP(#2519, 'ev_c01fs0101_middlewoman_gt5_finished')
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_c01fs0101_woman_1', 'Hey, did you hear about those rangers closing up\nRoute 204?')
+	_LAST_KEYWAIT()
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_c01fs0101_woman_2', 'No way!\nHow are we supposed to get to Floarama Town now?')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_c01fs0101_woman_3', 'I don’t know,\nthey did say it wasn’t going to take long,\fbut I really needed those flowers for...')
+	_OBJ_ANIME('C01FS0101_MIDDLEW', 'anm_c01fs0101_action_1')
+	_OBJ_ANIME_WAIT()
+	_TALK_CLOSE()
+	_CHARA_LOOK_LOCK('C01FS0101_MIDDLEW', 'HERO')
+	_CHARA_LOOK_LOCK('C01FS0101_MIDDLEW2', 'HERO')
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_c01fs0101_woman_4', 'Excuse me child,\ndon’t you know that it’s rude to eavesdrop?')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_CHARA_LOOK_RELEASE('C01FS0101_MIDDLEW')
+	_CHARA_LOOK_RELEASE('C01FS0101_MIDDLEW2')
+	_OBJ_ANIME('C01FS0101_MIDDLEW', 'anm_c01fs0101_action_2')
+	_OBJ_ANIME('C01FS0101_MIDDLEW2', 'anm_c01fs0101_action_3')
+	_OBJ_ANIME_WAIT()
+	_CALL('ev_c01fs0101_spawn_ranger_event')
+	_END()
+ev_c01fs0101_spawn_ranger_event:
+	_FLAG_RESET(#2873); Unhide the rangers
+	_FLAG_SET(#2518); Hide the youngster
+	_FLAG_RESET(#2874); Reveal the Onix
+	_FLAG_RESET(#2875); Reveal the Graveller 1
+	_FLAG_RESET(#2876); Reveal the Graveller 2
+	_FLAG_RESET(#2877); Reveal the Graveller 3
+	_RET()
+ev_c01fs0101_middlewoman_gt5_finished:
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_c01fs0101_woman_5', 'It looks like those rangers have cleared up.')
+	_LAST_KEYWAIT()
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_c01fs0101_woman_6', 'Thank goodness. I was beginning to get worried.')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_c01fs0101_woman_7', 'If only...')
+	_CHARA_LOOK_LOCK('C01FS0101_MIDDLEW', 'HERO')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_c01fs0101_woman_8', 'You again!? Do you have any manners?\nHmph, my children would never be so rude.')
+	_TALK_CLOSE()
+	_CHARA_LOOK_RELEASE('C01FS0101_MIDDLEW')
+	_OBJ_ANIME('C01FS0101_MIDDLEW', 'anm_c01fs0101_action_2')
+	_OBJ_ANIME_WAIT()
+	_TALK_OBJ_END()
+	_END()

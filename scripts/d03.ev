@@ -1,0 +1,467 @@
+ev_d03_flag_change:
+	_ARRIVE_FLAG_SET($FLAG_ARRIVE_D03)
+	_END()
+ev_d03_woman1:
+	_TALK_OBJ_START()
+	_IF_FLAGON_JUMP(#FE_D03_ACCE_GET, 'ev_d03_woman1_02')
+	_LDVAL(@SCWK_TEMP0, 'IMC_ACCE_TREE00')
+	_ACCE_NAME(0, @SCWK_TEMP0)
+	_TALK_KEYWAIT('dp_scenario1%105-msg_d03_woman1_01')
+	_LDVAL(@SCWK_TEMP0, 69)
+	_LDVAL(@SCWK_TEMP1, 3)
+	_CALL('ev_exec_item_seal_get')
+	_FLAG_SET(#FE_D03_ACCE_GET)
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_d03_woman1_02:
+	_TALK_KEYWAIT('dp_scenario1%105-msg_d03_woman1_02')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_d03_sign1_01:
+	_EASY_BOARD_MSG('dp_scenario1%105-msg_d03_sign1_01', 'BOARD_TYPE_POST', 0)
+	_END()
+ev_d03_sign2_01:
+	_EASY_INFOBOARD_MSG('dp_scenario1%105-msg_d03_sign2_01', 'BOARD_TYPE_INFO', 0)
+	_END()
+ev_d03_blocker_1:
+	_MACRO_EASY_OBJ_MSG('dp_scenario3', '00_msg_ev_d03_blocker_1', 'Hi...\rThere’s currently a swarm of Beedrill\nattacking people on this route...\rCould I ask you to travel through\nthe forest until this is resolved?\r...\rI can’t stand Beedrill...')
+	_END()
+ev_d03_blocker_2:
+	_MACRO_EASY_OBJ_MSG('dp_scenario3', '00_msg_ev_d03_blocker_2', 'Hey! There’s a whole load of\nBeedrill in this Honey tree!\rMe and my buddies are gonna catch ’em\nall! We’re gonna be the best!\rYou should probably stay out of the\nway, or you’ll get stung real bad!')
+	_END()
+ev_master_trainer_bad_type:
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_typemasters_1', 'That Pokémon is not the right type.')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_master_trainer_bad_partycount:
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_typemasters_2', 'You have more than one Pokémon.')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_master_trainer_good_type:
+	_RET()
+ev_master_trainer_type_check:
+	_TEMOTI_POKE_TYPE(@SCWK_TEMP0, @SCWK_TEMP1, 0)
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', @SCWK_PARAM0, 'ev_master_trainer_good_type')
+	_IFVAL_JUMP(@SCWK_TEMP1, 'EQ', @SCWK_PARAM0, 'ev_master_trainer_good_type')
+	_JUMP('ev_master_trainer_bad_type')
+ev_master_trainer_partycount_check:
+	_GET_POKE_COUNT(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'NE', 1, 'ev_master_trainer_bad_partycount')
+	_RET()
+ev_master_trainer_decline:
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_pokemaster_common_start:
+	_POKE_TYPE_NAME(0, @SCWK_PARAM0)
+	_TALKMSG('dp_scenario3%00_msg_pokemaster_1')
+	_LAST_KEYWAIT()
+	_POKE_TYPE_NAME(0, @SCWK_PARAM0)
+	_TALKMSG('dp_scenario3%00_msg_pokemaster_2')
+	_LAST_KEYWAIT()
+	_YES_NO_WIN(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_master_trainer_decline')
+	_CALL('ev_master_trainer_partycount_check')
+	_CALL('ev_master_trainer_type_check')
+	_RET()
+ev_pokemaster_common_battle:
+	_POKE_TYPE_NAME(0, @SCWK_PARAM0)
+	_TALKMSG('dp_scenario3%00_msg_firemaster_3')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TRAINER_BTL_SET(@SCWK_PARAM1, 0)
+	_TRAINER_LOSE_CHECK(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_master_trainer_decline')
+	_RET()
+ev_pokemaster_common_end:
+	_POKE_TYPE_NAME(0, @SCWK_PARAM0)
+	_TALKMSG('dp_scenario3%00_msg_pokemaster_4')
+	_LAST_KEYWAIT()
+	_LDVAL(@SCWK_TEMP0, @SCWK_PARAM2); Flame plate
+	_LDVAL(@SCWK_TEMP1, 1)
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_POKE_TYPE_NAME(0, @SCWK_PARAM0)
+	_TALK_KEYWAIT('dp_scenario3%00_msg_firemaster_5')
+	_TALK_CLOSE()
+	_RET()
+ev_master_trainer_fire:
+	_TALK_OBJ_START()
+	_IF_FLAGON_JUMP(#2500, 'ev_pokemaster_beaten')
+	_LDVAL(@SCWK_PARAM0, 9); Fire Type
+	_CALL('ev_pokemaster_common_start')
+	_LDVAL(@SCWK_PARAM1, 980); Trainer ID
+	_CALL('ev_pokemaster_common_battle')
+	_LDVAL(@SCWK_PARAM2, 298); Flame Plate
+	_CALL('ev_pokemaster_common_end')
+	_FLAG_SET(#2500); Beat this dude
+	_TALK_OBJ_END()
+	_END()
+ev_pokemaster_beaten:
+	_POKE_TYPE_NAME(0, @SCWK_PARAM0)
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_pokemaster_0', 'I thought the ultimate {0}-type Pokémon\nbelonged to me...\r...\rA real master admits defeat when\nthey’ve been beaten.\rIt’s back to training for us.\nUntil we meet again.')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_master_trainer_water:
+	_TALK_OBJ_START()
+	_IF_FLAGON_JUMP(#2501, 'ev_pokemaster_beaten')
+	_LDVAL(@SCWK_PARAM0, 10); Water Type
+	_CALL('ev_pokemaster_common_start')
+	_LDVAL(@SCWK_PARAM1, 981); Trainer ID
+	_CALL('ev_pokemaster_common_battle')
+	_LDVAL(@SCWK_PARAM2, 299); Splash Plate
+	_CALL('ev_pokemaster_common_end')
+	_FLAG_SET(#2501); Beat this dude
+	_TALK_OBJ_END()
+	_END()
+ev_master_trainer_electric:
+	_TALK_OBJ_START()
+	_IF_FLAGON_JUMP(#2502, 'ev_pokemaster_beaten')
+	_LDVAL(@SCWK_PARAM0, 12); electric Type
+	_CALL('ev_pokemaster_common_start')
+	_LDVAL(@SCWK_PARAM1, 982); Trainer ID
+	_CALL('ev_pokemaster_common_battle')
+	_LDVAL(@SCWK_PARAM2, 300); Splash Plate
+	_CALL('ev_pokemaster_common_end')
+	_FLAG_SET(#2502); Beat this dude
+	_TALK_OBJ_END()
+	_END()
+ev_master_trainer_grass:
+	_TALK_OBJ_START()
+	_IF_FLAGON_JUMP(#2503, 'ev_pokemaster_beaten')
+	_LDVAL(@SCWK_PARAM0, 11); grass Type
+	_CALL('ev_pokemaster_common_start')
+	_LDVAL(@SCWK_PARAM1, 983); Trainer ID
+	_CALL('ev_pokemaster_common_battle')
+	_LDVAL(@SCWK_PARAM2, 301); Splash Plate
+	_CALL('ev_pokemaster_common_end')
+	_FLAG_SET(#2503); Beat this dude
+	_TALK_OBJ_END()
+	_END()
+ev_master_trainer_ice:
+	_TALK_OBJ_START()
+	_IF_FLAGON_JUMP(#2504, 'ev_pokemaster_beaten')
+	_LDVAL(@SCWK_PARAM0, 14); ice  Type
+	_CALL('ev_pokemaster_common_start')
+	_LDVAL(@SCWK_PARAM1, 984); Trainer ID
+	_CALL('ev_pokemaster_common_battle')
+	_LDVAL(@SCWK_PARAM2, 302); Icicle Plate
+	_CALL('ev_pokemaster_common_end')
+	_FLAG_SET(#2504); Beat this dude
+	_TALK_OBJ_END()
+	_END()
+ev_master_trainer_fighting:
+	_TALK_OBJ_START()
+	_IF_FLAGON_JUMP(#2505, 'ev_pokemaster_beaten')
+	_LDVAL(@SCWK_PARAM0, 1); Fighting Type
+	_CALL('ev_pokemaster_common_start')
+	_LDVAL(@SCWK_PARAM1, 985); Trainer ID
+	_CALL('ev_pokemaster_common_battle')
+	_LDVAL(@SCWK_PARAM2, 303); Fist Plate
+	_CALL('ev_pokemaster_common_end')
+	_FLAG_SET(#2505); Beat this dude
+	_TALK_OBJ_END()
+	_END()
+ev_master_trainer_poison:
+	_TALK_OBJ_START()
+	_IF_FLAGON_JUMP(#2506, 'ev_pokemaster_beaten')
+	_LDVAL(@SCWK_PARAM0, 3); Poison Type
+	_CALL('ev_pokemaster_common_start')
+	_LDVAL(@SCWK_PARAM1, 986); Trainer ID
+	_CALL('ev_pokemaster_common_battle')
+	_LDVAL(@SCWK_PARAM2, 304); Toxic Plate
+	_CALL('ev_pokemaster_common_end')
+	_FLAG_SET(#2506); Beat this dude
+	_TALK_OBJ_END()
+	_END()
+ev_master_trainer_ground:
+	_TALK_OBJ_START()
+	_IF_FLAGON_JUMP(#2507, 'ev_pokemaster_beaten')
+	_LDVAL(@SCWK_PARAM0, 4); Earth Type
+	_CALL('ev_pokemaster_common_start')
+	_LDVAL(@SCWK_PARAM1, 987); Trainer ID
+	_CALL('ev_pokemaster_common_battle')
+	_LDVAL(@SCWK_PARAM2, 305); Earth Plate
+	_CALL('ev_pokemaster_common_end')
+	_FLAG_SET(#2507); Beat this dude
+	_TALK_OBJ_END()
+	_END()
+ev_master_trainer_flying:
+	_TALK_OBJ_START()
+	_IF_FLAGON_JUMP(#2508, 'ev_pokemaster_beaten')
+	_LDVAL(@SCWK_PARAM0, 2); Flying Type
+	_CALL('ev_pokemaster_common_start')
+	_LDVAL(@SCWK_PARAM1, 988); Trainer ID
+	_CALL('ev_pokemaster_common_battle')
+	_LDVAL(@SCWK_PARAM2, 306); Sky Plate
+	_CALL('ev_pokemaster_common_end')
+	_FLAG_SET(#2508); Beat this dude
+	_TALK_OBJ_END()
+	_END()
+ev_master_trainer_psychic:
+	_TALK_OBJ_START()
+	_IF_FLAGON_JUMP(#2509, 'ev_pokemaster_beaten')
+	_LDVAL(@SCWK_PARAM0, 13); Psychic Type
+	_CALL('ev_pokemaster_common_start')
+	_LDVAL(@SCWK_PARAM1, 989); Trainer ID
+	_CALL('ev_pokemaster_common_battle')
+	_LDVAL(@SCWK_PARAM2, 307); Mind Plate
+	_CALL('ev_pokemaster_common_end')
+	_FLAG_SET(#2509); Beat this dude
+	_TALK_OBJ_END()
+	_END()
+ev_master_trainer_bug:
+	_TALK_OBJ_START()
+	_IF_FLAGON_JUMP(#2510, 'ev_pokemaster_beaten')
+	_LDVAL(@SCWK_PARAM0, 6); Bug Type
+	_CALL('ev_pokemaster_common_start')
+	_LDVAL(@SCWK_PARAM1, 990); Trainer ID
+	_CALL('ev_pokemaster_common_battle')
+	_LDVAL(@SCWK_PARAM2, 308); Insect Plate
+	_CALL('ev_pokemaster_common_end')
+	_FLAG_SET(#2510); Beat this dude
+	_TALK_OBJ_END()
+	_END()
+ev_master_trainer_rock:
+	_TALK_OBJ_START()
+	_IF_FLAGON_JUMP(#2511, 'ev_pokemaster_beaten')
+	_LDVAL(@SCWK_PARAM0, 5); Rock Type
+	_CALL('ev_pokemaster_common_start')
+	_LDVAL(@SCWK_PARAM1, 991); Trainer ID
+	_CALL('ev_pokemaster_common_battle')
+	_LDVAL(@SCWK_PARAM2, 309); Stone Plate
+	_CALL('ev_pokemaster_common_end')
+	_FLAG_SET(#2511); Beat this dude
+	_TALK_OBJ_END()
+	_END()
+ev_master_trainer_ghost:
+	_TALK_OBJ_START()
+	_IF_FLAGON_JUMP(#2512, 'ev_pokemaster_beaten')
+	_LDVAL(@SCWK_PARAM0, 7); Ghost Type
+	_CALL('ev_pokemaster_common_start')
+	_LDVAL(@SCWK_PARAM1, 992); Trainer ID
+	_CALL('ev_pokemaster_common_battle')
+	_LDVAL(@SCWK_PARAM2, 310); Spooky Plate
+	_CALL('ev_pokemaster_common_end')
+	_FLAG_SET(#2512); Beat this dude
+	_TALK_OBJ_END()
+	_END()
+ev_master_trainer_dragon:
+	_TALK_OBJ_START()
+	_IF_FLAGON_JUMP(#2513, 'ev_pokemaster_beaten')
+	_LDVAL(@SCWK_PARAM0, 15); Dragon Type
+	_CALL('ev_pokemaster_common_start')
+	_LDVAL(@SCWK_PARAM1, 993); Trainer ID
+	_CALL('ev_pokemaster_common_battle')
+	_LDVAL(@SCWK_PARAM2, 311); Draco Plate
+	_CALL('ev_pokemaster_common_end')
+	_FLAG_SET(#2513); Beat this dude
+	_TALK_OBJ_END()
+	_END()
+ev_master_trainer_dark:
+	_TALK_OBJ_START()
+	_IF_FLAGON_JUMP(#2514, 'ev_pokemaster_beaten')
+	_LDVAL(@SCWK_PARAM0, 16); Dark Type
+	_CALL('ev_pokemaster_common_start')
+	_LDVAL(@SCWK_PARAM1, 994); Trainer ID
+	_CALL('ev_pokemaster_common_battle')
+	_LDVAL(@SCWK_PARAM2, 312); Dread Plate
+	_CALL('ev_pokemaster_common_end')
+	_FLAG_SET(#2514); Beat this dude
+	_TALK_OBJ_END()
+	_END()
+ev_master_trainer_steel:
+	_TALK_OBJ_START()
+	_IF_FLAGON_JUMP(#2515, 'ev_pokemaster_beaten')
+	_LDVAL(@SCWK_PARAM0, 8); Steel Type
+	_CALL('ev_pokemaster_common_start')
+	_LDVAL(@SCWK_PARAM1, 995); Trainer ID
+	_CALL('ev_pokemaster_common_battle')
+	_LDVAL(@SCWK_PARAM2, 313); Iron Plate
+	_CALL('ev_pokemaster_common_end')
+	_FLAG_SET(#2515); Beat this dude
+	_TALK_OBJ_END()
+	_END()
+ev_master_trainer_fairy:
+	_TALK_OBJ_START()
+	_IF_FLAGON_JUMP(#2516, 'ev_pokemaster_beaten')
+	_LDVAL(@SCWK_PARAM0, 17); Fairy Type
+	_CALL('ev_pokemaster_common_start')
+	_LDVAL(@SCWK_PARAM1, 996); Trainer ID
+	_CALL('ev_pokemaster_common_battle')
+	_LDVAL(@SCWK_PARAM2, 644); Iron Plate
+	_CALL('ev_pokemaster_common_end')
+	_FLAG_SET(#2516); Beat this dude
+	_TALK_OBJ_END()
+	_END()
+ev_route_leader_no:
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_route_leader_no', 'Alright, I’ll be waiting here.')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_r225_route_leader_beaten:
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_r225_leader_4', 'I love Flying-type Pokémon.\nNothing beats a cruise in the air.')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_r226_route_leader_beaten:
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_r226_leader_4', 'Dragon-type Pokémon are hard\nto train, but can be very rewarding.')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_r227_route_leader_beaten:
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_r227_leader_4', 'Do you enjoy my dulcet tones?\fThey’re just like how a bit of Toxic\ncan cradle a Pokémon to sleep...')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_r228_route_leader_beaten:
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_r228_leader_4', 'Dark-type Pokémon...\nThey can be vicious and difficult.\rBut they can understand you in a\nway other Pokémon are incapable of.')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_r229_route_leader_beaten:
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_r229_leader_4', 'Normal-type Pokémon may seem\nboring to the untrained eye...\rBut their ability to wield multiple types\nin battle is almost unparalleled!')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_r230_route_leader_beaten:
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_r230_leader_4', 'There’s nothing quite like a dance\nwith a bunch of Fairy-type Pokémon.')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_route_leader_lose:
+	_TRAINER_LOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_r225_route_leader:
+	_TALK_OBJ_START()
+	_IF_FLAGON_JUMP(#2522, 'ev_r225_route_leader_beaten')
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_r225_leader_0', 'Hello, challenger!\nI am Heather of the Battle Zone.\rWith the gusts of Flying-type Pokémon,\nI keep myself cool in this heat!\rDo you wish to challenge me for the\nunofficial Wind Badge?')
+	_YES_NO_WIN(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_route_leader_no')
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_r225_leader_1', 'Show me the grace of your Pokémon!')
+	_TALK_CLOSE()
+	_TRAINER_BTL_SET(1018, 0)
+	_TRAINER_LOSE_CHECK(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_route_leader_lose')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_r225_leader_2', 'That was beautiful. I’m very impressed.\nHere’s your reward!')
+	_LDVAL(@SCWK_TEMP0, 1826); Wind Badge
+	_LDVAL(@SCWK_TEMP1, 1); Quantity 1
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_r225_leader_3', 'That Wind Badge...\nWell, it doesn’t do anything.\rBut it is proof that you can beat\nthe toughest Flying-type Pokémon!')
+	_TALK_CLOSE()
+	_FLAG_SET(#2522)
+	_TALK_OBJ_END()
+	_END()
+ev_r226_route_leader:
+	_TALK_OBJ_START()
+	_IF_FLAGON_JUMP(#2523, 'ev_r226_route_leader_beaten')
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_r226_leader_0', 'Hello, challenger.\nI am Wyver of the Battle Zone.\rHard training with Dragon-type Pokémon\nallows me to endure any heat.\rDid you want to challenge me for the\nunofficial Fang Badge?')
+	_YES_NO_WIN(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_route_leader_no')
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_r226_leader_1', 'Show me the tenacity of your Pokémon.')
+	_TALK_CLOSE()
+	_TRAINER_BTL_SET(1010, 0)
+	_TRAINER_LOSE_CHECK(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_route_leader_lose')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_r226_leader_2', 'Impressive. Your Pokémon are strong.\nHere you go.')
+	_LDVAL(@SCWK_TEMP0, 1827); Fang Badge
+	_LDVAL(@SCWK_TEMP1, 1); Quantity 1
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_r226_leader_3', 'That Fang Badge...\nIt’s totally useless, really.')
+	_TALK_CLOSE()
+	_FLAG_SET(#2523)
+	_TALK_OBJ_END()
+	_END()
+ev_r227_route_leader:
+	_TALK_OBJ_START()
+	_IF_FLAGON_JUMP(#2524, 'ev_r227_route_leader_beaten')
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_r227_leader_0', 'Hello, sweetie.\nMe? I’m the Battle Zone’s Slythe.\rWith my team’s beautiful toxicity,\neven the climate cannot vex me.\rSo, sweetie. Did you want a go at\nwinning the unofficial Acid Badge?')
+	_YES_NO_WIN(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_route_leader_no')
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_r227_leader_1', 'Excellent. I’m glad...\nWell then, show me what you’ve got.')
+	_TALK_CLOSE()
+	_TRAINER_BTL_SET(1007, 0)
+	_TRAINER_LOSE_CHECK(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_route_leader_lose')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_r227_leader_2', 'Mm. You’re truly a rose with thorns.\nYou deserve this reward.')
+	_LDVAL(@SCWK_TEMP0, 1828); Acid Badge
+	_LDVAL(@SCWK_TEMP1, 1); Quantity 1
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_r227_leader_3', 'The Acid Badge is just a pretty token.\nIt doesn’t do anything, really.')
+	_TALK_CLOSE()
+	_FLAG_SET(#2524)
+	_TALK_OBJ_END()
+	_END()
+ev_r228_route_leader:
+	_TALK_OBJ_START()
+	_IF_FLAGON_JUMP(#2525, 'ev_r228_route_leader_beaten')
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_r228_leader_0', '...Greetings.\nMe? I’m Shade.\nA leader in the Battle Zone.\rThe darkness... It’s compelling.\nIt shields against the harsh light...\rDo you want to test your light\nagainst me for a Shadow Badge?')
+	_YES_NO_WIN(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_route_leader_no')
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_r228_leader_1', 'Show me what light means...')
+	_TALK_CLOSE()
+	_TRAINER_BTL_SET(1003, 0)
+	_TRAINER_LOSE_CHECK(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_route_leader_lose')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_r228_leader_2', '...')
+	_LDVAL(@SCWK_TEMP0, 1829); Shadow Badge
+	_LDVAL(@SCWK_TEMP1, 1); Quantity 1
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_r228_leader_3', 'The Shadow Badge.\nIt’s a reminder of impending darkness.\rFunctionally speaking?\nIt’ll do nothing for you.\rBut it’s nothing personal, kid.')
+	_TALK_CLOSE()
+	_FLAG_SET(#2525)
+	_TALK_OBJ_END()
+	_END()
+ev_r229_route_leader:
+	_TALK_OBJ_START()
+	_IF_FLAGON_JUMP(#2526, 'ev_r229_route_leader_beaten')
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_r229_leader_0', 'Oh, are you partaking in our little\nisland challenge in the Battle Zone?\rI’m probably one of your stops, then.\nMy name is Gene.\rI like to stand by the water here to\nhelp myself cool down from the heat.\rYou see, I use Normal-type Pokémon...\nAnd that doesn’t help to cool down!\rSo, are you interested in a battle\nfor your General Badge?')
+	_YES_NO_WIN(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_route_leader_no')
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_r229_leader_1', 'Show me what makes your Pokémon\nextra special!')
+	_TALK_CLOSE()
+	_TRAINER_BTL_SET(998, 0)
+	_TRAINER_LOSE_CHECK(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_route_leader_lose')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_r229_leader_2', 'Congratulations.\nThis badge is well deserved...')
+	_LDVAL(@SCWK_TEMP0, 1830); General Badge
+	_LDVAL(@SCWK_TEMP1, 1); Quantity 1
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_r229_leader_3', 'The General Badge is a token of\nvictory over plain but dangerous foes.')
+	_TALK_CLOSE()
+	_FLAG_SET(#2526)
+	_TALK_OBJ_END()
+	_END()
+ev_r230_route_leader:
+	_TALK_OBJ_START()
+	_IF_FLAGON_JUMP(#2527, 'ev_r230_route_leader_beaten')
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_r230_leader_0', 'Oh, young challenger.\nIsn’t this view grand?\rI’m Luna of the Battle Zone.\nI’m a Trainer of Fairy-type Pokémon.\rMy Pokémon and I love to keep\ncool under the soft moonlight.\rOf course, it’s not always night!\nBut the sea breeze is lovely, too.\rAnyway, you’re here for a chance\nat the Moon Badge?')
+	_YES_NO_WIN(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_route_leader_no')
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_r230_leader_1', 'Let me see your Pokémon sparkle!')
+	_TALK_CLOSE()
+	_TRAINER_BTL_SET(1014, 0)
+	_TRAINER_LOSE_CHECK(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_route_leader_lose')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_r230_leader_2', 'Your Pokémon are real stars.\nHere you go!')
+	_LDVAL(@SCWK_TEMP0, 1831); Moon  Badge
+	_LDVAL(@SCWK_TEMP1, 1); Quantity 1
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_r230_leader_3', 'That Moon Badge...\nIt’s as beautiful as the moon itself.\rKeep it as a memento.')
+	_TALK_CLOSE()
+	_FLAG_SET(#2527)
+	_TALK_OBJ_END()
+	_END()

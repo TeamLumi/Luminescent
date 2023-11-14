@@ -1,0 +1,145 @@
+{
+    "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": -256835899977663948
+    },
+    "m_Name": "LocalKoukanData",
+    "data": [
+        {
+            "target": 77,
+            "name_label": "95-TRADE_OYA_00",
+            "trainerid": 25643,
+            "monsno": 363,
+            "nickname_label": "95-TRADE_POKE_00",
+            "level": 10,
+            "seikaku": 17,
+            "tokusei": 0,
+            "itemno": 246,
+            "rand": 142,
+            "sex": 0,
+            "language": 0,
+            "waza": [
+                227,
+                205,
+                55,
+                45
+            ]
+        },
+        {
+            "target": 361,
+            "name_label": "95-TRADE_OYA_01",
+            "trainerid": 44142,
+            "monsno": 441,
+            "nickname_label": "95-TRADE_POKE_01",
+            "level": 20,
+            "seikaku": 1039,
+            "tokusei": 0,
+            "itemno": 244,
+            "rand": 2151,
+            "sex": 1,
+            "language": 0,
+            "waza": [
+                47,
+                314,
+                31,
+                45
+            ]
+        },
+        {
+            "target": 420,
+            "name_label": "95-TRADE_OYA_02",
+            "trainerid": 19248,
+            "monsno": 451,
+            "nickname_label": "95-TRADE_POKE_02",
+            "level": 12,
+            "seikaku": 13,
+            "tokusei": 0,
+            "itemno": 245,
+            "rand": 136,
+            "sex": 0,
+            "language": 0,
+            "waza": [
+                367,
+                42,
+                282,
+                565
+            ]
+        },
+        {
+            "target": 129,
+            "name_label": "95-TRADE_OYA_03",
+            "trainerid": 53277,
+            "monsno": 129,
+            "nickname_label": "95-TRADE_POKE_03",
+            "level": 65,
+            "seikaku": 3,
+            "tokusei": 0,
+            "itemno": 207,
+            "rand": 1116,
+            "sex": 1,
+            "language": 5,
+            "waza": [
+                340,
+                175,
+                33,
+                150
+            ]
+        },
+        {
+            "target": 387,
+            "name_label": "95-TRADE_OYA_04",
+            "trainerid": 132132,
+            "monsno": 132,
+            "nickname_label": "95-TRADE_POKE_04",
+            "level": 50,
+            "seikaku": 2456,
+            "tokusei": -4,
+            "itemno": 280,
+            "rand": 46426,
+            "sex": 2,
+            "language": 3,
+            "waza": [
+                144
+            ]
+        },
+        {
+            "target": 390,
+            "name_label": "95-TRADE_OYA_04",
+            "trainerid": 132132,
+            "monsno": 132,
+            "nickname_label": "95-TRADE_POKE_04",
+            "level": 50,
+            "seikaku": 2456,
+            "tokusei": -4,
+            "itemno": 280,
+            "rand": 46426,
+            "sex": 2,
+            "language": 3,
+            "waza": [
+                144
+            ]
+        },
+        {
+            "target": 393,
+            "name_label": "95-TRADE_OYA_04",
+            "trainerid": 132132,
+            "monsno": 132,
+            "nickname_label": "95-TRADE_POKE_04",
+            "level": 50,
+            "seikaku": 2456,
+            "tokusei": -4,
+            "itemno": 280,
+            "rand": 46426,
+            "sex": 2,
+            "language": 3,
+            "waza": [
+                144
+            ]
+        }
+    ]
+}

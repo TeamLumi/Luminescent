@@ -1,0 +1,79 @@
+ev_c04r0101_middlem:
+	_TALK_OBJ_START()
+	_IF_FLAGON_JUMP(#2619, 'ev_c04r0101_middlem1a_02')
+	_TALK_KEYWAIT('dp_scenario3%18-uncle_msg_thankyou'); Thank you, here's a bike
+	_TALK_CLOSE()
+	_OBJ_ANIME('C04_BICYCLE_UNCLE', 'anm_c04_uncle_shiny_stone'); Oh?
+	_OBJ_ANIME_WAIT()
+	_TALK_KEYWAIT('dp_scenario3%18-uncle_msg_thankyou2'); You already have a bike?
+	_FLAG_SET(#2619); Set flag for acquiring dawn stone
+	_FLAG_SET(#2618); Disable the stoppers at the bottom of the cycling road
+	_LDVAL(@SCWK_TEMP0, 109); Assign dawn stone
+	_LDVAL(@SCWK_TEMP1, 1); Assign quantity of 1
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_c04r0101_bike_manager_01', 'You should visit the Cycling Road.\rThere are lots of strong trainers\nlike yourself there.')
+	_TALK_CLOSE()
+	_FLAG_SET(#FE_CYCLE_GET)
+	_LDVAL(@TOWNMAP_GUIDE_SEQUENCE, 5600)
+	_TALK_OBJ_END()
+	_END()
+ev_c04r0101_middlem1a_02:
+	_TALKMSG('dp_scenario1%18-msg_c04r0101_middlemla_04')
+	_FLAG_SET(#2618); Fix blockers
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+anm_c04_stonori_s01:
+	_AC_DIR_L(4)
+	_AC_WORLD_X(2, 8)
+	_AC_DIR_R(4)
+	_ACMD_END()
+anm_c04_stonori_s02:
+	_AC_DIR_D(4)
+	_AC_DOWN(2, 8)
+	_AC_DIR_R(4)
+	_AC_RIGHT(4, 8)
+	_AC_DIR_D(4)
+	_AC_DOWN(5, 8)
+	_AC_VANISH_ON()
+	_ACMD_END()
+anm_c04_stonori_s03:
+	_AC_WAIT(16)
+	_AC_RIGHT(1, 8)
+	_AC_DIR_D(4)
+	_AC_DOWN(1, 8)
+	_AC_DIR_R(4)
+	_AC_RIGHT(4, 8)
+	_AC_DIR_D(4)
+	_AC_DOWN(4, 8)
+	_AC_VANISH_ON()
+	_ACMD_END()
+ev_c04r0101_pippi:
+	_EASY_VOICE_MSG('dp_scenario2%4-msg_c04r0101_pippi_02', 'PLAY_PV_EV_035_00_00')
+	_END()
+ev_c04r0101_boy2:
+	_TALK_OBJ_START_TURN_NOT()
+	_IF_FLAGON_JUMP(#FE_C04R0204_WIN, 'ev_c04r0101_boy2_02')
+	_TALKMSG('dp_scenario2%4-msg_c04r0101_boy2_01')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c04r0101_boy2_02:
+	_TALKMSG('dp_scenario2%4-msg_c04r0101_boy2_02')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c04r0101_rack1:
+	_EASY_OBJ_MSG('dp_scenario2%4-msg_c04r0101_rack1_01')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_END()
+ev_c04r0101_rack2:
+	_EASY_OBJ_MSG('dp_scenario2%4-msg_c04r0101_rack2_01_1')
+	_EASY_OBJ_MSG('dp_scenario2%4-msg_c04r0101_rack2_01_2')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_END()

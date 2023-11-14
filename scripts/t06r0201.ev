@@ -1,0 +1,3 @@
+ev_t06r0201_fighter:
+	_MACRO_EASY_OBJ_MSG('dp_scenario3', '00_msg_t06r0201_fighter', 'Hoo!\nHah!\rThe hot climate of the Battle Zone\nis perfect for training your body.\rI wonder what’s the hottest place.\nIt could be here...\rOr it could be the Hoenn region...\nOr even the Alola region...\rSo many climates to experience!\nHoo hah!')
+	_END()

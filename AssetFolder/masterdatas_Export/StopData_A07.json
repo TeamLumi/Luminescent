@@ -1,0 +1,59 @@
+{
+    "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 8423137904901713306
+    },
+    "m_Name": "StopData_A07",
+    "Data": [
+        {
+            "ID": "SCRID_R212A_MANSION_GRUNTS",
+            "Position": {
+                "x": 469.0,
+                "y": 802.0
+            },
+            "HeightLayer": 2,
+            "Size": {
+                "x": 3.0,
+                "y": 1.0
+            },
+            "ContactLabel": "pos_r212a_trigger_grunts",
+            "Param": 0,
+            "Work": 486
+        },
+        {
+            "ID": "SCRID_R212A_MANSION_RIVAL",
+            "Position": {
+                "x": 469.0,
+                "y": 798.0
+            },
+            "HeightLayer": 2,
+            "Size": {
+                "x": 3.0,
+                "y": 1.0
+            },
+            "ContactLabel": "pos_r212a_mansion_garden_trigger",
+            "Param": 1,
+            "Work": 486
+        },
+        {
+            "ID": "SCRID_C06_RIVAL_BATTLE",
+            "Position": {
+                "x": 590.0,
+                "y": 827.0
+            },
+            "HeightLayer": 1,
+            "Size": {
+                "x": 1.0,
+                "y": 3.0
+            },
+            "ContactLabel": "pos_c06_barry_fight",
+            "Param": 1,
+            "Work": 482
+        }
+    ]
+}

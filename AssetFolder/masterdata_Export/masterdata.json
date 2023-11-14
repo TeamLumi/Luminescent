@@ -1,0 +1,402 @@
+{
+    "m_Name": "fureai/masterdata",
+    "m_PreloadTable": [
+        {
+            "m_FileID": 0,
+            "m_PathID": -8091506754249058613
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -4162151273259669136
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 710914955673491222
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 6203623581611951857
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -9137468520280786034
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 2119463612789657890
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 2372138238296571315
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 4154892558487435353
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -6860258900978234255
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 4356179275876682716
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -6426389189877120200
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 8340157102207268214
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -2915480894141199618
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 4489805767584262259
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 2260281266727239282
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 9055921299350716744
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -8760156685110305845
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 1567645683882847117
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -2983687169452095479
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 6196893409914592512
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -4966793021812518253
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 7511627511990172094
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -2397383894462940797
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 2116049864379467564
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -2172991477391179287
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 7563922927037617375
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -8159026889311740629
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -4260002326010870482
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -6553784241848816179
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -6457826760538378558
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -7904109134266843463
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -2852131804644100971
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 2090021075061489121
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 5749285356580357910
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -9125259970382524229
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -3132456674110165466
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": -7161316653034805759
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 9153087489632656769
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 1041791985753479330
+        },
+        {
+            "m_FileID": 0,
+            "m_PathID": 4956053988984680872
+        }
+    ],
+    "m_Container": [
+        [
+            "assets/fureaiassets/datatable/effposdata.asset",
+            {
+                "preloadIndex": 12,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": 4489805767584262259
+                }
+            }
+        ],
+        [
+            "assets/fureaiassets/datatable/fureaipokescaletable.asset",
+            {
+                "preloadIndex": 34,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -3132456674110165466
+                }
+            }
+        ],
+        [
+            "assets/fureaiassets/datatable/hirobaenterablepoke.asset",
+            {
+                "preloadIndex": 16,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": 1567645683882847117
+                }
+            }
+        ],
+        [
+            "assets/fureaiassets/datatable/monohiroi/monohiroikinomi.asset",
+            {
+                "preloadIndex": 36,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -7161316653034805759
+                }
+            }
+        ],
+        [
+            "assets/fureaiassets/datatable/monohiroi/monohiroisonota.asset",
+            {
+                "preloadIndex": 4,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": 2119463612789657890
+                }
+            }
+        ],
+        [
+            "assets/fureaiassets/datatable/poffin_fureai/poffinnakayoshiscorehosei.asset",
+            {
+                "preloadIndex": 24,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": 7563922927037617375
+                }
+            }
+        ],
+        [
+            "assets/fureaiassets/datatable/poffin_fureai/poffinresult.asset",
+            {
+                "preloadIndex": 8,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -6860258900978234255
+                }
+            }
+        ],
+        [
+            "assets/fureaiassets/datatable/pokewalk/pokewalkingactionnakayoshi.asset",
+            {
+                "preloadIndex": 38,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": 1041791985753479330
+                }
+            }
+        ],
+        [
+            "assets/fureaiassets/datatable/pokewalk/pokewalkingactionseikaku.asset",
+            {
+                "preloadIndex": 14,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": 2260281266727239282
+                }
+            }
+        ],
+        [
+            "assets/fureaiassets/datatable/pokewalk/pokewalkingformation.asset",
+            {
+                "preloadIndex": 10,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": 8340157102207268214
+                }
+            }
+        ],
+        [
+            "assets/fureaiassets/datatable/sanpo/freesanpoactionprobability.asset",
+            {
+                "preloadIndex": 6,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": 2372138238296571315
+                }
+            }
+        ],
+        [
+            "assets/fureaiassets/datatable/sanpo/freesanpocanactions.asset",
+            {
+                "preloadIndex": 2,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": 6203623581611951857
+                }
+            }
+        ],
+        [
+            "assets/fureaiassets/datatable/sanpo/freesanpogridposition.asset",
+            {
+                "preloadIndex": 18,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -2983687169452095479
+                }
+            }
+        ],
+        [
+            "assets/fureaiassets/datatable/sanpo/freesanpokuse.asset",
+            {
+                "preloadIndex": 20,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": 7511627511990172094
+                }
+            }
+        ],
+        [
+            "assets/fureaiassets/datatable/sanpo/freesanpopokeposition.asset",
+            {
+                "preloadIndex": 30,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -2852131804644100971
+                }
+            }
+        ],
+        [
+            "assets/fureaiassets/datatable/sanpo/freesanpopokereactionarea.asset",
+            {
+                "preloadIndex": 0,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -4162151273259669136
+                }
+            }
+        ],
+        [
+            "assets/fureaiassets/datatable/sanpo/freesanpoposition.asset",
+            {
+                "preloadIndex": 26,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -4260002326010870482
+                }
+            }
+        ],
+        [
+            "assets/fureaiassets/datatable/sanpo/freesanporunoffset.asset",
+            {
+                "preloadIndex": 28,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": -6457826760538378558
+                }
+            }
+        ],
+        [
+            "assets/fureaiassets/datatable/sanpo/freesanpourourooffset.asset",
+            {
+                "preloadIndex": 22,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": 2116049864379467564
+                }
+            }
+        ],
+        [
+            "assets/fureaiassets/datatable/talk_fureai/hirobapoketalk.asset",
+            {
+                "preloadIndex": 32,
+                "preloadSize": 2,
+                "asset": {
+                    "m_FileID": 0,
+                    "m_PathID": 2090021075061489121
+                }
+            }
+        ]
+    ],
+    "m_MainAsset": {
+        "preloadIndex": 0,
+        "preloadSize": 0,
+        "asset": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        }
+    },
+    "m_RuntimeCompatibility": 1,
+    "m_AssetBundleName": "fureai/masterdata",
+    "m_Dependencies": [],
+    "m_IsStreamedSceneAssetBundle": false,
+    "m_ExplicitDataLayout": 0,
+    "m_PathFlags": 7,
+    "m_SceneHashes": []
+}

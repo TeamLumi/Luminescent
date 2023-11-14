@@ -1,0 +1,6 @@
+ev_t05r0301_middleman1:
+	_EASY_OBJ_MSG('dp_scenario2%158-msg_t05r0301_middleman1_01')
+	_END()
+ev_t05r0301_babyboy1:
+	_EASY_OBJ_MSG('dp_scenario2%158-msg_t05r0301_babyboy1_01')
+	_END()

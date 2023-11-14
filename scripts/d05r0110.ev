@@ -1,0 +1,15 @@
+ev_d05r0110_gingam:
+	_TALK_OBJ_START()
+	_TALKMSG('dp_scenario2%27-msg_d05r0110_gingam_01')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_OBJ_ANIME('D05R0110_GINGAM', 'anm_d05r0110_gingam_turn')
+	_OBJ_ANIME_WAIT()
+	_TALK_OBJ_END()
+	_END()
+anm_d05r0110_gingam_turn:
+	_AC_DIR_U(8)
+	_ACMD_END()
+ev_d05r0110_gingam_blocker:
+	_MACRO_EASY_OBJ_MSG('dp_scenario3', '00_msg_d05r0110_gingam_blocker_01', 'Mt. Coronet holds the keys to all of\nTeam Galactic’s plans!')
+	_END()

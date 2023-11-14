@@ -1,0 +1,2419 @@
+ev_GINGAM_02:
+	_JUMP('ev_COLLECTOR_06')
+ev_GINGAM_07:
+	_JUMP('ev_COLLECTOR_06')
+ev_FISHING_01:
+	_JUMP('ev_COLLECTOR_06')
+ev_FISHING_02:
+	_JUMP('ev_COLLECTOR_06')
+ev_FISHING_03:
+	_JUMP('ev_COLLECTOR_06')
+ev_FISHING_04:
+	_JUMP('ev_COLLECTOR_06')
+ev_FISHING_05:
+	_JUMP('ev_COLLECTOR_06')
+ev_FISHING_06:
+	_JUMP('ev_COLLECTOR_06')
+ev_FISHING_07:
+	_JUMP('ev_COLLECTOR_06')
+ev_FISHING_08:
+	_JUMP('ev_COLLECTOR_06')
+ev_FISHING_09:
+	_JUMP('ev_COLLECTOR_06')
+ev_FISHING_10:
+	_JUMP('ev_COLLECTOR_06')
+ev_FISHING_11:
+	_JUMP('ev_COLLECTOR_06')
+ev_FISHING_12:
+	_JUMP('ev_COLLECTOR_06')
+ev_FISHING_13:
+	_JUMP('ev_COLLECTOR_06')
+ev_FISHING_14:
+	_JUMP('ev_COLLECTOR_06')
+ev_FISHING_15:
+	_JUMP('ev_COLLECTOR_06')
+ev_FISHING_16:
+	_JUMP('ev_COLLECTOR_06')
+ev_FISHING_17:
+	_JUMP('ev_COLLECTOR_06')
+ev_FISHING_18:
+	_JUMP('ev_COLLECTOR_06')
+ev_FISHING_19:
+	_JUMP('ev_COLLECTOR_06')
+ev_FISHING_20:
+	_JUMP('ev_COLLECTOR_06')
+ev_FISHING_21:
+	_JUMP('ev_COLLECTOR_06')
+ev_FISHING_22:
+	_JUMP('ev_COLLECTOR_06')
+ev_FISHING_23:
+	_JUMP('ev_COLLECTOR_06')
+ev_COLLECTOR_05:
+	_JUMP('ev_COLLECTOR_06')
+ev_COLLECTOR_06:
+	_TALK_OBJ_START_TURN_NOT()
+	_JUMP('ev_trainer_sit_talk_battle')
+	_END()
+ev_TANPAN_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_TANPAN_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_MINI_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_TANPAN_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_CAMPB_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_CAMPB_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_PICNICG_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_PICNICG_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_TANPAN_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_TANPAN_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_MINI_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_MINI_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_MUSHI_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_AROMA_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_FUTAGO_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_FUTAGO_01_2:
+	_JUMP('ev_trainer_talk_battle')
+ev_CAMPB_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_PICNICG_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_MOUNT_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_MOUNT_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_BATTLEG_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_AROMA_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_CYCLINGM_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_CYCLINGM_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_CYCLINGM_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_CYCLINGM_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_CYCLINGW_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_CYCLINGW_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_CYCLINGW_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_CYCLINGW_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_TANPAN_06:
+	_JUMP('ev_trainer_talk_battle')
+ev_CAMPB_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_PICNICG_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_MOUNT_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_MOUNT_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_BATTLEG_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_MOUNT_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_MOUNT_06:
+	_JUMP('ev_trainer_talk_battle')
+ev_MOUNT_07:
+	_JUMP('ev_trainer_talk_battle')
+ev_MOUNT_18:
+	_JUMP('ev_trainer_talk_battle')
+ev_KARATE_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_AROMA_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_ARTIST_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_BREEDERM_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_BREEDERW_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_COWGIRL_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_JOGGER_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_DAISUKIM_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_DAISUKIW_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_TANPAN_07:
+	_JUMP('ev_trainer_talk_battle')
+ev_POKEGIRL_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_LOVELOVE_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_LOVELOVE_01_2:
+	_JUMP('ev_trainer_talk_battle')
+ev_BREEDERM_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_BREEDERW_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_COWGIRL_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_JOGGER_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_DAISUKIM_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_DAISUKIW_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEM_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEW_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_WAITRESS_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_FUTAGO_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_FUTAGO_02_2:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEM_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEW_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_VETERAN_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_KARATE_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_SHINOBI_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_SHINOBI_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_SHINOBI_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_DRAGON_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_BIRD_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_DOUBLETEAM_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_DOUBLETEAM_01_2:
+	_JUMP('ev_trainer_talk_battle')
+ev_BIRD_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_BATTLEG_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_SHINOBI_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_KARATE_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_SHINOBI_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_BIRD_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_PRINCE_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_PRINCESS_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_GENTLE_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_MADAM_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_SISTER_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_COLLECTOR_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_POLICE_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_POLICE_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_POLICE_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_RANGERM_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_RANGERM_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_RANGERW_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_RANGERW_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_SCIENTIST_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_SCIENTIST_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_TANPAN_08:
+	_JUMP('ev_trainer_talk_battle')
+ev_TANPAN_09:
+	_JUMP('ev_trainer_talk_battle')
+ev_POLICE_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_SWIMMERM_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_SWIMMERM_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_SWIMMERW_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_SWIMMERW_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_UKIWAB_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_UKIWAG_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_BATTLEG_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_SAILOR_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_ANEOTOUTO_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_ISEKI_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_ISEKI_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_MOUNT_08:
+	_JUMP('ev_trainer_talk_battle')
+ev_VETERAN_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_CAMPB_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_PICNICG_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_ESPM_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_ESPW_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_GAMBLER_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_GUITARIST_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_GAMBLER_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_SISTER_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_SISTER_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_KARATE_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_KARATE_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_KARATE_06:
+	_JUMP('ev_trainer_talk_battle')
+ev_KARATE_07:
+	_JUMP('ev_trainer_talk_battle')
+ev_JOGGER_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_BIRD_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_COLDELITEM_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_COLDELITEM_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_COLDELITEW_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_COLDELITEW_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_SKIERM_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_SKIERM_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_SKIERW_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_SKIERW_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_COLDELITEM_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_COLDELITEW_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_SKIERM_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_SKIERM_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_SKIERW_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_SKIERW_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_SHINOBI_06:
+	_JUMP('ev_trainer_talk_battle')
+ev_SHINOBI_07:
+	_JUMP('ev_trainer_talk_battle')
+ev_KARATE_08:
+	_JUMP('ev_trainer_talk_battle')
+ev_SWIMMERM_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_SWIMMERM_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_SWIMMERW_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_SWIMMERW_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_ANEOTOUTO_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_SWIMMERM_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_SWIMMERM_06:
+	_JUMP('ev_trainer_talk_battle')
+ev_SWIMMERW_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_SWIMMERM_07:
+	_JUMP('ev_trainer_talk_battle')
+ev_SWIMMERM_08:
+	_JUMP('ev_trainer_talk_battle')
+ev_SWIMMERM_09:
+	_JUMP('ev_trainer_talk_battle')
+ev_SWIMMERW_06:
+	_JUMP('ev_trainer_talk_battle')
+ev_SWIMMERW_07:
+	_JUMP('ev_trainer_talk_battle')
+ev_SWIMMERW_08:
+	_JUMP('ev_trainer_talk_battle')
+ev_ANEOTOUTO_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_SWIMMERM_10:
+	_JUMP('ev_trainer_talk_battle')
+ev_SWIMMERW_09:
+	_JUMP('ev_trainer_talk_battle')
+ev_ISEKI_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEM_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEW_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_HEADS_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_HEADS_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_GUITARIST_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_PIERROT_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_SAILOR_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_ARTIST_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_LOVELOVE_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_SWIMMERM_11:
+	_JUMP('ev_trainer_talk_battle')
+ev_SWIMMERM_12:
+	_JUMP('ev_trainer_talk_battle')
+ev_SWIMMERM_13:
+	_JUMP('ev_trainer_talk_battle')
+ev_SWIMMERM_14:
+	_JUMP('ev_trainer_talk_battle')
+ev_SWIMMERM_15:
+	_JUMP('ev_trainer_talk_battle')
+ev_SWIMMERM_16:
+	_JUMP('ev_trainer_talk_battle')
+ev_SWIMMERW_10:
+	_JUMP('ev_trainer_talk_battle')
+ev_SWIMMERW_11:
+	_JUMP('ev_trainer_talk_battle')
+ev_SWIMMERW_12:
+	_JUMP('ev_trainer_talk_battle')
+ev_SWIMMERW_13:
+	_JUMP('ev_trainer_talk_battle')
+ev_SWIMMERW_14:
+	_JUMP('ev_trainer_talk_battle')
+ev_SWIMMERW_15:
+	_JUMP('ev_trainer_talk_battle')
+ev_WORKER_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_WORKER_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_WORKER_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_SCIENTIST_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_SCIENTIST_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_SCIENTIST_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_MUSHI_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_MUSHI_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_MUSHI_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_MINI_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_ESPM_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_ESPW_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_LOVELOVE_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_WORKER_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_WORKER_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_WORKER_06:
+	_JUMP('ev_trainer_talk_battle')
+ev_COLDELITEM_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_COLDELITEM_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_COLDELITEW_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_COLDELITEW_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_VETERAN_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_VETERAN_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_ESPM_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_ESPW_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_DRAGON_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_SAILOR_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_SCHOOLB_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_SCHOOLG_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_LOVELOVE_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEM_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEM_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEW_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEW_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_VETERAN_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_VETERAN_06:
+	_JUMP('ev_trainer_talk_battle')
+ev_DRAGON_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_DRAGON_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_KARATE_09:
+	_JUMP('ev_trainer_talk_battle')
+ev_BIRD_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_ESPM_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_ESPW_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_DOUBLETEAM_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_DOUBLETEAM_02_2:
+	_JUMP('ev_trainer_talk_battle')
+ev_DOUBLETEAM_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_DOUBLETEAM_03_2:
+	_JUMP('ev_trainer_talk_battle')
+ev_TANPAN_10:
+	_JUMP('ev_trainer_talk_battle')
+ev_MINI_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_VETERAN_07:
+	_JUMP('ev_trainer_talk_battle')
+ev_SAILOR_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_SISTER_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_TANPAN_11:
+	_JUMP('ev_trainer_talk_battle')
+ev_TANPAN_12:
+	_JUMP('ev_trainer_talk_battle')
+ev_LEADER1_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_RIVAL_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_RIVAL_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_RIVAL_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_LEADER7_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEW_06:
+	_JUMP('ev_trainer_talk_battle')
+ev_CAMPB_06:
+	_JUMP('ev_trainer_talk_battle')
+ev_CAMPB_07:
+	_JUMP('ev_trainer_talk_battle')
+ev_CAMPB_08:
+	_JUMP('ev_trainer_talk_battle')
+ev_CAMPB_09:
+	_JUMP('ev_trainer_talk_battle')
+ev_WORKER_07:
+	_JUMP('ev_trainer_talk_battle')
+ev_WORKER_08:
+	_JUMP('ev_trainer_talk_battle')
+ev_KARATE_10:
+	_JUMP('ev_trainer_talk_battle')
+ev_AROMA_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_AROMA_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_BIGFOUR1_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_BIGFOUR2_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_BIGFOUR3_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_BIGFOUR4_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_CAMPB_10:
+	_JUMP('ev_trainer_talk_battle')
+ev_CAMPB_11:
+	_JUMP('ev_trainer_talk_battle')
+ev_CHAMPION_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_COLDELITEM_06:
+	_JUMP('ev_trainer_talk_battle')
+ev_COLDELITEM_07:
+	_JUMP('ev_trainer_talk_battle')
+ev_COLDELITEW_06:
+	_JUMP('ev_trainer_talk_battle')
+ev_COLDELITEW_07:
+	_JUMP('ev_trainer_talk_battle')
+ev_COLLECTOR_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_COLLECTOR_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_COLLECTOR_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_DRAGON_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEM_06:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEM_07:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEM_08:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEM_09:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEM_10:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEW_07:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEW_08:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEW_09:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEW_10:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEW_11:
+	_JUMP('ev_trainer_talk_battle')
+ev_ESPM_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_ESPW_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_FAMILY_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_FAMILY_01_2:
+	_JUMP('ev_trainer_talk_battle')
+ev_FARMER_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_FARMER_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_FUTAGO_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_FUTAGO_03_2:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGALEADER1_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGAM_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGAM_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGAM_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_GUITARIST_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_GUITARIST_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_GUITARIST_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_GUITARIST_06:
+	_JUMP('ev_trainer_talk_battle')
+ev_ISEKI_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_ISEKI_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_JOGGER_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_JOGGER_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_JOGGER_06:
+	_JUMP('ev_trainer_talk_battle')
+ev_KARATE_11:
+	_JUMP('ev_trainer_talk_battle')
+ev_KARATE_12:
+	_JUMP('ev_trainer_talk_battle')
+ev_KARATE_13:
+	_JUMP('ev_trainer_talk_battle')
+ev_KARATE_14:
+	_JUMP('ev_trainer_talk_battle')
+ev_KARATE_15:
+	_JUMP('ev_trainer_talk_battle')
+ev_KARATE_16:
+	_JUMP('ev_trainer_talk_battle')
+ev_LEADER2_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_LEADER3_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_LEADER4_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_LEADER5_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_LEADER6_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_LEADER8_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_MINI_06:
+	_JUMP('ev_trainer_talk_battle')
+ev_MINI_07:
+	_JUMP('ev_trainer_talk_battle')
+ev_MINI_08:
+	_JUMP('ev_trainer_talk_battle')
+ev_MINI_09:
+	_JUMP('ev_trainer_talk_battle')
+ev_MINI_10:
+	_JUMP('ev_trainer_talk_battle')
+ev_MOUNT_09:
+	_JUMP('ev_trainer_talk_battle')
+ev_PARASOL_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_PARASOL_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_PICNICG_06:
+	_JUMP('ev_trainer_talk_battle')
+ev_PICNICG_07:
+	_JUMP('ev_trainer_talk_battle')
+ev_POKEGIRL_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_POLICE_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_POLICE_06:
+	_JUMP('ev_trainer_talk_battle')
+ev_PRINCE_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_PRINCE_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_PRINCESS_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_SAILOR_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_SAILOR_06:
+	_JUMP('ev_trainer_talk_battle')
+ev_SAILOR_07:
+	_JUMP('ev_trainer_talk_battle')
+ev_SCHOOLB_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_SCHOOLB_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_SCHOOLB_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_SCHOOLG_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_SCHOOLG_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_SCHOOLG_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_SISTER_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_SISTER_06:
+	_JUMP('ev_trainer_talk_battle')
+ev_SISTER_07:
+	_JUMP('ev_trainer_talk_battle')
+ev_SKIERM_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_SKIERW_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_SWIMMERM_17:
+	_JUMP('ev_trainer_talk_battle')
+ev_SWIMMERM_18:
+	_JUMP('ev_trainer_talk_battle')
+ev_SWIMMERW_16:
+	_JUMP('ev_trainer_talk_battle')
+ev_SWIMMERW_17:
+	_JUMP('ev_trainer_talk_battle')
+ev_TANPAN_13:
+	_JUMP('ev_trainer_talk_battle')
+ev_TANPAN_14:
+	_JUMP('ev_trainer_talk_battle')
+ev_TANPAN_15:
+	_JUMP('ev_trainer_talk_battle')
+ev_UKIWAB_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_UKIWAB_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_UKIWAG_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_UKIWAG_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_VETERAN_08:
+	_JUMP('ev_trainer_talk_battle')
+ev_WAITER_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_WAITER_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_WAITER_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_WAITRESS_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_WORKER_09:
+	_JUMP('ev_trainer_talk_battle')
+ev_INTERVIEW_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_CAMERAMAN_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_REPORTER_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_IDOL_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_BATTLEG_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_BIRD_06:
+	_JUMP('ev_trainer_talk_battle')
+ev_BREEDERM_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_BREEDERW_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_CAMERAMAN_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_CAMPB_12:
+	_JUMP('ev_trainer_talk_battle')
+ev_CAMPB_13:
+	_JUMP('ev_trainer_talk_battle')
+ev_CAMPB_14:
+	_JUMP('ev_trainer_talk_battle')
+ev_CAMPB_15:
+	_JUMP('ev_trainer_talk_battle')
+ev_COLLECTOR_07:
+	_JUMP('ev_trainer_talk_battle')
+ev_COLLECTOR_08:
+	_JUMP('ev_trainer_talk_battle')
+ev_COLLECTOR_09:
+	_JUMP('ev_trainer_talk_battle')
+ev_DAISUKIM_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_DAISUKIW_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_DRAGON_06:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEM_11:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEM_12:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEM_13:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEM_14:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEW_12:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEW_13:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEW_14:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEW_15:
+	_JUMP('ev_trainer_talk_battle')
+ev_ESPM_06:
+	_JUMP('ev_trainer_talk_battle')
+ev_ESPM_07:
+	_JUMP('ev_trainer_talk_battle')
+ev_ESPM_08:
+	_JUMP('ev_trainer_talk_battle')
+ev_ESPW_06:
+	_JUMP('ev_trainer_talk_battle')
+ev_ESPW_07:
+	_JUMP('ev_trainer_talk_battle')
+ev_ESPW_08:
+	_JUMP('ev_trainer_talk_battle')
+ev_GENTLE_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGALBOSS_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGALBOSS_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGALEADER1_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGALEADER2_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGALEADER2_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGALEADER3_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGALEADER3_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGAM_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGAM_06:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGAM_08:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGAM_09:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGAM_10:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGAM_11:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGAM_12:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGAM_13:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGAM_14:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGAM_15:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGAW_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGAW_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGAW_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGAW_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGAW_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGAW_06:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGAW_07:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGAW_08:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGAW_09:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGAW_10:
+	_JUMP('ev_trainer_talk_battle')
+ev_GUITARIST_07:
+	_JUMP('ev_trainer_talk_battle')
+ev_GUITARIST_08:
+	_JUMP('ev_trainer_talk_battle')
+ev_GUITARIST_09:
+	_JUMP('ev_trainer_talk_battle')
+ev_GUITARIST_10:
+	_JUMP('ev_trainer_talk_battle')
+ev_GUITARIST_11:
+	_JUMP('ev_trainer_talk_battle')
+ev_GUITARIST_12:
+	_JUMP('ev_trainer_talk_battle')
+ev_IDOL_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_IDOL_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_IDOL_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_IDOL_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_ISEKI_06:
+	_JUMP('ev_trainer_talk_battle')
+ev_ISEKI_07:
+	_JUMP('ev_trainer_talk_battle')
+ev_ISEKI_08:
+	_JUMP('ev_trainer_talk_battle')
+ev_KARATE_17:
+	_JUMP('ev_trainer_talk_battle')
+ev_KARATE_18:
+	_JUMP('ev_trainer_talk_battle')
+ev_KARATE_19:
+	_JUMP('ev_trainer_talk_battle')
+ev_KARATE_20:
+	_JUMP('ev_trainer_talk_battle')
+ev_MADAM_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_MINI_11:
+	_JUMP('ev_trainer_talk_battle')
+ev_MINI_12:
+	_JUMP('ev_trainer_talk_battle')
+ev_MOUNT_10:
+	_JUMP('ev_trainer_talk_battle')
+ev_MOUNT_11:
+	_JUMP('ev_trainer_talk_battle')
+ev_MOUNT_12:
+	_JUMP('ev_trainer_talk_battle')
+ev_MOUNT_13:
+	_JUMP('ev_trainer_talk_battle')
+ev_MOUNT_14:
+	_JUMP('ev_trainer_talk_battle')
+ev_PICNICG_08:
+	_JUMP('ev_trainer_talk_battle')
+ev_PICNICG_09:
+	_JUMP('ev_trainer_talk_battle')
+ev_PICNICG_10:
+	_JUMP('ev_trainer_talk_battle')
+ev_PICNICG_11:
+	_JUMP('ev_trainer_talk_battle')
+ev_PIERROT_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_PIERROT_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_PIERROT_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_PIERROT_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_PIERROT_06:
+	_JUMP('ev_trainer_talk_battle')
+ev_POKEGIRL_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_POLICE_07:
+	_JUMP('ev_trainer_talk_battle')
+ev_PRINCE_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_PRINCE_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_PRINCESS_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_RIVAL_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_RIVAL_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_RIVAL_06:
+	_JUMP('ev_trainer_talk_battle')
+ev_RIVAL_07:
+	_JUMP('ev_trainer_talk_battle')
+ev_RIVAL_08:
+	_JUMP('ev_trainer_talk_battle')
+ev_RIVAL_09:
+	_JUMP('ev_trainer_talk_battle')
+ev_RIVAL_10:
+	_JUMP('ev_trainer_talk_battle')
+ev_RIVAL_11:
+	_JUMP('ev_trainer_talk_battle')
+ev_RIVAL_12:
+	_JUMP('ev_trainer_talk_battle')
+ev_RIVAL_13:
+	_JUMP('ev_trainer_talk_battle')
+ev_RIVAL_14:
+	_JUMP('ev_trainer_talk_battle')
+ev_RIVAL_15:
+	_JUMP('ev_trainer_talk_battle')
+ev_SAILOR_08:
+	_JUMP('ev_trainer_talk_battle')
+ev_SAILOR_09:
+	_JUMP('ev_trainer_talk_battle')
+ev_SCHOOLB_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_SCHOOLG_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_SCIENTIST_06:
+	_JUMP('ev_trainer_talk_battle')
+ev_SCIENTIST_07:
+	_JUMP('ev_trainer_talk_battle')
+ev_SHINOBI_08:
+	_JUMP('ev_trainer_talk_battle')
+ev_SHINOBI_09:
+	_JUMP('ev_trainer_talk_battle')
+ev_SHINOBI_10:
+	_JUMP('ev_trainer_talk_battle')
+ev_SISTER_08:
+	_JUMP('ev_trainer_talk_battle')
+ev_SISTER_09:
+	_JUMP('ev_trainer_talk_battle')
+ev_SWIMMERM_19:
+	_JUMP('ev_trainer_talk_battle')
+ev_SWIMMERW_18:
+	_JUMP('ev_trainer_talk_battle')
+ev_TANPAN_16:
+	_JUMP('ev_trainer_talk_battle')
+ev_TANPAN_17:
+	_JUMP('ev_trainer_talk_battle')
+ev_UKIWAB_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_UKIWAG_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_VETERAN_09:
+	_JUMP('ev_trainer_talk_battle')
+ev_VETERAN_10:
+	_JUMP('ev_trainer_talk_battle')
+ev_WAITER_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_WORKER_10:
+	_JUMP('ev_trainer_talk_battle')
+ev_WORKER_11:
+	_JUMP('ev_trainer_talk_battle')
+ev_WORKER_12:
+	_JUMP('ev_trainer_talk_battle')
+ev_WORKER_13:
+	_JUMP('ev_trainer_talk_battle')
+ev_WORKER_14:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGAM_16:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGAM_17:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGAM_18:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGAM_19:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGAM_20:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGAM_21:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGAM_22:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGAM_23:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGAM_24:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGAM_25:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGAM_26:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGAM_27:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGAM_28:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGAM_29:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGAM_30:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGAW_11:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGAW_12:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGAW_13:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGAW_14:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGAW_15:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGAW_16:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGALEADER1_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_HEADS_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_DAISUKIM_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_DAISUKIW_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_TANPAN_18:
+	_JUMP('ev_trainer_talk_battle')
+ev_FAMILY_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_FAMILY_02_2:
+	_JUMP('ev_trainer_talk_battle')
+ev_LOVELOVE_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_LOVELOVE_05_2:
+	_JUMP('ev_trainer_talk_battle')
+ev_AROMA_06:
+	_JUMP('ev_trainer_talk_battle')
+ev_ARTIST_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_BREEDERW_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_CAMERAMAN_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_COLLECTOR_10:
+	_JUMP('ev_trainer_talk_battle')
+ev_DAISUKIW_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_GAMBLER_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_GENTLE_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_MADAM_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_MINI_13:
+	_JUMP('ev_trainer_talk_battle')
+ev_PRINCE_06:
+	_JUMP('ev_trainer_talk_battle')
+ev_PRINCESS_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_REPORTER_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_SCHOOLB_06:
+	_JUMP('ev_trainer_talk_battle')
+ev_SCIENTIST_08:
+	_JUMP('ev_trainer_talk_battle')
+ev_SISTER_10:
+	_JUMP('ev_trainer_talk_battle')
+ev_SISTER_11:
+	_JUMP('ev_trainer_talk_battle')
+ev_VETERAN_11:
+	_JUMP('ev_trainer_talk_battle')
+ev_ISEKI_09:
+	_JUMP('ev_trainer_talk_battle')
+ev_BIRD_07:
+	_JUMP('ev_trainer_talk_battle')
+ev_BIRD_08:
+	_JUMP('ev_trainer_talk_battle')
+ev_BIRD_09:
+	_JUMP('ev_trainer_talk_battle')
+ev_DRAGON_07:
+	_JUMP('ev_trainer_talk_battle')
+ev_DRAGON_08:
+	_JUMP('ev_trainer_talk_battle')
+ev_DRAGON_09:
+	_JUMP('ev_trainer_talk_battle')
+ev_DRAGON_10:
+	_JUMP('ev_trainer_talk_battle')
+ev_DRAGON_11:
+	_JUMP('ev_trainer_talk_battle')
+ev_DRAGON_12:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEM_15:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEM_16:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEM_17:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEM_18:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEM_19:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEM_20:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEM_21:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEM_22:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEM_23:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEM_24:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEW_16:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEW_17:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEW_18:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEW_19:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEW_20:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEW_21:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEW_22:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEW_23:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEW_24:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEW_25:
+	_JUMP('ev_trainer_talk_battle')
+ev_ESPM_09:
+	_JUMP('ev_trainer_talk_battle')
+ev_ESPM_10:
+	_JUMP('ev_trainer_talk_battle')
+ev_ESPW_09:
+	_JUMP('ev_trainer_talk_battle')
+ev_ESPW_10:
+	_JUMP('ev_trainer_talk_battle')
+ev_KARATE_21:
+	_JUMP('ev_trainer_talk_battle')
+ev_KARATE_22:
+	_JUMP('ev_trainer_talk_battle')
+ev_KARATE_23:
+	_JUMP('ev_trainer_talk_battle')
+ev_KARATE_24:
+	_JUMP('ev_trainer_talk_battle')
+ev_RANGERM_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_RANGERM_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_RANGERM_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_RANGERW_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_RANGERW_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_RANGERW_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_SWIMMERM_20:
+	_JUMP('ev_trainer_talk_battle')
+ev_SWIMMERM_21:
+	_JUMP('ev_trainer_talk_battle')
+ev_SWIMMERM_22:
+	_JUMP('ev_trainer_talk_battle')
+ev_SWIMMERM_23:
+	_JUMP('ev_trainer_talk_battle')
+ev_SWIMMERW_19:
+	_JUMP('ev_trainer_talk_battle')
+ev_SWIMMERW_20:
+	_JUMP('ev_trainer_talk_battle')
+ev_SWIMMERW_21:
+	_JUMP('ev_trainer_talk_battle')
+ev_SWIMMERW_22:
+	_JUMP('ev_trainer_talk_battle')
+ev_VETERAN_12:
+	_JUMP('ev_trainer_talk_battle')
+ev_VETERAN_13:
+	_JUMP('ev_trainer_talk_battle')
+ev_RIVAL_16:
+	_JUMP('ev_trainer_talk_battle')
+ev_BTFIVE1_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_BTFIVE2_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_BTFIVE3_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_BTFIVE4_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_BTFIVE5_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_HERO_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_HERO_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_HERO_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_HEROINE_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_HEROINE_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_HEROINE_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_RIVAL_17:
+	_JUMP('ev_trainer_talk_battle')
+ev_RIVAL_18:
+	_JUMP('ev_trainer_talk_battle')
+ev_HERO_06:
+	_JUMP('ev_trainer_talk_battle')
+ev_HERO_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_HERO_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_HEROINE_06:
+	_JUMP('ev_trainer_talk_battle')
+ev_HEROINE_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_HEROINE_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_AROMA_07:
+	_JUMP('ev_trainer_talk_battle')
+ev_AROMA_08:
+	_JUMP('ev_trainer_talk_battle')
+ev_AROMA_09:
+	_JUMP('ev_trainer_talk_battle')
+ev_ARTIST_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_ARTIST_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_ARTIST_06:
+	_JUMP('ev_trainer_talk_battle')
+ev_BATTLEG_06:
+	_JUMP('ev_trainer_talk_battle')
+ev_BATTLEG_07:
+	_JUMP('ev_trainer_talk_battle')
+ev_BATTLEG_08:
+	_JUMP('ev_trainer_talk_battle')
+ev_BIRD_10:
+	_JUMP('ev_trainer_talk_battle')
+ev_BIRD_11:
+	_JUMP('ev_trainer_talk_battle')
+ev_BIRD_12:
+	_JUMP('ev_trainer_talk_battle')
+ev_BREEDERM_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_BREEDERM_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_BREEDERM_06:
+	_JUMP('ev_trainer_talk_battle')
+ev_BREEDERW_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_BREEDERW_06:
+	_JUMP('ev_trainer_talk_battle')
+ev_BREEDERW_07:
+	_JUMP('ev_trainer_talk_battle')
+ev_CAMPB_16:
+	_JUMP('ev_trainer_talk_battle')
+ev_CAMPB_17:
+	_JUMP('ev_trainer_talk_battle')
+ev_CAMPB_18:
+	_JUMP('ev_trainer_talk_battle')
+ev_COLDELITEM_08:
+	_JUMP('ev_trainer_talk_battle')
+ev_COLDELITEW_08:
+	_JUMP('ev_trainer_talk_battle')
+ev_COLLECTOR_11:
+	_JUMP('ev_trainer_talk_battle')
+ev_COWGIRL_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_COWGIRL_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_CYCLINGM_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_CYCLINGM_06:
+	_JUMP('ev_trainer_talk_battle')
+ev_CYCLINGM_07:
+	_JUMP('ev_trainer_talk_battle')
+ev_CYCLINGW_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_CYCLINGW_06:
+	_JUMP('ev_trainer_talk_battle')
+ev_CYCLINGW_07:
+	_JUMP('ev_trainer_talk_battle')
+ev_DRAGON_13:
+	_JUMP('ev_trainer_talk_battle')
+ev_DRAGON_14:
+	_JUMP('ev_trainer_talk_battle')
+ev_DRAGON_15:
+	_JUMP('ev_trainer_talk_battle')
+ev_DRAGON_16:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEM_25:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEM_26:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEM_27:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEM_28:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEM_29:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEW_26:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEW_27:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEW_28:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEW_29:
+	_JUMP('ev_trainer_talk_battle')
+ev_ELITEW_30:
+	_JUMP('ev_trainer_talk_battle')
+ev_ESPM_11:
+	_JUMP('ev_trainer_talk_battle')
+ev_ESPM_12:
+	_JUMP('ev_trainer_talk_battle')
+ev_ESPM_13:
+	_JUMP('ev_trainer_talk_battle')
+ev_ESPM_14:
+	_JUMP('ev_trainer_talk_battle')
+ev_ESPW_11:
+	_JUMP('ev_trainer_talk_battle')
+ev_ESPW_12:
+	_JUMP('ev_trainer_talk_battle')
+ev_ESPW_13:
+	_JUMP('ev_trainer_talk_battle')
+ev_ESPW_14:
+	_JUMP('ev_trainer_talk_battle')
+ev_FARMER_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_FARMER_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_FUTAGO_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_FUTAGO_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_GAMBLER_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_GAMBLER_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_GENTLE_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_GENTLE_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_GENTLE_06:
+	_JUMP('ev_trainer_talk_battle')
+ev_GUITARIST_14:
+	_JUMP('ev_trainer_talk_battle')
+ev_ISEKI_10:
+	_JUMP('ev_trainer_talk_battle')
+ev_ISEKI_11:
+	_JUMP('ev_trainer_talk_battle')
+ev_JOGGER_07:
+	_JUMP('ev_trainer_talk_battle')
+ev_JOGGER_08:
+	_JUMP('ev_trainer_talk_battle')
+ev_KARATE_25:
+	_JUMP('ev_trainer_talk_battle')
+ev_KARATE_26:
+	_JUMP('ev_trainer_talk_battle')
+ev_MADAM_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_MADAM_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_MINI_14:
+	_JUMP('ev_trainer_talk_battle')
+ev_MINI_15:
+	_JUMP('ev_trainer_talk_battle')
+ev_MINI_16:
+	_JUMP('ev_trainer_talk_battle')
+ev_MINI_17:
+	_JUMP('ev_trainer_talk_battle')
+ev_MINI_18:
+	_JUMP('ev_trainer_talk_battle')
+ev_MINI_19:
+	_JUMP('ev_trainer_talk_battle')
+ev_MOUNT_15:
+	_JUMP('ev_trainer_talk_battle')
+ev_MOUNT_16:
+	_JUMP('ev_trainer_talk_battle')
+ev_MOUNT_17:
+	_JUMP('ev_trainer_talk_battle')
+ev_MUSHI_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_MUSHI_06:
+	_JUMP('ev_trainer_talk_battle')
+ev_MUSHI_07:
+	_JUMP('ev_trainer_talk_battle')
+ev_PARASOL_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_PARASOL_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_PARASOL_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_PICNICG_12:
+	_JUMP('ev_trainer_talk_battle')
+ev_PICNICG_13:
+	_JUMP('ev_trainer_talk_battle')
+ev_PICNICG_14:
+	_JUMP('ev_trainer_talk_battle')
+ev_POKEGIRL_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_POKEGIRL_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_POKEGIRL_06:
+	_JUMP('ev_trainer_talk_battle')
+ev_POLICE_09:
+	_JUMP('ev_trainer_talk_battle')
+ev_POLICE_10:
+	_JUMP('ev_trainer_talk_battle')
+ev_POLICE_11:
+	_JUMP('ev_trainer_talk_battle')
+ev_PRINCE_07:
+	_JUMP('ev_trainer_talk_battle')
+ev_PRINCE_08:
+	_JUMP('ev_trainer_talk_battle')
+ev_PRINCESS_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_PRINCESS_06:
+	_JUMP('ev_trainer_talk_battle')
+ev_PRINCESS_07:
+	_JUMP('ev_trainer_talk_battle')
+ev_RANGERM_06:
+	_JUMP('ev_trainer_talk_battle')
+ev_RANGERM_07:
+	_JUMP('ev_trainer_talk_battle')
+ev_RANGERM_08:
+	_JUMP('ev_trainer_talk_battle')
+ev_RANGERM_09:
+	_JUMP('ev_trainer_talk_battle')
+ev_RANGERW_06:
+	_JUMP('ev_trainer_talk_battle')
+ev_RANGERW_07:
+	_JUMP('ev_trainer_talk_battle')
+ev_RANGERW_08:
+	_JUMP('ev_trainer_talk_battle')
+ev_RANGERW_09:
+	_JUMP('ev_trainer_talk_battle')
+ev_SAILOR_10:
+	_JUMP('ev_trainer_talk_battle')
+ev_SAILOR_11:
+	_JUMP('ev_trainer_talk_battle')
+ev_SAILOR_12:
+	_JUMP('ev_trainer_talk_battle')
+ev_SCIENTIST_09:
+	_JUMP('ev_trainer_talk_battle')
+ev_SCIENTIST_10:
+	_JUMP('ev_trainer_talk_battle')
+ev_SCIENTIST_11:
+	_JUMP('ev_trainer_talk_battle')
+ev_SHINOBI_11:
+	_JUMP('ev_trainer_talk_battle')
+ev_SHINOBI_12:
+	_JUMP('ev_trainer_talk_battle')
+ev_SHINOBI_13:
+	_JUMP('ev_trainer_talk_battle')
+ev_SISTER_12:
+	_JUMP('ev_trainer_talk_battle')
+ev_SISTER_13:
+	_JUMP('ev_trainer_talk_battle')
+ev_SKIERM_06:
+	_JUMP('ev_trainer_talk_battle')
+ev_SKIERM_07:
+	_JUMP('ev_trainer_talk_battle')
+ev_SKIERM_08:
+	_JUMP('ev_trainer_talk_battle')
+ev_SKIERM_09:
+	_JUMP('ev_trainer_talk_battle')
+ev_SKIERW_06:
+	_JUMP('ev_trainer_talk_battle')
+ev_SKIERW_07:
+	_JUMP('ev_trainer_talk_battle')
+ev_SKIERW_08:
+	_JUMP('ev_trainer_talk_battle')
+ev_SKIERW_09:
+	_JUMP('ev_trainer_talk_battle')
+ev_SWIMMERM_24:
+	_JUMP('ev_trainer_talk_battle')
+ev_SWIMMERM_25:
+	_JUMP('ev_trainer_talk_battle')
+ev_SWIMMERM_26:
+	_JUMP('ev_trainer_talk_battle')
+ev_SWIMMERW_23:
+	_JUMP('ev_trainer_talk_battle')
+ev_SWIMMERW_24:
+	_JUMP('ev_trainer_talk_battle')
+ev_SWIMMERW_25:
+	_JUMP('ev_trainer_talk_battle')
+ev_TANPAN_19:
+	_JUMP('ev_trainer_talk_battle')
+ev_TANPAN_20:
+	_JUMP('ev_trainer_talk_battle')
+ev_TANPAN_21:
+	_JUMP('ev_trainer_talk_battle')
+ev_TANPAN_22:
+	_JUMP('ev_trainer_talk_battle')
+ev_TANPAN_23:
+	_JUMP('ev_trainer_talk_battle')
+ev_TANPAN_24:
+	_JUMP('ev_trainer_talk_battle')
+ev_UKIWAB_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_UKIWAB_06:
+	_JUMP('ev_trainer_talk_battle')
+ev_UKIWAG_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_VETERAN_14:
+	_JUMP('ev_trainer_talk_battle')
+ev_UKIWAG_06:
+	_JUMP('ev_trainer_talk_battle')
+ev_VETERAN_15:
+	_JUMP('ev_trainer_talk_battle')
+ev_VETERAN_16:
+	_JUMP('ev_trainer_talk_battle')
+ev_VETERAN_17:
+	_JUMP('ev_trainer_talk_battle')
+ev_CAMERAMAN_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_CAMERAMAN_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_CAMERAMAN_06:
+	_JUMP('ev_trainer_talk_battle')
+ev_CAMERAMAN_07:
+	_JUMP('ev_trainer_talk_battle')
+ev_CAMERAMAN_08:
+	_JUMP('ev_trainer_talk_battle')
+ev_GUITARIST_13:
+	_JUMP('ev_trainer_talk_battle')
+ev_GUITARIST_15:
+	_JUMP('ev_trainer_talk_battle')
+ev_GUITARIST_16:
+	_JUMP('ev_trainer_talk_battle')
+ev_GUITARIST_17:
+	_JUMP('ev_trainer_talk_battle')
+ev_GUITARIST_18:
+	_JUMP('ev_trainer_talk_battle')
+ev_GUITARIST_19:
+	_JUMP('ev_trainer_talk_battle')
+ev_IDOL_06:
+	_JUMP('ev_trainer_talk_battle')
+ev_IDOL_07:
+	_JUMP('ev_trainer_talk_battle')
+ev_IDOL_08:
+	_JUMP('ev_trainer_talk_battle')
+ev_IDOL_09:
+	_JUMP('ev_trainer_talk_battle')
+ev_IDOL_10:
+	_JUMP('ev_trainer_talk_battle')
+ev_INTERVIEW_02:
+	_JUMP('ev_trainer_talk_battle')
+ev_INTERVIEW_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_INTERVIEW_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_INTERVIEW_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_PIERROT_07:
+	_JUMP('ev_trainer_talk_battle')
+ev_PIERROT_08:
+	_JUMP('ev_trainer_talk_battle')
+ev_PIERROT_09:
+	_JUMP('ev_trainer_talk_battle')
+ev_PIERROT_10:
+	_JUMP('ev_trainer_talk_battle')
+ev_PIERROT_11:
+	_JUMP('ev_trainer_talk_battle')
+ev_POKEGIRL_07:
+	_JUMP('ev_trainer_talk_battle')
+ev_POKEGIRL_08:
+	_JUMP('ev_trainer_talk_battle')
+ev_POKEGIRL_09:
+	_JUMP('ev_trainer_talk_battle')
+ev_POKEGIRL_10:
+	_JUMP('ev_trainer_talk_battle')
+ev_POLICE_08:
+	_JUMP('ev_trainer_talk_battle')
+ev_REPORTER_03:
+	_JUMP('ev_trainer_talk_battle')
+ev_REPORTER_04:
+	_JUMP('ev_trainer_talk_battle')
+ev_REPORTER_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_REPORTER_06:
+	_JUMP('ev_trainer_talk_battle')
+ev_SCIENTIST_12:
+	_JUMP('ev_trainer_talk_battle')
+ev_SWIMMERM_27:
+	_JUMP('ev_trainer_talk_battle')
+ev_WAITER_05:
+	_JUMP('ev_trainer_talk_battle')
+ev_WORKER_15:
+	_JUMP('ev_trainer_talk_battle')
+ev_TANPAN_25:
+	_JUMP('ev_trainer_talk_battle')
+ev_MINI_20:
+	_JUMP('ev_trainer_talk_battle')
+ev_TANPAN_26:
+	_JUMP('ev_trainer_talk_battle')
+ev_TANPAN_27:
+	_JUMP('ev_trainer_talk_battle')
+ev_MINI_21:
+	_JUMP('ev_trainer_talk_battle')
+ev_TANPAN_28:
+	_JUMP('ev_trainer_talk_battle')
+ev_TANPAN_29:
+	_JUMP('ev_trainer_talk_battle')
+ev_MINI_22:
+	_JUMP('ev_trainer_talk_battle')
+ev_TANPAN_30:
+	_JUMP('ev_trainer_talk_battle')
+ev_KUROTUGU_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_COLDELITEM_09:
+	_JUMP('ev_trainer_talk_battle')
+ev_COLDELITEW_09:
+	_JUMP('ev_trainer_talk_battle')
+ev_SCIENTIST_13:
+	_JUMP('ev_trainer_talk_battle')
+ev_SCIENTIST_14:
+	_JUMP('ev_trainer_talk_battle')
+ev_SCIENTIST_15:
+	_JUMP('ev_trainer_talk_battle')
+ev_POKEGIRL_11:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGAM_31:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGAM_32:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGAM_33:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGAM_34:
+	_JUMP('ev_trainer_talk_battle')
+ev_RIVAL_19:
+	_JUMP('ev_trainer_talk_battle')
+ev_RIVAL_20:
+	_JUMP('ev_trainer_talk_battle')
+ev_RIVAL_21:
+	_JUMP('ev_trainer_talk_battle')
+ev_RIVAL_22:
+	_JUMP('ev_trainer_talk_battle')
+ev_RIVAL_23:
+	_JUMP('ev_trainer_talk_battle')
+ev_RIVAL_24:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGAM_35:
+	_JUMP('ev_trainer_talk_battle')
+ev_WORKER_16:
+	_JUMP('ev_trainer_talk_battle')
+ev_WORKER_17:
+	_JUMP('ev_trainer_talk_battle')
+ev_WORKER_18:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGAM_36:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGAM_37:
+	_JUMP('ev_trainer_talk_battle')
+ev_GINGAM_38:
+	_JUMP('ev_trainer_talk_battle')
+ev_MORIMOTO_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_D05R0102_LOOKER_01:
+	_JUMP('ev_trainer_talk_battle')
+ev_trainer_talk_battle:
+	_TALK_OBJ_START()
+	_JUMP('ev_trainer_sit_talk_battle')
+	_END()
+ev_trainer_sit_talk_battle:
+	_TRAINER_ID_GET(@SCWK_TEMP0)
+	_CALL('ev_get_trainer_id_for_current_gamemode_talk')
+	_IF_TR_FLAGON_JUMP(@SCWK_TEMP0, 'ev_trainer_talk_after')
+	_TUREARUKI_POKE_DELETE(1)
+	_GET_TAG_PATNER_ID(@SCWK_TEMP0, @SCWK_TEMP1)
+	_IFVAL_JUMP(@SCWK_TEMP1, 'EQ', -1, 'ev_trainer_common_10')
+	_2VS2_BATTLE_CHECK(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_trainer_talk_battle_poke_one')
+	_CALL('ev_trainer_type_single_camra_start')
+	_JUMP('ev_trainer_type_double_talk')
+	_END()
+ev_trainer_common_10:
+	_CALL('ev_trainer_type_single_camra_start')
+	_TRAINER_BGM_SET(@SCWK_TEMP0)
+	_TALK_OPEN()
+	_TRAINER_TALK_TYPE_GET(@SCWK_PARAM0, @SCWK_PARAM1, @SCWK_PARAM2)
+	_TRAINER_MSG_SET(@SCWK_TEMP0, @SCWK_PARAM0)
+	_JUMP('ev_trainer_common_11')
+	_END()
+ev_trainer_common_11:
+	_TALK_CLOSE()
+	_BTL_SEARCHER_DIR_MV_SET()
+	_IF_FLAGON_CALL(#FE_TRAINERS_CAMERA, 'ev_trainer_camra_back')
+	_TRAINER_BTL_SET(@SCWK_TEMP0, 0)
+	_TRAINER_FLAG_SET(@SCWK_TEMP0)
+	_CALL('ev_d28r0101_koiking_trainer')
+	_CALL('ev_r209r010x_mapinfo_stop_chk')
+	_TUREARUKI_POKE_CREATE()
+	_TALK_OBJ_END()
+	_CALL('ev_sp_read_t_chk')
+	_END()
+ev_trainer_talk_after:
+	_REVENGE_TRAINER_SEARCH(@SCWK_TEMP0, @SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'NE', 0, 'ev_trainer_revenge')
+	_JUMP('ev_trainer_talk_after_normal')
+	_END()
+ev_trainer_talk_after_normal:
+	_TALK_OPEN()
+	_TRAINER_TALK_TYPE_GET(@SCWK_PARAM0, @SCWK_PARAM1, @SCWK_PARAM2)
+	_TRAINER_MSG_SET(@SCWK_TEMP0, @SCWK_PARAM1)
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_trainer_revenge:
+	_LDWK(@SCWK_TEMP3, @SCWK_ANSWER)
+	_TUREARUKI_POKE_DELETE(1)
+	_GET_TAG_PATNER_ID(@SCWK_TEMP3, @SCWK_TEMP1)
+	_IFVAL_JUMP(@SCWK_TEMP1, 'EQ', -1, 'ev_trainer_revenge_solo')
+	_2VS2_BATTLE_CHECK(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_trainer_talk_battle_poke_one')
+	_JUMP('ev_trainer_revenge_double_talk')
+	_END()
+ev_trainer_revenge_solo:
+	_TRAINER_BGM_SET(@SCWK_TEMP0)
+	_TALK_OPEN()
+	_REVENGE_TRAINER_TALK_TYPE_GET(@SCWK_PARAM0, @SCWK_PARAM1, @SCWK_PARAM2)
+	_TRAINER_MSG_SET(@SCWK_TEMP0, @SCWK_PARAM0)
+	_TALK_CLOSE()
+	_BTL_SEARCHER_DIR_MV_SET()
+	_TRAINER_BTL_SET(@SCWK_TEMP3, 0)
+	_TRAINER_FLAG_SET(@SCWK_TEMP3)
+	_TRAINER_FLAG_SET(@SCWK_TEMP0)
+	_TUREARUKI_POKE_CREATE()
+	_CALL('ev_sp_read_t_chk')
+	_TALK_OBJ_END()
+	_END()
+ev_trainer_battle_lose:
+	_TRAINER_LOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_trainer_talk_battle_poke_one:
+	_TRAINER_ID_GET(@SCWK_TEMP0)
+	_TALK_OPEN()
+	_TRAINER_TALK_TYPE_GET(@SCWK_PARAM0, @SCWK_PARAM1, @SCWK_PARAM2)
+	_TRAINER_MSG_SET(@SCWK_TEMP0, @SCWK_PARAM2)
+	_AB_KEYWAIT()
+	_TALK_CLOSE()
+	_TUREARUKI_POKE_CREATE()
+	_TALK_OBJ_END()
+	_END()
+ev_trainer_kakuremino_talk:
+	_EMBANKMENT()
+	_RET()
+ev_trainer_move_battle:
+	_EYE_TRAINER_ID_GET(0, @SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 10000, 'ev_d05r0102_looker_scene'); Attempt to hijack trainer Line of sight to trigger scripted event
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 10001, 'ev_d05r0104_trigger')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 10003, 'pos_r212ar0101_script_17')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 10005, 'ev_c06_barry_event')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 10006, 'ev_d17r0101_cynthia_event')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 10007, 'ev_C05R0601_RIVAL_fight')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 10008, 'pos_c05r0501_aaron_trigger')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 10009, 'ev_d12r0101_graveller_1')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 10010, 'ev_d12r0101_graveller_2')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 10011, 'ev_d12r0101_graveller_3')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 10012, 'ev_d16_post_stark_event')
+	_CALL('ev_get_trainer_id_for_current_gamemode')
+	_EVENT_START()
+	_TUREARUKI_POKE_DELETE(1)
+	_EYE_TRAINER_TYPE_GET(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_trainer_type_single')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 2, 'ev_trainer_type_double')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_trainer_type_tag')
+	_END()
+ev_trainer_type_single:
+	_EYE_TRAINER_ID_GET(0, @SCWK_ANSWER)
+	_CALL('ev_get_trainer_id_for_current_gamemode')
+	_LDWK(@SCWK_TEMP0, @SCWK_ANSWER)
+	_TRAINER_BGM_SET(@SCWK_TEMP0)
+	_EYE_TRAINER_MOVE_SET(0)
+	_CALL('ev_trainer_type_single_camra_start')
+	_CALL('ev_trainer_type_single_move_end_check')
+	_EYE_TRAINER_ID_GET(0, @SCWK_ANSWER)
+	_CALL('ev_get_trainer_id_for_current_gamemode')
+	_LDWK(@SCWK_TEMP0, @SCWK_ANSWER)
+	_TALK_OPEN()
+	_TURN_HERO_TALK_OBJ()
+	_TRAINER_MSG_SET(@SCWK_TEMP0, 'TRMSG_FIGHT_START')
+	_TALK_CLOSE()
+	_IF_FLAGON_CALL(#FE_TRAINERS_CAMERA, 'ev_trainer_camra_back')
+	_TRAINER_BTL_SET(@SCWK_TEMP0, 0)
+	_TRAINER_LOSE_CHECK(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_trainer_battle_lose')
+	_EYE_TRAINER_ID_GET(0, @SCWK_ANSWER)
+	_CALL('ev_get_trainer_id_for_current_gamemode')
+	_LDWK(@SCWK_TEMP0, @SCWK_ANSWER)
+	_TRAINER_FLAG_SET(@SCWK_TEMP0)
+	_CALL('ev_d28r0101_koiking_trainer')
+	_CALL('ev_r209r010x_mapinfo_stop_chk')
+	_TUREARUKI_POKE_CREATE()
+	_EVENT_END()
+	_CALL('ev_sp_read_t_chk')
+	_END()
+ev_trainer_type_single_move_end_check:
+	_EYE_TRAINER_MOVE_CHECK(0, @SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_trainer_type_single_move_end_check')
+	_RET()
+ev_trainer_type_double_talk:
+	_TRAINER_BGM_SET(@SCWK_TEMP0)
+	_TALK_OPEN()
+	_TRAINER_MSG_SET(@SCWK_TEMP0, 'TRMSG_FIGHT_START_1')
+	_TALK_CLOSE()
+	_IF_FLAGON_CALL(#FE_TRAINERS_CAMERA, 'ev_trainer_camra_back')
+	_CALL('ev_Wtrainer_re_pose')
+	_TRAINER_BTL_SET(@SCWK_TEMP0, @SCWK_TEMP1)
+	_TRAINER_LOSE_CHECK(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_trainer_battle_lose')
+	_TRAINER_FLAG_SET(@SCWK_TEMP0)
+	_TRAINER_FLAG_SET(@SCWK_TEMP1)
+	_TUREARUKI_POKE_CREATE()
+	_CALL('ev_r209r010x_mapinfo_stop_chk')
+	_EVENT_END()
+	_END()
+ev_trainer_revenge_double_talk:
+	_TRAINER_BGM_SET(@SCWK_TEMP0)
+	_TALK_OPEN()
+	_REVENGE_TRAINER_TALK_TYPE_GET(@SCWK_PARAM0, @SCWK_PARAM1, @SCWK_PARAM2)
+	_TRAINER_MSG_SET(@SCWK_TEMP0, @SCWK_PARAM0)
+	_TALK_CLOSE()
+	_BTL_SEARCHER_DIR_MV_SET()
+	_CALL('ev_Wtrainer_re_pose2')
+	_TRAINER_BTL_SET(@SCWK_TEMP3, @SCWK_TEMP1)
+	_TRAINER_LOSE_CHECK(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_trainer_battle_lose')
+	_TRAINER_FLAG_SET(@SCWK_TEMP3)
+	_TRAINER_FLAG_SET(@SCWK_TEMP1)
+	_TRAINER_FLAG_SET(@SCWK_TEMP0)
+	_TUREARUKI_POKE_CREATE()
+	_TALK_OBJ_END()
+	_END()
+ev_trainer_type_double:
+	_EYE_TRAINER_ID_GET(0, @SCWK_ANSWER)
+	_CALL('ev_get_trainer_id_for_current_gamemode')
+	_LDWK(@SCWK_TEMP0, @SCWK_ANSWER)
+	_TRAINER_BGM_SET(@SCWK_TEMP0)
+	_EYE_TRAINER_MOVE_SET(0)
+	_CALL('ev_trainer_type_single_camra_start')
+	_CALL('ev_trainer_type_double_move_end_check')
+	_EYE_TRAINER_ID_GET(0, @SCWK_ANSWER)
+	_CALL('ev_get_trainer_id_for_current_gamemode')
+	_LDWK(@SCWK_TEMP0, @SCWK_ANSWER)
+	_TALK_OPEN()
+	_TRAINER_MSG_SET(@SCWK_TEMP0, 'TRMSG_FIGHT_START_1')
+	_TALK_CLOSE()
+	_EYE_TRAINER_ID_GET(1, @SCWK_ANSWER)
+	_CALL('ev_get_trainer_id_for_current_gamemode')
+	_LDWK(@SCWK_TEMP1, @SCWK_ANSWER)
+	_TRAINER_BGM_SET(@SCWK_TEMP1)
+	_EYE_TRAINER_MOVE_SET(1)
+	_TALK_OPEN()
+	_TRAINER_MSG_SET(@SCWK_TEMP1, 'TRMSG_FIGHT_START_2')
+	_TALK_CLOSE()
+	_IF_FLAGON_CALL(#FE_TRAINERS_CAMERA, 'ev_trainer_camra_back')
+	_CALL('ev_Wtrainer_re_pose')
+	_TRAINER_BTL_SET(@SCWK_TEMP0, @SCWK_TEMP1)
+	_TRAINER_LOSE_CHECK(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_trainer_battle_lose')
+	_EYE_TRAINER_ID_GET(0, @SCWK_ANSWER)
+	_CALL('ev_get_trainer_id_for_current_gamemode')
+	_LDWK(@SCWK_TEMP0, @SCWK_ANSWER)
+	_TRAINER_FLAG_SET(@SCWK_TEMP0)
+	_EYE_TRAINER_ID_GET(1, @SCWK_ANSWER)
+	_CALL('ev_get_trainer_id_for_current_gamemode')
+	_LDWK(@SCWK_TEMP1, @SCWK_ANSWER)
+	_TRAINER_FLAG_SET(@SCWK_TEMP1)
+	_TUREARUKI_POKE_CREATE()
+	_EVENT_END()
+	_END()
+ev_trainer_type_double_move_end_check:
+	_EYE_TRAINER_MOVE_CHECK(0, @SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_trainer_type_double_move_end_check')
+	_EYE_TRAINER_MOVE_CHECK(1, @SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_trainer_type_double_move_end_check')
+	_RET()
+ev_trainer_type_tag:
+	_EYE_TRAINER_ID_GET(0, @SCWK_ANSWER)
+	_CALL('ev_get_trainer_id_for_current_gamemode')
+	_LDWK(@SCWK_TEMP0, @SCWK_ANSWER)
+	_TRAINER_BGM_SET(@SCWK_TEMP0)
+	_EYE_TRAINER_MOVE_SET(0)
+	_EYE_TRAINER_MOVE_SET(1)
+	_CALL('ev_trainer_type_tag_move_end_check_0')
+	_EYE_TRAINER_ID_GET(0, @SCWK_ANSWER)
+	_CALL('ev_get_trainer_id_for_current_gamemode')
+	_LDWK(@SCWK_TEMP0, @SCWK_ANSWER)
+	_TALK_OPEN()
+	_TRAINER_MSG_SET(@SCWK_TEMP0, 'TRMSG_FIGHT_START')
+	_TALK_CLOSE()
+	_CALL('ev_trainer_type_single_camra_start')
+	_CALL('ev_trainer_type_tag_move_end_check_1')
+	_EYE_TRAINER_ID_GET(1, @SCWK_ANSWER)
+	_CALL('ev_get_trainer_id_for_current_gamemode')
+	_LDWK(@SCWK_TEMP1, @SCWK_ANSWER)
+	_TALK_OPEN()
+	_TRAINER_MSG_SET(@SCWK_TEMP1, 'TRMSG_FIGHT_START')
+	_TALK_CLOSE()
+	_IF_FLAGON_CALL(#FE_TRAINERS_CAMERA, 'ev_trainer_camra_back')
+	_CALL('ev_Wtrainer_re_pose')
+	_TRAINER_BTL_SET(@SCWK_TEMP0, @SCWK_TEMP1)
+	_TRAINER_LOSE_CHECK(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_trainer_battle_lose')
+	_EYE_TRAINER_ID_GET(0, @SCWK_ANSWER)
+	_CALL('ev_get_trainer_id_for_current_gamemode')
+	_LDWK(@SCWK_TEMP0, @SCWK_ANSWER)
+	_TRAINER_FLAG_SET(@SCWK_TEMP0)
+	_EYE_TRAINER_ID_GET(1, @SCWK_ANSWER)
+	_CALL('ev_get_trainer_id_for_current_gamemode')
+	_LDWK(@SCWK_TEMP1, @SCWK_ANSWER)
+	_TRAINER_FLAG_SET(@SCWK_TEMP1)
+	_TUREARUKI_POKE_CREATE()
+	_CALL('ev_r209r010x_mapinfo_stop_chk')
+	_EVENT_END()
+	_END()
+ev_trainer_type_tag_move_end_check_0:
+	_EYE_TRAINER_MOVE_CHECK(0, @SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_trainer_type_tag_move_end_check_0')
+	_RET()
+ev_trainer_type_tag_move_end_check_1:
+	_EYE_TRAINER_MOVE_CHECK(1, @SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_trainer_type_tag_move_end_check_1')
+	_RET()
+ev_sp_read_t_chk:
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 399, 'ev_d05r0109_init_change')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 95, 'ev_r214_flag_change')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 549, 'ev_r214_flag_change')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 550, 'ev_r214_flag_change')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 96, 'ev_r214_flag_change')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 563, 'ev_r214_flag_change')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 564, 'ev_r214_flag_change')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 197, 'ev_r214_flag_change')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 369, 'ev_r214_flag_change')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 92, 'ev_r214_flag_change')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 292, 'ev_r214_flag_change')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 94, 'ev_r214_flag_change')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 545, 'ev_r214_flag_change')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 546, 'ev_r214_flag_change')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 93, 'ev_r214_flag_change')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 196, 'ev_r214_flag_change')
+	_RET()
+ev_trainer_type_single_camra_start:
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 1, 'ev_trainer_cam_start001')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 247, 'ev_trainer_cam_start002')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 8, 'ev_trainer_cam_start003')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 13, 'ev_trainer_cam_start004')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 17, 'ev_trainer_cam_start005')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 21, 'ev_trainer_cam_start006')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 25, 'ev_trainer_cam_start007')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 30, 'ev_trainer_cam_start008')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 41, 'ev_trainer_cam_start009')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 42, 'ev_trainer_cam_start010')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 46, 'ev_trainer_cam_start011')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 44, 'ev_trainer_cam_start012')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 47, 'ev_trainer_cam_start013')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 402, 'ev_trainer_cam_start015')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 403, 'ev_trainer_cam_start016')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 404, 'ev_trainer_cam_start017')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 428, 'ev_trainer_cam_start018')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 50, 'ev_trainer_cam_start019')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 216, 'ev_trainer_cam_start020')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 154, 'ev_trainer_cam_start021')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 238, 'ev_trainer_cam_start022')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 468, 'ev_trainer_cam_start023')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 435, 'ev_trainer_cam_start024')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 430, 'ev_trainer_cam_start025')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 443, 'ev_trainer_cam_start026')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 471, 'ev_trainer_cam_start027')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 450, 'ev_trainer_cam_start028')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 473, 'ev_trainer_cam_start029')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 51, 'ev_trainer_cam_start100')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 278, 'ev_trainer_cam_start101')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 250, 'ev_trainer_cam_start102')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 70, 'ev_trainer_cam_start103')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 71, 'ev_trainer_cam_start104')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 72, 'ev_trainer_cam_start105')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 291, 'ev_trainer_cam_start106')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 82, 'ev_trainer_cam_start107')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 251, 'ev_trainer_cam_start108')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 88, 'ev_trainer_cam_start109')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 96, 'ev_trainer_cam_start110')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 100, 'ev_trainer_cam_start111')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 104, 'ev_trainer_cam_start112')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 106, 'ev_trainer_cam_start113')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 116, 'ev_trainer_cam_start114')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 109, 'ev_trainer_cam_start115')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 225, 'ev_trainer_cam_start116')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 377, 'ev_trainer_cam_start117')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 285, 'ev_trainer_cam_start118')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 107, 'ev_trainer_cam_start119')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 275, 'ev_trainer_cam_start120')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 123, 'ev_trainer_cam_start121')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 128, 'ev_trainer_cam_start122')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 258, 'ev_trainer_cam_start123')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 363, 'ev_trainer_cam_start124')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 161, 'ev_trainer_cam_start125')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 167, 'ev_trainer_cam_start126')
+	_RET()
+ev_trainer_cam_start001:
+	_EVENT_CAMERA_INDEX(130)
+	_FLAG_SET(#FE_TRAINERS_CAMERA)
+	_RET()
+ev_trainer_cam_start002:
+	_EVENT_CAMERA_INDEX(924)
+	_FLAG_SET(#FE_TRAINERS_CAMERA)
+	_RET()
+ev_trainer_cam_start003:
+	_EVENT_CAMERA_INDEX(925)
+	_FLAG_SET(#FE_TRAINERS_CAMERA)
+	_RET()
+ev_trainer_cam_start004:
+	_EVENT_CAMERA_INDEX(926)
+	_FLAG_SET(#FE_TRAINERS_CAMERA)
+	_RET()
+ev_trainer_cam_start005:
+	_EVENT_CAMERA_INDEX(926)
+	_FLAG_SET(#FE_TRAINERS_CAMERA)
+	_RET()
+ev_trainer_cam_start006:
+	_EVENT_CAMERA_INDEX(927)
+	_FLAG_SET(#FE_TRAINERS_CAMERA)
+	_RET()
+ev_trainer_cam_start007:
+	_EVENT_CAMERA_INDEX(927)
+	_FLAG_SET(#FE_TRAINERS_CAMERA)
+	_RET()
+ev_trainer_cam_start008:
+	_EVENT_CAMERA_INDEX(928)
+	_FLAG_SET(#FE_TRAINERS_CAMERA)
+	_RET()
+ev_trainer_cam_start009:
+	_EVENT_CAMERA_INDEX(531)
+	_FLAG_SET(#FE_TRAINERS_CAMERA)
+	_RET()
+ev_trainer_cam_start010:
+	_EVENT_CAMERA_INDEX(929)
+	_FLAG_SET(#FE_TRAINERS_CAMERA)
+	_RET()
+ev_trainer_cam_start011:
+	_EVENT_CAMERA_INDEX(929)
+	_FLAG_SET(#FE_TRAINERS_CAMERA)
+	_RET()
+ev_trainer_cam_start012:
+	_EVENT_CAMERA_INDEX(929)
+	_FLAG_SET(#FE_TRAINERS_CAMERA)
+	_RET()
+ev_trainer_cam_start013:
+	_EVENT_CAMERA_INDEX(929)
+	_FLAG_SET(#FE_TRAINERS_CAMERA)
+	_RET()
+ev_trainer_cam_start015:
+	_EVENT_CAMERA_INDEX(930)
+	_FLAG_SET(#FE_TRAINERS_CAMERA)
+	_RET()
+ev_trainer_cam_start016:
+	_EVENT_CAMERA_INDEX(931)
+	_FLAG_SET(#FE_TRAINERS_CAMERA)
+	_RET()
+ev_trainer_cam_start017:
+	_EVENT_CAMERA_INDEX(932)
+	_FLAG_SET(#FE_TRAINERS_CAMERA)
+	_RET()
+ev_trainer_cam_start018:
+	_EVENT_CAMERA_INDEX(933)
+	_FLAG_SET(#FE_TRAINERS_CAMERA)
+	_RET()
+ev_trainer_cam_start019:
+	_EVENT_CAMERA_INDEX(934)
+	_FLAG_SET(#FE_TRAINERS_CAMERA)
+	_RET()
+ev_trainer_cam_start020:
+	_EVENT_CAMERA_INDEX(929)
+	_FLAG_SET(#FE_TRAINERS_CAMERA)
+	_RET()
+ev_trainer_cam_start021:
+	_EVENT_CAMERA_INDEX(711)
+	_FLAG_SET(#FE_TRAINERS_CAMERA)
+	_RET()
+ev_trainer_cam_start022:
+	_EVENT_CAMERA_INDEX(711)
+	_FLAG_SET(#FE_TRAINERS_CAMERA)
+	_RET()
+ev_trainer_cam_start023:
+	_EVENT_CAMERA_INDEX(711)
+	_FLAG_SET(#FE_TRAINERS_CAMERA)
+	_RET()
+ev_trainer_cam_start024:
+	_EVENT_CAMERA_INDEX(714)
+	_FLAG_SET(#FE_TRAINERS_CAMERA)
+	_RET()
+ev_trainer_cam_start025:
+	_EVENT_CAMERA_INDEX(714)
+	_FLAG_SET(#FE_TRAINERS_CAMERA)
+	_RET()
+ev_trainer_cam_start026:
+	_EVENT_CAMERA_INDEX(714)
+	_FLAG_SET(#FE_TRAINERS_CAMERA)
+	_RET()
+ev_trainer_cam_start027:
+	_EVENT_CAMERA_INDEX(710)
+	_FLAG_SET(#FE_TRAINERS_CAMERA)
+	_RET()
+ev_trainer_cam_start028:
+	_EVENT_CAMERA_INDEX(711)
+	_FLAG_SET(#FE_TRAINERS_CAMERA)
+	_RET()
+ev_trainer_cam_start029:
+	_EVENT_CAMERA_INDEX(551)
+	_FLAG_SET(#FE_TRAINERS_CAMERA)
+	_RET()
+ev_trainer_cam_start100:
+	_EVENT_CAMERA_INDEX(706)
+	_FLAG_SET(#FE_TRAINERS_CAMERA)
+	_RET()
+ev_trainer_cam_start101:
+	_EVENT_CAMERA_INDEX(465)
+	_FLAG_SET(#FE_TRAINERS_CAMERA)
+	_RET()
+ev_trainer_cam_start102:
+	_EVENT_CAMERA_INDEX(704)
+	_FLAG_SET(#FE_TRAINERS_CAMERA)
+	_RET()
+ev_trainer_cam_start103:
+	_EVENT_CAMERA_INDEX(701)
+	_FLAG_SET(#FE_TRAINERS_CAMERA)
+	_RET()
+ev_trainer_cam_start104:
+	_EVENT_CAMERA_INDEX(712)
+	_FLAG_SET(#FE_TRAINERS_CAMERA)
+	_RET()
+ev_trainer_cam_start105:
+	_EVENT_CAMERA_INDEX(701)
+	_FLAG_SET(#FE_TRAINERS_CAMERA)
+	_RET()
+ev_trainer_cam_start106:
+	_EVENT_CAMERA_INDEX(468)
+	_FLAG_SET(#FE_TRAINERS_CAMERA)
+	_RET()
+ev_trainer_cam_start107:
+	_EVENT_CAMERA_INDEX(707)
+	_FLAG_SET(#FE_TRAINERS_CAMERA)
+	_RET()
+ev_trainer_cam_start108:
+	_EVENT_CAMERA_INDEX(706)
+	_FLAG_SET(#FE_TRAINERS_CAMERA)
+	_RET()
+ev_trainer_cam_start109:
+	_EVENT_CAMERA_INDEX(710)
+	_FLAG_SET(#FE_TRAINERS_CAMERA)
+	_RET()
+ev_trainer_cam_start110:
+	_EVENT_CAMERA_INDEX(708)
+	_FLAG_SET(#FE_TRAINERS_CAMERA)
+	_RET()
+ev_trainer_cam_start111:
+	_EVENT_CAMERA_INDEX(709)
+	_FLAG_SET(#FE_TRAINERS_CAMERA)
+	_RET()
+ev_trainer_cam_start112:
+	_EVENT_CAMERA_INDEX(708)
+	_FLAG_SET(#FE_TRAINERS_CAMERA)
+	_RET()
+ev_trainer_cam_start113:
+	_EVENT_CAMERA_INDEX(706)
+	_FLAG_SET(#FE_TRAINERS_CAMERA)
+	_RET()
+ev_trainer_cam_start114:
+	_EVENT_CAMERA_INDEX(706)
+	_FLAG_SET(#FE_TRAINERS_CAMERA)
+	_RET()
+ev_trainer_cam_start115:
+	_EVENT_CAMERA_INDEX(705)
+	_FLAG_SET(#FE_TRAINERS_CAMERA)
+	_RET()
+ev_trainer_cam_start116:
+	_EVENT_CAMERA_INDEX(704)
+	_FLAG_SET(#FE_TRAINERS_CAMERA)
+	_RET()
+ev_trainer_cam_start117:
+	_CALL('ev_trainer_cam_start117_r')
+	_FLAG_SET(#FE_TRAINERS_CAMERA)
+	_RET()
+ev_trainer_cam_start117_r:
+	_EVENT_CAMERA_INDEX(713)
+	_RET()
+ev_trainer_cam_start117_l:
+	_EVENT_CAMERA_INDEX(703)
+	_RET()
+ev_trainer_cam_start118:
+	_EVENT_CAMERA_INDEX(702)
+	_FLAG_SET(#FE_TRAINERS_CAMERA)
+	_RET()
+ev_trainer_cam_start119:
+	_EVENT_CAMERA_INDEX(472)
+	_FLAG_SET(#FE_TRAINERS_CAMERA)
+	_RET()
+ev_trainer_cam_start120:
+	_CALL('ev_trainer_cam_start120_l')
+	_FLAG_SET(#FE_TRAINERS_CAMERA)
+	_RET()
+ev_trainer_cam_start120_r:
+	_EVENT_CAMERA_INDEX(712)
+	_RET()
+ev_trainer_cam_start120_l:
+	_EVENT_CAMERA_INDEX(701)
+	_RET()
+ev_trainer_cam_start121:
+	_EVENT_CAMERA_INDEX(473)
+	_FLAG_SET(#FE_TRAINERS_CAMERA)
+	_RET()
+ev_trainer_cam_start122:
+	_EVENT_CAMERA_INDEX(474)
+	_FLAG_SET(#FE_TRAINERS_CAMERA)
+	_RET()
+ev_trainer_cam_start123:
+	_EVENT_CAMERA_INDEX(700)
+	_FLAG_SET(#FE_TRAINERS_CAMERA)
+	_RET()
+ev_trainer_cam_start124:
+	_EVENT_CAMERA_INDEX(914)
+	_FLAG_SET(#FE_TRAINERS_CAMERA)
+	_RET()
+ev_trainer_cam_start125:
+	_EVENT_CAMERA_INDEX(475)
+	_FLAG_SET(#FE_TRAINERS_CAMERA)
+	_RET()
+ev_trainer_cam_start126:
+	_EVENT_CAMERA_INDEX(476)
+	_FLAG_SET(#FE_TRAINERS_CAMERA)
+	_RET()
+ev_trainer_cam_dir:
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 377, 'ev_trainer_cam_dir_start117')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 275, 'ev_trainer_cam_dir_start120')
+	_LDVAL(@LOCALWORK11, 0)
+	_IFVAL_CALL(@LOCALWORK10, 'EQ', 8, 'ev_trainer_cam_dir_r')
+	_IFVAL_CALL(@LOCALWORK10, 'EQ', 2, 'ev_trainer_cam_dir_l')
+	_IFVAL_CALL(@LOCALWORK10, 'EQ', 4, 'ev_trainer_cam_dir_l')
+	_IFVAL_CALL(@LOCALWORK10, 'EQ', 6, 'ev_trainer_cam_dir_r')
+	_IFVAL_CALL(@LOCALWORK10, 'EQ', 7, 'ev_trainer_cam_dir_l')
+	_IFVAL_CALL(@LOCALWORK10, 'EQ', 1, 'ev_trainer_cam_dir_l')
+	_IFVAL_CALL(@LOCALWORK10, 'EQ', 9, 'ev_trainer_cam_dir_r')
+	_IFVAL_CALL(@LOCALWORK10, 'EQ', 3, 'ev_trainer_cam_dir_r')
+	_RET()
+ev_trainer_cam_dir_start117:
+	_GET_REL_POS_HERO('TR_WORKER_11', @LOCALWORK10)
+	_RET()
+ev_trainer_cam_dir_start120:
+	_GET_REL_POS_HERO('TR_UKIWAG_02', @LOCALWORK10)
+	_RET()
+ev_trainer_cam_dir_r:
+	_LDVAL(@LOCALWORK11, 1)
+	_RET()
+ev_trainer_cam_dir_l:
+	_LDVAL(@LOCALWORK11, 2)
+	_RET()
+ev_trainer_camra_back:
+	_EVENT_CAMERA_END_WAIT()
+	_EVENT_CAMERA_INDEX(111)
+	_EVENT_CAMERA_END_WAIT()
+	_FLAG_RESET(#FE_TRAINERS_CAMERA)
+	_RET()
+ev_Wtrainer_re_pose:
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 47, 'ev_Wtrainer_chenge')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 408, 'ev_Wtrainer_chenge')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 62, 'ev_Wtrainer_chenge')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 168, 'ev_Wtrainer_chenge')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 170, 'ev_Wtrainer_chenge')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 11, 'ev_Wtrainer_chenge')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 52, 'ev_Wtrainer_chenge')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 219, 'ev_Wtrainer_chenge')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 215, 'ev_Wtrainer_chenge')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 407, 'ev_Wtrainer_chenge')
+	_RET()
+ev_Wtrainer_re_pose2:
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 47, 'ev_Wtrainer_chenge2')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 408, 'ev_Wtrainer_chenge2')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 62, 'ev_Wtrainer_chenge2')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 168, 'ev_Wtrainer_chenge2')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 170, 'ev_Wtrainer_chenge2')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 11, 'ev_Wtrainer_chenge2')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 52, 'ev_Wtrainer_chenge2')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 560, 'ev_Wtrainer_chenge2')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 562, 'ev_Wtrainer_chenge2')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 219, 'ev_Wtrainer_chenge2')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 215, 'ev_Wtrainer_chenge2')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 407, 'ev_Wtrainer_chenge2')
+	_RET()
+ev_Wtrainer_chenge:
+	_LDWK(@LOCALWORK19, @SCWK_TEMP0)
+	_LDWK(@LOCALWORK20, @SCWK_TEMP1)
+	_LDWK(@SCWK_TEMP0, @LOCALWORK20)
+	_LDWK(@SCWK_TEMP1, @LOCALWORK19)
+	_RET()
+ev_Wtrainer_chenge2:
+	_LDWK(@LOCALWORK19, @SCWK_TEMP3)
+	_LDWK(@LOCALWORK20, @SCWK_TEMP1)
+	_LDWK(@SCWK_TEMP3, @LOCALWORK20)
+	_LDWK(@SCWK_TEMP1, @LOCALWORK19)
+	_RET()
+ev_get_trainer_id_for_current_gamemode:
+	_IFVAL_JUMP(@487, 'EQ', 1, 'ev_trainer_id_natdex_mode')
+	_IFVAL_JUMP(@487, 'EQ', 2, 'ev_trainer_id_challenge_mode')
+	_JUMP('ev_trainer_id_493_mode')
+ev_trainer_id_493_mode:
+	_RET()
+ev_trainer_id_natdex_mode:
+	_ADD_WK(@SCWK_ANSWER, 2000)
+	_RET()
+ev_trainer_id_challenge_mode:
+	_ADD_WK(@SCWK_ANSWER, 4000)
+	_RET()
+ev_get_trainer_id_for_current_gamemode_talk:
+	_IFVAL_JUMP(@487, 'EQ', 1, 'ev_trainer_id_natdex_mode_2')
+	_IFVAL_JUMP(@487, 'EQ', 2, 'ev_trainer_id_challenge_mode_2')
+	_JUMP('ev_trainer_id_493_mode_2')
+ev_trainer_id_493_mode_2:
+	_RET()
+ev_trainer_id_natdex_mode_2:
+	_ADD_WK(@SCWK_TEMP0, 2000)
+	_RET()
+ev_trainer_id_challenge_mode_2:
+	_ADD_WK(@SCWK_TEMP0, 4000)
+	_RET()
+ev_set_trainer_id_for_current_gamemode_scripted_battle:
+	_IFVAL_JUMP(@487, 'EQ', 1, 'ev_trainer_id_natdex_mode_scripted')
+	_IFVAL_JUMP(@487, 'EQ', 2, 'ev_trainer_id_challenge_mode_scripted')
+	_JUMP('ev_trainer_id_493_mode_scripted')
+ev_trainer_id_493_mode_scripted:
+	_RET()
+ev_trainer_id_natdex_mode_scripted:
+	_ADD_WK(@SCWK_TEMP3, 2000)
+	_RET()
+ev_trainer_id_challenge_mode_scripted:
+	_ADD_WK(@SCWK_TEMP3, 4000)
+	_RET()
+ev_set_trainer_id_for_current_gamemode_scripted_double_battle:
+	_IFVAL_JUMP(@487, 'EQ', 1, 'ev_trainer_id_natdex_mode_scripted_db')
+	_IFVAL_JUMP(@487, 'EQ', 2, 'ev_trainer_id_challenge_mode_scripted_db')
+	_JUMP('ev_trainer_id_493_mode_scripted_db')
+ev_trainer_id_493_mode_scripted_db:
+	_RET()
+ev_trainer_id_natdex_mode_scripted_db:
+	_ADD_WK(@SCWK_TEMP1, 2000)
+	_ADD_WK(@SCWK_TEMP2, 2000)
+	_RET()
+ev_trainer_id_challenge_mode_scripted_db:
+	_ADD_WK(@SCWK_TEMP1, 4000)
+	_ADD_WK(@SCWK_TEMP2, 4000)
+	_RET()

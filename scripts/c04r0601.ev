@@ -1,0 +1,157 @@
+ev_c04r0601_ookido:
+	_JUMP('ev_c04r0601_ookido_rp')
+	_TALK_OBJ_START()
+	_PLAYER_NAME(0)
+	_IF_FLAGON_JUMP($SYS_FLAG_GAME_CLEAR, 'ev_c04r0601_oak_game_clear_legendary')
+	_JUMP('ev_c04r0601_ookido_02')
+	; Oak doesn't give upgrade any more
+	; _IF_FLAGON_JUMP(#FE_C04R0601_ITEM_GET, 'ev_c04r0601_ookido_02')
+	; _PLAYER_NAME(0)
+	; _TALK_KEYWAIT('dp_scenario2%14-msg_c04r0601_ookido_01')
+	; _TALK_CLOSE()
+	; _OBJ_ANIME('C04R0601_OOKIDO', 'anm_c04r0601_ookido_01')
+	; _OBJ_ANIME_WAIT()
+	; _TALK_KEYWAIT('dp_scenario2%14-msg_c04r0601_ookido_02')
+	; _LDVAL(@SCWK_TEMP0, 252)
+	; _LDVAL(@SCWK_TEMP1, 1)
+	; _ADD_ITEM_CHK(@SCWK_TEMP0, @SCWK_TEMP1, @SCWK_ANSWER)
+	; _IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_c04r0601_ookido_item_event_fail')
+	; _CHG_COMMON_SCR('ev_item_event_keywait')
+	; _FLAG_SET(#FE_C04R0601_ITEM_GET)
+	; _TALKMSG('dp_scenario2%14-msg_c04r0601_ookido_03')
+	; _LAST_KEYWAIT()
+	; _TALK_CLOSE()
+	; _TALK_OBJ_END()
+	; _END()
+ev_c04r0601_ookido_rp:
+	_TALK_OBJ_START()
+	_CALL('ev_c04r0601_ookido_rp_game_clear_options'); Handle item menu options
+	_PLAYER_NAME(0)
+	_MACRO_TALK_KEYWAIT('dlp_rotom_message', 'c04r0601_oak_greeting', 'Ah, it’s you! Good to see you!\nWhat can I help you with, {0}?')
+	_OPEN_CUSTUM_WIN(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_c04r0601_ookido_rp_general')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_ookido_zukan_hyouka')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 2, 'ev_c04r0601_ookido_rp_quests')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 3, 'ev_c04r0601_ookido_rp_cancel')
+	_JUMP('ev_c04r0601_ookido_rp_cancel')
+ev_c04r0601_ookido_rp_game_clear_options:
+	_IF_FLAGOFF_JUMP($SYS_FLAG_GAME_CLEAR, 'ev_c04r0601_ookido_rp_no_clear_options'); If game is not clear, don't show quest option
+	_MACRO_ADD_CUSTUM_WIN_LABEL('dp_options', 'DP_options_oak1', 'General', 0)
+	_MACRO_ADD_CUSTUM_WIN_LABEL('dp_options', 'DP_options_oak2', 'PokéDex', 1)
+	_MACRO_ADD_CUSTUM_WIN_LABEL('dp_options', 'DP_options_oak3', 'Quests', 2)
+	_MACRO_ADD_CUSTUM_WIN_LABEL('dp_options', 'DP_options_oak4', 'Nothing', 3)
+	_RET()
+ev_c04r0601_ookido_rp_no_clear_options:
+	_MACRO_ADD_CUSTUM_WIN_LABEL('dp_options', 'DP_options_oak1', 'General', 0)
+	_MACRO_ADD_CUSTUM_WIN_LABEL('dp_options', 'DP_options_oak2', 'PokéDex', 1)
+	_MACRO_ADD_CUSTUM_WIN_LABEL('dp_options', 'DP_options_oak4', 'Nothing', 3)
+	_RET()
+ev_c04r0601_ookido_rp_general:
+	_GET_RND(@SCWK_TEMP0, 4); Random general dialogue function from Renegade Platinum
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 0, 'ev_c04r0601_ookido_rp_general_01')
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 1, 'ev_c04r0601_ookido_rp_general_02')
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 2, 'ev_c04r0601_ookido_rp_general_03')
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 3, 'ev_c04r0601_ookido_rp_general_04')
+	_JUMP('ev_c04r0601_ookido_rp_general_05')
+ev_c04r0601_ookido_rp_general_01:
+	_PLAYER_NAME(0)
+	_MACRO_TALK_KEYWAIT('dlp_rotom_message', 'c04r0601_oak_general_01', 'Do you know the names of any\nother Pokémon professors, {0}?\rI can assure you there are many more\nthan just myself and Professor Rowan!\rElm, Birch, Juniper, Sycamore, Kukui...\rAll of these names belong to fellow\nPokémon professors around the world!')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c04r0601_ookido_rp_general_02:
+	_MACRO_TALK_KEYWAIT('dlp_rotom_message', 'c04r0601_oak_general_02', 'I should inform you that my full\nname is Professor Samuel Oak.\rI have a cousin in Alola who is known\nas Professor Samson Oak!\rHis research focuses on the regional\nvariants found in Alola.\rDid you know that the Vulpix in Alola\nare Ice-type, rather than Fire-type?')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c04r0601_ookido_rp_general_03:
+	_MACRO_TALK_KEYWAIT('dlp_rotom_message', 'c04r0601_oak_general_03', 'I have a grandson called Blue.\rHe was the Champion of the Kanto\nPokémon League, in fact.\rThough only for a brief time.\nThen he lost to his rival, Red.\rAt least Blue found a place as the\nViridian City Gym Leader!\rThough he’s often away from it,\ncausing trouble for challengers.\rThat boy...')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c04r0601_ookido_rp_general_04:
+	_MACRO_TALK_KEYWAIT('dlp_rotom_message', 'c04r0601_oak_general_04', 'Oh, yes. I once had a protégé who\nvery much enjoyed outdoor research.\rHis name is Professor Willow.\nHe used to study Pokémon under me.\rHim and his assistants are always\nmaking strides in Pokémon research!')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c04r0601_ookido_rp_general_05:
+	_PLAYER_NAME(0)
+	_MACRO_TALK_KEYWAIT('dlp_rotom_message', 'c04r0601_oak_general_05', 'Have you ever thought of yourself\nas a photographer, {0}?\rI once invited a talented young man\nto take photos of Pokémon in their\fnatural habitat.\rIt was a place called Pokémon Island...\nAnd what a beautiful place it was!\rThe young photographer helped me\nwith completing my Pokémon Report!')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c04r0601_ookido_rp_quests:
+	_PLAYER_NAME(0)
+	_IF_FLAGOFF_JUMP(#2004, 'ev_c04r0601_oak_lugia_check')
+	_IF_FLAGOFF_JUMP(#2005, 'ev_c04r0601_oak_hooh_check')
+	_JUMP('ev_c04r0601_ookido_rp_cancel')
+ev_c04r0601_ookido_rp_cancel:
+	_PLAYER_NAME(0)
+	_MACRO_TALK_KEYWAIT('dlp_rotom_message', 'c04r0601_oak_cancel', 'I can’t thank you enough for your\nhelp with my research, {0}.')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c04r0601_ookido_02:
+	_CHG_COMMON_SCR('ev_ookido_zukan_hyouka')
+	_END()
+ev_c04r0601_ookido_item_event_fail:
+	_CHG_COMMON_SCR('ev_item_event_fail')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+anm_c04r0601_ookido_01:
+	_AC_MARK_GYOE(1)
+	_ACMD_END()
+ev_c04r0601_oak_game_clear_legendary:
+	_IF_FLAGOFF_JUMP(#2004, 'ev_c04r0601_oak_lugia_check')
+	_IF_FLAGOFF_JUMP(#2005, 'ev_c04r0601_oak_hooh_check')
+	_JUMP('ev_c04r0601_ookido_rp_cancel')
+ev_c04r0601_oak_lugia_check:
+	_MACRO_TALK_KEYWAIT('dlp_rotom_message', 'c04r0601_oak_lugia_check', 'Take a look at the two feathers\nI have here, {0}.\rThey’re both known as Clear Wings.\nYou might think they look ordinary...\rBut these feathers have a puzzle that\nI’m currently trying to solve.\rThey may have a connection to the two\nPokémon known as the guardians of the\fsea and sky.\rLugia, the guardian of the sea, is\nsaid to mediate between the three\flegendary birds of Kanto.\rMaybe this Clear Wing would react to\nArticuno, Zapdos and Moltres?\rIf you were to go somewhere very cold,\nsomewhere that generates electricity,\fand somewhere where Trainers gather...\rWell, it would be an amazing encounter\nto see any of them, that’s for sure!')
+	_TEMOTI_POKE_CHK(@SCWK_ANSWER, 144) ; Articuno
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_c04r0601_ookido_02')
+	_TEMOTI_POKE_CHK(@SCWK_ANSWER, 145) ; Zapdos
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_c04r0601_ookido_02')
+	_TEMOTI_POKE_CHK(@SCWK_ANSWER, 146) ; Moltres
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_c04r0601_ookido_02')
+	_JUMP('ev_c04r0601_oak_lugia_valid')
+ev_c04r0601_oak_hooh_check:
+	_IF_FLAGOFF_JUMP(#2004, 'ev_c04r0601_ookido_02') ; Need to unlock Lugia before you can unlock Ho-Oh
+	_MACRO_TALK_KEYWAIT('dlp_rotom_message', 'c04r0601_oak_hooh_check', 'Now, this other Clear Wing...\nPerhaps it could be the Rainbow Wing?\rThe guardian of the sky was said to\nhave resurrected three Pokémon.\rRaikou, Entei and Suicune.\nThe legendary beasts of Johto.\rI’m sure this Clear Wing would respond\nto the presence of those Pokémon!\rI would imagine those Pokémon would\nenjoy high places...\rMaybe the Rock Climb technique could\nhelp you find them?\rIf you somehow catch all three...\nPlease show them to me.')
+	_TEMOTI_POKE_CHK(@SCWK_ANSWER, 243) ; Raikou
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_c04r0601_ookido_02')
+	_TEMOTI_POKE_CHK(@SCWK_ANSWER, 244) ; Entei
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_c04r0601_ookido_02')
+	_TEMOTI_POKE_CHK(@SCWK_ANSWER, 245) ; Suicune
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_c04r0601_ookido_02')
+	_JUMP('ev_c04r0601_oak_hooh_valid')
+ev_c04r0601_oak_lugia_valid:
+	_FLAG_SET(#2004) ; You've had this conversation about Lugia before
+	_FLAG_RESET(#2806) ; Unhide Lugia
+	_MACRO_TALK_KEYWAIT('dlp_rotom_message', 'c04r0601_oak_lugia_valid00', 'What’s this? In your party...\nArticuno, Zapdos and Moltres?!\rNow that is incredible!\nThank you, {0}.\rNow, this Clear Wing...\nWill it react, I wonder?')
+	_MACRO_TALK_KEYWAIT('dlp_rotom_message', 'c04r0601_oak_lugia_valid01', 'Ah, splendid! It really did work!\nThis Clear Wing has changed.\rIt’s now a deep silver colour...\nAnd it’s sparkling, too.\rIt must be the Silver Wing!\rThanks for your assistance, {0}.\nI’d like you to have this Silver Wing.')
+	_LDVAL(@SCWK_TEMP0, 1832); Silver Wing
+	_LDVAL(@SCWK_TEMP1, 1); Quantity 1
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_MACRO_TALK_KEYWAIT('dlp_rotom_message', 'c04r0601_oak_lugia_valid02', 'Do you know of anywhere in the\nsea surrounded by small islands?\rPerhaps you’d somehow find Lugia there\nif you carry the Silver Wing with you.')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c04r0601_oak_hooh_valid:
+	_FLAG_SET(#2005) ; You've had this conversation about Ho-Oh before
+	_FLAG_RESET(#2807) ; Unhide Ho-Oh
+	_MACRO_TALK_KEYWAIT('dlp_rotom_message', 'c04r0601_oak_hooh_valid00', 'In your party...\nRaikou, Entei, and Suicune?!\rYou’ve done it again, {0}!\nTruly impressive!\rNow, let’s see if this Clear Wing...\rOh?!')
+	_MACRO_TALK_KEYWAIT('dlp_rotom_message', 'c04r0601_oak_hooh_valid01', 'Excellent! This Clear Wing is now\na sparkling, vibrant rainbow colour!\rThis is clearly the Rainbow Wing!\nHow very exciting!\r{0}, thank you again.\nI’d like you to have this, too.')
+	_LDVAL(@SCWK_TEMP0, 430); Rainbow Wing
+	_LDVAL(@SCWK_TEMP1, 1); Quantity 1
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_MACRO_TALK_KEYWAIT('dlp_rotom_message', 'c04r0601_oak_hooh_valid02', 'A tall place where the departed\nare given due respect...\rThere is a place like that in Sinnoh,\nis there not?\rTaking a Rainbow Wing to a place like\nthat might allow you to meet Ho-oh,\fthe sky guardian.')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()

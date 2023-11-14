@@ -1,0 +1,284 @@
+{
+    "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 5749285356580357910
+    },
+    "m_Name": "HirobaPokeTalk",
+    "Sheet1": [
+        {
+            "RankID": 5,
+            "ID": 0,
+            "TextLabelName": "ev_d11r0101_pokemon_11"
+        },
+        {
+            "RankID": 5,
+            "ID": 1,
+            "TextLabelName": "ev_d11r0101_pokemon_12"
+        },
+        {
+            "RankID": 5,
+            "ID": 2,
+            "TextLabelName": "ev_d11r0101_pokemon_13"
+        },
+        {
+            "RankID": 5,
+            "ID": 3,
+            "TextLabelName": "ev_d11r0101_pokemon_14"
+        },
+        {
+            "RankID": 5,
+            "ID": 4,
+            "TextLabelName": "ev_d11r0101_pokemon_15"
+        },
+        {
+            "RankID": 5,
+            "ID": 5,
+            "TextLabelName": "ev_d11r0101_pokemon_16"
+        },
+        {
+            "RankID": 5,
+            "ID": 6,
+            "TextLabelName": "ev_d11r0101_pokemon_17"
+        },
+        {
+            "RankID": 5,
+            "ID": 7,
+            "TextLabelName": "ev_d11r0101_pokemon_18"
+        },
+        {
+            "RankID": 5,
+            "ID": 8,
+            "TextLabelName": "ev_d11r0101_pokemon_19"
+        },
+        {
+            "RankID": 4,
+            "ID": 9,
+            "TextLabelName": "ev_d11r0101_pokemon_01"
+        },
+        {
+            "RankID": 4,
+            "ID": 10,
+            "TextLabelName": "ev_d11r0101_pokemon_02"
+        },
+        {
+            "RankID": 4,
+            "ID": 11,
+            "TextLabelName": "ev_d11r0101_pokemon_03"
+        },
+        {
+            "RankID": 4,
+            "ID": 12,
+            "TextLabelName": "ev_d11r0101_pokemon_04"
+        },
+        {
+            "RankID": 4,
+            "ID": 13,
+            "TextLabelName": "ev_d11r0101_pokemon_05"
+        },
+        {
+            "RankID": 4,
+            "ID": 14,
+            "TextLabelName": "ev_d11r0101_pokemon_06"
+        },
+        {
+            "RankID": 4,
+            "ID": 15,
+            "TextLabelName": "ev_d11r0101_pokemon_07"
+        },
+        {
+            "RankID": 4,
+            "ID": 16,
+            "TextLabelName": "ev_d11r0101_pokemon_08"
+        },
+        {
+            "RankID": 4,
+            "ID": 17,
+            "TextLabelName": "ev_d11r0101_pokemon_09"
+        },
+        {
+            "RankID": 3,
+            "ID": 18,
+            "TextLabelName": "ev_d11r0101_pokemon_20"
+        },
+        {
+            "RankID": 3,
+            "ID": 19,
+            "TextLabelName": "ev_d11r0101_pokemon_21"
+        },
+        {
+            "RankID": 3,
+            "ID": 20,
+            "TextLabelName": "ev_d11r0101_pokemon_22"
+        },
+        {
+            "RankID": 3,
+            "ID": 21,
+            "TextLabelName": "ev_d11r0101_pokemon_23"
+        },
+        {
+            "RankID": 3,
+            "ID": 22,
+            "TextLabelName": "ev_d11r0101_pokemon_24"
+        },
+        {
+            "RankID": 3,
+            "ID": 23,
+            "TextLabelName": "ev_d11r0101_pokemon_25"
+        },
+        {
+            "RankID": 3,
+            "ID": 24,
+            "TextLabelName": "ev_d11r0101_pokemon_26"
+        },
+        {
+            "RankID": 3,
+            "ID": 25,
+            "TextLabelName": "ev_d11r0101_pokemon_27"
+        },
+        {
+            "RankID": 3,
+            "ID": 26,
+            "TextLabelName": "ev_d11r0101_pokemon_28"
+        },
+        {
+            "RankID": 2,
+            "ID": 27,
+            "TextLabelName": "ev_d11r0101_pokemon_29"
+        },
+        {
+            "RankID": 2,
+            "ID": 28,
+            "TextLabelName": "ev_d11r0101_pokemon_30"
+        },
+        {
+            "RankID": 2,
+            "ID": 29,
+            "TextLabelName": "ev_d11r0101_pokemon_31"
+        },
+        {
+            "RankID": 2,
+            "ID": 30,
+            "TextLabelName": "ev_d11r0101_pokemon_32"
+        },
+        {
+            "RankID": 2,
+            "ID": 31,
+            "TextLabelName": "ev_d11r0101_pokemon_33"
+        },
+        {
+            "RankID": 2,
+            "ID": 32,
+            "TextLabelName": "ev_d11r0101_pokemon_34"
+        },
+        {
+            "RankID": 2,
+            "ID": 33,
+            "TextLabelName": "ev_d11r0101_pokemon_35"
+        },
+        {
+            "RankID": 2,
+            "ID": 34,
+            "TextLabelName": "ev_d11r0101_pokemon_36"
+        },
+        {
+            "RankID": 2,
+            "ID": 35,
+            "TextLabelName": "ev_d11r0101_pokemon_37"
+        },
+        {
+            "RankID": 1,
+            "ID": 36,
+            "TextLabelName": "ev_d11r0101_pokemon_38"
+        },
+        {
+            "RankID": 1,
+            "ID": 37,
+            "TextLabelName": "ev_d11r0101_pokemon_39"
+        },
+        {
+            "RankID": 1,
+            "ID": 38,
+            "TextLabelName": "ev_d11r0101_pokemon_40"
+        },
+        {
+            "RankID": 1,
+            "ID": 39,
+            "TextLabelName": "ev_d11r0101_pokemon_41"
+        },
+        {
+            "RankID": 1,
+            "ID": 40,
+            "TextLabelName": "ev_d11r0101_pokemon_42"
+        },
+        {
+            "RankID": 1,
+            "ID": 41,
+            "TextLabelName": "ev_d11r0101_pokemon_43"
+        },
+        {
+            "RankID": 1,
+            "ID": 42,
+            "TextLabelName": "ev_d11r0101_pokemon_44"
+        },
+        {
+            "RankID": 1,
+            "ID": 43,
+            "TextLabelName": "ev_d11r0101_pokemon_45"
+        },
+        {
+            "RankID": 1,
+            "ID": 44,
+            "TextLabelName": "ev_d11r0101_pokemon_46"
+        },
+        {
+            "RankID": 0,
+            "ID": 45,
+            "TextLabelName": "ev_d11r0101_pokemon_47"
+        },
+        {
+            "RankID": 0,
+            "ID": 46,
+            "TextLabelName": "ev_d11r0101_pokemon_48"
+        },
+        {
+            "RankID": 0,
+            "ID": 47,
+            "TextLabelName": "ev_d11r0101_pokemon_49"
+        },
+        {
+            "RankID": 0,
+            "ID": 48,
+            "TextLabelName": "ev_d11r0101_pokemon_50"
+        },
+        {
+            "RankID": 0,
+            "ID": 49,
+            "TextLabelName": "ev_d11r0101_pokemon_51"
+        },
+        {
+            "RankID": 0,
+            "ID": 50,
+            "TextLabelName": "ev_d11r0101_pokemon_52"
+        },
+        {
+            "RankID": 0,
+            "ID": 51,
+            "TextLabelName": "ev_d11r0101_pokemon_53"
+        },
+        {
+            "RankID": 0,
+            "ID": 52,
+            "TextLabelName": "ev_d11r0101_pokemon_54"
+        },
+        {
+            "RankID": 0,
+            "ID": 53,
+            "TextLabelName": "ev_d11r0101_pokemon_55"
+        }
+    ]
+}

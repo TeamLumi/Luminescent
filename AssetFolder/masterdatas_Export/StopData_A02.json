@@ -1,0 +1,74 @@
+{
+    "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 8423137904901713306
+    },
+    "m_Name": "StopData_A02",
+    "Data": [
+        {
+            "ID": "SCRID_POS_C03_BOY2",
+            "Position": {
+                "x": 266.0,
+                "y": 748.0
+            },
+            "HeightLayer": 2,
+            "Size": {
+                "x": 1.0,
+                "y": 4.0
+            },
+            "ContactLabel": "pos_c03_boy2",
+            "Param": 0,
+            "Work": 482
+        },
+        {
+            "ID": "SCRID_POS_C03_RIVAL",
+            "Position": {
+                "x": 262.0,
+                "y": 748.0
+            },
+            "HeightLayer": 4,
+            "Size": {
+                "x": 1.0,
+                "y": 4.0
+            },
+            "ContactLabel": "pos_c03_rival",
+            "Param": 2,
+            "Work": 55
+        },
+        {
+            "ID": "SCRID_POS_R207_PSYCHIC_GUY",
+            "Position": {
+                "x": 336.0,
+                "y": 711.0
+            },
+            "HeightLayer": 5,
+            "Size": {
+                "x": 1.0,
+                "y": 4.0
+            },
+            "ContactLabel": "pos_r207_psychicguy",
+            "Param": 0,
+            "Work": 478
+        },
+        {
+            "ID": "SCRID_POS_R207_SUPPORT",
+            "Position": {
+                "x": 340.0,
+                "y": 712.0
+            },
+            "HeightLayer": 5,
+            "Size": {
+                "x": 3.0,
+                "y": 1.0
+            },
+            "ContactLabel": "pos_r207_script_2",
+            "Param": 0,
+            "Work": 74
+        }
+    ]
+}

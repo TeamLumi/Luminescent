@@ -1,0 +1,36 @@
+ev_r213r0601_gorggeousm:
+	_TALK_OBJ_START()
+	_JUMP('ev_r213r0601_gorggeousm_02')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'NE', 0, 'ev_r213r0601_gorggeousm_02')
+	_TALK_KEYWAIT('dp_scenario2%150-msg_r213r0601_gorggeousm_01_1')
+	_TALK_KEYWAIT('dp_scenario2%150-msg_r213r0601_gorggeousm_01_2')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_r213r0601_gorggeousm_02:
+	_TALKMSG('dp_scenario2%150-msg_r213r0601_gorggeousm_02')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_r213r0601_gorggeousw:
+	_TALK_OBJ_START()
+	_JUMP('ev_r213r0601_gorggeousw_02')
+	_JUMP('ev_r213r0601_gorggeousw_02')
+ev_r213r0601_gorggeousw_01:
+	_TALKMSG('dp_scenario2%150-msg_r213r0601_gorggeousw_01')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_r213r0601_gorggeousw_02:
+	_TALKMSG('dp_scenario2%150-msg_r213r0601_gorggeousw_02')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_r213r0601_drop_item_58:
+	_IF_FLAGON_JUMP(#FT_DROP_ITEM_58, 'ev_trash_box')
+	_IF_FLAGOFF_JUMP(#FT_DROP_ITEM_58, 'ev_hide_item_58')
+	_END()

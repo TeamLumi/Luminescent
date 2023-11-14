@@ -1,0 +1,61 @@
+ev_c02r0102_boy1:
+	_TALK_OBJ_START()
+	_IF_FLAGON_JUMP(#FE_L02_NEWS, 'ev_c02r0102_boy1_02')
+	_TALKMSG('dp_scenario2%166-msg_c02r0102_boy1_01')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c02r0102_boy1_02:
+	_TALKMSG('dp_scenario2%166-msg_c02r0102_boy1_02')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c02r0102_books1:
+	_EASY_OBJ_MSG('dp_scenario2%166-msg_c02r0102_books1_01')
+	_END()
+ev_c02r0102_books2:
+	_EASY_OBJ_MSG('dp_scenario2%166-msg_c02r0102_books2_01')
+	_END()
+ev_c02r0102_poster:
+	_EASY_OBJ_MSG('dp_scenario2%166-msg_c02r0102_poster_01')
+	_END()
+ev_c02r0102_hon:
+	_TALK_OBJ_START()
+	_PLAYER_NAME(0)
+	_TALKMSG('dp_scenario2%167-msg_c02r0103_books8_01')
+	_YES_NO_WIN(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_c02r0102_hon_end')
+	_TALKMSG('dp_scenario2%167-msg_c02r0103_books8_03')
+	_YES_NO_WIN(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_c02r0102_hon_end')
+	_TALKMSG('dp_scenario2%167-msg_c02r0103_books8_04')
+	_YES_NO_WIN(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_c02r0102_hon_end')
+	_TALK_KEYWAIT('dp_scenario2%167-msg_c02r0103_books8_05')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c02r0102_hon_end:
+	_TALKMSG('dp_scenario2%167-msg_c02r0103_books8_02')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c02r0102_skillswap:
+	_TALK_OBJ_START()
+	_IF_FLAGON_JUMP(#2683, 'ev_c02r0102_skillswap_done')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_ev_c02r0102_skillswap', 'Hello, Trainer!\nThis is something I found.\rIt was mixed in with a load of cargo\nfrom another country.\rIt’s not anything that I can use,\nso I think you should take it.')
+	_LDVAL(@SCWK_TEMP0, 375); Skill Swap
+	_LDVAL(@SCWK_TEMP1, 1); Quantity 1
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msgev_c02r0102_skillswap_2', 'Somewhere far beyond the vast sea...\rThere are other lands populated by\nPokémon and Trainers.')
+	_FLAG_SET(#2683)
+	_JUMP('ev_c02r0102_skillswap_end')
+ev_c02r0102_skillswap_done:
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msgev_c02r0102_skillswap_3', 'You know how Pokémon have their\nown abilities?\rWell, the move Skill Swap exchanges\nthe user’s ability with that of its\ntarget Pokémon.\rHow you use Skill Swap is a measure\nof your expertise as a Trainer.')
+	_JUMP('ev_c02r0102_skillswap_end')
+ev_c02r0102_skillswap_end:
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()

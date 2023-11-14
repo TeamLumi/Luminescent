@@ -1,0 +1,99 @@
+ev_d24r0201_flag_change:
+	_CALL('ev_d24r0201_flag_fix')
+	_END()
+ev_d24r0201_end:
+	_END()
+ev_d24r0201_leader_flag_reset:
+	_RET()
+ev_d24r0201_check_flag:
+	_RET()
+ev_d24r0201_flag_fix:
+	_IF_FLAGON_JUMP(#2722, 'ev_d24r0201_check_flag'); If Advice dude was turned off, return
+	_FLAG_RESET(#FV_D24R0201_LEADER); If it wasn't turned off, enable in case of bug
+	_RET()
+ev_d24r0201_leader:
+	_TALK_OBJ_START()
+	_SYS_FLAG_BADGE_GET($BADGE_ID_C02, @SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_d24r0201_leader_04')
+	_IF_FLAGON_JUMP(#2725, 'ev_d24r0201_leader_2')
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_d24r0201_leader_01_1', 'Hm? Who are you?\rAh! That’s Oreburgh’s Gym Badge!\nI see, I see!\rSo you’ve defeated my son, Roark!\rThen you must be a Trainer aiming\nfor the Pokémon League!\rI, Byron, am the next wall you\nneed to overcome.')
+	_FLAG_SET(#2725)
+	_JUMP('ev_d24r0201_leader_2')
+ev_d24r0201_leader_2:
+	_IF_FLAGON_JUMP(#FE_HIDEN_04_GET, 'ev_d24r0201_leader_03')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_d24r0201_leader_01_2', 'Oh, you haven’t explored Iron\nIsland yet, have you?\rYou should do some training while\nyou’re on the island.\rCome see me when you’re done\nexploring underground! Gwahahaha!')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_d24r0201_leader_03:
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_d24r0201_leader_01_3', 'Oh, you’ve explored around\nIron Island, have you?\rDo you feel stronger?\rI’m ready to go back to the Gym now.\nI’ll await your challenge there!')
+	_TALK_CLOSE()
+	_GET_REL_POS_HERO('D24R0201_LEADER', @SCWK_TEMP2)
+	_IFVAL_CALL(@SCWK_TEMP2, 'EQ', 4, 'ev_d24r0201_move_down')
+	_IFVAL_CALL(@SCWK_TEMP2, 'EQ', 1, 'ev_d24r0201_move_down')
+	_IFVAL_CALL(@SCWK_TEMP2, 'EQ', 6, 'ev_d24r0201_move_down')
+	_IFVAL_CALL(@SCWK_TEMP2, 'EQ', 3, 'ev_d24r0201_move_down')
+	_IFVAL_CALL(@SCWK_TEMP2, 'EQ', 8, 'ev_d24r0201_move_left')
+	_IFVAL_CALL(@SCWK_TEMP2, 'EQ', 7, 'ev_d24r0201_move_left')
+	_IFVAL_CALL(@SCWK_TEMP2, 'EQ', 9, 'ev_d24r0201_move_left')
+	_IFVAL_CALL(@SCWK_TEMP2, 'EQ', 2, 'ev_d24r0201_move_left')
+	_TALK_OBJ_END()
+	_END()
+ev_d24r0201_leader_04:
+	_IF_FLAGON_JUMP(#2571, 'ev_d24r0201_leader_05')
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_d24r0201_byron_0', 'Hm?\nYou’re in training, then?\rYou know, my son trains as hard as\nyou do.\rBut I still treat him as if he were\na child.\rIt’s ridiculous, really.\nHe is a proper Gym Leader and all.\rIt’s always tricky between a father\nand son, it seems.\rHumph, I’ve wasted your time.\nTake this as my apology!')
+	_LAST_KEYWAIT()
+	_LDVAL(@SCWK_TEMP0, 233); Metal Coat
+	_LDVAL(@SCWK_TEMP1, 1); Quantity 1
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_TALK_CLOSE()
+	_FLAG_SET(#2571)
+	_JUMP('ev_d24r0201_leader_05')
+ev_d24r0201_leader_05:
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_d24r0201_byron_1', 'There are Pokémon that evolve into\nthe Steel type using that Metal Coat.\rThey need to hold that item while\nbeing traded to evolve.\rTry using it if you’d like.\nFarewell!')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_d24r0201_item_event_fail:
+	_CHG_COMMON_SCR('ev_item_event_fail')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_d24r0201_move_left:
+	_OBJ_ANIME('D24R0201_LEADER', 'anm_move_left')
+	_OBJ_ANIME_WAIT()
+	_SE_PLAY('S_FI001')
+	_OBJ_DEL('D24R0201_LEADER')
+	_FLAG_SET(#FV_D24R0201_LEADER)
+	_FLAG_SET(#2722)
+	_LDVAL(@TOWNMAP_GUIDE_SEQUENCE, 8500)
+	_SE_WAIT('S_FI001')
+	_SE_STOP('S_FI001')
+	_TALK_OBJ_END()
+	_END()
+ev_d24r0201_move_down:
+	_OBJ_ANIME('D24R0201_LEADER', 'anm_move_down')
+	_OBJ_ANIME_WAIT()
+	_SE_PLAY('S_FI001')
+	_OBJ_DEL('D24R0201_LEADER')
+	_FLAG_SET(#FV_D24R0201_LEADER)
+	_FLAG_SET(#2722)
+	_LDVAL(@TOWNMAP_GUIDE_SEQUENCE, 8500)
+	_SE_WAIT('S_FI001')
+	_SE_STOP('S_FI001')
+	_TALK_OBJ_END()
+	_END()
+anm_move_left:
+	_AC_DIR_L(8)
+	_AC_LEFT(1, 8)
+	_AC_DIR_D(8)
+	_AC_DOWN(3, 8)
+	_ACMD_END()
+anm_move_down:
+	_AC_DIR_D(8)
+	_AC_DOWN(2, 8)
+	_AC_DIR_L(8)
+	_AC_LEFT(1, 8)
+	_AC_DIR_D(8)
+	_AC_DOWN(1, 8)
+	_ACMD_END()

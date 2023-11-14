@@ -1,0 +1,873 @@
+ev_namechange:
+	_TALK_OBJ_START_TURN_NOT()
+	_EVENT_START()
+	_TALKMSG('dp_scenario2%9-msg_namechange_01')
+	_YES_NO_WIN(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_namechange_yes_01')
+	_JUMP('ev_namechange_no_01')
+	_END()
+ev_namechange_yes_01:
+	_TALK_KEYWAIT('dp_scenario2%9-msg_namechange_02')
+	_TALK_CLOSE()
+	_EVENT_CAMERA_INDEX(115)
+	_POKELIST_SET_PROC(13)
+	_POKELIST_GET_RESULT(@SCWK_PARAM2, @SCWK_PARAM3)
+	_EVENT_CAMERA_INDEX(116)
+	_EVENT_CAMERA_END_WAIT()
+	_LDWK(@SCWK_ANSWER, @SCWK_PARAM2)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', -1, 'ev_namechange_no_01')
+	_LDWK(@SCWK_TEMP1, @SCWK_ANSWER)
+	_ALL_MONSNO(@SCWK_PARAM2, @SCWK_PARAM3, @SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_namechange_tamago')
+	_ALL_MONS_OWN_CHK(@SCWK_PARAM2, @SCWK_PARAM3, @SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_namechange_other')
+	_NICK_NAME_ALL(0, @SCWK_PARAM2, @SCWK_PARAM3)
+	_TALKMSG('dp_scenario2%9-msg_namechange_03')
+	_YES_NO_WIN(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_namechange_yes_02')
+	_JUMP('ev_namechange_no_01')
+	_END()
+ev_namechange_no_01:
+	_TALKMSG('dp_scenario2%9-msg_namechange_06')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_EVENT_END()
+	_END()
+ev_namechange_tamago:
+	_TALKMSG('dp_scenario2%9-msg_namechange_09')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_EVENT_END()
+	_END()
+ev_namechange_other:
+	_NICK_NAME_ALL(0, @SCWK_PARAM2, @SCWK_PARAM3)
+	_TALKMSG('dp_scenario2%9-msg_namechange_08')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_EVENT_END()
+	_END()
+ev_namechange_yes_02:
+	_TALK_KEYWAIT('dp_scenario2%9-msg_namechange_04')
+	_TALK_CLOSE()
+	_LDVAL(@SCWK_ANSWER, 0)
+	_EVENT_CAMERA_INDEX(115)
+	_NAMEIN_POKE(@SCWK_PARAM2, @SCWK_PARAM3, @SCWK_ANSWER)
+	_EVENT_CAMERA_INDEX(116)
+	_EVENT_CAMERA_END_WAIT()
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_namechange_no_02')
+	_TV_ENTRY_WATCH_CHANGE_NAME(@SCWK_PARAM2, @SCWK_PARAM3)
+	_NICK_NAME_ALL(0, @SCWK_PARAM2, @SCWK_PARAM3)
+	_TALKMSG('dp_scenario2%9-msg_namechange_05')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_EVENT_END()
+	_END()
+ev_namechange_no_02:
+	_NICK_NAME_ALL(0, @SCWK_PARAM2, @SCWK_PARAM3)
+	_TALKMSG('dp_scenario2%9-msg_namechange_07')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_EVENT_END()
+	_END()
+ev_c04r0301_babyboy1:
+	_TALK_OBJ_START_TURN_NOT()
+	_IF_FLAGON_JUMP(#FE_C04R0301_POKE_CHG, 'ev_pokechange_c04r0301_babyboy1_end')
+	_TALKMSG('dp_scenario2%9-msg_c04r0301_babyboy1_01')
+	_YES_NO_WIN(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_pokechange_c04r0301_babyboy1_yes_01')
+	_JUMP('ev_pokechange_c04r0301_babyboy1_no_01')
+	_END()
+ev_pokechange_c04r0301_babyboy1_yes_01:
+	_TALK_CLOSE()
+	_POKELIST_SET_PROC(2)
+	_POKELIST_GET_RESULT(@SCWK_TEMP0, @SCWK_TEMP1)
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', -1, 'ev_pokechange_c04r0301_babyboy1_no_01')
+	_TEMOTI_BOX_MONSNO(@SCWK_TEMP0, @SCWK_TEMP1, @SCWK_ANSWER)
+	_IFVAL_CALL(@SCWK_ANSWER, 'NE', 361, 'ev_pokechange_c04r0301_babyboy1_different')
+	_TALK_CLOSE()
+	_LOCALKOUKAN_APPLY(1, @SCWK_TEMP1, @SCWK_TEMP0)
+	_FLAG_SET(#FE_C04R0301_POKE_CHG)
+	_MACRO_TALKMSG('dp_scenario2', '9-msg_c04r0301_babyboy1_02', 'Yes! So awesome! A Snorunt!\nI so promise I’ll be good to it!\rOh yeah, Chatot can learn some human\nspeech pretty quickly.\rTry out its move Chatter.\nYou’ll totally see what I mean.')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_pokechange_c04r0301_babyboy1_different:
+	_TALK_CLOSE()
+	_FLD_TRADE_DEL()
+	_TALKMSG('dp_scenario2%9-msg_c04r0301_babyboy1_03')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_pokechange_c04r0301_babyboy1_no_01:
+	_TALKMSG('dp_scenario2%9-msg_c04r0301_babyboy1_04')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_pokechange_c04r0301_babyboy1_end:
+	_TALKMSG('dp_scenario2%9-msg_c04r0301_babyboy1_05')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c04r0301_middleman1:
+	_TALK_OBJ_START()
+	_GET_TIME_ZONE(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 4, 'ev_c04r0301_middleman1_02')
+	_JUMP('ev_c04r0301_middleman1_01')
+	_END()
+ev_c04r0301_middleman1_01:
+	_TALKMSG('dp_scenario2%9-msg_c04r0301_middleman1_01')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c04r0301_middleman1_02:
+	_TALKMSG('dp_scenario2%9-msg_c04r0301_middleman1_02')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c04r0301_mint_guy:
+	_TALK_OBJ_START()
+	_IF_FLAGON_JUMP(#2638, 'ev_c04r0301_mint_guy_common')
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_c04r0301_mint_guy_01', 'Hello, hello!\rI love the Pokémon Abra!\rFor every Abra that you show me,\nI will give you the entire assortment of\fmints for that nature’s color.\rIs that a deal, youngster?')
+	_YES_NO_WIN(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_c04r0301_mint_guy_yes')
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_c04r0301_mint_guy_no', 'Oh, okay.\rI’ll be here if you change your mind.')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c04r0301_mint_guy_yes:
+	_FLAG_SET(#2638)
+	_JUMP('ev_c04r0301_mint_guy_common')
+ev_c04r0301_mint_guy_common:
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_c04r0301_mint_guy_show', 'Oh! Do you have an Abra to show me?')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_ADD_CUSTUM_WIN_LABEL('dp_options%DP_options_mintguy_show', 0)
+	_ADD_CUSTUM_WIN_LABEL('dp_options%DP_options_mintguy_get_mints', 1)
+	_ADD_CUSTUM_WIN_LABEL('dp_options%DP_options_training_cancel', 2)
+	_OPEN_CUSTUM_WIN(@SCWK_ANSWER)
+	_SWITCH(@SCWK_ANSWER)
+	_CASE_JUMP(0, 'ev_c04r0301_mint_guy_show_new_abra')
+	_CASE_JUMP(1, 'ev_c04r0301_mint_guy_get_mints')
+	_CASE_JUMP(2, 'ev_c04r0301_mint_guy_cancel')
+	_CASE_CANCEL('ev_c04r0301_mint_guy_cancel')
+	_TALK_OBJ_END()
+	_END()
+ev_c04r0301_mint_guy_cancel:
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_c04r0301_mint_guy_cancel_2', 'Oh, bye bye!')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c04r0301_mint_guy_invalid_abra:
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_c04r0301_mint_guy_invalid_abra', 'That’s not an Abra.\nPlease come back when you have an Abra to show me.')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c04r0301_mint_guy_no_abra_in_party:
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_c04r0301_mint_no_abra_in_party', 'You don’t have an Abra in your party.\nPlease show me an Abra.')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c04r0301_mint_guy_invalid_abra_nature:
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_c04r0301_mint_guy_invalid_abra_nature', 'I’m sorry, but you have already shown me\rthis Abra.')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c04r0301_mint_guy_found_abra_neutral:
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_c04r0301_mint_guy_no_mint_for_nature', 'What a beautiful Abra!\nHowever, I must apologise.\rThere are no mints for this nature.\nI will give you serious mints instead.')
+	_FLAG_SET(#2651); Enable serious mints
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c04r0301_mint_guy_show_new_abra:
+	_TEMOTI_POKE_CHK(@SCWK_ANSWER, 63)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_c04r0301_mint_guy_no_abra_in_party')
+	_CALL('ev_c04r0301_mint_guy_find_abras_in_party')
+	_OPEN_CUSTUM_WIN(@SCWK_ANSWER)
+	_SWITCH(@SCWK_ANSWER)
+	_CASE_JUMP(0, 'ev_c04r0301_mints_show_abra_slot_1')
+	_CASE_JUMP(1, 'ev_c04r0301_mints_show_abra_slot_2')
+	_CASE_JUMP(2, 'ev_c04r0301_mints_show_abra_slot_3')
+	_CASE_JUMP(3, 'ev_c04r0301_mints_show_abra_slot_4')
+	_CASE_JUMP(4, 'ev_c04r0301_mints_show_abra_slot_5')
+	_CASE_JUMP(5, 'ev_c04r0301_mints_show_abra_slot_6')
+	_CASE_JUMP(6, 'ev_c04r0301_mint_guy_cancel')
+	_CASE_CANCEL('ev_c04r0301_mint_guy_cancel')
+    _JUMP('ev_c04r0301_mint_guy_invalid_abra')
+ev_c04r0301_mint_guy_find_abras_in_party:
+	_TEMOTI_MONSNO(0, @SCWK_PARAM1)
+	_IFVAL_CALL(@SCWK_PARAM1, 'EQ', 63, 'ev_c04r0301_mints_abra_slot_1')
+	_TEMOTI_MONSNO(1, @SCWK_PARAM1)
+	_IFVAL_CALL(@SCWK_PARAM1, 'EQ', 63, 'ev_c04r0301_mints_abra_slot_2')
+	_TEMOTI_MONSNO(2, @SCWK_PARAM1)
+	_IFVAL_CALL(@SCWK_PARAM1, 'EQ', 63, 'ev_c04r0301_mints_abra_slot_3')
+	_TEMOTI_MONSNO(3, @SCWK_PARAM1)
+	_IFVAL_CALL(@SCWK_PARAM1, 'EQ', 63, 'ev_c04r0301_mints_abra_slot_4')
+	_TEMOTI_MONSNO(4, @SCWK_PARAM1)
+	_IFVAL_CALL(@SCWK_PARAM1, 'EQ', 63, 'ev_c04r0301_mints_abra_slot_5')
+	_TEMOTI_MONSNO(5, @SCWK_PARAM1)
+	_IFVAL_CALL(@SCWK_PARAM1, 'EQ', 63, 'ev_c04r0301_mints_abra_slot_6')
+	_ADD_CUSTUM_WIN_LABEL('dp_options%DP_options_training_cancel', 6)
+	_RET()
+ev_c04r0301_mints_abra_slot_1:
+	_NICK_NAME(0, 0)
+	_MACRO_ADD_CUSTUM_WIN_LABEL('dp_options', 'DP_options_mints_slot1', 'Slot 1: {0}', 0)
+	_RET()
+ev_c04r0301_mints_abra_slot_2:
+	_NICK_NAME(1, 1)
+	_MACRO_ADD_CUSTUM_WIN_LABEL('dp_options', 'DP_options_mints_slot2', 'Slot 2: {1}', 1)
+	_RET()
+ev_c04r0301_mints_abra_slot_3:
+	_NICK_NAME(2, 2)
+	_MACRO_ADD_CUSTUM_WIN_LABEL('dp_options', 'DP_options_mints_slot3', 'Slot 3: {2}', 2)
+	_RET()
+ev_c04r0301_mints_abra_slot_4:
+	_NICK_NAME(3, 3)
+	_MACRO_ADD_CUSTUM_WIN_LABEL('dp_options', 'DP_options_mints_slot4', 'Slot 4: {3}', 3)
+	_RET()
+ev_c04r0301_mints_abra_slot_5:
+	_NICK_NAME(4, 4)
+	_MACRO_ADD_CUSTUM_WIN_LABEL('dp_options', 'DP_options_mints_slot5', 'Slot 5: {4}', 4)
+	_RET()
+ev_c04r0301_mints_abra_slot_6:
+	_NICK_NAME(5, 5)
+	_MACRO_ADD_CUSTUM_WIN_LABEL('dp_options', 'DP_options_mints_slot6', 'Slot 6: {5}', 5)
+	_RET()
+ev_c04r0301_mints_show_abra_slot_1:
+	_LDVAL(@SCWK_TEMP0, 0)
+	_JUMP('ev_c04r0301_mint_guy_found_abra')
+ev_c04r0301_mints_show_abra_slot_2:
+	_LDVAL(@SCWK_TEMP0, 1)
+	_JUMP('ev_c04r0301_mint_guy_found_abra')
+ev_c04r0301_mints_show_abra_slot_3:
+	_LDVAL(@SCWK_TEMP0, 2)
+	_JUMP('ev_c04r0301_mint_guy_found_abra')
+ev_c04r0301_mints_show_abra_slot_4:
+	_LDVAL(@SCWK_TEMP0, 3)
+	_JUMP('ev_c04r0301_mint_guy_found_abra')
+ev_c04r0301_mints_show_abra_slot_5:
+	_LDVAL(@SCWK_TEMP0, 4)
+	_JUMP('ev_c04r0301_mint_guy_found_abra')
+ev_c04r0301_mints_show_abra_slot_6:
+	_LDVAL(@SCWK_TEMP0, 5)
+	_JUMP('ev_c04r0301_mint_guy_found_abra')
+ev_c04r0301_mint_guy_found_abra:
+	_GET_POKE_SEIKAKU(@SCWK_ANSWER, @SCWK_TEMP0)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_c04r0301_mint_guy_found_abra_lonely')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 2, 'ev_c04r0301_mint_guy_found_abra_brave')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 3, 'ev_c04r0301_mint_guy_found_abra_adamant')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 4, 'ev_c04r0301_mint_guy_found_abra_naughty')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 5, 'ev_c04r0301_mint_guy_found_abra_bold')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 6, 'ev_c04r0301_mint_guy_found_abra_neutral')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 7, 'ev_c04r0301_mint_guy_found_abra_relaxed')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 8, 'ev_c04r0301_mint_guy_found_abra_impish')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 9, 'ev_c04r0301_mint_guy_found_abra_lax')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 10, 'ev_c04r0301_mint_guy_found_abra_timid')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 11, 'ev_c04r0301_mint_guy_found_abra_hasty')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 12, 'ev_c04r0301_mint_guy_found_abra_serious')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 13, 'ev_c04r0301_mint_guy_found_abra_jolly')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 14, 'ev_c04r0301_mint_guy_found_abra_naive')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 15, 'ev_c04r0301_mint_guy_found_abra_modest')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 16, 'ev_c04r0301_mint_guy_found_abra_mild')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 17, 'ev_c04r0301_mint_guy_found_abra_quiet')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 18, 'ev_c04r0301_mint_guy_found_abra_neutral')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 19, 'ev_c04r0301_mint_guy_found_abra_rash')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 20, 'ev_c04r0301_mint_guy_found_abra_calm')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 21, 'ev_c04r0301_mint_guy_found_abra_gentle')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 22, 'ev_c04r0301_mint_guy_found_abra_sassy')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 23, 'ev_c04r0301_mint_guy_found_abra_careful')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 24, 'ev_c04r0301_mint_guy_found_abra_neutral')
+	_JUMP('ev_c04r0301_mint_guy_invalid_abra_nature')
+ev_c04r0301_mint_guy_found_abra_common:
+	_SEIKAKU_NAME(0, @SCWK_ANSWER)
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_mintguy_found_unique_abra', 'Oh! That’s a {0} Abra! I’m so happy!\rThe mint of that nature is now unlocked!')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c04r0301_mint_guy_found_abra_hardy:
+	_IF_FLAGON_JUMP(#2639, 'ev_c04r0301_mint_guy_invalid_abra_nature')
+	_FLAG_SET(#2639)
+	_FLAG_SET(#2640)
+	_FLAG_SET(#2641)
+	_FLAG_SET(#2642)
+	_FLAG_SET(#2643)
+	_JUMP('ev_c04r0301_mint_guy_found_abra_common')
+ev_c04r0301_mint_guy_found_abra_lonely:
+	_IF_FLAGON_JUMP(#2640, 'ev_c04r0301_mint_guy_invalid_abra_nature')
+	_FLAG_SET(#2639)
+	_FLAG_SET(#2640)
+	_FLAG_SET(#2641)
+	_FLAG_SET(#2642)
+	_FLAG_SET(#2643)
+	_JUMP('ev_c04r0301_mint_guy_found_abra_common')
+ev_c04r0301_mint_guy_found_abra_brave:
+	_IF_FLAGON_JUMP(#2641, 'ev_c04r0301_mint_guy_invalid_abra_nature')
+	_FLAG_SET(#2639)
+	_FLAG_SET(#2640)
+	_FLAG_SET(#2641)
+	_FLAG_SET(#2642)
+	_FLAG_SET(#2643)
+	_JUMP('ev_c04r0301_mint_guy_found_abra_common')
+ev_c04r0301_mint_guy_found_abra_adamant:
+	_IF_FLAGON_JUMP(#2642, 'ev_c04r0301_mint_guy_invalid_abra_nature')
+	_FLAG_SET(#2639)
+	_FLAG_SET(#2640)
+	_FLAG_SET(#2641)
+	_FLAG_SET(#2642)
+	_FLAG_SET(#2643)
+	_JUMP('ev_c04r0301_mint_guy_found_abra_common')
+ev_c04r0301_mint_guy_found_abra_naughty:
+	_IF_FLAGON_JUMP(#2643, 'ev_c04r0301_mint_guy_invalid_abra_nature')
+	_FLAG_SET(#2639)
+	_FLAG_SET(#2640)
+	_FLAG_SET(#2641)
+	_FLAG_SET(#2642)
+	_FLAG_SET(#2643)
+	_JUMP('ev_c04r0301_mint_guy_found_abra_common')
+ev_c04r0301_mint_guy_found_abra_bold:
+	_IF_FLAGON_JUMP(#2644, 'ev_c04r0301_mint_guy_invalid_abra_nature')
+	_FLAG_SET(#2644)
+	_FLAG_SET(#2645)
+	_FLAG_SET(#2646)
+	_FLAG_SET(#2647)
+	_FLAG_SET(#2648)
+	_JUMP('ev_c04r0301_mint_guy_found_abra_common')
+ev_c04r0301_mint_guy_found_abra_docile:
+	_IF_FLAGON_JUMP(#2645, 'ev_c04r0301_mint_guy_invalid_abra_nature')
+	_FLAG_SET(#2644)
+	_FLAG_SET(#2645)
+	_FLAG_SET(#2646)
+	_FLAG_SET(#2647)
+	_FLAG_SET(#2648)
+	_JUMP('ev_c04r0301_mint_guy_found_abra_common')
+ev_c04r0301_mint_guy_found_abra_relaxed:
+	_IF_FLAGON_JUMP(#2646, 'ev_c04r0301_mint_guy_invalid_abra_nature')
+	_FLAG_SET(#2644)
+	_FLAG_SET(#2645)
+	_FLAG_SET(#2646)
+	_FLAG_SET(#2647)
+	_FLAG_SET(#2648)
+	_JUMP('ev_c04r0301_mint_guy_found_abra_common')
+ev_c04r0301_mint_guy_found_abra_impish:
+	_IF_FLAGON_JUMP(#2647, 'ev_c04r0301_mint_guy_invalid_abra_nature')
+	_FLAG_SET(#2644)
+	_FLAG_SET(#2645)
+	_FLAG_SET(#2646)
+	_FLAG_SET(#2647)
+	_FLAG_SET(#2648)
+	_JUMP('ev_c04r0301_mint_guy_found_abra_common')
+ev_c04r0301_mint_guy_found_abra_lax:
+	_IF_FLAGON_JUMP(#2648, 'ev_c04r0301_mint_guy_invalid_abra_nature')
+	_FLAG_SET(#2644)
+	_FLAG_SET(#2645)
+	_FLAG_SET(#2646)
+	_FLAG_SET(#2647)
+	_FLAG_SET(#2648)
+	_JUMP('ev_c04r0301_mint_guy_found_abra_common')
+ev_c04r0301_mint_guy_found_abra_timid:
+	_IF_FLAGON_JUMP(#2649, 'ev_c04r0301_mint_guy_invalid_abra_nature')
+	_FLAG_SET(#2649)
+	_FLAG_SET(#2650)
+	_FLAG_SET(#2651)
+	_FLAG_SET(#2652)
+	_FLAG_SET(#2653)
+	_JUMP('ev_c04r0301_mint_guy_found_abra_common')
+ev_c04r0301_mint_guy_found_abra_hasty:
+	_IF_FLAGON_JUMP(#2650, 'ev_c04r0301_mint_guy_invalid_abra_nature')
+	_FLAG_SET(#2649)
+	_FLAG_SET(#2650)
+	_FLAG_SET(#2651)
+	_FLAG_SET(#2652)
+	_FLAG_SET(#2653)
+	_JUMP('ev_c04r0301_mint_guy_found_abra_common')
+ev_c04r0301_mint_guy_found_abra_serious:
+	_IF_FLAGON_JUMP(#2651, 'ev_c04r0301_mint_guy_invalid_abra_nature')
+	_FLAG_SET(#2649)
+	_FLAG_SET(#2650)
+	_FLAG_SET(#2651)
+	_FLAG_SET(#2652)
+	_FLAG_SET(#2653)
+	_JUMP('ev_c04r0301_mint_guy_found_abra_common')
+ev_c04r0301_mint_guy_found_abra_jolly:
+	_IF_FLAGON_JUMP(#2652, 'ev_c04r0301_mint_guy_invalid_abra_nature')
+	_FLAG_SET(#2649)
+	_FLAG_SET(#2650)
+	_FLAG_SET(#2651)
+	_FLAG_SET(#2652)
+	_FLAG_SET(#2653)
+	_JUMP('ev_c04r0301_mint_guy_found_abra_common')
+ev_c04r0301_mint_guy_found_abra_naive:
+	_IF_FLAGON_JUMP(#2653, 'ev_c04r0301_mint_guy_invalid_abra_nature')
+	_FLAG_SET(#2649)
+	_FLAG_SET(#2650)
+	_FLAG_SET(#2651)
+	_FLAG_SET(#2652)
+	_FLAG_SET(#2653)
+	_JUMP('ev_c04r0301_mint_guy_found_abra_common')
+ev_c04r0301_mint_guy_found_abra_modest:
+	_IF_FLAGON_JUMP(#2654, 'ev_c04r0301_mint_guy_invalid_abra_nature')
+	_FLAG_SET(#2654)
+	_FLAG_SET(#2655)
+	_FLAG_SET(#2656)
+	_FLAG_SET(#2657)
+	_FLAG_SET(#2658)
+	_JUMP('ev_c04r0301_mint_guy_found_abra_common')
+ev_c04r0301_mint_guy_found_abra_mild:
+	_IF_FLAGON_JUMP(#2655, 'ev_c04r0301_mint_guy_invalid_abra_nature')
+	_FLAG_SET(#2654)
+	_FLAG_SET(#2655)
+	_FLAG_SET(#2656)
+	_FLAG_SET(#2657)
+	_FLAG_SET(#2658)
+	_JUMP('ev_c04r0301_mint_guy_found_abra_common')
+ev_c04r0301_mint_guy_found_abra_quiet:
+	_IF_FLAGON_JUMP(#2656, 'ev_c04r0301_mint_guy_invalid_abra_nature')
+	_FLAG_SET(#2654)
+	_FLAG_SET(#2655)
+	_FLAG_SET(#2656)
+	_FLAG_SET(#2657)
+	_FLAG_SET(#2658)
+	_JUMP('ev_c04r0301_mint_guy_found_abra_common')
+ev_c04r0301_mint_guy_found_abra_bashful:
+	_IF_FLAGON_JUMP(#2657, 'ev_c04r0301_mint_guy_invalid_abra_nature')
+	_FLAG_SET(#2654)
+	_FLAG_SET(#2655)
+	_FLAG_SET(#2656)
+	_FLAG_SET(#2657)
+	_FLAG_SET(#2658)
+	_JUMP('ev_c04r0301_mint_guy_found_abra_common')
+ev_c04r0301_mint_guy_found_abra_rash:
+	_IF_FLAGON_JUMP(#2658, 'ev_c04r0301_mint_guy_invalid_abra_nature')
+	_FLAG_SET(#2654)
+	_FLAG_SET(#2655)
+	_FLAG_SET(#2656)
+	_FLAG_SET(#2657)
+	_FLAG_SET(#2658)
+	_JUMP('ev_c04r0301_mint_guy_found_abra_common')
+ev_c04r0301_mint_guy_found_abra_calm:
+	_IF_FLAGON_JUMP(#2659, 'ev_c04r0301_mint_guy_invalid_abra_nature')
+	_FLAG_SET(#2659)
+	_FLAG_SET(#2660)
+	_FLAG_SET(#2661)
+	_FLAG_SET(#2662)
+	_FLAG_SET(#2663)
+	_JUMP('ev_c04r0301_mint_guy_found_abra_common')
+ev_c04r0301_mint_guy_found_abra_gentle:
+	_IF_FLAGON_JUMP(#2660, 'ev_c04r0301_mint_guy_invalid_abra_nature')
+	_FLAG_SET(#2659)
+	_FLAG_SET(#2660)
+	_FLAG_SET(#2661)
+	_FLAG_SET(#2662)
+	_FLAG_SET(#2663)
+	_JUMP('ev_c04r0301_mint_guy_found_abra_common')
+ev_c04r0301_mint_guy_found_abra_sassy:
+	_IF_FLAGON_JUMP(#2661, 'ev_c04r0301_mint_guy_invalid_abra_nature')
+	_FLAG_SET(#2659)
+	_FLAG_SET(#2660)
+	_FLAG_SET(#2661)
+	_FLAG_SET(#2662)
+	_FLAG_SET(#2663)
+	_JUMP('ev_c04r0301_mint_guy_found_abra_common')
+ev_c04r0301_mint_guy_found_abra_careful:
+	_IF_FLAGON_JUMP(#2662, 'ev_c04r0301_mint_guy_invalid_abra_nature')
+	_FLAG_SET(#2659)
+	_FLAG_SET(#2660)
+	_FLAG_SET(#2661)
+	_FLAG_SET(#2662)
+	_FLAG_SET(#2663)
+	_JUMP('ev_c04r0301_mint_guy_found_abra_common')
+ev_c04r0301_mint_guy_found_abra_quirky:
+	_IF_FLAGON_JUMP(#2663, 'ev_c04r0301_mint_guy_invalid_abra_nature')
+	_FLAG_SET(#2659)
+	_FLAG_SET(#2660)
+	_FLAG_SET(#2661)
+	_FLAG_SET(#2662)
+	_FLAG_SET(#2663)
+	_JUMP('ev_c04r0301_mint_guy_found_abra_common')
+ev_c04r0301_mint_guy_get_mints:
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_mintguy_which_mint', 'Which mint would you like?')
+	_CALL('ev_c04r0301_mint_guy_generate_mint_options')
+	_ADD_CUSTUM_WIN_LABEL('dp_options%DP_options_training_cancel', 99)
+	_OPEN_CUSTUM_WIN(@SCWK_ANSWER)
+	_SWITCH(@SCWK_ANSWER)
+	_CASE_JUMP(0, 'ev_c04r0301_mint_guy_get_atk_mints')
+	_CASE_JUMP(1, 'ev_c04r0301_mint_guy_get_def_mints')
+	_CASE_JUMP(2, 'ev_c04r0301_mint_guy_get_spatk_mints')
+	_CASE_JUMP(3, 'ev_c04r0301_mint_guy_get_spadef_mints')
+	_CASE_JUMP(4, 'ev_c04r0301_mint_guy_get_speed_mints')
+	_CASE_JUMP(5, 'ev_c04r0301_mint_guy_get_mints_serious')
+	_CASE_JUMP(99, 'ev_c04r0301_mint_guy_get_mints_end')
+	_CASE_CANCEL('ev_c04r0301_mint_guy_get_mints_invalid')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c04r0301_mint_guy_generate_mint_options:
+	_CALL('ev_c04r0301_mint_guy_generate_mint_options_attack')
+	_CALL('ev_c04r0301_mint_guy_generate_mint_options_attack_def')
+	_CALL('ev_c04r0301_mint_guy_generate_mint_options_spatk')
+	_CALL('ev_c04r0301_mint_guy_generate_mint_options_spdef')
+	_CALL('ev_c04r0301_mint_guy_generate_mint_options_speed')
+	_CALL('ev_c04r0301_mint_guy_generate_mint_options_neutral')
+	_RET()
+ev_c04r0301_mint_guy_mint_atk_unlocked:
+	_MACRO_ADD_CUSTUM_WIN_LABEL('dp_options', '00_options_attack_mints', 'Attack Mints', 0)
+	_RET()
+ev_c04r0301_mint_guy_mint_def_unlocked:
+	_MACRO_ADD_CUSTUM_WIN_LABEL('dp_options', '00_options_defense_mints', 'Defense Mints', 1)
+	_RET()
+ev_c04r0301_mint_guy_mint_spatk_unlocked:
+	_MACRO_ADD_CUSTUM_WIN_LABEL('dp_options', '00_options_spatk_mints', 'Special Attack Mints', 2)
+	_RET()
+ev_c04r0301_mint_guy_mint_spadef_unlocked:
+	_MACRO_ADD_CUSTUM_WIN_LABEL('dp_options', '00_options_spadef_mints', 'Special Defense Mints', 3)
+	_RET()
+ev_c04r0301_mint_guy_mint_speed_unlocked:
+	_MACRO_ADD_CUSTUM_WIN_LABEL('dp_options', '00_options_speed_mints', 'Speed Mints', 4)
+	_RET()
+ev_c04r0301_mint_guy_mint_neutral_unlocked:
+	_MACRO_ADD_CUSTUM_WIN_LABEL('dp_options', '00_options_neutral_mints', 'Neutral Mints', 5)
+	_RET()
+ev_c04r0301_mint_guy_generate_mint_options_attack:
+	_IF_FLAGON_JUMP(#2640, 'ev_c04r0301_mint_guy_mint_atk_unlocked')
+	_IF_FLAGON_JUMP(#2641, 'ev_c04r0301_mint_guy_mint_atk_unlocked')
+	_IF_FLAGON_JUMP(#2642, 'ev_c04r0301_mint_guy_mint_atk_unlocked')
+	_IF_FLAGON_JUMP(#2643, 'ev_c04r0301_mint_guy_mint_atk_unlocked')
+	_RET()
+ev_c04r0301_mint_guy_generate_mint_options_attack_def:
+	_IF_FLAGON_JUMP(#2644, 'ev_c04r0301_mint_guy_mint_def_unlocked')
+	_IF_FLAGON_JUMP(#2646, 'ev_c04r0301_mint_guy_mint_def_unlocked')
+	_IF_FLAGON_JUMP(#2647, 'ev_c04r0301_mint_guy_mint_def_unlocked')
+	_IF_FLAGON_JUMP(#2648, 'ev_c04r0301_mint_guy_mint_def_unlocked')
+	_RET()
+ev_c04r0301_mint_guy_generate_mint_options_spatk:
+	_IF_FLAGON_JUMP(#2654, 'ev_c04r0301_mint_guy_mint_spatk_unlocked')
+	_IF_FLAGON_JUMP(#2655, 'ev_c04r0301_mint_guy_mint_spatk_unlocked')
+	_IF_FLAGON_JUMP(#2656, 'ev_c04r0301_mint_guy_mint_spatk_unlocked')
+	_IF_FLAGON_JUMP(#2658, 'ev_c04r0301_mint_guy_mint_spatk_unlocked')
+	_RET()
+ev_c04r0301_mint_guy_generate_mint_options_spdef:
+	_IF_FLAGON_JUMP(#2659, 'ev_c04r0301_mint_guy_mint_spadef_unlocked')
+	_IF_FLAGON_JUMP(#2660, 'ev_c04r0301_mint_guy_mint_spadef_unlocked')
+	_IF_FLAGON_JUMP(#2661, 'ev_c04r0301_mint_guy_mint_spadef_unlocked')
+	_IF_FLAGON_JUMP(#2662, 'ev_c04r0301_mint_guy_mint_spadef_unlocked')
+	_RET()
+ev_c04r0301_mint_guy_generate_mint_options_speed:
+	_IF_FLAGON_JUMP(#2649, 'ev_c04r0301_mint_guy_mint_speed_unlocked')
+	_IF_FLAGON_JUMP(#2650, 'ev_c04r0301_mint_guy_mint_speed_unlocked')
+	_IF_FLAGON_JUMP(#2652, 'ev_c04r0301_mint_guy_mint_speed_unlocked')
+	_IF_FLAGON_JUMP(#2653, 'ev_c04r0301_mint_guy_mint_speed_unlocked')
+	_RET()
+ev_c04r0301_mint_guy_generate_mint_options_neutral:
+	_IF_FLAGON_JUMP(#2639, 'ev_c04r0301_mint_guy_mint_neutral_unlocked')
+	_IF_FLAGON_JUMP(#2645, 'ev_c04r0301_mint_guy_mint_neutral_unlocked')
+	_IF_FLAGON_JUMP(#2651, 'ev_c04r0301_mint_guy_mint_neutral_unlocked')
+	_IF_FLAGON_JUMP(#2657, 'ev_c04r0301_mint_guy_mint_neutral_unlocked')
+	_IF_FLAGON_JUMP(#2663, 'ev_c04r0301_mint_guy_mint_neutral_unlocked')
+	_RET()
+ev_c04r0301_mint_guy_get_atk_mints:
+	_CALL('ev_c04r0301_mint_guy_generate_atk_mints')
+	_ADD_CUSTUM_WIN_LABEL('dp_options%DP_options_training_cancel', 9999)
+	_OPEN_CUSTUM_WIN(@SCWK_ANSWER)
+	_SWITCH(@SCWK_ANSWER)
+	_CASE_JUMP(1, 'ev_c04r0301_mint_guy_get_mints_lonely')
+	_CASE_JUMP(2, 'ev_c04r0301_mint_guy_get_mints_brave')
+	_CASE_JUMP(3, 'ev_c04r0301_mint_guy_get_mints_adamant')
+	_CASE_JUMP(4, 'ev_c04r0301_mint_guy_get_mints_naughty')
+	_CASE_JUMP(9999, 'ev_c04r0301_mint_guy_get_mints_end')
+	_CASE_CANCEL('ev_c04r0301_mint_guy_get_mints_end')
+	_END()
+ev_c04r0301_mint_guy_get_def_mints:
+	_CALL('ev_c04r0301_mint_guy_generate_def_mints')
+	_ADD_CUSTUM_WIN_LABEL('dp_options%DP_options_training_cancel', 9999)
+	_OPEN_CUSTUM_WIN(@SCWK_ANSWER)
+	_SWITCH(@SCWK_ANSWER)
+	_CASE_JUMP(5, 'ev_c04r0301_mint_guy_get_mints_bold')
+	_CASE_JUMP(7, 'ev_c04r0301_mint_guy_get_mints_relaxed')
+	_CASE_JUMP(8, 'ev_c04r0301_mint_guy_get_mints_impish')
+	_CASE_JUMP(9, 'ev_c04r0301_mint_guy_get_mints_lax')
+	_CASE_JUMP(9999, 'ev_c04r0301_mint_guy_get_mints_end')
+	_CASE_CANCEL('ev_c04r0301_mint_guy_get_mints_end')
+	_END()
+ev_c04r0301_mint_guy_get_spatk_mints:
+	_CALL('ev_c04r0301_mint_guy_generate_spatk_mints')
+	_ADD_CUSTUM_WIN_LABEL('dp_options%DP_options_training_cancel', 9999)
+	_OPEN_CUSTUM_WIN(@SCWK_ANSWER)
+	_SWITCH(@SCWK_ANSWER)
+	_CASE_JUMP(15, 'ev_c04r0301_mint_guy_get_mints_modest')
+	_CASE_JUMP(16, 'ev_c04r0301_mint_guy_get_mints_mild')
+	_CASE_JUMP(17, 'ev_c04r0301_mint_guy_get_mints_quiet')
+	_CASE_JUMP(19, 'ev_c04r0301_mint_guy_get_mints_rash')
+	_CASE_JUMP(9999, 'ev_c04r0301_mint_guy_get_mints_end')
+	_CASE_CANCEL('ev_c04r0301_mint_guy_get_mints_end')
+	_END()
+ev_c04r0301_mint_guy_get_spadef_mints:
+	_CALL('ev_c04r0301_mint_guy_generate_spadef_mints')
+	_ADD_CUSTUM_WIN_LABEL('dp_options%DP_options_training_cancel', 9999)
+	_OPEN_CUSTUM_WIN(@SCWK_ANSWER)
+	_SWITCH(@SCWK_ANSWER)
+	_CASE_JUMP(20, 'ev_c04r0301_mint_guy_get_mints_calm')
+	_CASE_JUMP(21, 'ev_c04r0301_mint_guy_get_mints_gentle')
+	_CASE_JUMP(22, 'ev_c04r0301_mint_guy_get_mints_sassy')
+	_CASE_JUMP(23, 'ev_c04r0301_mint_guy_get_mints_careful')
+	_CASE_JUMP(9999, 'ev_c04r0301_mint_guy_get_mints_end')
+	_CASE_CANCEL('ev_c04r0301_mint_guy_get_mints_end')
+	_END()
+ev_c04r0301_mint_guy_get_speed_mints:
+	_CALL('ev_c04r0301_mint_guy_generate_speed_mints')
+	_ADD_CUSTUM_WIN_LABEL('dp_options%DP_options_training_cancel', 9999)
+	_OPEN_CUSTUM_WIN(@SCWK_ANSWER)
+	_SWITCH(@SCWK_ANSWER)
+	_CASE_JUMP(10, 'ev_c04r0301_mint_guy_get_mints_timid')
+	_CASE_JUMP(11, 'ev_c04r0301_mint_guy_get_mints_hasty')
+	_CASE_JUMP(13, 'ev_c04r0301_mint_guy_get_mints_jolly')
+	_CASE_JUMP(14, 'ev_c04r0301_mint_guy_get_mints_naive')
+	_CASE_JUMP(9999, 'ev_c04r0301_mint_guy_get_mints_end')
+	_CASE_CANCEL('ev_c04r0301_mint_guy_get_mints_end')
+	_END()
+ev_c04r0301_mint_guy_get_neutral_mints:
+	_CALL('ev_c04r0301_mint_guy_generate_neutral_mints')
+	_ADD_CUSTUM_WIN_LABEL('dp_options%DP_options_training_cancel', 9999)
+	_OPEN_CUSTUM_WIN(@SCWK_ANSWER)
+	_SWITCH(@SCWK_ANSWER)
+	_CASE_JUMP(0, 'ev_c04r0301_mint_guy_get_mints_neutral_no_mint')
+	_CASE_JUMP(6, 'ev_c04r0301_mint_guy_get_mints_docile')
+	_CASE_JUMP(12, 'ev_c04r0301_mint_guy_get_mints_serious')
+	_CASE_JUMP(18, 'ev_c04r0301_mint_guy_get_mints_bashful')
+	_CASE_JUMP(24, 'ev_c04r0301_mint_guy_get_mints_quirky')
+	_CASE_JUMP(9999, 'ev_c04r0301_mint_guy_get_mints_end')
+	_CASE_CANCEL('ev_c04r0301_mint_guy_get_mints_end')
+	_END()
+ev_c04r0301_mint_guy_generate_atk_mints:
+	_IF_FLAGON_CALL(#2642, 'ev_c04r0301_mint_guy_generate_mint_list_adamant')
+	_IF_FLAGON_CALL(#2640, 'ev_c04r0301_mint_guy_generate_mint_list_lonely')
+	_IF_FLAGON_CALL(#2641, 'ev_c04r0301_mint_guy_generate_mint_list_brave')
+	_IF_FLAGON_CALL(#2643, 'ev_c04r0301_mint_guy_generate_mint_list_naughty')
+	_RET()
+ev_c04r0301_mint_guy_generate_def_mints:
+	_IF_FLAGON_CALL(#2644, 'ev_c04r0301_mint_guy_generate_mint_list_bold')
+	_IF_FLAGON_CALL(#2646, 'ev_c04r0301_mint_guy_generate_mint_list_relaxed')
+	_IF_FLAGON_CALL(#2647, 'ev_c04r0301_mint_guy_generate_mint_list_impish')
+	_IF_FLAGON_CALL(#2648, 'ev_c04r0301_mint_guy_generate_mint_list_lax')
+	_RET()
+ev_c04r0301_mint_guy_generate_speed_mints:
+	_IF_FLAGON_CALL(#2649, 'ev_c04r0301_mint_guy_generate_mint_list_timid')
+	_IF_FLAGON_CALL(#2650, 'ev_c04r0301_mint_guy_generate_mint_list_hasty')
+	_IF_FLAGON_CALL(#2652, 'ev_c04r0301_mint_guy_generate_mint_list_jolly')
+	_IF_FLAGON_CALL(#2653, 'ev_c04r0301_mint_guy_generate_mint_list_naive')
+	_RET()
+ev_c04r0301_mint_guy_generate_spatk_mints:
+	_IF_FLAGON_CALL(#2654, 'ev_c04r0301_mint_guy_generate_mint_list_modest')
+	_IF_FLAGON_CALL(#2655, 'ev_c04r0301_mint_guy_generate_mint_list_mild')
+	_IF_FLAGON_CALL(#2656, 'ev_c04r0301_mint_guy_generate_mint_list_quiet')
+	_IF_FLAGON_CALL(#2658, 'ev_c04r0301_mint_guy_generate_mint_list_rash')
+	_RET()
+ev_c04r0301_mint_guy_generate_spadef_mints:
+	_IF_FLAGON_CALL(#2659, 'ev_c04r0301_mint_guy_generate_mint_list_calm')
+	_IF_FLAGON_CALL(#2660, 'ev_c04r0301_mint_guy_generate_mint_list_gentle')
+	_IF_FLAGON_CALL(#2661, 'ev_c04r0301_mint_guy_generate_mint_list_sassy')
+	_IF_FLAGON_CALL(#2662, 'ev_c04r0301_mint_guy_generate_mint_list_careful')
+	_RET()
+ev_c04r0301_mint_guy_generate_neutral_mints:
+	_IF_FLAGON_CALL(#2639, 'ev_c04r0301_mint_guy_generate_mint_list_hardy')	
+	_IF_FLAGON_CALL(#2645, 'ev_c04r0301_mint_guy_generate_mint_list_docile')
+	_IF_FLAGON_CALL(#2651, 'ev_c04r0301_mint_guy_generate_mint_list_serious')	
+	_IF_FLAGON_CALL(#2657, 'ev_c04r0301_mint_guy_generate_mint_list_bashful')
+	_IF_FLAGON_CALL(#2663, 'ev_c04r0301_mint_guy_generate_mint_list_quirky')
+	_RET()
+ev_c04r0301_mint_guy_generate_mint_list_hardy:
+	_ADD_CUSTUM_WIN_LABEL('dp_options%DP_options_mints_hardy', 0)
+	_RET()
+ev_c04r0301_mint_guy_generate_mint_list_lonely:
+	_ADD_CUSTUM_WIN_LABEL('dp_options%DP_options_mints_lonely', 1)
+	_RET()
+ev_c04r0301_mint_guy_generate_mint_list_brave:
+	_ADD_CUSTUM_WIN_LABEL('dp_options%DP_options_mints_brave', 2)
+	_RET()
+ev_c04r0301_mint_guy_generate_mint_list_adamant:
+	_ADD_CUSTUM_WIN_LABEL('dp_options%DP_options_mints_adamant', 3)
+	_RET()
+ev_c04r0301_mint_guy_generate_mint_list_naughty:
+	_ADD_CUSTUM_WIN_LABEL('dp_options%DP_options_mints_naughty', 4)
+	_RET()
+ev_c04r0301_mint_guy_generate_mint_list_bold:
+	_ADD_CUSTUM_WIN_LABEL('dp_options%DP_options_mints_bold', 5)
+	_RET()
+ev_c04r0301_mint_guy_generate_mint_list_docile:
+	_ADD_CUSTUM_WIN_LABEL('dp_options%DP_options_mints_docile', 6)
+	_RET()
+ev_c04r0301_mint_guy_generate_mint_list_relaxed:
+	_ADD_CUSTUM_WIN_LABEL('dp_options%DP_options_mints_relaxed', 7)
+	_RET()
+ev_c04r0301_mint_guy_generate_mint_list_impish:
+	_ADD_CUSTUM_WIN_LABEL('dp_options%DP_options_mints_impish', 8)
+	_RET()
+ev_c04r0301_mint_guy_generate_mint_list_lax:
+	_ADD_CUSTUM_WIN_LABEL('dp_options%DP_options_mints_lax', 9)
+	_RET()
+ev_c04r0301_mint_guy_generate_mint_list_timid:
+	_ADD_CUSTUM_WIN_LABEL('dp_options%DP_options_mints_timid', 10)
+	_RET()
+ev_c04r0301_mint_guy_generate_mint_list_hasty:
+	_ADD_CUSTUM_WIN_LABEL('dp_options%DP_options_mints_hasty', 11)
+	_RET()
+ev_c04r0301_mint_guy_generate_mint_list_serious:
+	_ADD_CUSTUM_WIN_LABEL('dp_options%DP_options_mints_serious', 12)
+	_RET()
+ev_c04r0301_mint_guy_generate_mint_list_jolly:
+	_ADD_CUSTUM_WIN_LABEL('dp_options%DP_options_mints_jolly', 13)
+	_RET()
+ev_c04r0301_mint_guy_generate_mint_list_naive:
+	_ADD_CUSTUM_WIN_LABEL('dp_options%DP_options_mints_naive', 14)
+	_RET()
+ev_c04r0301_mint_guy_generate_mint_list_modest:
+	_ADD_CUSTUM_WIN_LABEL('dp_options%DP_options_mints_modest', 15)
+	_RET()
+ev_c04r0301_mint_guy_generate_mint_list_mild:
+	_ADD_CUSTUM_WIN_LABEL('dp_options%DP_options_mints_mild', 16)
+	_RET()
+ev_c04r0301_mint_guy_generate_mint_list_quiet:
+	_ADD_CUSTUM_WIN_LABEL('dp_options%DP_options_mints_quiet', 17)
+	_RET()
+ev_c04r0301_mint_guy_generate_mint_list_bashful:
+	_ADD_CUSTUM_WIN_LABEL('dp_options%DP_options_mints_bashful', 18)
+	_RET()
+ev_c04r0301_mint_guy_generate_mint_list_rash:
+	_ADD_CUSTUM_WIN_LABEL('dp_options%DP_options_mints_rash', 19)
+	_RET()
+ev_c04r0301_mint_guy_generate_mint_list_calm:
+	_ADD_CUSTUM_WIN_LABEL('dp_options%DP_options_mints_calm', 20)
+	_RET()
+ev_c04r0301_mint_guy_generate_mint_list_gentle:
+	_ADD_CUSTUM_WIN_LABEL('dp_options%DP_options_mints_gentle', 21)
+	_RET()
+ev_c04r0301_mint_guy_generate_mint_list_sassy:
+	_ADD_CUSTUM_WIN_LABEL('dp_options%DP_options_mints_sassy', 22)
+	_RET()
+ev_c04r0301_mint_guy_generate_mint_list_careful:
+	_ADD_CUSTUM_WIN_LABEL('dp_options%DP_options_mints_careful', 23)
+	_RET()
+ev_c04r0301_mint_guy_generate_mint_list_quirky:
+	_ADD_CUSTUM_WIN_LABEL('dp_options%DP_options_mints_quirky', 24)
+	_RET()
+ev_c04r0301_mint_guy_get_mints_lonely:
+	_LDVAL(@SCWK_TEMP0, 1231); Lonely Mint
+	_LDVAL(@SCWK_TEMP1, 5); Quantity 5
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_JUMP('ev_c04r0301_mint_guy_get_mints_end')
+ev_c04r0301_mint_guy_get_mints_adamant:
+	_LDVAL(@SCWK_TEMP0, 1232); Adamant Mint
+	_LDVAL(@SCWK_TEMP1, 5); Quantity 5
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_JUMP('ev_c04r0301_mint_guy_get_mints_end')
+ev_c04r0301_mint_guy_get_mints_naughty:
+	_LDVAL(@SCWK_TEMP0, 1233); Naughty Mint
+	_LDVAL(@SCWK_TEMP1, 5); Quantity 5
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_JUMP('ev_c04r0301_mint_guy_get_mints_end')
+ev_c04r0301_mint_guy_get_mints_brave:
+	_LDVAL(@SCWK_TEMP0, 1234); Brave Mint
+	_LDVAL(@SCWK_TEMP1, 5); Quantity 5
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_JUMP('ev_c04r0301_mint_guy_get_mints_end')
+ev_c04r0301_mint_guy_get_mints_bold:
+	_LDVAL(@SCWK_TEMP0, 1235); Bold Mint
+	_LDVAL(@SCWK_TEMP1, 5); Quantity 5
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_JUMP('ev_c04r0301_mint_guy_get_mints_end')
+ev_c04r0301_mint_guy_get_mints_impish:
+	_LDVAL(@SCWK_TEMP0, 1236); Impish Mint
+	_LDVAL(@SCWK_TEMP1, 5); Quantity 5
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_JUMP('ev_c04r0301_mint_guy_get_mints_end')
+ev_c04r0301_mint_guy_get_mints_lax:
+	_LDVAL(@SCWK_TEMP0, 1237); Lax Mint
+	_LDVAL(@SCWK_TEMP1, 5); Quantity 5
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_JUMP('ev_c04r0301_mint_guy_get_mints_end')
+ev_c04r0301_mint_guy_get_mints_relaxed:
+	_LDVAL(@SCWK_TEMP0, 1238); Relaxed Mint
+	_LDVAL(@SCWK_TEMP1, 5); Quantity 5
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_JUMP('ev_c04r0301_mint_guy_get_mints_end')
+ev_c04r0301_mint_guy_get_mints_modest:
+	_LDVAL(@SCWK_TEMP0, 1239); Modest Mint
+	_LDVAL(@SCWK_TEMP1, 5); Quantity 5
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_JUMP('ev_c04r0301_mint_guy_get_mints_end')
+ev_c04r0301_mint_guy_get_mints_mild:
+	_LDVAL(@SCWK_TEMP0, 1240); Mild Mint
+	_LDVAL(@SCWK_TEMP1, 5); Quantity 5
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_JUMP('ev_c04r0301_mint_guy_get_mints_end')
+ev_c04r0301_mint_guy_get_mints_rash:
+	_LDVAL(@SCWK_TEMP0, 1241); Rash Mint
+	_LDVAL(@SCWK_TEMP1, 5); Quantity 5
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_JUMP('ev_c04r0301_mint_guy_get_mints_end')
+ev_c04r0301_mint_guy_get_mints_quiet:
+	_LDVAL(@SCWK_TEMP0, 1242); Quiet Mint
+	_LDVAL(@SCWK_TEMP1, 5); Quantity 5
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_JUMP('ev_c04r0301_mint_guy_get_mints_end')
+ev_c04r0301_mint_guy_get_mints_calm:
+	_LDVAL(@SCWK_TEMP0, 1243); Calm Mint
+	_LDVAL(@SCWK_TEMP1, 5); Quantity 5
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_JUMP('ev_c04r0301_mint_guy_get_mints_end')
+ev_c04r0301_mint_guy_get_mints_gentle:
+	_LDVAL(@SCWK_TEMP0, 1244); Gentle Mint
+	_LDVAL(@SCWK_TEMP1, 5); Quantity 5
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_JUMP('ev_c04r0301_mint_guy_get_mints_end')
+ev_c04r0301_mint_guy_get_mints_careful:
+	_LDVAL(@SCWK_TEMP0, 1245); Careful Mint
+	_LDVAL(@SCWK_TEMP1, 5); Quantity 5
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_JUMP('ev_c04r0301_mint_guy_get_mints_end')
+ev_c04r0301_mint_guy_get_mints_sassy:
+	_LDVAL(@SCWK_TEMP0, 1246); Sassy Mint
+	_LDVAL(@SCWK_TEMP1, 5); Quantity 5
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_JUMP('ev_c04r0301_mint_guy_get_mints_end')
+ev_c04r0301_mint_guy_get_mints_timid:
+	_LDVAL(@SCWK_TEMP0, 1247); Timid Mint
+	_LDVAL(@SCWK_TEMP1, 5); Quantity 5
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_JUMP('ev_c04r0301_mint_guy_get_mints_end')
+ev_c04r0301_mint_guy_get_mints_hasty:
+	_LDVAL(@SCWK_TEMP0, 1248); Hasty Mint
+	_LDVAL(@SCWK_TEMP1, 5); Quantity 5
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_JUMP('ev_c04r0301_mint_guy_get_mints_end')
+ev_c04r0301_mint_guy_get_mints_jolly:
+	_LDVAL(@SCWK_TEMP0, 1249); Jolly Mint
+	_LDVAL(@SCWK_TEMP1, 5); Quantity 5
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_JUMP('ev_c04r0301_mint_guy_get_mints_end')
+ev_c04r0301_mint_guy_get_mints_naive:
+	_LDVAL(@SCWK_TEMP0, 1250); Naive Mint
+	_LDVAL(@SCWK_TEMP1, 5); Quantity 5
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_JUMP('ev_c04r0301_mint_guy_get_mints_end')
+ev_c04r0301_mint_guy_get_mints_serious:
+	_LDVAL(@SCWK_TEMP0, 1251); Serious Mint
+	_LDVAL(@SCWK_TEMP1, 5); Quantity 5
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_JUMP('ev_c04r0301_mint_guy_get_mints_end')
+ev_c04r0301_mint_guy_get_mints_end:
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_c04r0301_mint_guy_end', 'See you later!')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()

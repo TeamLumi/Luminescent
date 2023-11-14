@@ -1,0 +1,5 @@
+ev_r209r0104_flag_change:
+	_SET_SYS_FLAG($SYS_FLAG_MAP_INFO_STOP)
+	_END()
+ev_r209r0104:
+	_END()

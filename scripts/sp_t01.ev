@@ -1,0 +1,16 @@
+SP_T01_INIT:
+	_SP_EVENT_DATA_END()
+SP_T01_OBJ:
+	_SP_EVENT_DATA_END()
+SP_T01_SCENE:
+	_JUMP('sp_t01_tbls')
+	_SP_EVENT_DATA_END()
+SP_T01_FLAG:
+	_JUMP('ev_t01_flag_change')
+	_SP_EVENT_DATA_END()
+sp_t01_tbls:
+	_CALL('ev_block_doc')
+	_SCENE_CHANGE_DATA(@WK_SCENE_T01R0201, 6, 'ev_mama_cap')
+	_SCENE_CHANGE_DATA(@480, 1, 'pos_ev_t01_oak_letter_event')
+	_CALL('ev_block_doc_end')
+	_SCENE_CHANGE_END()

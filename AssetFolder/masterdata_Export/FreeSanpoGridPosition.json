@@ -1,0 +1,134 @@
+{
+    "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 6196893409914592512
+    },
+    "m_Name": "FreeSanpoGridPosition",
+    "Sheet1": [
+        {
+            "PosNo": 1,
+            "Position": {
+                "x": -29.0,
+                "y": 45.0
+            },
+            "Angle": 0
+        },
+        {
+            "PosNo": 2,
+            "Position": {
+                "x": -27.0,
+                "y": 38.0
+            },
+            "Angle": 180
+        },
+        {
+            "PosNo": 3,
+            "Position": {
+                "x": -31.0,
+                "y": 36.0
+            },
+            "Angle": 270
+        },
+        {
+            "PosNo": 4,
+            "Position": {
+                "x": -38.0,
+                "y": 29.0
+            },
+            "Angle": 270
+        },
+        {
+            "PosNo": 5,
+            "Position": {
+                "x": -45.0,
+                "y": 20.0
+            },
+            "Angle": 0
+        },
+        {
+            "PosNo": 6,
+            "Position": {
+                "x": -41.0,
+                "y": 18.0
+            },
+            "Angle": 270
+        },
+        {
+            "PosNo": 7,
+            "Position": {
+                "x": -51.0,
+                "y": 36.0
+            },
+            "Angle": 90
+        },
+        {
+            "PosNo": 8,
+            "Position": {
+                "x": -29.0,
+                "y": 21.0
+            },
+            "Angle": 180
+        },
+        {
+            "PosNo": 9,
+            "Position": {
+                "x": -23.0,
+                "y": 27.0
+            },
+            "Angle": 180
+        },
+        {
+            "PosNo": 10,
+            "Position": {
+                "x": -11.0,
+                "y": 29.0
+            },
+            "Angle": 180
+        },
+        {
+            "PosNo": 11,
+            "Position": {
+                "x": -11.0,
+                "y": 32.0
+            },
+            "Angle": 0
+        },
+        {
+            "PosNo": 12,
+            "Position": {
+                "x": -37.0,
+                "y": 42.0
+            },
+            "Angle": 90
+        },
+        {
+            "PosNo": 13,
+            "Position": {
+                "x": -40.0,
+                "y": 42.0
+            },
+            "Angle": 270
+        },
+        {
+            "PosNo": 14,
+            "Position": {
+                "x": -52.0,
+                "y": 18.0
+            },
+            "Angle": 0
+        },
+        {
+            "PosNo": 15,
+            "Position": {
+                "x": -52.0,
+                "y": 15.0
+            },
+            "Angle": 180
+        }
+    ]
+}

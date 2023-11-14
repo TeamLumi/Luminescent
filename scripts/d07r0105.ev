@@ -1,0 +1,80 @@
+ev_d07r0105_babyboy1:
+	_TALK_OBJ_START()
+	_TALK_KEYWAIT('dp_scenario2%74-msg_d07r0105_babyboy1_01')
+	_TALK_CLOSE()
+	_GET_REL_POS_HERO('D07R0105_BABYBOY1', @SCWK_TEMP2)
+	_IFVAL_JUMP(@SCWK_TEMP2, 'EQ', 8, 'ev_d07r0105_babyboy1_up')
+	_JUMP('ev_d07r0105_babyboy1_right')
+	_JUMP('common_d07r0105_babyboy1_01')
+ev_d07r0105_babyboy1_up:
+	_OBJ_ANIME('D07R0105_BABYBOY1', 'anm_d07r0105_babyboy1_02')
+	_OBJ_ANIME_WAIT()
+	_JUMP('common_d07r0105_babyboy1_01')
+	_JUMP('common_d07r0105_babyboy1_01')
+ev_d07r0105_babyboy1_right:
+	_OBJ_ANIME('D07R0105_BABYBOY1', 'anm_d07r0105_babyboy1_01')
+	_OBJ_ANIME_WAIT()
+	_JUMP('common_d07r0105_babyboy1_01')
+	_JUMP('common_d07r0105_babyboy1_01')
+common_d07r0105_babyboy1_01:
+	_SE_PLAY('S_FI001')
+	_OBJ_DEL('D07R0105_BABYBOY1')
+	_SE_STOP('S_FI001')
+	_FLAG_RESET(#FV_T04R0501_BABYBOY1)
+	_TALK_OBJ_END()
+	_END()
+anm_d07r0105_babyboy1_01:
+	_AC_DIR_U(8)
+	_AC_UP(3, 8)
+	_AC_DIR_L(8)
+	_ACMD_END()
+anm_d07r0105_babyboy1_02:
+	_AC_DIR_R(8)
+	_AC_RIGHT(1, 8)
+	_AC_DIR_U(8)
+	_AC_UP(3, 8)
+	_AC_DIR_L(8)
+	_AC_LEFT(1, 8)
+	_AC_DIR_L(8)
+	_ACMD_END()
+ev_d07r0105_hiker:
+	_TALK_OBJ_START()
+	_IF_FLAGON_JUMP(#2761, 'ev_d07r0105_hiker_func_1')
+	_ITEM_CHK(424, 1, @SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_d07r0105_hiker_func_3')
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_d07r0105_hiker_0', 'I’d heard the Hidden Machine Defog was\nsomewhere in these ruins.\rIt’s just that I seem to be lost, what\nwith everything looking the same.\rNow what?\nI could use help here.')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_d07r0105_hiker_func_1:
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_d07r0105_hiker_5', 'I hope that scarf will keep you warm.\nIt’ll make your Pokémon faster, too!')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_d07r0105_hiker_func_2:
+	_OBJ_ANIME('D07R0105_HIKER', 'anm_d07r0105_hiker_1')
+	_OBJ_ANIME_WAIT()
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_d07r0105_hiker_2', 'Hey!\nNow looky here!\rWhat you have there!\nThat is the Hidden Machine Defog!\rCan you loan it to me real quick?\nI’ll make it worth your while.')
+	_YES_NO_WIN(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_d07r0105_hiker_func_4')
+	_JUMP('ev_d07r0105_hiker_func_5')
+ev_d07r0105_hiker_func_3:
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_d07r0105_hiker_1', 'I’d heard the Hidden Machine Defog was\nsomewhere in these ruins.\rIt’s just that I seem to be lost, what\nwith everything looking the same.\rNow what?\nI could use help here.')
+	_JUMP('ev_d07r0105_hiker_func_2')
+ev_d07r0105_hiker_func_4:
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_d07r0105_hiker_3', 'OK, so I teach my Staravia the hidden\nmove Defog like so... And done!\rThanks! You’re my rescuer! Hahaha!\nHere you go, my thanks as promised.')
+	_LDVAL(@SCWK_TEMP0, 287); Choice Scarf
+	_LDVAL(@SCWK_TEMP1, 1); Quantity 1
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_FLAG_SET(#2761)
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_d07r0105_hiker_func_5:
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_d07r0105_hiker_4', 'It’s not like it’s going to wear out!\nIt’s just for a minute! Cheapskate!')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+anm_d07r0105_hiker_1:
+	_AC_MARK_GYOE()
+	_ACMD_END()

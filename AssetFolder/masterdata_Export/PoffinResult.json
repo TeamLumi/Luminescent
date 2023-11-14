@@ -1,0 +1,164 @@
+{
+    "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 4356179275876682716
+    },
+    "m_Name": "PoffinResult",
+    "Sheet1": [
+        {
+            "MstID": 0,
+            "LabelName": "DLP_POFFIN_NAME_001",
+            "LabelID": 1
+        },
+        {
+            "MstID": 1,
+            "LabelName": "DLP_POFFIN_NAME_002",
+            "LabelID": 2
+        },
+        {
+            "MstID": 2,
+            "LabelName": "DLP_POFFIN_NAME_003",
+            "LabelID": 3
+        },
+        {
+            "MstID": 3,
+            "LabelName": "DLP_POFFIN_NAME_004",
+            "LabelID": 4
+        },
+        {
+            "MstID": 4,
+            "LabelName": "DLP_POFFIN_NAME_005",
+            "LabelID": 5
+        },
+        {
+            "MstID": 5,
+            "LabelName": "DLP_POFFIN_NAME_007",
+            "LabelID": 7
+        },
+        {
+            "MstID": 6,
+            "LabelName": "DLP_POFFIN_NAME_006",
+            "LabelID": 6
+        },
+        {
+            "MstID": 7,
+            "LabelName": "DLP_POFFIN_NAME_008",
+            "LabelID": 8
+        },
+        {
+            "MstID": 8,
+            "LabelName": "DLP_POFFIN_NAME_009",
+            "LabelID": 9
+        },
+        {
+            "MstID": 9,
+            "LabelName": "DLP_POFFIN_NAME_010",
+            "LabelID": 10
+        },
+        {
+            "MstID": 10,
+            "LabelName": "DLP_POFFIN_NAME_013",
+            "LabelID": 13
+        },
+        {
+            "MstID": 11,
+            "LabelName": "DLP_POFFIN_NAME_011",
+            "LabelID": 11
+        },
+        {
+            "MstID": 12,
+            "LabelName": "DLP_POFFIN_NAME_012",
+            "LabelID": 12
+        },
+        {
+            "MstID": 13,
+            "LabelName": "DLP_POFFIN_NAME_014",
+            "LabelID": 14
+        },
+        {
+            "MstID": 14,
+            "LabelName": "DLP_POFFIN_NAME_015",
+            "LabelID": 15
+        },
+        {
+            "MstID": 15,
+            "LabelName": "DLP_POFFIN_NAME_019",
+            "LabelID": 19
+        },
+        {
+            "MstID": 16,
+            "LabelName": "DLP_POFFIN_NAME_016",
+            "LabelID": 16
+        },
+        {
+            "MstID": 17,
+            "LabelName": "DLP_POFFIN_NAME_017",
+            "LabelID": 17
+        },
+        {
+            "MstID": 18,
+            "LabelName": "DLP_POFFIN_NAME_018",
+            "LabelID": 18
+        },
+        {
+            "MstID": 19,
+            "LabelName": "DLP_POFFIN_NAME_020",
+            "LabelID": 20
+        },
+        {
+            "MstID": 20,
+            "LabelName": "DLP_POFFIN_NAME_025",
+            "LabelID": 25
+        },
+        {
+            "MstID": 21,
+            "LabelName": "DLP_POFFIN_NAME_021",
+            "LabelID": 21
+        },
+        {
+            "MstID": 22,
+            "LabelName": "DLP_POFFIN_NAME_022",
+            "LabelID": 22
+        },
+        {
+            "MstID": 23,
+            "LabelName": "DLP_POFFIN_NAME_023",
+            "LabelID": 23
+        },
+        {
+            "MstID": 24,
+            "LabelName": "DLP_POFFIN_NAME_024",
+            "LabelID": 24
+        },
+        {
+            "MstID": 25,
+            "LabelName": "DLP_POFFIN_NAME_026",
+            "LabelID": 26
+        },
+        {
+            "MstID": 26,
+            "LabelName": "DLP_POFFIN_NAME_027",
+            "LabelID": 27
+        },
+        {
+            "MstID": 27,
+            "LabelName": "DLP_POFFIN_NAME_028",
+            "LabelID": 28
+        },
+        {
+            "MstID": 28,
+            "LabelName": "DLP_POFFIN_NAME_029",
+            "LabelID": 29
+        },
+        {
+            "MstID": 29,
+            "LabelName": "DLP_POFFIN_NAME_030",
+            "LabelID": 30
+        }
+    ]
+}

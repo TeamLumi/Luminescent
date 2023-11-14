@@ -1,0 +1,25 @@
+ev_t02pc0101_flag_change:
+	_IF_FLAGON_JUMP($SYS_FLAG_WILDCARD_000, 'ev_t02pc0101_flag_change_end')
+	_FLAG_RESET(#FV_STOPPER_FRIENDBOOK)
+	_SXY_EXIT_POS_CHANGE(2, 80, 80)
+	_END()
+ev_t02pc0101_flag_change_end:
+	_SYS_FLAG_BADGE_GET($BADGE_ID_C03, @SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_t02pc0101_flag_change_del_stopper')
+	_END()
+ev_t02pc0101_flag_change_del_stopper:
+	_FLAG_SET(#FV_STOPPER_FRIENDBOOK)
+	_END()
+ev_t02pc0101_pcwoman1:
+	_LDVAL(@SCWK_TEMP3, 'T02PC0101_PCWOMAN1')
+	_CHG_COMMON_SCR('ev_heal_p01')
+	_END()
+ev_t02pc0101_man1a:
+	_EASY_OBJ_MSG('dp_scenario1%14-msg_t02pc0101_man1a_01')
+	_END()
+ev_t02pc0101_oldman1a:
+	_EASY_OBJ_MSG('dp_scenario1%14-msg_t02pc0101_oldman1a_01')
+	_END()
+ev_t02pc0101_girl1a:
+	_EASY_OBJ_MSG('dp_scenario1%14-msg_t02pc0101_girl1a_01')
+	_END()

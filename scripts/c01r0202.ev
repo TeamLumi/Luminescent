@@ -1,0 +1,89 @@
+ev_c01r0202_flag_change:
+	_LDVAL(@WK_ELEVATOR_FLOOR, 1)
+	_TV_INTERVIEWER_CHECK(14, @LOCALWORK0)
+	_IFVAL_JUMP(@LOCALWORK0, 'EQ', 0, 'ev_c01r0202_flagchange_vanish')
+	_FLAG_RESET(#FV_TV_INTERVIEW_01)
+	_END()
+ev_c01r0202_flagchange_vanish:
+	_FLAG_SET(#FV_TV_INTERVIEW_01)
+	_END()
+ev_c01r0202_idol:
+	_TALK_OBJ_START()
+	_TALKMSG('dp_scenario1%36-msg_c01r0202_idol_01')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c01r0202_sunglasses:
+	_TALK_OBJ_START()
+	_IF_FLAGON_JUMP(#FE_C01R0202_ACCE_GET, 'ev_c01r0202_sunglasses_02')
+	_TALK_KEYWAIT('dp_scenario1%36-msg_c01r0202_sunglasses_01')
+	_FIRST_POKE_NO_GET(@SCWK_ANSWER)
+	_IFVAL_CALL(@SCWK_ANSWER, 'EQ', 387, 'ev_c01r0202_sunglasses_seal_no_1_set')
+	_IFVAL_CALL(@SCWK_ANSWER, 'EQ', 390, 'ev_c01r0202_sunglasses_seal_no_2_set')
+	_IFVAL_CALL(@SCWK_ANSWER, 'EQ', 393, 'ev_c01r0202_sunglasses_seal_no_3_set')
+	_FLAG_SET(#FE_C01R0202_ACCE_GET)
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c01r0202_sunglasses_02:
+	_SEAL_NAME(0, @WK_SCENE_C01R0202_GET_ACCE_NO, 3)
+	_TALKMSG('dp_scenario1%36-msg_c01r0202_sunglasses_02')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c01r0202_sunglasses_seal_no_1_set:
+	_GET_RND(@SCWK_TEMP2, 3)
+	_IFVAL_CALL(@SCWK_TEMP2, 'EQ', 0, 'ev_c01r0202_sunglasses_seal_no_1_set_a')
+	_IFVAL_CALL(@SCWK_TEMP2, 'EQ', 1, 'ev_c01r0202_sunglasses_seal_no_1_set_b')
+	_IFVAL_CALL(@SCWK_TEMP2, 'EQ', 2, 'ev_c01r0202_sunglasses_seal_no_1_set_C')
+	_LDVAL(@SCWK_TEMP1, 3)
+	_LDVAL(@WK_SCENE_C01R0202_GET_ACCE_NO, @SCWK_TEMP0)
+	_CALL('ev_exec_item_seal_get')
+	_RET()
+ev_c01r0202_sunglasses_seal_no_1_set_a:
+	_LDVAL(@SCWK_TEMP0, 37)
+	_RET()
+ev_c01r0202_sunglasses_seal_no_1_set_b:
+	_LDVAL(@SCWK_TEMP0, 38)
+	_RET()
+ev_c01r0202_sunglasses_seal_no_1_set_C:
+	_LDVAL(@SCWK_TEMP0, 39)
+	_RET()
+ev_c01r0202_sunglasses_seal_no_2_set:
+	_GET_RND(@SCWK_TEMP2, 3)
+	_IFVAL_CALL(@SCWK_TEMP2, 'EQ', 0, 'ev_c01r0202_sunglasses_seal_no_2_set_a')
+	_IFVAL_CALL(@SCWK_TEMP2, 'EQ', 1, 'ev_c01r0202_sunglasses_seal_no_2_set_b')
+	_IFVAL_CALL(@SCWK_TEMP2, 'EQ', 2, 'ev_c01r0202_sunglasses_seal_no_2_set_C')
+	_LDVAL(@SCWK_TEMP1, 3)
+	_LDVAL(@WK_SCENE_C01R0202_GET_ACCE_NO, @SCWK_TEMP0)
+	_CALL('ev_exec_item_seal_get')
+	_RET()
+ev_c01r0202_sunglasses_seal_no_2_set_a:
+	_LDVAL(@SCWK_TEMP0, 29)
+	_RET()
+ev_c01r0202_sunglasses_seal_no_2_set_b:
+	_LDVAL(@SCWK_TEMP0, 30)
+	_RET()
+ev_c01r0202_sunglasses_seal_no_2_set_C:
+	_LDVAL(@SCWK_TEMP0, 31)
+	_RET()
+ev_c01r0202_sunglasses_seal_no_3_set:
+	_GET_RND(@SCWK_TEMP2, 3)
+	_IFVAL_CALL(@SCWK_TEMP2, 'EQ', 0, 'ev_c01r0202_sunglasses_seal_no_3_set_a')
+	_IFVAL_CALL(@SCWK_TEMP2, 'EQ', 1, 'ev_c01r0202_sunglasses_seal_no_3_set_b')
+	_IFVAL_CALL(@SCWK_TEMP2, 'EQ', 2, 'ev_c01r0202_sunglasses_seal_no_3_set_C')
+	_LDVAL(@SCWK_TEMP1, 3)
+	_LDVAL(@WK_SCENE_C01R0202_GET_ACCE_NO, @SCWK_TEMP0)
+	_CALL('ev_exec_item_seal_get')
+	_RET()
+ev_c01r0202_sunglasses_seal_no_3_set_a:
+	_LDVAL(@SCWK_TEMP0, 25)
+	_RET()
+ev_c01r0202_sunglasses_seal_no_3_set_b:
+	_LDVAL(@SCWK_TEMP0, 26)
+	_RET()
+ev_c01r0202_sunglasses_seal_no_3_set_C:
+	_LDVAL(@SCWK_TEMP0, 27)
+	_RET()

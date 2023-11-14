@@ -1,0 +1,104 @@
+{
+    "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 8423137904901713306
+    },
+    "m_Name": "StopData_A05",
+    "Data": [
+        {
+            "ID": "SCRID_POS_T05_OLDWOMAN",
+            "Position": {
+                "x": 463.0,
+                "y": 538.0
+            },
+            "HeightLayer": 7,
+            "Size": {
+                "x": 3.0,
+                "y": 1.0
+            },
+            "ContactLabel": "pos_t05_oldwoman",
+            "Param": 0,
+            "Work": 149
+        },
+        {
+            "ID": "SCRID_POS_R210A_CDAC",
+            "Position": {
+                "x": 560.0,
+                "y": 584.0
+            },
+            "HeightLayer": 2,
+            "Size": {
+                "x": 2.0,
+                "y": 2.0
+            },
+            "ContactLabel": "pos_r210a_pw_cdac_out01",
+            "Param": 0,
+            "Work": 31
+        },
+        {
+            "ID": "SCRID_POS_T04_LUCIAN_EVENT",
+            "Position": {
+                "x": 594.0,
+                "y": 660.0
+            },
+            "HeightLayer": 10,
+            "Size": {
+                "x": 1.0,
+                "y": 2.0
+            },
+            "ContactLabel": "pos_t04_lucian",
+            "Param": 0,
+            "Work": 471
+        },
+        {
+            "ID": "SCRID_POS_R209_POLICE_STOPPER_1",
+            "Position": {
+                "x": 529.0,
+                "y": 723.0
+            },
+            "HeightLayer": 10,
+            "Size": {
+                "x": 1.0,
+                "y": 2.0
+            },
+            "ContactLabel": "pos_r209_police_blocker",
+            "Param": 0,
+            "Work": 479
+        },
+        {
+            "ID": "SCRID_POS_R210B_SUPPORT",
+            "Position": {
+                "x": 480.0,
+                "y": 528.0
+            },
+            "HeightLayer": 10,
+            "Size": {
+                "x": 1.0,
+                "y": 5.0
+            },
+            "ContactLabel": "pos_r210b_support_trigger",
+            "Param": 0,
+            "Work": 461
+        },
+        {
+            "ID": "SCRID_POS_T04_BARRY_EVENT",
+            "Position": {
+                "x": 557.0,
+                "y": 669.0
+            },
+            "HeightLayer": 10,
+            "Size": {
+                "x": 7.0,
+                "y": 1.0
+            },
+            "ContactLabel": "pos_t04_barry_trigger",
+            "Param": 0,
+            "Work": 460
+        }
+    ]
+}

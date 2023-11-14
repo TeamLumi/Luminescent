@@ -1,0 +1,59 @@
+{
+    "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 9153087489632656769
+    },
+    "m_Name": "MonohiroiKinomi",
+    "Sheet1": [
+        {
+            "Kakuritu": 20,
+            "ItemID": 176,
+            "ItemName": "GOSUNOMI"
+        },
+        {
+            "Kakuritu": 15,
+            "ItemID": 175,
+            "ItemName": "MOKOSINOMI"
+        },
+        {
+            "Kakuritu": 15,
+            "ItemID": 177,
+            "ItemName": "RABUTANOMI"
+        },
+        {
+            "Kakuritu": 15,
+            "ItemID": 178,
+            "ItemName": "NOMERUNOMI"
+        },
+        {
+            "Kakuritu": 7,
+            "ItemID": 179,
+            "ItemName": "NOWAKINOM"
+        },
+        {
+            "Kakuritu": 7,
+            "ItemID": 180,
+            "ItemName": "SIIYANOMI"
+        },
+        {
+            "Kakuritu": 7,
+            "ItemID": 181,
+            "ItemName": "KAISUNOMI"
+        },
+        {
+            "Kakuritu": 7,
+            "ItemID": 182,
+            "ItemName": "DORINOMI"
+        },
+        {
+            "Kakuritu": 7,
+            "ItemID": 183,
+            "ItemName": "BERIBUNOMI"
+        }
+    ]
+}

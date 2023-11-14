@@ -1,0 +1,58 @@
+ev_r214_init_change:
+	_END()
+ev_r214_door_exit_move_2:
+	_SXY_EXIT_POS_CHANGE(4, 710, 670)
+	_SXY_EXIT_POS_CHANGE(5, 710, 670)
+	_END()
+ev_r214_door_exit_move_1:
+	_SXY_EXIT_POS_CHANGE(4, 710, 670)
+	_SXY_EXIT_POS_CHANGE(6, 710, 670)
+	_END()
+ev_r214_door_exit_move_0:
+	_SXY_EXIT_POS_CHANGE(5, 710, 670)
+	_SXY_EXIT_POS_CHANGE(6, 710, 670)
+	_END()
+ev_r214_flag_change:
+	_ANOON_SEE_NUM(@LOCALWORK0)
+	_IFVAL_JUMP(@LOCALWORK0, 'GE', 26, 'ev_r214_door_exit_move_2')
+	_IFVAL_JUMP(@LOCALWORK0, 'GE', 10, 'ev_r214_door_exit_move_1')
+	_IFVAL_JUMP(@LOCALWORK0, 'LT', 10, 'ev_r214_door_exit_move_0')
+	_END()
+ev_r214_sign1:
+	_EASY_BOARD_MSG('dp_scenario2%109-msg_r214_sign1_01', 'BOARD_TYPE_ROAD', 0, 3)
+	_END()
+ev_r214_sign2:
+	_EASY_BOARD_MSG('dp_scenario2%109-msg_r214_sign2_01', 'BOARD_TYPE_ROAD', 0, 4)
+	_END()
+ev_r214_blocker_1:
+	_TALK_OBJ_START()
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_ev_r214_blocker_1', '...\r...\r...')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_ev_r214_blocker_2', 'Excuse me, I’m painting a picture.\nA beautiful work of art.\rI won’t have you interrupting it!\rGo explore Veilstone or whatever.\nI’ll be done before long.')
+	_TALK_CLOSE()
+	_OBJ_ANIME('R214_BLOCKER1', 'anm_r214_blocker_1')
+	_OBJ_ANIME_WAIT()
+	_TALK_OBJ_END()
+	_END()
+ev_r214_blocker_2:
+	_VOICE_PLAY(54, 0, 0)
+	_MACRO_EASY_OBJ_MSG('dp_scenario3', '00_msg_ev_r214_blocker_psy', 'Gwa gwah?!')
+	_END()
+anm_r214_blocker_1:
+	_AC_DIR_D(8)
+	_ACMD_END()
+ev_r214_choiceitem:
+	_TALK_OBJ_START()
+	_IF_FLAGON_JUMP(#2752, 'ev_r214_choiceitem_done')
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_r214_choice_item_1', 'Hoo! Hah!\nHoo! Hah!\rFocus!\nFocus is important!\rGive this to your Pokémon!\nFocus their power!')
+	_LDVAL(@SCWK_TEMP0, 220)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_CHG_COMMON_SCR('ev_item_event')
+	_TALK_CLOSE()
+	_FLAG_SET(#2752)
+	_TALK_OBJ_START()
+	_END()
+ev_r214_choiceitem_done:
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_r214_choice_item_2', 'Hoo! Hah!\nAre you and your Pokémon focusing?!')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()

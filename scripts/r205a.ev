@@ -1,0 +1,255 @@
+ev_r205a_flag_change:
+	_IF_FLAGON_JUMP(#FE_R205A_BOY2_TALK, 'ev_r205a_flag_change_pos')
+	_END()
+ev_r205a_flag_change_pos:
+	_SXY_POS_CHANGE('R205A_BOY2_01', 210, 653)
+	_END()
+ev_r205a_gingam:
+	_TALK_OBJ_START()
+	_OBJ_ANIME('R205A_GINGAM_A', 'anm_r205a_gingam_a')
+	_OBJ_ANIME_WAIT()
+	_TALK_KEYWAIT('dp_scenario1%102-msg_r205a_gingam_a_01')
+	_TALK_CLOSE()
+	_OBJ_ANIME('R205A_GINGAM_B', 'anm_r205a_gingam_b')
+	_OBJ_ANIME_WAIT()
+	_CALL('r205a_ginga_flag_set')
+	_TALKMSG('dp_scenario1%102-msg_r205a_gingam_b_02_1')
+	_TALKMSG('dp_scenario1%102-msg_r205a_gingam_b_02_2')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+anm_r205a_gingam_a:
+	_NONE_USE_NUMBER(1)
+	_ACMD_END()
+anm_r205a_gingam_b:
+	_NONE_USE_NUMBER(1)
+	_ACMD_END()
+pos_r205a_ginga:
+	_EVENT_START()
+	_OBJ_ANIME('R205A_GINGAM_A', 'anm_r205a_gingam_c')
+	_OBJ_ANIME_WAIT()
+	_TALK_KEYWAIT('dp_scenario1%102-msg_r205a_gingam_a_01')
+	_TALK_CLOSE()
+	_OBJ_ANIME('R205A_GINGAM_B', 'anm_r205a_gingam_d')
+	_OBJ_ANIME_WAIT()
+	_TALK_KEYWAIT('dp_scenario1%102-msg_r205a_gingam_b_01_1')
+	_TALK_KEYWAIT('dp_scenario1%102-msg_r205a_gingam_b_01_2')
+	_TALK_CLOSE()
+	_CALL('ev_r205a_func_9')
+	;_OBJ_ANIME('R205A_GINGAM_A', 'anm_r205a_gingam_e')
+	_CALL('ev_r205a_func_10')
+	_OBJ_ANIME_WAIT()
+	_CALL('r205a_ginga_flag_set')
+	_EVENT_END()
+	_END()
+ev_r205a_func_9:
+	_PLAYER_POS_GET(@SCWK_TEMP0, @SCWK_TEMP1)
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 207, 'ev_r205a_func_16')
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 208, 'ev_r205a_func_17')
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 209, 'ev_r205a_func_18')
+	_RET()
+ev_r205a_func_10:
+	_PLAYER_POS_GET(@SCWK_TEMP0, @SCWK_TEMP1)
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 207, 'ev_r205a_func_19')
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 208, 'ev_r205a_func_19')
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 209, 'ev_r205a_func_20')
+	_RET()
+ev_r205a_func_16:
+	_OBJ_ANIME('R205A_GINGAM_A', 'anm_r205a_gingam_e')
+	_OBJ_ANIME('HERO', 'anm_r205a_player_e')
+	_OBJ_ANIME_WAIT()
+	_RET()
+ev_r205a_func_17:
+	_OBJ_ANIME('R205A_GINGAM_A', 'anm_r205a_gingam_action_13')
+	_OBJ_ANIME('HERO', 'anm_r205a_player_e')
+	_OBJ_ANIME_WAIT()
+	_RET()
+ev_r205a_func_18:
+	_OBJ_ANIME('R205A_GINGAM_B', 'anm_r205a_gingam_action_14')
+	_OBJ_ANIME('HERO', 'anm_r205a_player_e')
+	_OBJ_ANIME_WAIT()
+	_RET()
+ev_r205a_func_19:
+	_OBJ_ANIME('R205A_GINGAM_B', 'anm_r205a_gingam_action_15')
+	_RET()
+ev_r205a_func_20:
+	_OBJ_ANIME('R205A_GINGAM_A', 'anm_r205a_gingam_action_15')
+	_RET()
+r205a_ginga_flag_set:
+	_FLAG_SET(#FE_R205A_GINGAM_TALK)
+	_RET()
+anm_r205a_gingam_c:
+	_AC_DIR_R(8)
+	_ACMD_END()
+anm_r205a_gingam_d:
+	_AC_DIR_L(8)
+	_ACMD_END()
+anm_r205a_gingam_e:
+	_AC_DIR_R(8)
+	_AC_RIGHT(1, 8)
+	_AC_DIR_D(8)
+	_AC_WAIT(8)
+	_AC_DIR_L(8)
+	_AC_LEFT(1, 8)
+	_AC_WAIT(8)
+	_AC_DIR_D(8)
+	_ACMD_END()
+anm_r205a_gingam_action_13:
+	_AC_DIR_R(8)
+	_AC_RIGHT(2, 8)
+	_AC_DIR_D(8)
+	_AC_WAIT(8)
+	_AC_DIR_L(8)
+	_AC_LEFT(2, 8)
+	_AC_WAIT(8)
+	_AC_DIR_D(8)
+	_ACMD_END()
+anm_r205a_gingam_action_14:
+	_AC_DIR_L(8); Look left
+	_AC_LEFT(1, 8); Walk left
+	_AC_DIR_D(8); Look down
+	_AC_WAIT(8); Freeze
+	_AC_DIR_R(8); Look right
+	_AC_RIGHT(1, 8); Walk right
+	_AC_WAIT(8)
+	_AC_DIR_D(8); Look down
+	_ACMD_END()
+anm_r205a_gingam_action_15:
+	_AC_DIR_D(8); Look down
+	_ACMD_END()
+anm_r205a_gingam_100:
+	_AC_DIR_D(8)
+	_ACMD_END()
+anm_r205a_player_e:
+	_AC_DOWN(1, 8)
+	_AC_DIR_U(8)
+	_ACMD_END()
+ev_r205a_boy1:
+	_EASY_OBJ_MSG('dp_scenario1%102-msg_r205a_boy1_01')
+	_END()
+ev_r205a_boy2:
+	_TALK_OBJ_START()
+	_FLAG_SET(#FE_R205A_BOY2_TALK)
+	_TALKMSG('dp_scenario1%102-msg_r205a_boy2_01')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_r205a_babygirl1:
+	_TALK_OBJ_START()
+	_IF_FLAGON_JUMP(#FE_R205A_BABYGIRL1_TALK, 'ev_r205a_babygirl1_02')
+	_CALL('ev_r205a_babygirl1_flag_set')
+	_TALKMSG('dp_scenario1%102-msg_r205a_babygirl1_01_1')
+	_TALKMSG('dp_scenario1%102-msg_r205a_babygirl1_01_2')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_r205a_babygirl1_02:
+	_TALKMSG('dp_scenario1%102-msg_r205a_babygirl1_02')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_r205a_babygirl1_flag_set:
+	_FLAG_SET(#FV_T03_GINGAM)
+	_FLAG_SET(#FE_R205A_BABYGIRL1_TALK)
+	_LDVAL(@WK_SCENE_R205A, 1)
+	_LDVAL(@TOWNMAP_GUIDE_SEQUENCE, 3600)
+	_RET()
+pos_r205a_babygirl:
+	_EVENT_START()
+	_PLAYER_POS_GET(@SCWK_TEMP0, @SCWK_TEMP1)
+	_IFVAL_JUMP(@SCWK_TEMP1, 'EQ', 659, 'pos_r205a_babygirl_z01')
+	_IFVAL_JUMP(@SCWK_TEMP1, 'EQ', 660, 'pos_r205a_babygirl_z02')
+	_IFVAL_JUMP(@SCWK_TEMP1, 'EQ', 661, 'pos_r205a_babygirl_z03')
+	_IFVAL_JUMP(@SCWK_TEMP1, 'EQ', 662, 'pos_r205a_babygirl_z04')
+	_IFVAL_JUMP(@SCWK_TEMP1, 'EQ', 663, 'pos_r205a_babygirl_z05')
+	_END()
+pos_r205a_babygirl_z01:
+	_OBJ_ANIME('R205A_BABYGIRL1', 'anm_r205a_babygirl1_00_u')
+	_OBJ_ANIME_WAIT()
+	_OBJ_ANIME('R205A_BABYGIRL1', 'anm_r205a_babygirl1_01')
+	_OBJ_ANIME('HERO', 'anm_r205a_player_01')
+	_OBJ_ANIME_WAIT()
+	_JUMP('pos_r205a_babygirl_common')
+	_END()
+pos_r205a_babygirl_z02:
+	_OBJ_ANIME('R205A_BABYGIRL1', 'anm_r205a_babygirl1_00_u')
+	_OBJ_ANIME_WAIT()
+	_OBJ_ANIME('R205A_BABYGIRL1', 'anm_r205a_babygirl1_02')
+	_OBJ_ANIME('HERO', 'anm_r205a_player_01')
+	_OBJ_ANIME_WAIT()
+	_JUMP('pos_r205a_babygirl_common')
+	_END()
+pos_r205a_babygirl_z03:
+	_JUMP('pos_r205a_babygirl_common')
+	_END()
+pos_r205a_babygirl_z04:
+	_OBJ_ANIME('R205A_BABYGIRL1', 'anm_r205a_babygirl1_00_d')
+	_OBJ_ANIME_WAIT()
+	_OBJ_ANIME('R205A_BABYGIRL1', 'anm_r205a_babygirl1_04')
+	_OBJ_ANIME('HERO', 'anm_r205a_player_02')
+	_OBJ_ANIME_WAIT()
+	_JUMP('pos_r205a_babygirl_common')
+	_END()
+pos_r205a_babygirl_z05:
+	_OBJ_ANIME('R205A_BABYGIRL1', 'anm_r205a_babygirl1_00_d')
+	_OBJ_ANIME_WAIT()
+	_OBJ_ANIME('R205A_BABYGIRL1', 'anm_r205a_babygirl1_05')
+	_OBJ_ANIME('HERO', 'anm_r205a_player_02')
+	_OBJ_ANIME_WAIT()
+	_JUMP('pos_r205a_babygirl_common')
+	_END()
+pos_r205a_babygirl_common:
+	_CALL('ev_r205a_babygirl1_flag_set')
+	_EVENT_CAMERA_INDEX(506)
+	_EVENT_CAMERA_END_WAIT()
+	_TALKMSG('dp_scenario1%102-msg_r205a_babygirl1_01_1')
+	_TALKMSG('dp_scenario1%102-msg_r205a_babygirl1_01_2')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_EVENT_CAMERA_INDEX(507)
+	_EVENT_CAMERA_END_WAIT()
+	_EVENT_END()
+	_END()
+anm_r205a_player_01:
+	_AC_DIR_D(8)
+	_ACMD_END()
+anm_r205a_player_02:
+	_AC_DIR_U(8)
+	_ACMD_END()
+anm_r205a_babygirl1_00_u:
+	_AC_DIR_U(8)
+	_ACMD_END()
+anm_r205a_babygirl1_00_d:
+	_AC_DIR_D(8)
+	_ACMD_END()
+anm_r205a_babygirl1_01:
+	_AC_MARK_GYOE()
+	_AC_WAIT(8)
+	_AC_UP(1, 8)
+	_ACMD_END()
+anm_r205a_babygirl1_02:
+	_AC_MARK_GYOE()
+	_AC_WAIT(8)
+	_ACMD_END()
+anm_r205a_babygirl1_04:
+	_NONE_USE_NUMBER()
+	_AC_WAIT(8)
+	_ACMD_END()
+anm_r205a_babygirl1_05:
+	_AC_MARK_GYOE()
+	_AC_WAIT(8)
+	_AC_DOWN(1, 8)
+	_ACMD_END()
+ev_r205a_sign1:
+	_EASY_BOARD_MSG('dp_scenario1%102-msg_r205a_sign1_01', 'BOARD_TYPE_ROAD', 0, 2)
+	_END()
+ev_r205a_sign2:
+	_EASY_BOARD_MSG('dp_scenario1%102-msg_r205a_sign2_01', 'BOARD_TYPE_ROAD', 0, 3)
+	_END()
+ev_r205a_sign3:
+	_EASY_INFOBOARD_MSG('dp_scenario1%102-msg_r205a_sign3_01', 'BOARD_TYPE_INFO', 0)
+	_END()

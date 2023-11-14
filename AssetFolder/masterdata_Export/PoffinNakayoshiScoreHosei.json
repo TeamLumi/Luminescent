@@ -1,0 +1,44 @@
+{
+    "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": -2172991477391179287
+    },
+    "m_Name": "PoffinNakayoshiScoreHosei",
+    "Sheet1": [
+        {
+            "NakayoshiRank": 5,
+            "ScoreHosei": 0.03999999910593033,
+            "teamworkScore": 1.5
+        },
+        {
+            "NakayoshiRank": 4,
+            "ScoreHosei": 0.029999999329447746,
+            "teamworkScore": 1.0
+        },
+        {
+            "NakayoshiRank": 3,
+            "ScoreHosei": 0.014999999664723873,
+            "teamworkScore": 0.5
+        },
+        {
+            "NakayoshiRank": 2,
+            "ScoreHosei": 0.009999999776482582,
+            "teamworkScore": 0.30000001192092896
+        },
+        {
+            "NakayoshiRank": 1,
+            "ScoreHosei": 0.0,
+            "teamworkScore": 0.20000000298023224
+        },
+        {
+            "NakayoshiRank": 0,
+            "ScoreHosei": 0.0,
+            "teamworkScore": 0.0
+        }
+    ]
+}

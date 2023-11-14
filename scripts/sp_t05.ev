@@ -1,0 +1,12 @@
+SP_T05_INIT:
+	_SP_EVENT_DATA_END()
+SP_T05_OBJ:
+	_SP_EVENT_DATA_END()
+SP_T05_SCENE:
+	_JUMP('sp_t05_tbl')
+	_SP_EVENT_DATA_END()
+SP_T05_FLAG:
+	_JUMP('ev_t05_flag_change')
+	_SP_EVENT_DATA_END()
+sp_t05_tbl:
+	_SCENE_CHANGE_END()

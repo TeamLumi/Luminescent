@@ -1,0 +1,1356 @@
+This is a compilation of event flag and constant changes. The idea is to take saves at various points in the story and see what flags and constants change.
+
+So for example, the first save was made just before walking into lake verity, so the flags listed are the ones that have changed since the start of the game. The second save was made just before the catching tutorial and the flags shown are the ones that changed since the pre-lake-verity save. This is repeated until defeating the champion. 
+
+The check points aren't very granular, they're just to give you an overview of what flags change during a given period of the story. There's alwasy a save directly before and after every gym.
+
+Some caveats:
+ - I updated my game from 1.1.0 to 1.1.1 after defeating team galactic in eterna. I should have done this from the beginning, but I didn't and I didn't want to go back and redo the earlier saves.
+ - I tried to avoid trainers and items, but messed a couple of times, so some of the flags will denote trainers being defeated and items being collected.
+ - I gave myself Arceus to get through the game quicker, I don't know if this affects any flags, but there's an outside chance there's an 'Arceus Acquired' flag.
+ 
+
+pre-lake verity
+Flags: ON
+=========
+0096	False
+0195	False
+0439	False
+1642	False
+
+Flags: OFF
+==========
+0000	False
+1626	False
+System: ON
+=========
+0002	False
+0480	False
+0488	False
+0556	False
+0557	False
+0558	False
+0559	False
+
+System: OFF
+==========
+None.
+
+Work:
+=====
+048	1 => 2
+068	0 => 1
+093	0 => 1
+094	0 => 2
+138	0 => 1
+238	0 => 111
+239	0 => 857
+249	300 => 800
+263	0 => 8
+418	211221735 => 211221758
+
+pre-catching tutorial 
+Flags: ON
+=========
+0074	False
+0104	False
+0105	False
+0314	False
+0317	False
+0319	False
+0347	False
+0349	False
+0352	False
+1626	False
+
+Flags: OFF
+==========
+None.
+System: ON
+=========
+0051	False
+0457	False
+0561	False
+0563	False
+0568	False
+0779	False
+0791	False
+
+System: OFF
+==========
+0002	False
+
+Work:
+=====
+049	0 => 2
+064	0 => 4
+068	1 => 3
+081	0 => 1
+094	2 => 8
+096	0 => 1
+234	0 => 387
+238	111 => 422
+239	857 => 874
+240	0 => 8
+249	800 => 1800
+263	8 => 150
+418	211221758 => 211221825
+
+jubilife
+Flags: ON
+=========
+0009	False
+0197	False
+0198	False
+0199	False
+0201	False
+0203	False
+0335	False
+0441	False
+1302	False
+
+Flags: OFF
+==========
+0442	False
+0444	False
+System: ON
+=========
+0134	False
+0136	False
+0155	False
+0489	False
+
+System: OFF
+==========
+None.
+
+Work:
+=====
+000	0 => 1
+053	0 => 2
+069	0 => 1
+139	0 => 2
+238	422 => 460
+239	874 => 461
+240	8 => 462
+246	0 => 8
+249	1800 => 2600
+418	211221825 => 211221843
+
+oreburgh
+Flags: ON
+=========
+0084	False
+0113	False
+0323	False
+0324	False
+0866	False
+
+Flags: OFF
+==========
+0009	False
+System: ON
+=========
+0172	False
+0329	False
+0330	False
+0389	False
+0490	False
+
+System: OFF
+==========
+None.
+
+Work:
+=====
+000	1 => 0
+055	0 => 1
+070	0 => 1
+079	1 => 2
+238	460 => 78
+239	461 => 1
+242	0 => 78
+243	0 => 1
+246	8 => 0
+249	2600 => 3100
+418	211221843 => 211221853
+
+roark defeated 
+Flags: ON
+=========
+0080	False
+0351	False
+
+Flags: OFF
+==========
+0322	False
+0355	False
+0356	False
+System: ON
+=========
+0124	False
+0174	False
+
+System: OFF
+==========
+None.
+
+Work:
+=====
+053	2 => 3
+055	1 => 2
+238	78 => 403
+239	1 => 5
+246	0 => 5
+249	3100 => 3200
+349	0 => 1
+418	211221853 => 211221856
+428	0 => 1
+
+floaroma 
+Flags: ON
+=========
+0202	False
+0322	False
+0355	False
+0356	False
+0442	False
+0509	False
+1110	False
+1113	False
+
+Flags: OFF
+==========
+0351	False
+System: ON
+=========
+0386	False
+0491	False
+0492	False
+0572	False
+0796	False
+
+System: OFF
+==========
+0782	False
+
+Work:
+=====
+053	3 => 4
+055	2 => 3
+238	403 => 21
+239	5 => 1
+240	462 => 318
+242	78 => 77
+246	5 => 0
+249	3200 => 3500
+418	211221856 => 211221906
+
+valley windworks
+Flags: ON
+=========
+0106	False
+0120	False
+0121	False
+0229	False
+0341	False
+0358	False
+0359	False
+0360	False
+0361	False
+0363	False
+0364	False
+0365	False
+0445	False
+0464	False
+1123	False
+
+Flags: OFF
+==========
+0446	False
+System: ON
+=========
+0040	False
+0041	False
+0331	False
+0332	False
+0387	False
+0493	False
+
+System: OFF
+==========
+None.
+
+Work:
+=====
+071	0 => 2
+116	0 => 3
+141	0 => 1
+238	21 => 19
+239	1 => 7
+249	3500 => 4200
+418	211221906 => 211221921
+428	1 => 2
+
+eterna 
+Flags: ON
+=========
+0100	False
+0188	False
+0516	False
+0878	False
+1376	False
+1408	False
+
+Flags: OFF
+==========
+None.
+System: ON
+=========
+0188	False
+0192	False
+0334	False
+0495	False
+
+System: OFF
+==========
+None.
+
+Work:
+=====
+102	0 => 2
+184	0 => 1
+238	19 => 154
+239	7 => 155
+246	0 => 1
+249	4200 => 4500
+263	150 => 482
+418	211221921 => 211221954
+
+gardenia defeated 
+Flags: ON
+=========
+0079	False
+0486	False
+
+Flags: OFF
+==========
+None.
+System: ON
+=========
+0125	False
+0190	False
+0191	False
+0782	False
+
+System: OFF
+==========
+None.
+
+Work:
+=====
+099	0 => 5
+238	154 => 413
+239	155 => 5
+246	1 => 5
+249	4500 => 5200
+350	0 => 2
+418	211221954 => 211221955
+428	2 => 3
+
+Galactic, bike, explorer
+Flags: ON
+=========
+0083	False
+0090	False
+0091	False
+0108	False
+0366	False
+0450	False
+0452	False
+1625	False
+
+Flags: OFF
+==========
+0345	False
+0451	False
+0453	False
+1642	False
+System: ON
+=========
+0039	False
+0050	False
+0195	False
+0196	False
+0197	False
+0198	False
+0199	False
+0207	False
+0645	False
+0797	False
+
+System: OFF
+==========
+0782	False
+
+Work:
+=====
+000	0 => 1
+056	0 => 1
+107	0 => 1
+117	0 => 1
+191	0 => 1
+238	413 => 450
+239	5 => 1
+240	318 => 1
+242	77 => 0
+246	5 => 0
+249	5200 => 5600
+336	0 => 2
+418	211221955 => 211222019
+428	3 => 4
+
+hearthome + odd keystone
+Flags: ON
+=========
+0276	False
+0370	False
+
+Flags: OFF
+==========
+None.
+System: ON
+=========
+0031	False
+0203	False
+0208	False
+0223	False
+0232	False
+0337	False
+0496	False
+0497	False
+0498	False
+0499	False
+
+System: OFF
+==========
+None.
+
+Work:
+=====
+000	1 => 0
+074	0 => 1
+082	0 => 1
+144	0 => 1
+154	0 => 1
+191	1 => 2
+238	450 => 461
+239	1 => 726
+242	0 => 77
+246	0 => 1
+249	5600 => 5900
+418	211222019 => 211222035
+
+post-hearthome
+Flags: ON
+=========
+0423	False
+0424	False
+0459	False
+0461	False
+0462	False
+0472	False
+0478	False
+0496	False
+0497	False
+0498	False
+0499	False
+0500	False
+0501	False
+0502	False
+0503	False
+0504	False
+0515	False
+1304	False
+
+Flags: OFF
+==========
+None.
+System: ON
+=========
+0024	False
+0231	False
+0240	False
+0385	False
+0777	False
+
+System: OFF
+==========
+None.
+
+Work:
+=====
+057	0 => 2
+085	0 => 1
+086	0 => 387
+089	0 => 1
+143	0 => 1
+155	0 => 1
+235	0 => 2
+238	461 => 488
+239	726 => 718
+246	1 => 0
+249	5900 => 6200
+418	211222035 => 211222038
+428	4 => 5
+
+veilstone, got strength
+Flags: ON
+=========
+0111	False
+0236	False
+0325	False
+0562	False
+0564	False
+0566	False
+0568	False
+0570	False
+0953	False
+0965	False
+
+Flags: OFF
+==========
+None.
+System: ON
+=========
+0233	False
+0257	False
+0259	False
+0275	False
+0501	False
+0502	False
+0503	False
+0504	False
+0505	False
+0506	False
+0507	False
+0528	False
+0580	False
+
+System: OFF
+==========
+None.
+
+Work:
+=====
+234	387 => 0
+238	488 => 677
+239	718 => 598
+246	0 => 1
+249	6200 => 6300
+418	211222038 => 211222055
+
+maylene defeated
+Flags: ON
+=========
+0118	False
+
+Flags: OFF
+==========
+None.
+System: ON
+=========
+0126	False
+0258	False
+0778	False
+
+System: OFF
+==========
+None.
+
+Work:
+=====
+059	0 => 1
+153	0 => 1
+190	0 => 1
+238	677 => 387
+239	598 => 5
+246	1 => 5
+249	6300 => 6500
+353	0 => 1
+418	211222055 => 211222058
+428	5 => 6
+
+pastoria
+Flags: ON
+=========
+0109	False
+0215	False
+0367	False
+0389	False
+1095	False
+
+Flags: OFF
+==========
+None.
+System: ON
+=========
+0244	False
+0246	False
+0247	False
+0269	False
+0481	False
+0519	False
+0520	False
+0522	False
+0526	False
+0527	False
+0782	False
+
+System: OFF
+==========
+None.
+
+Work:
+=====
+002	0 => 1
+190	1 => 2
+238	387 => 110
+239	5 => 814
+240	1 => 0
+246	5 => 0
+249	6500 => 6800
+333	0 => 2
+334	0 => 1
+352	0 => 1
+418	211222058 => 211222117
+
+wake defeated
+Flags: ON
+=========
+0117	False
+
+Flags: OFF
+==========
+None.
+System: ON
+=========
+0127	False
+
+System: OFF
+==========
+None.
+
+Work:
+=====
+058	0 => 1
+238	110 => 382
+239	814 => 5
+246	0 => 5
+249	6800 => 6900
+428	6 => 7
+
+secret potion + defog
+Flags: ON
+=========
+0112	False
+0144	False
+0216	False
+0217	False
+0218	False
+0220	False
+0309	False
+0465	False
+0925	False
+0926	False
+0927	False
+0928	False
+0929	False
+0930	False
+0931	False
+0932	False
+1416	False
+
+Flags: OFF
+==========
+None.
+System: ON
+=========
+0250	False
+0255	False
+0353	False
+0354	False
+0355	False
+0356	False
+0357	False
+0358	False
+
+System: OFF
+==========
+0782	False
+
+Work:
+=====
+002	1 => 0
+058	1 => 4
+065	0 => 2
+238	382 => 464
+239	5 => 1
+241	0 => 2
+246	5 => 8
+249	6900 => 7500
+333	2 => 0
+334	1 => 0
+418	211222117 => 211222144
+428	7 => 8
+
+celestic + surf
+Flags: ON
+=========
+0110	False
+0126	False
+0127	False
+0128	False
+0221	False
+0371	False
+0374	False
+0375	False
+
+Flags: OFF
+==========
+0392	False
+System: ON
+=========
+0032	False
+0045	False
+0509	False
+0590	False
+0598	False
+0799	False
+
+System: OFF
+==========
+None.
+
+Work:
+=====
+052	0 => 2
+149	0 => 1
+238	464 => 463
+239	1 => 521
+240	0 => 2
+246	8 => 0
+249	7500 => 8100
+418	211222144 => 211222158
+
+fantina defeated
+Flags: ON
+=========
+0086	False
+1378	False
+1379	False
+1380	False
+1381	False
+1382	False
+
+Flags: OFF
+==========
+0369	False
+System: ON
+=========
+0128	False
+0210	False
+0213	False
+0215	False
+0217	False
+0222	False
+0782	False
+
+System: OFF
+==========
+None.
+
+Work:
+=====
+118	0 => 1
+238	463 => 392
+239	521 => 5
+246	0 => 5
+249	8100 => 8200
+351	0 => 2
+418	211222158 => 211222202
+428	8 => 9
+
+canalave + iron island
+Flags: ON
+=========
+0186	False
+0190	False
+0369	False
+0428	False
+0481	False
+
+Flags: OFF
+==========
+1378	False
+1379	False
+1380	False
+1381	False
+1382	False
+System: ON
+=========
+0158	False
+0161	False
+0432	False
+0433	False
+0435	False
+0437	False
+0438	False
+0534	False
+0535	False
+0536	False
+0800	False
+0911	False
+
+System: OFF
+==========
+0782	False
+
+Work:
+=====
+000	0 => 1
+054	0 => 1
+078	0 => 2
+118	1 => 2
+135	0 => 4
+169	0 => 1
+238	392 => 102
+239	5 => 0
+240	2 => 9
+241	2 => 0
+243	1 => 100
+246	5 => 0
+249	8200 => 8500
+263	482 => 483
+418	211222202 => 211222225
+428	9 => 10
+
+byron defeated
+Flags: ON
+=========
+0107	False
+0351	False
+1381	False
+1382	False
+1384	False
+1385	False
+1386	False
+1387	False
+1389	False
+1390	False
+1391	False
+1392	False
+1393	False
+1394	False
+1406	False
+
+Flags: OFF
+==========
+0377	False
+0381	False
+0382	False
+0383	False
+System: ON
+=========
+0129	False
+0160	False
+0782	False
+
+System: OFF
+==========
+None.
+
+Work:
+=====
+000	1 => 0
+054	1 => 2
+238	102 => 418
+239	0 => 5
+246	0 => 5
+249	8500 => 8600
+354	0 => 1
+418	211222225 => 211222227
+428	10 => 11
+
+valor and verity
+Flags: ON
+=========
+0129	False
+0147	False
+0275	False
+0373	False
+0377	False
+0381	False
+0382	False
+0383	False
+0386	False
+0390	False
+1642	False
+
+Flags: OFF
+==========
+0317	False
+0347	False
+0378	False
+0380	False
+0385	False
+0505	False
+0599	False
+1381	False
+1382	False
+1384	False
+1385	False
+1386	False
+1387	False
+1389	False
+1390	False
+1391	False
+1392	False
+1393	False
+1394	False
+1406	False
+System: ON
+=========
+0036	False
+0046	False
+0164	False
+0165	False
+0166	False
+0458	False
+0460	False
+0462	False
+
+System: OFF
+==========
+0782	False
+
+Work:
+=====
+000	0 => 1
+054	2 => 5
+083	0 => 1
+103	0 => 2
+119	0 => 1
+238	418 => 324
+239	5 => -1
+246	5 => 0
+249	8600 => 9300
+418	211222227 => 211222322
+428	11 => 13
+
+snowpoint 
+Flags: ON
+=========
+0115	False
+1020	False
+
+Flags: OFF
+==========
+None.
+System: ON
+=========
+0293	False
+0296	False
+0347	False
+0348	False
+0349	False
+0485	False
+0511	False
+0529	False
+0531	False
+0801	False
+
+System: OFF
+==========
+None.
+
+Work:
+=====
+000	1 => 0
+238	324 => 159
+239	-1 => 232
+240	9 => 0
+243	100 => 1
+249	9300 => 9500
+418	211222322 => 211222333
+
+candice defeated
+Flags: ON
+=========
+0119	False
+
+Flags: OFF
+==========
+None.
+System: ON
+=========
+0130	False
+0295	False
+
+System: OFF
+==========
+None.
+
+Work:
+=====
+239	232 => 221
+249	9500 => 9700
+356	0 => 1
+418	211222333 => 211222339
+428	13 => 14
+
+galactic veilstone
+Flags: ON
+=========
+0134	False
+0228	False
+0317	False
+0347	False
+0384	False
+0385	False
+0388	False
+0489	False
+0491	False
+0492	False
+0493	False
+0505	False
+0506	False
+0507	False
+0508	False
+0592	False
+0593	False
+1023	False
+1096	False
+
+Flags: OFF
+==========
+0129	False
+0351	False
+0601	False
+System: ON
+=========
+0029	False
+0038	False
+0047	False
+0449	False
+0450	False
+0451	False
+0452	False
+0453	False
+0454	False
+0455	False
+0456	False
+0464	False
+
+System: OFF
+==========
+None.
+
+Work:
+=====
+000	0 => 1
+119	1 => 2
+122	0 => 1
+238	159 => 123
+239	221 => 588
+249	9700 => 10700
+418	211222339 => 211222359
+428	14 => 16
+
+cyrus defeated
+Flags: ON
+=========
+0000	False
+0001	False
+0002	False
+0003	False
+0394	False
+0397	False
+0398	False
+0399	False
+0403	False
+0404	False
+0405	False
+0905	False
+1711	False
+
+Flags: OFF
+==========
+1123	False
+System: ON
+=========
+0338	False
+0339	False
+0340	False
+0341	False
+0342	False
+0343	False
+0344	False
+0345	False
+0350	False
+0351	False
+0802	False
+
+System: OFF
+==========
+0796	False
+0797	False
+0799	False
+0801	False
+
+Work:
+=====
+026	0 => 1
+027	0 => 1
+028	0 => 1
+084	0 => 3
+238	123 => 31
+239	588 => 32
+240	0 => 312
+246	0 => 1
+249	10700 => 11200
+260	39852 => 62985
+261	32756 => 31150
+265	29 => 91
+365	0 => 3
+418	211222359 => 311230047
+428	16 => 18
+436	0 => 992347376
+
+
+
+dialga defeated 
+Flags: ON
+=========
+0005	False
+0307	False
+0393	False
+0395	False
+0396	False
+0578	False
+0595	False
+0601	False
+0898	False
+1623	False
+
+Flags: OFF
+==========
+0000	False
+0001	False
+0002	False
+0003	False
+0420	False
+0421	False
+0422	False
+0598	False
+System: ON
+=========
+0033	False
+
+System: OFF
+==========
+None.
+
+Work:
+=====
+026	1 => 0
+027	1 => 0
+028	1 => 0
+084	3 => 4
+238	31 => 483
+239	32 => 26
+246	1 => 2
+249	11200 => 11300
+418	311230047 => 311230058
+
+
+
+
+defeated vs caught
+Flags: ON
+=========
+0308	False
+
+Flags: OFF
+==========
+1623	False
+System: ON
+=========
+
+System: OFF
+==========
+None.
+
+Work:
+=====
+418	311230058 => 311230102
+
+sunnyshore + flint + volkner
+Flags: ON
+=========
+0311	False
+0510	False
+0560	False
+0582	False
+1425	False
+
+Flags: OFF
+==========
+0005	False
+System: ON
+=========
+0276	False
+0291	False
+0292	False
+0541	False
+0544	False
+
+System: OFF
+==========
+None.
+
+Work:
+=====
+000	1 => 0
+060	0 => 1
+182	0 => 1
+238	483 => 0
+239	26 => 790
+240	312 => 4
+246	2 => 0
+249	11300 => 11600
+418	311230102 => 311231702
+
+volkner defeated
+Flags: ON
+=========
+0143	False
+
+Flags: OFF
+==========
+None.
+System: ON
+=========
+0131	False
+0278	False
+0279	False
+0280	False
+0782	False
+
+System: OFF
+==========
+None.
+
+Work:
+=====
+238	0 => 384
+239	790 => 5
+246	0 => 5
+249	11600 => 11700
+355	0 => 1
+418	311231702 => 311231715
+428	18 => 19
+
+League+ barry
+Flags: ON
+=========
+0114	False
+0142	False
+0583	False
+0584	False
+0585	False
+0586	False
+1041	False
+1632	False
+
+Flags: OFF
+==========
+None.
+System: ON
+=========
+0000	False
+0302	False
+0305	False
+0378	False
+0379	False
+0380	False
+0620	False
+0796	False
+0801	False
+0803	False
+
+System: OFF
+==========
+0782	False
+
+Work:
+=====
+060	1 => 2
+062	0 => 1
+147	0 => 1
+238	384 => 171
+239	5 => 4
+240	4 => 0
+246	5 => 0
+249	11700 => 11900
+291	0 => 1
+418	311231715 => 311231739
+428	19 => 20
+
+champion defeated 
+Flags: ON
+=========
+0136	False
+0137	False
+0138	False
+0139	False
+0140	False
+0141	False
+0511	False
+0512	False
+
+Flags: OFF
+==========
+0319	False
+0406	False
+System: ON
+=========
+0005	False
+0034	False
+0306	False
+0307	False
+0308	False
+0309	False
+0310	False
+0311	False
+0312	False
+0313	False
+0314	False
+0315	False
+0316	False
+0317	False
+
+System: OFF
+==========
+None.
+
+Work:
+=====
+152	0 => 1
+179	0 => 1
+238	171 => 2
+240	0 => 2
+249	11900 => 12600
+417	0 => 1
+418	311231739 => 311231802
+428	20 => 25

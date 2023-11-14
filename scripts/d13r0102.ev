@@ -1,0 +1,7 @@
+ev_d13r0102_mount:
+	_EASY_OBJ_MSG('dp_scenario1%100-msg_d13r0102_mount_01')
+	_END()
+ev_d13r0102_babyboy1:
+	;_EASY_OBJ_MSG('dp_scenario1%100-msg_d13r0102_babyboy1_01')
+	_MACRO_EASY_OBJ_MSG('dp_scenario3', '00_msg_d13r0102_babyboy1_02', 'If you put Honey on a tree, a Pokémon\nmight respond to the scent.')
+	_END()

@@ -1,0 +1,89 @@
+{
+    "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 8423137904901713306
+    },
+    "m_Name": "StopData_A03",
+    "Data": [
+        {
+            "ID": "SCRID_POS_C04_RIVAL",
+            "Position": {
+                "x": 303.0,
+                "y": 523.0
+            },
+            "HeightLayer": 7,
+            "Size": {
+                "x": 1.0,
+                "y": 4.0
+            },
+            "ContactLabel": "pos_c04_rival",
+            "Param": 0,
+            "Work": 56
+        },
+        {
+            "ID": "SCRID_POS_C04_CHAMP",
+            "Position": {
+                "x": 304.0,
+                "y": 523.0
+            },
+            "HeightLayer": 7,
+            "Size": {
+                "x": 1.0,
+                "y": 4.0
+            },
+            "ContactLabel": "pos_c04_champ",
+            "Param": 1,
+            "Work": 56
+        },
+        {
+            "ID": "SCRID_POS_C04_CHAMP_OUTSIDE_GYM",
+            "Position": {
+                "x": 301.0,
+                "y": 546.0
+            },
+            "HeightLayer": 7,
+            "Size": {
+                "x": 7.0,
+                "y": 1.0
+            },
+            "ContactLabel": "pos_c04_champ_egg_event",
+            "Param": 3,
+            "Work": 56
+        },
+        {
+            "ID": "SCRID_POS_R205A_BABYGIRL",
+            "Position": {
+                "x": 211.0,
+                "y": 659.0
+            },
+            "HeightLayer": 5,
+            "Size": {
+                "x": 1.0,
+                "y": 6.0
+            },
+            "ContactLabel": "pos_r205a_babygirl",
+            "Param": 0,
+            "Work": 71
+        },
+        {
+            "ID": "SCRID_POS_R205A_GINGA",
+            "Position": {
+                "x": 207.0,
+                "y": 637.0
+            },
+            "HeightLayer": 6,
+            "Size": {
+                "x": 3.0,
+                "y": 1.0
+            },
+            "ContactLabel": "pos_r205a_ginga",
+            "Param": 1,
+            "Work": 71
+        }
+    ]
+}

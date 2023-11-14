@@ -1,0 +1,38 @@
+ev_d14r0102_cyclew:
+	_EASY_OBJ_MSG('dp_scenario1%60-msg_d14r0102_cyclew_01')
+	_END()
+ev_d14r0102_mewtwo:
+	_TALK_OBJ_START()
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_d14r0102_nurse_1', 'Greetings trainer.\rI have the honour of serving the\nstrongest Pokémon master in the world.\rHave you perhaps received an invitation?')
+	_TALK_CLOSE()
+	_OBJ_ANIME('D14R0102_MEWTWO', 'anm_d14r0102_nurse_1')
+	_OBJ_ANIME_WAIT()
+	_ITEM_CHK(1824, 1, @SCWK_TEMP0)
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 1, 'ev_d14r0102_mewtwo_yes')
+	_JUMP('ev_d14r0102_mewtwo_no')
+ev_d14r0102_mewtwo_yes:
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_d14r0102_nurse_2', 'My master has judged you and found\nyou worthy trainer, rejoice.\rI shall bring you to him shortly.')
+	_PLAYER_NAME(0)
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_d14r0102_nurse_2_1', 'That device you have to attract Pokémon.\nI am afraid it is incompatible with\fwhere you will be going.\rPlease turn it off.\r{0} turned off the Incense Burner.')
+	_TALK_CLOSE()
+	_CALL('ev_disable_incense_burner')
+	_IF_FLAGOFF_CALL(#2595, 'ev_d14r0102_mewtwo_reset_flags')
+	_MAP_CHANGE('D10R0601', 1)
+	_TALK_OBJ_END()
+	_END()
+ev_d14r0102_mewtwo_no:
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_d14r0102_nurse_3', 'It seems my master has not deemed\nyou worthy.\rPlease leave.')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+anm_d14r0102_nurse_1:
+	_AC_MARK_EMO(9)
+	_ACMD_END()
+ev_d14r0102_mewtwo_reset_flags:
+	_FLAG_RESET(#3002)
+	_FLAG_RESET(#2914)
+	_FLAG_RESET(#2915)
+	_FLAG_RESET(#2916)
+	_FLAG_RESET(#2917)
+	_FLAG_SET(#2595)
+	_RET()

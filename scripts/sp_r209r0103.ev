@@ -1,0 +1,13 @@
+SP_R209R0103_INIT:
+	_SP_EVENT_DATA_END()
+SP_R209R0103_OBJ:
+	_SP_EVENT_DATA_END()
+SP_R209R0103_SCENE:
+	_IF_FLAGOFF_CALL(#3102, 'ev_r209r0103_setup_litwick'); if Event is on, setup
+	_IF_FLAGOFF_CALL(#3108, 'ev_r209r0103_litwick_scene')
+	_IF_FLAGOFF_CALL(#2926, 'ev_r209r0103_setup_litwick')
+	_IF_FLAGON_CALL(#3102, 'ev_r209r0103_disable_litwick'); If event is over, fix npcs
+	_SP_EVENT_DATA_END()
+SP_R209R0103_FLAG:
+	_JUMP('ev_r209r0103_flag_change')
+	_SP_EVENT_DATA_END()

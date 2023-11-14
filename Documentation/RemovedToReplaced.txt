@@ -1,0 +1,61 @@
+2   - Karate Chop    ------------>     280 - Brick Break
+3   - Double Slap    ------------>     1   - Pound
+4   - Comet Punch    ------------>     31  - Fury Attack
+13  - Razor Wind     ------------>     304 - Hyper Voice
+26  - Jump Kick      ------------>     280 - Brick Break
+27  - Rolling Kick   ------------>     25  - Mega Kick
+41  - Twineedle      ------------>     404 - X-Scissor
+49  - Sonic Boom     ------------>     497 - Echoed Voice
+82  - Dragon Rage    ------------>     239 - Twister
+96  - Meditate       ------------>     339 - Bulk Up
+99  - Rage           ------------>     205 - Rollout
+112 - Barrier        ------------>     115 - Reflect
+117 - Bide           ------------>     203 - Endure
+119 - Mirror Move    ------------>     102 - Mimic
+121 - Egg Bomb       ------------>     5   - Mega Punch
+125 - Bone Club      ------------>     198 - Bone Rush
+128 - Clamp          ------------>     44  - Bite
+131 - Spike Cannon   ------------>     31  - Fury Attack
+132 - Constrict      ------------>     35  - Wrap
+140 - Barrage        ------------>     31  - Fury Attack
+145 - Bubble         ------------>     55  - Water Gun
+146 - Dizzy Punch    ------------>     409 - Drain Punch
+149 - Psywave        ------------>     60  - Psybeam
+158 - Hyper Fang     ------------>     29  - Headbutt
+159 - Sharpen        ------------>     14  - Swords Dance
+169 - Spider Web     ------------>     564 - Sticky Web
+171 - Nightmare      ------------>     174 - Curse
+185 - Feint Attack   ------------>     44  - Bite
+193 - Foresight      ------------>     45  - Growl
+216 - Return         ------------>     5   - Mega Punch
+218 - Frustration    ------------>     29  - Headbutt
+222 - Magnitude      ------------>     523 - Bulldoze
+228 - Pursuit        ------------>     371 - Payback
+265 - Smelling Salts ------------>     514 - Retaliate
+274 - Assist         ------------>     495 - After You
+287 - Refresh        ------------>     312 - Aromatherapy
+289 - Snatch         ------------>     168 - Thief
+290 - Secret Power   ------------>     267 - Nature Power
+293 - Camouflage     ------------>     160 - Conversion
+300 - Mud Sport      ------------>     341 - Mud Shot
+302 - Needle Arm     ------------>     402 - Seed Bomb
+316 - Odor Sleuth    ------------>     45  - Growl
+318 - Silver Wind    ------------>     405 - Bug Buzz
+320 - Grass Whistle  ------------>     79  - Sleep Powder
+324 - Signal Beam    ------------>     405 - Bug Buzz
+327 - Sky Uppercut   ------------>     280 - Brick Break
+346 - Water Sport    ------------>     240 - Rain Dance
+357 - Miracle Eye    ------------>     477 - Telekinesis
+358 - Wake-Up Slap   ------------>     249 - Rock Smash
+363 - Natural Gift   ------------>     267 - Nature Power
+373 - Embargo        ------------>     137 - Glare
+376 - Trump Card     ------------>     416 - Giga Impact
+378 - Wring Out      ------------>     35  - Wrap
+381 - Lucky Chant    ------------>     219 - Safeguard
+382 - Me First       ------------>     266 - Follow Me
+386 - Punishment     ------------>     372 - Assurance
+426 - Mud Bomb       ------------>     341 - Mud Shot
+429 - Mirror Shot    ------------>     430 - Flash Cannon
+443 - Magnet Bomb    ------------>     430 - Flash Cannon
+445 - Captivate      ------------>     590 - Confide
+456 - Heal Order     ------------>     105 - Recover

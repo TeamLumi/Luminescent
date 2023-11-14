@@ -1,0 +1,128 @@
+ev_r213r0301_flag_change:
+	_IF_FLAGON_JUMP(#2753, 'ev_r213r0301_looker_scene')
+	_END()
+ev_r213r0301_policeman:
+	_TALK_OBJ_START()
+	_JUMP('ev_r213r0301_policeman_main')
+ev_r213r0301_policeman_main:
+	_TALK_KEYWAIT('dp_scenario2%147-msg_r213r0301_policeman_01')
+	_TALK_CLOSE()
+	_BLACK_OUT('SCR_WIPE_DIV', 'SCR_WIPE_SYNC')
+	_WIPE_FADE_END_CHECK()
+	_ME_PLAY('M_FI002')
+	_ME_WAIT()
+	_PC_KAIFUKU()
+	_BLACK_IN('SCR_WIPE_DIV', 'SCR_WIPE_SYNC')
+	_WIPE_FADE_END_CHECK()
+	_TALKMSG('dp_scenario2%147-msg_r213r0301_policeman_02')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_END()
+	_END()
+ev_r213r0301_policeman_s:
+	_TALK_OBJ_START()
+	_OBJ_ANIME('R213R0301_POLICEMAN', 'anm_r213_policemen_trun')
+	_OBJ_ANIME_WAIT()
+	_JUMP('ev_r213r0301_policeman_main')
+	_END()
+anm_r213_policemen_trun:
+	_AC_DIR_D(4)
+	_ACMD_END()
+ev_r213r0301_woman3:
+	_EASY_OBJ_MSG('dp_scenario2%147-msg_r213r0301_woman3_01')
+	_END()
+ev_r213r0301_looker_scene:
+	_EVENT_START();R213R0301_LOOKER 2840
+	_IF_FLAGON_JUMP(#2754, 'ev_r213r0301_looker_scene_2')
+	_FLAG_SET(#2754)
+	_PLAYER_POS_GET(@SCWK_TEMP0, @SCWK_TEMP1)
+	_IFVAL_CALL(@SCWK_TEMP1, 'GE', 4, 'ev_r213r0301_looker_scene_1_look_down')
+	_IFVAL_CALL(@SCWK_TEMP1, 'LT', 4, 'ev_r213r0301_looker_scene_1_look_up')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_r213r0301_looker_3', 'Ah, my friend, it is you!\nYes, I am at this hotel now.\rI am interviewing the people to see \nif they have seen anyone suspicious.\rI would like your assistance.\nGo search outside, if you will.\rThe suspect, he may have already\nslipped away ahead unnoticed.')
+	_TALK_CLOSE()
+	_OBJ_ANIME('R213R0301_LOOKER', 'anm_r213r0301_looker_look_right')
+	_OBJ_ANIME_WAIT()
+	_TALK_OBJ_END()
+	_END()
+ev_r213r0301_looker_scene_1_look_up:
+	_OBJ_ANIME('R213R0301_LOOKER', 'anm_r213r0301_looker_look_up')
+	_OBJ_ANIME_WAIT()
+	_RET()
+ev_r213r0301_looker_scene_1_look_down:
+	_OBJ_ANIME('R213R0301_LOOKER', 'anm_r213r0301_looker_look_down')
+	_OBJ_ANIME_WAIT()
+	_RET()
+anm_r213r0301_looker_look_up:
+	_AC_DIR_U(8)
+	_ACMD_END()
+anm_r213r0301_looker_look_down:
+	_AC_DIR_D(8)
+	_ACMD_END()
+anm_r213r0301_looker_look_right:
+	_AC_DIR_R(8)
+	_ACMD_END()
+ev_r213r0301_looker_scene_2:
+	_OBJ_ANIME('R213R0301_LOOKER', 'anm_r213_action_1')
+	_OBJ_ANIME_WAIT()
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_r213r0301_looker_4', 'Is that so?\nThe champion of Hoenn has stayed here?\rBut that is of no importance!\rA suspicion-arousing character, yes,\nbut your bragging is not necessary!')
+	_CHARA_LOOK_LOCK('R213R0301_LOOKER', 'HERO')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_r213r0301_looker_5', 'Inside the hotel, I will search.\nYou, I ask to search outside.\rThe suspect, he may have already\nslipped away ahead unnoticed.')
+	_TALK_CLOSE()
+	_CHARA_LOOK_RELEASE('R213R0301_LOOKER')
+	_OBJ_ANIME('R213R0301_LOOKER', 'anm_r213r0301_looker_1')
+	_OBJ_ANIME_WAIT()
+	_EVENT_END()
+	_FLAG_SET(#2753)
+	_END()
+ev_r213r0301_looker_talk:
+	_JUMP('ev_r213r0301_looker_scene')
+ev_r213r0301_karate_man:
+	_TALK_OBJ_START_TURN_NOT(); 2755
+	_IF_FLAGON_JUMP(#2755, 'ev_r213r0301_karate_man_done')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_r213r0301_km_msg_6', 'I’m telling you!\nElectivire is the better Pokémon!\rIt packs a massive punch.\nAnd its tails are electrifying!\rElectivire is so cool, even the\nSunyshore Gym Leader owns one!\r')
+	_TALK_CLOSE()
+	_CHARA_LOOK_LOCK('R213R0301_KARATE', 'HERO')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_r213r0301_km_msg_7', 'Hey, kid. Don’t just take my word.\nGet yourself an Electivire and see.')
+	_TALK_CLOSE()
+	_LDVAL(@SCWK_TEMP0, 322); Electrizer
+	_LDVAL(@SCWK_TEMP1, 1); Quantity 1
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_r213r0301_km_msg_8', 'Use that Electirizer on an Electabuzz\nto get the coolest Pokémon!')
+	_TALK_CLOSE()
+	_CHARA_LOOK_RELEASE('R213R0301_KARATE')
+	_FLAG_SET(#2755)
+	_TALK_OBJ_END()
+	_END()
+ev_r213r0301_karate_man_done:
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_r213r0301_km_msg_9', 'Electivire is a great fighter!\nIts Wild Charge brings on the pain!')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_r213r0301_hiker:
+	_TALK_OBJ_START_TURN_NOT(); 2756
+	_IF_FLAGON_JUMP(#2756, 'ev_r213r0301_hiker_done')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_r213r0301_hk_msg_10', 'Now, listen here!\nMagmortar is the better Pokémon!\rIts flames are super hot.\nAnd just look at those cannon arms!\rMagmortar is so hot!\nEven an Elite Four member owns one!')
+	_TALK_CLOSE()
+	_CHARA_LOOK_LOCK('R213R0301_HIKER', 'HERO')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_r213r0301_hk_msg_11', 'Hey, friend. Instead of my word...\nGet yourself a Magmortar and see!')
+	_TALK_CLOSE()
+	_LDVAL(@SCWK_TEMP0, 323); Magmarizer
+	_LDVAL(@SCWK_TEMP1, 1); Quantity 1
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_r213r0301_hk_msg_12', 'Use that Magmarizer on a Magmar\nto get the hottest Pokémon!')
+	_TALK_CLOSE()
+	_CHARA_LOOK_RELEASE('R213R0301_HIKER')
+	_FLAG_SET(#2756)
+	_TALK_OBJ_END()
+	_END()
+ev_r213r0301_hiker_done:
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_r213r0301_hk_msg_13', 'Magmortar is an excellent fighter!\nIts Fire Blast brings the heat!')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+anm_r213r0301_looker_1:
+	_AC_DIR_R(4)
+	_ACMD_END()
+anm_r213_action_1:
+	_AC_DIR_R(8)
+	_ACMD_END()

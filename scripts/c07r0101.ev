@@ -1,0 +1,121 @@
+ev_c07r0101_shop:
+	_TALK_OBJ_START()
+	_TALKMSG('ss_fld_shop%SS_fld_shop_149')
+	_LDVAL(@LOCALWORK3, 0)
+	_GET_COSTUME(@LOCALWORK4)
+	_JUMP('ev_c07r0101_shop_re')
+	_JUMP('ev_c07r0101_shop_re')
+ev_c07r0101_shop_re:
+	_ADD_CUSTUM_WIN_LABEL('ss_fld_dressup%SS_fld_dressup_036', 0)
+	_ADD_CUSTUM_WIN_LABEL('ss_fld_dressup%SS_fld_dressup_027', 1)
+	_ADD_CUSTUM_WIN_LABEL('ss_fld_dressup%SS_fld_dressup_037', 2)
+	_OPEN_CUSTUM_WIN(@SCWK_TEMP0)
+	_SWITCH(@SCWK_TEMP0)
+	_CASE_JUMP(0, 'ev_c07r0101_shop_buy')
+	_CASE_JUMP(1, 'ev_c07r0101_shop_sell')
+	_CASE_JUMP(2, 'ev_c07r0101_shop_end')
+	_JUMP('ev_c07r0101_shop_end')
+	_END()
+ev_c07r0101_shop_buy:
+	_LDVAL(@LOCALWORK3, 1)
+	_TALK_CLOSE_NO_CLEAR()
+	_EVENT_CAMERA_INDEX(115)
+	_SHOP_OPEN_BOUTIQUE_BUY()
+	_DPR_SHOP_OPEN_WAIT()
+	_GET_COSTUME(@LOCALWORK5)
+	_IFVAL_CALL(@LOCALWORK5, 'NE', @LOCALWORK4, 'ev_c07r0101_shop_chg')
+	_EVENT_CAMERA_INDEX(116)
+	_EVENT_CAMERA_END_WAIT()
+	_JUMP('ev_c07r0101_shop_tokuten')
+	_END()
+ev_c07r0101_shop_chg:
+	_CHANGE_FASHION_REQ()
+	_LDWK(@LOCALWORK4, @LOCALWORK5)
+	_RET()
+ev_c07r0101_shop_tokuten:
+	_IF_FLAGON_JUMP(#FE_C07R0101_SEAL_GET_01, 'ev_c07r0101_shop_end')
+	_LDVAL(@SCWK_TEMP2, 0)
+	_IF_FLAGOFF_JUMP(#FE_STAYLE_002, 'ev_c07r0101_shop_end1')
+	_IF_FLAGOFF_JUMP(#FE_STAYLE_004, 'ev_c07r0101_shop_end3')
+	_IF_FLAGOFF_JUMP(#FE_STAYLE_005, 'ev_c07r0101_shop_end4')
+	_IF_FLAGOFF_JUMP(#FE_STAYLE_006, 'ev_c07r0101_shop_end5')
+	_IF_FLAGOFF_JUMP(#FE_STAYLE_007, 'ev_c07r0101_shop_end6')
+	_IF_FLAGOFF_JUMP(#FE_STAYLE_009, 'ev_c07r0101_shop_end8')
+	_IF_FLAGOFF_JUMP(#FE_STAYLE_010, 'ev_c07r0101_shop_end9')
+	_IF_FLAGOFF_JUMP(#FE_STAYLE_011, 'ev_c07r0101_shop_end10')
+	_IF_FLAGOFF_JUMP(#FE_STAYLE_012, 'ev_c07r0101_shop_end11')
+	_LDVAL(@SCWK_TEMP2, 1)
+	_IFVAL_JUMP(@SCWK_TEMP2, 'EQ', 1, 'ev_c07r0101_shop_tokuten_get')
+	_END()
+ev_c07r0101_shop_tokuten_get:
+	_LDVAL(@SCWK_TEMP0, 74)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_SEAL_NAME(0, @SCWK_TEMP0, @SCWK_TEMP1)
+	_NUMBER_NAME(1, @SCWK_TEMP1)
+	_TALK_KEYWAIT('ss_fld_dressup%SS_fld_dressup_039')
+	_CALL('ev_exec_item_seal_get')
+	_FLAG_SET(#FE_C07R0101_SEAL_GET_01)
+	_JUMP('ev_c07r0101_shop_end')
+	_END()
+ev_c07r0101_shop_end1:
+	_JUMP('ev_c07r0101_shop_end')
+ev_c07r0101_shop_end2:
+	_JUMP('ev_c07r0101_shop_end')
+ev_c07r0101_shop_end3:
+	_JUMP('ev_c07r0101_shop_end')
+ev_c07r0101_shop_end4:
+	_JUMP('ev_c07r0101_shop_end')
+ev_c07r0101_shop_end5:
+	_JUMP('ev_c07r0101_shop_end')
+ev_c07r0101_shop_end6:
+	_JUMP('ev_c07r0101_shop_end')
+ev_c07r0101_shop_end7:
+	_JUMP('ev_c07r0101_shop_end')
+ev_c07r0101_shop_end8:
+	_JUMP('ev_c07r0101_shop_end')
+ev_c07r0101_shop_end9:
+	_JUMP('ev_c07r0101_shop_end')
+ev_c07r0101_shop_end10:
+	_JUMP('ev_c07r0101_shop_end')
+ev_c07r0101_shop_end11:
+	_JUMP('ev_c07r0101_shop_end')
+ev_c07r0101_shop_end:
+	_TALK_KEYWAIT('ss_fld_dressup%SS_fld_dressup_040')
+	_TALK_CLOSE()
+	_IF_FLAGOFF_CALL(#FE_USE_BOUTIQUE, 'ev_c07r0101_shop_tips')
+	_FLAG_SET(#FE_USE_BOUTIQUE)
+	_TALK_OBJ_END()
+	_END()
+ev_c07r0101_shop_tips:
+	_RET()
+ev_c07r0101_shop_sell:
+	_LDVAL(@LOCALWORK3, 1)
+	_TALK_CLOSE_NO_CLEAR()
+	_EVENT_CAMERA_INDEX(115)
+	_SHOP_OPEN_BOUTIQUE_CHANGE()
+	_DPR_SHOP_OPEN_WAIT()
+	_GET_COSTUME(@LOCALWORK5)
+	_IFVAL_CALL(@LOCALWORK5, 'NE', @LOCALWORK4, 'ev_c07r0101_shop_chg')
+	_EVENT_CAMERA_INDEX(116)
+	_EVENT_CAMERA_END_WAIT()
+	_JUMP('ev_c07r0101_shop_end')
+	_END()
+ev_c07r0101_shopwoman:
+	_EASY_OBJ_MSG('dp_scenario2%94-msg_c07r0101_shopwoman2_01')
+	_END()
+ev_c07r0101_gorggeousw_01:
+	_EASY_OBJ_MSG('dp_scenario2%94-msg_c07r0101_gorggeousw_01')
+	_END()
+ev_c07r0101_sunglasses_01:
+	_EASY_OBJ_MSG('dp_scenario2%94-msg_c07r0101_sunglasses_01')
+	_END()
+ev_c07r0101_pippidoll_01:
+	_EASY_OBJ_MSG('dp_scenario2%94-msg_c07r0101_pippidoll_01')
+	_END()
+ev_c07r0101_looker:
+	_TALK_OBJ_START()
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_c07r0101_looker_1', 'There is something missing here...\rAha, it is you!\nPerfect timing as always my young trainer.')
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_c07r0101_looker_2', 'My colleague,\nthey informed me of a gambling house in this city.\rI was assured of many gossips relating to\nTeam Galactic there, yes, that is my interest.\rWhy do you look at me so?\nIt is the truth.\r...\rBut here I am,\nperplexed to find this storefront in it’s place.')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()

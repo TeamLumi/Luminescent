@@ -1,0 +1,289 @@
+{
+    "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 9055921299350716744
+    },
+    "m_Name": "PokeWalkingActionSeikaku",
+    "Sheet1": [
+        {
+            "SeikakuID": 1,
+            "PositionHosei": -0.4000000059604645,
+            "SpeedDownStartDistanceHosei": -0.30000001192092896,
+            "SpeedDownEndDistanceHosei": -0.30000001192092896,
+            "WalkStartDistanceHosei": -0.20000000298023224,
+            "RunStartDistanceHosei": -0.20000000298023224,
+            "StopKakurituHosei": -5,
+            "KyoroKakurituHosei": -5,
+            "LookOtherPokeKakurituHosei": -5
+        },
+        {
+            "SeikakuID": 3,
+            "PositionHosei": 0.3499999940395355,
+            "SpeedDownStartDistanceHosei": 0.0,
+            "SpeedDownEndDistanceHosei": 0.0,
+            "WalkStartDistanceHosei": 0.10000000149011612,
+            "RunStartDistanceHosei": 0.0,
+            "StopKakurituHosei": 0,
+            "KyoroKakurituHosei": 0,
+            "LookOtherPokeKakurituHosei": 0
+        },
+        {
+            "SeikakuID": 4,
+            "PositionHosei": 0.20000000298023224,
+            "SpeedDownStartDistanceHosei": 0.0,
+            "SpeedDownEndDistanceHosei": 0.0,
+            "WalkStartDistanceHosei": -0.10000000149011612,
+            "RunStartDistanceHosei": -0.20000000298023224,
+            "StopKakurituHosei": 0,
+            "KyoroKakurituHosei": 5,
+            "LookOtherPokeKakurituHosei": 5
+        },
+        {
+            "SeikakuID": 2,
+            "PositionHosei": 0.20000000298023224,
+            "SpeedDownStartDistanceHosei": 0.0,
+            "SpeedDownEndDistanceHosei": 0.0,
+            "WalkStartDistanceHosei": 0.10000000149011612,
+            "RunStartDistanceHosei": 0.0,
+            "StopKakurituHosei": 5,
+            "KyoroKakurituHosei": 5,
+            "LookOtherPokeKakurituHosei": 0
+        },
+        {
+            "SeikakuID": 5,
+            "PositionHosei": 0.0,
+            "SpeedDownStartDistanceHosei": 0.0,
+            "SpeedDownEndDistanceHosei": 0.0,
+            "WalkStartDistanceHosei": 0.3499999940395355,
+            "RunStartDistanceHosei": 0.0,
+            "StopKakurituHosei": 5,
+            "KyoroKakurituHosei": -5,
+            "LookOtherPokeKakurituHosei": -5
+        },
+        {
+            "SeikakuID": 8,
+            "PositionHosei": 0.0,
+            "SpeedDownStartDistanceHosei": -0.5,
+            "SpeedDownEndDistanceHosei": -0.5,
+            "WalkStartDistanceHosei": -0.30000001192092896,
+            "RunStartDistanceHosei": -0.30000001192092896,
+            "StopKakurituHosei": 5,
+            "KyoroKakurituHosei": 5,
+            "LookOtherPokeKakurituHosei": 10
+        },
+        {
+            "SeikakuID": 9,
+            "PositionHosei": 0.20000000298023224,
+            "SpeedDownStartDistanceHosei": 0.0,
+            "SpeedDownEndDistanceHosei": 0.0,
+            "WalkStartDistanceHosei": 0.0,
+            "RunStartDistanceHosei": 0.0,
+            "StopKakurituHosei": 10,
+            "KyoroKakurituHosei": -10,
+            "LookOtherPokeKakurituHosei": 10
+        },
+        {
+            "SeikakuID": 7,
+            "PositionHosei": 0.30000001192092896,
+            "SpeedDownStartDistanceHosei": 0.0,
+            "SpeedDownEndDistanceHosei": 0.0,
+            "WalkStartDistanceHosei": 0.10000000149011612,
+            "RunStartDistanceHosei": -0.20000000298023224,
+            "StopKakurituHosei": 0,
+            "KyoroKakurituHosei": -10,
+            "LookOtherPokeKakurituHosei": 15
+        },
+        {
+            "SeikakuID": 15,
+            "PositionHosei": 0.30000001192092896,
+            "SpeedDownStartDistanceHosei": 0.0,
+            "SpeedDownEndDistanceHosei": 0.0,
+            "WalkStartDistanceHosei": 0.0,
+            "RunStartDistanceHosei": 0.0,
+            "StopKakurituHosei": 0,
+            "KyoroKakurituHosei": 0,
+            "LookOtherPokeKakurituHosei": 0
+        },
+        {
+            "SeikakuID": 16,
+            "PositionHosei": 0.0,
+            "SpeedDownStartDistanceHosei": 0.0,
+            "SpeedDownEndDistanceHosei": 0.0,
+            "WalkStartDistanceHosei": 0.0,
+            "RunStartDistanceHosei": 0.0,
+            "StopKakurituHosei": 5,
+            "KyoroKakurituHosei": 5,
+            "LookOtherPokeKakurituHosei": 0
+        },
+        {
+            "SeikakuID": 19,
+            "PositionHosei": 0.0,
+            "SpeedDownStartDistanceHosei": 0.0,
+            "SpeedDownEndDistanceHosei": 0.0,
+            "WalkStartDistanceHosei": 0.0,
+            "RunStartDistanceHosei": 0.0,
+            "StopKakurituHosei": 10,
+            "KyoroKakurituHosei": 10,
+            "LookOtherPokeKakurituHosei": 5
+        },
+        {
+            "SeikakuID": 17,
+            "PositionHosei": 0.0,
+            "SpeedDownStartDistanceHosei": 0.0,
+            "SpeedDownEndDistanceHosei": 0.0,
+            "WalkStartDistanceHosei": 0.20000000298023224,
+            "RunStartDistanceHosei": -0.20000000298023224,
+            "StopKakurituHosei": -5,
+            "KyoroKakurituHosei": -10,
+            "LookOtherPokeKakurituHosei": 5
+        },
+        {
+            "SeikakuID": 20,
+            "PositionHosei": 0.0,
+            "SpeedDownStartDistanceHosei": 0.0,
+            "SpeedDownEndDistanceHosei": 0.0,
+            "WalkStartDistanceHosei": 0.20000000298023224,
+            "RunStartDistanceHosei": -0.20000000298023224,
+            "StopKakurituHosei": 0,
+            "KyoroKakurituHosei": 0,
+            "LookOtherPokeKakurituHosei": 0
+        },
+        {
+            "SeikakuID": 21,
+            "PositionHosei": 0.0,
+            "SpeedDownStartDistanceHosei": 0.0,
+            "SpeedDownEndDistanceHosei": 0.0,
+            "WalkStartDistanceHosei": 0.20000000298023224,
+            "RunStartDistanceHosei": -0.20000000298023224,
+            "StopKakurituHosei": -5,
+            "KyoroKakurituHosei": -5,
+            "LookOtherPokeKakurituHosei": 0
+        },
+        {
+            "SeikakuID": 23,
+            "PositionHosei": -0.20000000298023224,
+            "SpeedDownStartDistanceHosei": 0.0,
+            "SpeedDownEndDistanceHosei": 0.0,
+            "WalkStartDistanceHosei": 0.20000000298023224,
+            "RunStartDistanceHosei": -0.20000000298023224,
+            "StopKakurituHosei": -5,
+            "KyoroKakurituHosei": -5,
+            "LookOtherPokeKakurituHosei": 0
+        },
+        {
+            "SeikakuID": 22,
+            "PositionHosei": 0.0,
+            "SpeedDownStartDistanceHosei": 0.0,
+            "SpeedDownEndDistanceHosei": 0.0,
+            "WalkStartDistanceHosei": 0.0,
+            "RunStartDistanceHosei": 0.0,
+            "StopKakurituHosei": 0,
+            "KyoroKakurituHosei": 0,
+            "LookOtherPokeKakurituHosei": 0
+        },
+        {
+            "SeikakuID": 10,
+            "PositionHosei": -0.4000000059604645,
+            "SpeedDownStartDistanceHosei": -0.5,
+            "SpeedDownEndDistanceHosei": -0.5,
+            "WalkStartDistanceHosei": -0.5,
+            "RunStartDistanceHosei": -0.5,
+            "StopKakurituHosei": -10,
+            "KyoroKakurituHosei": 15,
+            "LookOtherPokeKakurituHosei": 5
+        },
+        {
+            "SeikakuID": 11,
+            "PositionHosei": 0.0,
+            "SpeedDownStartDistanceHosei": 0.0,
+            "SpeedDownEndDistanceHosei": 0.0,
+            "WalkStartDistanceHosei": -0.20000000298023224,
+            "RunStartDistanceHosei": -0.20000000298023224,
+            "StopKakurituHosei": 0,
+            "KyoroKakurituHosei": 0,
+            "LookOtherPokeKakurituHosei": 0
+        },
+        {
+            "SeikakuID": 13,
+            "PositionHosei": 0.0,
+            "SpeedDownStartDistanceHosei": 0.0,
+            "SpeedDownEndDistanceHosei": 0.0,
+            "WalkStartDistanceHosei": 0.0,
+            "RunStartDistanceHosei": 0.0,
+            "StopKakurituHosei": 0,
+            "KyoroKakurituHosei": 0,
+            "LookOtherPokeKakurituHosei": 0
+        },
+        {
+            "SeikakuID": 14,
+            "PositionHosei": 0.0,
+            "SpeedDownStartDistanceHosei": 0.0,
+            "SpeedDownEndDistanceHosei": 0.0,
+            "WalkStartDistanceHosei": 0.0,
+            "RunStartDistanceHosei": 0.0,
+            "StopKakurituHosei": 5,
+            "KyoroKakurituHosei": 5,
+            "LookOtherPokeKakurituHosei": 5
+        },
+        {
+            "SeikakuID": 0,
+            "PositionHosei": -0.20000000298023224,
+            "SpeedDownStartDistanceHosei": 0.0,
+            "SpeedDownEndDistanceHosei": 0.0,
+            "WalkStartDistanceHosei": 0.0,
+            "RunStartDistanceHosei": 0.0,
+            "StopKakurituHosei": 0,
+            "KyoroKakurituHosei": 0,
+            "LookOtherPokeKakurituHosei": 0
+        },
+        {
+            "SeikakuID": 6,
+            "PositionHosei": 0.0,
+            "SpeedDownStartDistanceHosei": 0.0,
+            "SpeedDownEndDistanceHosei": 0.0,
+            "WalkStartDistanceHosei": 0.0,
+            "RunStartDistanceHosei": 0.0,
+            "StopKakurituHosei": 0,
+            "KyoroKakurituHosei": 0,
+            "LookOtherPokeKakurituHosei": 0
+        },
+        {
+            "SeikakuID": 18,
+            "PositionHosei": 0.3499999940395355,
+            "SpeedDownStartDistanceHosei": 0.0,
+            "SpeedDownEndDistanceHosei": 0.0,
+            "WalkStartDistanceHosei": 0.0,
+            "RunStartDistanceHosei": 0.0,
+            "StopKakurituHosei": 5,
+            "KyoroKakurituHosei": 0,
+            "LookOtherPokeKakurituHosei": 10
+        },
+        {
+            "SeikakuID": 24,
+            "PositionHosei": 0.0,
+            "SpeedDownStartDistanceHosei": 0.0,
+            "SpeedDownEndDistanceHosei": 0.0,
+            "WalkStartDistanceHosei": 0.0,
+            "RunStartDistanceHosei": 0.0,
+            "StopKakurituHosei": 10,
+            "KyoroKakurituHosei": 10,
+            "LookOtherPokeKakurituHosei": 10
+        },
+        {
+            "SeikakuID": 12,
+            "PositionHosei": 0.0,
+            "SpeedDownStartDistanceHosei": 0.0,
+            "SpeedDownEndDistanceHosei": 0.0,
+            "WalkStartDistanceHosei": 0.0,
+            "RunStartDistanceHosei": 0.0,
+            "StopKakurituHosei": 0,
+            "KyoroKakurituHosei": 0,
+            "LookOtherPokeKakurituHosei": 0
+        }
+    ]
+}

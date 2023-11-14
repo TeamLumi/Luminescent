@@ -1,0 +1,153 @@
+ev_r212b_flag_change:
+	_GET_TIME_ZONE(@LOCALWORK0)
+	_IFVAL_JUMP(@LOCALWORK0, 'EQ', 0, 'ev_r212b_fc_morning')
+	_IFVAL_JUMP(@LOCALWORK0, 'EQ', 1, 'ev_r212b_fc_noon')
+	_IFVAL_JUMP(@LOCALWORK0, 'EQ', 2, 'ev_r212b_fc_evening')
+	_IFVAL_JUMP(@LOCALWORK0, 'EQ', 3, 'ev_r212b_fc_night')
+	_IFVAL_JUMP(@LOCALWORK0, 'EQ', 4, 'ev_r212b_fc_midnight')
+	_END()
+ev_r212b_fc_morning:
+	_JUMP('ev_r212b_fc_evening')
+ev_r212b_fc_noon:
+	_JUMP('ev_r212b_fc_evening')
+ev_r212b_fc_evening:
+	_FLAG_RESET(#FV_R212B_POLICE5_NPC)
+	_FLAG_SET(#FV_R212B_POLICE5_TR)
+	_OBJ_DEL('TR_POLICE_05')
+	_END()
+ev_r212b_fc_night:
+	_JUMP('ev_r212b_fc_midnight')
+ev_r212b_fc_midnight:
+	_FLAG_RESET(#FV_R212B_POLICE5_TR)
+	_FLAG_SET(#FV_R212B_POLICE5_NPC)
+	_OBJ_DEL('R212B_POLICE5')
+	_END()
+ev_r212b_boy1:
+	_EASY_OBJ_MSG('dp_scenario2%142-msg_r212b_boy1_01')
+	_END()
+ev_r212b_gorggeousw:
+	_EASY_OBJ_MSG('dp_scenario2%142-msg_r212b_gorggeousw_01')
+	_END()
+ev_r212b_bigman:
+	_EASY_OBJ_MSG('dp_scenario2%142-msg_r212b_bigman_01')
+	_END()
+ev_r212b_sign1:
+	_EASY_BOARD_MSG('dp_scenario2%142-msg_r212b_sign1_01', 'BOARD_TYPE_ROAD', 0, 1)
+	_END()
+ev_r212b_sign2:
+	_EASY_BOARD_MSG('dp_scenario2%142-msg_r212b_sign2_01', 'BOARD_TYPE_POST', 0)
+	_END()
+ev_r212b_sign3:
+	_EASY_INFOBOARD_MSG('dp_scenario2%142-msg_r212b_sign3_01_1', 'BOARD_TYPE_INFO', 0)
+	_EASY_INFOBOARD_MSG('dp_scenario2%142-msg_r212b_sign3_01_2', 'BOARD_TYPE_INFO', 0)
+	_END()
+ev_r212b_police5:
+	_EASY_OBJ_MSG('dp_scenario2%142-msg_r212b_police_05_01')
+	_END()
+ev_r212b_wake:
+	_TALK_OBJ_START_TURN_NOT()
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_r212b_wake_01', 'The ring is my roiling sea. ♪\nThe towering waves shaped me.\rCrash! Crash! Crasher Wake!\nCrash! Crash! Crasher Wake!\rI’m the tidal wave of power to wash\nyou away!\rPut out the fire, Crasher Wake!\nRun from electricity, Crasher Wake!\rAh, ah, aaaah!\nThe ring is my sea. ♪')
+	_TALK_CLOSE()
+	_OBJ_ANIME('R212B_WAKE', 'anm_r212b_wake_1')
+	_OBJ_ANIME_WAIT()
+	_CHARA_LOOK_LOCK('R212B_WAKE', 'HERO')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_r212b_wake_02', 'Hey! You’re that Trainer I met\nover in Veilstone City, aren’t you?\rThe nature around here is spectacular,\nwouldn’t you say?\rSometimes, it’s good to relax and\nenjoy the scenery.\rIt’s also a perfect opportunity to\npractice your singing! Ha!\rOh, so you’ve gotten the Cobble Badge?\nThat means you must’ve beaten Maylene.\rIn that case, I’m the next stop on\nyour journey! Guhahaha!\rI should be getting back to my Gym.\nI’ll see you there!')
+	_TALK_CLOSE()
+	_CHARA_LOOK_RELEASE('R212B_WAKE')
+	_PLAYER_POS_GET(@SCWK_TEMP0, @SCWK_TEMP1)
+	_IFVAL_CALL(@SCWK_TEMP1, 'EQ', 833, 'ev_r212b_wake_y833')
+	_IFVAL_CALL(@SCWK_TEMP1, 'NE', 833, 'ev_r212b_wake_not_y833')
+	_OBJ_DEL('R212B_WAKE')
+	_FLAG_SET(#2749)
+	_FLAG_RESET(#2868); Enable Barry at the gym
+	_TALK_OBJ_END()
+	_END()
+ev_r212b_wake_y833:
+	_OBJ_ANIME('R212B_WAKE', 'anm_r212b_wake_2_1')
+	_OBJ_ANIME_WAIT()
+	_RET()
+ev_r212b_wake_not_y833:
+	_OBJ_ANIME('R212B_WAKE', 'anm_r212b_wake_2')
+	_OBJ_ANIME_WAIT()
+	_RET()
+anm_r212b_wake_1:
+	_AC_MARK_GYOE()
+	_ACMD_END()
+anm_r212b_wake_2_1:
+	_AC_DIR_R(4)
+	_AC_RIGHT(1, 4)
+	_AC_DIR_U(4)
+	_AC_UP(10, 8)
+	_ACMD_END()
+anm_r212b_wake_2:
+	_AC_DIR_U(4)
+	_AC_UP(10, 8)
+	_ACMD_END()
+ev_r212b_latias:
+	_TALK_OBJ_START()
+	_VOICE_PLAY(385, 0, 0)
+	_CALL('ev_r212b_latias_movement')
+	_OBJ_DEL('R212B_LATIAS')
+	_FLAG_SET(#2847)
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_r212b_latias_runaway', 'Latias ran away...')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_r212b_latias_movement:
+	_GET_REL_POS_HERO('R212B_LATIAS', @SCWK_TEMP0)
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 0, 'ev_r212b_latias_0')
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 1, 'ev_r212b_latias_1')
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 2, 'ev_r212b_latias_2')
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 3, 'ev_r212b_latias_3')
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 4, 'ev_r212b_latias_4')
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 5, 'ev_r212b_latias_5')
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 6, 'ev_r212b_latias_6')
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 7, 'ev_r212b_latias_7')
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 8, 'ev_r212b_latias_8')
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 9, 'ev_r212b_latias_9')
+	_JUMP('ev_r212b_latias_0')
+ev_r212b_latias_0:
+	_PLAYER_POS_GET(@SCWK_TEMP1, @SCWK_TEMP2)
+	_IFVAL_JUMP(@SCWK_TEMP1, 'EQ', 506, 'ev_r212b_latias_4')
+	_IFVAL_JUMP(@SCWK_TEMP2, 'LE', 844, 'ev_r212b_latias_8')
+	_IFVAL_JUMP(@SCWK_TEMP2, 'GE', 844, 'ev_r212b_latias_2')
+	_RET()
+ev_r212b_latias_1:
+	_FLAG_RESET(#2846)
+	_OBJ_ANIME('r212B_LATIAS', 'anm_lati_runaway_2')
+	_OBJ_ANIME_WAIT()
+	_RET()
+ev_r212b_latias_2:
+	_FLAG_RESET(#2846)
+	_OBJ_ANIME('r212B_LATIAS', 'anm_lati_runaway_2')
+	_OBJ_ANIME_WAIT()
+	_RET()
+ev_r212b_latias_3:
+	_FLAG_RESET(#2846)
+	_OBJ_ANIME('r212B_LATIAS', 'anm_lati_runaway_2')
+	_OBJ_ANIME_WAIT()
+	_RET()
+ev_r212b_latias_4:
+	_FLAG_RESET(#2848)
+	_OBJ_ANIME('r212B_LATIAS', 'anm_lati_runaway_4')
+	_OBJ_ANIME_WAIT()
+	_RET()
+ev_r212b_latias_5:
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_r212b_latias_5', 'Dir 5')
+	_RET()
+ev_r212b_latias_6:
+	_OBJ_ANIME('r212B_LATIAS', 'anm_lati_runaway_6')
+	_OBJ_ANIME_WAIT()
+	_RET()
+ev_r212b_latias_7:
+	_OBJ_ANIME('r212B_LATIAS', 'anm_lati_runaway_8')
+	_OBJ_ANIME_WAIT()
+	_RET()
+ev_r212b_latias_8:
+	_OBJ_ANIME('r212B_LATIAS', 'anm_lati_runaway_8')
+	_OBJ_ANIME_WAIT()
+	_RET()
+ev_r212b_latias_9:
+	_OBJ_ANIME('r212B_LATIAS', 'anm_lati_runaway_8')
+	_OBJ_ANIME_WAIT()
+	_RET()

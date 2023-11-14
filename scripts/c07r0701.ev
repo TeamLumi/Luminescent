@@ -1,0 +1,36 @@
+ev_c07r0701_middleman1:
+	_TALK_OBJ_START()
+	_IF_FLAGON_JUMP(#2739, 'ev_c07r0701_middleman1_func1')
+	_IF_FLAGON_JUMP(#2740, 'ev_c07r0701_middleman1_func2')
+	_FLAG_SET(#2740)
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_c07r0701_middleman1_9', 'I found this creepy looking disc\nnear Team Galactic’s building.\rI have no idea what it is...\nIt looks kind of dangerous, actually.\rDo you want it?\nI’d love to have it taken away.')
+	_JUMP('ev_c07r0701_middleman1_func3')
+ev_c07r0701_middleman1_func1:
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_c07r0701_middleman1_1', 'Team Galactic’s building bugs me so\nmuch, I can’t sleep well.\rIt’s so bizarre, like a robot that’s\nabout to start moving.')
+	_JUMP('ev_c07r0701_middleman1_func4')
+ev_c07r0701_middleman1_func2:
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_c07r0701_middleman1_2', 'I found this creepy looking disc\nnear Team Galactic’s building.\rI have no idea what it is...\nIt looks kind of dangerous, actually.\rDo you want it?\nI’d love to have it taken away.')
+	_JUMP('ev_c07r0701_middleman1_func3')
+ev_c07r0701_middleman1_func3:
+	_YES_NO_WIN(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_c07r0701_middleman1_func5')
+	_JUMP('ev_c07r0701_middleman1_func6')
+ev_c07r0701_middleman1_func4:
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c07r0701_middleman1_func5:
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_c07r0701_middleman1_4', 'Excellent! Thanks!\nThough I wonder what the disc is for...')
+	_LDVAL(@SCWK_TEMP0, 324)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_CHG_COMMON_SCR('ev_item_event')
+	_FLAG_SET(#2739); 151
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c07r0701_middleman1_func6:
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_c07r0701_middleman1_3', 'You don’t? Ahh...\nMaybe I should sell it to somebody...')
+	_JUMP('ev_c07r0701_middleman1_func3')
+ev_c07r0701_middlewoman1:
+	_EASY_OBJ_MSG('dp_scenario2%106-msg_c07r0701_middlewoman1_01')
+	_END()

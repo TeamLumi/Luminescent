@@ -1,0 +1,1215 @@
+ev_fld_item_238:
+	_FLD_ITEM_EVENT(463, 1)
+	_LDVAL(@TOWNMAP_GUIDE_SEQUENCE, 10000)
+	_END()
+ev_fld_item_236:
+	_FLAG_SET(#FE_HIDEN_02_GET)
+	_FLD_ITEM_EVENT(421, 1)
+	_END()
+ev_fld_item_161:
+	_FLAG_SET(#FE_HIDEN_08_GET)
+	_IFVAL_CALL(@TOWNMAP_GUIDE_SEQUENCE, 'EQ', 10800, 'ev_fld_item_161_anaunce_upd')
+	_FLD_ITEM_EVENT(427, 1)
+	_END()
+ev_fld_item_161_anaunce_upd:
+	_LDVAL(@TOWNMAP_GUIDE_SEQUENCE, 10900)
+	_RET()
+ev_fld_item_237:
+	_LDVAL(@TOWNMAP_GUIDE_SEQUENCE, 10200)
+	_FLD_ITEM_EVENT(440, 1)
+	_END()
+ev_fld_item_256:
+	_FLAG_SET(#FE_C07_ITEM_GET4)
+	_FLD_ITEM_EVENT(251, 1)
+	_END()
+ev_fld_item_294:
+	_FLAG_SET(#FE_D10R0902_ITEM_GET)
+	_FLD_ITEM_EVENT(112, 1)
+	_END()
+ev_fld_item_295:
+	_FLAG_SET(#FE_D10R0303_ITEM_GET)
+	_FLD_ITEM_EVENT(225, 1)
+	_END()
+ev_fld_item_296:
+	_FLAG_SET(#FE_D10R0303_ITEM_GET_KINOMI1)
+	_FLD_ITEM_EVENT(204, 1)
+	_END()
+ev_fld_item_297:
+	_FLAG_SET(#FE_D10R0303_ITEM_GET_KINOMI2)
+	_FLD_ITEM_EVENT(205, 1)
+	_END()
+ev_fld_item_298:
+	_FLAG_SET(#FE_D10R0401_ITEM_GET_KINOMI1)
+	_FLD_ITEM_EVENT(201, 1)
+	_END()
+ev_fld_item_299:
+	_FLAG_SET(#FE_D10R0401_ITEM_GET_KINOMI2)
+	_FLD_ITEM_EVENT(202, 1)
+	_END()
+ev_fld_item_300:
+	_FLAG_SET(#FE_D10R0401_ITEM_GET_KINOMI3)
+	_FLD_ITEM_EVENT(250, 1)
+	_END()
+ev_fld_item_301:
+	_FLAG_SET(#FE_D10R0402_ITEM_GET_KINOMI1)
+	_FLD_ITEM_EVENT(208, 1)
+	_END()
+ev_fld_item_302:
+	_FLAG_SET(#FE_D10R0402_ITEM_GET_KINOMI2)
+	_FLD_ITEM_EVENT(209, 1)
+	_END()
+ev_fld_item_303:
+	_FLAG_SET(#FE_D10R0402_ITEM_GET_KINOMI3)
+	_FLD_ITEM_EVENT(210, 1)
+	_END()
+ev_fld_item_304:
+	_FLAG_SET(#FE_D10R0403_ITEM_GET_KINOMI1)
+	_FLD_ITEM_EVENT(211, 1)
+	_END()
+ev_fld_item_305:
+	_FLAG_SET(#FE_D10R0403_ITEM_GET_KINOMI2)
+	_FLD_ITEM_EVENT(212, 1)
+	_END()
+ev_fld_item_306:
+	_FLAG_SET(#FE_D10R0403_ITEM_GET_KINOMI3)
+	_FLD_ITEM_EVENT(686, 1)
+	_END()
+ev_fld_item2:
+	_TALK_OBJ_START()
+	_SE_WAIT('UI_COMMON_SELECT')
+	_GET_FORM(@SCWK_ANSWER)
+	_IFVAL_CALL(@SCWK_ANSWER, 'EQ', 0, 'ev_itemget_hiroianime')
+	_LDWK(@SCWK_TEMP0, @SCWK_REG0)
+	_LDWK(@SCWK_TEMP1, @SCWK_REG1)
+	_ADD_ITEM_CHK(@SCWK_TEMP0, @SCWK_TEMP1, @SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_itemget_flditem_true')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_itemget_flditem_false')
+	_END()
+ev_fld_item_end:
+	_TALK_CLOSE()
+	_AC_ANIM_RELEASE('HERO')
+	_TALK_OBJ_END()
+	_END()
+ev_itemget_flditem_true:
+	_CHG_COMMON_SCR('ev_pocket_me_set')
+	_OBJ_DEL(@SCWK_TARGET_OBJID)
+	_ADD_ITEM(@SCWK_TEMP0, @SCWK_TEMP1, @SCWK_ANSWER)
+	_UG_BALLITEM_CHECK(@SCWK_TEMP0)
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 463, 'ev_itemget_fld_item_soukonokagi')
+	_WAZA_ITEM_CHK(@SCWK_TEMP0, @SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_itemget_flditem_yes_wazam')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_itemget_flditem_no_wazam')
+	_AC_ANIM_RELEASE('HERO')
+	_END()
+ev_itemget_flditem_true_2:
+	_AUSU_ITEM_CHECK(@SCWK_TEMP0, @SCWK_ANSWER)
+	_IFVAL_CALL(@SCWK_ANSWER, 'EQ', 1, 'ev_itemget_fld_item_item_ausunopureeto')
+	_PLAYER_NAME(0)
+	_ITEM_NAME(1, @SCWK_TEMP0, 1)
+	_GET_POCKET_NO(@SCWK_TEMP0, @SCWK_ANSWER)
+	_SWITCH(@SCWK_ANSWER)
+	_CASE_JUMP(8, 'flditem_bag_poke_11')
+	_CASE_JUMP(4, 'flditem_bag_poke_10')
+	_CASE_JUMP(3, 'flditem_bag_poke_15')
+	_CASE_JUMP(0, 'flditem_bag_poke_14')
+	_CASE_JUMP(1, 'flditem_bag_poke_16')
+	_CASE_JUMP(2, 'flditem_bag_poke_17')
+	_CASE_JUMP(6, 'flditem_bag_poke_13')
+	_CASE_JUMP(5, 'flditem_bag_poke_12')
+	_END()
+flditem_bag_poke_10:
+	_GET_POCKET_NO(@SCWK_TEMP0, @SCWK_ANSWER)
+	_POCKET_NAME(2, @SCWK_ANSWER)
+	_JUMP('ev_itemget_flditem_common_10')
+	_END()
+flditem_bag_poke_11:
+	_GET_POCKET_NO(@SCWK_TEMP0, @SCWK_ANSWER)
+	_POCKET_NAME(2, @SCWK_ANSWER)
+	_JUMP('ev_itemget_flditem_common_10')
+	_END()
+flditem_bag_poke_12:
+	_GET_POCKET_NO(@SCWK_TEMP0, @SCWK_ANSWER)
+	_POCKET_NAME(2, @SCWK_ANSWER)
+	_JUMP('ev_itemget_flditem_common_10')
+	_END()
+flditem_bag_poke_13:
+	_GET_POCKET_NO(@SCWK_TEMP0, @SCWK_ANSWER)
+	_POCKET_NAME(2, @SCWK_ANSWER)
+	_JUMP('ev_itemget_flditem_common_10')
+	_END()
+flditem_bag_poke_14:
+	_GET_POCKET_NO(@SCWK_TEMP0, @SCWK_ANSWER)
+	_POCKET_NAME(2, @SCWK_ANSWER)
+	_JUMP('ev_itemget_flditem_common_10')
+	_END()
+flditem_bag_poke_15:
+	_GET_POCKET_NO(@SCWK_TEMP0, @SCWK_ANSWER)
+	_POCKET_NAME(2, @SCWK_ANSWER)
+	_JUMP('ev_itemget_flditem_common_10')
+	_END()
+flditem_bag_poke_16:
+	_GET_POCKET_NO(@SCWK_TEMP0, @SCWK_ANSWER)
+	_POCKET_NAME(2, @SCWK_ANSWER)
+	_JUMP('ev_itemget_flditem_common_10')
+	_END()
+flditem_bag_poke_17:
+	_GET_POCKET_NO(@SCWK_TEMP0, @SCWK_ANSWER)
+	_POCKET_NAME(2, @SCWK_ANSWER)
+	_JUMP('ev_itemget_flditem_common_10')
+	_END()
+ev_itemget_flditem_common_10:
+	_TALKMSG('dp_scenario3%93-msg_fld_item_get_10')
+	_LAST_KEYWAIT()
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 420, 'ev_poketch_soft_app_text_h01')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 421, 'ev_poketch_soft_app_text_h02')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 422, 'ev_poketch_soft_app_text_h03')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 423, 'ev_poketch_soft_app_text_h04')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 424, 'ev_poketch_soft_app_text_h05')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 425, 'ev_poketch_soft_app_text_h06')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 426, 'ev_poketch_soft_app_text_h07')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 427, 'ev_poketch_soft_app_text_h08')
+	_LDVAL(@SCWK_ANSWER, 1)
+	_JUMP('ev_fld_item_end')
+	_END()
+ev_itemget_flditem_yes_wazam:
+	_PLAYER_NAME(0)
+	_ITEM_NAME(1, @SCWK_TEMP0, 1)
+	_ITEM_WAZA_NAME(2, @SCWK_TEMP0)
+	_TALKMSG('dp_scenario3%93-msg_fld_item_get_07')
+	_ME_WAIT()
+	_JUMP('ev_itemget_flditem_true_2')
+	_END()
+ev_itemget_flditem_no_wazam:
+	_PLAYER_NAME(0)
+	_ITEM_NAME(1, @SCWK_TEMP0, 1)
+	_TALKMSG('dp_scenario3%93-msg_fld_item_get_04')
+	_ME_WAIT()
+	_JUMP('ev_itemget_flditem_true_2')
+	_END()
+ev_itemget_flditem_false:
+	_ITEM_NAME(0, @SCWK_TEMP0, 70)
+	_TALKMSG('dp_scenario3%91-msg_event_item_get_03')
+	_LAST_KEYWAIT()
+	_LDVAL(@SCWK_ANSWER, 0)
+	_JUMP('ev_fld_item_end')
+	_END()
+ev_itemget_fld_item_soukonokagi:
+	_SET_SYS_FLAG($SYS_FLAG_BGM_D26)
+	_RET()
+ev_itemget_fld_item_item_ausunopureeto:
+	_CHG_COMMON_SCR('ev_plate_msg')
+	_RET()
+ev_itemget_hiroianime:
+	_AC_ANIM_LOCK('HERO')
+	_OBJ_ANIME('HERO', 'anm_item_get_pose_a')
+	_RET()
+anm_item_get_pose_a:
+	_AC_ANIME_DURATION(0.130000)
+	_AC_INDEX_ANIME(12, 1)
+	_AC_WAIT(24)
+	_AC_INDEX_ANIME(74, 1)
+	_ACMD_END()
+ev_fld_item_0:
+	_FLD_ITEM_EVENT(74, 1)
+	_END()
+ev_fld_item_1:
+	_FLD_ITEM_EVENT(232, 1)
+	_END()
+ev_fld_item_2:
+	_FLD_ITEM_EVENT(416, 1)
+	_END()
+ev_fld_item_3:
+	_FLD_ITEM_EVENT(74, 1)
+	_END()
+ev_fld_item_4:
+	_FLD_ITEM_EVENT(56, 1)
+	_END()
+ev_fld_item_5:
+	_FLD_ITEM_EVENT(373, 1)
+	_END()
+ev_fld_item_6:
+	_FLD_ITEM_EVENT(80, 1)
+	_END()
+ev_fld_item_7:
+	_FLD_ITEM_EVENT(400, 1)
+	_END()
+ev_fld_item_8:
+	_FLD_ITEM_EVENT(267, 1)
+	_END()
+ev_fld_item_9:
+	_FLD_ITEM_EVENT(360, 1)
+	_END()
+ev_fld_item_10:
+	_FLD_ITEM_EVENT(343, 1)
+	_END()
+ev_fld_item_11:
+	_FLD_ITEM_EVENT(872, 1)
+	_END()
+ev_fld_item_12:
+	_FLD_ITEM_EVENT(243, 1)
+	_END()
+ev_fld_item_13:
+	_FLD_ITEM_EVENT(316, 1)
+	_END()
+ev_fld_item_14:
+	_FLD_ITEM_EVENT(406, 1)
+	_END()
+ev_fld_item_15:
+	_FLD_ITEM_EVENT(91, 1)
+	_END()
+ev_fld_item_16:
+	_FLD_ITEM_EVENT(108, 1)
+	_END()
+ev_fld_item_17:
+	_JUMP('ev_fld_item_236')
+	_END()
+ev_fld_item_18:
+	_FLD_ITEM_EVENT(2, 1)
+	_END()
+ev_fld_item_19:
+	_FLD_ITEM_EVENT(49, 1)
+	_END()
+ev_fld_item_20:
+	_FLD_ITEM_EVENT(266, 1)
+	_END()
+ev_fld_item_21:
+	_FLD_ITEM_EVENT(78, 1)
+	_END()
+ev_fld_item_22:
+	_FLD_ITEM_EVENT(106, 1)
+	_END()
+ev_fld_item_23:
+	_FLD_ITEM_EVENT(351, 1)
+	_END()
+ev_fld_item_24:
+	_FLD_ITEM_EVENT(242, 1)
+	_END()
+ev_fld_item_25:
+	_FLD_ITEM_EVENT(361, 1)
+	_END()
+ev_fld_item_26:
+	_FLD_ITEM_EVENT(409, 1)
+	_END()
+ev_fld_item_27:
+	_FLD_ITEM_EVENT(222, 1)
+	_END()
+ev_fld_item_28:
+	_FLD_ITEM_EVENT(18, 1)
+	_END()
+ev_fld_item_29:
+	_FLD_ITEM_EVENT(22, 1)
+	_END()
+ev_fld_item_30:
+	_FLD_ITEM_EVENT(6, 1)
+	_END()
+ev_fld_item_31:
+	_FLD_ITEM_EVENT(85, 1)
+	_END()
+ev_fld_item_32:
+	_FLD_ITEM_EVENT(392, 1)
+	_END()
+ev_fld_item_33:
+	_FLD_ITEM_EVENT(17, 1)
+	_END()
+ev_fld_item_34:
+	_FLD_ITEM_EVENT(362, 1)
+	_END()
+ev_fld_item_35:
+	_FLD_ITEM_EVENT(49, 1)
+	_END()
+ev_fld_item_36:
+	_FLD_ITEM_EVENT(315, 1)
+	_END()
+ev_fld_item_37:
+	_FLD_ITEM_EVENT(82, 1)
+	_END()
+ev_fld_item_38:
+	_FLD_ITEM_EVENT(73, 1)
+	_END()
+ev_fld_item_39:
+	_FLD_ITEM_EVENT(72, 1)
+	_END()
+ev_fld_item_40:
+	_FLD_ITEM_EVENT(75, 1)
+	_END()
+ev_fld_item_41:
+	_FLD_ITEM_EVENT(74, 1)
+	_END()
+ev_fld_item_42:
+	_FLD_ITEM_EVENT(46, 1)
+	_END()
+ev_fld_item_43:
+	_FLD_ITEM_EVENT(109, 1)
+	_END()
+ev_fld_item_44:
+	_FLD_ITEM_EVENT(29, 1)
+	_END()
+ev_fld_item_45:
+	_FLD_ITEM_EVENT(77, 1)
+	_END()
+ev_fld_item_46:
+	_FLD_ITEM_EVENT(213, 1)
+	_END()
+ev_fld_item_47:
+	_FLD_ITEM_EVENT(78, 1)
+	_END()
+ev_fld_item_48:
+	_FLD_ITEM_EVENT(135, 1)
+	_END()
+ev_fld_item_49:
+	_FLD_ITEM_EVENT(136, 1)
+	_END()
+ev_fld_item_50:
+	_FLD_ITEM_EVENT(329, 1)
+	_END()
+ev_fld_item_51:
+	_FLD_ITEM_EVENT(50, 1)
+	_END()
+ev_fld_item_52:
+	_FLD_ITEM_EVENT(396, 1)
+	_END()
+ev_fld_item_53:
+	_FLD_ITEM_EVENT(78, 1)
+	_END()
+ev_fld_item_54:
+	_FLD_ITEM_EVENT(1606, 1)
+	_END()
+ev_fld_item_55:
+	_FLD_ITEM_EVENT(81, 1)
+	_END()
+ev_fld_item_56:
+	_FLD_ITEM_EVENT(28, 1)
+	_END()
+ev_fld_item_57:
+	_FLD_ITEM_EVENT(537, 1)
+	_END()
+ev_fld_item_58:
+	_FLD_ITEM_EVENT(269, 1)
+	_END()
+ev_fld_item_59:
+	_FLD_ITEM_EVENT(41, 1)
+	_END()
+ev_fld_item_60:
+	_FLD_ITEM_EVENT(23, 1)
+	_END()
+ev_fld_item_61:
+	_FLD_ITEM_EVENT(237, 1)
+	_END()
+ev_fld_item_62:
+	_FLD_ITEM_EVENT(331, 1)
+	_END()
+ev_fld_item_63:
+	_FLD_ITEM_EVENT(314, 1)
+	_END()
+ev_fld_item_64:
+	_FLD_ITEM_EVENT(92, 1)
+	_END()
+ev_fld_item_65:
+	_FLAG_SET(#FE_HIDEN_05_GET)
+	_FLD_ITEM_EVENT(424, 1)
+	_END()
+ev_fld_item_66:
+	_FLD_ITEM_EVENT(50, 1)
+	_END()
+ev_fld_item_67:
+	_FLD_ITEM_EVENT(77, 1)
+	_END()
+ev_fld_item_68:
+	_FLD_ITEM_EVENT(395, 1)
+	_END()
+ev_fld_item_69:
+	_FLD_ITEM_EVENT(326, 1)
+	_END()
+ev_fld_item_70:
+	_FLD_ITEM_EVENT(52, 1)
+	_END()
+ev_fld_item_71:
+	_FLD_ITEM_EVENT(41, 1)
+	_END()
+ev_fld_item_72:
+	_FLD_ITEM_EVENT(23, 1)
+	_END()
+ev_fld_item_73:
+	_FLD_ITEM_EVENT(50, 1)
+	_END()
+ev_fld_item_74:
+	_FLD_ITEM_EVENT(235, 1)
+	_END()
+ev_fld_item_75:
+	_FLD_ITEM_EVENT(2, 1)
+	_END()
+ev_fld_item_76:
+	_FLD_ITEM_EVENT(49, 1)
+	_END()
+ev_fld_item_77:
+	_FLD_ITEM_EVENT(92, 1)
+	_END()
+ev_fld_item_78:
+	_FLD_ITEM_EVENT(23, 1)
+	_END()
+ev_fld_item_79:
+	_FLD_ITEM_EVENT(108, 1)
+	_END()
+ev_fld_item_80:
+	_FLD_ITEM_EVENT(234, 1)
+	_END()
+ev_fld_item_81:
+	_FLD_ITEM_EVENT(372, 1)
+	_END()
+ev_fld_item_82:
+	_FLD_ITEM_EVENT(370, 1)
+	_END()
+ev_fld_item_83:
+	_FLD_ITEM_EVENT(277, 1)
+	_END()
+ev_fld_item_84:
+	_FLD_ITEM_EVENT(223, 1)
+	_END()
+ev_fld_item_85:
+	_FLD_ITEM_EVENT(366, 1)
+	_END()
+ev_fld_item_86:
+	_FLD_ITEM_EVENT(319, 1)
+	_END()
+ev_fld_item_87:
+	_FLD_ITEM_EVENT(398, 1)
+	_END()
+ev_fld_item_88:
+	_FLD_ITEM_EVENT(268, 1)
+	_END()
+ev_fld_item_89:
+	_FLD_ITEM_EVENT(214, 1)
+	_END()
+ev_fld_item_90:
+	_FLD_ITEM_EVENT(85, 1)
+	_END()
+ev_fld_item_91:
+	_FLD_ITEM_EVENT(2, 1)
+	_END()
+ev_fld_item_92:
+	_FLD_ITEM_EVENT(50, 1)
+	_END()
+ev_fld_item_93:
+	_FLD_ITEM_EVENT(328, 1)
+	_END()
+ev_fld_item_94:
+	_FLD_ITEM_EVENT(269, 1)
+	_END()
+ev_fld_item_95:
+	_FLD_ITEM_EVENT(332, 1)
+	_END()
+ev_fld_item_96:
+	_FLD_ITEM_EVENT(397, 1)
+	_END()
+ev_fld_item_97:
+	_FLD_ITEM_EVENT(89, 1)
+	_END()
+ev_fld_item_98:
+	_FLAG_RESET(#2857); Fullmoon island rock
+	_FLD_ITEM_EVENT(453, 1)
+	_END()
+ev_fld_item_99:
+	_FLD_ITEM_EVENT(51, 1)
+	_END()
+ev_fld_item_100:
+	_FLD_ITEM_EVENT(78, 1)
+	_END()
+ev_fld_item_101:
+	_FLD_ITEM_EVENT(27, 1)
+	_END()
+ev_fld_item_102:
+	_FLD_ITEM_EVENT(78, 1)
+	_END()
+ev_fld_item_103:
+	_FLD_ITEM_EVENT(51, 1)
+	_END()
+ev_fld_item_104:
+	_FLD_ITEM_EVENT(23, 1)
+	_END()
+ev_fld_item_105:
+	_FLD_ITEM_EVENT(92, 1)
+	_END()
+ev_fld_item_106:
+	_FLD_ITEM_EVENT(107, 1)
+	_END()
+ev_fld_item_107:
+	_FLD_ITEM_EVENT(47, 1)
+	_END()
+ev_fld_item_108:
+	_FLD_ITEM_EVENT(49, 1)
+	_END()
+ev_fld_item_109:
+	_FLD_ITEM_EVENT(50, 1)
+	_END()
+ev_fld_item_110:
+	_FLD_ITEM_EVENT(2, 1)
+	_END()
+ev_fld_item_111:
+	_FLD_ITEM_EVENT(29, 1)
+	_END()
+ev_fld_item_112:
+	_FLD_ITEM_EVENT(321, 1)
+	_END()
+ev_fld_item_113:
+	_FLD_ITEM_EVENT(49, 1)
+	_END()
+ev_fld_item_114:
+	_FLD_ITEM_EVENT(849, 1)
+	_END()
+ev_fld_item_115:
+	_FLD_ITEM_EVENT(221, 1)
+	_END()
+ev_fld_item_116:
+	_FLD_ITEM_EVENT(359, 1)
+	_END()
+ev_fld_item_117:
+	_FLD_ITEM_EVENT(230, 1)
+	_END()
+ev_fld_item_118:
+	_FLD_ITEM_EVENT(108, 1)
+	_END()
+ev_fld_item_119:
+	_FLD_ITEM_EVENT(286, 1)
+	_END()
+ev_fld_item_120:
+	_FLD_ITEM_EVENT(39, 1)
+	_END()
+ev_fld_item_121:
+	_FLD_ITEM_EVENT(50, 1)
+	_END()
+ev_fld_item_122:
+	_FLD_ITEM_EVENT(386, 1)
+	_END()
+ev_fld_item_123:
+	_FLD_ITEM_EVENT(321, 1)
+	_END()
+ev_fld_item_124:
+	_FLD_ITEM_EVENT(74, 1)
+	_END()
+ev_fld_item_125:
+	_FLD_ITEM_EVENT(77, 1)
+	_END()
+ev_fld_item_126:
+	_FLD_ITEM_EVENT(78, 1)
+	_END()
+ev_fld_item_127:
+	_FLD_ITEM_EVENT(28, 1)
+	_END()
+ev_fld_item_128:
+	_FLD_ITEM_EVENT(40, 1)
+	_END()
+ev_fld_item_129:
+	_FLD_ITEM_EVENT(350, 1)
+	_END()
+ev_fld_item_130:
+	_FLD_ITEM_EVENT(2, 1)
+	_END()
+ev_fld_item_131:
+	_FLD_ITEM_EVENT(13, 1)
+	_END()
+ev_fld_item_132:
+	_FLD_ITEM_EVENT(24, 1)
+	_END()
+ev_fld_item_133:
+	_FLD_ITEM_EVENT(45, 1)
+	_END()
+ev_fld_item_134:
+	_FLD_ITEM_EVENT(72, 1)
+	_END()
+ev_fld_item_135:
+	_FLD_ITEM_EVENT(283, 1)
+	_END()
+ev_fld_item_136:
+	_FLD_ITEM_EVENT(107, 1)
+	_END()
+ev_fld_item_137:
+	_FLD_ITEM_EVENT(50, 1)
+	_END()
+ev_fld_item_138:
+	_FLD_ITEM_EVENT(247, 1)
+	_END()
+ev_fld_item_139:
+	_FLD_ITEM_EVENT(54, 1)
+	_END()
+ev_fld_item_140:
+	_FLD_ITEM_EVENT(54, 1)
+	_END()
+ev_fld_item_141:
+	_FLD_ITEM_EVENT(54, 1)
+	_END()
+ev_fld_item_142:
+	_FLD_ITEM_EVENT(54, 1)
+	_END()
+ev_fld_item_143:
+	_FLD_ITEM_EVENT(417, 1)
+	_END()
+ev_fld_item_144:
+	_FLD_ITEM_EVENT(376, 1)
+	_END()
+ev_fld_item_145:
+	_FLD_ITEM_EVENT(324, 1)
+	_END()
+ev_fld_item_146:
+	_FLD_ITEM_EVENT(29, 1)
+	_END()
+ev_fld_item_147:
+	_FLD_ITEM_EVENT(75, 1)
+	_END()
+ev_fld_item_148:
+	_FLD_ITEM_EVENT(348, 1)
+	_END()
+ev_fld_item_149:
+	_FLD_ITEM_EVENT(41, 1)
+	_END()
+ev_fld_item_150:
+	_FLD_ITEM_EVENT(46, 1)
+	_END()
+ev_fld_item_151:
+	_FLD_ITEM_EVENT(272, 1)
+	_END()
+ev_fld_item_152:
+	_FLD_ITEM_EVENT(440, 1)
+	_END()
+ev_fld_item_153:
+	_FLD_ITEM_EVENT(52, 1)
+	_END()
+ev_fld_item_154:
+	_FLD_ITEM_EVENT(365, 1)
+	_END()
+ev_fld_item_155:
+	_FLD_ITEM_EVENT(365, 1)
+	_END()
+ev_fld_item_156:
+	_FLD_ITEM_EVENT(352, 1)
+	_END()
+ev_fld_item_157:
+	_FLD_ITEM_EVENT(352, 1)
+	_END()
+ev_fld_item_158:
+	_FLD_ITEM_EVENT(341, 1)
+	_END()
+ev_fld_item_159:
+	_FLD_ITEM_EVENT(341, 1)
+	_END()
+ev_fld_item_160:
+	_FLD_ITEM_EVENT(327, 1)
+	_END()
+ev_fld_item_161_1:
+	_FLD_ITEM_EVENT(244, 1)
+	_END()
+ev_fld_item_162:
+	_FLD_ITEM_EVENT(380, 1)
+	_END()
+ev_fld_item_163:
+	_FLD_ITEM_EVENT(47, 1)
+	_END()
+ev_fld_item_164:
+	_FLD_ITEM_EVENT(2, 1)
+	_END()
+ev_fld_item_165:
+	_FLD_ITEM_EVENT(2, 1)
+	_END()
+ev_fld_item_166:
+	_FLD_ITEM_EVENT(17, 1)
+	_END()
+ev_fld_item_167:
+	_FLD_ITEM_EVENT(218, 1)
+	_END()
+ev_fld_item_168:
+	_FLD_ITEM_EVENT(251, 1)
+	_END()
+ev_fld_item_169:
+	_FLD_ITEM_EVENT(385, 1)
+	_END()
+ev_fld_item_170:
+	_FLD_ITEM_EVENT(254, 1)
+	_END()
+ev_fld_item_171:
+	_FLD_ITEM_EVENT(45, 1)
+	_END()
+ev_fld_item_172:
+	_FLD_ITEM_EVENT(22, 1)
+	_END()
+ev_fld_item_173:
+	_FLD_ITEM_EVENT(336, 1)
+	_END()
+ev_fld_item_174:
+	_FLD_ITEM_EVENT(239, 1)
+	_END()
+ev_fld_item_175:
+	_FLD_ITEM_EVENT(280, 1)
+	_END()
+ev_fld_item_176:
+	_FLD_ITEM_EVENT(335, 1)
+	_END()
+ev_fld_item_177:
+	_FLD_ITEM_EVENT(26, 1)
+	_END()
+ev_fld_item_178:
+	_FLD_ITEM_EVENT(79, 1)
+	_END()
+ev_fld_item_179:
+	_FLD_ITEM_EVENT(84, 1)
+	_END()
+ev_fld_item_180:
+	_FLD_ITEM_EVENT(245, 1)
+	_END()
+ev_fld_item_181:
+	_FLD_ITEM_EVENT(51, 1)
+	_END()
+ev_fld_item_182:
+	_FLD_ITEM_EVENT(401, 1)
+	_END()
+ev_fld_item_183:
+	_FLD_ITEM_EVENT(83, 1)
+	_END()
+ev_fld_item_184:
+	_FLD_ITEM_EVENT(238, 1)
+	_END()
+ev_fld_item_185:
+	_FLD_ITEM_EVENT(233, 1)
+	_END()
+ev_fld_item_186:
+	_FLD_ITEM_EVENT(47, 1)
+	_END()
+ev_fld_item_187:
+	_FLD_ITEM_EVENT(26, 1)
+	_END()
+ev_fld_item_188:
+	_FLD_ITEM_EVENT(246, 1)
+	_END()
+ev_fld_item_189:
+	_FLD_ITEM_EVENT(38, 1)
+	_END()
+ev_fld_item_190:
+	_FLD_ITEM_EVENT(48, 1)
+	_END()
+ev_fld_item_191:
+	_FLD_ITEM_EVENT(402, 1)
+	_END()
+ev_fld_item_192:
+	_FLD_ITEM_EVENT(248, 1)
+	_END()
+ev_fld_item_193:
+	_FLD_ITEM_EVENT(346, 1)
+	_END()
+ev_fld_item_194:
+	_FLD_ITEM_EVENT(374, 1)
+	_END()
+ev_fld_item_195:
+	_FLD_ITEM_EVENT(50, 1)
+	_END()
+ev_fld_item_196:
+	_FLD_ITEM_EVENT(25, 1)
+	_END()
+ev_fld_item_197:
+	_FLD_ITEM_EVENT(91, 1)
+	_END()
+ev_fld_item_198:
+	_FLD_ITEM_EVENT(110, 1)
+	_END()
+ev_fld_item_199:
+	_FLD_ITEM_EVENT(28, 1)
+	_END()
+ev_fld_item_200:
+	_FLD_ITEM_EVENT(388, 1)
+	_END()
+ev_fld_item_201:
+	_FLD_ITEM_EVENT(77, 1)
+	_END()
+ev_fld_item_202:
+	_FLD_ITEM_EVENT(270, 1)
+	_END()
+ev_fld_item_203:
+	_FLD_ITEM_EVENT(349, 1)
+	_END()
+ev_fld_item_204:
+	_FLD_ITEM_EVENT(25, 1)
+	_END()
+ev_fld_item_205:
+	_FLD_ITEM_EVENT(228, 1)
+	_END()
+ev_fld_item_206:
+	_FLD_ITEM_EVENT(317, 1)
+	_END()
+ev_fld_item_207:
+	_FLD_ITEM_EVENT(415, 1)
+	_END()
+ev_fld_item_208:
+	_FLD_ITEM_EVENT(75, 1)
+	_END()
+ev_fld_item_209:
+	_FLD_ITEM_EVENT(72, 1)
+	_END()
+ev_fld_item_210:
+	_FLD_ITEM_EVENT(339, 1)
+	_END()
+ev_fld_item_211:
+	_FLD_ITEM_EVENT(396, 1)
+	_END()
+ev_fld_item_212:
+	_FLD_ITEM_EVENT(250, 1)
+	_END()
+ev_fld_item_213:
+	_FLD_ITEM_EVENT(318, 1)
+	_END()
+ev_fld_item_214:
+	_FLD_ITEM_EVENT(338, 1)
+	_END()
+ev_fld_item_215:
+	_FLD_ITEM_EVENT(40, 1)
+	_END()
+ev_fld_item_216:
+	_FLD_ITEM_EVENT(347, 1)
+	_END()
+ev_fld_item_217:
+	_FLD_ITEM_EVENT(40, 1)
+	_END()
+ev_fld_item_218:
+	_FLD_ITEM_EVENT(11, 1)
+	_END()
+ev_fld_item_219:
+	_FLD_ITEM_EVENT(414, 1)
+	_END()
+ev_fld_item_220:
+	_FLD_ITEM_EVENT(11, 1)
+	_END()
+ev_fld_item_221:
+	_FLD_ITEM_EVENT(27, 1)
+	_END()
+ev_fld_item_222:
+	_FLD_ITEM_EVENT(411, 1)
+	_END()
+ev_fld_item_223:
+	_FLD_ITEM_EVENT(389, 1)
+	_END()
+ev_fld_item_224:
+	_FLD_ITEM_EVENT(52, 1)
+	_END()
+ev_fld_item_225:
+	_FLD_ITEM_EVENT(25, 1)
+	_END()
+ev_fld_item_226:
+	_FLD_ITEM_EVENT(333, 1)
+	_END()
+ev_fld_item_227:
+	_FLD_ITEM_EVENT(28, 1)
+	_END()
+ev_fld_item_228:
+	_FLD_ITEM_EVENT(40, 1)
+	_END()
+ev_fld_item_229:
+	_FLD_ITEM_EVENT(73, 1)
+	_END()
+ev_fld_item_230:
+	_FLD_ITEM_EVENT(368, 1)
+	_END()
+ev_fld_item_231:
+	_FLD_ITEM_EVENT(74, 1)
+	_END()
+ev_fld_item_232:
+	_FLD_ITEM_EVENT(29, 1)
+	_END()
+ev_fld_item_233:
+	_FLD_ITEM_EVENT(84, 1)
+	_END()
+ev_fld_item_234:
+	_FLD_ITEM_EVENT(358, 1)
+	_END()
+ev_fld_item_235:
+	_FLD_ITEM_EVENT(266, 1)
+	_END()
+ev_fld_item_236_1:
+	_FLD_ITEM_EVENT(46, 1)
+	_END()
+ev_fld_item_237_1:
+	_FLD_ITEM_EVENT(50, 1)
+	_END()
+ev_fld_item_238_1:
+	_FLD_ITEM_EVENT(77, 1)
+	_END()
+ev_fld_item_239:
+	_FLD_ITEM_EVENT(72, 1)
+	_END()
+ev_fld_item_240:
+	_FLD_ITEM_EVENT(296, 1)
+	_END()
+ev_fld_item_241:
+	_FLD_ITEM_EVENT(284, 1)
+	_END()
+ev_fld_item_242:
+	_FLD_ITEM_EVENT(327, 1)
+	_END()
+ev_fld_item_243:
+	_FLD_ITEM_EVENT(27, 1)
+	_END()
+ev_fld_item_244:
+	_FLD_ITEM_EVENT(39, 1)
+	_END()
+ev_fld_item_245:
+	_FLD_ITEM_EVENT(410, 1)
+	_END()
+ev_fld_item_246:
+	_FLD_ITEM_EVENT(240, 1)
+	_END()
+ev_fld_item_247:
+	_FLD_ITEM_EVENT(326, 1)
+	_END()
+ev_fld_item_248:
+	_FLD_ITEM_EVENT(219, 1)
+	_END()
+ev_fld_item_249:
+	_FLD_ITEM_EVENT(849, 1)
+	_END()
+ev_fld_item_250:
+	_FLD_ITEM_EVENT(849, 1)
+	_END()
+ev_fld_item_251:
+	_FLD_ITEM_EVENT(17, 1)
+	_END()
+ev_fld_item_252:
+	_FLD_ITEM_EVENT(2, 1)
+	_END()
+ev_fld_item_253:
+	_FLD_ITEM_EVENT(28, 1)
+	_END()
+ev_fld_item_254:
+	_FLD_ITEM_EVENT(282, 1)
+	_END()
+ev_fld_item_255:
+	_FLD_ITEM_EVENT(2, 1)
+	_END()
+ev_fld_item_256_1:
+	_FLD_ITEM_EVENT(334, 1)
+	_END()
+ev_fld_item_257:
+	_FLD_ITEM_EVENT(46, 1)
+	_END()
+ev_fld_item_258:
+	_FLD_ITEM_EVENT(23, 1)
+	_END()
+ev_fld_item_259:
+	_FLD_ITEM_EVENT(50, 1)
+	_END()
+ev_fld_item_260:
+	_FLD_ITEM_EVENT(25, 1)
+	_END()
+ev_fld_item_261:
+	_FLD_ITEM_EVENT(25, 1)
+	_END()
+ev_fld_item_262:
+	_FLD_ITEM_EVENT(330, 1)
+	_END()
+ev_fld_item_263:
+	_FLD_ITEM_EVENT(18, 1)
+	_END()
+ev_fld_item_264:
+	_FLD_ITEM_EVENT(46, 1)
+	_END()
+ev_fld_item_265:
+	_FLD_ITEM_EVENT(271, 1)
+	_END()
+ev_fld_item_266:
+	_FLD_ITEM_EVENT(2, 1)
+	_END()
+ev_fld_item_267:
+	_FLD_ITEM_EVENT(320, 1)
+	_END()
+ev_fld_item_268:
+	_FLD_ITEM_EVENT(83, 1)
+	_END()
+ev_fld_item_269:
+	_FLD_ITEM_EVENT(23, 1)
+	_END()
+ev_fld_item_270:
+	_FLD_ITEM_EVENT(252, 1)
+	_END()
+ev_fld_item_271:
+	_FLD_ITEM_EVENT(383, 1)
+	_END()
+ev_fld_item_272:
+	_FLD_ITEM_EVENT(280, 1)
+	_END()
+ev_fld_item_273:
+	_FLD_ITEM_EVENT(234, 1)
+	_END()
+ev_fld_item_274:
+	_FLD_ITEM_EVENT(327, 1)
+	_END()
+ev_fld_item_275:
+	_FLD_ITEM_EVENT(75, 1)
+	_END()
+ev_fld_item_276:
+	_FLD_ITEM_EVENT(74, 1)
+	_END()
+ev_fld_item_277:
+	_FLD_ITEM_EVENT(73, 1)
+	_END()
+ev_fld_item_278:
+	_FLD_ITEM_EVENT(2, 1)
+	_END()
+ev_fld_item_279:
+	_FLD_ITEM_EVENT(327, 1)
+	_END()
+ev_fld_item_280:
+	_FLD_ITEM_EVENT(50, 1)
+	_END()
+ev_fld_item_281:
+	_FLD_ITEM_EVENT(45, 1)
+	_END()
+ev_fld_item_282:
+	_FLD_ITEM_EVENT(255, 1)
+	_END()
+ev_fld_item_283:
+	_FLD_ITEM_EVENT(324, 1)
+	_END()
+ev_fld_item_284:
+	_FLD_ITEM_EVENT(109, 1)
+	_END()
+ev_fld_item_285:
+	_FLD_ITEM_EVENT(28, 1)
+	_END()
+ev_fld_item_286:
+	_FLD_ITEM_EVENT(325, 1)
+	_END()
+ev_fld_item_287:
+	_FLD_ITEM_EVENT(270, 1)
+	_END()
+ev_fld_item_288:
+	_FLD_ITEM_EVENT(27, 1)
+	_END()
+ev_fld_item_289:
+	_FLD_ITEM_EVENT(2, 1)
+	_END()
+ev_fld_item_290:
+	_FLD_ITEM_EVENT(295, 1)
+	_END()
+ev_fld_item_291:
+	_FLD_ITEM_EVENT(364, 1)
+	_END()
+ev_fld_item_292:
+	_FLD_ITEM_EVENT(325, 1)
+	_END()
+ev_fld_item_293:
+	_FLD_ITEM_EVENT(46, 1)
+	_END()
+ev_fld_item_294_1:
+	_FLD_ITEM_EVENT(23, 1)
+	_END()
+ev_fld_item_295_1:
+	_FLD_ITEM_EVENT(92, 1)
+	_END()
+ev_fld_item_296_1:
+	_FLD_ITEM_EVENT(85, 1)
+	_END()
+ev_fld_item_297_1:
+	_FLD_ITEM_EVENT(50, 1)
+	_END()
+ev_fld_item_298_1:
+	_FLD_ITEM_EVENT(47, 1)
+	_END()
+ev_fld_item_299_1:
+	_FLD_ITEM_EVENT(66, 1)
+	_END()
+ev_fld_item_300_1:
+	_FLD_ITEM_EVENT(233, 1)
+	_END()
+ev_fld_item_301_1:
+	_FLD_ITEM_EVENT(50, 1)
+	_END()
+ev_fld_item_302_1:
+	_FLD_ITEM_EVENT(50, 1)
+	_END()
+ev_fld_item_303_1:
+	_FLD_ITEM_EVENT(266, 1)
+	_END()
+ev_fld_item_304_1:
+	_FLD_ITEM_EVENT(48, 1)
+	_END()
+ev_fld_item_305_1:
+	_FLD_ITEM_EVENT(285, 1)
+	_END()
+ev_fld_item_306_1:
+	_FLD_ITEM_EVENT(77, 1)
+	_END()
+ev_fld_item_307_1:
+	_FLD_ITEM_EVENT(345, 1)
+	_END()
+ev_fld_item_308:
+	_FLD_ITEM_EVENT(2, 1)
+	_END()
+ev_fld_item_309:
+	_FLD_ITEM_EVENT(7, 1)
+	_END()
+ev_fld_item_310:
+	_FLD_ITEM_EVENT(50, 1)
+	_END()
+ev_fld_item_311:
+	_FLD_ITEM_EVENT(249, 1)
+	_END()
+ev_fld_item_312:
+	_FLD_ITEM_EVENT(41, 1)
+	_END()
+ev_fld_item_313:
+	_FLD_ITEM_EVENT(52, 1)
+	_END()
+ev_fld_item_314:
+	_FLD_ITEM_EVENT(50, 1)
+	_END()
+ev_fld_item_315:
+	_FLD_ITEM_EVENT(72, 1)
+	_END()
+ev_fld_item_316:
+	_FLD_ITEM_EVENT(15, 1)
+	_END()
+ev_fld_item_317:
+	_FLD_ITEM_EVENT(74, 1)
+	_END()
+ev_fld_item_318:
+	_FLD_ITEM_EVENT(295, 1)
+	_END()
+ev_fld_item_319:
+	_FLD_ITEM_EVENT(73, 1)
+	_END()
+ev_fld_item_320:
+	_FLD_ITEM_EVENT(281, 1)
+	_END()
+ev_fld_item_321:
+	_FLD_ITEM_EVENT(75, 1)
+	_END()
+ev_fld_item_322:
+	_FLD_ITEM_EVENT(4, 1)
+	_END()
+ev_fld_item_323:
+	_FLD_ITEM_EVENT(363, 1)
+	_END()
+ev_fld_item_324:
+	_FLD_ITEM_EVENT(72, 1)
+	_END()
+ev_fld_item_325:
+	_FLD_ITEM_EVENT(386, 1)
+	_END()
+ev_fld_item_326:
+	_FLD_ITEM_EVENT(386, 1)
+	_END()
+ev_fld_item_327:
+	_FLD_ITEM_EVENT(82, 1)
+	_END()
+ev_fld_item_reaper_cloth:
+	_FLD_ITEM_EVENT(325, 1)
+	_END()
+ev_fld_item_griseous_orb:
+	_FLD_ITEM_EVENT(112, 1)
+	_END()
+ev_fld_item_ironball:
+	_FLD_ITEM_EVENT(278, 1)
+	_END()
+ev_fld_item_mewtwo_armour:
+	_TALK_OBJ_START()
+	_FLAG_SET(#2891)
+	_OBJ_DEL('D10R0601_FLD_ITEM_1')
+	_LDVAL(@SCWK_TEMP0, 1834)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_TALK_CLOSE()
+	_JUMP('ev_d10r0601_mewtwo_leave')

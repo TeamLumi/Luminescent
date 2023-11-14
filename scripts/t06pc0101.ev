@@ -1,0 +1,49 @@
+ev_t06pc0101_flag_change:
+	_IF_FLAGON_JUMP($SYS_FLAG_WILDCARD_000, 'ev_t06pc0101_flag_change_end')
+	_FLAG_RESET(#FV_STOPPER_FRIENDBOOK)
+	_SXY_EXIT_POS_CHANGE(2, 80, 80)
+	_END()
+ev_t06pc0101_flag_change_end:
+	_SYS_FLAG_BADGE_GET($BADGE_ID_C03, @SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_t06pc0101_flag_change_del_stopper')
+	_END()
+ev_t06pc0101_flag_change_del_stopper:
+	_FLAG_SET(#FV_STOPPER_FRIENDBOOK)
+	_END()
+ev_t06pc0101_pcwoman1:
+	_LDVAL(@SCWK_TEMP3, 'T06PC0101_PCWOMAN1')
+	_CHG_COMMON_SCR('ev_heal_p01')
+	_END()
+ev_t06pc0101_man3:
+	_TALK_OBJ_START_TURN_NOT()
+	_TALKMSG('dp_scenario3%58-msg_t06pc0101_man3_01')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_t06pc0101_veteran:
+	_EASY_OBJ_MSG('dp_scenario3%58-msg_t06pc0101_veteran_01')
+	_END()
+ev_t06pc0101_mystery:
+	_EASY_OBJ_MSG('dp_scenario3%58-msg_t06pc0101_mystery_01')
+	_END()
+ev_t06pc0101_pcwoman1_mewtwo:
+	_FLAG_RESET(#2845); Reveal Mewtwo in case E4 didn't work
+	_FLAG_SET(#3012)
+	_FLAG_SET(#3011)
+	_FLAG_SET(#3013)
+	_FLAG_RESET(#3002)
+	_TALK_OBJ_START()
+	_TALK_KEYWAIT('ss_btl_tower_menu_ui_text%58-msg_t06pc0101_pc_mewtwo_01')
+	_ADD_ITEM(1824, 1, @SCWK_ANSWER)
+	_ME_PLAY('M_FI013')
+	_PLAYER_NAME(0)
+	_TALK_KEYWAIT('ss_btl_tower_menu_ui_text%58-msg_t06pc0101_pc_mewtwo_getinvitation')
+	_ME_WAIT()
+	_TALK_KEYWAIT('ss_btl_tower_menu_ui_text%58-msg_t06pc0101_pc_mewtwo_02')
+	_CALL_EFFECT(1, 247, 8, 0, 10)
+	_EFF_SCALE(1, 1, 1, 1)
+	_STOP_EFFECT(0, 0)
+	_TALK_KEYWAIT('ss_btl_tower_menu_ui_text%58-msg_t06pc0101_pc_mewtwo_03')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
