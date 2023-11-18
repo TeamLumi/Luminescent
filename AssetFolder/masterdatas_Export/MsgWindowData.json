@@ -11421,6 +11421,130 @@
         {
             "label": "00_msg_c10r0101_tm_handler_03",
             "talk_label": "DLP_SPEAKERS_NAME_TM_HANDLER"
+        },
+        {
+            "label": "00_msg_ev_d03_blocker_1",
+            "talk_label": "DLP_SPEAKERS_NAME_WORKER"
+        },
+        {
+            "label": "00_msg_ev_d03_blocker_2",
+            "talk_label": "DLP_SPEAKERS_NAME_BUG_CATCHER"
+        },
+        {
+            "label": "00_msg_ev_d03r0101_seven1_talk_first_1",
+            "talk_label": "DLP_SPEAKERS_NAME_024"
+        },
+        {
+            "label": "00_msg_ev_d03r0101_seven1_talk_first_2",
+            "talk_label": "DLP_SPEAKERS_NAME_024"
+        },
+        {
+            "label": "106-msg_d03r0101_seven1_05_tm",
+            "talk_label": "DLP_SPEAKERS_NAME_024"
+        },
+        {
+            "label": "18-msg_c04r0801_woman1",
+            "talk_label": "DLP_SPEAKERS_NAME_FOSSIL_WOMAN"
+        },
+        {
+            "label": "18-msg_c04r0801_woman2",
+            "talk_label": "DLP_SPEAKERS_NAME_FOSSIL_WOMAN"
+        },
+        {
+            "label": "18-msg_c04r0801_woman3",
+            "talk_label": "DLP_SPEAKERS_NAME_FOSSIL_WOMAN"
+        },
+        {
+            "label": "18-msg_c04r0801_woman4",
+            "talk_label": "DLP_SPEAKERS_NAME_FOSSIL_WOMAN"
+        },
+        {
+            "label": "18-msg_c04r0801_woman5",
+            "talk_label": "DLP_SPEAKERS_NAME_FOSSIL_WOMAN"
+        },
+        {
+            "label": "18-msg_c04r0801_woman6",
+            "talk_label": "DLP_SPEAKERS_NAME_FOSSIL_WOMAN"
+        },
+        {
+            "label": "00_msg_c04_advice_1_01",
+            "talk_label": "DLP_SPEAKERS_NAME_GYM_ADVICE_DUDE"
+        },
+        {
+            "label": "00_msg_c04r0301_mint_guy_01",
+            "talk_label": "DLP_SPEAKERS_NAME_MINT_GUY"
+        },
+        {
+            "label": "00_msg_c04r0301_mint_guy_no",
+            "talk_label": "DLP_SPEAKERS_NAME_MINT_GUY"
+        },
+        {
+            "label": "00_msg_c04r0301_mint_guy_show",
+            "talk_label": "DLP_SPEAKERS_NAME_MINT_GUY"
+        },
+        {
+            "label": "00_msg_c04r0301_mint_guy_cancel_2",
+            "talk_label": "DLP_SPEAKERS_NAME_MINT_GUY"
+        },
+        {
+            "label": "00_msg_c04r0301_mint_guy_invalid_abra",
+            "talk_label": "DLP_SPEAKERS_NAME_MINT_GUY"
+        },
+        {
+            "label": "00_msg_c04r0301_mint_no_abra_in_party",
+            "talk_label": "DLP_SPEAKERS_NAME_MINT_GUY"
+        },
+        {
+            "label": "00_msg_c04r0301_mint_guy_invalid_abra_nature",
+            "talk_label": "DLP_SPEAKERS_NAME_MINT_GUY"
+        },
+        {
+            "label": "00_msg_c04r0301_mint_guy_no_mint_for_nature",
+            "talk_label": "DLP_SPEAKERS_NAME_MINT_GUY"
+        },
+        {
+            "label": "00_msg_mintguy_found_unique_abra",
+            "talk_label": "DLP_SPEAKERS_NAME_MINT_GUY"
+        },
+        {
+            "label": "00_msg_mintguy_which_mint",
+            "talk_label": "DLP_SPEAKERS_NAME_MINT_GUY"
+        },
+        {
+            "label": "00_msg_c04r0301_mint_guy_end",
+            "talk_label": "DLP_SPEAKERS_NAME_MINT_GUY"
+        },
+        {
+            "label": "174-msg_r216r0101_leader",
+            "talk_label": "DLP_SPEAKERS_NAME_029"
+        },
+        {
+            "label": "174-msg_r216r0101_leader",
+            "talk_label": "DLP_SPEAKERS_NAME_029"
+        },
+        {
+            "label": "00_msg_r207_psychicguy_01",
+            "talk_label": "DLP_SPEAKERS_NAME_PSYCHIC_GUY"
+        },
+        {
+            "label": "00_msg_r207_psychicguy_02",
+            "talk_label": "DLP_SPEAKERS_NAME_PSYCHIC_GUY"
+        },
+        {
+            "label": "00_msg_ev_d21r0101_mira_talk_1",
+            "talk_label": "DLP_SPEAKERS_NAME_030"
+        },
+        {
+            "label": "00_msg_ev_d21r0101_mira_func_2",
+            "talk_label": "DLP_SPEAKERS_NAME_030"
+        },
+        {
+            "label": "00_msg_ev_d21r0101_mira_func_3_1",
+            "talk_label": "DLP_SPEAKERS_NAME_030"
+        },
+        {
+            "label": "00_msg_ev_d21r0101_mira_func_3_1",
+            "talk_label": "DLP_SPEAKERS_NAME_030"
         }
     ],
     "RoadsignViewData": [

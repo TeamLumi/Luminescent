@@ -4273,6 +4273,186 @@
                     "strWidth": 110.796875
                 }
             ]
+        },
+        {
+            "labelIndex": 141,
+            "arrayIndex": 141,
+            "labelName": "DLP_SPEAKERS_NAME_WORKER",
+            "styleInfo": {
+                "styleIndex": 42,
+                "colorIndex": -1,
+                "fontSize": 42,
+                "maxWidth": 504,
+                "controlID": 0
+            },
+            "attributeValueArray": [
+                -1,
+                0,
+                0,
+                -1,
+                0
+            ],
+            "tagDataArray": [],
+            "wordDataArray": [
+                {
+                    "patternID": 0,
+                    "eventID": 7,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "Worker",
+                    "strWidth": 110.796875
+                }
+            ]
+        },
+        {
+            "labelIndex": 142,
+            "arrayIndex": 142,
+            "labelName": "DLP_SPEAKERS_NAME_BUG_CATCHER",
+            "styleInfo": {
+                "styleIndex": 42,
+                "colorIndex": -1,
+                "fontSize": 42,
+                "maxWidth": 504,
+                "controlID": 0
+            },
+            "attributeValueArray": [
+                -1,
+                0,
+                0,
+                -1,
+                0
+            ],
+            "tagDataArray": [],
+            "wordDataArray": [
+                {
+                    "patternID": 0,
+                    "eventID": 7,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "Bug Catcher",
+                    "strWidth": 110.796875
+                }
+            ]
+        },
+        {
+            "labelIndex": 143,
+            "arrayIndex": 143,
+            "labelName": "DLP_SPEAKERS_NAME_FOSSIL_WOMAN",
+            "styleInfo": {
+                "styleIndex": 42,
+                "colorIndex": -1,
+                "fontSize": 42,
+                "maxWidth": 504,
+                "controlID": 0
+            },
+            "attributeValueArray": [
+                -1,
+                0,
+                0,
+                -1,
+                0
+            ],
+            "tagDataArray": [],
+            "wordDataArray": [
+                {
+                    "patternID": 0,
+                    "eventID": 7,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "Fossil Scientist",
+                    "strWidth": 110.796875
+                }
+            ]
+        },
+        {
+            "labelIndex": 144,
+            "arrayIndex": 144,
+            "labelName": "DLP_SPEAKERS_NAME_GYM_ADVICE_DUDE",
+            "styleInfo": {
+                "styleIndex": 42,
+                "colorIndex": -1,
+                "fontSize": 42,
+                "maxWidth": 504,
+                "controlID": 0
+            },
+            "attributeValueArray": [
+                -1,
+                0,
+                0,
+                -1,
+                0
+            ],
+            "tagDataArray": [],
+            "wordDataArray": [
+                {
+                    "patternID": 0,
+                    "eventID": 7,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "Gym Advice Dude",
+                    "strWidth": 110.796875
+                }
+            ]
+        },
+        {
+            "labelIndex": 145,
+            "arrayIndex": 145,
+            "labelName": "DLP_SPEAKERS_NAME_MINT_GUY",
+            "styleInfo": {
+                "styleIndex": 42,
+                "colorIndex": -1,
+                "fontSize": 42,
+                "maxWidth": 504,
+                "controlID": 0
+            },
+            "attributeValueArray": [
+                -1,
+                0,
+                0,
+                -1,
+                0
+            ],
+            "tagDataArray": [],
+            "wordDataArray": [
+                {
+                    "patternID": 0,
+                    "eventID": 7,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "Mint Guy",
+                    "strWidth": 110.796875
+                }
+            ]
+        },
+        {
+            "labelIndex": 146,
+            "arrayIndex": 146,
+            "labelName": "DLP_SPEAKERS_NAME_PSYCHIC_GUY",
+            "styleInfo": {
+                "styleIndex": 42,
+                "colorIndex": -1,
+                "fontSize": 42,
+                "maxWidth": 504,
+                "controlID": 0
+            },
+            "attributeValueArray": [
+                -1,
+                0,
+                0,
+                -1,
+                0
+            ],
+            "tagDataArray": [],
+            "wordDataArray": [
+                {
+                    "patternID": 0,
+                    "eventID": 7,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "Psychic Guy",
+                    "strWidth": 110.796875
+                }
+            ]
         }
     ]
 }
