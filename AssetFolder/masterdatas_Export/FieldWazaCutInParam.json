@@ -26,7 +26,37 @@
             }
         },
         {
+            "UniqueID": 21,
+            "ModelScale": 1.0,
+            "ModelMotion": "ba10_waitA01",
+            "ModelOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 5.0
+            },
+            "ModelRotationAngle": {
+                "x": 0.0,
+                "y": 30.0,
+                "z": 0.0
+            }
+        },
+        {
             "UniqueID": 120,
+            "ModelScale": 1.0,
+            "ModelMotion": "ba10_waitA01",
+            "ModelOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 5.0
+            },
+            "ModelRotationAngle": {
+                "x": 0.0,
+                "y": 30.0,
+                "z": 0.0
+            }
+        },
+        {
+            "UniqueID": 121,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
             "ModelOffset": {
@@ -47575,7 +47605,7 @@
                 "z": 0.0
             }
         },
-		        {
+        {
             "UniqueID": 6660100,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -47635,7 +47665,7 @@
                 "z": 0.0
             }
         },
-		        {
+        {
             "UniqueID": 6660200,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -47695,7 +47725,7 @@
                 "z": 0.0
             }
         },
-		        {
+        {
             "UniqueID": 6660300,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -47755,7 +47785,7 @@
                 "z": 0.0
             }
         },
-		        {
+        {
             "UniqueID": 6660400,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -47815,7 +47845,7 @@
                 "z": 0.0
             }
         },
-		        {
+        {
             "UniqueID": 6660500,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -47875,7 +47905,7 @@
                 "z": 0.0
             }
         },
-		        {
+        {
             "UniqueID": 6660600,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -47935,7 +47965,7 @@
                 "z": 0.0
             }
         },
-		        {
+        {
             "UniqueID": 6660700,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -47995,7 +48025,7 @@
                 "z": 0.0
             }
         },
-		        {
+        {
             "UniqueID": 6660800,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -48055,7 +48085,7 @@
                 "z": 0.0
             }
         },
-		        {
+        {
             "UniqueID": 6660900,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -48115,7 +48145,7 @@
                 "z": 0.0
             }
         },
-		        {
+        {
             "UniqueID": 6661000,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -48175,7 +48205,7 @@
                 "z": 0.0
             }
         },
-		        {
+        {
             "UniqueID": 6661100,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -48235,7 +48265,7 @@
                 "z": 0.0
             }
         },
-		        {
+        {
             "UniqueID": 6661200,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -48295,7 +48325,7 @@
                 "z": 0.0
             }
         },
-		        {
+        {
             "UniqueID": 6661300,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -48355,7 +48385,7 @@
                 "z": 0.0
             }
         },
-		        {
+        {
             "UniqueID": 6661400,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -48415,7 +48445,7 @@
                 "z": 0.0
             }
         },
-		        {
+        {
             "UniqueID": 6661500,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -48475,7 +48505,7 @@
                 "z": 0.0
             }
         },
-		        {
+        {
             "UniqueID": 6661600,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -48535,7 +48565,7 @@
                 "z": 0.0
             }
         },
-		        {
+        {
             "UniqueID": 6661700,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -48595,7 +48625,7 @@
                 "z": 0.0
             }
         },
-		        {
+        {
             "UniqueID": 6661800,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -48655,7 +48685,7 @@
                 "z": 0.0
             }
         },
-		        {
+        {
             "UniqueID": 6661900,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -57205,7 +57235,7 @@
                 "z": 0.0
             }
         },
-		        {
+        {
             "UniqueID": 7730120,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -57235,7 +57265,7 @@
                 "z": 0.0
             }
         },
-		        {
+        {
             "UniqueID": 7730220,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -57265,7 +57295,7 @@
                 "z": 0.0
             }
         },
-		        {
+        {
             "UniqueID": 7730320,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -57295,7 +57325,7 @@
                 "z": 0.0
             }
         },
-		        {
+        {
             "UniqueID": 7730420,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -57325,7 +57355,7 @@
                 "z": 0.0
             }
         },
-		        {
+        {
             "UniqueID": 7730520,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -57355,7 +57385,7 @@
                 "z": 0.0
             }
         },
-		        {
+        {
             "UniqueID": 7730620,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -57385,7 +57415,7 @@
                 "z": 0.0
             }
         },
-		        {
+        {
             "UniqueID": 7730720,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -57415,7 +57445,7 @@
                 "z": 0.0
             }
         },
-		        {
+        {
             "UniqueID": 7730820,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -57445,7 +57475,7 @@
                 "z": 0.0
             }
         },
-		        {
+        {
             "UniqueID": 7730920,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -57475,7 +57505,7 @@
                 "z": 0.0
             }
         },
-		        {
+        {
             "UniqueID": 7731020,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -57505,7 +57535,7 @@
                 "z": 0.0
             }
         },
-		        {
+        {
             "UniqueID": 7731120,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -57535,7 +57565,7 @@
                 "z": 0.0
             }
         },
-		        {
+        {
             "UniqueID": 7731220,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -57565,7 +57595,7 @@
                 "z": 0.0
             }
         },
-		        {
+        {
             "UniqueID": 7731320,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -57595,7 +57625,7 @@
                 "z": 0.0
             }
         },
-		        {
+        {
             "UniqueID": 7731420,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -57625,7 +57655,7 @@
                 "z": 0.0
             }
         },
-		        {
+        {
             "UniqueID": 7731520,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -57655,7 +57685,7 @@
                 "z": 0.0
             }
         },
-		        {
+        {
             "UniqueID": 7731620,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -57685,7 +57715,7 @@
                 "z": 0.0
             }
         },
-		        {
+        {
             "UniqueID": 7731720,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -57745,7 +57775,7 @@
                 "z": 0.0
             }
         },
-		        {
+        {
             "UniqueID": 7740120,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -57775,7 +57805,7 @@
                 "z": 0.0
             }
         },
-		        {
+        {
             "UniqueID": 7740220,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -57805,7 +57835,7 @@
                 "z": 0.0
             }
         },
-		        {
+        {
             "UniqueID": 7740320,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -57835,7 +57865,7 @@
                 "z": 0.0
             }
         },
-		        {
+        {
             "UniqueID": 7740420,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -57865,7 +57895,7 @@
                 "z": 0.0
             }
         },
-		        {
+        {
             "UniqueID": 7740520,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -57895,7 +57925,7 @@
                 "z": 0.0
             }
         },
-		        {
+        {
             "UniqueID": 7740620,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -57925,7 +57955,7 @@
                 "z": 0.0
             }
         },
-		        {
+        {
             "UniqueID": 7740720,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -57955,7 +57985,7 @@
                 "z": 0.0
             }
         },
-		        {
+        {
             "UniqueID": 7740820,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -57985,7 +58015,7 @@
                 "z": 0.0
             }
         },
-		        {
+        {
             "UniqueID": 7740920,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -58015,7 +58045,7 @@
                 "z": 0.0
             }
         },
-		        {
+        {
             "UniqueID": 7741020,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -58045,7 +58075,7 @@
                 "z": 0.0
             }
         },
-		        {
+        {
             "UniqueID": 7741120,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -58075,7 +58105,7 @@
                 "z": 0.0
             }
         },
-		        {
+        {
             "UniqueID": 7741220,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -58105,7 +58135,7 @@
                 "z": 0.0
             }
         },
-		        {
+        {
             "UniqueID": 7741320,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -64285,7 +64315,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8690110,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -64315,7 +64345,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8690210,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -64345,7 +64375,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8690310,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -64375,7 +64405,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8690410,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -64405,7 +64435,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8690510,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -64435,7 +64465,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8690610,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -64465,7 +64495,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8690710,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -64495,7 +64525,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8690810,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -64525,7 +64555,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8690910,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -64555,7 +64585,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8691010,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -64585,7 +64615,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8691110,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -64615,7 +64645,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8691210,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -64645,7 +64675,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8691310,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -64675,7 +64705,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8691410,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -64705,7 +64735,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8691510,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -64735,7 +64765,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8691610,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -64765,7 +64795,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8691710,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -64795,7 +64825,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8691810,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -64825,7 +64855,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8691910,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -64855,7 +64885,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8692010,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -64885,7 +64915,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8692110,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -64915,7 +64945,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8692210,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -64945,7 +64975,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8692310,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -64975,7 +65005,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8692410,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -65005,7 +65035,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8692510,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -65035,7 +65065,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8692610,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -65065,7 +65095,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8692710,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -65095,7 +65125,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8692810,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -65125,7 +65155,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8692910,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -65155,7 +65185,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8693010,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -65185,7 +65215,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8693110,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -65215,7 +65245,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8693210,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -65245,7 +65275,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8693310,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -65275,7 +65305,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8693410,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -65305,7 +65335,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8693510,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -65335,7 +65365,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8693610,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -65365,7 +65395,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8693710,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -65395,7 +65425,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8693810,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -65425,7 +65455,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8693910,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -65455,7 +65485,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8694010,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -65485,7 +65515,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8694110,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -65515,7 +65545,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8694210,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -65545,7 +65575,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8694310,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -65575,7 +65605,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8694410,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -65605,7 +65635,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8694510,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -65635,7 +65665,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8694610,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -65665,7 +65695,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8694710,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -65695,7 +65725,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8694810,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -65725,7 +65755,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8694910,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -65755,7 +65785,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8695010,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -65785,7 +65815,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8695110,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -65815,7 +65845,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8695210,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -65845,7 +65875,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8695310,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -65875,7 +65905,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8695410,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -65905,7 +65935,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8695510,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -65935,7 +65965,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8695610,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -65965,7 +65995,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8695710,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -65995,7 +66025,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8695810,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -66025,7 +66055,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8695910,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -66055,7 +66085,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8696010,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -66085,7 +66115,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8696110,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -66115,7 +66145,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8696210,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -66145,7 +66175,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8696310,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",
@@ -66175,7 +66205,7 @@
                 "z": 0.0
             }
         },
-		{
+        {
             "UniqueID": 8696410,
             "ModelScale": 1.0,
             "ModelMotion": "ba10_waitA01",

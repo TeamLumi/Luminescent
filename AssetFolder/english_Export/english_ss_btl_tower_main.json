@@ -279,7 +279,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pok\u00e9 Ball Tier",
+                    "str": "Poké Ball Tier",
                     "strWidth": 180.09375
                 }
             ]
@@ -906,7 +906,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u2022 Battle Teams must be made up of",
+                    "str": "• Battle Teams must be made up of",
                     "strWidth": 454.625
                 },
                 {
@@ -922,7 +922,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "six different Pok\u00e9mon",
+                    "str": "six different Pokémon",
                     "strWidth": 282.25
                 },
                 {
@@ -946,7 +946,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u2022 No two Pok\u00e9mon can ",
+                    "str": "• No two Pokémon can ",
                     "strWidth": 304.40625
                 },
                 {

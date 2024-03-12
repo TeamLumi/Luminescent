@@ -399,7 +399,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u25a0 Change your clothing. ",
+                    "str": "■ Change your clothing. ",
                     "strWidth": 455.90625
                 },
                 {
@@ -407,7 +407,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u25a0 Toggle XP Share ON/OFF",
+                    "str": "■ Toggle XP Share ON/OFF",
                     "strWidth": 484.609375
                 },
                 {
@@ -415,7 +415,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u25a0 Toggle Affection ON/OFF",
+                    "str": "■ Toggle Affection ON/OFF",
                     "strWidth": 484.609375
                 },
                 {
@@ -423,7 +423,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u25a0 Toggle Level Cap ON/OFF ",
+                    "str": "■ Toggle Level Cap ON/OFF ",
                     "strWidth": 261.546875
                 },
                 {
@@ -753,7 +753,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "The Pok\u00e9dex",
+                    "str": "The Pokédex",
                     "strWidth": 169.28125
                 }
             ]
@@ -807,7 +807,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pok\u00e9dex",
+                    "str": "Pokédex",
                     "strWidth": 111.9375
                 },
                 {
@@ -831,7 +831,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "new Pok\u00e9mon, its information will be",
+                    "str": "new Pokémon, its information will be",
                     "strWidth": 476.765625
                 },
                 {
@@ -863,7 +863,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pok\u00e9dex ",
+                    "str": "Pokédex ",
                     "strWidth": 120.609375
                 },
                 {
@@ -909,7 +909,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Your Pok\u00e9dex stores all sorts of ",
+                    "str": "Your Pokédex stores all sorts of ",
                     "strWidth": 419.21875
                 },
                 {
@@ -949,7 +949,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pok\u00e9mon you add to it, including its category,",
+                    "str": "Pokémon you add to it, including its category,",
                     "strWidth": 598.828125
                 },
                 {
@@ -1005,7 +1005,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pok\u00e9mon lives in the wild.",
+                    "str": "Pokémon lives in the wild.",
                     "strWidth": 336.484375
                 }
             ]
@@ -1067,7 +1067,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "screen of a Pok\u00e9dex entry,",
+                    "str": "screen of a Pokédex entry,",
                     "strWidth": 345.9375
                 },
                 {
@@ -1075,7 +1075,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "you can listen to that Pok\u00e9mon\u2019s cry.",
+                    "str": "you can listen to that Pokémon’s cry.",
                     "strWidth": 476.546875
                 },
                 {
@@ -1161,7 +1161,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pok\u00e9mon Centers",
+                    "str": "Pokémon Centers",
                     "strWidth": 227.328125
                 }
             ]
@@ -1207,7 +1207,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pok\u00e9mon Centers",
+                    "str": "Pokémon Centers",
                     "strWidth": 227.328125
                 },
                 {
@@ -1239,7 +1239,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Visit a Pok\u00e9mon Center to restore your tired",
+                    "str": "Visit a Pokémon Center to restore your tired",
                     "strWidth": 574.421875
                 },
                 {
@@ -1247,7 +1247,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pok\u00e9mon to full health. These facilities are easily",
+                    "str": "Pokémon to full health. These facilities are easily",
                     "strWidth": 633.421875
                 },
                 {
@@ -1333,7 +1333,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pok\u00e9mon",
+                    "str": "Pokémon",
                     "strWidth": 119.671875
                 },
                 {
@@ -1373,7 +1373,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pok\u00e9mon Storage System",
+                    "str": "Pokémon Storage System",
                     "strWidth": 326.859375
                 },
                 {
@@ -1397,7 +1397,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "From there, you can move your Pok\u00e9mon into",
+                    "str": "From there, you can move your Pokémon into",
                     "strWidth": 591.125
                 },
                 {
@@ -1467,7 +1467,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pok\u00e9mon Boxes",
+                    "str": "Pokémon Boxes",
                     "strWidth": 204.765625
                 }
             ]
@@ -1513,7 +1513,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pok\u00e9mon Boxes",
+                    "str": "Pokémon Boxes",
                     "strWidth": 204.765625
                 },
                 {
@@ -1529,7 +1529,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": " to swap Pok\u00e9mon in",
+                    "str": " to swap Pokémon in",
                     "strWidth": 268.625
                 },
                 {
@@ -1537,7 +1537,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "your party for Pok\u00e9mon you left at a Pok\u00e9mon",
+                    "str": "your party for Pokémon you left at a Pokémon",
                     "strWidth": 600.0
                 },
                 {
@@ -1545,7 +1545,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Center\u2019s PC.",
+                    "str": "Center’s PC.",
                     "strWidth": 160.921875
                 },
                 {
@@ -1569,7 +1569,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pok\u00e9mon ",
+                    "str": "Pokémon ",
                     "strWidth": 128.34375
                 },
                 {
@@ -1655,7 +1655,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "The Pok\u00e9tch",
+                    "str": "The Pokétch",
                     "strWidth": 161.140625
                 }
             ]
@@ -1701,7 +1701,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pok\u00e9tch",
+                    "str": "Pokétch",
                     "strWidth": 103.796875
                 },
                 {
@@ -1733,7 +1733,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "adventures. There are various Pok\u00e9tch apps",
+                    "str": "adventures. There are various Pokétch apps",
                     "strWidth": 563.453125
                 },
                 {
@@ -1795,7 +1795,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pok\u00e9tch",
+                    "str": "Pokétch",
                     "strWidth": 103.796875
                 },
                 {
@@ -2067,7 +2067,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": " to close the Pok\u00e9tch.",
+                    "str": " to close the Pokétch.",
                     "strWidth": 281.5625
                 }
             ]
@@ -2097,7 +2097,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You will receive new Pok\u00e9tch apps as you interact",
+                    "str": "You will receive new Pokétch apps as you interact",
                     "strWidth": 646.171875
                 },
                 {
@@ -2105,7 +2105,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "with the many people you\u2019ll meet across Sinnoh.",
+                    "str": "with the many people you’ll meet across Sinnoh.",
                     "strWidth": 624.84375
                 },
                 {
@@ -2253,7 +2253,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pok\u00e9tch",
+                    "str": "Pokétch",
                     "strWidth": 103.796875
                 },
                 {
@@ -2277,7 +2277,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "A wild Pok\u00e9mon will come lend a helping wing or paw!",
+                    "str": "A wild Pokémon will come lend a helping wing or paw!",
                     "strWidth": 705.265625
                 }
             ]
@@ -2363,7 +2363,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pok\u00e9tch ",
+                    "str": "Pokétch ",
                     "strWidth": 112.46875
                 },
                 {
@@ -2435,7 +2435,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "you\u2019ll have to earn its corresponding Gym Badge",
+                    "str": "you’ll have to earn its corresponding Gym Badge",
                     "strWidth": 633.015625
                 },
                 {
@@ -2575,7 +2575,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": ". When a Pok\u00e9mon bites",
+                    "str": ". When a Pokémon bites",
                     "strWidth": 315.71875
                 },
                 {
@@ -2583,7 +2583,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "and \u201c",
+                    "str": "and “",
                     "strWidth": 69.859375
                 },
                 {
@@ -2615,7 +2615,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u201d appears, hurry and press the ",
+                    "str": "” appears, hurry and press the ",
                     "strWidth": 396.625
                 },
                 {
@@ -2663,7 +2663,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "variety of Pok\u00e9mon!",
+                    "str": "variety of Pokémon!",
                     "strWidth": 258.234375
                 }
             ]
@@ -2843,7 +2843,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "logs, but you can\u2019t move through patches of",
+                    "str": "logs, but you can’t move through patches of",
                     "strWidth": 572.09375
                 },
                 {
@@ -3055,7 +3055,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Walking with Pok\u00e9mon",
+                    "str": "Walking with Pokémon",
                     "strWidth": 295.96875
                 }
             ]
@@ -3093,7 +3093,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pok\u00e9mon on a walk\u2014it\u2019ll follow right behind you!",
+                    "str": "Pokémon on a walk—it’ll follow right behind you!",
                     "strWidth": 635.921875
                 },
                 {
@@ -3117,7 +3117,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pok\u00e9mon ",
+                    "str": "Pokémon ",
                     "strWidth": 128.34375
                 },
                 {
@@ -3141,7 +3141,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "of the Pok\u00e9mon in your party, and select",
+                    "str": "of the Pokémon in your party, and select",
                     "strWidth": 527.6875
                 },
                 {
@@ -3257,7 +3257,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "are a kind of Pok\u00e9mon food made from",
+                    "str": "are a kind of Pokémon food made from",
                     "strWidth": 510.71875
                 },
                 {
@@ -3289,7 +3289,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": ". You can make Poffins at Hearthome City\u2019s",
+                    "str": ". You can make Poffins at Hearthome City’s",
                     "strWidth": 564.34375
                 },
                 {
@@ -3471,7 +3471,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You\u2019ll create different Poffins depending on which",
+                    "str": "You’ll create different Poffins depending on which",
                     "strWidth": 652.65625
                 },
                 {
@@ -3509,7 +3509,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You can raise a Pok\u00e9mon\u2019s ",
+                    "str": "You can raise a Pokémon’s ",
                     "strWidth": 355.609375
                 },
                 {
@@ -3589,7 +3589,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Raising a Pok\u00e9mon\u2019s conditions may give it a",
+                    "str": "Raising a Pokémon’s conditions may give it a",
                     "strWidth": 580.109375
                 },
                 {
@@ -3745,7 +3745,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Four Pok\u00e9mon will compete\u2014with the three",
+                    "str": "Four Pokémon will compete—with the three",
                     "strWidth": 565.078125
                 },
                 {
@@ -3849,7 +3849,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u2014to be named Star of the Show!",
+                    "str": "—to be named Star of the Show!",
                     "strWidth": 419.125
                 }
             ]
@@ -3919,7 +3919,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pok\u00e9mon\u2019s style.",
+                    "str": "Pokémon’s style.",
                     "strWidth": 216.28125
                 },
                 {
@@ -3935,7 +3935,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pok\u00e9mon Poffins to raise its conditions and by",
+                    "str": "Pokémon Poffins to raise its conditions and by",
                     "strWidth": 597.734375
                 },
                 {
@@ -4409,7 +4409,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": ". Choose one of your Pok\u00e9mon\u2019s moves,",
+                    "str": ". Choose one of your Pokémon’s moves,",
                     "strWidth": 520.234375
                 },
                 {
@@ -4457,7 +4457,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u2014when the",
+                    "str": "—when the",
                     "strWidth": 142.796875
                 },
                 {
@@ -4465,7 +4465,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "moment feels right, that\u2019s when it\u2019s time to use it!",
+                    "str": "moment feels right, that’s when it’s time to use it!",
                     "strWidth": 638.921875
                 }
             ]
@@ -4519,7 +4519,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": " aren\u2019t just about competing",
+                    "str": " aren’t just about competing",
                     "strWidth": 366.328125
                 },
                 {
@@ -4527,7 +4527,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "with the other contestants. You\u2019ll want to work",
+                    "str": "with the other contestants. You’ll want to work",
                     "strWidth": 604.1875
                 },
                 {
@@ -4691,7 +4691,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Why don\u2019t you pick out a style all your own? Then",
+                    "str": "Why don’t you pick out a style all your own? Then",
                     "strWidth": 651.59375
                 },
                 {
@@ -4919,7 +4919,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "can\u2019t use it.",
+                    "str": "can’t use it.",
                     "strWidth": 149.671875
                 }
             ]
@@ -5019,7 +5019,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "lying just beneath the Sinnoh region\u2019s surface.",
+                    "str": "lying just beneath the Sinnoh region’s surface.",
                     "strWidth": 594.40625
                 },
                 {
@@ -5145,7 +5145,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "where Pok\u00e9mon gather known as",
+                    "str": "where Pokémon gather known as",
                     "strWidth": 423.828125
                 },
                 {
@@ -5161,7 +5161,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pok\u00e9mon Hideaways",
+                    "str": "Pokémon Hideaways",
                     "strWidth": 267.515625
                 },
                 {
@@ -5185,7 +5185,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Different Pok\u00e9mon appear based on a hideaway\u2019s",
+                    "str": "Different Pokémon appear based on a hideaway’s",
                     "strWidth": 645.796875
                 },
                 {
@@ -5231,7 +5231,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Grand Underground\u2019s tunnels where you can try",
+                    "str": "Grand Underground’s tunnels where you can try",
                     "strWidth": 619.828125
                 },
                 {
@@ -5813,7 +5813,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Take care\u2014there are some parts of the walls that",
+                    "str": "Take care—there are some parts of the walls that",
                     "strWidth": 633.984375
                 },
                 {
@@ -5929,7 +5929,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pok\u00e9mon Hideaways",
+                    "str": "Pokémon Hideaways",
                     "strWidth": 267.515625
                 }
             ]
@@ -5967,7 +5967,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pok\u00e9mon Hideaways ",
+                    "str": "Pokémon Hideaways ",
                     "strWidth": 276.1875
                 },
                 {
@@ -5991,7 +5991,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pok\u00e9mon feel comfortable gathering in the open.",
+                    "str": "Pokémon feel comfortable gathering in the open.",
                     "strWidth": 638.6875
                 },
                 {
@@ -5999,7 +5999,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pok\u00e9mon in the ",
+                    "str": "Pokémon in the ",
                     "strWidth": 210.46875
                 },
                 {
@@ -6031,7 +6031,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "aren\u2019t hidden by tall",
+                    "str": "aren’t hidden by tall",
                     "strWidth": 263.21875
                 },
                 {
@@ -6039,7 +6039,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "grass. If you come into contact with a Pok\u00e9mon in its",
+                    "str": "grass. If you come into contact with a Pokémon in its",
                     "strWidth": 680.65625
                 },
                 {
@@ -6085,7 +6085,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pok\u00e9mon Hideaways",
+                    "str": "Pokémon Hideaways",
                     "strWidth": 267.515625
                 },
                 {
@@ -6109,7 +6109,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "still-water caverns, attracting different Pok\u00e9mon.",
+                    "str": "still-water caverns, attracting different Pokémon.",
                     "strWidth": 629.21875
                 },
                 {
@@ -6125,7 +6125,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "too. Naturally, larger Pok\u00e9mon prefer",
+                    "str": "too. Naturally, larger Pokémon prefer",
                     "strWidth": 485.703125
                 },
                 {
@@ -6407,7 +6407,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "affect the number and kinds of Pok\u00e9mon that",
+                    "str": "affect the number and kinds of Pokémon that",
                     "strWidth": 586.359375
                 },
                 {
@@ -6431,7 +6431,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pok\u00e9mon Hideaways",
+                    "str": "Pokémon Hideaways",
                     "strWidth": 267.515625
                 },
                 {
@@ -6463,7 +6463,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "what sorts of Pok\u00e9mon they attract.",
+                    "str": "what sorts of Pokémon they attract.",
                     "strWidth": 458.796875
                 }
             ]
@@ -6533,7 +6533,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "size, you\u2019ll get more room to display ",
+                    "str": "size, you’ll get more room to display ",
                     "strWidth": 481.859375
                 },
                 {
@@ -6573,7 +6573,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "To get a bigger base, you\u2019ll need a variety of",
+                    "str": "To get a bigger base, you’ll need a variety of",
                     "strWidth": 587.09375
                 },
                 {
@@ -6723,7 +6723,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "another player\u2019s ",
+                    "str": "another player’s ",
                     "strWidth": 217.296875
                 },
                 {
@@ -6795,7 +6795,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "in another player\u2019s",
+                    "str": "in another player’s",
                     "strWidth": 240.484375
                 },
                 {
@@ -6967,7 +6967,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "visited by Trainers and Pok\u00e9mon from all over.",
+                    "str": "visited by Trainers and Pokémon from all over.",
                     "strWidth": 601.59375
                 },
                 {
@@ -6975,7 +6975,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "It is said that Renegade Park\u2019s abundance of",
+                    "str": "It is said that Renegade Park’s abundance of",
                     "strWidth": 559.359375
                 },
                 {
@@ -6991,7 +6991,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "as it has since the Sinnoh region\u2019s bygone days.",
+                    "str": "as it has since the Sinnoh region’s bygone days.",
                     "strWidth": 614.796875
                 }
             ]
@@ -7299,7 +7299,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Legendary Pok\u00e9mon",
+                    "str": "Legendary Pokémon",
                     "strWidth": 263.625
                 },
                 {
@@ -7415,7 +7415,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "communication or the internet to trade Pok\u00e9mon",
+                    "str": "communication or the internet to trade Pokémon",
                     "strWidth": 630.96875
                 },
                 {
@@ -7447,7 +7447,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pok\u00e9mon Center",
+                    "str": "Pokémon Center",
                     "strWidth": 215.8125
                 },
                 {
@@ -7753,7 +7753,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "worldwide. You never know what Pok\u00e9mon you",
+                    "str": "worldwide. You never know what Pokémon you",
                     "strWidth": 610.484375
                 },
                 {
@@ -7791,7 +7791,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pok\u00e9mon you receive at the ",
+                    "str": "Pokémon you receive at the ",
                     "strWidth": 370.28125
                 },
                 {
@@ -7895,7 +7895,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "until you fill up your very own Pok\u00e9mon",
+                    "str": "until you fill up your very own Pokémon",
                     "strWidth": 513.234375
                 },
                 {
@@ -8067,7 +8067,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": ". To catch any Pok\u00e9mon there,",
+                    "str": ". To catch any Pokémon there,",
                     "strWidth": 395.34375
                 },
                 {
@@ -8075,7 +8075,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "you\u2019ll have use a special item called the ",
+                    "str": "you’ll have use a special item called the ",
                     "strWidth": 525.53125
                 },
                 {
@@ -8169,7 +8169,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": ", you\u2019ll be given",
+                    "str": ", you’ll be given",
                     "strWidth": 208.984375
                 },
                 {
@@ -8343,7 +8343,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u2019s second floor telescope.",
+                    "str": "’s second floor telescope.",
                     "strWidth": 332.84375
                 },
                 {
@@ -8351,7 +8351,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You may see which Pok\u00e9mon are in the",
+                    "str": "You may see which Pokémon are in the",
                     "strWidth": 506.515625
                 },
                 {
@@ -8383,7 +8383,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": " and spot a Pok\u00e9mon that",
+                    "str": " and spot a Pokémon that",
                     "strWidth": 333.421875
                 },
                 {
@@ -8391,7 +8391,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "you can\u2019t find anywhere else in the region!",
+                    "str": "you can’t find anywhere else in the region!",
                     "strWidth": 549.421875
                 }
             ]
@@ -8491,7 +8491,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "favorite Pok\u00e9mon\u2019s Pok\u00e9 Balls. They\u2019ll burst open",
+                    "str": "favorite Pokémon’s Poké Balls. They’ll burst open",
                     "strWidth": 640.875
                 },
                 {
@@ -8499,7 +8499,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "beautifully when your Pok\u00e9mon jumps out!",
+                    "str": "beautifully when your Pokémon jumps out!",
                     "strWidth": 548.203125
                 }
             ]
@@ -8791,7 +8791,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "When you\u2019re finished, you can assign a Ball",
+                    "str": "When you’re finished, you can assign a Ball",
                     "strWidth": 560.875
                 },
                 {
@@ -8799,7 +8799,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Capsule to your favorite Pok\u00e9mon for extra flair!",
+                    "str": "Capsule to your favorite Pokémon for extra flair!",
                     "strWidth": 626.953125
                 }
             ]
@@ -8972,7 +8972,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "your Bag\u2019s Key Items pocket!",
+                    "str": "your Bag’s Key Items pocket!",
                     "strWidth": 375.078125
                 }
             ]
@@ -9002,7 +9002,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Press the R Button to open your Pok\u00e9tch,",
+                    "str": "Press the R Button to open your Pokétch,",
                     "strWidth": 533.125
                 },
                 {
@@ -9056,7 +9056,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pok\u00e9tch app to remove or bypass obstacles!",
+                    "str": "Pokétch app to remove or bypass obstacles!",
                     "strWidth": 570.140625
                 }
             ]
@@ -9086,7 +9086,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Ride your bike from your Bag\u2019s Key Items pocket.",
+                    "str": "Ride your bike from your Bag’s Key Items pocket.",
                     "strWidth": 640.59375
                 },
                 {
@@ -9124,7 +9124,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Use the Explorer Kit from your Bag\u2019s Key Items",
+                    "str": "Use the Explorer Kit from your Bag’s Key Items",
                     "strWidth": 607.515625
                 },
                 {
@@ -9202,7 +9202,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "to trade Pok\u00e9mon with players nearby. You can enter",
+                    "str": "to trade Pokémon with players nearby. You can enter",
                     "strWidth": 689.53125
                 },
                 {
@@ -9226,7 +9226,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pok\u00e9mon Center",
+                    "str": "Pokémon Center",
                     "strWidth": 215.8125
                 },
                 {
@@ -9280,7 +9280,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "the Union Room inside any Pok\u00e9mon Center!",
+                    "str": "the Union Room inside any Pokémon Center!",
                     "strWidth": 580.765625
                 }
             ]
@@ -9388,7 +9388,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "communication or the internet to trade Pok\u00e9mon",
+                    "str": "communication or the internet to trade Pokémon",
                     "strWidth": 630.96875
                 },
                 {
@@ -9420,7 +9420,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pok\u00e9mon Center",
+                    "str": "Pokémon Center",
                     "strWidth": 215.8125
                 },
                 {
@@ -9598,7 +9598,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "encounters. \"Regional\" Pok\u00e9mon include anything",
+                    "str": "encounters. \"Regional\" Pokémon include anything",
                     "strWidth": 637.8125
                 },
                 {
@@ -9706,7 +9706,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "It only appears if the Pok\u00e9mon has five or more",
+                    "str": "It only appears if the Pokémon has five or more",
                     "strWidth": 614.375
                 },
                 {
@@ -9768,7 +9768,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "It only appears if the Pok\u00e9mon can know more",
+                    "str": "It only appears if the Pokémon can know more",
                     "strWidth": 601.265625
                 },
                 {
@@ -9876,7 +9876,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You can change your Pok\u00e9mon\u2019s <color=#F01E1EFF>Nickname</color> at any",
+                    "str": "You can change your Pokémon’s <color=#F01E1EFF>Nickname</color> at any",
                     "strWidth": 639.046875
                 },
                 {
@@ -9930,7 +9930,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You can change your Pok\u00e9mon\u2019s <color=#F01E1EFF>Nickname</color> at any",
+                    "str": "You can change your Pokémon’s <color=#F01E1EFF>Nickname</color> at any",
                     "strWidth": 639.046875
                 },
                 {
@@ -10030,7 +10030,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You may see your Pok\u00e9mon\u2019s <color=#F01E1EFF>IVs</color> at any time",
+                    "str": "You may see your Pokémon’s <color=#F01E1EFF>IVs</color> at any time",
                     "strWidth": 580.90625
                 },
                 {
@@ -10084,7 +10084,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You may see your Pok\u00e9mon\u2019s <color=#F01E1EFF>IVs</color> at any time from",
+                    "str": "You may see your Pokémon’s <color=#F01E1EFF>IVs</color> at any time from",
                     "strWidth": 648.875
                 },
                 {
@@ -10378,7 +10378,7 @@
                     "eventID": 4,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "unlock <color=#F01E1EFF>a new set of moves</color> for your Pok\u00e9mon to",
+                    "str": "unlock <color=#F01E1EFF>a new set of moves</color> for your Pokémon to",
                     "strWidth": 615.671875
                 },
                 {
@@ -10424,7 +10424,7 @@
                     "eventID": 4,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "unlock <color=#F01E1EFF>a new set of moves</color> for your Pok\u00e9mon to",
+                    "str": "unlock <color=#F01E1EFF>a new set of moves</color> for your Pokémon to",
                     "strWidth": 615.671875
                 },
                 {

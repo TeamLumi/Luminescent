@@ -15637,6 +15637,360 @@
             "AssetName": "ef_b_bg_g081_sun",
             "PoolCount": 1,
             "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew733_at_hit",
+            "AssetName": "ew733_at_hit",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew733_at_movept",
+            "AssetName": "ew733_at_movept",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew733_df_circle",
+            "AssetName": "ew733_df_circle",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew733_start",
+            "AssetName": "ew733_start",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew734_ground_spark",
+            "AssetName": "ew734_ground_spark",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew734_spark",
+            "AssetName": "ew734_spark",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew734_spark_start",
+            "AssetName": "ew734_spark_start",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew735_aura_loop",
+            "AssetName": "ew735_aura_loop",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew735_hit",
+            "AssetName": "ew735_hit",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew735_muzzle",
+            "AssetName": "ew735_muzzle",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew735_smoke",
+            "AssetName": "ew735_smoke",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew735_start_aura",
+            "AssetName": "ew735_start_aura",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew736_at_charge01",
+            "AssetName": "ew736_at_charge01",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew736_at_start",
+            "AssetName": "ew736_at_start",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew736_bullet01_at",
+            "AssetName": "ew736_bullet01_at",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew736_df_hit",
+            "AssetName": "ew736_df_hit",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew736_df_sph01",
+            "AssetName": "ew736_df_sph01",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew737_at_start_wall01",
+            "AssetName": "ew737_at_start_wall01",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew737_df_hit01",
+            "AssetName": "ew737_df_hit01",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew737_df_upstorm01",
+            "AssetName": "ew737_df_upstorm01",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew737_dome",
+            "AssetName": "ew737_dome",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew738_at_start",
+            "AssetName": "ew738_at_start",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew738_bullet01_at",
+            "AssetName": "ew738_bullet01_at",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew738_df_exp01",
+            "AssetName": "ew738_df_exp01",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew738_tree_start",
+            "AssetName": "ew738_tree_start",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew739_ice_break",
+            "AssetName": "ew739_ice_break",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew739_iceblock",
+            "AssetName": "ew739_iceblock",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew739_main_ice",
+            "AssetName": "ew739_main_ice",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew739_snow_fill",
+            "AssetName": "ew739_snow_fill",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew739_start",
+            "AssetName": "ew739_start",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew740_at_heal",
+            "AssetName": "ew740_at_heal",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew740_colorfill",
+            "AssetName": "ew740_colorfill",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew740_fill",
+            "AssetName": "ew740_fill",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew740_flower",
+            "AssetName": "ew740_flower",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew740_flower_end",
+            "AssetName": "ew740_flower_end",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew740_follow_wind",
+            "AssetName": "ew740_follow_wind",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew740_kira",
+            "AssetName": "ew740_kira",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew740_up_line",
+            "AssetName": "ew740_up_line",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew740_wind_end",
+            "AssetName": "ew740_wind_end",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew741_at_bullet01",
+            "AssetName": "ew741_at_bullet01",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew741_at_charge_jimen01",
+            "AssetName": "ew741_at_charge_jimen01",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew741_at_charge01",
+            "AssetName": "ew741_at_charge01",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew741_at_charge02",
+            "AssetName": "ew741_at_charge02",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew741_at_charge03_max",
+            "AssetName": "ew741_at_charge03_max",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew741_at_dash_kem_lo",
+            "AssetName": "ew741_at_dash_kem_lo",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew741_at_dash_kem_st",
+            "AssetName": "ew741_at_dash_kem_st",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew741_at_dash_stripe01",
+            "AssetName": "ew741_at_dash_stripe01",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew741_bg_dome01",
+            "AssetName": "ew741_bg_dome01",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew741_bg_dome02",
+            "AssetName": "ew741_bg_dome02",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew741_bg_rock01",
+            "AssetName": "ew741_bg_rock01",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew741_cam_line_up",
+            "AssetName": "ew741_cam_line_up",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew741_cam_line_zoom",
+            "AssetName": "ew741_cam_line_zoom",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew741_df_exp01_max",
+            "AssetName": "ew741_df_exp01_max",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew741_df_exp02_max",
+            "AssetName": "ew741_df_exp02_max",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew741_df_exp03_max",
+            "AssetName": "ew741_df_exp03_max",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew741_df_hit01",
+            "AssetName": "ew741_df_hit01",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew741_df_hit03_max",
+            "AssetName": "ew741_df_hit03_max",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew741_player_aura01",
+            "AssetName": "ew741_player_aura01",
+            "PoolCount": 1,
+            "Resident": 0
+        },
+        {
+            "AssetBundleName": "effect/prefab/battle/ew741_player_poke_mark01",
+            "AssetName": "ew741_player_poke_mark01",
+            "PoolCount": 1,
+            "Resident": 0
         }
     ],
     "ContestEffectData": [

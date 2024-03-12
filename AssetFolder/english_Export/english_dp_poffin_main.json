@@ -575,7 +575,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "It\u2019s soft, earthy soil.",
+                    "str": "It’s soft, earthy soil.",
                     "strWidth": 255.0
                 }
             ]
@@ -1560,7 +1560,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": " couldn\u2019t be taken.",
+                    "str": " couldn’t be taken.",
                     "strWidth": 245.046875
                 }
             ]
@@ -1635,7 +1635,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Bag\u2019s ",
+                    "str": "Bag’s ",
                     "strWidth": 77.8125
                 },
                 {
@@ -1689,7 +1689,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "It\u2019s soft, earthy soil.",
+                    "str": "It’s soft, earthy soil.",
                     "strWidth": 255.0
                 }
             ]
@@ -2443,7 +2443,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "It won\u2019t eat any more...",
+                    "str": "It won’t eat any more...",
                     "strWidth": 300.328125
                 }
             ]
@@ -2867,7 +2867,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "OK, all your other Pok\u00e9mon can go on ahead to",
+                    "str": "OK, all your other Pokémon can go on ahead to",
                     "strWidth": 623.546875
                 },
                 {
@@ -2905,7 +2905,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "There isn\u2019t a Berry to cook!",
+                    "str": "There isn’t a Berry to cook!",
                     "strWidth": 351.046875
                 }
             ]
@@ -3003,7 +3003,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I\u2019d like to cook",
+                    "str": "I’d like to cook",
                     "strWidth": 196.96875
                 }
             ]
@@ -3093,7 +3093,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "OK! Let\u2019s get cooking! Please choose the Berry",
+                    "str": "OK! Let’s get cooking! Please choose the Berry",
                     "strWidth": 607.359375
                 },
                 {
@@ -4113,7 +4113,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "It\u2019ll burn! Stir it!",
+                    "str": "It’ll burn! Stir it!",
                     "strWidth": 201.859375
                 }
             ]
@@ -4173,7 +4173,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "It\u2019ll burn! Hurry!",
+                    "str": "It’ll burn! Hurry!",
                     "strWidth": 204.046875
                 }
             ]
@@ -4263,7 +4263,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "That\u2019s it!",
+                    "str": "That’s it!",
                     "strWidth": 111.984375
                 }
             ]
@@ -4731,7 +4731,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": " \u00d7 ",
+                    "str": " × ",
                     "strWidth": 42.9375
                 },
                 {
@@ -4932,7 +4932,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "There isn\u2019t a Berry to cook.",
+                    "str": "There isn’t a Berry to cook.",
                     "strWidth": 351.6875
                 }
             ]
@@ -5001,7 +5001,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Be quick! If you stir too slowly, you\u2019ll burn the",
+                    "str": "Be quick! If you stir too slowly, you’ll burn the",
                     "strWidth": 594.6875
                 },
                 {
@@ -5025,7 +5025,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "If you do well, you\u2019ll cook up a delicious Poffin!",
+                    "str": "If you do well, you’ll cook up a delicious Poffin!",
                     "strWidth": 618.5
                 },
                 {
@@ -5071,7 +5071,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Which Pok\u00e9mon would you like to take a stroll",
+                    "str": "Which Pokémon would you like to take a stroll",
                     "strWidth": 603.859375
                 },
                 {
@@ -5109,7 +5109,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "OK, your other Pok\u00e9mon can go on ahead to the",
+                    "str": "OK, your other Pokémon can go on ahead to the",
                     "strWidth": 634.28125
                 },
                 {
@@ -5147,7 +5147,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "It\u2019ll be waiting for you in the square.",
+                    "str": "It’ll be waiting for you in the square.",
                     "strWidth": 470.5625
                 },
                 {
@@ -5200,7 +5200,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You can\u2019t take that Pok\u00e9mon on a stroll with you.",
+                    "str": "You can’t take that Pokémon on a stroll with you.",
                     "strWidth": 640.609375
                 }
             ]
@@ -5330,7 +5330,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Be quick! If you stir too slowly, you\u2019ll burn the",
+                    "str": "Be quick! If you stir too slowly, you’ll burn the",
                     "strWidth": 594.6875
                 },
                 {
@@ -5354,7 +5354,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "If you do well, you\u2019ll cook up a delicious Poffin!",
+                    "str": "If you do well, you’ll cook up a delicious Poffin!",
                     "strWidth": 618.5
                 }
             ]
@@ -5485,7 +5485,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "They\u2019ll be waiting for you in the square.",
+                    "str": "They’ll be waiting for you in the square.",
                     "strWidth": 515.171875
                 },
                 {

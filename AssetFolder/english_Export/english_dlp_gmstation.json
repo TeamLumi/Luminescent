@@ -183,7 +183,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "At the GWS, you can trade Pok\u00e9mon with people",
+                    "str": "At the GWS, you can trade Pokémon with people",
                     "strWidth": 641.671875
                 },
                 {
@@ -199,7 +199,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You won\u2019t know what Pok\u00e9mon you\u2019ll get until",
+                    "str": "You won’t know what Pokémon you’ll get until",
                     "strWidth": 602.25
                 },
                 {
@@ -215,7 +215,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "To make a Wonder Trade, select a Pok\u00e9mon you",
+                    "str": "To make a Wonder Trade, select a Pokémon you",
                     "strWidth": 633.5
                 },
                 {
@@ -239,7 +239,7 @@
                     "eventID": 4,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "your trade partner\u2019s Pok\u00e9mon will appear at their",
+                    "str": "your trade partner’s Pokémon will appear at their",
                     "strWidth": 637.09375
                 },
                 {
@@ -255,7 +255,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Likewise, your Pok\u00e9mon\u2019s icon will appear on",
+                    "str": "Likewise, your Pokémon’s icon will appear on",
                     "strWidth": 586.640625
                 },
                 {
@@ -263,7 +263,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "your trade partner\u2019s globe.",
+                    "str": "your trade partner’s globe.",
                     "strWidth": 347.078125
                 },
                 {
@@ -369,7 +369,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "This point already has a Pok\u00e9mon\u2019s icon on it.",
+                    "str": "This point already has a Pokémon’s icon on it.",
                     "strWidth": 594.796875
                 },
                 {
@@ -377,7 +377,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Please choose which Pok\u00e9mon\u2019s icon to display.",
+                    "str": "Please choose which Pokémon’s icon to display.",
                     "strWidth": 619.234375
                 }
             ]
@@ -407,7 +407,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "The new Pok\u00e9mon\u2019s icon has been set.",
+                    "str": "The new Pokémon’s icon has been set.",
                     "strWidth": 498.96875
                 }
             ]
@@ -437,7 +437,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "The Pok\u00e9mon icon has been left as it was.",
+                    "str": "The Pokémon icon has been left as it was.",
                     "strWidth": 541.734375
                 }
             ]
@@ -527,7 +527,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Would you like to change the Pok\u00e9mon icon",
+                    "str": "Would you like to change the Pokémon icon",
                     "strWidth": 575.75
                 },
                 {
@@ -565,7 +565,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "A new Pok\u00e9mon icon has been set on the Globe.",
+                    "str": "A new Pokémon icon has been set on the Globe.",
                     "strWidth": 631.90625
                 }
             ]
@@ -805,7 +805,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u2640",
+                    "str": "♀",
                     "strWidth": 25.59375
                 }
             ]
@@ -835,7 +835,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u2642",
+                    "str": "♂",
                     "strWidth": 25.59375
                 }
             ]
@@ -1971,7 +1971,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Your Pok\u00e9mon records are full. Please select a",
+                    "str": "Your Pokémon records are full. Please select a",
                     "strWidth": 600.359375
                 },
                 {
@@ -1979,7 +1979,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pok\u00e9mon to replace.",
+                    "str": "Pokémon to replace.",
                     "strWidth": 268.0
                 }
             ]
@@ -2009,7 +2009,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Would you like to replace this Pok\u00e9mon record?",
+                    "str": "Would you like to replace this Pokémon record?",
                     "strWidth": 626.0625
                 }
             ]
@@ -2039,7 +2039,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "The Pok\u00e9mon record has been replaced.",
+                    "str": "The Pokémon record has been replaced.",
                     "strWidth": 523.59375
                 }
             ]
@@ -2069,7 +2069,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Would you like to leave the Pok\u00e9mon records as",
+                    "str": "Would you like to leave the Pokémon records as",
                     "strWidth": 628.65625
                 },
                 {
@@ -2107,7 +2107,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "The Pok\u00e9mon records have been left as is.",
+                    "str": "The Pokémon records have been left as is.",
                     "strWidth": 547.328125
                 }
             ]
@@ -2137,7 +2137,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Would you like to leave the Pok\u00e9mon icon as is?",
+                    "str": "Would you like to leave the Pokémon icon as is?",
                     "strWidth": 630.03125
                 }
             ]
@@ -2178,7 +2178,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You\u2019ve successfully marked ",
+                    "str": "You’ve successfully marked ",
                     "strWidth": 361.96875
                 },
                 {
@@ -2224,7 +2224,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You\u2019ve collected all marks!",
+                    "str": "You’ve collected all marks!",
                     "strWidth": 348.96875
                 }
             ]
@@ -2254,7 +2254,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u2014",
+                    "str": "—",
                     "strWidth": 25.59375
                 }
             ]
@@ -2314,7 +2314,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pok\u00e9dex No.",
+                    "str": "Pokédex No.",
                     "strWidth": 167.296875
                 }
             ]
@@ -2606,7 +2606,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "The Pok\u00e9mon\u2019s records have been deleted.",
+                    "str": "The Pokémon’s records have been deleted.",
                     "strWidth": 561.125
                 }
             ]
@@ -2636,7 +2636,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Try trading Pok\u00e9mon!",
+                    "str": "Try trading Pokémon!",
                     "strWidth": 277.09375
                 }
             ]

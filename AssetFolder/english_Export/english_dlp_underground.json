@@ -39,7 +39,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "There\u2019s a strange crystal here...",
+                    "str": "There’s a strange crystal here...",
                     "strWidth": 402.390625
                 }
             ]
@@ -230,7 +230,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "in your Bag\u2019s ",
+                    "str": "in your Bag’s ",
                     "strWidth": 175.109375
                 },
                 {
@@ -276,7 +276,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Hmm... Looks like you don\u2019t have",
+                    "str": "Hmm... Looks like you don’t have",
                     "strWidth": 433.234375
                 },
                 {
@@ -495,7 +495,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u00d7",
+                    "str": "×",
                     "strWidth": 25.59375
                 },
                 {
@@ -609,7 +609,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Oh? It seems you haven\u2019t joined a group yet.",
+                    "str": "Oh? It seems you haven’t joined a group yet.",
                     "strWidth": 582.765625
                 },
                 {
@@ -734,7 +734,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You\u2019ll be moved out of their Secret Base.",
+                    "str": "You’ll be moved out of their Secret Base.",
                     "strWidth": 535.1875
                 }
             ]
@@ -764,7 +764,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You\u2019ll be switched back to local communication.",
+                    "str": "You’ll be switched back to local communication.",
                     "strWidth": 626.8125
                 }
             ]
@@ -794,7 +794,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You\u2019ll enter the Grand Underground again.",
+                    "str": "You’ll enter the Grand Underground again.",
                     "strWidth": 558.90625
                 }
             ]
@@ -843,7 +843,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u2019s Secret Base has been moved!",
+                    "str": "’s Secret Base has been moved!",
                     "strWidth": 406.46875
                 },
                 {
@@ -851,7 +851,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You\u2019ll be moved out of their Secret Base.",
+                    "str": "You’ll be moved out of their Secret Base.",
                     "strWidth": 535.1875
                 }
             ]
@@ -946,7 +946,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You\u2019ll be moved out of their Secret Base.",
+                    "str": "You’ll be moved out of their Secret Base.",
                     "strWidth": 535.1875
                 }
             ]
@@ -976,7 +976,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Oh, sorry! I\u2019m busy right now. Maybe later.",
+                    "str": "Oh, sorry! I’m busy right now. Maybe later.",
                     "strWidth": 552.84375
                 }
             ]
@@ -1006,7 +1006,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Oh, sorry! I\u2019m busy right now. Maybe later.",
+                    "str": "Oh, sorry! I’m busy right now. Maybe later.",
                     "strWidth": 552.84375
                 }
             ]
@@ -1066,7 +1066,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I\u2019m thinking about doing some Fossil digging...",
+                    "str": "I’m thinking about doing some Fossil digging...",
                     "strWidth": 603.5625
                 },
                 {
@@ -1074,7 +1074,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I\u2019d really appreciate it if you dug next to me.",
+                    "str": "I’d really appreciate it if you dug next to me.",
                     "strWidth": 582.75
                 }
             ]
@@ -1104,7 +1104,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I\u2019m thinking about doing some Fossil digging...",
+                    "str": "I’m thinking about doing some Fossil digging...",
                     "strWidth": 603.5625
                 },
                 {
@@ -1112,7 +1112,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I\u2019d really appreciate it if you dug next to me.",
+                    "str": "I’d really appreciate it if you dug next to me.",
                     "strWidth": 582.75
                 }
             ]
@@ -1172,7 +1172,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You\u2019ll be able to play with friends all over the",
+                    "str": "You’ll be able to play with friends all over the",
                     "strWidth": 595.65625
                 },
                 {
@@ -1370,7 +1370,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You turned this Secret Base\u2019s effect ",
+                    "str": "You turned this Secret Base’s effect ",
                     "strWidth": 469.90625
                 },
                 {
@@ -1613,7 +1613,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "If you\u2019d like, let\u2019s dig together!",
+                    "str": "If you’d like, let’s dig together!",
                     "strWidth": 402.828125
                 }
             ]
@@ -1689,7 +1689,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "If you\u2019d like, let\u2019s dig together!",
+                    "str": "If you’d like, let’s dig together!",
                     "strWidth": 402.828125
                 }
             ]
@@ -1784,7 +1784,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "All right! Let\u2019s do this trade!",
+                    "str": "All right! Let’s do this trade!",
                     "strWidth": 361.421875
                 }
             ]
@@ -1814,7 +1814,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Wait a second! You don\u2019t have any room for this!",
+                    "str": "Wait a second! You don’t have any room for this!",
                     "strWidth": 636.0625
                 }
             ]
@@ -1844,7 +1844,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "That\u2019s not the right kind of sphere!",
+                    "str": "That’s not the right kind of sphere!",
                     "strWidth": 449.28125
                 }
             ]
@@ -1874,7 +1874,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Hmm... No, this sphere\u2019s not big enough.",
+                    "str": "Hmm... No, this sphere’s not big enough.",
                     "strWidth": 529.625
                 }
             ]
@@ -2239,7 +2239,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "OK then! Let\u2019s trade!",
+                    "str": "OK then! Let’s trade!",
                     "strWidth": 270.734375
                 }
             ]
@@ -2269,7 +2269,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Oh, now wait a second! You don\u2019t have enough",
+                    "str": "Oh, now wait a second! You don’t have enough",
                     "strWidth": 615.421875
                 },
                 {
@@ -2576,7 +2576,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": " \u00d7",
+                    "str": " ×",
                     "strWidth": 34.265625
                 },
                 {
@@ -2644,7 +2644,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Do you have any treasures? I\u2019ll trade you some",
+                    "str": "Do you have any treasures? I’ll trade you some",
                     "strWidth": 607.09375
                 },
                 {
@@ -2777,7 +2777,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Welcome to Sinnoh\u2019s Grand Underground!",
+                    "str": "Welcome to Sinnoh’s Grand Underground!",
                     "strWidth": 551.046875
                 },
                 {
@@ -2817,7 +2817,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "That\u2019s kind of hard to answer. I mean, you can do",
+                    "str": "That’s kind of hard to answer. I mean, you can do",
                     "strWidth": 641.21875
                 },
                 {
@@ -2881,7 +2881,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I have to get going now. I\u2019ll see you around!",
+                    "str": "I have to get going now. I’ll see you around!",
                     "strWidth": 571.09375
                 }
             ]
@@ -2911,7 +2911,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Hey there! What\u2019s up?",
+                    "str": "Hey there! What’s up?",
                     "strWidth": 290.0625
                 }
             ]
@@ -3091,7 +3091,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You\u2019re going to show me your Trainer Case?",
+                    "str": "You’re going to show me your Trainer Case?",
                     "strWidth": 575.046875
                 },
                 {
@@ -3099,7 +3099,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I\u2019ll show you my Trainer Case as well!",
+                    "str": "I’ll show you my Trainer Case as well!",
                     "strWidth": 481.09375
                 }
             ]
@@ -3129,7 +3129,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Huh? I can\u2019t seem to find my Trainer Case.",
+                    "str": "Huh? I can’t seem to find my Trainer Case.",
                     "strWidth": 551.640625
                 },
                 {
@@ -3167,7 +3167,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Thank you. Don\u2019t be a stranger!",
+                    "str": "Thank you. Don’t be a stranger!",
                     "strWidth": 410.171875
                 }
             ]
@@ -3227,7 +3227,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Oh, that\u2019s OK. There\u2019s always next time.",
+                    "str": "Oh, that’s OK. There’s always next time.",
                     "strWidth": 522.515625
                 }
             ]
@@ -3314,7 +3314,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Thanks, but I couldn\u2019t take that away from you.",
+                    "str": "Thanks, but I couldn’t take that away from you.",
                     "strWidth": 611.765625
                 },
                 {
@@ -3481,7 +3481,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Sorry! Something\u2019s come up!",
+                    "str": "Sorry! Something’s come up!",
                     "strWidth": 366.109375
                 }
             ]
@@ -3714,7 +3714,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I\u2019ll let you see my Trainer Case. May I see yours?",
+                    "str": "I’ll let you see my Trainer Case. May I see yours?",
                     "strWidth": 633.03125
                 }
             ]
@@ -3744,7 +3744,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Oh, you\u2019re busy right now? Sorry to bother you.",
+                    "str": "Oh, you’re busy right now? Sorry to bother you.",
                     "strWidth": 618.71875
                 },
                 {
@@ -3912,7 +3912,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I\u2019d really like you to have it.",
+                    "str": "I’d really like you to have it.",
                     "strWidth": 364.359375
                 }
             ]
@@ -3972,7 +3972,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Oh? You don\u2019t have room for it in your Bag.",
+                    "str": "Oh? You don’t have room for it in your Bag.",
                     "strWidth": 571.9375
                 },
                 {
@@ -4055,7 +4055,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u2019s",
+                    "str": "’s",
                     "strWidth": 20.34375
                 },
                 {
@@ -4278,7 +4278,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Let\u2019s dig for Fossils together! It\u2019d be a huge help",
+                    "str": "Let’s dig for Fossils together! It’d be a huge help",
                     "strWidth": 631.109375
                 },
                 {
@@ -4316,7 +4316,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Let\u2019s dig for Fossils together! It\u2019d be a huge help",
+                    "str": "Let’s dig for Fossils together! It’d be a huge help",
                     "strWidth": 631.109375
                 },
                 {
@@ -4362,7 +4362,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "so I\u2019d be happy if you could go with me.",
+                    "str": "so I’d be happy if you could go with me.",
                     "strWidth": 523.40625
                 }
             ]
@@ -4392,7 +4392,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "It\u2019s your Secret Base. Would you like to go in?",
+                    "str": "It’s your Secret Base. Would you like to go in?",
                     "strWidth": 600.5625
                 }
             ]
@@ -4460,7 +4460,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "so I\u2019d be happy if you could go with me.",
+                    "str": "so I’d be happy if you could go with me.",
                     "strWidth": 523.40625
                 }
             ]
@@ -4520,7 +4520,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "It\u2019s an earthquake!",
+                    "str": "It’s an earthquake!",
                     "strWidth": 239.75
                 },
                 {
@@ -4596,7 +4596,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You can\u2019t use that here.",
+                    "str": "You can’t use that here.",
                     "strWidth": 309.5625
                 }
             ]
@@ -4626,7 +4626,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You can\u2019t place that there.",
+                    "str": "You can’t place that there.",
                     "strWidth": 346.796875
                 }
             ]
@@ -4724,7 +4724,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I\u2019m going to explore the Grand Underground!",
+                    "str": "I’m going to explore the Grand Underground!",
                     "strWidth": 591.40625
                 },
                 {
@@ -4732,7 +4732,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Let\u2019s go together if you\u2019d like!",
+                    "str": "Let’s go together if you’d like!",
                     "strWidth": 392.671875
                 }
             ]
@@ -4762,7 +4762,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I\u2019m going to explore the Grand Underground!",
+                    "str": "I’m going to explore the Grand Underground!",
                     "strWidth": 591.40625
                 },
                 {
@@ -4770,7 +4770,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Let\u2019s go together if you\u2019d like!",
+                    "str": "Let’s go together if you’d like!",
                     "strWidth": 392.671875
                 }
             ]
@@ -4800,7 +4800,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Everyone, gather around! Let\u2019s work together",
+                    "str": "Everyone, gather around! Let’s work together",
                     "strWidth": 584.734375
                 },
                 {
@@ -4993,7 +4993,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You can\u2019t return to the surface from inside a",
+                    "str": "You can’t return to the surface from inside a",
                     "strWidth": 572.3125
                 },
                 {
@@ -5031,7 +5031,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Everyone, gather around! Let\u2019s work together",
+                    "str": "Everyone, gather around! Let’s work together",
                     "strWidth": 584.734375
                 },
                 {
@@ -5178,7 +5178,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I\u2019m going to search for a Pok\u00e9mon Hideaway!",
+                    "str": "I’m going to search for a Pokémon Hideaway!",
                     "strWidth": 589.0
                 },
                 {
@@ -5216,7 +5216,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I\u2019m digging for Fossils right now. Want to dig",
+                    "str": "I’m digging for Fossils right now. Want to dig",
                     "strWidth": 583.15625
                 },
                 {
@@ -5262,7 +5262,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You can\u2019t drill holes inside a Secret Base!",
+                    "str": "You can’t drill holes inside a Secret Base!",
                     "strWidth": 533.84375
                 }
             ]
@@ -5349,7 +5349,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I\u2019m going to search for a Pok\u00e9mon Hideaway!",
+                    "str": "I’m going to search for a Pokémon Hideaway!",
                     "strWidth": 589.0
                 },
                 {
@@ -5398,7 +5398,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Your Bag is full. You can\u2019t put away",
+                    "str": "Your Bag is full. You can’t put away",
                     "strWidth": 462.578125
                 },
                 {
@@ -5452,7 +5452,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I\u2019m looking for someone to catch Pok\u00e9mon",
+                    "str": "I’m looking for someone to catch Pokémon",
                     "strWidth": 556.59375
                 },
                 {
@@ -5528,7 +5528,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I\u2019m looking for someone to catch Pok\u00e9mon",
+                    "str": "I’m looking for someone to catch Pokémon",
                     "strWidth": 556.59375
                 },
                 {
@@ -5582,7 +5582,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u201cDigging for Fossils!",
+                    "str": "“Digging for Fossils!",
                     "strWidth": 258.9375
                 },
                 {
@@ -5590,7 +5590,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u201cI\u2019ve put a sledgehammer and pickax in your",
+                    "str": "“I’ve put a sledgehammer and pickax in your",
                     "strWidth": 577.3125
                 },
                 {
@@ -5598,7 +5598,7 @@
                     "eventID": 4,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Explorer Kit. Use them, and you\u2019ll be able to",
+                    "str": "Explorer Kit. Use them, and you’ll be able to",
                     "strWidth": 580.109375
                 },
                 {
@@ -5606,7 +5606,7 @@
                     "eventID": 4,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "dig out all sorts of stuff from the walls\u2014",
+                    "str": "dig out all sorts of stuff from the walls—",
                     "strWidth": 516.25
                 },
                 {
@@ -5622,7 +5622,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u201cI\u2019m sure you can do it! Good luck, youngster!\u201d",
+                    "str": "“I’m sure you can do it! Good luck, youngster!”",
                     "strWidth": 608.59375
                 }
             ]
@@ -5652,7 +5652,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I can\u2019t accept anything that important!",
+                    "str": "I can’t accept anything that important!",
                     "strWidth": 495.765625
                 }
             ]
@@ -5682,7 +5682,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Thanks for the offer, but I\u2019ll pass.",
+                    "str": "Thanks for the offer, but I’ll pass.",
                     "strWidth": 430.390625
                 },
                 {
@@ -5736,7 +5736,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "It\u2019s too dangerous to go in.",
+                    "str": "It’s too dangerous to go in.",
                     "strWidth": 352.359375
                 }
             ]
@@ -5935,7 +5935,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u2019s Secret Base.",
+                    "str": "’s Secret Base.",
                     "strWidth": 186.734375
                 }
             ]
@@ -6635,7 +6635,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Let\u2019s go catch all kinds of Pok\u00e9mon together!",
+                    "str": "Let’s go catch all kinds of Pokémon together!",
                     "strWidth": 586.328125
                 }
             ]
@@ -6695,7 +6695,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Let\u2019s go catch all kinds of Pok\u00e9mon together!",
+                    "str": "Let’s go catch all kinds of Pokémon together!",
                     "strWidth": 586.328125
                 }
             ]
@@ -6885,7 +6885,7 @@
                     "eventID": 4,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I can\u2019t help but hope I\u2019ll find a statue I\u2019ve never",
+                    "str": "I can’t help but hope I’ll find a statue I’ve never",
                     "strWidth": 619.5
                 },
                 {
@@ -6931,7 +6931,7 @@
                     "eventID": 4,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I can\u2019t help but hope I\u2019ll find a statue I\u2019ve never",
+                    "str": "I can’t help but hope I’ll find a statue I’ve never",
                     "strWidth": 619.5
                 },
                 {
@@ -6977,7 +6977,7 @@
                     "eventID": 4,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "to a friend? When there\u2019s digging to be done,",
+                    "str": "to a friend? When there’s digging to be done,",
                     "strWidth": 597.40625
                 },
                 {
@@ -7023,7 +7023,7 @@
                     "eventID": 4,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "to a friend? When there\u2019s digging to be done,",
+                    "str": "to a friend? When there’s digging to be done,",
                     "strWidth": 597.40625
                 },
                 {
@@ -7061,7 +7061,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "When I\u2019m digging next to a friend, I feel like I",
+                    "str": "When I’m digging next to a friend, I feel like I",
                     "strWidth": 594.75
                 },
                 {
@@ -7069,7 +7069,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "could find a statue I\u2019ve never found before!",
+                    "str": "could find a statue I’ve never found before!",
                     "strWidth": 563.34375
                 }
             ]
@@ -7099,7 +7099,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "When I\u2019m digging next to a friend, I feel like I",
+                    "str": "When I’m digging next to a friend, I feel like I",
                     "strWidth": 594.75
                 },
                 {
@@ -7107,7 +7107,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "could find a statue I\u2019ve never found before!",
+                    "str": "could find a statue I’ve never found before!",
                     "strWidth": 563.34375
                 }
             ]
@@ -7213,7 +7213,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pok\u00e9mon living in the Grand Underground show",
+                    "str": "Pokémon living in the Grand Underground show",
                     "strWidth": 621.796875
                 },
                 {
@@ -7221,7 +7221,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "up right where you can see them. It\u2019s so exciting!",
+                    "str": "up right where you can see them. It’s so exciting!",
                     "strWidth": 630.6875
                 }
             ]
@@ -7251,7 +7251,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pok\u00e9mon living in the Grand Underground show",
+                    "str": "Pokémon living in the Grand Underground show",
                     "strWidth": 621.796875
                 },
                 {
@@ -7259,7 +7259,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "up right where you can see them. It\u2019s so exciting!",
+                    "str": "up right where you can see them. It’s so exciting!",
                     "strWidth": 630.6875
                 }
             ]
@@ -7702,7 +7702,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I battled my way through a Pok\u00e9mon Hideaway",
+                    "str": "I battled my way through a Pokémon Hideaway",
                     "strWidth": 611.75
                 },
                 {
@@ -7718,7 +7718,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "every one of the wild Pok\u00e9mon was super strong!",
+                    "str": "every one of the wild Pokémon was super strong!",
                     "strWidth": 632.796875
                 }
             ]
@@ -8064,7 +8064,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "so you don\u2019t get lost.",
+                    "str": "so you don’t get lost.",
                     "strWidth": 275.96875
                 }
             ]
@@ -8102,7 +8102,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "for Fossils and meeting Pok\u00e9mon!",
+                    "str": "for Fossils and meeting Pokémon!",
                     "strWidth": 433.6875
                 },
                 {
@@ -8110,7 +8110,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I completely lose track of time when I\u2019m",
+                    "str": "I completely lose track of time when I’m",
                     "strWidth": 518.421875
                 },
                 {
@@ -8194,7 +8194,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Have you found a Pok\u00e9mon Hideaway yet?",
+                    "str": "Have you found a Pokémon Hideaway yet?",
                     "strWidth": 559.34375
                 },
                 {
@@ -8202,7 +8202,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "There are lots of Pok\u00e9mon there,",
+                    "str": "There are lots of Pokémon there,",
                     "strWidth": 427.71875
                 },
                 {
@@ -8240,7 +8240,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Some Pok\u00e9mon Hideaways are small, while",
+                    "str": "Some Pokémon Hideaways are small, while",
                     "strWidth": 555.09375
                 },
                 {
@@ -8256,7 +8256,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "In the larger ones, you\u2019re more likely to see",
+                    "str": "In the larger ones, you’re more likely to see",
                     "strWidth": 564.578125
                 },
                 {
@@ -8264,7 +8264,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "bigger Pok\u00e9mon!",
+                    "str": "bigger Pokémon!",
                     "strWidth": 218.46875
                 }
             ]
@@ -8302,7 +8302,7 @@
                     "eventID": 4,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "the Underground\u2014they might trade you",
+                    "str": "the Underground—they might trade you",
                     "strWidth": 516.609375
                 },
                 {
@@ -8318,7 +8318,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You may even find someone that\u2019ll heal your",
+                    "str": "You may even find someone that’ll heal your",
                     "strWidth": 579.796875
                 },
                 {
@@ -8326,7 +8326,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pok\u00e9mon for you!",
+                    "str": "Pokémon for you!",
                     "strWidth": 227.96875
                 }
             ]
@@ -8448,7 +8448,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Have you ever visited someone else\u2019s",
+                    "str": "Have you ever visited someone else’s",
                     "strWidth": 485.25
                 },
                 {
@@ -8464,7 +8464,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "It\u2019s fun to look and see how differently people",
+                    "str": "It’s fun to look and see how differently people",
                     "strWidth": 602.515625
                 },
                 {
@@ -8518,7 +8518,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "If you\u2019ve got a pedestal, go ahead and try it.",
+                    "str": "If you’ve got a pedestal, go ahead and try it.",
                     "strWidth": 581.375
                 }
             ]
@@ -8564,7 +8564,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Sometimes you\u2019ll even find treasure!",
+                    "str": "Sometimes you’ll even find treasure!",
                     "strWidth": 468.125
                 }
             ]
@@ -8610,7 +8610,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "And don\u2019t forget to check your radar when",
+                    "str": "And don’t forget to check your radar when",
                     "strWidth": 553.71875
                 },
                 {
@@ -8618,7 +8618,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "you\u2019re near a digging point!",
+                    "str": "you’re near a digging point!",
                     "strWidth": 359.59375
                 }
             ]
@@ -8648,7 +8648,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "When you\u2019re digging for Fossils, watch out for",
+                    "str": "When you’re digging for Fossils, watch out for",
                     "strWidth": 597.375
                 },
                 {
@@ -8718,7 +8718,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "should use the one that\u2019s best for the situation!",
+                    "str": "should use the one that’s best for the situation!",
                     "strWidth": 609.59375
                 }
             ]
@@ -8748,7 +8748,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "When you\u2019re digging for Fossils, you\u2019ll find some",
+                    "str": "When you’re digging for Fossils, you’ll find some",
                     "strWidth": 632.421875
                 },
                 {
@@ -8756,7 +8756,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "rocks that you can\u2019t break.",
+                    "str": "rocks that you can’t break.",
                     "strWidth": 344.453125
                 },
                 {
@@ -8802,7 +8802,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Sometimes when you\u2019re digging in the walls,",
+                    "str": "Sometimes when you’re digging in the walls,",
                     "strWidth": 572.125
                 },
                 {
@@ -8810,7 +8810,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "you\u2019ll find a Mysterious Shard.",
+                    "str": "you’ll find a Mysterious Shard.",
                     "strWidth": 392.296875
                 },
                 {
@@ -8818,7 +8818,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "What do you suppose they\u2019re used for?",
+                    "str": "What do you suppose they’re used for?",
                     "strWidth": 511.1875
                 }
             ]
@@ -8894,7 +8894,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "The prettier the box, the rarer the statue you\u2019ll",
+                    "str": "The prettier the box, the rarer the statue you’ll",
                     "strWidth": 606.921875
                 },
                 {
@@ -8932,7 +8932,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "It\u2019s a good idea to collect lots of spheres.",
+                    "str": "It’s a good idea to collect lots of spheres.",
                     "strWidth": 540.015625
                 },
                 {
@@ -8986,7 +8986,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "The larger spheres are rare, so you\u2019re",
+                    "str": "The larger spheres are rare, so you’re",
                     "strWidth": 483.265625
                 },
                 {
@@ -9064,7 +9064,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "! I\u2019m so glad you\u2019re awake!",
+                    "str": "! I’m so glad you’re awake!",
                     "strWidth": 345.796875
                 },
                 {
@@ -9072,7 +9072,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I helped out your Pok\u00e9mon, and ",
+                    "str": "I helped out your Pokémon, and ",
                     "strWidth": 426.453125
                 },
                 {
@@ -9267,7 +9267,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "The Pok\u00e9mon down here in the Grand",
+                    "str": "The Pokémon down here in the Grand",
                     "strWidth": 493.296875
                 },
                 {
@@ -9283,7 +9283,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Be careful while you\u2019re exploring!",
+                    "str": "Be careful while you’re exploring!",
                     "strWidth": 433.203125
                 },
                 {
@@ -9606,7 +9606,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You\u2019re too close to a Pok\u00e9mon Hideaway.",
+                    "str": "You’re too close to a Pokémon Hideaway.",
                     "strWidth": 547.015625
                 },
                 {
@@ -9644,7 +9644,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "There\u2019s already a Secret Base here!",
+                    "str": "There’s already a Secret Base here!",
                     "strWidth": 454.53125
                 }
             ]
@@ -9674,7 +9674,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "There\u2019s not enough room in a corner.",
+                    "str": "There’s not enough room in a corner.",
                     "strWidth": 480.546875
                 },
                 {
@@ -9739,7 +9739,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u2019s Secret Base!",
+                    "str": "’s Secret Base!",
                     "strWidth": 186.09375
                 },
                 {
@@ -10063,7 +10063,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I battled my way through a Pok\u00e9mon Hideaway",
+                    "str": "I battled my way through a Pokémon Hideaway",
                     "strWidth": 611.75
                 },
                 {
@@ -10079,7 +10079,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "every one of the wild Pok\u00e9mon was super strong!",
+                    "str": "every one of the wild Pokémon was super strong!",
                     "strWidth": 632.796875
                 }
             ]
@@ -10109,7 +10109,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I lost against a wild Pok\u00e9mon, and Roark had to",
+                    "str": "I lost against a wild Pokémon, and Roark had to",
                     "strWidth": 618.8125
                 },
                 {
@@ -10147,7 +10147,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I lost against a wild Pok\u00e9mon, and Roark had to",
+                    "str": "I lost against a wild Pokémon, and Roark had to",
                     "strWidth": 618.8125
                 },
                 {
@@ -10577,7 +10577,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "-type Pok\u00e9mon!",
+                    "str": "-type Pokémon!",
                     "strWidth": 204.453125
                 }
             ]
@@ -10634,7 +10634,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "-type Pok\u00e9mon!",
+                    "str": "-type Pokémon!",
                     "strWidth": 204.453125
                 }
             ]
@@ -10691,7 +10691,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "-type Pok\u00e9mon!",
+                    "str": "-type Pokémon!",
                     "strWidth": 204.453125
                 }
             ]
@@ -10979,7 +10979,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You turned this Secret Base\u2019s effect ",
+                    "str": "You turned this Secret Base’s effect ",
                     "strWidth": 469.90625
                 },
                 {
@@ -11041,7 +11041,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I\u2019m pretty sure that the Pok\u00e9mon I just caught is",
+                    "str": "I’m pretty sure that the Pokémon I just caught is",
                     "strWidth": 618.90625
                 },
                 {
@@ -11079,7 +11079,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You don\u2019t have any statues.",
+                    "str": "You don’t have any statues.",
                     "strWidth": 359.6875
                 }
             ]
@@ -11109,7 +11109,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I\u2019m pretty sure that the Pok\u00e9mon I just caught is",
+                    "str": "I’m pretty sure that the Pokémon I just caught is",
                     "strWidth": 618.90625
                 },
                 {
@@ -11195,7 +11195,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "another Secret Base\u2019s?",
+                    "str": "another Secret Base’s?",
                     "strWidth": 292.578125
                 }
             ]
@@ -11274,7 +11274,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "If you do, I\u2019ll trade you something.",
+                    "str": "If you do, I’ll trade you something.",
                     "strWidth": 448.96875
                 }
             ]
@@ -11364,7 +11364,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Caught many Pok\u00e9mon yet? Some of the ones",
+                    "str": "Caught many Pokémon yet? Some of the ones",
                     "strWidth": 596.171875
                 },
                 {
@@ -11372,7 +11372,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "here can\u2019t be found anywhere else, so keep at it!",
+                    "str": "here can’t be found anywhere else, so keep at it!",
                     "strWidth": 632.734375
                 }
             ]
@@ -11402,7 +11402,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Caught many Pok\u00e9mon yet? Some of the ones",
+                    "str": "Caught many Pokémon yet? Some of the ones",
                     "strWidth": 596.171875
                 },
                 {
@@ -11410,7 +11410,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "here can\u2019t be found anywhere else, so keep at it!",
+                    "str": "here can’t be found anywhere else, so keep at it!",
                     "strWidth": 632.734375
                 }
             ]
@@ -11448,7 +11448,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "If you do, I\u2019ll trade you something.",
+                    "str": "If you do, I’ll trade you something.",
                     "strWidth": 448.96875
                 }
             ]
@@ -11486,7 +11486,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I\u2019ll trade you some for spheres!",
+                    "str": "I’ll trade you some for spheres!",
                     "strWidth": 400.15625
                 }
             ]
@@ -11774,7 +11774,7 @@
                     "eventID": 4,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": " of them, I\u2019ll take...",
+                    "str": " of them, I’ll take...",
                     "strWidth": 247.375
                 },
                 {
@@ -11836,7 +11836,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "OK, it\u2019s a deal. Thanks for your business!",
+                    "str": "OK, it’s a deal. Thanks for your business!",
                     "strWidth": 527.546875
                 }
             ]
@@ -11982,7 +11982,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Then I\u2019ll give you",
+                    "str": "Then I’ll give you",
                     "strWidth": 224.0
                 },
                 {
@@ -12293,7 +12293,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You and your Pok\u00e9mon became fully healed from",
+                    "str": "You and your Pokémon became fully healed from",
                     "strWidth": 640.96875
                 },
                 {
@@ -12624,7 +12624,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u2014",
+                    "str": "—",
                     "strWidth": 25.59375
                 }
             ]
@@ -13194,7 +13194,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "1\u00d71",
+                    "str": "1×1",
                     "strWidth": 53.56250762939453
                 }
             ]
@@ -13224,7 +13224,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "1\u00d72",
+                    "str": "1×2",
                     "strWidth": 57.562503814697266
                 }
             ]
@@ -13254,7 +13254,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "2\u00d72",
+                    "str": "2×2",
                     "strWidth": 61.5625
                 }
             ]
@@ -13284,7 +13284,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "3\u00d73",
+                    "str": "3×3",
                     "strWidth": 61.5625
                 }
             ]
@@ -13404,7 +13404,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Legendary Pok\u00e9mon only",
+                    "str": "Legendary Pokémon only",
                     "strWidth": 327.1875
                 }
             ]
@@ -13630,7 +13630,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "so you don\u2019t get lost.",
+                    "str": "so you don’t get lost.",
                     "strWidth": 275.96875
                 }
             ]
@@ -13668,7 +13668,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "digging for Fossils and meeting new Pok\u00e9mon!",
+                    "str": "digging for Fossils and meeting new Pokémon!",
                     "strWidth": 599.03125
                 },
                 {
@@ -13676,7 +13676,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I always lose track of time when I\u2019m down here.",
+                    "str": "I always lose track of time when I’m down here.",
                     "strWidth": 611.75
                 }
             ]
@@ -13752,7 +13752,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Have you found a Pok\u00e9mon Hideaway yet?",
+                    "str": "Have you found a Pokémon Hideaway yet?",
                     "strWidth": 559.34375
                 },
                 {
@@ -13760,7 +13760,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "There are lots of Pok\u00e9mon there, so",
+                    "str": "There are lots of Pokémon there, so",
                     "strWidth": 465.0625
                 },
                 {
@@ -13798,7 +13798,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Some Pok\u00e9mon Hideaways are small, while",
+                    "str": "Some Pokémon Hideaways are small, while",
                     "strWidth": 555.09375
                 },
                 {
@@ -13814,7 +13814,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "In the larger ones, you\u2019re more likely to see",
+                    "str": "In the larger ones, you’re more likely to see",
                     "strWidth": 564.578125
                 },
                 {
@@ -13822,7 +13822,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "bigger Pok\u00e9mon!",
+                    "str": "bigger Pokémon!",
                     "strWidth": 218.46875
                 }
             ]
@@ -13860,7 +13860,7 @@
                     "eventID": 4,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "the Underground\u2014they might trade you",
+                    "str": "the Underground—they might trade you",
                     "strWidth": 516.609375
                 },
                 {
@@ -13876,7 +13876,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You may even find someone that\u2019ll heal your",
+                    "str": "You may even find someone that’ll heal your",
                     "strWidth": 579.796875
                 },
                 {
@@ -13884,7 +13884,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pok\u00e9mon for you!",
+                    "str": "Pokémon for you!",
                     "strWidth": 227.96875
                 }
             ]
@@ -14006,7 +14006,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Have you ever visited someone else\u2019s",
+                    "str": "Have you ever visited someone else’s",
                     "strWidth": 485.25
                 },
                 {
@@ -14022,7 +14022,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "It\u2019s fun to look and see how differently people",
+                    "str": "It’s fun to look and see how differently people",
                     "strWidth": 602.515625
                 },
                 {
@@ -14076,7 +14076,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "If you\u2019ve got a pedestal, go ahead and try it.",
+                    "str": "If you’ve got a pedestal, go ahead and try it.",
                     "strWidth": 581.375
                 }
             ]
@@ -14122,7 +14122,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Sometimes you\u2019ll even find treasure!",
+                    "str": "Sometimes you’ll even find treasure!",
                     "strWidth": 468.125
                 }
             ]
@@ -14168,7 +14168,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "And don\u2019t forget to check your radar when",
+                    "str": "And don’t forget to check your radar when",
                     "strWidth": 553.71875
                 },
                 {
@@ -14176,7 +14176,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "you\u2019re near a digging point!",
+                    "str": "you’re near a digging point!",
                     "strWidth": 359.59375
                 }
             ]
@@ -14206,7 +14206,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "When you\u2019re digging for Fossils, watch out for",
+                    "str": "When you’re digging for Fossils, watch out for",
                     "strWidth": 597.375
                 },
                 {
@@ -14276,7 +14276,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "should use the one that\u2019s best for the situation!",
+                    "str": "should use the one that’s best for the situation!",
                     "strWidth": 609.59375
                 }
             ]
@@ -14306,7 +14306,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "When you\u2019re digging for Fossils, you\u2019ll find some",
+                    "str": "When you’re digging for Fossils, you’ll find some",
                     "strWidth": 632.421875
                 },
                 {
@@ -14314,7 +14314,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "rocks that you can\u2019t break.",
+                    "str": "rocks that you can’t break.",
                     "strWidth": 344.453125
                 },
                 {
@@ -14360,7 +14360,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Sometimes when you\u2019re digging in the walls,",
+                    "str": "Sometimes when you’re digging in the walls,",
                     "strWidth": 572.125
                 },
                 {
@@ -14368,7 +14368,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "you\u2019ll find a Mysterious Shard.",
+                    "str": "you’ll find a Mysterious Shard.",
                     "strWidth": 392.296875
                 },
                 {
@@ -14376,7 +14376,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "What do you suppose they\u2019re used for?",
+                    "str": "What do you suppose they’re used for?",
                     "strWidth": 511.1875
                 }
             ]
@@ -14452,7 +14452,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "The prettier the box, the rarer the statue you\u2019ll",
+                    "str": "The prettier the box, the rarer the statue you’ll",
                     "strWidth": 606.921875
                 },
                 {
@@ -14490,7 +14490,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "It\u2019s a good idea to collect lots of spheres.",
+                    "str": "It’s a good idea to collect lots of spheres.",
                     "strWidth": 540.015625
                 },
                 {
@@ -14544,7 +14544,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "The larger spheres are rare, so you\u2019re",
+                    "str": "The larger spheres are rare, so you’re",
                     "strWidth": 483.265625
                 },
                 {
@@ -14582,7 +14582,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "4\u00d74",
+                    "str": "4×4",
                     "strWidth": 61.5625
                 }
             ]
@@ -14657,7 +14657,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pok\u00e9mon Hideaways have different terrains.",
+                    "str": "Pokémon Hideaways have different terrains.",
                     "strWidth": 569.328125
                 },
                 {
@@ -14665,7 +14665,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "It\u2019s very important to know what kind of place",
+                    "str": "It’s very important to know what kind of place",
                     "strWidth": 595.34375
                 },
                 {
@@ -14673,7 +14673,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "the wild Pok\u00e9mon you\u2019re searching for lives in.",
+                    "str": "the wild Pokémon you’re searching for lives in.",
                     "strWidth": 601.984375
                 }
             ]
@@ -14703,7 +14703,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pok\u00e9mon Hideaways have different terrains.",
+                    "str": "Pokémon Hideaways have different terrains.",
                     "strWidth": 569.328125
                 },
                 {
@@ -14711,7 +14711,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "It\u2019s very important to know what kind of place",
+                    "str": "It’s very important to know what kind of place",
                     "strWidth": 595.34375
                 },
                 {
@@ -14719,7 +14719,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "the wild Pok\u00e9mon you\u2019re searching for lives in.",
+                    "str": "the wild Pokémon you’re searching for lives in.",
                     "strWidth": 601.984375
                 }
             ]
@@ -14901,7 +14901,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I\u2019d be so happy if I could make my Secret Base",
+                    "str": "I’d be so happy if I could make my Secret Base",
                     "strWidth": 607.40625
                 },
                 {
@@ -14939,7 +14939,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I\u2019d be so happy if I could make my Secret Base",
+                    "str": "I’d be so happy if I could make my Secret Base",
                     "strWidth": 607.40625
                 },
                 {
@@ -14977,7 +14977,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Please come visit my Secret Base if you\u2019d like.",
+                    "str": "Please come visit my Secret Base if you’d like.",
                     "strWidth": 595.75
                 }
             ]
@@ -15007,7 +15007,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Please come visit my Secret Base if you\u2019d like.",
+                    "str": "Please come visit my Secret Base if you’d like.",
                     "strWidth": 595.75
                 }
             ]
@@ -15045,7 +15045,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "else\u2019s Secret Base, the effect\u2019ll work for you, too!",
+                    "str": "else’s Secret Base, the effect’ll work for you, too!",
                     "strWidth": 637.953125
                 }
             ]
@@ -15083,7 +15083,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "else\u2019s Secret Base, the effect\u2019ll work for you, too!",
+                    "str": "else’s Secret Base, the effect’ll work for you, too!",
                     "strWidth": 637.953125
                 }
             ]
@@ -15113,7 +15113,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I couldn\u2019t help but give a Great to someone\u2019s",
+                    "str": "I couldn’t help but give a Great to someone’s",
                     "strWidth": 590.46875
                 },
                 {
@@ -15151,7 +15151,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I couldn\u2019t help but give a Great to someone\u2019s",
+                    "str": "I couldn’t help but give a Great to someone’s",
                     "strWidth": 590.46875
                 },
                 {
@@ -15273,7 +15273,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "advantage in Fossil digging. That\u2019s what I heard.",
+                    "str": "advantage in Fossil digging. That’s what I heard.",
                     "strWidth": 624.40625
                 }
             ]
@@ -15311,7 +15311,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "advantage in Fossil digging. That\u2019s what I heard.",
+                    "str": "advantage in Fossil digging. That’s what I heard.",
                     "strWidth": 624.40625
                 }
             ]
@@ -15341,7 +15341,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Isn\u2019t it exciting when you find a Dugtrio while",
+                    "str": "Isn’t it exciting when you find a Dugtrio while",
                     "strWidth": 587.484375
                 },
                 {
@@ -15379,7 +15379,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Isn\u2019t it exciting when you find a Dugtrio while",
+                    "str": "Isn’t it exciting when you find a Dugtrio while",
                     "strWidth": 587.484375
                 },
                 {
@@ -15417,7 +15417,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Dig into walls, and you\u2019ll find treasures galore.",
+                    "str": "Dig into walls, and you’ll find treasures galore.",
                     "strWidth": 603.0625
                 },
                 {
@@ -15455,7 +15455,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Dig into walls, and you\u2019ll find treasures galore.",
+                    "str": "Dig into walls, and you’ll find treasures galore.",
                     "strWidth": 603.0625
                 },
                 {
@@ -15577,7 +15577,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "got something I\u2019d been wanting for a while now!",
+                    "str": "got something I’d been wanting for a while now!",
                     "strWidth": 622.9375
                 }
             ]
@@ -15615,7 +15615,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "got something I\u2019d been wanting for a while now!",
+                    "str": "got something I’d been wanting for a while now!",
                     "strWidth": 622.9375
                 }
             ]
@@ -15653,7 +15653,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "but someday I\u2019ll explore every last tunnel!",
+                    "str": "but someday I’ll explore every last tunnel!",
                     "strWidth": 542.734375
                 }
             ]
@@ -15691,7 +15691,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "but someday I\u2019ll explore every last tunnel!",
+                    "str": "but someday I’ll explore every last tunnel!",
                     "strWidth": 542.734375
                 }
             ]
@@ -15729,7 +15729,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pok\u00e9mon Hideaways have all kinds of terrains!",
+                    "str": "Pokémon Hideaways have all kinds of terrains!",
                     "strWidth": 598.96875
                 }
             ]
@@ -15767,7 +15767,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pok\u00e9mon Hideaways have all kinds of terrains!",
+                    "str": "Pokémon Hideaways have all kinds of terrains!",
                     "strWidth": 598.96875
                 }
             ]
@@ -15797,7 +15797,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Whether you\u2019re on the surface or underground,",
+                    "str": "Whether you’re on the surface or underground,",
                     "strWidth": 612.234375
                 },
                 {
@@ -15835,7 +15835,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Whether you\u2019re on the surface or underground,",
+                    "str": "Whether you’re on the surface or underground,",
                     "strWidth": 612.234375
                 },
                 {
@@ -15873,7 +15873,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Have you set up a Secret Base yet? I\u2019ll place my",
+                    "str": "Have you set up a Secret Base yet? I’ll place my",
                     "strWidth": 622.96875
                 },
                 {
@@ -15911,7 +15911,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Have you set up a Secret Base yet? I\u2019ll place my",
+                    "str": "Have you set up a Secret Base yet? I’ll place my",
                     "strWidth": 622.96875
                 },
                 {
@@ -15949,7 +15949,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I haven\u2019t seen Roark today. I wonder where he",
+                    "str": "I haven’t seen Roark today. I wonder where he",
                     "strWidth": 601.15625
                 },
                 {
@@ -15987,7 +15987,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I haven\u2019t seen Roark today. I wonder where he",
+                    "str": "I haven’t seen Roark today. I wonder where he",
                     "strWidth": 601.15625
                 },
                 {
@@ -16025,7 +16025,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Whoa! You startled me! Don\u2019t speak to me out of",
+                    "str": "Whoa! You startled me! Don’t speak to me out of",
                     "strWidth": 641.75
                 },
                 {
@@ -16063,7 +16063,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Whoa! You startled me! Don\u2019t speak to me out of",
+                    "str": "Whoa! You startled me! Don’t speak to me out of",
                     "strWidth": 641.75
                 },
                 {
@@ -16101,7 +16101,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "All our exploration tuckered my Pok\u00e9mon out,",
+                    "str": "All our exploration tuckered my Pokémon out,",
                     "strWidth": 599.71875
                 },
                 {
@@ -16139,7 +16139,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "All our exploration tuckered my Pok\u00e9mon out,",
+                    "str": "All our exploration tuckered my Pokémon out,",
                     "strWidth": 599.71875
                 },
                 {
@@ -16177,7 +16177,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "No matter where you\u2019re at underground, you can",
+                    "str": "No matter where you’re at underground, you can",
                     "strWidth": 633.375
                 },
                 {
@@ -16215,7 +16215,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "No matter where you\u2019re at underground, you can",
+                    "str": "No matter where you’re at underground, you can",
                     "strWidth": 633.375
                 },
                 {
@@ -16261,7 +16261,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "It\u2019s like I\u2019m in an underground submarine!",
+                    "str": "It’s like I’m in an underground submarine!",
                     "strWidth": 534.921875
                 }
             ]
@@ -16299,7 +16299,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "It\u2019s like I\u2019m in an underground submarine!",
+                    "str": "It’s like I’m in an underground submarine!",
                     "strWidth": 534.921875
                 }
             ]
@@ -16337,7 +16337,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I can\u2019t make up my mind!",
+                    "str": "I can’t make up my mind!",
                     "strWidth": 324.625
                 }
             ]
@@ -16375,7 +16375,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I can\u2019t make up my mind!",
+                    "str": "I can’t make up my mind!",
                     "strWidth": 324.625
                 }
             ]
@@ -16405,7 +16405,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I\u2019m finally getting the hang of the sledgehammer",
+                    "str": "I’m finally getting the hang of the sledgehammer",
                     "strWidth": 629.84375
                 },
                 {
@@ -16443,7 +16443,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I\u2019m finally getting the hang of the sledgehammer",
+                    "str": "I’m finally getting the hang of the sledgehammer",
                     "strWidth": 629.84375
                 },
                 {
@@ -16709,7 +16709,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "What I\u2019d give to find a Gorgeous Stone Box...",
+                    "str": "What I’d give to find a Gorgeous Stone Box...",
                     "strWidth": 593.421875
                 }
             ]
@@ -16739,7 +16739,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "What I\u2019d give to find a Gorgeous Stone Box...",
+                    "str": "What I’d give to find a Gorgeous Stone Box...",
                     "strWidth": 593.421875
                 }
             ]
@@ -16845,7 +16845,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Did you know that statues of the same Pok\u00e9mon",
+                    "str": "Did you know that statues of the same Pokémon",
                     "strWidth": 625.46875
                 },
                 {
@@ -16899,7 +16899,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Did you know that statues of the same Pok\u00e9mon",
+                    "str": "Did you know that statues of the same Pokémon",
                     "strWidth": 625.46875
                 },
                 {
@@ -16953,7 +16953,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Please remember that you can\u2019t dig into the",
+                    "str": "Please remember that you can’t dig into the",
                     "strWidth": 568.265625
                 },
                 {
@@ -16991,7 +16991,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Please remember that you can\u2019t dig into the",
+                    "str": "Please remember that you can’t dig into the",
                     "strWidth": 568.265625
                 },
                 {
@@ -17105,7 +17105,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "If you find a Plate, try giving it to a Pok\u00e9mon of",
+                    "str": "If you find a Plate, try giving it to a Pokémon of",
                     "strWidth": 618.46875
                 },
                 {
@@ -17143,7 +17143,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "If you find a Plate, try giving it to a Pok\u00e9mon of",
+                    "str": "If you find a Plate, try giving it to a Pokémon of",
                     "strWidth": 618.46875
                 },
                 {
@@ -17482,7 +17482,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You got \ue300",
+                    "str": "You got ",
                     "strWidth": 133.921875
                 },
                 {
@@ -17635,7 +17635,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You don\u2019t have enough spheres!",
+                    "str": "You don’t have enough spheres!",
                     "strWidth": 417.328125
                 }
             ]
@@ -17695,7 +17695,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "This Secret Base\u2019s statues have been changed.",
+                    "str": "This Secret Base’s statues have been changed.",
                     "strWidth": 598.75
                 },
                 {
@@ -17733,7 +17733,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "The Secret Base\u2019s effect has been ",
+                    "str": "The Secret Base’s effect has been ",
                     "strWidth": 444.8125
                 },
                 {
@@ -17874,7 +17874,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u2019s Secret Base",
+                    "str": "’s Secret Base",
                     "strWidth": 178.828125
                 }
             ]

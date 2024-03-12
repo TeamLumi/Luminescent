@@ -69,7 +69,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "An Egg can\u2019t enter a motor.",
+                    "str": "An Egg can’t enter a motor.",
                     "strWidth": 358.140625
                 }
             ]
@@ -99,7 +99,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "That Pok\u00e9mon can\u2019t enter a motor.",
+                    "str": "That Pokémon can’t enter a motor.",
                     "strWidth": 451.9375
                 }
             ]
@@ -303,7 +303,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "That Rotom hasn\u2019t entered a motor.",
+                    "str": "That Rotom hasn’t entered a motor.",
                     "strWidth": 463.359375
                 }
             ]
@@ -333,7 +333,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "There was an appliance here\u2014the one with the",
+                    "str": "There was an appliance here—the one with the",
                     "strWidth": 606.1875
                 },
                 {
@@ -371,7 +371,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "It\u2019s a microwave oven. It has an odd-shaped",
+                    "str": "It’s a microwave oven. It has an odd-shaped",
                     "strWidth": 569.234375
                 },
                 {
@@ -409,7 +409,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "It\u2019s a microwave oven. It has an odd-shaped",
+                    "str": "It’s a microwave oven. It has an odd-shaped",
                     "strWidth": 569.234375
                 },
                 {
@@ -479,7 +479,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "microwave oven\u2019s motor...",
+                    "str": "microwave oven’s motor...",
                     "strWidth": 337.171875
                 }
             ]
@@ -509,7 +509,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u201cMicrowave oven\u201d has been added to the",
+                    "str": "“Microwave oven” has been added to the",
                     "strWidth": 539.453125
                 },
                 {
@@ -547,7 +547,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "It\u2019s a refrigerator. It has an odd-shaped motor",
+                    "str": "It’s a refrigerator. It has an odd-shaped motor",
                     "strWidth": 593.5625
                 },
                 {
@@ -585,7 +585,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "It\u2019s a refrigerator. It has an odd-shaped motor",
+                    "str": "It’s a refrigerator. It has an odd-shaped motor",
                     "strWidth": 593.5625
                 },
                 {
@@ -655,7 +655,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "refrigerator\u2019s motor...",
+                    "str": "refrigerator’s motor...",
                     "strWidth": 276.09375
                 }
             ]
@@ -685,7 +685,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u201cRefrigerator\u201d has been added to the",
+                    "str": "“Refrigerator” has been added to the",
                     "strWidth": 483.078125
                 },
                 {
@@ -723,7 +723,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "It\u2019s a washing machine. It has an odd-shaped",
+                    "str": "It’s a washing machine. It has an odd-shaped",
                     "strWidth": 578.484375
                 },
                 {
@@ -761,7 +761,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "It\u2019s a washing machine. It has an odd-shaped",
+                    "str": "It’s a washing machine. It has an odd-shaped",
                     "strWidth": 578.484375
                 },
                 {
@@ -831,7 +831,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "washing machine\u2019s motor...",
+                    "str": "washing machine’s motor...",
                     "strWidth": 346.421875
                 }
             ]
@@ -861,7 +861,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u201cWashing machine\u201d has been added to the",
+                    "str": "“Washing machine” has been added to the",
                     "strWidth": 554.265625
                 },
                 {
@@ -899,7 +899,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "It\u2019s a rotary fan. It has an odd-shaped motor",
+                    "str": "It’s a rotary fan. It has an odd-shaped motor",
                     "strWidth": 572.4375
                 },
                 {
@@ -937,7 +937,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "It\u2019s a rotary fan. It has an odd-shaped motor",
+                    "str": "It’s a rotary fan. It has an odd-shaped motor",
                     "strWidth": 572.4375
                 },
                 {
@@ -1007,7 +1007,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "fan\u2019s motor...",
+                    "str": "fan’s motor...",
                     "strWidth": 170.109375
                 }
             ]
@@ -1037,7 +1037,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u201cRotary fan\u201d has been added to the",
+                    "str": "“Rotary fan” has been added to the",
                     "strWidth": 461.953125
                 },
                 {
@@ -1075,7 +1075,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "It\u2019s a lawn mower. It has an odd-shaped motor",
+                    "str": "It’s a lawn mower. It has an odd-shaped motor",
                     "strWidth": 599.390625
                 },
                 {
@@ -1113,7 +1113,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "It\u2019s a lawn mower. It has an odd-shaped motor",
+                    "str": "It’s a lawn mower. It has an odd-shaped motor",
                     "strWidth": 599.390625
                 },
                 {
@@ -1183,7 +1183,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "mower\u2019s motor...",
+                    "str": "mower’s motor...",
                     "strWidth": 214.78125
                 }
             ]
@@ -1213,7 +1213,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u201cLawn mower\u201d has been added to the",
+                    "str": "“Lawn mower” has been added to the",
                     "strWidth": 488.125
                 },
                 {
@@ -1267,7 +1267,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u201cIt was by pure chance that I obtained",
+                    "str": "“It was by pure chance that I obtained",
                     "strWidth": 494.75
                 },
                 {
@@ -1275,7 +1275,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "information about the Pok\u00e9mon Rotom.",
+                    "str": "information about the Pokémon Rotom.",
                     "strWidth": 512.0625
                 },
                 {
@@ -1283,7 +1283,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u201cRemarkably, Rotom is able to merge with",
+                    "str": "“Remarkably, Rotom is able to merge with",
                     "strWidth": 545.546875
                 },
                 {
@@ -1299,7 +1299,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u201cRotom can thereby enter various home",
+                    "str": "“Rotom can thereby enter various home",
                     "strWidth": 514.296875
                 },
                 {
@@ -1315,7 +1315,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u201cI have confirmed that Rotom changes its types",
+                    "str": "“I have confirmed that Rotom changes its types",
                     "strWidth": 610.8125
                 },
                 {
@@ -1339,7 +1339,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u201cThis Pok\u00e9mon requires exhaustive observation",
+                    "str": "“This Pokémon requires exhaustive observation",
                     "strWidth": 609.875
                 },
                 {
@@ -1355,7 +1355,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u201cTo ensure I get all the credit, my Rotom",
+                    "str": "“To ensure I get all the credit, my Rotom",
                     "strWidth": 529.140625
                 },
                 {
@@ -1371,7 +1371,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u201cThey will come to recognize me as the",
+                    "str": "“They will come to recognize me as the",
                     "strWidth": 508.96875
                 },
                 {
@@ -1379,7 +1379,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "scientific genius Char...\u201d",
+                    "str": "scientific genius Char...”",
                     "strWidth": 310.921875
                 },
                 {
@@ -1425,7 +1425,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You must be eager to fill your Pok\u00e9dex to be",
+                    "str": "You must be eager to fill your Pokédex to be",
                     "strWidth": 585.53125
                 },
                 {
@@ -1457,7 +1457,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "He tells me intriguing rumors of rare Pok\u00e9mon",
+                    "str": "He tells me intriguing rumors of rare Pokémon",
                     "strWidth": 595.5625
                 },
                 {
@@ -1495,7 +1495,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "A Pok\u00e9mon that slips into electric appliances,",
+                    "str": "A Pokémon that slips into electric appliances,",
                     "strWidth": 590.125
                 },
                 {
@@ -1511,7 +1511,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Hmm... That is somewhat off from what I\u2019ve",
+                    "str": "Hmm... That is somewhat off from what I’ve",
                     "strWidth": 561.125
                 },
                 {
@@ -1527,7 +1527,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Hmm... This is what I\u2019ve heard.",
+                    "str": "Hmm... This is what I’ve heard.",
                     "strWidth": 395.171875
                 },
                 {
@@ -1535,7 +1535,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Long ago, there was a Pok\u00e9mon that merged with",
+                    "str": "Long ago, there was a Pokémon that merged with",
                     "strWidth": 641.34375
                 },
                 {
@@ -1551,7 +1551,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Should that Pok\u00e9mon be recognized as a new",
+                    "str": "Should that Pokémon be recognized as a new",
                     "strWidth": 589.25
                 },
                 {
@@ -1583,7 +1583,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "The very topic of discussion\u2014the Pok\u00e9mon-",
+                    "str": "The very topic of discussion—the Pokémon-",
                     "strWidth": 566.421875
                 },
                 {
@@ -1591,7 +1591,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "infused robot\u2014disappeared...",
+                    "str": "infused robot—disappeared...",
                     "strWidth": 382.921875
                 }
             ]
@@ -1621,7 +1621,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "It\u2019s an old notebook. There\u2019s no telling how old",
+                    "str": "It’s an old notebook. There’s no telling how old",
                     "strWidth": 617.375
                 },
                 {
@@ -1667,7 +1667,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u201cOur encounter was a sudden one.",
+                    "str": "“Our encounter was a sudden one.",
                     "strWidth": 447.234375
                 },
                 {
@@ -1675,7 +1675,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u201cIt was when I found my toy robot\u2014one that I",
+                    "str": "“It was when I found my toy robot—one that I",
                     "strWidth": 590.421875
                 },
                 {
@@ -1691,7 +1691,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u201cAt that instant, a Pok\u00e9mon startlingly emerged",
+                    "str": "“At that instant, a Pokémon startlingly emerged",
                     "strWidth": 615.296875
                 },
                 {
@@ -1699,7 +1699,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "from the lawn mower\u2019s motor!",
+                    "str": "from the lawn mower’s motor!",
                     "strWidth": 383.703125
                 },
                 {
@@ -1707,7 +1707,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u201cClutching my robot, I stared, transfixed by the",
+                    "str": "“Clutching my robot, I stared, transfixed by the",
                     "strWidth": 610.875
                 },
                 {
@@ -1715,7 +1715,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "peculiar Pok\u00e9mon.\u201d",
+                    "str": "peculiar Pokémon.”",
                     "strWidth": 252.375
                 },
                 {
@@ -1753,7 +1753,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u201cThe Pok\u00e9mon hovered in the air, held aloft by a",
+                    "str": "“The Pokémon hovered in the air, held aloft by a",
                     "strWidth": 634.859375
                 },
                 {
@@ -1769,7 +1769,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u201cAs if curious and unafraid of my presence, it",
+                    "str": "“As if curious and unafraid of my presence, it",
                     "strWidth": 583.046875
                 },
                 {
@@ -1785,7 +1785,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u201cCrackling sounds accompanied it, as if from",
+                    "str": "“Crackling sounds accompanied it, as if from",
                     "strWidth": 576.84375
                 },
                 {
@@ -1801,7 +1801,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u201cRemarkably, it seemed the Pok\u00e9mon was the",
+                    "str": "“Remarkably, it seemed the Pokémon was the",
                     "strWidth": 591.234375
                 },
                 {
@@ -1817,7 +1817,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u201cIn alarm, I flinched, certain that my face would",
+                    "str": "“In alarm, I flinched, certain that my face would",
                     "strWidth": 615.453125
                 },
                 {
@@ -1833,7 +1833,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u201cMuch to my surprise, the Pok\u00e9mon seemed to",
+                    "str": "“Much to my surprise, the Pokémon seemed to",
                     "strWidth": 604.59375
                 },
                 {
@@ -1841,7 +1841,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "favor me with a smile.\u201d",
+                    "str": "favor me with a smile.”",
                     "strWidth": 294.203125
                 },
                 {
@@ -1879,7 +1879,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u201cFinally, I came to realize that the Pok\u00e9mon only",
+                    "str": "“Finally, I came to realize that the Pokémon only",
                     "strWidth": 631.78125
                 },
                 {
@@ -1895,7 +1895,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u201cI have decided to name this most wondrous",
+                    "str": "“I have decided to name this most wondrous",
                     "strWidth": 575.078125
                 },
                 {
@@ -1903,7 +1903,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pok\u00e9mon \u2018Rotom.\u2019",
+                    "str": "Pokémon ‘Rotom.’",
                     "strWidth": 238.609375
                 },
                 {
@@ -1911,7 +1911,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u201cSimple though it may be, Rotom emerged to me",
+                    "str": "“Simple though it may be, Rotom emerged to me",
                     "strWidth": 635.75
                 },
                 {
@@ -1927,7 +1927,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u201c\u2018Motor\u2019 and \u2018Rotom\u2019... Surely the link",
+                    "str": "“‘Motor’ and ‘Rotom’... Surely the link",
                     "strWidth": 494.46875
                 },
                 {
@@ -1935,7 +1935,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "is obvious?\u201d",
+                    "str": "is obvious?”",
                     "strWidth": 155.640625
                 },
                 {
@@ -1973,7 +1973,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u201cRotom is a Pok\u00e9mon that is simply sensational.",
+                    "str": "“Rotom is a Pokémon that is simply sensational.",
                     "strWidth": 615.125
                 },
                 {
@@ -1981,7 +1981,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u201cThe fact that it can turn invisible is simply",
+                    "str": "“The fact that it can turn invisible is simply",
                     "strWidth": 549.828125
                 },
                 {
@@ -1997,7 +1997,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u201cWhat makes Rotom unique is its ability to enter",
+                    "str": "“What makes Rotom unique is its ability to enter",
                     "strWidth": 627.265625
                 },
                 {
@@ -2005,7 +2005,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "and operate machinery!\u201d",
+                    "str": "and operate machinery!”",
                     "strWidth": 317.875
                 },
                 {
@@ -2051,7 +2051,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u201cRotom and I became fast friends. We were",
+                    "str": "“Rotom and I became fast friends. We were",
                     "strWidth": 564.0625
                 },
                 {
@@ -2067,7 +2067,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u201cThe electricity from its body forbade",
+                    "str": "“The electricity from its body forbade",
                     "strWidth": 488.9375
                 },
                 {
@@ -2083,7 +2083,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u201cWe could not touch, let alone hug or hold",
+                    "str": "“We could not touch, let alone hug or hold",
                     "strWidth": 560.21875
                 },
                 {
@@ -2099,7 +2099,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u201cFor we were bonded on a much deeper,",
+                    "str": "“For we were bonded on a much deeper,",
                     "strWidth": 531.1875
                 },
                 {
@@ -2107,7 +2107,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "incorporeal level.\u201d",
+                    "str": "incorporeal level.”",
                     "strWidth": 238.25
                 },
                 {
@@ -2145,7 +2145,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u201cA feeling of mischief got the better of me",
+                    "str": "“A feeling of mischief got the better of me",
                     "strWidth": 552.5625
                 },
                 {
@@ -2161,7 +2161,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u201cSeeing Rotom hovering, I decided to startle it.",
+                    "str": "“Seeing Rotom hovering, I decided to startle it.",
                     "strWidth": 612.65625
                 },
                 {
@@ -2177,7 +2177,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u201cPerhaps frightened, Rotom discharged power",
+                    "str": "“Perhaps frightened, Rotom discharged power",
                     "strWidth": 596.609375
                 },
                 {
@@ -2193,7 +2193,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u201cI fell, stunned, into the arms",
+                    "str": "“I fell, stunned, into the arms",
                     "strWidth": 376.453125
                 },
                 {
@@ -2201,7 +2201,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "of unconsciousness...\u201d",
+                    "str": "of unconsciousness...”",
                     "strWidth": 282.09375
                 },
                 {
@@ -2239,7 +2239,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u201cWhen I came to, to my horror I realized that",
+                    "str": "“When I came to, to my horror I realized that",
                     "strWidth": 584.3125
                 },
                 {
@@ -2255,7 +2255,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u201cI searched high and low for my friend in dismay",
+                    "str": "“I searched high and low for my friend in dismay",
                     "strWidth": 624.0625
                 },
                 {
@@ -2271,7 +2271,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u201c\u2018Don\u2019t chastise yourself.\u2019",
+                    "str": "“‘Don’t chastise yourself.’",
                     "strWidth": 332.9375
                 },
                 {
@@ -2279,7 +2279,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u201c\u2018The fault is mine. No harm done.\u2019",
+                    "str": "“‘The fault is mine. No harm done.’",
                     "strWidth": 454.6875
                 },
                 {
@@ -2287,7 +2287,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u201c\u2018Let us play as we always have.\u2019",
+                    "str": "“‘Let us play as we always have.’",
                     "strWidth": 421.0
                 },
                 {
@@ -2295,7 +2295,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u201cThough my words poured out, my friend could",
+                    "str": "“Though my words poured out, my friend could",
                     "strWidth": 612.65625
                 },
                 {
@@ -2303,7 +2303,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "not be found to hear them...\u201d",
+                    "str": "not be found to hear them...”",
                     "strWidth": 379.484375
                 },
                 {
@@ -2341,7 +2341,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u201cMy search for Rotom carried me far from home.",
+                    "str": "“My search for Rotom carried me far from home.",
                     "strWidth": 627.46875
                 },
                 {
@@ -2349,7 +2349,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u201cIt was in the town\u2019s rubbish heap that I again",
+                    "str": "“It was in the town’s rubbish heap that I again",
                     "strWidth": 591.71875
                 },
                 {
@@ -2365,7 +2365,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u201cCuriously, our eyes met, then the robot waved a",
+                    "str": "“Curiously, our eyes met, then the robot waved a",
                     "strWidth": 636.28125
                 },
                 {
@@ -2381,7 +2381,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u201cI knew then that I had found my lost friend.",
+                    "str": "“I knew then that I had found my lost friend.",
                     "strWidth": 573.046875
                 },
                 {
@@ -2389,7 +2389,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u201cI ran to it and hugged Rotom tight, talking on",
+                    "str": "“I ran to it and hugged Rotom tight, talking on",
                     "strWidth": 602.84375
                 },
                 {
@@ -2397,7 +2397,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "and on.\u201d",
+                    "str": "and on.”",
                     "strWidth": 110.5
                 },
                 {
@@ -2435,7 +2435,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u201cThe robot\u2019s eyes lit up happily as I held it.",
+                    "str": "“The robot’s eyes lit up happily as I held it.",
                     "strWidth": 559.96875
                 },
                 {
@@ -2443,7 +2443,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u201cI\u2019m certain that within it, Rotom was emitting",
+                    "str": "“I’m certain that within it, Rotom was emitting",
                     "strWidth": 592.5625
                 },
                 {
@@ -2459,7 +2459,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u201cSomehow, I felt I could understand Rotom\u2019s",
+                    "str": "“Somehow, I felt I could understand Rotom’s",
                     "strWidth": 578.65625
                 },
                 {
@@ -2475,7 +2475,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u201cAlso, I realized that we would remain friends",
+                    "str": "“Also, I realized that we would remain friends",
                     "strWidth": 588.6875
                 },
                 {
@@ -2483,7 +2483,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "throughout our lives...\u201d",
+                    "str": "throughout our lives...”",
                     "strWidth": 296.0
                 },
                 {
@@ -2578,7 +2578,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "It\u2019s the entrance to a secret room!",
+                    "str": "It’s the entrance to a secret room!",
                     "strWidth": 438.015625
                 }
             ]
@@ -2821,7 +2821,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": " can\u2019t learn more than",
+                    "str": " can’t learn more than",
                     "strWidth": 284.671875
                 },
                 {
@@ -2910,7 +2910,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pok\u00e9mon learn ",
+                    "str": "Pokémon learn ",
                     "strWidth": 201.296875
                 },
                 {
@@ -3467,7 +3467,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "What an interesting Pok\u00e9mon.",
+                    "str": "What an interesting Pokémon.",
                     "strWidth": 389.796875
                 },
                 {
@@ -3507,7 +3507,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "mechanical Pok\u00e9mon.",
+                    "str": "mechanical Pokémon.",
                     "strWidth": 279.984375
                 },
                 {
@@ -3523,7 +3523,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "a species of Pok\u00e9mon.",
+                    "str": "a species of Pokémon.",
                     "strWidth": 289.59375
                 },
                 {
@@ -3547,7 +3547,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "new Pok\u00e9mon discoveries!",
+                    "str": "new Pokémon discoveries!",
                     "strWidth": 337.953125
                 },
                 {
@@ -3950,7 +3950,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "What\u2019s this?!",
+                    "str": "What’s this?!",
                     "strWidth": 164.90625
                 },
                 {
@@ -3998,7 +3998,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "meeting Legendary Pok\u00e9mon, ",
+                    "str": "meeting Legendary Pokémon, ",
                     "strWidth": 393.875
                 },
                 {
@@ -4022,7 +4022,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I\u2019m positive they would appear before",
+                    "str": "I’m positive they would appear before",
                     "strWidth": 494.4375
                 },
                 {
@@ -4092,7 +4092,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I\u2019ve heard that there have been",
+                    "str": "I’ve heard that there have been",
                     "strWidth": 408.125
                 },
                 {
@@ -4100,7 +4100,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "sightings of very rare Pok\u00e9mon.",
+                    "str": "sightings of very rare Pokémon.",
                     "strWidth": 405.671875
                 },
                 {
@@ -4108,7 +4108,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "The legendary bird Pok\u00e9mon: ARTICUNO,",
+                    "str": "The legendary bird Pokémon: ARTICUNO,",
                     "strWidth": 551.296875
                 },
                 {
@@ -4124,7 +4124,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "They\u2019ve been spotted at various",
+                    "str": "They’ve been spotted at various",
                     "strWidth": 416.71875
                 },
                 {
@@ -4234,7 +4234,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "surrounding Pok\u00e9mon, it seems!",
+                    "str": "surrounding Pokémon, it seems!",
                     "strWidth": 408.5
                 }
             ]
@@ -4307,7 +4307,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "They\u2019re both known as Clear Wings.",
+                    "str": "They’re both known as Clear Wings.",
                     "strWidth": 466.875
                 },
                 {
@@ -4331,7 +4331,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I\u2019m currently trying to solve.",
+                    "str": "I’m currently trying to solve.",
                     "strWidth": 362.125
                 },
                 {
@@ -4347,7 +4347,7 @@
                     "eventID": 4,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pok\u00e9mon known as the guardians of the",
+                    "str": "Pokémon known as the guardians of the",
                     "strWidth": 515.5625
                 },
                 {
@@ -4435,7 +4435,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "to see any of them, that\u2019s for sure!",
+                    "str": "to see any of them, that’s for sure!",
                     "strWidth": 444.390625
                 }
             ]
@@ -4489,7 +4489,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "have resurrected three Pok\u00e9mon.",
+                    "str": "have resurrected three Pokémon.",
                     "strWidth": 426.984375
                 },
                 {
@@ -4513,7 +4513,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I\u2019m sure this Clear Wing would respond",
+                    "str": "I’m sure this Clear Wing would respond",
                     "strWidth": 508.265625
                 },
                 {
@@ -4521,7 +4521,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "to the presence of those Pok\u00e9mon!",
+                    "str": "to the presence of those Pokémon!",
                     "strWidth": 452.140625
                 },
                 {
@@ -4529,7 +4529,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I would imagine those Pok\u00e9mon would",
+                    "str": "I would imagine those Pokémon would",
                     "strWidth": 497.875
                 },
                 {
@@ -4610,7 +4610,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "What\u2019s this? In your party...",
+                    "str": "What’s this? In your party...",
                     "strWidth": 354.734375
                 },
                 {
@@ -4723,7 +4723,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "It\u2019s now a deep silver colour...",
+                    "str": "It’s now a deep silver colour...",
                     "strWidth": 387.90625
                 },
                 {
@@ -4731,7 +4731,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "And it\u2019s sparkling, too.",
+                    "str": "And it’s sparkling, too.",
                     "strWidth": 293.625
                 },
                 {
@@ -4771,7 +4771,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I\u2019d like you to have this Silver Wing.",
+                    "str": "I’d like you to have this Silver Wing.",
                     "strWidth": 467.671875
                 }
             ]
@@ -4817,7 +4817,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Perhaps you\u2019d somehow find Lugia there",
+                    "str": "Perhaps you’d somehow find Lugia there",
                     "strWidth": 524.96875
                 },
                 {
@@ -4882,7 +4882,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You\u2019ve done it again, ",
+                    "str": "You’ve done it again, ",
                     "strWidth": 287.90625
                 },
                 {
@@ -4914,7 +4914,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Now, let\u2019s see if this Clear Wing...",
+                    "str": "Now, let’s see if this Clear Wing...",
                     "strWidth": 439.703125
                 },
                 {
@@ -5011,7 +5011,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I\u2019d like you to have this, too.",
+                    "str": "I’d like you to have this, too.",
                     "strWidth": 373.625
                 }
             ]
@@ -5146,7 +5146,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "The three Pok\u00e9mon of the lakes appear",
+                    "str": "The three Pokémon of the lakes appear",
                     "strWidth": 512.203125
                 },
                 {
@@ -5162,7 +5162,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Oh, yes. I\u2019ve also heard reports that",
+                    "str": "Oh, yes. I’ve also heard reports that",
                     "strWidth": 465.453125
                 },
                 {
@@ -5170,7 +5170,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "strange Pok\u00e9mon have appeared in Sinnoh.",
+                    "str": "strange Pokémon have appeared in Sinnoh.",
                     "strWidth": 489.140625
                 },
                 {
@@ -5178,7 +5178,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "It\u2019s likely that their appearance is a",
+                    "str": "It’s likely that their appearance is a",
                     "strWidth": 454.75
                 },
                 {
@@ -5234,7 +5234,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "The Pok\u00e9dex...?",
+                    "str": "The Pokédex...?",
                     "strWidth": 207.46875
                 },
                 {
@@ -5274,7 +5274,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Well! You\u2019ve got seven already!",
+                    "str": "Well! You’ve got seven already!",
                     "strWidth": 412.328125
                 },
                 {
@@ -5282,7 +5282,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "That only leaves Sunyshore\u2019s Gym.",
+                    "str": "That only leaves Sunyshore’s Gym.",
                     "strWidth": 447.609375
                 },
                 {
@@ -5290,7 +5290,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Hm! You\u2019ve come this far.",
+                    "str": "Hm! You’ve come this far.",
                     "strWidth": 334.640625
                 },
                 {
@@ -5298,7 +5298,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Why not obtain Sunyshore\u2019s Badge?",
+                    "str": "Why not obtain Sunyshore’s Badge?",
                     "strWidth": 466.5625
                 },
                 {
@@ -5306,7 +5306,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "And why not challenge the Pok\u00e9mon",
+                    "str": "And why not challenge the Pokémon",
                     "strWidth": 474.25
                 },
                 {
@@ -5346,7 +5346,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "meet even more Pok\u00e9mon.",
+                    "str": "meet even more Pokémon.",
                     "strWidth": 345.390625
                 }
             ]
@@ -5520,7 +5520,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Ah, it\u2019s you! Good to see you!",
+                    "str": "Ah, it’s you! Good to see you!",
                     "strWidth": 388.734375
                 },
                 {
@@ -5593,7 +5593,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "other Pok\u00e9mon professors, ",
+                    "str": "other Pokémon professors, ",
                     "strWidth": 354.078125
                 },
                 {
@@ -5649,7 +5649,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pok\u00e9mon professors around the world!",
+                    "str": "Pokémon professors around the world!",
                     "strWidth": 496.609375
                 }
             ]
@@ -5781,7 +5781,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pok\u00e9mon League, in fact.",
+                    "str": "Pokémon League, in fact.",
                     "strWidth": 328.640625
                 },
                 {
@@ -5821,7 +5821,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Though he\u2019s often away from it,",
+                    "str": "Though he’s often away from it,",
                     "strWidth": 411.375
                 },
                 {
@@ -5867,7 +5867,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Oh, yes. I once had a prot\u00e9g\u00e9 who",
+                    "str": "Oh, yes. I once had a protégé who",
                     "strWidth": 448.546875
                 },
                 {
@@ -5891,7 +5891,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "He used to study Pok\u00e9mon under me.",
+                    "str": "He used to study Pokémon under me.",
                     "strWidth": 486.6875
                 },
                 {
@@ -5907,7 +5907,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "making strides in Pok\u00e9mon research!",
+                    "str": "making strides in Pokémon research!",
                     "strWidth": 468.203125
                 }
             ]
@@ -5988,7 +5988,7 @@
                     "eventID": 4,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "to take photos of Pok\u00e9mon in their",
+                    "str": "to take photos of Pokémon in their",
                     "strWidth": 452.703125
                 },
                 {
@@ -6004,7 +6004,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "It was a place called Pok\u00e9mon Island...",
+                    "str": "It was a place called Pokémon Island...",
                     "strWidth": 499.9375
                 },
                 {
@@ -6028,7 +6028,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "with completing my Pok\u00e9mon Report!",
+                    "str": "with completing my Pokémon Report!",
                     "strWidth": 483.71875
                 }
             ]
@@ -6069,7 +6069,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I can\u2019t thank you enough for your",
+                    "str": "I can’t thank you enough for your",
                     "strWidth": 431.78125
                 },
                 {
