@@ -50,7 +50,7 @@
             "TalkBit": 15
         },
         {
-            "ID": "C04R0101_BIKE_SHOP_MANAGER",
+            "ID": "C04_BIKE_SHOP_MANAGER",
             "zoneID": 54,
             "TrainerID": 0,
             "ObjectGraphicIndex": 120,
