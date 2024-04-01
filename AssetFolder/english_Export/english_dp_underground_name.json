@@ -1279,10 +1279,10 @@
             "arrayIndex": 42,
             "labelName": "UNDERGROUND_NAME_042",
             "styleInfo": {
-                "styleIndex": 125,
+                "styleIndex": 121,
                 "colorIndex": -1,
                 "fontSize": 42,
-                "maxWidth": 504,
+                "maxWidth": 420,
                 "controlID": 0
             },
             "attributeValueArray": [
@@ -1309,10 +1309,10 @@
             "arrayIndex": 43,
             "labelName": "UNDERGROUND_NAME_043",
             "styleInfo": {
-                "styleIndex": 125,
+                "styleIndex": 121,
                 "colorIndex": -1,
                 "fontSize": 42,
-                "maxWidth": 504,
+                "maxWidth": 420,
                 "controlID": 0
             },
             "attributeValueArray": [
@@ -1875,214 +1875,424 @@
             ]
         },
         {
-            "labelIndex": 0,
-            "arrayIndex": 0,
-            "labelName": "",
+            "labelIndex": 631,
+            "arrayIndex": 62,
+            "labelName": "UNDERGROUND_NAME_062",
             "styleInfo": {
-                "styleIndex": 0,
-                "colorIndex": 0,
-                "fontSize": 0,
-                "maxWidth": 0,
+                "styleIndex": 123,
+                "colorIndex": -1,
+                "fontSize": 42,
+                "maxWidth": 420,
                 "controlID": 0
             },
-            "attributeValueArray": [],
+            "attributeValueArray": [
+                -1,
+                0,
+                0,
+                -1,
+                0
+            ],
             "tagDataArray": [],
-            "wordDataArray": []
+            "wordDataArray": [
+                {
+                    "patternID": 0,
+                    "eventID": 7,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "Dawn Stone",
+                    "strWidth": 155.671875
+                }
+            ]
         },
         {
-            "labelIndex": 0,
-            "arrayIndex": 0,
-            "labelName": "",
+            "labelIndex": 632,
+            "arrayIndex": 63,
+            "labelName": "UNDERGROUND_NAME_063",
             "styleInfo": {
-                "styleIndex": 0,
-                "colorIndex": 0,
-                "fontSize": 0,
-                "maxWidth": 0,
+                "styleIndex": 123,
+                "colorIndex": -1,
+                "fontSize": 42,
+                "maxWidth": 420,
                 "controlID": 0
             },
-            "attributeValueArray": [],
+            "attributeValueArray": [
+                -1,
+                0,
+                0,
+                -1,
+                0
+            ],
             "tagDataArray": [],
-            "wordDataArray": []
+            "wordDataArray": [
+                {
+                    "patternID": 0,
+                    "eventID": 7,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "Dusk Stone",
+                    "strWidth": 146.890625
+                }
+            ]
         },
         {
-            "labelIndex": 0,
-            "arrayIndex": 0,
-            "labelName": "",
+            "labelIndex": 633,
+            "arrayIndex": 64,
+            "labelName": "UNDERGROUND_NAME_064",
             "styleInfo": {
-                "styleIndex": 0,
-                "colorIndex": 0,
-                "fontSize": 0,
-                "maxWidth": 0,
+                "styleIndex": 123,
+                "colorIndex": -1,
+                "fontSize": 42,
+                "maxWidth": 420,
                 "controlID": 0
             },
-            "attributeValueArray": [],
+            "attributeValueArray": [
+                -1,
+                0,
+                0,
+                -1,
+                0
+            ],
             "tagDataArray": [],
-            "wordDataArray": []
+            "wordDataArray": [
+                {
+                    "patternID": 0,
+                    "eventID": 7,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "Shiny Stone",
+                    "strWidth": 151.46875
+                }
+            ]
         },
         {
-            "labelIndex": 0,
-            "arrayIndex": 0,
-            "labelName": "",
+            "labelIndex": 634,
+            "arrayIndex": 65,
+            "labelName": "UNDERGROUND_NAME_065",
             "styleInfo": {
-                "styleIndex": 0,
-                "colorIndex": 0,
-                "fontSize": 0,
-                "maxWidth": 0,
+                "styleIndex": 123,
+                "colorIndex": -1,
+                "fontSize": 42,
+                "maxWidth": 420,
                 "controlID": 0
             },
-            "attributeValueArray": [],
+            "attributeValueArray": [
+                -1,
+                0,
+                0,
+                -1,
+                0
+            ],
             "tagDataArray": [],
-            "wordDataArray": []
+            "wordDataArray": [
+                {
+                    "patternID": 0,
+                    "eventID": 7,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "Ice Stone",
+                    "strWidth": 121.1875
+                }
+            ]
         },
         {
-            "labelIndex": 0,
-            "arrayIndex": 0,
-            "labelName": "",
+            "labelIndex": 635,
+            "arrayIndex": 66,
+            "labelName": "UNDERGROUND_NAME_066",
             "styleInfo": {
-                "styleIndex": 0,
-                "colorIndex": 0,
-                "fontSize": 0,
-                "maxWidth": 0,
+                "styleIndex": 123,
+                "colorIndex": -1,
+                "fontSize": 42,
+                "maxWidth": 420,
                 "controlID": 0
             },
-            "attributeValueArray": [],
+            "attributeValueArray": [
+                -1,
+                0,
+                0,
+                -1,
+                0
+            ],
             "tagDataArray": [],
-            "wordDataArray": []
+            "wordDataArray": [
+                {
+                    "patternID": 0,
+                    "eventID": 7,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "Tumblestone",
+                    "strWidth": 166.6875
+                }
+            ]
         },
         {
-            "labelIndex": 0,
-            "arrayIndex": 0,
-            "labelName": "",
+            "labelIndex": 636,
+            "arrayIndex": 67,
+            "labelName": "UNDERGROUND_NAME_067",
             "styleInfo": {
-                "styleIndex": 0,
-                "colorIndex": 0,
-                "fontSize": 0,
-                "maxWidth": 0,
+                "styleIndex": 123,
+                "colorIndex": -1,
+                "fontSize": 42,
+                "maxWidth": 420,
                 "controlID": 0
             },
-            "attributeValueArray": [],
+            "attributeValueArray": [
+                -1,
+                0,
+                0,
+                -1,
+                0
+            ],
             "tagDataArray": [],
-            "wordDataArray": []
+            "wordDataArray": [
+                {
+                    "patternID": 0,
+                    "eventID": 7,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "Black Tumblestone",
+                    "strWidth": 244.515625
+                }
+            ]
         },
         {
-            "labelIndex": 0,
-            "arrayIndex": 0,
-            "labelName": "",
+            "labelIndex": 637,
+            "arrayIndex": 68,
+            "labelName": "UNDERGROUND_NAME_068",
             "styleInfo": {
-                "styleIndex": 0,
-                "colorIndex": 0,
-                "fontSize": 0,
-                "maxWidth": 0,
+                "styleIndex": 123,
+                "colorIndex": -1,
+                "fontSize": 42,
+                "maxWidth": 420,
                 "controlID": 0
             },
-            "attributeValueArray": [],
+            "attributeValueArray": [
+                -1,
+                0,
+                0,
+                -1,
+                0
+            ],
             "tagDataArray": [],
-            "wordDataArray": []
+            "wordDataArray": [
+                {
+                    "patternID": 0,
+                    "eventID": 7,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "Sky Tumblestone",
+                    "strWidth": 220.0
+                }
+            ]
         },
         {
-            "labelIndex": 0,
-            "arrayIndex": 0,
-            "labelName": "",
+            "labelIndex": 638,
+            "arrayIndex": 69,
+            "labelName": "UNDERGROUND_NAME_069",
             "styleInfo": {
-                "styleIndex": 0,
-                "colorIndex": 0,
-                "fontSize": 0,
-                "maxWidth": 0,
+                "styleIndex": 123,
+                "colorIndex": -1,
+                "fontSize": 42,
+                "maxWidth": 420,
                 "controlID": 0
             },
-            "attributeValueArray": [],
+            "attributeValueArray": [
+                -1,
+                0,
+                0,
+                -1,
+                0
+            ],
             "tagDataArray": [],
-            "wordDataArray": []
+            "wordDataArray": [
+                {
+                    "patternID": 0,
+                    "eventID": 7,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "Comet Shard",
+                    "strWidth": 168.078125
+                }
+            ]
         },
         {
-            "labelIndex": 0,
-            "arrayIndex": 0,
-            "labelName": "",
+            "labelIndex": 639,
+            "arrayIndex": 70,
+            "labelName": "UNDERGROUND_NAME_070",
             "styleInfo": {
-                "styleIndex": 0,
-                "colorIndex": 0,
-                "fontSize": 0,
-                "maxWidth": 0,
+                "styleIndex": 123,
+                "colorIndex": -1,
+                "fontSize": 42,
+                "maxWidth": 420,
                 "controlID": 0
             },
-            "attributeValueArray": [],
+            "attributeValueArray": [
+                -1,
+                0,
+                0,
+                -1,
+                0
+            ],
             "tagDataArray": [],
-            "wordDataArray": []
+            "wordDataArray": [
+                {
+                    "patternID": 0,
+                    "eventID": 7,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "Cover Fossil",
+                    "strWidth": 157.515625
+                }
+            ]
         },
         {
-            "labelIndex": 0,
-            "arrayIndex": 0,
-            "labelName": "",
+            "labelIndex": 640,
+            "arrayIndex": 71,
+            "labelName": "UNDERGROUND_NAME_071",
             "styleInfo": {
-                "styleIndex": 0,
-                "colorIndex": 0,
-                "fontSize": 0,
-                "maxWidth": 0,
+                "styleIndex": 123,
+                "colorIndex": -1,
+                "fontSize": 42,
+                "maxWidth": 420,
                 "controlID": 0
             },
-            "attributeValueArray": [],
+            "attributeValueArray": [
+                -1,
+                0,
+                0,
+                -1,
+                0
+            ],
             "tagDataArray": [],
-            "wordDataArray": []
+            "wordDataArray": [
+                {
+                    "patternID": 0,
+                    "eventID": 7,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "Plume Fossil",
+                    "strWidth": 158.734375
+                }
+            ]
         },
         {
-            "labelIndex": 0,
-            "arrayIndex": 0,
-            "labelName": "",
+            "labelIndex": 641,
+            "arrayIndex": 72,
+            "labelName": "UNDERGROUND_NAME_072",
             "styleInfo": {
-                "styleIndex": 0,
-                "colorIndex": 0,
-                "fontSize": 0,
-                "maxWidth": 0,
+                "styleIndex": 123,
+                "colorIndex": -1,
+                "fontSize": 42,
+                "maxWidth": 420,
                 "controlID": 0
             },
-            "attributeValueArray": [],
+            "attributeValueArray": [
+                -1,
+                0,
+                0,
+                -1,
+                0
+            ],
             "tagDataArray": [],
-            "wordDataArray": []
+            "wordDataArray": [
+                {
+                    "patternID": 0,
+                    "eventID": 7,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "Sail Fossil",
+                    "strWidth": 126.546875
+                }
+            ]
         },
         {
-            "labelIndex": 0,
-            "arrayIndex": 0,
-            "labelName": "",
+            "labelIndex": 642,
+            "arrayIndex": 73,
+            "labelName": "UNDERGROUND_NAME_073",
             "styleInfo": {
-                "styleIndex": 0,
-                "colorIndex": 0,
-                "fontSize": 0,
-                "maxWidth": 0,
+                "styleIndex": 123,
+                "colorIndex": -1,
+                "fontSize": 42,
+                "maxWidth": 420,
                 "controlID": 0
             },
-            "attributeValueArray": [],
+            "attributeValueArray": [
+                -1,
+                0,
+                0,
+                -1,
+                0
+            ],
             "tagDataArray": [],
-            "wordDataArray": []
+            "wordDataArray": [
+                {
+                    "patternID": 0,
+                    "eventID": 7,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "Jaw Fossil",
+                    "strWidth": 128.15625
+                }
+            ]
         },
         {
-            "labelIndex": 0,
-            "arrayIndex": 0,
-            "labelName": "",
+            "labelIndex": 643,
+            "arrayIndex": 74,
+            "labelName": "UNDERGROUND_NAME_074",
             "styleInfo": {
-                "styleIndex": 0,
-                "colorIndex": 0,
-                "fontSize": 0,
-                "maxWidth": 0,
+                "styleIndex": 123,
+                "colorIndex": -1,
+                "fontSize": 42,
+                "maxWidth": 420,
                 "controlID": 0
             },
-            "attributeValueArray": [],
+            "attributeValueArray": [
+                -1,
+                0,
+                0,
+                -1,
+                0
+            ],
             "tagDataArray": [],
-            "wordDataArray": []
+            "wordDataArray": [
+                {
+                    "patternID": 0,
+                    "eventID": 7,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "Energy Root",
+                    "strWidth": 158.265625
+                }
+            ]
         },
         {
-            "labelIndex": 0,
-            "arrayIndex": 0,
-            "labelName": "",
+            "labelIndex": 644,
+            "arrayIndex": 75,
+            "labelName": "UNDERGROUND_NAME_075",
             "styleInfo": {
-                "styleIndex": 0,
-                "colorIndex": 0,
-                "fontSize": 0,
-                "maxWidth": 0,
+                "styleIndex": 123,
+                "colorIndex": -1,
+                "fontSize": 42,
+                "maxWidth": 420,
                 "controlID": 0
             },
-            "attributeValueArray": [],
+            "attributeValueArray": [
+                -1,
+                0,
+                0,
+                -1,
+                0
+            ],
             "tagDataArray": [],
-            "wordDataArray": []
+            "wordDataArray": [
+                {
+                    "patternID": 0,
+                    "eventID": 7,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "Revival Herb",
+                    "strWidth": 166.0
+                }
+            ]
         },
         {
             "labelIndex": 0,
