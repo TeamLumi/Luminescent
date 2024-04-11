@@ -85,6 +85,7 @@ common_c04r0204_gingam_dir:
 	_FLAG_RESET(#FV_C04R0101_MIDDLEM)
 	_FLAG_RESET(#2935); Enable shop owner outside
 	_FLAG_SET(#2618); Kill R206R0101 blockers
+	_FLAG_SET(#FV_C04_BICYCLE_UNCLE); Replaced - Reset for old saves
 	_FLAG_SET(#FV_C04R0204_MIDDLEM)
 	_FLAG_RESET(#FV_C04R0101_PIPPI)
 	_FLAG_RESET(#FV_C04PC0101_GONBE)

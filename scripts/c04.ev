@@ -3,7 +3,7 @@ ev_c04_flag_change:
 	_CALL('ev_c04gym0102_disable_all_sprinkler_animations')
 	_IFVAL_CALL(@TOWNMAP_GUIDE_SEQUENCE, 'EQ', 4400, 'ev_c04_guide_upd')
 	_FLAG_SET(#FV_C04_TANKEN_OJISAN)
-	_FLAG_RESET(#FV_C04_BICYCLE_UNCLE); Replaced
+	_FLAG_SET(#FV_C04_BICYCLE_UNCLE); Replaced
 	_FLAG_SET(#FV_WALL_PUT2)
 	_OBJ_DEL('C04_WALL04')
 	_OBJ_DEL('C04_WALL05')
@@ -859,8 +859,8 @@ ev_c04r0101_middlem_outside:
 	_FLAG_SET(#FE_CYCLE_GET)
 	_LDVAL(@TOWNMAP_GUIDE_SEQUENCE, 5600)
 	_OBJ_ANIME('C04_BIKE_SHOP_MANAGER', 'anm_c04r0101_middlem_outside')
-	_OBJ_ANIME_WAIT()
 	_SE_PLAY('S_FI001')
+	_OBJ_ANIME_WAIT()
 	_FLAG_SET(#2935)
 	_OBJ_DEL('C04_BIKE_SHOP_MANAGER')
 	_TALK_OBJ_END()
@@ -868,13 +868,14 @@ ev_c04r0101_middlem_outside:
 ev_c04r0101_middlem_outside_2:
 	_TALKMSG('dp_scenario1%18-msg_c04r0101_middlemla_04')
 	_OBJ_ANIME('C04_BIKE_SHOP_MANAGER', 'anm_c04r0101_middlem_outside')
-	_OBJ_ANIME_WAIT()
 	_SE_PLAY('S_FI001')
+	_OBJ_ANIME_WAIT()
 	_FLAG_SET(#2935)
 	_OBJ_DEL('C04_BIKE_SHOP_MANAGER')
 	_TALK_OBJ_END()
 	_END()
 anm_c04r0101_middlem_outside:
 	_AC_DIR_U(4)
+	_AC_UP(1, 8)
 	_AC_VANISH_ON()
 	_ACMD_END()
