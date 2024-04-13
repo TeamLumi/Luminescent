@@ -53,7 +53,7 @@ ev_c02r0102_skillswap:
 	_FLAG_SET(#2683)
 	_JUMP('ev_c02r0102_skillswap_end')
 ev_c02r0102_skillswap_done:
-	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msgev_c02r0102_skillswap_3', 'You know how Pokémon have their\nown abilities?\rWell, the move Skill Swap exchanges\nthe user’s ability with that of its\ntarget Pokémon.\rHow you use Skill Swap is a measure\nof your expertise as a Trainer.')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msgev_c02r0102_skillswap_3', 'You know how Pokémon have their\nown abilities?\rWell, the move Skill Swap exchanges\nthe user’s ability with that of its target.\rHow you use Skill Swap is a measure\nof your expertise as a Trainer.')
 	_JUMP('ev_c02r0102_skillswap_end')
 ev_c02r0102_skillswap_end:
 	_TALK_CLOSE()

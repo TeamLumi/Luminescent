@@ -70909,19 +70909,11 @@
                 },
                 {
                     "patternID": 7,
-                    "eventID": 1,
-                    "tagIndex": -1,
-                    "tagValue": 0.0,
-                    "str": "the user’s ability with that of its",
-                    "strWidth": 406.609375
-                },
-                {
-                    "patternID": 7,
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "target Pokémon.",
-                    "strWidth": 213.453125
+                    "str": "the user\u2019s ability with that of its target.",
+                    "strWidth": 500.390625
                 },
                 {
                     "patternID": 7,
