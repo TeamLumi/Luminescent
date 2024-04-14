@@ -49,7 +49,6 @@ ev_c02r0102_skillswap:
 	_LDVAL(@SCWK_TEMP0, 375); Skill Swap
 	_LDVAL(@SCWK_TEMP1, 1); Quantity 1
 	_CHG_COMMON_SCR('ev_item_event_keywait')
-	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msgev_c02r0102_skillswap_2', 'Somewhere far beyond the vast sea...\rThere are other lands populated by\nPokémon and Trainers.')
 	_FLAG_SET(#2683)
 	_JUMP('ev_c02r0102_skillswap_end')
 ev_c02r0102_skillswap_done:
