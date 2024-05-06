@@ -592,7 +592,7 @@ ev_c10r0101_reset_man_tinkatuff:
 	_JUMP('ev_c10r0101_reset_man_finished')
 ev_c10r0101_reset_man_chandelure:
 	_FLAG_RESET(#2927)
-	_FLAG_SET(#3112); Is a reset
+	_FLAG_RESET(#3112); Is a reset
 	_RELEASE_BOX_POKE(@SCWK_TEMP0, @SCWK_TEMP1); Release Pokemon
 	_JUMP('ev_c10r0101_reset_man_finished')
 ev_c10r0101_reset_man_finished:
