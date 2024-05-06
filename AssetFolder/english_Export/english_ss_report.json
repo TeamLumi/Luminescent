@@ -382,7 +382,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pokédex",
+                    "str": "Pok\u00e9dex",
                     "strWidth": 111.9375
                 }
             ]
@@ -431,7 +431,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": " Pokémon",
+                    "str": " Pok\u00e9mon",
                     "strWidth": 128.34375
                 }
             ]
@@ -581,7 +581,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Now saving your Pokémon adventure...",
+                    "str": "Now saving your Pok\u00e9mon adventure...",
                     "strWidth": 503.15625
                 },
                 {
@@ -589,7 +589,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Don’t turn off the power.",
+                    "str": "Don\u2019t turn off the power.",
                     "strWidth": 325.296875
                 }
             ]

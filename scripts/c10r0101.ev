@@ -401,6 +401,7 @@ ev_c10r0101_reset_man_select_pokemon:
 	_POKELIST_GET_RESULT(@SCWK_TEMP0, @SCWK_TEMP1)
 	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', -1, 'ev_c10r0101_reset_man_cancel')
 	_TEMOTI_BOX_MONSNO(@SCWK_TEMP0, @SCWK_TEMP1, @SCWK_ANSWER)
+	_TEMOTI_BOX_FORMNO(@SCWK_TEMP0, @SCWK_TEMP1, @SCWK_PARAM0)
 	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 94, 'ev_c10r0101_reset_man_gengar')
 	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 479, 'ev_c10r0101_reset_man_rotom')
 	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 144, 'ev_c10r0101_reset_man_articuno')
@@ -429,6 +430,7 @@ ev_c10r0101_reset_man_select_pokemon:
 	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 484, 'ev_c10r0101_reset_man_palkia')
 	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 485, 'ev_c10r0101_reset_man_heatran')
 	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 486, 'ev_c10r0101_reset_man_regigigas')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 488, 'ev_c10r0101_reset_man_cresselia')
 	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 490, 'ev_c10r0101_reset_man_manaphy')
 	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 95, 'ev_c10r0101_reset_man_crystal_onix')
 	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 172, 'ev_c10r0101_reset_man_pichu')
@@ -445,7 +447,6 @@ ev_c10r0101_reset_man_invalid_form:
 	_TALK_OBJ_END()
 	_END()
 ev_c10r0101_reset_man_gengar:
-	_TEMOTI_BOX_FORMNO(@SCWK_TEMP0, @SCWK_TEMP1, @SCWK_PARAM0)
 	_IFVAL_JUMP(@SCWK_PARAM0, 'NE', 3, 'ev_c10r0101_reset_man_invalid_form')
 	_FLAG_RESET(#2542); Reset Gengar
 	_RELEASE_BOX_POKE(@SCWK_TEMP0, @SCWK_TEMP1); Release Gengar
@@ -546,15 +547,12 @@ ev_c10r0101_reset_man_azelf:
 	_RELEASE_BOX_POKE(@SCWK_TEMP0, @SCWK_TEMP1); Release Pokemon
 	_JUMP('ev_c10r0101_reset_man_finished')
 ev_c10r0101_reset_man_dialga:
-	_IF_FLAGOFF_JUMP(#2862, 'ev_c10r0101_reset_man_cannot_spawn'); Do not spawn if Palkia is active
-	_FLAG_RESET(#2790); Enable legendary checks
+	;_IF_FLAGOFF_JUMP(#2862, 'ev_c10r0101_reset_man_cannot_spawn'); Do not spawn if Palkia is active
 	_FLAG_RESET(#2861); Enable Dialga
 	_RELEASE_BOX_POKE(@SCWK_TEMP0, @SCWK_TEMP1); Release Pokemon
 	_JUMP('ev_c10r0101_reset_man_finished')
 ev_c10r0101_reset_man_palkia:
-	_IF_FLAGOFF_JUMP(#2861, 'ev_c10r0101_reset_man_cannot_spawn'); Do not spawn if Dialga is active
-	_FLAG_SET(#2789); Enable allow-palkia flag
-	_FLAG_RESET(#2790); Enable legendary checks
+	;_IF_FLAGOFF_JUMP(#2861, 'ev_c10r0101_reset_man_cannot_spawn'); Do not spawn if Dialga is active
 	_FLAG_RESET(#2862); Enable Palkia
 	_RELEASE_BOX_POKE(@SCWK_TEMP0, @SCWK_TEMP1); Release Pokemon
 	_JUMP('ev_c10r0101_reset_man_finished')
@@ -568,19 +566,22 @@ ev_c10r0101_reset_man_regigigas:
 	_FLAG_RESET(#FV_D20R0106_LEGEND)
 	_RELEASE_BOX_POKE(@SCWK_TEMP0, @SCWK_TEMP1); Release Pokemon
 	_JUMP('ev_c10r0101_reset_man_finished')
+ev_c10r0101_reset_man_cresselia:
+	_FLAG_RESET(#FE_D15R0101_LEGEND_CLEAR)
+	_FLAG_RESET(#FV_D15R0101_LEGEND)
+	_RELEASE_BOX_POKE(@SCWK_TEMP0, @SCWK_TEMP1); Release Pokemon
+	_JUMP('ev_c10r0101_reset_man_finished')
 ev_c10r0101_reset_man_manaphy:
 	_RELEASE_BOX_POKE(@SCWK_TEMP0, @SCWK_TEMP1); Release Pokemon
 	_ADD_TAMAGO(490, 60013); Manaphy egg
 	_JUMP('ev_c10r0101_reset_man_finished')
 ev_c10r0101_reset_man_crystal_onix:
-	_TEMOTI_BOX_FORMNO(@SCWK_TEMP0, @SCWK_TEMP1, @SCWK_PARAM0)
 	_IFVAL_JUMP(@SCWK_PARAM0, 'NE', 1, 'ev_c10r0101_reset_man_invalid_form')
 	_FLAG_SET(#3111); Is a reset
 	_FLAG_RESET(#2874); Reset Crystal Onix
 	_RELEASE_BOX_POKE(@SCWK_TEMP0, @SCWK_TEMP1); Release Crystal Onix
 	_JUMP('ev_c10r0101_reset_man_finished')
 ev_c10r0101_reset_man_pichu:
-	_TEMOTI_BOX_FORMNO(@SCWK_TEMP0, @SCWK_TEMP1, @SCWK_PARAM0)
 	_IFVAL_JUMP(@SCWK_PARAM0, 'NE', 1, 'ev_c10r0101_reset_man_invalid_form')
 	_FLAG_RESET(#2892); Reset Pichu event
 	_RELEASE_BOX_POKE(@SCWK_TEMP0, @SCWK_TEMP1); Release Notched Pichu

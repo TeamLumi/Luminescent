@@ -323,7 +323,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "That’ll be ",
+                    "str": "That\u2019ll be \ue300",
                     "strWidth": 154.125
                 },
                 {
@@ -380,7 +380,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "That’ll be ",
+                    "str": "That\u2019ll be \ue300",
                     "strWidth": 154.125
                 },
                 {
@@ -404,7 +404,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "And it’s OK that you can’t use that accessory",
+                    "str": "And it\u2019s OK that you can\u2019t use that accessory",
                     "strWidth": 583.0
                 },
                 {
@@ -442,7 +442,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You don’t have enough money!",
+                    "str": "You don\u2019t have enough money!",
                     "strWidth": 405.671875
                 }
             ]
@@ -472,7 +472,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You’ve already purchased that outfit!",
+                    "str": "You\u2019ve already purchased that outfit!",
                     "strWidth": 481.796875
                 }
             ]
@@ -630,7 +630,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You’re going to keep your current style?",
+                    "str": "You\u2019re going to keep your current style?",
                     "strWidth": 523.828125
                 }
             ]
@@ -671,7 +671,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "",
+                    "str": "\ue300",
                     "strWidth": 21.125
                 },
                 {
@@ -1039,7 +1039,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I’d like to shop",
+                    "str": "I\u2019d like to shop",
                     "strWidth": 195.390625
                 }
             ]
@@ -1099,7 +1099,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "There’s the changing room. Take your time!",
+                    "str": "There\u2019s the changing room. Take your time!",
                     "strWidth": 562.40625
                 }
             ]
@@ -1351,7 +1351,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Just a moment! You’ve bought all the styles now!",
+                    "str": "Just a moment! You\u2019ve bought all the styles now!",
                     "strWidth": 632.109375
                 },
                 {

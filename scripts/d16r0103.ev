@@ -125,16 +125,14 @@ ev_d16r0103_legend_event_clear:
 	_EVENT_END()
 	_END()
 ev_d16r0103_legend_win:
-	_ADD_ITEM_CHK(@SCWK_TEMP0, @SCWK_TEMP1, @SCWK_ANSWER)
-	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_d16r0103_legend_win_has_item')
 	_LDVAL(@SCWK_TEMP0, 458); Magma Stone
 	_LDVAL(@SCWK_TEMP1, 1); Quantity 1
+	_ITEM_CHK(@SCWK_TEMP0, @SCWK_TEMP1, @SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'GE', 1, 'ev_d16r0103_legend_win_has_item')
 	_CHG_COMMON_SCR('ev_item_event_keywait')
 	_TALK_CLOSE()
-	_FLAG_SET(#FE_D16R0103_LEGEND_WIN)
-	_IF_FLAGON_CALL(#FE_C10R0111_LEAGUE2_CHAMP_WIN, 'ev_c10r0111_champ_pupl2_to3')
-	_SET_SYS_FLAG($SYS_FLAG_BS_LV5)
-	_RET()
+	_JUMP('ev_d16r0103_legend_win_has_item')
+	_END()
 ev_d16r0103_legend_win_has_item:
 	_FLAG_SET(#FE_D16R0103_LEGEND_WIN)
 	_IF_FLAGON_CALL(#FE_C10R0111_LEAGUE2_CHAMP_WIN, 'ev_c10r0111_champ_pupl2_to3')

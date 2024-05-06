@@ -578,7 +578,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Sending a message that you won’t participate in",
+                    "str": "Sending a message that you won\u2019t participate in",
                     "strWidth": 621.5
                 },
                 {
@@ -624,7 +624,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "one person can’t participate in the battle.",
+                    "str": "one person can\u2019t participate in the battle.",
                     "strWidth": 540.625
                 }
             ]
@@ -654,7 +654,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "If you can’t participate in a battle with the",
+                    "str": "If you can\u2019t participate in a battle with the",
                     "strWidth": 547.84375
                 },
                 {
@@ -670,7 +670,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "“Change Rules.”",
+                    "str": "\u201cChange Rules.\u201d",
                     "strWidth": 209.96875
                 }
             ]
@@ -738,7 +738,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Please select participating Pokémon.",
+                    "str": "Please select participating Pok\u00e9mon.",
                     "strWidth": 475.03125
                 }
             ]
@@ -1912,7 +1912,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "There is a problem with the other player’s",
+                    "str": "There is a problem with the other player\u2019s",
                     "strWidth": 540.921875
                 },
                 {
@@ -1950,7 +1950,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You won’t be able to connect again with any",
+                    "str": "You won\u2019t be able to connect again with any",
                     "strWidth": 580.078125
                 },
                 {
@@ -1974,7 +1974,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "(It’s possible to unblock the player again.)",
+                    "str": "(It\u2019s possible to unblock the player again.)",
                     "strWidth": 548.6875
                 }
             ]
@@ -2173,7 +2173,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pokémon’s nicknames.",
+                    "str": "Pok\u00e9mon\u2019s nicknames.",
                     "strWidth": 289.625
                 }
             ]
@@ -3004,7 +3004,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "questions, please don’t hesitate to ask!",
+                    "str": "questions, please don\u2019t hesitate to ask!",
                     "strWidth": 505.234375
                 }
             ]
@@ -3156,7 +3156,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You can’t change rules for Multi Battles.",
+                    "str": "You can\u2019t change rules for Multi Battles.",
                     "strWidth": 520.3125
                 },
                 {
@@ -3450,7 +3450,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "There are at least two Pokémon of the",
+                    "str": "There are at least two Pok\u00e9mon of the",
                     "strWidth": 497.078125
                 },
                 {
@@ -3488,7 +3488,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You don’t have enough Pokémon.",
+                    "str": "You don\u2019t have enough Pok\u00e9mon.",
                     "strWidth": 440.1875
                 }
             ]
@@ -3578,7 +3578,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Trainers’ Pokémon will be mixed!",
+                    "str": "Trainers\u2019 Pok\u00e9mon will be mixed!",
                     "strWidth": 427.109375
                 }
             ]
@@ -3608,7 +3608,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Eggs can’t participate.",
+                    "str": "Eggs can\u2019t participate.",
                     "strWidth": 288.671875
                 }
             ]
@@ -3638,7 +3638,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "One or more of your Pokémon can’t participate.",
+                    "str": "One or more of your Pok\u00e9mon can\u2019t participate.",
                     "strWidth": 623.90625
                 }
             ]
@@ -3668,7 +3668,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "There are at least two Pokémon with the same",
+                    "str": "There are at least two Pok\u00e9mon with the same",
                     "strWidth": 597.375
                 },
                 {
@@ -3706,7 +3706,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "There is a problem with at least one Pokémon",
+                    "str": "There is a problem with at least one Pok\u00e9mon",
                     "strWidth": 593.25
                 },
                 {
@@ -3752,7 +3752,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "participating Pokémon.",
+                    "str": "participating Pok\u00e9mon.",
                     "strWidth": 299.640625
                 }
             ]
@@ -3872,7 +3872,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "No. of Pokémon",
+                    "str": "No. of Pok\u00e9mon",
                     "strWidth": 210.625
                 }
             ]
@@ -3902,7 +3902,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pokémon Level",
+                    "str": "Pok\u00e9mon Level",
                     "strWidth": 197.109375
                 }
             ]
@@ -3932,7 +3932,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Special Pokémon",
+                    "str": "Special Pok\u00e9mon",
                     "strWidth": 221.65625
                 }
             ]
@@ -3962,7 +3962,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Same Pokémon",
+                    "str": "Same Pok\u00e9mon",
                     "strWidth": 197.78125
                 }
             ]

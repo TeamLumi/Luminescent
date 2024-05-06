@@ -39,7 +39,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Please select a battle format and the Pokémon",
+                    "str": "Please select a battle format and the Pok\u00e9mon",
                     "strWidth": 604.5
                 },
                 {
@@ -47,7 +47,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "you’d like to take part.",
+                    "str": "you\u2019d like to take part.",
                     "strWidth": 297.5625
                 }
             ]
@@ -235,7 +235,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Oh, that’s a shame to see...",
+                    "str": "Oh, that\u2019s a shame to see...",
                     "strWidth": 354.21875
                 },
                 {
@@ -284,7 +284,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Congratulations! You’ve moved up in the ranks!",
+                    "str": "Congratulations! You\u2019ve moved up in the ranks!",
                     "strWidth": 613.90625
                 },
                 {
@@ -292,7 +292,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You’re now Rank ",
+                    "str": "You\u2019re now Rank ",
                     "strWidth": 228.390625
                 },
                 {
@@ -338,7 +338,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You’ve earned a reward for moving up through",
+                    "str": "You\u2019ve earned a reward for moving up through",
                     "strWidth": 606.875
                 },
                 {
@@ -422,7 +422,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "you’d like to listen to in the Battle Tower!",
+                    "str": "you\u2019d like to listen to in the Battle Tower!",
                     "strWidth": 539.890625
                 }
             ]
@@ -460,7 +460,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "It’s a place where you can have Pokémon battles.",
+                    "str": "It\u2019s a place where you can have Pok\u00e9mon battles.",
                     "strWidth": 639.03125
                 },
                 {
@@ -887,7 +887,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "a proper team of Pokémon.",
+                    "str": "a proper team of Pok\u00e9mon.",
                     "strWidth": 355.453125
                 }
             ]
@@ -955,7 +955,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Ah... Looks like you’ve rented all the teams",
+                    "str": "Ah... Looks like you\u2019ve rented all the teams",
                     "strWidth": 560.390625
                 },
                 {
@@ -993,7 +993,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You’re interested in this Battle Team?",
+                    "str": "You\u2019re interested in this Battle Team?",
                     "strWidth": 489.484375
                 }
             ]
@@ -1023,7 +1023,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Put ’em through their paces!",
+                    "str": "Put \u2019em through their paces!",
                     "strWidth": 364.0
                 }
             ]
@@ -1053,7 +1053,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You’re already borrowing this team.",
+                    "str": "You\u2019re already borrowing this team.",
                     "strWidth": 463.609375
                 }
             ]
@@ -1274,7 +1274,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "And that’s not all! You’ve reached Rank ",
+                    "str": "And that\u2019s not all! You\u2019ve reached Rank ",
                     "strWidth": 523.859375
                 },
                 {
@@ -1320,7 +1320,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "That drops you down a rank, I’m afraid...",
+                    "str": "That drops you down a rank, I\u2019m afraid...",
                     "strWidth": 526.578125
                 }
             ]
@@ -1467,7 +1467,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Greetings, Pokémon Trainer.",
+                    "str": "Greetings, Pok\u00e9mon Trainer.",
                     "strWidth": 370.5
                 },
                 {
@@ -1491,7 +1491,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "the world's greatest Pokémon.",
+                    "str": "the world's greatest Pok\u00e9mon.",
                     "strWidth": 391.90625
                 },
                 {
@@ -1583,7 +1583,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I don’t understand what happened...",
+                    "str": "I don\u2019t understand what happened...",
                     "strWidth": 470.375
                 },
                 {
@@ -1591,7 +1591,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "But your Pokémon need healing, right?",
+                    "str": "But your Pok\u00e9mon need healing, right?",
                     "strWidth": 503.90625
                 },
                 {
@@ -1599,7 +1599,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "A true Pokémon nurse never rests!",
+                    "str": "A true Pok\u00e9mon nurse never rests!",
                     "strWidth": 439.921875
                 },
                 {
@@ -1836,7 +1836,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "What a shame, not even Sinnoh’s champion can ",
+                    "str": "What a shame, not even Sinnoh\u2019s champion can ",
                     "strWidth": 625.78125
                 },
                 {
@@ -1898,7 +1898,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "But now, I have cloned his Pokémon.",
+                    "str": "But now, I have cloned his Pok\u00e9mon.",
                     "strWidth": 475.65625
                 }
             ]
@@ -2042,7 +2042,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I have cloned his Pokémon",
+                    "str": "I have cloned his Pok\u00e9mon",
                     "strWidth": 346.09375
                 }
             ]

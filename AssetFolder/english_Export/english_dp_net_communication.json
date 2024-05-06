@@ -172,7 +172,7 @@
                     "eventID": 4,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "communication to trade Pokémon with",
+                    "str": "communication to trade Pok\u00e9mon with",
                     "strWidth": 497.8125
                 },
                 {
@@ -1002,7 +1002,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Please select a Pokémon.",
+                    "str": "Please select a Pok\u00e9mon.",
                     "strWidth": 326.9375
                 }
             ]
@@ -1212,7 +1212,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "for your trade partner’s ",
+                    "str": "for your trade partner\u2019s ",
                     "strWidth": 310.078125
                 },
                 {
@@ -1348,7 +1348,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Your friend wants to trade a Pokémon with you.",
+                    "str": "Your friend wants to trade a Pok\u00e9mon with you.",
                     "strWidth": 617.6875
                 }
             ]
@@ -1611,7 +1611,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "If you trade that Pokémon, you’ll get stuck in",
+                    "str": "If you trade that Pok\u00e9mon, you\u2019ll get stuck in",
                     "strWidth": 585.15625
                 },
                 {
@@ -1657,7 +1657,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Don’t turn off the power.",
+                    "str": "Don\u2019t turn off the power.",
                     "strWidth": 325.296875
                 }
             ]
@@ -1725,7 +1725,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "♂",
+                    "str": "\u2642",
                     "strWidth": 25.59375
                 }
             ]
@@ -1755,7 +1755,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "♀",
+                    "str": "\u2640",
                     "strWidth": 25.59375
                 }
             ]
@@ -2181,7 +2181,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Hello! I’m glad to meet you. My name is Teala,",
+                    "str": "Hello! I\u2019m glad to meet you. My name is Teala,",
                     "strWidth": 608.765625
                 },
                 {
@@ -2189,7 +2189,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "and I’m your guide to the Pokémon Global Club.",
+                    "str": "and I\u2019m your guide to the Pok\u00e9mon Global Club.",
                     "strWidth": 632.6875
                 }
             ]
@@ -2243,7 +2243,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "battle, trade Pokémon, and so on!",
+                    "str": "battle, trade Pok\u00e9mon, and so on!",
                     "strWidth": 442.15625
                 },
                 {
@@ -2275,7 +2275,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "buildings, where you can’t use it.",
+                    "str": "buildings, where you can\u2019t use it.",
                     "strWidth": 425.0
                 },
                 {
@@ -2397,7 +2397,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pokémon Global Club!",
+                    "str": "Pok\u00e9mon Global Club!",
                     "strWidth": 293.734375
                 },
                 {
@@ -2483,7 +2483,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "This is the Pokémon Global Club.",
+                    "str": "This is the Pok\u00e9mon Global Club.",
                     "strWidth": 432.9375
                 },
                 {
@@ -3733,7 +3733,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Number of Pokémon:",
+                    "str": "Number of Pok\u00e9mon:",
                     "strWidth": 276.84375
                 }
             ]
@@ -3763,7 +3763,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pokémon level:",
+                    "str": "Pok\u00e9mon level:",
                     "strWidth": 200.03125
                 }
             ]
@@ -3883,7 +3883,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Evolved Pokémon:",
+                    "str": "Evolved Pok\u00e9mon:",
                     "strWidth": 240.640625
                 }
             ]
@@ -3913,7 +3913,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Special Pokémon:",
+                    "str": "Special Pok\u00e9mon:",
                     "strWidth": 231.765625
                 }
             ]
@@ -3943,7 +3943,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Same Pokémon:",
+                    "str": "Same Pok\u00e9mon:",
                     "strWidth": 207.890625
                 }
             ]
@@ -4131,7 +4131,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pokémon with people nearby.",
+                    "str": "Pok\u00e9mon with people nearby.",
                     "strWidth": 386.140625
                 },
                 {
@@ -4139,7 +4139,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You might come across a rare Pokémon!",
+                    "str": "You might come across a rare Pok\u00e9mon!",
                     "strWidth": 517.9375
                 }
             ]
@@ -4169,7 +4169,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I’m so sorry. The Colosseum isn’t ready yet.",
+                    "str": "I\u2019m so sorry. The Colosseum isn\u2019t ready yet.",
                     "strWidth": 562.34375
                 }
             ]
@@ -4824,7 +4824,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "A Button: When everyone’s ready.",
+                    "str": "A Button: When everyone\u2019s ready.",
                     "strWidth": 445.984375
                 }
             ]
@@ -4862,7 +4862,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "A Button: When everyone’s ready.",
+                    "str": "A Button: When everyone\u2019s ready.",
                     "strWidth": 445.984375
                 }
             ]
@@ -4900,7 +4900,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "A Button: When everyone’s ready.",
+                    "str": "A Button: When everyone\u2019s ready.",
                     "strWidth": 445.984375
                 }
             ]
@@ -4938,7 +4938,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "A Button: When everyone’s ready.",
+                    "str": "A Button: When everyone\u2019s ready.",
                     "strWidth": 445.984375
                 }
             ]
@@ -4976,7 +4976,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "A Button: When everyone’s ready.",
+                    "str": "A Button: When everyone\u2019s ready.",
                     "strWidth": 445.984375
                 }
             ]
@@ -5794,7 +5794,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Don’t turn off the power!",
+                    "str": "Don\u2019t turn off the power!",
                     "strWidth": 324.65625
                 }
             ]
@@ -6251,7 +6251,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "’s",
+                    "str": "\u2019s",
                     "strWidth": 20.34375
                 },
                 {
@@ -6324,7 +6324,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "’s Trainer Card.",
+                    "str": "\u2019s Trainer Card.",
                     "strWidth": 198.96875
                 }
             ]
@@ -6381,7 +6381,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "’s Trainer Card.",
+                    "str": "\u2019s Trainer Card.",
                     "strWidth": 198.96875
                 }
             ]
@@ -6438,7 +6438,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "’s Trainer Card.",
+                    "str": "\u2019s Trainer Card.",
                     "strWidth": 198.96875
                 }
             ]
@@ -6495,7 +6495,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "’s Trainer Card.",
+                    "str": "\u2019s Trainer Card.",
                     "strWidth": 198.96875
                 }
             ]
@@ -6767,7 +6767,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pokémon with you.",
+                    "str": "Pok\u00e9mon with you.",
                     "strWidth": 245.078125
                 }
             ]
@@ -7104,7 +7104,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I’ll do one better—here’s my Trainer Card instead!",
+                    "str": "I\u2019ll do one better\u2014here\u2019s my Trainer Card instead!",
                     "strWidth": 649.703125
                 }
             ]
@@ -7134,7 +7134,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Huh? My Trainer Card... It’s gone!",
+                    "str": "Huh? My Trainer Card... It\u2019s gone!",
                     "strWidth": 439.390625
                 },
                 {
@@ -7142,7 +7142,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Sorry! I’ll show you another time!",
+                    "str": "Sorry! I\u2019ll show you another time!",
                     "strWidth": 423.765625
                 }
             ]
@@ -7172,7 +7172,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I’m just showing my Trainer Card as my way of",
+                    "str": "I\u2019m just showing my Trainer Card as my way of",
                     "strWidth": 596.671875
                 },
                 {
@@ -7270,7 +7270,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Thanks for waiting! Let’s get our battle started!",
+                    "str": "Thanks for waiting! Let\u2019s get our battle started!",
                     "strWidth": 605.984375
                 }
             ]
@@ -7300,7 +7300,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Sorry! My Pokémon don’t seem to be feeling too",
+                    "str": "Sorry! My Pok\u00e9mon don\u2019t seem to be feeling too",
                     "strWidth": 631.671875
                 },
                 {
@@ -7338,7 +7338,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Whoa! I can tell you’re pretty tough!",
+                    "str": "Whoa! I can tell you\u2019re pretty tough!",
                     "strWidth": 471.484375
                 }
             ]
@@ -7368,7 +7368,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You used THAT move? That’s good strategy!",
+                    "str": "You used THAT move? That\u2019s good strategy!",
                     "strWidth": 581.75
                 }
             ]
@@ -7428,7 +7428,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Oh! How could you use that Pokémon in",
+                    "str": "Oh! How could you use that Pok\u00e9mon in",
                     "strWidth": 522.671875
                 },
                 {
@@ -7496,7 +7496,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "All right! Let’s trade!",
+                    "str": "All right! Let\u2019s trade!",
                     "strWidth": 264.890625
                 }
             ]
@@ -7526,7 +7526,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Sorry! I don’t have a Pokémon I can trade right",
+                    "str": "Sorry! I don\u2019t have a Pok\u00e9mon I can trade right",
                     "strWidth": 605.328125
                 },
                 {
@@ -7534,7 +7534,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "now. Let’s trade some other time.",
+                    "str": "now. Let\u2019s trade some other time.",
                     "strWidth": 433.40625
                 }
             ]
@@ -7564,7 +7564,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Oh yeah! I really wanted this Pokémon!",
+                    "str": "Oh yeah! I really wanted this Pok\u00e9mon!",
                     "strWidth": 505.40625
                 }
             ]
@@ -7594,7 +7594,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Finally, I got a Pokémon that I’ve wanted for such",
+                    "str": "Finally, I got a Pok\u00e9mon that I\u2019ve wanted for such",
                     "strWidth": 643.625
                 },
                 {
@@ -7632,7 +7632,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You can’t trade if you have only one Pokémon",
+                    "str": "You can\u2019t trade if you have only one Pok\u00e9mon",
                     "strWidth": 602.0625
                 },
                 {
@@ -7746,7 +7746,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Thanks for waiting! Let’s mix our records, then.",
+                    "str": "Thanks for waiting! Let\u2019s mix our records, then.",
                     "strWidth": 604.203125
                 }
             ]
@@ -7776,7 +7776,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Oh, I’m sorry. I have too much to do right now.",
+                    "str": "Oh, I\u2019m sorry. I have too much to do right now.",
                     "strWidth": 608.390625
                 },
                 {
@@ -7825,7 +7825,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "We’re going to mix our records now.",
+                    "str": "We\u2019re going to mix our records now.",
                     "strWidth": 473.84375
                 },
                 {
@@ -7917,7 +7917,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "OK! Let’s mix our records!",
+                    "str": "OK! Let\u2019s mix our records!",
                     "strWidth": 336.359375
                 }
             ]
@@ -7947,7 +7947,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Oh, sorry! I just can’t right this instant.",
+                    "str": "Oh, sorry! I just can\u2019t right this instant.",
                     "strWidth": 493.09375
                 },
                 {
@@ -7985,7 +7985,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "It’s fun mixing records!",
+                    "str": "It\u2019s fun mixing records!",
                     "strWidth": 292.34375
                 }
             ]
@@ -8015,7 +8015,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I’m going to mix records with everyone!",
+                    "str": "I\u2019m going to mix records with everyone!",
                     "strWidth": 510.9375
                 }
             ]
@@ -8124,7 +8124,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Hello, it’s ",
+                    "str": "Hello, it\u2019s ",
                     "strWidth": 134.875
                 },
                 {
@@ -8325,7 +8325,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I’ll introduce myself with my Trainer Card.",
+                    "str": "I\u2019ll introduce myself with my Trainer Card.",
                     "strWidth": 541.1875
                 }
             ]
@@ -8355,7 +8355,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Wait, where’d my Trainer Card go?!",
+                    "str": "Wait, where\u2019d my Trainer Card go?!",
                     "strWidth": 462.421875
                 },
                 {
@@ -8363,7 +8363,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Sorry! I’ll have to show you later!",
+                    "str": "Sorry! I\u2019ll have to show you later!",
                     "strWidth": 423.6875
                 }
             ]
@@ -8393,7 +8393,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "We’re showing each other our Trainer Cards to",
+                    "str": "We\u2019re showing each other our Trainer Cards to",
                     "strWidth": 606.890625
                 },
                 {
@@ -8431,7 +8431,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Glad to meet you. Please, don’t be a stranger!",
+                    "str": "Glad to meet you. Please, don\u2019t be a stranger!",
                     "strWidth": 600.203125
                 }
             ]
@@ -8491,7 +8491,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Sorry I made you wait! Let’s get started!",
+                    "str": "Sorry I made you wait! Let\u2019s get started!",
                     "strWidth": 514.40625
                 }
             ]
@@ -8521,7 +8521,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I’m terribly sorry, but my Pokémon aren’t",
+                    "str": "I\u2019m terribly sorry, but my Pok\u00e9mon aren\u2019t",
                     "strWidth": 530.515625
                 },
                 {
@@ -8529,7 +8529,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "feeling well. Let’s battle another time.",
+                    "str": "feeling well. Let\u2019s battle another time.",
                     "strWidth": 492.71875
                 }
             ]
@@ -8559,7 +8559,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "That Pokémon... It’s been raised really well!",
+                    "str": "That Pok\u00e9mon... It\u2019s been raised really well!",
                     "strWidth": 563.8125
                 }
             ]
@@ -8589,7 +8589,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "That’s it! This is the right move now!",
+                    "str": "That\u2019s it! This is the right move now!",
                     "strWidth": 465.375
                 }
             ]
@@ -8619,7 +8619,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "That’s awesome! You can battle that way?",
+                    "str": "That\u2019s awesome! You can battle that way?",
                     "strWidth": 544.328125
                 }
             ]
@@ -8649,7 +8649,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You have exquisite timing for switching Pokémon!",
+                    "str": "You have exquisite timing for switching Pok\u00e9mon!",
                     "strWidth": 642.21875
                 }
             ]
@@ -8709,7 +8709,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Sorry I made you wait! Let’s get started!",
+                    "str": "Sorry I made you wait! Let\u2019s get started!",
                     "strWidth": 514.40625
                 }
             ]
@@ -8739,7 +8739,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I’m sorry, but I don’t have any Pokémon that I",
+                    "str": "I\u2019m sorry, but I don\u2019t have any Pok\u00e9mon that I",
                     "strWidth": 594.53125
                 },
                 {
@@ -8747,7 +8747,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "can trade now. Let’s trade some other time!",
+                    "str": "can trade now. Let\u2019s trade some other time!",
                     "strWidth": 563.1875
                 }
             ]
@@ -8777,7 +8777,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I’m trading Pokémon right now.",
+                    "str": "I\u2019m trading Pok\u00e9mon right now.",
                     "strWidth": 405.484375
                 }
             ]
@@ -8807,7 +8807,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I finally got that Pokémon I wanted in a trade!",
+                    "str": "I finally got that Pok\u00e9mon I wanted in a trade!",
                     "strWidth": 595.03125
                 }
             ]
@@ -8837,7 +8837,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You can’t trade if you have only one Pokémon",
+                    "str": "You can\u2019t trade if you have only one Pok\u00e9mon",
                     "strWidth": 602.0625
                 },
                 {
@@ -8875,7 +8875,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "If you want to do something with me, don’t be",
+                    "str": "If you want to do something with me, don\u2019t be",
                     "strWidth": 600.71875
                 },
                 {
@@ -8883,7 +8883,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "shy—just ask!",
+                    "str": "shy\u2014just ask!",
                     "strWidth": 169.09375
                 }
             ]
@@ -8951,7 +8951,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Sorry I made you wait! Let’s get started!",
+                    "str": "Sorry I made you wait! Let\u2019s get started!",
                     "strWidth": 514.40625
                 }
             ]
@@ -8981,7 +8981,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Oh, sorry! Let’s do this another time!",
+                    "str": "Oh, sorry! Let\u2019s do this another time!",
                     "strWidth": 473.859375
                 }
             ]
@@ -9114,7 +9114,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Thanks for waiting! Let’s mix some records!",
+                    "str": "Thanks for waiting! Let\u2019s mix some records!",
                     "strWidth": 553.859375
                 }
             ]
@@ -9144,7 +9144,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Oh, sorry! Let’s do this another time!",
+                    "str": "Oh, sorry! Let\u2019s do this another time!",
                     "strWidth": 473.859375
                 }
             ]
@@ -9174,7 +9174,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "It’s so fun to mix records!",
+                    "str": "It\u2019s so fun to mix records!",
                     "strWidth": 326.1875
                 }
             ]
@@ -9204,7 +9204,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I’m going to keep mixing!",
+                    "str": "I\u2019m going to keep mixing!",
                     "strWidth": 329.984375
                 }
             ]
@@ -9234,7 +9234,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Let’s mix it up!",
+                    "str": "Let\u2019s mix it up!",
                     "strWidth": 189.890625
                 }
             ]
@@ -9264,7 +9264,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I wonder what’s going to happen.",
+                    "str": "I wonder what\u2019s going to happen.",
                     "strWidth": 433.03125
                 }
             ]
@@ -9424,7 +9424,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "your Pokémon’s nicknames in these battles.",
+                    "str": "your Pok\u00e9mon\u2019s nicknames in these battles.",
                     "strWidth": 561.25
                 }
             ]
@@ -9454,7 +9454,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You may trade your Pokémon with other players.",
+                    "str": "You may trade your Pok\u00e9mon with other players.",
                     "strWidth": 631.046875
                 },
                 {
@@ -9470,7 +9470,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "meeting rare Pokémon!",
+                    "str": "meeting rare Pok\u00e9mon!",
                     "strWidth": 298.9375
                 }
             ]
@@ -9608,7 +9608,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I’m the only one here now, but please do bring",
+                    "str": "I\u2019m the only one here now, but please do bring",
                     "strWidth": 609.09375
                 },
                 {
@@ -10063,7 +10063,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "¡Hola!",
+                    "str": "\u00a1Hola!",
                     "strWidth": 76.78125
                 }
             ]
@@ -10123,7 +10123,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Welcome to the Pokémon Colosseum!",
+                    "str": "Welcome to the Pok\u00e9mon Colosseum!",
                     "strWidth": 492.25
                 },
                 {
@@ -10207,7 +10207,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pokémon each.",
+                    "str": "Pok\u00e9mon each.",
                     "strWidth": 197.046875
                 },
                 {
@@ -10223,7 +10223,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pokémon each.",
+                    "str": "Pok\u00e9mon each.",
                     "strWidth": 197.046875
                 }
             ]
@@ -10299,7 +10299,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "The other player must then choose “Join group.”",
+                    "str": "The other player must then choose \u201cJoin group.\u201d",
                     "strWidth": 629.25
                 }
             ]
@@ -10356,7 +10356,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "’s response...",
+                    "str": "\u2019s response...",
                     "strWidth": 167.34375
                 }
             ]
@@ -10405,7 +10405,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": " sent back an “OK!”",
+                    "str": " sent back an \u201cOK!\u201d",
                     "strWidth": 256.75
                 }
             ]
@@ -10446,7 +10446,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "An “OK” was sent to ",
+                    "str": "An \u201cOK\u201d was sent to ",
                     "strWidth": 275.5
                 },
                 {
@@ -10693,7 +10693,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Please select the Pokémon you wish to enter.",
+                    "str": "Please select the Pok\u00e9mon you wish to enter.",
                     "strWidth": 583.96875
                 }
             ]
@@ -10750,7 +10750,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "’s selection...",
+                    "str": "\u2019s selection...",
                     "strWidth": 168.3125
                 }
             ]
@@ -10834,7 +10834,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "“Join group.”",
+                    "str": "\u201cJoin group.\u201d",
                     "strWidth": 171.453125
                 }
             ]
@@ -11035,7 +11035,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": " OK’d your registration as",
+                    "str": " OK\u2019d your registration as",
                     "strWidth": 334.140625
                 },
                 {
@@ -11274,7 +11274,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Please select the Pokémon you would like",
+                    "str": "Please select the Pok\u00e9mon you would like",
                     "strWidth": 542.234375
                 },
                 {
@@ -11312,7 +11312,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Awaiting other members’ selections.",
+                    "str": "Awaiting other members\u2019 selections.",
                     "strWidth": 466.3125
                 }
             ]
@@ -11350,7 +11350,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "This is the Pokémon Local Club.",
+                    "str": "This is the Pok\u00e9mon Local Club.",
                     "strWidth": 413.5
                 },
                 {
@@ -11358,7 +11358,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You’ll be able to interact with other nearby",
+                    "str": "You\u2019ll be able to interact with other nearby",
                     "strWidth": 561.609375
                 },
                 {
@@ -11420,7 +11420,7 @@
                     "eventID": 4,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "room, trade your Pokémon, or even mix records",
+                    "str": "room, trade your Pok\u00e9mon, or even mix records",
                     "strWidth": 618.125
                 },
                 {
@@ -11504,7 +11504,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Or use the Y Button to choose what you’d like to",
+                    "str": "Or use the Y Button to choose what you\u2019d like to",
                     "strWidth": 636.328125
                 },
                 {
@@ -11572,7 +11572,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I hope you enjoy the Pokémon Local Room.",
+                    "str": "I hope you enjoy the Pok\u00e9mon Local Room.",
                     "strWidth": 565.546875
                 }
             ]
@@ -11682,7 +11682,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": " Pokémon that ",
+                    "str": " Pok\u00e9mon that ",
                     "strWidth": 196.65625
                 },
                 {
@@ -11850,7 +11850,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Please select the Pokémon you wish to enter.",
+                    "str": "Please select the Pok\u00e9mon you wish to enter.",
                     "strWidth": 583.96875
                 }
             ]
@@ -11901,7 +11901,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "It’s impossible to form a team of Pokémon that",
+                    "str": "It\u2019s impossible to form a team of Pok\u00e9mon that",
                     "strWidth": 607.921875
                 },
                 {
@@ -12017,7 +12017,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "three Pokémon.",
+                    "str": "three Pok\u00e9mon.",
                     "strWidth": 203.46875
                 }
             ]
@@ -12055,7 +12055,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "three Pokémon.",
+                    "str": "three Pok\u00e9mon.",
                     "strWidth": 203.46875
                 }
             ]
@@ -12085,7 +12085,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You have at least one Pokémon that can’t",
+                    "str": "You have at least one Pok\u00e9mon that can\u2019t",
                     "strWidth": 542.6875
                 },
                 {
@@ -12131,7 +12131,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I’m the only one here now, but please do bring",
+                    "str": "I\u2019m the only one here now, but please do bring",
                     "strWidth": 609.09375
                 },
                 {
@@ -12199,7 +12199,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Nǐhǎo!",
+                    "str": "N\u01d0h\u01ceo!",
                     "strWidth": 84.53125
                 }
             ]
@@ -12229,7 +12229,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Nǐhǎo!",
+                    "str": "N\u01d0h\u01ceo!",
                     "strWidth": 84.53125
                 }
             ]
@@ -12426,7 +12426,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "trade Pokémon!",
+                    "str": "trade Pok\u00e9mon!",
                     "strWidth": 203.859375
                 },
                 {
@@ -12458,7 +12458,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "buildings, where you can’t use it.",
+                    "str": "buildings, where you can\u2019t use it.",
                     "strWidth": 425.0
                 },
                 {
@@ -12512,7 +12512,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pokémon Global Club!",
+                    "str": "Pok\u00e9mon Global Club!",
                     "strWidth": 293.734375
                 },
                 {
@@ -12590,7 +12590,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Or use the Y Button to choose what you’d like to",
+                    "str": "Or use the Y Button to choose what you\u2019d like to",
                     "strWidth": 636.328125
                 },
                 {
@@ -12652,7 +12652,7 @@
                     "eventID": 4,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "room, such as by trading your Pokémon or",
+                    "str": "room, such as by trading your Pok\u00e9mon or",
                     "strWidth": 546.1875
                 },
                 {

@@ -1857,21 +1857,23 @@ anm_d05r0114_face_10:
 	_AC_WAIT(40)
 	_AC_FACE_INDEX(4)
 	_ACMD_END()
-ev_d05r0114_legendary_checks_end:
-	_END()
+ev_d05r0114_legendary_checks_ret:
+	_RET()
 ev_d05r0114_legendary_checks:
-	_IF_FLAGON_JUMP(#2790, 'ev_d05r0114_legendary_checks_end')
-	_IF_FLAGON_JUMP(#2789, 'ev_d05r0114_palkia')
-	_ITEM_CHK(135, 1, @SCWK_ANSWER)
-	_IFVAL_JUMP(@SCWK_ANSWER, 'NE', 1, 'ev_d05r0114_legendary_checks_end')
-	_FLAG_RESET(#2861)
-	_OBJ_ADD('D05R0114_DIALGA_LEGEND')
+	_IF_FLAGOFF_CALL(#2861, 'ev_d05r0114_dialga_check'); Dialga Check
+	_IF_FLAGOFF_CALL(#2862, 'ev_d05r0114_palkia_check'); Palkia Check
 	_END()
-ev_d05r0114_palkia:
-	_ITEM_CHK(136, 1, @SCWK_ANSWER)
-	_IFVAL_JUMP(@SCWK_ANSWER, 'NE', 1, 'ev_d05r0114_legendary_checks_end')
+ev_d05r0114_dialga_check:
+	_ITEM_CHK(135, 1, @SCWK_ANSWER); Check if player has at least 1 Adamant Orb
+	_IFVAL_JUMP(@SCWK_ANSWER, 'NE', 1, 'ev_d05r0114_legendary_checks_ret'); Don't have the orb
+	_FLAG_RESET(#2861)
+	_OBJ_ADD('D05R0114_DIALGA_LEGEND'); Spawn Dialga
+	_END()
+ev_d05r0114_palkia_check:
+	_ITEM_CHK(136, 1, @SCWK_ANSWER); Check if player has at least 1 Lustrous Orb
+	_IFVAL_JUMP(@SCWK_ANSWER, 'NE', 1, 'ev_d05r0114_legendary_checks_ret'); Don't have the orb
 	_FLAG_RESET(#2862)
-	_OBJ_ADD('D05R0114_PALKIA_LEGEND')
+	_OBJ_ADD('D05R0114_PALKIA_LEGEND'); Spawn Palkia
 	_END()
 ev_d05r0114_dialga_legend:
 	_TALK_OBJ_START()
@@ -1882,13 +1884,16 @@ ev_d05r0114_dialga_legend:
 	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 0, 'ev_d05r0114_legendary_lose')
 	_FLAG_SET(#2861)
 	_OBJ_DEL('D05R0114_DIALGA_LEGEND')
-	_FLAG_SET(#2789); Allow Palkia
-	_ITEM_CHK(136, 1, @SCWK_ANSWER)
-	_IFVAL_JUMP(@SCWK_ANSWER, 'NE', 0, 'ev_d05r0114_dialga_legend_has_item')
-	_FLAG_RESET(#2896); Enable Palkia orb item
+	_IF_FLAGOFF_JUMP(#2862, 'ev_d05r0114_check_enable_palkia_orb'); Check for Lustrous Orb
 	_TALK_OBJ_END()
 	_END()
-ev_d05r0114_dialga_legend_has_item:
+ev_d05r0114_check_enable_palkia_orb:
+	_ITEM_CHK(136, 1, @SCWK_ANSWER); Check if player has at least 1 Lustrous Orb
+	_IFVAL_JUMP(@SCWK_ANSWER, 'NE', 1, 'ev_d05r0114_enable_palkia_orb'); Don't have the orb
+	_TALK_OBJ_END()
+	_END()
+ev_d05r0114_enable_palkia_orb:
+	_FLAG_RESET(#2896); Respawn the ground item
 	_TALK_OBJ_END()
 	_END()
 ev_d05r0114_palkia_legend:
@@ -1898,12 +1903,14 @@ ev_d05r0114_palkia_legend:
 	_SP_WILD_BTL_SET(484, 80)
 	_SEACRET_POKE_RETRY_CHECK(@SCWK_TEMP0, 484)
 	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 0, 'ev_d05r0114_legendary_lose')
-	_OBJ_DEL('D05R0114_PALKIA_LEGEND')
 	_FLAG_SET(#2862)
-	_FLAG_SET(#2790); no more checks
+	_OBJ_DEL('D05R0114_PALKIA_LEGEND')
 	_TALK_OBJ_END()
 	_END()
 ev_d05r0114_legendary_lose:
+	_TALK_OBJ_END()
+	_END()
+ev_d05r0114_legendary_end:
 	_TALK_OBJ_END()
 	_END()
 anm_d05r0114_shaymin_1:
