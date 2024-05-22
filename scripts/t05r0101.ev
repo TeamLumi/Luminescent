@@ -10,7 +10,7 @@ ev_t05r0101_oldman1:
 ev_t05r0101_oldwoman1:
 	_TALK_OBJ_START()
 	_IF_FLAGON_JUMP(#2592, 'ev_t05r0101_oldwoman1_06')
-	_CALL('ev_t05r0101_oldwoman1_02'); Check for Box Legendaries being done
+	_CALL('ev_t05r0101_oldwoman1_07'); Check for Box Legendaries being done
 	_IF_FLAGON_JUMP(#FE_D05R0114_CLEAR, 'ev_t05r0101_oldwoman1_03')
 	_SYS_FLAG_BADGE_GET($BADGE_ID_C05, @SCWK_ANSWER)
 	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_t05r0101_oldwoman1_02')
@@ -19,9 +19,9 @@ ev_t05r0101_oldwoman1:
 	_TALK_CLOSE()
 	_TALK_OBJ_END()
 	_END()
-ev_t05r0101_oldwoman1_02:
-	_IF_FLAGOFF_JUMP(#2861, 'ev_t05r0101_oldwoman1_ret'); Dialga is not done
-	_IF_FLAGOFF_JUMP(#2862, 'ev_t05r0101_oldwoman1_ret'); Palkia is not done
+ev_t05r0101_oldwoman1_07:
+	_IF_FLAGOFF_JUMP(#2789, 'ev_t05r0101_oldwoman1_ret'); Dialga is not done
+	_IF_FLAGOFF_JUMP(#2790, 'ev_t05r0101_oldwoman1_ret'); Palkia is not done
 	_JUMP('ev_t05r0101_oldwoman1_05'); Both are done
 ev_t05r0101_oldwoman1_ret:
 	_RET()

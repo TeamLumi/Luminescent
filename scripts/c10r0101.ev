@@ -547,13 +547,13 @@ ev_c10r0101_reset_man_azelf:
 	_RELEASE_BOX_POKE(@SCWK_TEMP0, @SCWK_TEMP1); Release Pokemon
 	_JUMP('ev_c10r0101_reset_man_finished')
 ev_c10r0101_reset_man_dialga:
-	;_IF_FLAGOFF_JUMP(#2862, 'ev_c10r0101_reset_man_cannot_spawn'); Do not spawn if Palkia is active
-	_FLAG_RESET(#2861); Enable Dialga
+	;_IF_FLAGOFF_JUMP(#2790, 'ev_c10r0101_reset_man_cannot_spawn'); Do not spawn if Palkia is active
+	_FLAG_RESET(#2789); Enable Dialga
 	_RELEASE_BOX_POKE(@SCWK_TEMP0, @SCWK_TEMP1); Release Pokemon
 	_JUMP('ev_c10r0101_reset_man_finished')
 ev_c10r0101_reset_man_palkia:
-	;_IF_FLAGOFF_JUMP(#2861, 'ev_c10r0101_reset_man_cannot_spawn'); Do not spawn if Dialga is active
-	_FLAG_RESET(#2862); Enable Palkia
+	;_IF_FLAGOFF_JUMP(#2789, 'ev_c10r0101_reset_man_cannot_spawn'); Do not spawn if Dialga is active
+	_FLAG_RESET(#2790); Enable Palkia
 	_RELEASE_BOX_POKE(@SCWK_TEMP0, @SCWK_TEMP1); Release Pokemon
 	_JUMP('ev_c10r0101_reset_man_finished')
 ev_c10r0101_reset_man_heatran:

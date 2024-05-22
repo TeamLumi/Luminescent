@@ -123,7 +123,7 @@ anm_c10r0113_champ_01:
 ev_c10r0113_game_clear_timing_flag_set:
 	_FLAG_RESET(#FV_T04R0101_SUNGLASSES)
 	_FLAG_RESET($SYS_FLAG_BGM_C10)
-	_IF_FLAGOFF_CALL(#FE_D05R0114_SPPOKE_GET, 'ev_d05r0114_legend_retry_ok')
+	;_IF_FLAGOFF_CALL(#FE_D05R0114_SPPOKE_GET, 'ev_d05r0114_legend_retry_ok') ; Remove Box Legends reset from HoF
 	_IF_FLAGOFF_CALL(#FE_D16R0103_LEGEND_CLEAR, 'ev_d16r0103_legend_retry_ok')
 	_IF_FLAGOFF_CALL(#FE_D20R0106_LEGEND_CLEAR, 'ev_d20r0106_legend_retry_ok')
 	_IF_FLAGOFF_CALL(#FE_D28R0103_LEGEND_CLEAR, 'ev_d28r0103_legend_retry_ok')
