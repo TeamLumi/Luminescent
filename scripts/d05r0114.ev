@@ -1866,16 +1866,18 @@ ev_d05r0114_legendary_checks:
 	_IF_FLAGOFF_CALL(#2790, 'ev_d05r0114_palkia_check'); Palkia Check
 	_END()
 ev_d05r0114_dialga_check:
-	_ITEM_CHK(135, 1, @SCWK_ANSWER); Check if player has at least 1 Adamant Orb
-	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_d05r0114_legendary_checks_ret'); Don't have the orb
+	_IF_FLAGOFF_JUMP(#FV_FLD_ITEM_117, 'ev_d05r0114_legendary_checks_ret'); Check if player has picked up the Adamant Orb (Return if not)
 	_FLAG_RESET(#2861)
 	_OBJ_ADD('D05R0114_DIALGA_LEGEND'); Spawn Dialga
+	_FLAG_SET(#2862)
+	_OBJ_DEL('D05R0114_PALKIA_LEGEND'); Remove Palkia if it's there
 	_END()
 ev_d05r0114_palkia_check:
-	_ITEM_CHK(136, 1, @SCWK_ANSWER); Check if player has at least 1 Lustrous Orb
-	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_d05r0114_legendary_checks_ret'); Don't have the orb
+	_IF_FLAGOFF_JUMP(#2896, 'ev_d05r0114_legendary_checks_ret'); Check if player has picked up the Lustrous Orb (Return if not)
 	_FLAG_RESET(#2862)
 	_OBJ_ADD('D05R0114_PALKIA_LEGEND'); Spawn Palkia
+	_FLAG_SET(#2861)
+	_OBJ_DEL('D05R0114_DIALGA_LEGEND'); Remove Dialga if it's there
 	_END()
 ev_d05r0114_dialga_legend:
 	_TALK_OBJ_START()
@@ -1886,16 +1888,6 @@ ev_d05r0114_dialga_legend:
 	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 0, 'ev_d05r0114_legendary_lose')
 	_FLAG_SET(#2789)
 	_OBJ_DEL('D05R0114_DIALGA_LEGEND')
-	_IF_FLAGOFF_JUMP(#2790, 'ev_d05r0114_check_enable_palkia_orb'); Initiate Palkia checks to spawn its orb
-	_TALK_OBJ_END()
-	_END()
-ev_d05r0114_check_enable_palkia_orb:
-	_ITEM_CHK(136, 1, @SCWK_ANSWER); Check if player has at least 1 Lustrous Orb
-	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_d05r0114_enable_palkia_orb'); Don't have the orb
-	_TALK_OBJ_END()
-	_END()
-ev_d05r0114_enable_palkia_orb:
-	_FLAG_RESET(#2896); Respawn the ground item
 	_TALK_OBJ_END()
 	_END()
 ev_d05r0114_palkia_legend:

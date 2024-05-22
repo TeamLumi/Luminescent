@@ -218,7 +218,7 @@ ev_init_script:
 	_FLAG_SET(#2893)
 	_FLAG_SET(#2894)
 	_FLAG_SET(#2895)
-	_FLAG_SET(#2896)
+	;_FLAG_SET(#2896); Lustrous Orb item, we want it there at first
 	_FLAG_SET(#2897)
 	_FLAG_SET(#2898)
 	_FLAG_SET(#2899)

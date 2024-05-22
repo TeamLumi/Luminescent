@@ -949,9 +949,13 @@ ev_healthcheck_fix_d09_blocker:
 	_FLAG_SET(#2777)
 	_RET()
 ev_healthcheck_fix_dialga_palkia_sp:
-	_IF_FLAGOFF_JUMP(#FE_D05R0114_CLEAR, 'ev_healthcheck_return')
-	_IF_FLAGON_JUMP(#2880, 'ev_healthcheck_return')
-	_FLAG_SET(#2880)
+	_FLAG_SET(#2880); Hide the Dialga/Palkia from the Spear Pillar cutscenes
+	_IF_FLAGON_JUMP(#2763, 'ev_healthcheck_return'); Palkia Orb fix has already been run
+	_IF_FLAGOFF_CALL(#2790, 'ev_healthcheck_palkia_orb'); If you haven't caught Palkia
+	_FLAG_SET(#2763); Mark this fix as ran
+	_RET()
+ev_healthcheck_palkia_orb:
+	_FLAG_RESET(#2896); Reset the Lustrous Orb
 	_RET()
 ev_healthcheck_fix_c01_looker:
 	_FLAG_SET(#2760)
@@ -1151,7 +1155,7 @@ ev_healthcheck_init_inverse_flags:
 	_FLAG_SET(#2893)
 	_FLAG_SET(#2894)
 	_FLAG_SET(#2895)
-	_FLAG_SET(#2896)
+	;_FLAG_SET(#2896); Lustrous Orb item, we want it there at first
 	_FLAG_SET(#2897)
 	_FLAG_SET(#2898)
 	_FLAG_SET(#2899)

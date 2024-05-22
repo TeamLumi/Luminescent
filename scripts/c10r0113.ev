@@ -141,7 +141,7 @@ ev_c10r0113_game_clear_t01r0201:
 ev_d05r0114_legend_retry_ok:
 	_LDVAL(@WK_SCENE_D05R0114, 5)
 	_DEBUG_WATCH_WORK(@WK_SCENE_D05R0114)
-	_FLAG_RESET(#2880)
+	;_FLAG_RESET(#2880)
 	_FLAG_RESET(#FE_D05R0114_RETRY)
 	_RET()
 ev_d16r0103_legend_retry_ok:
