@@ -91,7 +91,7 @@ anm_d16_action_11_2:
 ev_d16_post_stark_event:
 	_TALK_OBJ_START()
 	_OBJ_DEL('D16_LOOKERSCENE_TRIGGER')
-	_FLAG_SET(#2893)
+	_FLAG_SET(#2893); Kill the trigger
 	_MACRO_TALKMSG('dp_scenario3', '00_msg_d16_text_3', 'Whew! The air outside, it is\ndelicious, yes!\r...Gweh! Gah! Geff! Bleah!\rI have inhaled the volcanic ash by\nthe lungful!')
 	_TALK_CLOSE()
 	_OBJ_ANIME('D16_LOOKER', 'anm_d16_action_11_1'); OW 4
@@ -137,13 +137,13 @@ ev_d16_post_stark_event:
 	_FLAG_SET(#2885)
 	_LDVAL(@481, 4)
 	_FLAG_SET(#2538); Post stark event done
-	_FLAG_RESET(#2886)
+	_FLAG_RESET(#2886); Unhide Buck in Survival Area
 	_TALK_OBJ_END()
 	_END()
 ev_t06_temp_buck:
-	_IF_FLAGOFF_JUMP(#2537, 'ev_t06_temp_buck_dialogue'); has this buck up but hasn't done the Stark mountain event somehow
-	_ITEM_CHK(458, 1, @SCWK_ANSWER)
-    _IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_t06_magma_stone_fix')
+	;_IF_FLAGOFF_JUMP(#2537, 'ev_t06_temp_buck_dialogue'); has this buck up but hasn't done the Stark mountain event somehow
+	;_ITEM_CHK(458, 1, @SCWK_ANSWER)
+    ;_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_t06_magma_stone_fix')
 	_JUMP('ev_t06_temp_buck_dialogue')
 	_END()
 ev_t06_magma_stone_fix:

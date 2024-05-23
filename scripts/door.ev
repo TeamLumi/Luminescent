@@ -1430,11 +1430,9 @@ ev_healthcheck_check_gris_orb:
 	_FLAG_SET(#2588)
 	_RET()
 ev_healthcheck_check_magma_stone:
-	_IF_FLAGON_JUMP(#2589, 'ev_healthcheck_return')
 	_ITEM_CHK(458, 1, @SCWK_ANSWER)
 	_IFVAL_CALL(@SCWK_ANSWER, 'GT', 0, 'ev_healthcheck_return')
 	_ADD_ITEM(458, 1, @SCWK_ANSWER); If no, give one
-	_FLAG_SET(#2589)
 	_RET()
 ev_healthcheck_infinite_repel_check:
 	_ITEM_CHK(1835, 1, @SCWK_ANSWER)

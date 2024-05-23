@@ -2041,8 +2041,8 @@ ev_nakama_turearuki_d24r0105_re:
 ev_d16r0103legend_zenmetu_check:
 	_IFVAL_JUMP(@WK_SCENE_D16R0103, 'NE', 2, 'ev_d16r0103legend_zenmetu_check_retry_ng')
 	_IF_FLAGON_JUMP(#FE_D16R0103_LEGEND_CLEAR, 'ev_d16r0103legend_zenmetu_check_retry_ng')
-	_IF_FLAGON_JUMP(#FE_D16R0103_RETRY, 'ev_d16r0103legend_zenmetu_check_retry_ng')
-	_LDVAL(@WK_SCENE_D16R0103, 1)
+	;_IF_FLAGON_JUMP(#FE_D16R0103_RETRY, 'ev_d16r0103legend_zenmetu_check_retry_ng')
+	;_LDVAL(@WK_SCENE_D16R0103, 1)
 	_JUMP('ev_d16r0103legend_zenmetu_check_retry_ng')
 ev_d16r0103legend_zenmetu_check_retry_ng:
 	_RET()
