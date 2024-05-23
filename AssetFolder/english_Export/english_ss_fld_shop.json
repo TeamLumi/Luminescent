@@ -233,7 +233,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "If you\u2019d like ",
+                    "str": "If you’d like ",
                     "strWidth": 163.5625
                 },
                 {
@@ -273,7 +273,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "it\u2019s going to cost you \ue300",
+                    "str": "it’s going to cost you ",
                     "strWidth": 302.1875
                 },
                 {
@@ -350,7 +350,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "If you\u2019d like ",
+                    "str": "If you’d like ",
                     "strWidth": 163.5625
                 },
                 {
@@ -390,7 +390,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "it\u2019s going to cost you \ue300",
+                    "str": "it’s going to cost you ",
                     "strWidth": 302.1875
                 },
                 {
@@ -474,7 +474,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I\u2019m sorry, but it looks like you have no space",
+                    "str": "I’m sorry, but it looks like you have no space",
                     "strWidth": 579.046875
                 },
                 {
@@ -512,7 +512,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I\u2019m sorry...",
+                    "str": "I’m sorry...",
                     "strWidth": 134.6875
                 },
                 {
@@ -520,7 +520,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You simply don\u2019t have the funds.",
+                    "str": "You simply don’t have the funds.",
                     "strWidth": 425.703125
                 }
             ]
@@ -686,7 +686,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "That\u2019ll be \ue300",
+                    "str": "That’ll be ",
                     "strWidth": 154.125
                 },
                 {
@@ -803,7 +803,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "That\u2019ll be \ue300",
+                    "str": "That’ll be ",
                     "strWidth": 154.125
                 },
                 {
@@ -857,7 +857,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "They\u2019ll work like a charm\u2014I promise!",
+                    "str": "They’ll work like a charm—I promise!",
                     "strWidth": 474.03125
                 }
             ]
@@ -887,7 +887,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Come on! Give us a break. You can\u2019t carry",
+                    "str": "Come on! Give us a break. You can’t carry",
                     "strWidth": 548.4375
                 },
                 {
@@ -925,7 +925,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Oh. You\u2019re looking a bit light on cash, friend.",
+                    "str": "Oh. You’re looking a bit light on cash, friend.",
                     "strWidth": 589.125
                 },
                 {
@@ -963,7 +963,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Berries! I\u2019ve got your fresh-picked Berries!",
+                    "str": "Berries! I’ve got your fresh-picked Berries!",
                     "strWidth": 541.25
                 },
                 {
@@ -1159,7 +1159,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "That\u2019ll be \ue300",
+                    "str": "That’ll be ",
                     "strWidth": 154.125
                 },
                 {
@@ -1276,7 +1276,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "That\u2019ll put you at \ue300",
+                    "str": "That’ll put you at ",
                     "strWidth": 253.578125
                 },
                 {
@@ -1330,7 +1330,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Give one to your Pok\u00e9mon, won\u2019t you?",
+                    "str": "Give one to your Pokémon, won’t you?",
                     "strWidth": 507.1875
                 }
             ]
@@ -1360,7 +1360,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Whoops! looks like you can\u2019t carry any more of",
+                    "str": "Whoops! looks like you can’t carry any more of",
                     "strWidth": 609.953125
                 },
                 {
@@ -1398,7 +1398,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Seems you can\u2019t pay the bill!",
+                    "str": "Seems you can’t pay the bill!",
                     "strWidth": 372.0
                 },
                 {
@@ -1406,7 +1406,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I\u2019m sorry to say it, but I can\u2019t give my goods away.",
+                    "str": "I’m sorry to say it, but I can’t give my goods away.",
                     "strWidth": 650.453125
                 }
             ]
@@ -1482,7 +1482,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "our changing room whenever you\u2019d like to.",
+                    "str": "our changing room whenever you’d like to.",
                     "strWidth": 554.1875
                 }
             ]
@@ -1716,7 +1716,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "It\u2019ll be \ue300",
+                    "str": "It’ll be ",
                     "strWidth": 114.515625
                 },
                 {
@@ -1762,7 +1762,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I\u2019m here to buy",
+                    "str": "I’m here to buy",
                     "strWidth": 197.53125
                 }
             ]
@@ -1792,7 +1792,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I\u2019m here to sell",
+                    "str": "I’m here to sell",
                     "strWidth": 193.375
                 }
             ]
@@ -1852,7 +1852,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Welcome to the Pok\u00e9 Mart!",
+                    "str": "Welcome to the Poké Mart!",
                     "strWidth": 358.140625
                 },
                 {
@@ -2231,7 +2231,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\ue300",
+                    "str": "",
                     "strWidth": 21.125
                 },
                 {
@@ -2310,7 +2310,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u00d7",
+                    "str": "×",
                     "strWidth": 25.59375
                 }
             ]
@@ -2551,7 +2551,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "It\u2019ll be \ue300",
+                    "str": "It’ll be ",
                     "strWidth": 114.515625
                 },
                 {
@@ -2670,7 +2670,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "will be \ue300",
+                    "str": "will be ",
                     "strWidth": 114.671875
                 },
                 {
@@ -2770,7 +2770,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You don\u2019t have enough money.",
+                    "str": "You don’t have enough money.",
                     "strWidth": 406.3125
                 }
             ]
@@ -2800,7 +2800,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I\u2019m sorry, but it looks like you can\u2019t carry any",
+                    "str": "I’m sorry, but it looks like you can’t carry any",
                     "strWidth": 583.296875
                 },
                 {
@@ -2979,7 +2979,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "? That\u2019ll be \ue300",
+                    "str": "? That’ll be ",
                     "strWidth": 177.265625
                 },
                 {
@@ -3164,7 +3164,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "It\u2019ll be \ue300",
+                    "str": "It’ll be ",
                     "strWidth": 114.515625
                 },
                 {
@@ -3281,7 +3281,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "That\u2019ll be ",
+                    "str": "That’ll be ",
                     "strWidth": 133.0
                 },
                 {
@@ -3398,7 +3398,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "That\u2019ll be ",
+                    "str": "That’ll be ",
                     "strWidth": 133.0
                 },
                 {
@@ -3531,7 +3531,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You can\u2019t carry any more!",
+                    "str": "You can’t carry any more!",
                     "strWidth": 331.40625
                 }
             ]
@@ -3561,7 +3561,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You don\u2019t have enough BP for that.",
+                    "str": "You don’t have enough BP for that.",
                     "strWidth": 459.0
                 }
             ]
@@ -3591,7 +3591,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You\u2019ve been doing some Link Battles, eh?",
+                    "str": "You’ve been doing some Link Battles, eh?",
                     "strWidth": 544.6875
                 },
                 {
@@ -3607,7 +3607,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I\u2019ll even give you a special uniform for \u2019em!",
+                    "str": "I’ll even give you a special uniform for ’em!",
                     "strWidth": 558.796875
                 }
             ]
@@ -3951,7 +3951,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u2014",
+                    "str": "—",
                     "strWidth": 25.59375
                 }
             ]
@@ -3981,7 +3981,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u2014\u2014",
+                    "str": "——",
                     "strWidth": 51.1875
                 }
             ]
@@ -4011,7 +4011,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Love to cook? You\u2019ve come to the right place!",
+                    "str": "Love to cook? You’ve come to the right place!",
                     "strWidth": 602.421875
                 },
                 {
@@ -4019,7 +4019,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I\u2019ve got all the finest ingredients right here!",
+                    "str": "I’ve got all the finest ingredients right here!",
                     "strWidth": 560.8125
                 }
             ]
@@ -4167,7 +4167,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "If it\u2019s to be ",
+                    "str": "If it’s to be ",
                     "strWidth": 151.265625
                 },
                 {
@@ -4207,7 +4207,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I\u2019ll be asking for \ue300",
+                    "str": "I’ll be asking for ",
                     "strWidth": 239.390625
                 },
                 {
@@ -4284,7 +4284,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "If it\u2019s to be ",
+                    "str": "If it’s to be ",
                     "strWidth": 151.265625
                 },
                 {
@@ -4324,7 +4324,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I\u2019ll be asking for \ue300",
+                    "str": "I’ll be asking for ",
                     "strWidth": 239.390625
                 },
                 {
@@ -4378,7 +4378,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Cook up something tasty, won\u2019t you?",
+                    "str": "Cook up something tasty, won’t you?",
                     "strWidth": 481.03125
                 }
             ]
@@ -4408,7 +4408,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Oh? Looks like you\u2019re full up and can\u2019t carry",
+                    "str": "Oh? Looks like you’re full up and can’t carry",
                     "strWidth": 575.6875
                 },
                 {
@@ -4446,7 +4446,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You don\u2019t seem to have enough money! Save up",
+                    "str": "You don’t seem to have enough money! Save up",
                     "strWidth": 627.359375
                 },
                 {
@@ -4574,7 +4574,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\ue300",
+                    "str": "",
                     "strWidth": 21.125
                 },
                 {
@@ -4773,7 +4773,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u00d7",
+                    "str": "×",
                     "strWidth": 25.59375
                 }
             ]
@@ -4814,7 +4814,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\ue300",
+                    "str": "",
                     "strWidth": 21.125
                 },
                 {
@@ -5125,7 +5125,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u00d7",
+                    "str": "×",
                     "strWidth": 25.59375
                 }
             ]
@@ -5398,7 +5398,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u00d7",
+                    "str": "×",
                     "strWidth": 25.59375
                 }
             ]
@@ -5551,7 +5551,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u00d7",
+                    "str": "×",
                     "strWidth": 25.59375
                 }
             ]
@@ -5897,7 +5897,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "That\u2019ll be \ue300",
+                    "str": "That’ll be ",
                     "strWidth": 154.125
                 },
                 {

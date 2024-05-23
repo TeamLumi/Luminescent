@@ -917,6 +917,30 @@
         {
             "ItemNo": 391,
             "ShopID": 17
+        },
+        {
+            "ItemNo": 293,
+            "ShopID": 6
+        },
+        {
+            "ItemNo": 292,
+            "ShopID": 6
+        },
+        {
+            "ItemNo": 290,
+            "ShopID": 6
+        },
+        {
+            "ItemNo": 289,
+            "ShopID": 6
+        },
+        {
+            "ItemNo": 291,
+            "ShopID": 6
+        },
+        {
+            "ItemNo": 294,
+            "ShopID": 6
         }
     ],
     "FlowerShop": [

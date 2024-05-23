@@ -898,7 +898,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I\u2019ll buy 10 for \ue3001,000",
+                    "str": "I’ll buy 10 for 1,000",
                     "strWidth": 281.109375
                 }
             ]
@@ -1482,7 +1482,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u3000",
+                    "str": "　",
                     "strWidth": 25.59375
                 }
             ]
@@ -1512,7 +1512,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Someone\u2019s PC",
+                    "str": "Someone’s PC",
                     "strWidth": 185.546875
                 }
             ]
@@ -1542,7 +1542,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Bebe\u2019s PC",
+                    "str": "Bebe’s PC",
                     "strWidth": 132.046875
                 }
             ]
@@ -1632,7 +1632,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Oak\u2019s PC",
+                    "str": "Oak’s PC",
                     "strWidth": 120.046875
                 }
             ]
@@ -1662,7 +1662,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Rowan\u2019s PC",
+                    "str": "Rowan’s PC",
                     "strWidth": 151.015625
                 }
             ]
@@ -3230,7 +3230,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\ue300200",
+                    "str": "200",
                     "strWidth": 75.078125
                 }
             ]
@@ -3276,7 +3276,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\ue300300",
+                    "str": "300",
                     "strWidth": 75.078125
                 }
             ]
@@ -3322,7 +3322,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\ue300350",
+                    "str": "350",
                     "strWidth": 75.078125
                 }
             ]
@@ -3442,7 +3442,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "What\u2019s recommended?",
+                    "str": "What’s recommended?",
                     "strWidth": 297.296875
                 }
             ]
@@ -3622,7 +3622,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pok\u00e9mon List",
+                    "str": "Pokémon List",
                     "strWidth": 172.484375
                 }
             ]
@@ -4012,7 +4012,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pok\u00e9mon History",
+                    "str": "Pokémon History",
                     "strWidth": 220.71875
                 }
             ]
@@ -4372,7 +4372,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Mythical Pok\u00e9mon",
+                    "str": "Mythical Pokémon",
                     "strWidth": 238.96875
                 }
             ]
@@ -4931,7 +4931,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pok\u00e9mon Center",
+                    "str": "Pokémon Center",
                     "strWidth": 215.8125
                 }
             ]
@@ -5321,7 +5321,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You can\u2019t use this until you obtain a new Badge.",
+                    "str": "You can’t use this until you obtain a new Badge.",
                     "strWidth": 624.875
                 }
             ]
@@ -5351,7 +5351,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You\u2019re already surfing.",
+                    "str": "You’re already surfing.",
                     "strWidth": 293.3125
                 }
             ]
@@ -5392,7 +5392,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You can\u2019t use this because you\u2019re traveling",
+                    "str": "You can’t use this because you’re traveling",
                     "strWidth": 554.90625
                 },
                 {
@@ -5446,7 +5446,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Which Pok\u00e9mon do you want to use it on?",
+                    "str": "Which Pokémon do you want to use it on?",
                     "strWidth": 547.8125
                 }
             ]
@@ -5476,7 +5476,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You can\u2019t use that here.",
+                    "str": "You can’t use that here.",
                     "strWidth": 309.5625
                 }
             ]
@@ -5506,7 +5506,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "This Pok\u00e9mon does not have enough HP.",
+                    "str": "This Pokémon does not have enough HP.",
                     "strWidth": 531.40625
                 }
             ]
@@ -5536,7 +5536,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You can\u2019t use that on this Pok\u00e9mon.",
+                    "str": "You can’t use that on this Pokémon.",
                     "strWidth": 466.890625
                 }
             ]
@@ -5577,7 +5577,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Do you want your Pok\u00e9mon to remember",
+                    "str": "Do you want your Pokémon to remember",
                     "strWidth": 532.6875
                 },
                 {
@@ -5696,7 +5696,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pok\u00e9mon in Sinnoh.",
+                    "str": "Pokémon in Sinnoh.",
                     "strWidth": 255.0625
                 }
             ]
@@ -5734,7 +5734,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "completed your National Pok\u00e9dex.",
+                    "str": "completed your National Pokédex.",
                     "strWidth": 451.140625
                 }
             ]
@@ -8186,7 +8186,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I\u2019ll buy one for \ue300500",
+                    "str": "I’ll buy one for 500",
                     "strWidth": 275.03125
                 }
             ]
@@ -8216,7 +8216,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I\u2019ll buy 10 for \ue3005,000",
+                    "str": "I’ll buy 10 for 5,000",
                     "strWidth": 285.109375
                 }
             ]
@@ -8246,7 +8246,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I\u2019ll buy another one",
+                    "str": "I’ll buy another one",
                     "strWidth": 253.984375
                 }
             ]
@@ -8276,7 +8276,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I\u2019ll buy a different one",
+                    "str": "I’ll buy a different one",
                     "strWidth": 290.3125
                 }
             ]
@@ -8306,7 +8306,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I\u2019ll buy one for \ue300100",
+                    "str": "I’ll buy one for 100",
                     "strWidth": 271.03125
                 }
             ]
@@ -8377,7 +8377,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\ue300",
+                    "str": "",
                     "strWidth": 21.125
                 },
                 {
@@ -8460,7 +8460,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": " / \u2642)",
+                    "str": " / ♂)",
                     "strWidth": 67.09375
                 }
             ]
@@ -8535,7 +8535,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": " / \u2640)",
+                    "str": " / ♀)",
                     "strWidth": 67.09375
                 }
             ]
@@ -8656,7 +8656,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\ue30080",
+                    "str": "80",
                     "strWidth": 57.09375
                 }
             ]
@@ -8702,7 +8702,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\ue30080",
+                    "str": "80",
                     "strWidth": 57.09375
                 }
             ]
@@ -8748,7 +8748,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\ue30080",
+                    "str": "80",
                     "strWidth": 57.09375
                 }
             ]
@@ -8794,7 +8794,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\ue30080",
+                    "str": "80",
                     "strWidth": 57.09375
                 }
             ]
@@ -8840,7 +8840,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\ue30080",
+                    "str": "80",
                     "strWidth": 57.09375
                 }
             ]
@@ -8870,7 +8870,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Gotta catch \u2019em all!",
+                    "str": "Gotta catch ’em all!",
                     "strWidth": 256.359375
                 }
             ]
@@ -9200,7 +9200,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "The Greater\u2019s Digest",
+                    "str": "The Greater’s Digest",
                     "strWidth": 269.71875
                 }
             ]
@@ -9260,7 +9260,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Rack \u2019Em Up Records",
+                    "str": "Rack ’Em Up Records",
                     "strWidth": 276.84375
                 }
             ]
@@ -9380,7 +9380,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pok\u00e9mon Research Corner",
+                    "str": "Pokémon Research Corner",
                     "strWidth": 340.84375
                 }
             ]
@@ -9410,7 +9410,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "The Pok\u00e9tch Watch",
+                    "str": "The Pokétch Watch",
                     "strWidth": 253.328125
                 }
             ]
@@ -9650,7 +9650,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Don\u2019t decide",
+                    "str": "Don’t decide",
                     "strWidth": 170.453125
                 }
             ]
@@ -12047,7 +12047,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pok\u00e9Dex",
+                    "str": "PokéDex",
                     "strWidth": 116.765625
                 }
             ]
@@ -14051,7 +14051,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I\u2019ll pass.",
+                    "str": "I’ll pass.",
                     "strWidth": 104.78125
                 }
             ]

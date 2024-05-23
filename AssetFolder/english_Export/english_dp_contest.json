@@ -534,7 +534,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "That\u2019s it, folks! All evaluations have been tallied",
+                    "str": "That’s it, folks! All evaluations have been tallied",
                     "strWidth": 622.921875
                 },
                 {
@@ -542,7 +542,7 @@
                     "eventID": 4,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "and totaled! Which Pok\u00e9mon will be crowned the",
+                    "str": "and totaled! Which Pokémon will be crowned the",
                     "strWidth": 637.9375
                 },
                 {
@@ -550,7 +550,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Star of the Show? Let\u2019s announce the results!",
+                    "str": "Star of the Show? Let’s announce the results!",
                     "strWidth": 579.078125
                 }
             ]
@@ -1038,7 +1038,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Would you like to enter a Pok\u00e9mon in a Super",
+                    "str": "Would you like to enter a Pokémon in a Super",
                     "strWidth": 599.546875
                 },
                 {
@@ -1130,7 +1130,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You and your friends may enter your Pok\u00e9mon in",
+                    "str": "You and your friends may enter your Pokémon in",
                     "strWidth": 632.96875
                 },
                 {
@@ -1168,7 +1168,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I\u2019d like to enter a show",
+                    "str": "I’d like to enter a show",
                     "strWidth": 297.8125
                 }
             ]
@@ -1358,7 +1358,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pok\u00e9mon you want to enter with.",
+                    "str": "Pokémon you want to enter with.",
                     "strWidth": 426.25
                 }
             ]
@@ -1420,7 +1420,7 @@
                     "eventID": 4,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Coolness Contest, you\u2019ll get to participate in the",
+                    "str": "Coolness Contest, you’ll get to participate in the",
                     "strWidth": 632.6875
                 },
                 {
@@ -1514,7 +1514,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Which Pok\u00e9mon would you like to enter?",
+                    "str": "Which Pokémon would you like to enter?",
                     "strWidth": 532.84375
                 }
             ]
@@ -1544,7 +1544,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Please choose a Pok\u00e9mon.",
+                    "str": "Please choose a Pokémon.",
                     "strWidth": 343.03125
                 }
             ]
@@ -1585,7 +1585,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "OK! Your Pok\u00e9mon has been accepted for entry!",
+                    "str": "OK! Your Pokémon has been accepted for entry!",
                     "strWidth": 629.140625
                 },
                 {
@@ -2353,7 +2353,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I\u2019d like to practice",
+                    "str": "I’d like to practice",
                     "strWidth": 237.625
                 }
             ]
@@ -2533,7 +2533,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "That Pok\u00e9mon can\u2019t participate in this contest!",
+                    "str": "That Pokémon can’t participate in this contest!",
                     "strWidth": 602.90625
                 }
             ]
@@ -2875,7 +2875,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Which Pok\u00e9mon would you like to enter?",
+                    "str": "Which Pokémon would you like to enter?",
                     "strWidth": 532.84375
                 }
             ]
@@ -2905,7 +2905,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Please choose a Pok\u00e9mon.",
+                    "str": "Please choose a Pokémon.",
                     "strWidth": 343.03125
                 }
             ]
@@ -2946,7 +2946,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "OK, your Pok\u00e9mon has been registered for a",
+                    "str": "OK, your Pokémon has been registered for a",
                     "strWidth": 578.296875
                 },
                 {
@@ -3783,7 +3783,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "It\u2019s time to announce the Stars of the Show!",
+                    "str": "It’s time to announce the Stars of the Show!",
                     "strWidth": 563.734375
                 }
             ]
@@ -4011,7 +4011,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "While performing, they\u2019ll be evaluated in three",
+                    "str": "While performing, they’ll be evaluated in three",
                     "strWidth": 609.265625
                 },
                 {
@@ -4073,7 +4073,7 @@
                     "eventID": 4,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pok\u00e9mon\u2019s conditions and the spectacle of",
+                    "str": "Pokémon’s conditions and the spectacle of",
                     "strWidth": 555.265625
                 },
                 {
@@ -4113,7 +4113,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pok\u00e9mon Poffins!",
+                    "str": "Pokémon Poffins!",
                     "strWidth": 223.28125
                 },
                 {
@@ -4247,7 +4247,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "you\u2019ll get a ",
+                    "str": "you’ll get a ",
                     "strWidth": 155.015625
                 },
                 {
@@ -4263,7 +4263,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u2665",
+                    "str": "♥",
                     "strWidth": 25.59375
                 },
                 {
@@ -4303,7 +4303,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u2665",
+                    "str": "♥",
                     "strWidth": 25.59375
                 },
                 {
@@ -4327,7 +4327,7 @@
                     "eventID": 4,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "a brilliant one! And that\u2019ll be sure to send your",
+                    "str": "a brilliant one! And that’ll be sure to send your",
                     "strWidth": 606.515625
                 },
                 {
@@ -4359,7 +4359,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u2665",
+                    "str": "♥",
                     "strWidth": 25.59375
                 },
                 {
@@ -4509,7 +4509,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "you\u2019ll get a ",
+                    "str": "you’ll get a ",
                     "strWidth": 155.015625
                 },
                 {
@@ -4525,7 +4525,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u2665",
+                    "str": "♥",
                     "strWidth": 25.59375
                 },
                 {
@@ -4565,7 +4565,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u2665",
+                    "str": "♥",
                     "strWidth": 25.59375
                 },
                 {
@@ -4589,7 +4589,7 @@
                     "eventID": 4,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "a shining one! And that\u2019ll be sure to send your",
+                    "str": "a shining one! And that’ll be sure to send your",
                     "strWidth": 597.5625
                 },
                 {
@@ -4621,7 +4621,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u2665",
+                    "str": "♥",
                     "strWidth": 25.59375
                 },
                 {
@@ -4707,7 +4707,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "The Move Evaluation is based on a Pok\u00e9mon\u2019s",
+                    "str": "The Move Evaluation is based on a Pokémon’s",
                     "strWidth": 601.3125
                 },
                 {
@@ -4715,7 +4715,7 @@
                     "eventID": 4,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Contest Move, which the Pok\u00e9mon can only use",
+                    "str": "Contest Move, which the Pokémon can only use",
                     "strWidth": 619.859375
                 },
                 {
@@ -4747,7 +4747,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Choose the move you\u2019d like in advance at the",
+                    "str": "Choose the move you’d like in advance at the",
                     "strWidth": 595.484375
                 },
                 {
@@ -4795,7 +4795,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u2665",
+                    "str": "♥",
                     "strWidth": 25.59375
                 },
                 {
@@ -4835,7 +4835,7 @@
                     "eventID": 4,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "a Move Chain! Pull it off, and you\u2019ll get more",
+                    "str": "a Move Chain! Pull it off, and you’ll get more",
                     "strWidth": 586.0625
                 },
                 {
@@ -4851,7 +4851,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u2665",
+                    "str": "♥",
                     "strWidth": 25.59375
                 },
                 {
@@ -4867,7 +4867,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "s than if you\u2019d just used a move on your own.",
+                    "str": "s than if you’d just used a move on your own.",
                     "strWidth": 585.3125
                 },
                 {
@@ -4883,7 +4883,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "the same type, you\u2019ll get even more ",
+                    "str": "the same type, you’ll get even more ",
                     "strWidth": 475.0625
                 },
                 {
@@ -4899,7 +4899,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u2665",
+                    "str": "♥",
                     "strWidth": 25.59375
                 },
                 {
@@ -4961,7 +4961,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Please choose a Pok\u00e9mon to enter, as well as its",
+                    "str": "Please choose a Pokémon to enter, as well as its",
                     "strWidth": 624.546875
                 },
                 {
@@ -5127,7 +5127,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I\u2019m so sorry. Link Contest Shows aren\u2019t ready yet.",
+                    "str": "I’m so sorry. Link Contest Shows aren’t ready yet.",
                     "strWidth": 637.546875
                 }
             ]
@@ -5682,7 +5682,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "And that\u2019s it for this practice session!",
+                    "str": "And that’s it for this practice session!",
                     "strWidth": 477.171875
                 }
             ]
@@ -6585,7 +6585,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "What\u2019s a Super Contest Show?",
+                    "str": "What’s a Super Contest Show?",
                     "strWidth": 396.828125
                 }
             ]
@@ -6855,7 +6855,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Please select a Pok\u00e9mon.",
+                    "str": "Please select a Pokémon.",
                     "strWidth": 326.9375
                 }
             ]
@@ -7443,7 +7443,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Meanwhile, they\u2019ll be evaluated in three",
+                    "str": "Meanwhile, they’ll be evaluated in three",
                     "strWidth": 523.046875
                 },
                 {
@@ -7908,7 +7908,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You\u2019ve switched back to local communication.",
+                    "str": "You’ve switched back to local communication.",
                     "strWidth": 599.40625
                 }
             ]
@@ -8014,7 +8014,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "It appears that you can\u2019t participate in Link",
+                    "str": "It appears that you can’t participate in Link",
                     "strWidth": 559.296875
                 },
                 {
@@ -8354,7 +8354,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "It appears you don\u2019t have any Pok\u00e9mon with you",
+                    "str": "It appears you don’t have any Pokémon with you",
                     "strWidth": 632.046875
                 },
                 {
@@ -8370,7 +8370,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Please come back with a Pok\u00e9mon wearing the",
+                    "str": "Please come back with a Pokémon wearing the",
                     "strWidth": 604.34375
                 },
                 {
@@ -8514,7 +8514,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "It\u2019s an evaluation of your Pok\u00e9mon\u2019s conditions,",
+                    "str": "It’s an evaluation of your Pokémon’s conditions,",
                     "strWidth": 622.09375
                 }
             ]
@@ -8604,7 +8604,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Here, your Pok\u00e9mon\u2019s rhythm will be evaluated!",
+                    "str": "Here, your Pokémon’s rhythm will be evaluated!",
                     "strWidth": 619.96875
                 }
             ]
@@ -8816,7 +8816,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Each time the gauge fills up completely, you\u2019ll",
+                    "str": "Each time the gauge fills up completely, you’ll",
                     "strWidth": 599.140625
                 },
                 {
@@ -8840,7 +8840,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u2665",
+                    "str": "♥",
                     "strWidth": 25.59375
                 },
                 {
@@ -8970,7 +8970,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u2665",
+                    "str": "♥",
                     "strWidth": 25.59375
                 },
                 {
@@ -9092,7 +9092,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "If the total of all four contestants\u2019 Hype Points",
+                    "str": "If the total of all four contestants’ Hype Points",
                     "strWidth": 602.71875
                 },
                 {
@@ -9116,7 +9116,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u2665",
+                    "str": "♥",
                     "strWidth": 25.59375
                 },
                 {
@@ -9268,7 +9268,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "That\u2019s all for the explanation. Would you like",
+                    "str": "That’s all for the explanation. Would you like",
                     "strWidth": 587.78125
                 },
                 {
@@ -9314,7 +9314,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "It appears that you can\u2019t enter a contest show",
+                    "str": "It appears that you can’t enter a contest show",
                     "strWidth": 592.671875
                 },
                 {
@@ -9330,7 +9330,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Please come back after you\u2019ve successfully",
+                    "str": "Please come back after you’ve successfully",
                     "strWidth": 553.28125
                 },
                 {
@@ -9479,7 +9479,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u2019s ",
+                    "str": "’s ",
                     "strWidth": 29.015625
                 },
                 {
@@ -9577,7 +9577,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Oh? It seems you haven\u2019t joined a group yet.",
+                    "str": "Oh? It seems you haven’t joined a group yet.",
                     "strWidth": 582.765625
                 },
                 {
@@ -9683,7 +9683,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Thanks for participating! Your Pok\u00e9mon danced",
+                    "str": "Thanks for participating! Your Pokémon danced",
                     "strWidth": 617.25
                 },
                 {
@@ -9691,7 +9691,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "quite well! It\u2019s ready for a real Contest Show!",
+                    "str": "quite well! It’s ready for a real Contest Show!",
                     "strWidth": 582.234375
                 },
                 {
@@ -9849,7 +9849,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I\u2019m sorry. Your connection seems to be unstable.",
+                    "str": "I’m sorry. Your connection seems to be unstable.",
                     "strWidth": 630.234375
                 }
             ]
@@ -9999,7 +9999,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Members couldn\u2019t be found.",
+                    "str": "Members couldn’t be found.",
                     "strWidth": 367.765625
                 }
             ]
@@ -10307,7 +10307,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You don\u2019t have four members. We\u2019ll find some",
+                    "str": "You don’t have four members. We’ll find some",
                     "strWidth": 605.03125
                 },
                 {
@@ -10631,7 +10631,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You\u2019ve become Star of the Show in every",
+                    "str": "You’ve become Star of the Show in every",
                     "strWidth": 534.859375
                 },
                 {
@@ -10647,7 +10647,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "To commemorate your achievement, I\u2019ll present",
+                    "str": "To commemorate your achievement, I’ll present",
                     "strWidth": 618.125
                 },
                 {
@@ -10720,7 +10720,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "So far, you\u2019ve taken ",
+                    "str": "So far, you’ve taken ",
                     "strWidth": 268.375
                 },
                 {
@@ -10744,7 +10744,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Do you think you\u2019re in good time?",
+                    "str": "Do you think you’re in good time?",
                     "strWidth": 445.21875
                 }
             ]
@@ -10785,7 +10785,7 @@
                     "eventID": 0,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You\u2019ve had ",
+                    "str": "You’ve had ",
                     "strWidth": 156.28125
                 },
                 {
