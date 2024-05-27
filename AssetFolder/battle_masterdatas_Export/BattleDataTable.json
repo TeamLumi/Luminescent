@@ -3060,7 +3060,7 @@
         },
         {
             "WazaNo": 2,
-            "CmdSeqName": "ew001",
+            "CmdSeqName": "ew238",
             "CmdSeqNameLegend": "",
             "NotShortenTurnType0": "",
             "NotShortenTurnType1": "",
@@ -3071,7 +3071,7 @@
         },
         {
             "WazaNo": 3,
-            "CmdSeqName": "ew001",
+            "CmdSeqName": "ew292",
             "CmdSeqNameLegend": "",
             "NotShortenTurnType0": "",
             "NotShortenTurnType1": "",
@@ -3082,7 +3082,7 @@
         },
         {
             "WazaNo": 4,
-            "CmdSeqName": "ew001",
+            "CmdSeqName": "ew292",
             "CmdSeqNameLegend": "",
             "NotShortenTurnType0": "",
             "NotShortenTurnType1": "",
@@ -3181,11 +3181,11 @@
         },
         {
             "WazaNo": 13,
-            "CmdSeqName": "ew001",
+            "CmdSeqName": "ew403",
             "CmdSeqNameLegend": "",
-            "NotShortenTurnType0": "ew001",
+            "NotShortenTurnType0": "",
             "NotShortenTurnType1": "",
-            "TurnType1": "ew001",
+            "TurnType1": "",
             "TurnType2": "",
             "TurnType3": "",
             "TurnType4": ""
@@ -3324,7 +3324,7 @@
         },
         {
             "WazaNo": 26,
-            "CmdSeqName": "ew001",
+            "CmdSeqName": "ew299",
             "CmdSeqNameLegend": "",
             "NotShortenTurnType0": "",
             "NotShortenTurnType1": "",
@@ -3335,7 +3335,7 @@
         },
         {
             "WazaNo": 27,
-            "CmdSeqName": "ew001",
+            "CmdSeqName": "ew067",
             "CmdSeqNameLegend": "",
             "NotShortenTurnType0": "",
             "NotShortenTurnType1": "",
@@ -3489,7 +3489,7 @@
         },
         {
             "WazaNo": 41,
-            "CmdSeqName": "ew001",
+            "CmdSeqName": "ew041",
             "CmdSeqNameLegend": "",
             "NotShortenTurnType0": "",
             "NotShortenTurnType1": "",
@@ -4094,7 +4094,7 @@
         },
         {
             "WazaNo": 96,
-            "CmdSeqName": "ew001",
+            "CmdSeqName": "ew339",
             "CmdSeqNameLegend": "",
             "NotShortenTurnType0": "",
             "NotShortenTurnType1": "",
@@ -4127,7 +4127,7 @@
         },
         {
             "WazaNo": 99,
-            "CmdSeqName": "ew001",
+            "CmdSeqName": "ew200",
             "CmdSeqNameLegend": "",
             "NotShortenTurnType0": "",
             "NotShortenTurnType1": "",
@@ -4270,9 +4270,9 @@
         },
         {
             "WazaNo": 112,
-            "CmdSeqName": "ew001",
+            "CmdSeqName": "ew113",
             "CmdSeqNameLegend": "",
-            "NotShortenTurnType0": "",
+            "NotShortenTurnType0": "ew113",
             "NotShortenTurnType1": "",
             "TurnType1": "",
             "TurnType2": "",
@@ -4369,7 +4369,7 @@
         },
         {
             "WazaNo": 121,
-            "CmdSeqName": "ew001",
+            "CmdSeqName": "ew402",
             "CmdSeqNameLegend": "",
             "NotShortenTurnType0": "",
             "NotShortenTurnType1": "",
@@ -4413,7 +4413,7 @@
         },
         {
             "WazaNo": 125,
-            "CmdSeqName": "ew001",
+            "CmdSeqName": "ew198",
             "CmdSeqNameLegend": "",
             "NotShortenTurnType0": "",
             "NotShortenTurnType1": "",
@@ -4446,11 +4446,11 @@
         },
         {
             "WazaNo": 128,
-            "CmdSeqName": "ew001",
+            "CmdSeqName": "ew020",
             "CmdSeqNameLegend": "",
             "NotShortenTurnType0": "",
             "NotShortenTurnType1": "",
-            "TurnType1": "ew001",
+            "TurnType1": "ew020_turn",
             "TurnType2": "",
             "TurnType3": "",
             "TurnType4": ""
@@ -4479,7 +4479,7 @@
         },
         {
             "WazaNo": 131,
-            "CmdSeqName": "ew001",
+            "CmdSeqName": "ew042",
             "CmdSeqNameLegend": "",
             "NotShortenTurnType0": "",
             "NotShortenTurnType1": "",
@@ -4490,11 +4490,11 @@
         },
         {
             "WazaNo": 132,
-            "CmdSeqName": "ew001",
+            "CmdSeqName": "ew035",
             "CmdSeqNameLegend": "",
             "NotShortenTurnType0": "",
             "NotShortenTurnType1": "",
-            "TurnType1": "",
+            "TurnType1": "ew035_turn",
             "TurnType2": "",
             "TurnType3": "",
             "TurnType4": ""
@@ -4578,7 +4578,7 @@
         },
         {
             "WazaNo": 140,
-            "CmdSeqName": "ew001",
+            "CmdSeqName": "ew331",
             "CmdSeqNameLegend": "",
             "NotShortenTurnType0": "",
             "NotShortenTurnType1": "",
@@ -4633,7 +4633,7 @@
         },
         {
             "WazaNo": 145,
-            "CmdSeqName": "ew001",
+            "CmdSeqName": "ew061",
             "CmdSeqNameLegend": "",
             "NotShortenTurnType0": "",
             "NotShortenTurnType1": "",
@@ -4644,7 +4644,7 @@
         },
         {
             "WazaNo": 146,
-            "CmdSeqName": "ew001",
+            "CmdSeqName": "ew223",
             "CmdSeqNameLegend": "",
             "NotShortenTurnType0": "",
             "NotShortenTurnType1": "",
@@ -4776,7 +4776,7 @@
         },
         {
             "WazaNo": 158,
-            "CmdSeqName": "ew001",
+            "CmdSeqName": "ew242",
             "CmdSeqNameLegend": "",
             "NotShortenTurnType0": "",
             "NotShortenTurnType1": "",
@@ -4787,7 +4787,7 @@
         },
         {
             "WazaNo": 159,
-            "CmdSeqName": "ew001",
+            "CmdSeqName": "ew014",
             "CmdSeqNameLegend": "",
             "NotShortenTurnType0": "",
             "NotShortenTurnType1": "",
@@ -5073,7 +5073,7 @@
         },
         {
             "WazaNo": 185,
-            "CmdSeqName": "ew001",
+            "CmdSeqName": "ew389",
             "CmdSeqNameLegend": "",
             "NotShortenTurnType0": "",
             "NotShortenTurnType1": "",
@@ -5414,7 +5414,7 @@
         },
         {
             "WazaNo": 216,
-            "CmdSeqName": "ew001",
+            "CmdSeqName": "ew070",
             "CmdSeqNameLegend": "",
             "NotShortenTurnType0": "",
             "NotShortenTurnType1": "",
@@ -5436,7 +5436,7 @@
         },
         {
             "WazaNo": 218,
-            "CmdSeqName": "ew001",
+            "CmdSeqName": "ew389",
             "CmdSeqNameLegend": "",
             "NotShortenTurnType0": "",
             "NotShortenTurnType1": "",
@@ -5480,7 +5480,7 @@
         },
         {
             "WazaNo": 222,
-            "CmdSeqName": "ew001",
+            "CmdSeqName": "ew089",
             "CmdSeqNameLegend": "",
             "NotShortenTurnType0": "",
             "NotShortenTurnType1": "",
@@ -6217,7 +6217,7 @@
         },
         {
             "WazaNo": 289,
-            "CmdSeqName": "ew001",
+            "CmdSeqName": "ew269",
             "CmdSeqNameLegend": "",
             "NotShortenTurnType0": "",
             "NotShortenTurnType1": "",
@@ -6228,7 +6228,7 @@
         },
         {
             "WazaNo": 290,
-            "CmdSeqName": "ew001",
+            "CmdSeqName": "ew129",
             "CmdSeqNameLegend": "",
             "NotShortenTurnType0": "",
             "NotShortenTurnType1": "",
@@ -6349,7 +6349,7 @@
         },
         {
             "WazaNo": 301,
-            "CmdSeqName": "ew001",
+            "CmdSeqName": "ew420",
             "CmdSeqNameLegend": "",
             "NotShortenTurnType0": "",
             "NotShortenTurnType1": "",
@@ -6360,7 +6360,7 @@
         },
         {
             "WazaNo": 302,
-            "CmdSeqName": "ew001",
+            "CmdSeqName": "ew042",
             "CmdSeqNameLegend": "",
             "NotShortenTurnType0": "",
             "NotShortenTurnType1": "",
@@ -6514,7 +6514,7 @@
         },
         {
             "WazaNo": 316,
-            "CmdSeqName": "ew001",
+            "CmdSeqName": "ew199",
             "CmdSeqNameLegend": "",
             "NotShortenTurnType0": "",
             "NotShortenTurnType1": "",
@@ -6536,7 +6536,7 @@
         },
         {
             "WazaNo": 318,
-            "CmdSeqName": "ew001",
+            "CmdSeqName": "ew016",
             "CmdSeqNameLegend": "",
             "NotShortenTurnType0": "",
             "NotShortenTurnType1": "",
@@ -6558,7 +6558,7 @@
         },
         {
             "WazaNo": 320,
-            "CmdSeqName": "ew001",
+            "CmdSeqName": "ew047",
             "CmdSeqNameLegend": "",
             "NotShortenTurnType0": "",
             "NotShortenTurnType1": "",
@@ -6602,7 +6602,7 @@
         },
         {
             "WazaNo": 324,
-            "CmdSeqName": "ew001",
+            "CmdSeqName": "ew405",
             "CmdSeqNameLegend": "",
             "NotShortenTurnType0": "",
             "NotShortenTurnType1": "",
@@ -6635,7 +6635,7 @@
         },
         {
             "WazaNo": 327,
-            "CmdSeqName": "ew001",
+            "CmdSeqName": "ew418",
             "CmdSeqNameLegend": "",
             "NotShortenTurnType0": "",
             "NotShortenTurnType1": "",
@@ -6965,7 +6965,7 @@
         },
         {
             "WazaNo": 357,
-            "CmdSeqName": "ew001",
+            "CmdSeqName": "ew170",
             "CmdSeqNameLegend": "",
             "NotShortenTurnType0": "",
             "NotShortenTurnType1": "",
@@ -7141,7 +7141,7 @@
         },
         {
             "WazaNo": 373,
-            "CmdSeqName": "ew001",
+            "CmdSeqName": "ew269",
             "CmdSeqNameLegend": "",
             "NotShortenTurnType0": "",
             "NotShortenTurnType1": "",
@@ -7240,7 +7240,7 @@
         },
         {
             "WazaNo": 382,
-            "CmdSeqName": "ew001",
+            "CmdSeqName": "ew243",
             "CmdSeqNameLegend": "",
             "NotShortenTurnType0": "",
             "NotShortenTurnType1": "",
@@ -7724,7 +7724,7 @@
         },
         {
             "WazaNo": 426,
-            "CmdSeqName": "ew001",
+            "CmdSeqName": "ew341",
             "CmdSeqNameLegend": "",
             "NotShortenTurnType0": "",
             "NotShortenTurnType1": "",
@@ -7757,7 +7757,7 @@
         },
         {
             "WazaNo": 429,
-            "CmdSeqName": "ew001",
+            "CmdSeqName": "ew243",
             "CmdSeqNameLegend": "",
             "NotShortenTurnType0": "",
             "NotShortenTurnType1": "",
@@ -7911,7 +7911,7 @@
         },
         {
             "WazaNo": 443,
-            "CmdSeqName": "ew001",
+            "CmdSeqName": "ew430",
             "CmdSeqNameLegend": "",
             "NotShortenTurnType0": "",
             "NotShortenTurnType1": "",
@@ -7933,7 +7933,7 @@
         },
         {
             "WazaNo": 445,
-            "CmdSeqName": "ew001",
+            "CmdSeqName": "ew213",
             "CmdSeqNameLegend": "",
             "NotShortenTurnType0": "",
             "NotShortenTurnType1": "",
@@ -8054,7 +8054,7 @@
         },
         {
             "WazaNo": 456,
-            "CmdSeqName": "ew001",
+            "CmdSeqName": "ew455",
             "CmdSeqNameLegend": "",
             "NotShortenTurnType0": "",
             "NotShortenTurnType1": "",
@@ -8164,7 +8164,7 @@
         },
         {
             "WazaNo": 466,
-            "CmdSeqName": "ew001",
+            "CmdSeqName": "ew506",
             "CmdSeqNameLegend": "",
             "NotShortenTurnType0": "",
             "NotShortenTurnType1": "",
@@ -8516,7 +8516,7 @@
         },
         {
             "WazaNo": 498,
-            "CmdSeqName": "ew001",
+            "CmdSeqName": "ew306",
             "CmdSeqNameLegend": "",
             "NotShortenTurnType0": "",
             "NotShortenTurnType1": "",
@@ -8835,7 +8835,7 @@
         },
         {
             "WazaNo": 527,
-            "CmdSeqName": "ew001",
+            "CmdSeqName": "ew451",
             "CmdSeqNameLegend": "",
             "NotShortenTurnType0": "",
             "NotShortenTurnType1": "",
@@ -8989,7 +8989,7 @@
         },
         {
             "WazaNo": 541,
-            "CmdSeqName": "ew001",
+            "CmdSeqName": "ew231",
             "CmdSeqNameLegend": "",
             "NotShortenTurnType0": "",
             "NotShortenTurnType1": "",
@@ -9671,9 +9671,9 @@
         },
         {
             "WazaNo": 603,
-            "CmdSeqName": "ew001",
+            "CmdSeqName": "ew452",
             "CmdSeqNameLegend": "",
-            "NotShortenTurnType0": "ew001",
+            "NotShortenTurnType0": "",
             "NotShortenTurnType1": "",
             "TurnType1": "",
             "TurnType2": "",
@@ -11992,7 +11992,7 @@
         },
         {
             "WazaNo": 814,
-            "CmdSeqName": "ew001",
+            "CmdSeqName": "ew017",
             "CmdSeqNameLegend": "",
             "NotShortenTurnType0": "",
             "NotShortenTurnType1": "",
@@ -12003,11 +12003,11 @@
         },
         {
             "WazaNo": 815,
-            "CmdSeqName": "ew001",
+            "CmdSeqName": "ew328",
             "CmdSeqNameLegend": "",
             "NotShortenTurnType0": "",
             "NotShortenTurnType1": "",
-            "TurnType1": "",
+            "TurnType1": "ew328_turn",
             "TurnType2": "",
             "TurnType3": "",
             "TurnType4": ""
@@ -12124,11 +12124,11 @@
         },
         {
             "WazaNo": 826,
-            "CmdSeqName": "ew001",
+            "CmdSeqName": "ew247",
             "CmdSeqNameLegend": "",
             "NotShortenTurnType0": "",
             "NotShortenTurnType1": "",
-            "TurnType1": "ew001",
+            "TurnType1": "",
             "TurnType2": "",
             "TurnType3": "",
             "TurnType4": ""
