@@ -159,125 +159,22 @@
             ]
         },
         {
-            "labelIndex": 4,
-            "arrayIndex": 4,
-            "labelName": "DLP_GMStation_005",
+            "labelIndex": 0,
+            "arrayIndex": 0,
+            "labelName": "",
             "styleInfo": {
                 "styleIndex": 0,
-                "colorIndex": -1,
-                "fontSize": 54,
-                "maxWidth": 1080,
+                "colorIndex": 0,
+                "fontSize": 0,
+                "maxWidth": 0,
                 "controlID": 0
             },
-            "attributeValueArray": [
-                -1,
-                0,
-                0,
-                -1,
-                0
-            ],
+            "attributeValueArray": [],
             "tagDataArray": [],
-            "wordDataArray": [
-                {
-                    "patternID": 7,
-                    "eventID": 1,
-                    "tagIndex": -1,
-                    "tagValue": 0.0,
-                    "str": "At the GWS, you can trade Pokémon with people",
-                    "strWidth": 641.671875
-                },
-                {
-                    "patternID": 7,
-                    "eventID": 3,
-                    "tagIndex": -1,
-                    "tagValue": 0.0,
-                    "str": "from all over the world through the internet.",
-                    "strWidth": 570.734375
-                },
-                {
-                    "patternID": 7,
-                    "eventID": 1,
-                    "tagIndex": -1,
-                    "tagValue": 0.0,
-                    "str": "You won’t know what Pokémon you’ll get until",
-                    "strWidth": 602.25
-                },
-                {
-                    "patternID": 7,
-                    "eventID": 3,
-                    "tagIndex": -1,
-                    "tagValue": 0.0,
-                    "str": "you receive it. This is called a Wonder Trade.",
-                    "strWidth": 587.078125
-                },
-                {
-                    "patternID": 7,
-                    "eventID": 1,
-                    "tagIndex": -1,
-                    "tagValue": 0.0,
-                    "str": "To make a Wonder Trade, select a Pokémon you",
-                    "strWidth": 633.5
-                },
-                {
-                    "patternID": 7,
-                    "eventID": 3,
-                    "tagIndex": -1,
-                    "tagValue": 0.0,
-                    "str": "want to trade and choose a point on the globe.",
-                    "strWidth": 613.234375
-                },
-                {
-                    "patternID": 7,
-                    "eventID": 1,
-                    "tagIndex": -1,
-                    "tagValue": 0.0,
-                    "str": "When the Wonder Trade is complete, an icon of",
-                    "strWidth": 627.234375
-                },
-                {
-                    "patternID": 7,
-                    "eventID": 4,
-                    "tagIndex": -1,
-                    "tagValue": 0.0,
-                    "str": "your trade partner’s Pokémon will appear at their",
-                    "strWidth": 637.09375
-                },
-                {
-                    "patternID": 7,
-                    "eventID": 3,
-                    "tagIndex": -1,
-                    "tagValue": 0.0,
-                    "str": "location on your personal globe.",
-                    "strWidth": 421.21875
-                },
-                {
-                    "patternID": 7,
-                    "eventID": 1,
-                    "tagIndex": -1,
-                    "tagValue": 0.0,
-                    "str": "Likewise, your Pokémon’s icon will appear on",
-                    "strWidth": 586.640625
-                },
-                {
-                    "patternID": 7,
-                    "eventID": 3,
-                    "tagIndex": -1,
-                    "tagValue": 0.0,
-                    "str": "your trade partner’s globe.",
-                    "strWidth": 347.078125
-                },
-                {
-                    "patternID": 0,
-                    "eventID": 7,
-                    "tagIndex": -1,
-                    "tagValue": 0.0,
-                    "str": "Keep making Wonder Trades to fill the globe!",
-                    "strWidth": 595.609375
-                }
-            ]
+            "wordDataArray": []
         },
         {
-            "labelIndex": 5,
+            "labelIndex": 7,
             "arrayIndex": 5,
             "labelName": "DLP_GMStation_006",
             "styleInfo": {
@@ -315,7 +212,7 @@
             ]
         },
         {
-            "labelIndex": 6,
+            "labelIndex": 8,
             "arrayIndex": 6,
             "labelName": "DLP_GMStation_007",
             "styleInfo": {
@@ -345,7 +242,7 @@
             ]
         },
         {
-            "labelIndex": 7,
+            "labelIndex": 9,
             "arrayIndex": 7,
             "labelName": "DLP_GMStation_008",
             "styleInfo": {
@@ -383,7 +280,7 @@
             ]
         },
         {
-            "labelIndex": 8,
+            "labelIndex": 10,
             "arrayIndex": 8,
             "labelName": "DLP_GMStation_009",
             "styleInfo": {
@@ -413,7 +310,7 @@
             ]
         },
         {
-            "labelIndex": 9,
+            "labelIndex": 11,
             "arrayIndex": 9,
             "labelName": "DLP_GMStation_010",
             "styleInfo": {
@@ -443,7 +340,7 @@
             ]
         },
         {
-            "labelIndex": 10,
+            "labelIndex": 12,
             "arrayIndex": 10,
             "labelName": "DLP_GMStation_011",
             "styleInfo": {
@@ -473,7 +370,7 @@
             ]
         },
         {
-            "labelIndex": 11,
+            "labelIndex": 13,
             "arrayIndex": 11,
             "labelName": "DLP_GMStation_012",
             "styleInfo": {
@@ -503,7 +400,7 @@
             ]
         },
         {
-            "labelIndex": 12,
+            "labelIndex": 14,
             "arrayIndex": 12,
             "labelName": "DLP_GMStation_013",
             "styleInfo": {
@@ -541,7 +438,7 @@
             ]
         },
         {
-            "labelIndex": 13,
+            "labelIndex": 15,
             "arrayIndex": 13,
             "labelName": "DLP_GMStation_014",
             "styleInfo": {
@@ -571,7 +468,7 @@
             ]
         },
         {
-            "labelIndex": 14,
+            "labelIndex": 16,
             "arrayIndex": 14,
             "labelName": "DLP_GMStation_015",
             "styleInfo": {
@@ -601,7 +498,7 @@
             ]
         },
         {
-            "labelIndex": 15,
+            "labelIndex": 17,
             "arrayIndex": 15,
             "labelName": "DLP_GMStation_016",
             "styleInfo": {
@@ -631,7 +528,7 @@
             ]
         },
         {
-            "labelIndex": 16,
+            "labelIndex": 18,
             "arrayIndex": 16,
             "labelName": "DLP_GMStation_017",
             "styleInfo": {
@@ -661,7 +558,7 @@
             ]
         },
         {
-            "labelIndex": 17,
+            "labelIndex": 19,
             "arrayIndex": 17,
             "labelName": "DLP_GMStation_018",
             "styleInfo": {
@@ -710,7 +607,7 @@
             ]
         },
         {
-            "labelIndex": 18,
+            "labelIndex": 20,
             "arrayIndex": 18,
             "labelName": "DLP_GMStation_019",
             "styleInfo": {
@@ -740,7 +637,7 @@
             ]
         },
         {
-            "labelIndex": 19,
+            "labelIndex": 21,
             "arrayIndex": 19,
             "labelName": "DLP_GMStation_020",
             "styleInfo": {
@@ -781,7 +678,7 @@
             ]
         },
         {
-            "labelIndex": 20,
+            "labelIndex": 22,
             "arrayIndex": 20,
             "labelName": "DLP_GMStation_021",
             "styleInfo": {
@@ -811,7 +708,7 @@
             ]
         },
         {
-            "labelIndex": 21,
+            "labelIndex": 23,
             "arrayIndex": 21,
             "labelName": "DLP_GMStation_022",
             "styleInfo": {
@@ -841,7 +738,7 @@
             ]
         },
         {
-            "labelIndex": 22,
+            "labelIndex": 24,
             "arrayIndex": 22,
             "labelName": "DLP_GMStation_023",
             "styleInfo": {
@@ -890,7 +787,7 @@
             ]
         },
         {
-            "labelIndex": 23,
+            "labelIndex": 25,
             "arrayIndex": 23,
             "labelName": "DLP_GMStation_024",
             "styleInfo": {
@@ -939,7 +836,7 @@
             ]
         },
         {
-            "labelIndex": 24,
+            "labelIndex": 26,
             "arrayIndex": 24,
             "labelName": "DLP_GMStation_025",
             "styleInfo": {
@@ -988,7 +885,7 @@
             ]
         },
         {
-            "labelIndex": 25,
+            "labelIndex": 27,
             "arrayIndex": 25,
             "labelName": "DLP_GMStation_026",
             "styleInfo": {
@@ -1029,7 +926,7 @@
             ]
         },
         {
-            "labelIndex": 26,
+            "labelIndex": 28,
             "arrayIndex": 26,
             "labelName": "DLP_GMStation_027",
             "styleInfo": {
@@ -1059,7 +956,7 @@
             ]
         },
         {
-            "labelIndex": 27,
+            "labelIndex": 29,
             "arrayIndex": 27,
             "labelName": "DLP_GMStation_028",
             "styleInfo": {
@@ -1089,7 +986,7 @@
             ]
         },
         {
-            "labelIndex": 28,
+            "labelIndex": 30,
             "arrayIndex": 28,
             "labelName": "DLP_GMStation_029",
             "styleInfo": {
@@ -1119,7 +1016,7 @@
             ]
         },
         {
-            "labelIndex": 29,
+            "labelIndex": 31,
             "arrayIndex": 29,
             "labelName": "DLP_GMStation_030",
             "styleInfo": {
@@ -1149,7 +1046,7 @@
             ]
         },
         {
-            "labelIndex": 30,
+            "labelIndex": 32,
             "arrayIndex": 30,
             "labelName": "DLP_GMStation_031",
             "styleInfo": {
@@ -1179,7 +1076,7 @@
             ]
         },
         {
-            "labelIndex": 31,
+            "labelIndex": 33,
             "arrayIndex": 31,
             "labelName": "DLP_GMStation_032",
             "styleInfo": {
@@ -1209,7 +1106,7 @@
             ]
         },
         {
-            "labelIndex": 32,
+            "labelIndex": 34,
             "arrayIndex": 32,
             "labelName": "DLP_GMStation_033",
             "styleInfo": {
@@ -1239,7 +1136,7 @@
             ]
         },
         {
-            "labelIndex": 33,
+            "labelIndex": 35,
             "arrayIndex": 33,
             "labelName": "DLP_GMStation_034",
             "styleInfo": {
@@ -1269,7 +1166,7 @@
             ]
         },
         {
-            "labelIndex": 34,
+            "labelIndex": 36,
             "arrayIndex": 34,
             "labelName": "DLP_GMStation_035",
             "styleInfo": {
@@ -1299,7 +1196,7 @@
             ]
         },
         {
-            "labelIndex": 35,
+            "labelIndex": 37,
             "arrayIndex": 35,
             "labelName": "DLP_GMStation_036",
             "styleInfo": {
@@ -1392,7 +1289,7 @@
             ]
         },
         {
-            "labelIndex": 36,
+            "labelIndex": 38,
             "arrayIndex": 36,
             "labelName": "DLP_GMStation_037",
             "styleInfo": {
@@ -1459,14 +1356,14 @@
             ]
         },
         {
-            "labelIndex": 37,
+            "labelIndex": 39,
             "arrayIndex": 37,
             "labelName": "DLP_GMStation_038",
             "styleInfo": {
-                "styleIndex": 37,
+                "styleIndex": 83,
                 "colorIndex": -1,
-                "fontSize": 42,
-                "maxWidth": 294,
+                "fontSize": 32,
+                "maxWidth": 320,
                 "controlID": 0
             },
             "attributeValueArray": [
@@ -1489,14 +1386,14 @@
             ]
         },
         {
-            "labelIndex": 38,
+            "labelIndex": 40,
             "arrayIndex": 38,
             "labelName": "DLP_GMStation_039",
             "styleInfo": {
-                "styleIndex": 37,
+                "styleIndex": 83,
                 "colorIndex": -1,
-                "fontSize": 42,
-                "maxWidth": 294,
+                "fontSize": 32,
+                "maxWidth": 320,
                 "controlID": 0
             },
             "attributeValueArray": [
@@ -1513,20 +1410,20 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": " Zoom in",
-                    "strWidth": 115.734375
+                    "str": " Zoom In",
+                    "strWidth": 116.515625
                 }
             ]
         },
         {
-            "labelIndex": 39,
+            "labelIndex": 41,
             "arrayIndex": 39,
             "labelName": "DLP_GMStation_040",
             "styleInfo": {
-                "styleIndex": 37,
+                "styleIndex": 83,
                 "colorIndex": -1,
-                "fontSize": 42,
-                "maxWidth": 294,
+                "fontSize": 32,
+                "maxWidth": 320,
                 "controlID": 0
             },
             "attributeValueArray": [
@@ -1543,13 +1440,13 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": " Zoom out",
-                    "strWidth": 135.328125
+                    "str": " Zoom Out",
+                    "strWidth": 142.5625
                 }
             ]
         },
         {
-            "labelIndex": 40,
+            "labelIndex": 42,
             "arrayIndex": 40,
             "labelName": "DLP_GMStation_041",
             "styleInfo": {
@@ -1579,7 +1476,7 @@
             ]
         },
         {
-            "labelIndex": 41,
+            "labelIndex": 43,
             "arrayIndex": 41,
             "labelName": "DLP_GMStation_042",
             "styleInfo": {
@@ -1609,7 +1506,7 @@
             ]
         },
         {
-            "labelIndex": 42,
+            "labelIndex": 44,
             "arrayIndex": 42,
             "labelName": "DLP_GMStation_043",
             "styleInfo": {
@@ -1639,7 +1536,7 @@
             ]
         },
         {
-            "labelIndex": 43,
+            "labelIndex": 48,
             "arrayIndex": 43,
             "labelName": "DLP_GMStation_044",
             "styleInfo": {
@@ -1669,7 +1566,7 @@
             ]
         },
         {
-            "labelIndex": 44,
+            "labelIndex": 49,
             "arrayIndex": 44,
             "labelName": "DLP_GMStation_045",
             "styleInfo": {
@@ -1699,7 +1596,7 @@
             ]
         },
         {
-            "labelIndex": 45,
+            "labelIndex": 50,
             "arrayIndex": 45,
             "labelName": "DLP_GMStation_046",
             "styleInfo": {
@@ -1729,7 +1626,7 @@
             ]
         },
         {
-            "labelIndex": 46,
+            "labelIndex": 51,
             "arrayIndex": 46,
             "labelName": "DLP_GMStation_047",
             "styleInfo": {
@@ -1759,7 +1656,7 @@
             ]
         },
         {
-            "labelIndex": 47,
+            "labelIndex": 52,
             "arrayIndex": 47,
             "labelName": "DLP_GMStation_048",
             "styleInfo": {
@@ -1789,7 +1686,7 @@
             ]
         },
         {
-            "labelIndex": 48,
+            "labelIndex": 53,
             "arrayIndex": 48,
             "labelName": "DLP_GMStation_049",
             "styleInfo": {
@@ -1819,7 +1716,7 @@
             ]
         },
         {
-            "labelIndex": 49,
+            "labelIndex": 55,
             "arrayIndex": 49,
             "labelName": "DLP_GMStation_050",
             "styleInfo": {
@@ -1849,7 +1746,7 @@
             ]
         },
         {
-            "labelIndex": 50,
+            "labelIndex": 56,
             "arrayIndex": 50,
             "labelName": "DLP_GMStation_051",
             "styleInfo": {
@@ -1879,7 +1776,7 @@
             ]
         },
         {
-            "labelIndex": 51,
+            "labelIndex": 57,
             "arrayIndex": 51,
             "labelName": "DLP_GMStation_052",
             "styleInfo": {
@@ -1909,7 +1806,7 @@
             ]
         },
         {
-            "labelIndex": 52,
+            "labelIndex": 58,
             "arrayIndex": 52,
             "labelName": "DLP_GMStation_053",
             "styleInfo": {
@@ -1947,7 +1844,7 @@
             ]
         },
         {
-            "labelIndex": 53,
+            "labelIndex": 59,
             "arrayIndex": 53,
             "labelName": "DLP_GMStation_054",
             "styleInfo": {
@@ -1985,7 +1882,7 @@
             ]
         },
         {
-            "labelIndex": 54,
+            "labelIndex": 60,
             "arrayIndex": 54,
             "labelName": "DLP_GMStation_055",
             "styleInfo": {
@@ -2015,7 +1912,7 @@
             ]
         },
         {
-            "labelIndex": 55,
+            "labelIndex": 61,
             "arrayIndex": 55,
             "labelName": "DLP_GMStation_056",
             "styleInfo": {
@@ -2045,7 +1942,7 @@
             ]
         },
         {
-            "labelIndex": 56,
+            "labelIndex": 62,
             "arrayIndex": 56,
             "labelName": "DLP_GMStation_057",
             "styleInfo": {
@@ -2083,7 +1980,7 @@
             ]
         },
         {
-            "labelIndex": 57,
+            "labelIndex": 63,
             "arrayIndex": 57,
             "labelName": "DLP_GMStation_058",
             "styleInfo": {
@@ -2113,7 +2010,7 @@
             ]
         },
         {
-            "labelIndex": 58,
+            "labelIndex": 64,
             "arrayIndex": 58,
             "labelName": "DLP_GMStation_059",
             "styleInfo": {
@@ -2143,7 +2040,7 @@
             ]
         },
         {
-            "labelIndex": 59,
+            "labelIndex": 65,
             "arrayIndex": 59,
             "labelName": "DLP_GMStation_060",
             "styleInfo": {
@@ -2200,7 +2097,7 @@
             ]
         },
         {
-            "labelIndex": 60,
+            "labelIndex": 66,
             "arrayIndex": 60,
             "labelName": "DLP_GMStation_061",
             "styleInfo": {
@@ -2230,7 +2127,7 @@
             ]
         },
         {
-            "labelIndex": 61,
+            "labelIndex": 67,
             "arrayIndex": 61,
             "labelName": "DLP_GMStation_062",
             "styleInfo": {
@@ -2260,7 +2157,7 @@
             ]
         },
         {
-            "labelIndex": 62,
+            "labelIndex": 68,
             "arrayIndex": 62,
             "labelName": "DLP_GMStation_063",
             "styleInfo": {
@@ -2290,7 +2187,7 @@
             ]
         },
         {
-            "labelIndex": 63,
+            "labelIndex": 69,
             "arrayIndex": 63,
             "labelName": "DLP_GMStation_064",
             "styleInfo": {
@@ -2320,7 +2217,7 @@
             ]
         },
         {
-            "labelIndex": 64,
+            "labelIndex": 70,
             "arrayIndex": 64,
             "labelName": "DLP_GMStation_065",
             "styleInfo": {
@@ -2350,7 +2247,7 @@
             ]
         },
         {
-            "labelIndex": 65,
+            "labelIndex": 71,
             "arrayIndex": 65,
             "labelName": "DLP_GMStation_066",
             "styleInfo": {
@@ -2380,7 +2277,7 @@
             ]
         },
         {
-            "labelIndex": 66,
+            "labelIndex": 72,
             "arrayIndex": 66,
             "labelName": "DLP_GMStation_067",
             "styleInfo": {
@@ -2410,7 +2307,7 @@
             ]
         },
         {
-            "labelIndex": 67,
+            "labelIndex": 73,
             "arrayIndex": 67,
             "labelName": "DLP_GMStation_068",
             "styleInfo": {
@@ -2451,7 +2348,7 @@
             ]
         },
         {
-            "labelIndex": 68,
+            "labelIndex": 74,
             "arrayIndex": 68,
             "labelName": "DLP_GMStation_069",
             "styleInfo": {
@@ -2492,7 +2389,7 @@
             ]
         },
         {
-            "labelIndex": 69,
+            "labelIndex": 75,
             "arrayIndex": 69,
             "labelName": "DLP_GMStation_070",
             "styleInfo": {
@@ -2522,7 +2419,7 @@
             ]
         },
         {
-            "labelIndex": 70,
+            "labelIndex": 76,
             "arrayIndex": 70,
             "labelName": "DLP_GMStation_071",
             "styleInfo": {
@@ -2552,7 +2449,7 @@
             ]
         },
         {
-            "labelIndex": 71,
+            "labelIndex": 77,
             "arrayIndex": 71,
             "labelName": "DLP_GMStation_072",
             "styleInfo": {
@@ -2582,7 +2479,7 @@
             ]
         },
         {
-            "labelIndex": 72,
+            "labelIndex": 78,
             "arrayIndex": 72,
             "labelName": "DLP_GMStation_073",
             "styleInfo": {
@@ -2612,7 +2509,7 @@
             ]
         },
         {
-            "labelIndex": 73,
+            "labelIndex": 79,
             "arrayIndex": 73,
             "labelName": "DLP_GMStation_074",
             "styleInfo": {
@@ -2642,7 +2539,7 @@
             ]
         },
         {
-            "labelIndex": 74,
+            "labelIndex": 80,
             "arrayIndex": 74,
             "labelName": "DLP_GMStation_075",
             "styleInfo": {
@@ -2672,7 +2569,7 @@
             ]
         },
         {
-            "labelIndex": 75,
+            "labelIndex": 81,
             "arrayIndex": 75,
             "labelName": "DLP_GMStation_076",
             "styleInfo": {
@@ -2702,7 +2599,7 @@
             ]
         },
         {
-            "labelIndex": 76,
+            "labelIndex": 82,
             "arrayIndex": 76,
             "labelName": "DLP_GMStation_077",
             "styleInfo": {
@@ -2728,6 +2625,670 @@
                     "tagValue": 0.0,
                     "str": "Would you like to continue the Wonder Trade?",
                     "strWidth": 614.765625
+                }
+            ]
+        },
+        {
+            "labelIndex": 83,
+            "arrayIndex": 77,
+            "labelName": "DLP_GMStation_078",
+            "styleInfo": {
+                "styleIndex": 0,
+                "colorIndex": -1,
+                "fontSize": 54,
+                "maxWidth": 1080,
+                "controlID": 0
+            },
+            "attributeValueArray": [
+                -1,
+                0,
+                0,
+                -1,
+                0
+            ],
+            "tagDataArray": [],
+            "wordDataArray": [
+                {
+                    "patternID": 0,
+                    "eventID": 7,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "Please select a point.",
+                    "strWidth": 274.90625
+                }
+            ]
+        },
+        {
+            "labelIndex": 84,
+            "arrayIndex": 78,
+            "labelName": "DLP_GMStation_079",
+            "styleInfo": {
+                "styleIndex": 0,
+                "colorIndex": -1,
+                "fontSize": 54,
+                "maxWidth": 1080,
+                "controlID": 0
+            },
+            "attributeValueArray": [
+                -1,
+                0,
+                0,
+                -1,
+                0
+            ],
+            "tagDataArray": [],
+            "wordDataArray": [
+                {
+                    "patternID": 7,
+                    "eventID": 1,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "The Pokémon’s records will be deleted.",
+                    "strWidth": 511.640625
+                },
+                {
+                    "patternID": 0,
+                    "eventID": 7,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "Is that OK?",
+                    "strWidth": 146.125
+                }
+            ]
+        },
+        {
+            "labelIndex": 4,
+            "arrayIndex": 79,
+            "labelName": "DLP_GMStation_083",
+            "styleInfo": {
+                "styleIndex": 0,
+                "colorIndex": -1,
+                "fontSize": 54,
+                "maxWidth": 1080,
+                "controlID": 0
+            },
+            "attributeValueArray": [
+                -1,
+                0,
+                0,
+                -1,
+                0
+            ],
+            "tagDataArray": [],
+            "wordDataArray": [
+                {
+                    "patternID": 7,
+                    "eventID": 1,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "At the GWS, you can connect with people all",
+                    "strWidth": 586.84375
+                },
+                {
+                    "patternID": 7,
+                    "eventID": 4,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "over the world through the internet to conduct",
+                    "strWidth": 603.421875
+                },
+                {
+                    "patternID": 7,
+                    "eventID": 3,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "Pokémon Wonder Trades.",
+                    "strWidth": 336.046875
+                },
+                {
+                    "patternID": 7,
+                    "eventID": 1,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "When a Wonder Trade is complete, an icon of a",
+                    "strWidth": 624.90625
+                },
+                {
+                    "patternID": 7,
+                    "eventID": 3,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "Pokémon will appear on the globe.",
+                    "strWidth": 453.3125
+                },
+                {
+                    "patternID": 7,
+                    "eventID": 1,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "You’ll collect rewards as you fill more points on",
+                    "strWidth": 615.90625
+                },
+                {
+                    "patternID": 7,
+                    "eventID": 3,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "the globe with icons!",
+                    "strWidth": 268.078125
+                },
+                {
+                    "patternID": 7,
+                    "eventID": 1,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "Keep making Wonder Trades to complete your",
+                    "strWidth": 608.40625
+                },
+                {
+                    "patternID": 0,
+                    "eventID": 7,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "very own globe!",
+                    "strWidth": 205.578125
+                }
+            ]
+        },
+        {
+            "labelIndex": 5,
+            "arrayIndex": 80,
+            "labelName": "DLP_GMStation_084",
+            "styleInfo": {
+                "styleIndex": 0,
+                "colorIndex": -1,
+                "fontSize": 54,
+                "maxWidth": 1080,
+                "controlID": 0
+            },
+            "attributeValueArray": [
+                -1,
+                0,
+                0,
+                -1,
+                0
+            ],
+            "tagDataArray": [],
+            "wordDataArray": [
+                {
+                    "patternID": 7,
+                    "eventID": 1,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "To make a Wonder Trade, first select a Pokémon",
+                    "strWidth": 634.984375
+                },
+                {
+                    "patternID": 7,
+                    "eventID": 3,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "you want to trade.",
+                    "strWidth": 237.21875
+                },
+                {
+                    "patternID": 7,
+                    "eventID": 1,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "Be warned that there are some Pokémon you",
+                    "strWidth": 580.828125
+                },
+                {
+                    "patternID": 7,
+                    "eventID": 3,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "can’t trade, though.",
+                    "strWidth": 256.15625
+                },
+                {
+                    "patternID": 7,
+                    "eventID": 3,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "Next, choose any point you like on the globe.",
+                    "strWidth": 594.390625
+                },
+                {
+                    "patternID": 7,
+                    "eventID": 1,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "For example, it could be a place where you think",
+                    "strWidth": 635.1875
+                },
+                {
+                    "patternID": 7,
+                    "eventID": 3,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "your chosen Pokémon might live.",
+                    "strWidth": 426.359375
+                },
+                {
+                    "patternID": 7,
+                    "eventID": 1,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "When the Wonder Trade is complete, an icon of",
+                    "strWidth": 627.234375
+                },
+                {
+                    "patternID": 7,
+                    "eventID": 4,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "your trade partner’s Pokémon will appear on",
+                    "strWidth": 576.953125
+                },
+                {
+                    "patternID": 7,
+                    "eventID": 3,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "your globe.",
+                    "strWidth": 147.6875
+                },
+                {
+                    "patternID": 7,
+                    "eventID": 1,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "Likewise, your Pokémon’s icon will appear on",
+                    "strWidth": 586.640625
+                },
+                {
+                    "patternID": 7,
+                    "eventID": 3,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "your trade partner’s globe.",
+                    "strWidth": 347.078125
+                },
+                {
+                    "patternID": 7,
+                    "eventID": 1,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "You won’t know what Pokémon you’ll receive",
+                    "strWidth": 587.984375
+                },
+                {
+                    "patternID": 7,
+                    "eventID": 3,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "until it arrives.",
+                    "strWidth": 183.28125
+                },
+                {
+                    "patternID": 0,
+                    "eventID": 7,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "I think that’s pretty exciting!",
+                    "strWidth": 364.046875
+                }
+            ]
+        },
+        {
+            "labelIndex": 6,
+            "arrayIndex": 81,
+            "labelName": "DLP_GMStation_085",
+            "styleInfo": {
+                "styleIndex": 0,
+                "colorIndex": -1,
+                "fontSize": 54,
+                "maxWidth": 1080,
+                "controlID": 0
+            },
+            "attributeValueArray": [
+                -1,
+                0,
+                0,
+                -1,
+                0
+            ],
+            "tagDataArray": [],
+            "wordDataArray": [
+                {
+                    "patternID": 7,
+                    "eventID": 1,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "As you make more Wonder Trades, you can view",
+                    "strWidth": 631.78125
+                },
+                {
+                    "patternID": 7,
+                    "eventID": 3,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "the points on the globe you’re filling in.",
+                    "strWidth": 515.09375
+                },
+                {
+                    "patternID": 7,
+                    "eventID": 1,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "Each point marked on the globe can hold records",
+                    "strWidth": 639.90625
+                },
+                {
+                    "patternID": 7,
+                    "eventID": 3,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "of up to five Pokémon.",
+                    "strWidth": 296.640625
+                },
+                {
+                    "patternID": 7,
+                    "eventID": 1,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "You can change the Pokémon icon shown or",
+                    "strWidth": 572.171875
+                },
+                {
+                    "patternID": 7,
+                    "eventID": 3,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "delete records.",
+                    "strWidth": 194.78125
+                },
+                {
+                    "patternID": 7,
+                    "eventID": 1,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "You can also spin the globe, or enlarge or shrink",
+                    "strWidth": 628.21875
+                },
+                {
+                    "patternID": 0,
+                    "eventID": 7,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "it, so go ahead and try it out!",
+                    "strWidth": 378.5625
+                }
+            ]
+        },
+        {
+            "labelIndex": 45,
+            "arrayIndex": 82,
+            "labelName": "DLP_GMStation_080",
+            "styleInfo": {
+                "styleIndex": 42,
+                "colorIndex": -1,
+                "fontSize": 42,
+                "maxWidth": 504,
+                "controlID": 0
+            },
+            "attributeValueArray": [
+                -1,
+                0,
+                0,
+                -1,
+                0
+            ],
+            "tagDataArray": [],
+            "wordDataArray": [
+                {
+                    "patternID": 0,
+                    "eventID": 7,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "The GWS",
+                    "strWidth": 124.765625
+                }
+            ]
+        },
+        {
+            "labelIndex": 46,
+            "arrayIndex": 83,
+            "labelName": "DLP_GMStation_081",
+            "styleInfo": {
+                "styleIndex": 42,
+                "colorIndex": -1,
+                "fontSize": 42,
+                "maxWidth": 504,
+                "controlID": 0
+            },
+            "attributeValueArray": [
+                -1,
+                0,
+                0,
+                -1,
+                0
+            ],
+            "tagDataArray": [],
+            "wordDataArray": [
+                {
+                    "patternID": 0,
+                    "eventID": 7,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "Wonder Trades",
+                    "strWidth": 199.796875
+                }
+            ]
+        },
+        {
+            "labelIndex": 47,
+            "arrayIndex": 84,
+            "labelName": "DLP_GMStation_082",
+            "styleInfo": {
+                "styleIndex": 42,
+                "colorIndex": -1,
+                "fontSize": 42,
+                "maxWidth": 504,
+                "controlID": 0
+            },
+            "attributeValueArray": [
+                -1,
+                0,
+                0,
+                -1,
+                0
+            ],
+            "tagDataArray": [],
+            "wordDataArray": [
+                {
+                    "patternID": 0,
+                    "eventID": 7,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "Viewing the globe",
+                    "strWidth": 236.046875
+                }
+            ]
+        },
+        {
+            "labelIndex": 54,
+            "arrayIndex": 85,
+            "labelName": "DLP_GMStation_086",
+            "styleInfo": {
+                "styleIndex": 42,
+                "colorIndex": -1,
+                "fontSize": 42,
+                "maxWidth": 504,
+                "controlID": 0
+            },
+            "attributeValueArray": [
+                -1,
+                0,
+                0,
+                -1,
+                0
+            ],
+            "tagDataArray": [],
+            "wordDataArray": [
+                {
+                    "patternID": 0,
+                    "eventID": 7,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "Quit",
+                    "strWidth": 57.625
+                }
+            ]
+        },
+        {
+            "labelIndex": 85,
+            "arrayIndex": 86,
+            "labelName": "DLP_GMStation_087",
+            "styleInfo": {
+                "styleIndex": 0,
+                "colorIndex": -1,
+                "fontSize": 54,
+                "maxWidth": 1080,
+                "controlID": 0
+            },
+            "attributeValueArray": [
+                -1,
+                0,
+                0,
+                -1,
+                0
+            ],
+            "tagDataArray": [
+                {
+                    "tagIndex": 0,
+                    "groupID": 2,
+                    "tagID": 2,
+                    "tagPatternID": 1,
+                    "forceArticle": 0,
+                    "tagParameter": 205,
+                    "tagWordArray": [],
+                    "forceGrmID": 0
+                },
+                {
+                    "tagIndex": -1,
+                    "groupID": 19,
+                    "tagID": 1,
+                    "tagPatternID": 5,
+                    "forceArticle": 0,
+                    "tagParameter": 0,
+                    "tagWordArray": [
+                        "Candy",
+                        "Candies"
+                    ],
+                    "forceGrmID": 0
+                }
+            ],
+            "wordDataArray": [
+                {
+                    "patternID": 0,
+                    "eventID": 0,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "You received ",
+                    "strWidth": 179.890625
+                },
+                {
+                    "patternID": 5,
+                    "eventID": 0,
+                    "tagIndex": 0,
+                    "tagValue": 0.0,
+                    "str": "",
+                    "strWidth": -1.0
+                },
+                {
+                    "patternID": 0,
+                    "eventID": 0,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": " Rare ",
+                    "strWidth": 75.890625
+                },
+                {
+                    "patternID": 5,
+                    "eventID": 0,
+                    "tagIndex": 1,
+                    "tagValue": 0.0,
+                    "str": "",
+                    "strWidth": -1.0
+                },
+                {
+                    "patternID": 7,
+                    "eventID": 1,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": " as a reward for",
+                    "strWidth": 201.046875
+                },
+                {
+                    "patternID": 0,
+                    "eventID": 7,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "filling in your globe!",
+                    "strWidth": 259.890625
+                }
+            ]
+        },
+        {
+            "labelIndex": 86,
+            "arrayIndex": 87,
+            "labelName": "DLP_GMStation_088",
+            "styleInfo": {
+                "styleIndex": 83,
+                "colorIndex": -1,
+                "fontSize": 32,
+                "maxWidth": 320,
+                "controlID": 0
+            },
+            "attributeValueArray": [
+                -1,
+                0,
+                0,
+                -1,
+                0
+            ],
+            "tagDataArray": [],
+            "wordDataArray": [
+                {
+                    "patternID": 0,
+                    "eventID": 7,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": " Cry",
+                    "strWidth": 52.953125
+                }
+            ]
+        },
+        {
+            "labelIndex": 87,
+            "arrayIndex": 88,
+            "labelName": "DLP_GMStation_089",
+            "styleInfo": {
+                "styleIndex": 82,
+                "colorIndex": -1,
+                "fontSize": 32,
+                "maxWidth": 256,
+                "controlID": 0
+            },
+            "attributeValueArray": [
+                -1,
+                0,
+                0,
+                -1,
+                0
+            ],
+            "tagDataArray": [],
+            "wordDataArray": [
+                {
+                    "patternID": 0,
+                    "eventID": 7,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "Speed Up",
+                    "strWidth": 129.1875
                 }
             ]
         }

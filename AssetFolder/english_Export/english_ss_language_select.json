@@ -39,16 +39,16 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Only English is available at this time. We will",
-                    "strWidth": 591.90625
+                    "str": "Only English is available in the base mod.",
+                    "strWidth": 538.28125
                 },
                 {
                     "patternID": 0,
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "notify when we’re ready to recruit translators.",
-                    "strWidth": 510.625
+                    "str": "Translations may appear on Nexus Mods.",
+                    "strWidth": 532.359375
                 }
             ]
         },

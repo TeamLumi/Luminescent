@@ -12363,19 +12363,90 @@
             ]
         },
         {
-            "labelIndex": 0,
-            "arrayIndex": 0,
-            "labelName": "",
+            "labelIndex": 275,
+            "arrayIndex": 314,
+            "labelName": "8-msg_connect_colosseum_03_patch3",
             "styleInfo": {
                 "styleIndex": 0,
-                "colorIndex": 0,
-                "fontSize": 0,
-                "maxWidth": 0,
+                "colorIndex": -1,
+                "fontSize": 54,
+                "maxWidth": 1080,
                 "controlID": 0
             },
-            "attributeValueArray": [],
+            "attributeValueArray": [
+                -1,
+                0,
+                0,
+                -1,
+                0
+            ],
             "tagDataArray": [],
-            "wordDataArray": []
+            "wordDataArray": [
+                {
+                    "patternID": 7,
+                    "eventID": 3,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "There are three kinds of battles.",
+                    "strWidth": 415.328125
+                },
+                {
+                    "patternID": 7,
+                    "eventID": 1,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "Single Battle is for two Trainers with one",
+                    "strWidth": 522.609375
+                },
+                {
+                    "patternID": 7,
+                    "eventID": 3,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "Pokémon each.",
+                    "strWidth": 197.046875
+                },
+                {
+                    "patternID": 7,
+                    "eventID": 1,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "Double Battle is for two Trainers with two",
+                    "strWidth": 538.1875
+                },
+                {
+                    "patternID": 7,
+                    "eventID": 3,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "Pokémon each.",
+                    "strWidth": 197.046875
+                },
+                {
+                    "patternID": 7,
+                    "eventID": 1,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "Multi Battle is for four Trainers with one Pokémon",
+                    "strWidth": 644.515625
+                },
+                {
+                    "patternID": 7,
+                    "eventID": 4,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "each. They battle against each other in teams",
+                    "strWidth": 588.3125
+                },
+                {
+                    "patternID": 7,
+                    "eventID": 7,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "of two.",
+                    "strWidth": 90.515625
+                }
+            ]
         },
         {
             "labelIndex": 49,

@@ -7567,7 +7567,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": " You sense Pokémon shifting",
+                    "str": "You sense Pokémon shifting",
                     "strWidth": 541.65625
                 },
                 {
@@ -7575,7 +7575,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": " as the new scent rises.",
+                    "str": "as the new scent rises.",
                     "strWidth": 541.65625
                 }
             ]

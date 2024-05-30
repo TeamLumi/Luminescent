@@ -90222,7 +90222,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Renegade roses symbolize the joy of journeys.",
+                    "str": "Ramanas roses symbolize the joy of journeys.",
                     "strWidth": 581.015625
                 },
                 {
@@ -90246,7 +90246,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "It’s probably the Renegade roses’ alluring charm",
+                    "str": "It’s probably the Ramanas roses’ alluring charm",
                     "strWidth": 609.0625
                 },
                 {
@@ -90300,7 +90300,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "the Renegade roses blooming all over.",
+                    "str": "the Ramanas roses blooming all over.",
                     "strWidth": 481.15625
                 },
                 {
@@ -90324,7 +90324,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "You might say Renegade roses attract those who",
+                    "str": "You might say Ramanas roses attract those who",
                     "strWidth": 612.390625
                 },
                 {
@@ -90484,7 +90484,7 @@
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "My daughter loves Renegade roses.",
+                    "str": "My daughter loves Ramanas roses.",
                     "strWidth": 444.1875
                 },
                 {
@@ -90530,7 +90530,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "The smell of Renegade roses isn’t the only selling",
+                    "str": "The smell of Ramanas roses isn’t the only selling",
                     "strWidth": 622.359375
                 },
                 {
@@ -100980,7 +100980,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "to see the Renegade roses.",
+                    "str": "to see the Ramanas roses.",
                     "strWidth": 333.984375
                 }
             ]
@@ -101018,7 +101018,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "attracted by the Renegade roses.",
+                    "str": "attracted by the Ramanas roses.",
                     "strWidth": 412.546875
                 }
             ]
@@ -101202,7 +101202,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "to see the Renegade roses.",
+                    "str": "to see the Ramanas roses.",
                     "strWidth": 333.984375
                 }
             ]
@@ -102863,44 +102863,6 @@
         {
             "labelIndex": 2089,
             "arrayIndex": 2100,
-            "labelName": "18-msg_mew_19",
-            "styleInfo": {
-                "styleIndex": 0,
-                "colorIndex": -1,
-                "fontSize": 54,
-                "maxWidth": 1080,
-                "controlID": 0
-            },
-            "attributeValueArray": [
-                -1,
-                0,
-                0,
-                -1,
-                0
-            ],
-            "tagDataArray": [],
-            "wordDataArray": [
-                {
-                    "patternID": 7,
-                    "eventID": 1,
-                    "tagIndex": -1,
-                    "tagValue": 0.0,
-                    "str": "The strange Pokémon disappeared,",
-                    "strWidth": 457.8125
-                },
-                {
-                    "patternID": 0,
-                    "eventID": 7,
-                    "tagIndex": -1,
-                    "tagValue": 0.0,
-                    "str": "but it looked extremely happy.",
-                    "strWidth": 399.984375
-                }
-            ]
-        },
-        {
-            "labelIndex": 2090,
-            "arrayIndex": 2101,
             "labelName": "18-msg_mew_19",
             "styleInfo": {
                 "styleIndex": 0,

@@ -14077,7 +14077,7 @@
         {
             "labelIndex": 337,
             "arrayIndex": 285,
-            "labelName": "35-msg_Pokémon_00",
+            "labelName": "35-msg_pokemon_00",
             "styleInfo": {
                 "styleIndex": 56,
                 "colorIndex": -1,
@@ -14107,7 +14107,7 @@
         {
             "labelIndex": 338,
             "arrayIndex": 286,
-            "labelName": "35-msg_Pokémon_01",
+            "labelName": "35-msg_pokemon_01",
             "styleInfo": {
                 "styleIndex": 56,
                 "colorIndex": -1,
@@ -14137,7 +14137,7 @@
         {
             "labelIndex": 339,
             "arrayIndex": 287,
-            "labelName": "35-msg_Pokémon_02",
+            "labelName": "35-msg_pokemon_02",
             "styleInfo": {
                 "styleIndex": 56,
                 "colorIndex": -1,
@@ -14167,7 +14167,7 @@
         {
             "labelIndex": 340,
             "arrayIndex": 288,
-            "labelName": "35-msg_Pokémon_03",
+            "labelName": "35-msg_pokemon_03",
             "styleInfo": {
                 "styleIndex": 56,
                 "colorIndex": -1,
@@ -27640,7 +27640,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "I have a Technical Machines for it right here.",
+                    "str": "I have a Technical Machine for it right here.",
                     "strWidth": 574.078125
                 },
                 {
@@ -122509,7 +122509,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "get revenge for this embarrassment",
+                    "str": "get revenge for this embarrassment.",
                     "strWidth": 454.8125
                 }
             ]

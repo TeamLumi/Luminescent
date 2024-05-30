@@ -30654,96 +30654,34 @@
             ]
         },
         {
-            "labelIndex": 656,
-            "arrayIndex": 613,
-            "labelName": "49-msg_c01r0503_bigman_01",
+            "labelIndex": 0,
+            "arrayIndex": 0,
+            "labelName": "",
             "styleInfo": {
                 "styleIndex": 0,
-                "colorIndex": -1,
-                "fontSize": 54,
-                "maxWidth": 1080,
+                "colorIndex": 0,
+                "fontSize": 0,
+                "maxWidth": 0,
                 "controlID": 0
             },
-            "attributeValueArray": [
-                -1,
-                0,
-                0,
-                -1,
-                0
-            ],
+            "attributeValueArray": [],
             "tagDataArray": [],
-            "wordDataArray": [
-                {
-                    "patternID": 7,
-                    "eventID": 1,
-                    "tagIndex": -1,
-                    "tagValue": 0.0,
-                    "str": "You can trade Pokémon with people around the",
-                    "strWidth": 622.078125
-                },
-                {
-                    "patternID": 7,
-                    "eventID": 3,
-                    "tagIndex": -1,
-                    "tagValue": 0.0,
-                    "str": "world using the Global Wonder Station, right?",
-                    "strWidth": 598.21875
-                },
-                {
-                    "patternID": 7,
-                    "eventID": 1,
-                    "tagIndex": -1,
-                    "tagValue": 0.0,
-                    "str": "Just hearing that gets my heart racing.",
-                    "strWidth": 492.203125
-                },
-                {
-                    "patternID": 0,
-                    "eventID": 7,
-                    "tagIndex": -1,
-                    "tagValue": 0.0,
-                    "str": "Such exciting times!",
-                    "strWidth": 254.453125
-                }
-            ]
+            "wordDataArray": []
         },
         {
-            "labelIndex": 657,
-            "arrayIndex": 614,
-            "labelName": "49-msg_c01r0503_girl1_01",
+            "labelIndex": 0,
+            "arrayIndex": 0,
+            "labelName": "",
             "styleInfo": {
                 "styleIndex": 0,
-                "colorIndex": -1,
-                "fontSize": 54,
-                "maxWidth": 1080,
+                "colorIndex": 0,
+                "fontSize": 0,
+                "maxWidth": 0,
                 "controlID": 0
             },
-            "attributeValueArray": [
-                -1,
-                0,
-                0,
-                -1,
-                0
-            ],
+            "attributeValueArray": [],
             "tagDataArray": [],
-            "wordDataArray": [
-                {
-                    "patternID": 7,
-                    "eventID": 1,
-                    "tagIndex": -1,
-                    "tagValue": 0.0,
-                    "str": "When you connect with people on the internet,",
-                    "strWidth": 613.84375
-                },
-                {
-                    "patternID": 0,
-                    "eventID": 7,
-                    "tagIndex": -1,
-                    "tagValue": 0.0,
-                    "str": "it’s hard to tell if the world’s big or small.",
-                    "strWidth": 534.5
-                }
-            ]
+            "wordDataArray": []
         },
         {
             "labelIndex": 669,
@@ -48314,88 +48252,34 @@
             ]
         },
         {
-            "labelIndex": 664,
-            "arrayIndex": 994,
-            "labelName": "51-msg_c01r0601_receptionist_08",
+            "labelIndex": 0,
+            "arrayIndex": 0,
+            "labelName": "",
             "styleInfo": {
                 "styleIndex": 0,
-                "colorIndex": -1,
-                "fontSize": 54,
-                "maxWidth": 1080,
+                "colorIndex": 0,
+                "fontSize": 0,
+                "maxWidth": 0,
                 "controlID": 0
             },
-            "attributeValueArray": [
-                -1,
-                0,
-                0,
-                -1,
-                0
-            ],
+            "attributeValueArray": [],
             "tagDataArray": [],
-            "wordDataArray": [
-                {
-                    "patternID": 7,
-                    "eventID": 3,
-                    "tagIndex": -1,
-                    "tagValue": 0.0,
-                    "str": "Wow... Uh-oh!",
-                    "strWidth": 186.125
-                },
-                {
-                    "patternID": 7,
-                    "eventID": 1,
-                    "tagIndex": -1,
-                    "tagValue": 0.0,
-                    "str": "I’m sorry, but your team and all your PC Boxes",
-                    "strWidth": 601.578125
-                },
-                {
-                    "patternID": 7,
-                    "eventID": 7,
-                    "tagIndex": -1,
-                    "tagValue": 0.0,
-                    "str": "are full.",
-                    "strWidth": 98.40625
-                }
-            ]
+            "wordDataArray": []
         },
         {
-            "labelIndex": 665,
-            "arrayIndex": 995,
-            "labelName": "51-msg_c01r0601_receptionist_09",
+            "labelIndex": 0,
+            "arrayIndex": 0,
+            "labelName": "",
             "styleInfo": {
                 "styleIndex": 0,
-                "colorIndex": -1,
-                "fontSize": 54,
-                "maxWidth": 1080,
+                "colorIndex": 0,
+                "fontSize": 0,
+                "maxWidth": 0,
                 "controlID": 0
             },
-            "attributeValueArray": [
-                -1,
-                0,
-                0,
-                -1,
-                0
-            ],
+            "attributeValueArray": [],
             "tagDataArray": [],
-            "wordDataArray": [
-                {
-                    "patternID": 7,
-                    "eventID": 1,
-                    "tagIndex": -1,
-                    "tagValue": 0.0,
-                    "str": "If you wish to use the Global Wonder Station,",
-                    "strWidth": 593.90625
-                },
-                {
-                    "patternID": 0,
-                    "eventID": 7,
-                    "tagIndex": -1,
-                    "tagValue": 0.0,
-                    "str": "you must have room on your team or in a Box.",
-                    "strWidth": 596.96875
-                }
-            ]
+            "wordDataArray": []
         },
         {
             "labelIndex": 666,
@@ -49743,8 +49627,8 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Dewff!",
-                    "strWidth": 84.6875
+                    "str": "Dewfff!",
+                    "strWidth": 94.453125
                 }
             ]
         },
@@ -60262,6 +60146,36 @@
                     "tagValue": 0.0,
                     "str": "of Pokémon that visit Sinnoh!",
                     "strWidth": 377.328125
+                }
+            ]
+        },
+        {
+            "labelIndex": 665,
+            "arrayIndex": 1234,
+            "labelName": "51-msg_c01r0601_receptionist_14",
+            "styleInfo": {
+                "styleIndex": 0,
+                "colorIndex": -1,
+                "fontSize": 54,
+                "maxWidth": 1080,
+                "controlID": 0
+            },
+            "attributeValueArray": [
+                -1,
+                0,
+                0,
+                -1,
+                0
+            ],
+            "tagDataArray": [],
+            "wordDataArray": [
+                {
+                    "patternID": 0,
+                    "eventID": 7,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "What would you like to know about?",
+                    "strWidth": 476.84375
                 }
             ]
         }

@@ -45,19 +45,58 @@
             ]
         },
         {
-            "labelIndex": 0,
-            "arrayIndex": 0,
-            "labelName": "",
+            "labelIndex": 239,
+            "arrayIndex": 1,
+            "labelName": "DP_contest_688",
             "styleInfo": {
                 "styleIndex": 0,
-                "colorIndex": 0,
-                "fontSize": 0,
-                "maxWidth": 0,
+                "colorIndex": -1,
+                "fontSize": 54,
+                "maxWidth": 1080,
                 "controlID": 0
             },
-            "attributeValueArray": [],
+            "attributeValueArray": [
+                -1,
+                0,
+                0,
+                -1,
+                0
+            ],
             "tagDataArray": [],
-            "wordDataArray": []
+            "wordDataArray": [
+                {
+                    "patternID": 7,
+                    "eventID": 1,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "Oh? It seems you don’t have a Pokémon that can",
+                    "strWidth": 636.296875
+                },
+                {
+                    "patternID": 7,
+                    "eventID": 3,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "enter a contest show.",
+                    "strWidth": 274.765625
+                },
+                {
+                    "patternID": 7,
+                    "eventID": 1,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "Please come back with a Pokémon that knows",
+                    "strWidth": 592.484375
+                },
+                {
+                    "patternID": 7,
+                    "eventID": 7,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "a move that can be used in contest shows.",
+                    "strWidth": 544.890625
+                }
+            ]
         },
         {
             "labelIndex": 0,
