@@ -102899,6 +102899,44 @@
             ]
         },
         {
+            "labelIndex": 2090,
+            "arrayIndex": 2101,
+            "labelName": "18-msg_mew_19-unused",
+            "styleInfo": {
+                "styleIndex": 0,
+                "colorIndex": -1,
+                "fontSize": 54,
+                "maxWidth": 1080,
+                "controlID": 0
+            },
+            "attributeValueArray": [
+                -1,
+                0,
+                0,
+                -1,
+                0
+            ],
+            "tagDataArray": [],
+            "wordDataArray": [
+                {
+                    "patternID": 7,
+                    "eventID": 1,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "The strange Pokémon disappeared,",
+                    "strWidth": 457.8125
+                },
+                {
+                    "patternID": 0,
+                    "eventID": 7,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "but it looked extremely happy.",
+                    "strWidth": 399.984375
+                }
+            ]
+        },
+        {
             "labelIndex": 2091,
             "arrayIndex": 2102,
             "labelName": "18-msg_mew_20",
