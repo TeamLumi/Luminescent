@@ -3,10 +3,8 @@ ev_pair_r201_rival:
 	_TALK_OBJ_START()
 	_SYS_FLAG_ONE_STEP_GET(@SCWK_ANSWER)
 	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_pair_r201_rival_one_step')
-	_IFVAL_JUMP(@WK_SCENE_PAIR_R201_RIVAL, 'GE', 4, 'ev_pair_r201_rival_05')
-	_IFVAL_JUMP(@WK_SCENE_PAIR_R201_RIVAL, 'EQ', 3, 'ev_pair_r201_rival_04')
-	_IFVAL_JUMP(@WK_SCENE_PAIR_R201_RIVAL, 'EQ', 2, 'ev_pair_r201_rival_03')
-	_IFVAL_JUMP(@WK_SCENE_PAIR_R201_RIVAL, 'EQ', 1, 'ev_pair_r201_rival_01')
+	_IFVAL_JUMP(@WK_SCENE_PAIR_R201_RIVAL, 'GE', 1, 'ev_pair_r201_rival_05')
+	_JUMP('ev_pair_r201_rival_03'); Inserted this jump here to skip the initial dialog line below
 	_RIVAL_NAME(0)
 	_TALKMSG('dp_scenario3%67-msg_pair_rival_a_01')
 	_LAST_KEYWAIT()
