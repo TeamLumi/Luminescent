@@ -351,8 +351,7 @@ anm_t02r0101_doctor_rot_cancel:
 	_ACMD_END()
 ev_t02r0101_assistm1:
 	_TALK_OBJ_START()
-	_ZENKOKU_ZUKAN_FLAG(2, @SCWK_ANSWER)
-	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_t02r0101_assistm1_02')
+	_IF_FLAGON_JUMP($SYS_FLAG_GAME_CLEAR, 'ev_t02r0101_assistm1_02')
 	_SUPPORT_NAME(0)
 	_TALKMSG('dp_scenario1%16-msg_t02r0101_assistm1_01')
 	_LAST_KEYWAIT()
@@ -368,8 +367,7 @@ ev_t02r0101_assistm1_02:
 	_END()
 ev_t02r0101_assistw1:
 	_TALK_OBJ_START()
-	_ZENKOKU_ZUKAN_FLAG(2, @SCWK_ANSWER)
-	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_t02r0101_assistw1_02')
+	_IF_FLAGON_JUMP($SYS_FLAG_GAME_CLEAR, 'ev_t02r0101_assistw1_02')
 	_TALKMSG('dp_scenario1%16-msg_t02r0101_assistw1_01')
 	_LAST_KEYWAIT()
 	_TALK_CLOSE()
