@@ -33939,8 +33939,8 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "TR00s",
-                    "strWidth": 82.234375
+                    "str": "TM101s",
+                    "strWidth": 54.625
                 }
             ]
         },
@@ -33969,8 +33969,8 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "TM101s",
-                    "strWidth": 78.23438262939453
+                    "str": "TM102s",
+                    "strWidth": 54.625
                 }
             ]
         },
@@ -33999,8 +33999,8 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "TM102s",
-                    "strWidth": 82.234375
+                    "str": "TM103s",
+                    "strWidth": 54.625
                 }
             ]
         },
@@ -34029,8 +34029,8 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "TM103s",
-                    "strWidth": 82.234375
+                    "str": "TM104s",
+                    "strWidth": 54.625
                 }
             ]
         },
@@ -34059,8 +34059,8 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "TM104s",
-                    "strWidth": 82.234375
+                    "str": "TM105s",
+                    "strWidth": 54.625
                 }
             ]
         },

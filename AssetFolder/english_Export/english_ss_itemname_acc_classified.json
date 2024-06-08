@@ -159,7 +159,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Poké Ball",
+                    "str": "Pok\u00e9 Ball",
                     "strWidth": 121.0625
                 }
             ]
@@ -1929,7 +1929,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Poké Doll",
+                    "str": "Pok\u00e9 Doll",
                     "strWidth": 127.71875
                 }
             ]
@@ -3669,7 +3669,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pokémon Box Link",
+                    "str": "Pok\u00e9mon Box Link",
                     "strWidth": 238.921875
                 }
             ]
@@ -6669,7 +6669,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "King’s Rock",
+                    "str": "King\u2019s Rock",
                     "strWidth": 150.984375
                 }
             ]
@@ -12969,7 +12969,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Poké Radar",
+                    "str": "Pok\u00e9 Radar",
                     "strWidth": 148.046875
                 }
             ]
@@ -13599,7 +13599,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Oak’s Letter",
+                    "str": "Oak\u2019s Letter",
                     "strWidth": 160.171875
                 }
             ]
@@ -17349,7 +17349,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Poké Toy",
+                    "str": "Pok\u00e9 Toy",
                     "strWidth": 121.546875
                 }
             ]
@@ -19299,7 +19299,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Prof’s Letter",
+                    "str": "Prof\u2019s Letter",
                     "strWidth": 158.53125
                 }
             ]
@@ -19569,7 +19569,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Poké Flute",
+                    "str": "Pok\u00e9 Flute",
                     "strWidth": 138.421875
                 }
             ]
@@ -21759,7 +21759,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pokéblock Kit",
+                    "str": "Pok\u00e9block Kit",
                     "strWidth": 180.546875
                 }
             ]
@@ -25329,7 +25329,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Professor’s Mask",
+                    "str": "Professor\u2019s Mask",
                     "strWidth": 215.296875
                 }
             ]
@@ -28479,7 +28479,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Left Poké Ball",
+                    "str": "Left Pok\u00e9 Ball",
                     "strWidth": 180.484375
                 }
             ]
@@ -29709,7 +29709,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Nidoran♀ Candy",
+                    "str": "Nidoran\u2640 Candy",
                     "strWidth": 221.25
                 }
             ]
@@ -29739,7 +29739,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Nidoran♂ Candy",
+                    "str": "Nidoran\u2642 Candy",
                     "strWidth": 221.25
                 }
             ]
@@ -30399,7 +30399,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Farfetch’d Candy",
+                    "str": "Farfetch\u2019d Candy",
                     "strWidth": 223.984375
                 }
             ]
@@ -32289,7 +32289,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pokémon Box Link",
+                    "str": "Pok\u00e9mon Box Link",
                     "strWidth": 238.921875
                 }
             ]
@@ -32589,7 +32589,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Bob’s Food Tin",
+                    "str": "Bob\u2019s Food Tin",
                     "strWidth": 197.46875
                 }
             ]
@@ -32619,7 +32619,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Bach’s Food Tin",
+                    "str": "Bach\u2019s Food Tin",
                     "strWidth": 207.890625
                 }
             ]
@@ -33939,8 +33939,8 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "TR00",
-                    "strWidth": 70.71875
+                    "str": "TM101",
+                    "strWidth": 43.109375
                 }
             ]
         },
@@ -33969,8 +33969,8 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "TM101",
-                    "strWidth": 66.71875762939453
+                    "str": "TM102",
+                    "strWidth": 43.109375
                 }
             ]
         },
@@ -33999,8 +33999,8 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "TM102",
-                    "strWidth": 70.71875
+                    "str": "TM103",
+                    "strWidth": 43.109375
                 }
             ]
         },
@@ -34029,8 +34029,8 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "TM103",
-                    "strWidth": 70.71875
+                    "str": "TM104",
+                    "strWidth": 43.109375
                 }
             ]
         },
@@ -34059,8 +34059,8 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "TM104",
-                    "strWidth": 70.71875
+                    "str": "TM105",
+                    "strWidth": 43.109375
                 }
             ]
         },
@@ -38169,7 +38169,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "copy of Sonia’s Book",
+                    "str": "copy of Sonia\u2019s Book",
                     "strWidth": 273.546875
                 }
             ]
@@ -38409,7 +38409,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★And458",
+                    "str": "\u2605And458",
                     "strWidth": 132.53125
                 }
             ]
@@ -38439,7 +38439,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★And15",
+                    "str": "\u2605And15",
                     "strWidth": 110.54688262939453
                 }
             ]
@@ -38469,7 +38469,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★And337",
+                    "str": "\u2605And337",
                     "strWidth": 132.53125
                 }
             ]
@@ -38499,7 +38499,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★And603",
+                    "str": "\u2605And603",
                     "strWidth": 132.53125
                 }
             ]
@@ -38529,7 +38529,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★And390",
+                    "str": "\u2605And390",
                     "strWidth": 132.53125
                 }
             ]
@@ -38559,7 +38559,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Sgr6879",
+                    "str": "\u2605Sgr6879",
                     "strWidth": 138.828125
                 }
             ]
@@ -38589,7 +38589,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Sgr6859",
+                    "str": "\u2605Sgr6859",
                     "strWidth": 138.828125
                 }
             ]
@@ -38619,7 +38619,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Sgr6913",
+                    "str": "\u2605Sgr6913",
                     "strWidth": 134.828125
                 }
             ]
@@ -38649,7 +38649,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Sgr7348",
+                    "str": "\u2605Sgr7348",
                     "strWidth": 138.828125
                 }
             ]
@@ -38679,7 +38679,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Sgr7121",
+                    "str": "\u2605Sgr7121",
                     "strWidth": 130.82814025878906
                 }
             ]
@@ -38709,7 +38709,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Sgr6746",
+                    "str": "\u2605Sgr6746",
                     "strWidth": 138.828125
                 }
             ]
@@ -38739,7 +38739,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Sgr7194",
+                    "str": "\u2605Sgr7194",
                     "strWidth": 134.828125
                 }
             ]
@@ -38769,7 +38769,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Sgr7337",
+                    "str": "\u2605Sgr7337",
                     "strWidth": 138.828125
                 }
             ]
@@ -38799,7 +38799,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Sgr7343",
+                    "str": "\u2605Sgr7343",
                     "strWidth": 138.828125
                 }
             ]
@@ -38829,7 +38829,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Sgr6812",
+                    "str": "\u2605Sgr6812",
                     "strWidth": 134.828125
                 }
             ]
@@ -38859,7 +38859,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Sgr7116",
+                    "str": "\u2605Sgr7116",
                     "strWidth": 130.82814025878906
                 }
             ]
@@ -38889,7 +38889,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Sgr7264",
+                    "str": "\u2605Sgr7264",
                     "strWidth": 138.828125
                 }
             ]
@@ -38919,7 +38919,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Sgr7597",
+                    "str": "\u2605Sgr7597",
                     "strWidth": 138.828125
                 }
             ]
@@ -38949,7 +38949,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Del7882",
+                    "str": "\u2605Del7882",
                     "strWidth": 143.390625
                 }
             ]
@@ -38979,7 +38979,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Del7906",
+                    "str": "\u2605Del7906",
                     "strWidth": 143.390625
                 }
             ]
@@ -39009,7 +39009,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Del7852",
+                    "str": "\u2605Del7852",
                     "strWidth": 143.390625
                 }
             ]
@@ -39039,7 +39039,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Psc596",
+                    "str": "\u2605Psc596",
                     "strWidth": 121.296875
                 }
             ]
@@ -39069,7 +39069,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Psc361",
+                    "str": "\u2605Psc361",
                     "strWidth": 117.29688262939453
                 }
             ]
@@ -39099,7 +39099,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Psc510",
+                    "str": "\u2605Psc510",
                     "strWidth": 117.29688262939453
                 }
             ]
@@ -39129,7 +39129,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Psc437",
+                    "str": "\u2605Psc437",
                     "strWidth": 121.296875
                 }
             ]
@@ -39159,7 +39159,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Psc8773",
+                    "str": "\u2605Psc8773",
                     "strWidth": 139.28125
                 }
             ]
@@ -39189,7 +39189,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Lep1865",
+                    "str": "\u2605Lep1865",
                     "strWidth": 141.71875
                 }
             ]
@@ -39219,7 +39219,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Lep1829",
+                    "str": "\u2605Lep1829",
                     "strWidth": 141.71875
                 }
             ]
@@ -39249,7 +39249,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Boo5340",
+                    "str": "\u2605Boo5340",
                     "strWidth": 149.15625
                 }
             ]
@@ -39279,7 +39279,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Boo5506",
+                    "str": "\u2605Boo5506",
                     "strWidth": 149.15625
                 }
             ]
@@ -39309,7 +39309,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Boo5435",
+                    "str": "\u2605Boo5435",
                     "strWidth": 149.15625
                 }
             ]
@@ -39339,7 +39339,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Boo5602",
+                    "str": "\u2605Boo5602",
                     "strWidth": 149.15625
                 }
             ]
@@ -39369,7 +39369,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Boo5733",
+                    "str": "\u2605Boo5733",
                     "strWidth": 149.15625
                 }
             ]
@@ -39399,7 +39399,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Boo5235",
+                    "str": "\u2605Boo5235",
                     "strWidth": 149.15625
                 }
             ]
@@ -39429,7 +39429,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Boo5351",
+                    "str": "\u2605Boo5351",
                     "strWidth": 145.15625
                 }
             ]
@@ -39459,7 +39459,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Hya3748",
+                    "str": "\u2605Hya3748",
                     "strWidth": 149.21875
                 }
             ]
@@ -39489,7 +39489,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Hya3903",
+                    "str": "\u2605Hya3903",
                     "strWidth": 149.21875
                 }
             ]
@@ -39519,7 +39519,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Hya3418",
+                    "str": "\u2605Hya3418",
                     "strWidth": 145.21875
                 }
             ]
@@ -39549,7 +39549,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Hya3482",
+                    "str": "\u2605Hya3482",
                     "strWidth": 149.21875
                 }
             ]
@@ -39579,7 +39579,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Hya3845",
+                    "str": "\u2605Hya3845",
                     "strWidth": 149.21875
                 }
             ]
@@ -39609,7 +39609,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Eri1084",
+                    "str": "\u2605Eri1084",
                     "strWidth": 126.64063262939453
                 }
             ]
@@ -39639,7 +39639,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Eri472",
+                    "str": "\u2605Eri472",
                     "strWidth": 112.65625
                 }
             ]
@@ -39669,7 +39669,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Eri1666",
+                    "str": "\u2605Eri1666",
                     "strWidth": 126.64063262939453
                 }
             ]
@@ -39699,7 +39699,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Eri897",
+                    "str": "\u2605Eri897",
                     "strWidth": 112.65625
                 }
             ]
@@ -39729,7 +39729,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Eri1231",
+                    "str": "\u2605Eri1231",
                     "strWidth": 122.64064025878906
                 }
             ]
@@ -39759,7 +39759,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Eri874",
+                    "str": "\u2605Eri874",
                     "strWidth": 112.65625
                 }
             ]
@@ -39789,7 +39789,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Eri1298",
+                    "str": "\u2605Eri1298",
                     "strWidth": 126.64063262939453
                 }
             ]
@@ -39819,7 +39819,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Eri1325",
+                    "str": "\u2605Eri1325",
                     "strWidth": 126.64063262939453
                 }
             ]
@@ -39849,7 +39849,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Eri984",
+                    "str": "\u2605Eri984",
                     "strWidth": 112.65625
                 }
             ]
@@ -39879,7 +39879,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Eri1464",
+                    "str": "\u2605Eri1464",
                     "strWidth": 126.64063262939453
                 }
             ]
@@ -39909,7 +39909,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Eri1393",
+                    "str": "\u2605Eri1393",
                     "strWidth": 126.64063262939453
                 }
             ]
@@ -39939,7 +39939,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Eri850",
+                    "str": "\u2605Eri850",
                     "strWidth": 112.65625
                 }
             ]
@@ -39969,7 +39969,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Tau1409",
+                    "str": "\u2605Tau1409",
                     "strWidth": 141.53125
                 }
             ]
@@ -39999,7 +39999,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Tau1457",
+                    "str": "\u2605Tau1457",
                     "strWidth": 141.53125
                 }
             ]
@@ -40029,7 +40029,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Tau1165",
+                    "str": "\u2605Tau1165",
                     "strWidth": 137.53126525878906
                 }
             ]
@@ -40059,7 +40059,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Tau1791",
+                    "str": "\u2605Tau1791",
                     "strWidth": 137.53126525878906
                 }
             ]
@@ -40089,7 +40089,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Tau1910",
+                    "str": "\u2605Tau1910",
                     "strWidth": 137.53126525878906
                 }
             ]
@@ -40119,7 +40119,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Tau1346",
+                    "str": "\u2605Tau1346",
                     "strWidth": 141.53125
                 }
             ]
@@ -40149,7 +40149,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Tau1373",
+                    "str": "\u2605Tau1373",
                     "strWidth": 141.53125
                 }
             ]
@@ -40179,7 +40179,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Tau1412",
+                    "str": "\u2605Tau1412",
                     "strWidth": 137.53126525878906
                 }
             ]
@@ -40209,7 +40209,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★CMa2491",
+                    "str": "\u2605CMa2491",
                     "strWidth": 155.0625
                 }
             ]
@@ -40239,7 +40239,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★CMa2693",
+                    "str": "\u2605CMa2693",
                     "strWidth": 159.0625
                 }
             ]
@@ -40269,7 +40269,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★CMa2294",
+                    "str": "\u2605CMa2294",
                     "strWidth": 159.0625
                 }
             ]
@@ -40299,7 +40299,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★CMa2827",
+                    "str": "\u2605CMa2827",
                     "strWidth": 159.0625
                 }
             ]
@@ -40329,7 +40329,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★CMa2282",
+                    "str": "\u2605CMa2282",
                     "strWidth": 159.0625
                 }
             ]
@@ -40359,7 +40359,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★CMa2618",
+                    "str": "\u2605CMa2618",
                     "strWidth": 155.0625
                 }
             ]
@@ -40389,7 +40389,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★CMa2657",
+                    "str": "\u2605CMa2657",
                     "strWidth": 159.0625
                 }
             ]
@@ -40419,7 +40419,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★CMa2646",
+                    "str": "\u2605CMa2646",
                     "strWidth": 159.0625
                 }
             ]
@@ -40449,7 +40449,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★UMa4905",
+                    "str": "\u2605UMa4905",
                     "strWidth": 160.15625
                 }
             ]
@@ -40479,7 +40479,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★UMa4301",
+                    "str": "\u2605UMa4301",
                     "strWidth": 156.15625
                 }
             ]
@@ -40509,7 +40509,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★UMa5191",
+                    "str": "\u2605UMa5191",
                     "strWidth": 152.15625
                 }
             ]
@@ -40539,7 +40539,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★UMa5054",
+                    "str": "\u2605UMa5054",
                     "strWidth": 160.15625
                 }
             ]
@@ -40569,7 +40569,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★UMa4295",
+                    "str": "\u2605UMa4295",
                     "strWidth": 160.15625
                 }
             ]
@@ -40599,7 +40599,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★UMa4660",
+                    "str": "\u2605UMa4660",
                     "strWidth": 160.15625
                 }
             ]
@@ -40629,7 +40629,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★UMa4554",
+                    "str": "\u2605UMa4554",
                     "strWidth": 160.15625
                 }
             ]
@@ -40659,7 +40659,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★UMa4069",
+                    "str": "\u2605UMa4069",
                     "strWidth": 160.15625
                 }
             ]
@@ -40689,7 +40689,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★UMa3569",
+                    "str": "\u2605UMa3569",
                     "strWidth": 160.15625
                 }
             ]
@@ -40719,7 +40719,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★UMa3323",
+                    "str": "\u2605UMa3323",
                     "strWidth": 160.15625
                 }
             ]
@@ -40749,7 +40749,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★UMa4033",
+                    "str": "\u2605UMa4033",
                     "strWidth": 160.15625
                 }
             ]
@@ -40779,7 +40779,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★UMa4377",
+                    "str": "\u2605UMa4377",
                     "strWidth": 160.15625
                 }
             ]
@@ -40809,7 +40809,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★UMa4375",
+                    "str": "\u2605UMa4375",
                     "strWidth": 160.15625
                 }
             ]
@@ -40839,7 +40839,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★UMa4518",
+                    "str": "\u2605UMa4518",
                     "strWidth": 156.15625
                 }
             ]
@@ -40869,7 +40869,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★UMa3594",
+                    "str": "\u2605UMa3594",
                     "strWidth": 160.15625
                 }
             ]
@@ -40899,7 +40899,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Vir5056",
+                    "str": "\u2605Vir5056",
                     "strWidth": 134.796875
                 }
             ]
@@ -40929,7 +40929,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Vir4825",
+                    "str": "\u2605Vir4825",
                     "strWidth": 134.796875
                 }
             ]
@@ -40959,7 +40959,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Vir4932",
+                    "str": "\u2605Vir4932",
                     "strWidth": 134.796875
                 }
             ]
@@ -40989,7 +40989,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Vir4540",
+                    "str": "\u2605Vir4540",
                     "strWidth": 134.796875
                 }
             ]
@@ -41019,7 +41019,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Vir4689",
+                    "str": "\u2605Vir4689",
                     "strWidth": 134.796875
                 }
             ]
@@ -41049,7 +41049,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Vir5338",
+                    "str": "\u2605Vir5338",
                     "strWidth": 134.796875
                 }
             ]
@@ -41079,7 +41079,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Vir4910",
+                    "str": "\u2605Vir4910",
                     "strWidth": 130.796875
                 }
             ]
@@ -41109,7 +41109,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Vir5315",
+                    "str": "\u2605Vir5315",
                     "strWidth": 130.796875
                 }
             ]
@@ -41139,7 +41139,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Vir5359",
+                    "str": "\u2605Vir5359",
                     "strWidth": 134.796875
                 }
             ]
@@ -41169,7 +41169,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Vir5409",
+                    "str": "\u2605Vir5409",
                     "strWidth": 134.796875
                 }
             ]
@@ -41199,7 +41199,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Vir5107",
+                    "str": "\u2605Vir5107",
                     "strWidth": 130.796875
                 }
             ]
@@ -41229,7 +41229,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Ari617",
+                    "str": "\u2605Ari617",
                     "strWidth": 112.93750762939453
                 }
             ]
@@ -41259,7 +41259,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Ari553",
+                    "str": "\u2605Ari553",
                     "strWidth": 116.9375
                 }
             ]
@@ -41289,7 +41289,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Ari546",
+                    "str": "\u2605Ari546",
                     "strWidth": 116.9375
                 }
             ]
@@ -41319,7 +41319,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Ari951",
+                    "str": "\u2605Ari951",
                     "strWidth": 112.93750762939453
                 }
             ]
@@ -41349,7 +41349,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Ori1713",
+                    "str": "\u2605Ori1713",
                     "strWidth": 131.18751525878906
                 }
             ]
@@ -41379,7 +41379,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Ori2061",
+                    "str": "\u2605Ori2061",
                     "strWidth": 135.1875
                 }
             ]
@@ -41409,7 +41409,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Ori1790",
+                    "str": "\u2605Ori1790",
                     "strWidth": 135.1875
                 }
             ]
@@ -41439,7 +41439,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Ori1903",
+                    "str": "\u2605Ori1903",
                     "strWidth": 135.1875
                 }
             ]
@@ -41469,7 +41469,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Ori1948",
+                    "str": "\u2605Ori1948",
                     "strWidth": 135.1875
                 }
             ]
@@ -41499,7 +41499,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Ori2004",
+                    "str": "\u2605Ori2004",
                     "strWidth": 139.1875
                 }
             ]
@@ -41529,7 +41529,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Ori1852",
+                    "str": "\u2605Ori1852",
                     "strWidth": 135.1875
                 }
             ]
@@ -41559,7 +41559,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Ori1879",
+                    "str": "\u2605Ori1879",
                     "strWidth": 135.1875
                 }
             ]
@@ -41589,7 +41589,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Ori1899",
+                    "str": "\u2605Ori1899",
                     "strWidth": 135.1875
                 }
             ]
@@ -41619,7 +41619,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Ori1543",
+                    "str": "\u2605Ori1543",
                     "strWidth": 135.1875
                 }
             ]
@@ -41649,7 +41649,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Cas21",
+                    "str": "\u2605Cas21",
                     "strWidth": 104.62500762939453
                 }
             ]
@@ -41679,7 +41679,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Cas168",
+                    "str": "\u2605Cas168",
                     "strWidth": 122.60938262939453
                 }
             ]
@@ -41709,7 +41709,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Cas403",
+                    "str": "\u2605Cas403",
                     "strWidth": 126.609375
                 }
             ]
@@ -41739,7 +41739,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Cas153",
+                    "str": "\u2605Cas153",
                     "strWidth": 122.60938262939453
                 }
             ]
@@ -41769,7 +41769,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Cas542",
+                    "str": "\u2605Cas542",
                     "strWidth": 126.609375
                 }
             ]
@@ -41799,7 +41799,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Cas219",
+                    "str": "\u2605Cas219",
                     "strWidth": 122.60938262939453
                 }
             ]
@@ -41829,7 +41829,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Cas265",
+                    "str": "\u2605Cas265",
                     "strWidth": 126.609375
                 }
             ]
@@ -41859,7 +41859,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Cnc3572",
+                    "str": "\u2605Cnc3572",
                     "strWidth": 147.3125
                 }
             ]
@@ -41889,7 +41889,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Cnc3208",
+                    "str": "\u2605Cnc3208",
                     "strWidth": 147.3125
                 }
             ]
@@ -41919,7 +41919,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Cnc3461",
+                    "str": "\u2605Cnc3461",
                     "strWidth": 143.3125
                 }
             ]
@@ -41949,7 +41949,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Cnc3449",
+                    "str": "\u2605Cnc3449",
                     "strWidth": 147.3125
                 }
             ]
@@ -41979,7 +41979,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Cnc3429",
+                    "str": "\u2605Cnc3429",
                     "strWidth": 147.3125
                 }
             ]
@@ -42009,7 +42009,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Cnc3627",
+                    "str": "\u2605Cnc3627",
                     "strWidth": 147.3125
                 }
             ]
@@ -42039,7 +42039,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Cnc3268",
+                    "str": "\u2605Cnc3268",
                     "strWidth": 147.3125
                 }
             ]
@@ -42069,7 +42069,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Cnc3249",
+                    "str": "\u2605Cnc3249",
                     "strWidth": 147.3125
                 }
             ]
@@ -42099,7 +42099,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Com4968",
+                    "str": "\u2605Com4968",
                     "strWidth": 157.65625
                 }
             ]
@@ -42129,7 +42129,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Crv4757",
+                    "str": "\u2605Crv4757",
                     "strWidth": 141.515625
                 }
             ]
@@ -42159,7 +42159,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Crv4623",
+                    "str": "\u2605Crv4623",
                     "strWidth": 141.515625
                 }
             ]
@@ -42189,7 +42189,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Crv4662",
+                    "str": "\u2605Crv4662",
                     "strWidth": 141.515625
                 }
             ]
@@ -42219,7 +42219,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Crv4786",
+                    "str": "\u2605Crv4786",
                     "strWidth": 141.515625
                 }
             ]
@@ -42249,7 +42249,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Aur1708",
+                    "str": "\u2605Aur1708",
                     "strWidth": 138.890625
                 }
             ]
@@ -42279,7 +42279,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Aur2088",
+                    "str": "\u2605Aur2088",
                     "strWidth": 142.890625
                 }
             ]
@@ -42309,7 +42309,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Aur1605",
+                    "str": "\u2605Aur1605",
                     "strWidth": 138.890625
                 }
             ]
@@ -42339,7 +42339,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Aur2095",
+                    "str": "\u2605Aur2095",
                     "strWidth": 142.890625
                 }
             ]
@@ -42369,7 +42369,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Aur1577",
+                    "str": "\u2605Aur1577",
                     "strWidth": 138.890625
                 }
             ]
@@ -42399,7 +42399,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Aur1641",
+                    "str": "\u2605Aur1641",
                     "strWidth": 134.89064025878906
                 }
             ]
@@ -42429,7 +42429,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Aur1612",
+                    "str": "\u2605Aur1612",
                     "strWidth": 134.89064025878906
                 }
             ]
@@ -42459,7 +42459,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Pav7790",
+                    "str": "\u2605Pav7790",
                     "strWidth": 143.1875
                 }
             ]
@@ -42489,7 +42489,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Cet911",
+                    "str": "\u2605Cet911",
                     "strWidth": 117.81251525878906
                 }
             ]
@@ -42519,7 +42519,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Cet681",
+                    "str": "\u2605Cet681",
                     "strWidth": 121.81250762939453
                 }
             ]
@@ -42549,7 +42549,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Cet188",
+                    "str": "\u2605Cet188",
                     "strWidth": 121.81250762939453
                 }
             ]
@@ -42579,7 +42579,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Cet539",
+                    "str": "\u2605Cet539",
                     "strWidth": 125.8125
                 }
             ]
@@ -42609,7 +42609,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Cet804",
+                    "str": "\u2605Cet804",
                     "strWidth": 125.8125
                 }
             ]
@@ -42639,7 +42639,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Cep8974",
+                    "str": "\u2605Cep8974",
                     "strWidth": 151.0
                 }
             ]
@@ -42669,7 +42669,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Cep8162",
+                    "str": "\u2605Cep8162",
                     "strWidth": 147.0
                 }
             ]
@@ -42699,7 +42699,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Cep8238",
+                    "str": "\u2605Cep8238",
                     "strWidth": 151.0
                 }
             ]
@@ -42729,7 +42729,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Cep8417",
+                    "str": "\u2605Cep8417",
                     "strWidth": 147.0
                 }
             ]
@@ -42759,7 +42759,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Cen5267",
+                    "str": "\u2605Cen5267",
                     "strWidth": 149.328125
                 }
             ]
@@ -42789,7 +42789,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Cen5288",
+                    "str": "\u2605Cen5288",
                     "strWidth": 149.328125
                 }
             ]
@@ -42819,7 +42819,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Cen551",
+                    "str": "\u2605Cen551",
                     "strWidth": 127.34375762939453
                 }
             ]
@@ -42849,7 +42849,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Cen5459",
+                    "str": "\u2605Cen5459",
                     "strWidth": 149.328125
                 }
             ]
@@ -42879,7 +42879,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Cen5460",
+                    "str": "\u2605Cen5460",
                     "strWidth": 149.328125
                 }
             ]
@@ -42909,7 +42909,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★CMi2943",
+                    "str": "\u2605CMi2943",
                     "strWidth": 151.375
                 }
             ]
@@ -42939,7 +42939,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★CMi2845",
+                    "str": "\u2605CMi2845",
                     "strWidth": 151.375
                 }
             ]
@@ -42969,7 +42969,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Equ8131",
+                    "str": "\u2605Equ8131",
                     "strWidth": 138.23439025878906
                 }
             ]
@@ -42999,7 +42999,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Vul7405",
+                    "str": "\u2605Vul7405",
                     "strWidth": 140.890625
                 }
             ]
@@ -43029,7 +43029,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★UMi424",
+                    "str": "\u2605UMi424",
                     "strWidth": 134.484375
                 }
             ]
@@ -43059,7 +43059,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★UMi5563",
+                    "str": "\u2605UMi5563",
                     "strWidth": 152.46875
                 }
             ]
@@ -43089,7 +43089,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★UMi5735",
+                    "str": "\u2605UMi5735",
                     "strWidth": 152.46875
                 }
             ]
@@ -43119,7 +43119,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★UMi6789",
+                    "str": "\u2605UMi6789",
                     "strWidth": 152.46875
                 }
             ]
@@ -43149,7 +43149,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Crt4287",
+                    "str": "\u2605Crt4287",
                     "strWidth": 137.484375
                 }
             ]
@@ -43179,7 +43179,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Lyr7001",
+                    "str": "\u2605Lyr7001",
                     "strWidth": 132.53125
                 }
             ]
@@ -43209,7 +43209,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Lyr7178",
+                    "str": "\u2605Lyr7178",
                     "strWidth": 132.53125
                 }
             ]
@@ -43239,7 +43239,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Lyr7106",
+                    "str": "\u2605Lyr7106",
                     "strWidth": 132.53125
                 }
             ]
@@ -43269,7 +43269,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Lyr7298",
+                    "str": "\u2605Lyr7298",
                     "strWidth": 136.53125
                 }
             ]
@@ -43299,7 +43299,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Ara6585",
+                    "str": "\u2605Ara6585",
                     "strWidth": 142.609375
                 }
             ]
@@ -43329,7 +43329,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Sco6134",
+                    "str": "\u2605Sco6134",
                     "strWidth": 140.09375
                 }
             ]
@@ -43359,7 +43359,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Sco6527",
+                    "str": "\u2605Sco6527",
                     "strWidth": 144.09375
                 }
             ]
@@ -43389,7 +43389,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Sco6553",
+                    "str": "\u2605Sco6553",
                     "strWidth": 144.09375
                 }
             ]
@@ -43419,7 +43419,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Sco5953",
+                    "str": "\u2605Sco5953",
                     "strWidth": 144.09375
                 }
             ]
@@ -43449,7 +43449,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Sco5984",
+                    "str": "\u2605Sco5984",
                     "strWidth": 144.09375
                 }
             ]
@@ -43479,7 +43479,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Sco6508",
+                    "str": "\u2605Sco6508",
                     "strWidth": 144.09375
                 }
             ]
@@ -43509,7 +43509,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Sco6084",
+                    "str": "\u2605Sco6084",
                     "strWidth": 144.09375
                 }
             ]
@@ -43539,7 +43539,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Sco5944",
+                    "str": "\u2605Sco5944",
                     "strWidth": 144.09375
                 }
             ]
@@ -43569,7 +43569,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Sco6630",
+                    "str": "\u2605Sco6630",
                     "strWidth": 144.09375
                 }
             ]
@@ -43599,7 +43599,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Sco6027",
+                    "str": "\u2605Sco6027",
                     "strWidth": 144.09375
                 }
             ]
@@ -43629,7 +43629,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Sco6247",
+                    "str": "\u2605Sco6247",
                     "strWidth": 144.09375
                 }
             ]
@@ -43659,7 +43659,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Sco6252",
+                    "str": "\u2605Sco6252",
                     "strWidth": 144.09375
                 }
             ]
@@ -43689,7 +43689,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Sco5928",
+                    "str": "\u2605Sco5928",
                     "strWidth": 144.09375
                 }
             ]
@@ -43719,7 +43719,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Sco6241",
+                    "str": "\u2605Sco6241",
                     "strWidth": 140.09375
                 }
             ]
@@ -43749,7 +43749,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Sco6165",
+                    "str": "\u2605Sco6165",
                     "strWidth": 140.09375
                 }
             ]
@@ -43779,7 +43779,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Tri544",
+                    "str": "\u2605Tri544",
                     "strWidth": 113.9375
                 }
             ]
@@ -43809,7 +43809,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Leo3982",
+                    "str": "\u2605Leo3982",
                     "strWidth": 145.625
                 }
             ]
@@ -43839,7 +43839,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Leo4534",
+                    "str": "\u2605Leo4534",
                     "strWidth": 145.625
                 }
             ]
@@ -43869,7 +43869,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Leo4357",
+                    "str": "\u2605Leo4357",
                     "strWidth": 145.625
                 }
             ]
@@ -43899,7 +43899,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Leo4057",
+                    "str": "\u2605Leo4057",
                     "strWidth": 145.625
                 }
             ]
@@ -43929,7 +43929,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Leo4359",
+                    "str": "\u2605Leo4359",
                     "strWidth": 145.625
                 }
             ]
@@ -43959,7 +43959,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Leo4031",
+                    "str": "\u2605Leo4031",
                     "strWidth": 141.625
                 }
             ]
@@ -43989,7 +43989,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Leo3852",
+                    "str": "\u2605Leo3852",
                     "strWidth": 145.625
                 }
             ]
@@ -44019,7 +44019,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Leo3905",
+                    "str": "\u2605Leo3905",
                     "strWidth": 145.625
                 }
             ]
@@ -44049,7 +44049,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Leo3773",
+                    "str": "\u2605Leo3773",
                     "strWidth": 145.625
                 }
             ]
@@ -44079,7 +44079,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Gru8425",
+                    "str": "\u2605Gru8425",
                     "strWidth": 146.09375
                 }
             ]
@@ -44109,7 +44109,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Gru8636",
+                    "str": "\u2605Gru8636",
                     "strWidth": 146.09375
                 }
             ]
@@ -44139,7 +44139,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Gru8353",
+                    "str": "\u2605Gru8353",
                     "strWidth": 146.09375
                 }
             ]
@@ -44169,7 +44169,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Lib5685",
+                    "str": "\u2605Lib5685",
                     "strWidth": 137.359375
                 }
             ]
@@ -44199,7 +44199,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Lib5531",
+                    "str": "\u2605Lib5531",
                     "strWidth": 133.359375
                 }
             ]
@@ -44229,7 +44229,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Lib5787",
+                    "str": "\u2605Lib5787",
                     "strWidth": 137.359375
                 }
             ]
@@ -44259,7 +44259,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Lib5603",
+                    "str": "\u2605Lib5603",
                     "strWidth": 137.359375
                 }
             ]
@@ -44289,7 +44289,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Pup3165",
+                    "str": "\u2605Pup3165",
                     "strWidth": 142.640625
                 }
             ]
@@ -44319,7 +44319,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Pup3185",
+                    "str": "\u2605Pup3185",
                     "strWidth": 142.640625
                 }
             ]
@@ -44349,7 +44349,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Pup3045",
+                    "str": "\u2605Pup3045",
                     "strWidth": 146.640625
                 }
             ]
@@ -44379,7 +44379,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Cyg7924",
+                    "str": "\u2605Cyg7924",
                     "strWidth": 148.34375
                 }
             ]
@@ -44409,7 +44409,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Cyg7417",
+                    "str": "\u2605Cyg7417",
                     "strWidth": 144.34375
                 }
             ]
@@ -44439,7 +44439,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Cyg7796",
+                    "str": "\u2605Cyg7796",
                     "strWidth": 148.34375
                 }
             ]
@@ -44469,7 +44469,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Cyg8301",
+                    "str": "\u2605Cyg8301",
                     "strWidth": 144.34375
                 }
             ]
@@ -44499,7 +44499,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Cyg7949",
+                    "str": "\u2605Cyg7949",
                     "strWidth": 148.34375
                 }
             ]
@@ -44529,7 +44529,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Cyg7528",
+                    "str": "\u2605Cyg7528",
                     "strWidth": 148.34375
                 }
             ]
@@ -44559,7 +44559,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Oct7228",
+                    "str": "\u2605Oct7228",
                     "strWidth": 145.921875
                 }
             ]
@@ -44589,7 +44589,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Col1956",
+                    "str": "\u2605Col1956",
                     "strWidth": 138.71875
                 }
             ]
@@ -44619,7 +44619,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Col2040",
+                    "str": "\u2605Col2040",
                     "strWidth": 142.71875
                 }
             ]
@@ -44649,7 +44649,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Col2177",
+                    "str": "\u2605Col2177",
                     "strWidth": 138.71875
                 }
             ]
@@ -44679,7 +44679,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Gem2990",
+                    "str": "\u2605Gem2990",
                     "strWidth": 159.546875
                 }
             ]
@@ -44709,7 +44709,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Gem2891",
+                    "str": "\u2605Gem2891",
                     "strWidth": 155.546875
                 }
             ]
@@ -44739,7 +44739,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Gem2421",
+                    "str": "\u2605Gem2421",
                     "strWidth": 155.546875
                 }
             ]
@@ -44769,7 +44769,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Gem2473",
+                    "str": "\u2605Gem2473",
                     "strWidth": 159.546875
                 }
             ]
@@ -44799,7 +44799,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Gem2216",
+                    "str": "\u2605Gem2216",
                     "strWidth": 155.546875
                 }
             ]
@@ -44829,7 +44829,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Gem2777",
+                    "str": "\u2605Gem2777",
                     "strWidth": 159.546875
                 }
             ]
@@ -44859,7 +44859,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Gem2650",
+                    "str": "\u2605Gem2650",
                     "strWidth": 159.546875
                 }
             ]
@@ -44889,7 +44889,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Gem2286",
+                    "str": "\u2605Gem2286",
                     "strWidth": 159.546875
                 }
             ]
@@ -44919,7 +44919,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Gem2484",
+                    "str": "\u2605Gem2484",
                     "strWidth": 159.546875
                 }
             ]
@@ -44949,7 +44949,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Gem2930",
+                    "str": "\u2605Gem2930",
                     "strWidth": 159.546875
                 }
             ]
@@ -44979,7 +44979,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Peg8775",
+                    "str": "\u2605Peg8775",
                     "strWidth": 145.96875
                 }
             ]
@@ -45009,7 +45009,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Peg8781",
+                    "str": "\u2605Peg8781",
                     "strWidth": 141.96875
                 }
             ]
@@ -45039,7 +45039,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Peg39",
+                    "str": "\u2605Peg39",
                     "strWidth": 110.0
                 }
             ]
@@ -45069,7 +45069,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Peg8308",
+                    "str": "\u2605Peg8308",
                     "strWidth": 145.96875
                 }
             ]
@@ -45099,7 +45099,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Peg8650",
+                    "str": "\u2605Peg8650",
                     "strWidth": 145.96875
                 }
             ]
@@ -45129,7 +45129,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Peg8634",
+                    "str": "\u2605Peg8634",
                     "strWidth": 145.96875
                 }
             ]
@@ -45159,7 +45159,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Peg8684",
+                    "str": "\u2605Peg8684",
                     "strWidth": 145.96875
                 }
             ]
@@ -45189,7 +45189,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Peg8450",
+                    "str": "\u2605Peg8450",
                     "strWidth": 145.96875
                 }
             ]
@@ -45219,7 +45219,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Peg8880",
+                    "str": "\u2605Peg8880",
                     "strWidth": 145.96875
                 }
             ]
@@ -45249,7 +45249,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Peg8905",
+                    "str": "\u2605Peg8905",
                     "strWidth": 145.96875
                 }
             ]
@@ -45279,7 +45279,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Oph6556",
+                    "str": "\u2605Oph6556",
                     "strWidth": 154.75
                 }
             ]
@@ -45309,7 +45309,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Oph6378",
+                    "str": "\u2605Oph6378",
                     "strWidth": 154.75
                 }
             ]
@@ -45339,7 +45339,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Oph6603",
+                    "str": "\u2605Oph6603",
                     "strWidth": 154.75
                 }
             ]
@@ -45369,7 +45369,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Oph6149",
+                    "str": "\u2605Oph6149",
                     "strWidth": 150.75
                 }
             ]
@@ -45399,7 +45399,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Oph6056",
+                    "str": "\u2605Oph6056",
                     "strWidth": 154.75
                 }
             ]
@@ -45429,7 +45429,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Oph6075",
+                    "str": "\u2605Oph6075",
                     "strWidth": 154.75
                 }
             ]
@@ -45459,7 +45459,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Ser5854",
+                    "str": "\u2605Ser5854",
                     "strWidth": 138.609375
                 }
             ]
@@ -45489,7 +45489,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Ser7141",
+                    "str": "\u2605Ser7141",
                     "strWidth": 130.60939025878906
                 }
             ]
@@ -45519,7 +45519,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Ser5879",
+                    "str": "\u2605Ser5879",
                     "strWidth": 138.609375
                 }
             ]
@@ -45549,7 +45549,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Her6406",
+                    "str": "\u2605Her6406",
                     "strWidth": 145.171875
                 }
             ]
@@ -45579,7 +45579,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Her6148",
+                    "str": "\u2605Her6148",
                     "strWidth": 141.171875
                 }
             ]
@@ -45609,7 +45609,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Her6410",
+                    "str": "\u2605Her6410",
                     "strWidth": 141.171875
                 }
             ]
@@ -45639,7 +45639,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Her6526",
+                    "str": "\u2605Her6526",
                     "strWidth": 145.171875
                 }
             ]
@@ -45669,7 +45669,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Her6117",
+                    "str": "\u2605Her6117",
                     "strWidth": 137.17189025878906
                 }
             ]
@@ -45699,7 +45699,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Her6008",
+                    "str": "\u2605Her6008",
                     "strWidth": 145.171875
                 }
             ]
@@ -45729,7 +45729,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Per936",
+                    "str": "\u2605Per936",
                     "strWidth": 121.453125
                 }
             ]
@@ -45759,7 +45759,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Per1017",
+                    "str": "\u2605Per1017",
                     "strWidth": 131.43751525878906
                 }
             ]
@@ -45789,7 +45789,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Per1131",
+                    "str": "\u2605Per1131",
                     "strWidth": 127.4375228881836
                 }
             ]
@@ -45819,7 +45819,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Per1228",
+                    "str": "\u2605Per1228",
                     "strWidth": 135.4375
                 }
             ]
@@ -45849,7 +45849,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Per834",
+                    "str": "\u2605Per834",
                     "strWidth": 121.453125
                 }
             ]
@@ -45879,7 +45879,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Per941",
+                    "str": "\u2605Per941",
                     "strWidth": 117.45313262939453
                 }
             ]
@@ -45909,7 +45909,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Phe99",
+                    "str": "\u2605Phe99",
                     "strWidth": 109.390625
                 }
             ]
@@ -45939,7 +45939,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Phe338",
+                    "str": "\u2605Phe338",
                     "strWidth": 127.375
                 }
             ]
@@ -45969,7 +45969,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Vel3634",
+                    "str": "\u2605Vel3634",
                     "strWidth": 141.28125
                 }
             ]
@@ -45999,7 +45999,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Vel3485",
+                    "str": "\u2605Vel3485",
                     "strWidth": 141.28125
                 }
             ]
@@ -46029,7 +46029,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Vel3734",
+                    "str": "\u2605Vel3734",
                     "strWidth": 141.28125
                 }
             ]
@@ -46059,7 +46059,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Aqr8232",
+                    "str": "\u2605Aqr8232",
                     "strWidth": 144.59375
                 }
             ]
@@ -46089,7 +46089,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Aqr8414",
+                    "str": "\u2605Aqr8414",
                     "strWidth": 140.59375
                 }
             ]
@@ -46119,7 +46119,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Aqr8709",
+                    "str": "\u2605Aqr8709",
                     "strWidth": 144.59375
                 }
             ]
@@ -46149,7 +46149,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Aqr8518",
+                    "str": "\u2605Aqr8518",
                     "strWidth": 140.59375
                 }
             ]
@@ -46179,7 +46179,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Aqr7950",
+                    "str": "\u2605Aqr7950",
                     "strWidth": 144.59375
                 }
             ]
@@ -46209,7 +46209,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Aqr8499",
+                    "str": "\u2605Aqr8499",
                     "strWidth": 144.59375
                 }
             ]
@@ -46239,7 +46239,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Aqr8610",
+                    "str": "\u2605Aqr8610",
                     "strWidth": 140.59375
                 }
             ]
@@ -46269,7 +46269,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Aqr8264",
+                    "str": "\u2605Aqr8264",
                     "strWidth": 144.59375
                 }
             ]
@@ -46299,7 +46299,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Cru4853",
+                    "str": "\u2605Cru4853",
                     "strWidth": 143.015625
                 }
             ]
@@ -46329,7 +46329,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Cru4730",
+                    "str": "\u2605Cru4730",
                     "strWidth": 143.015625
                 }
             ]
@@ -46359,7 +46359,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Cru4763",
+                    "str": "\u2605Cru4763",
                     "strWidth": 143.015625
                 }
             ]
@@ -46389,7 +46389,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Cru4700",
+                    "str": "\u2605Cru4700",
                     "strWidth": 143.015625
                 }
             ]
@@ -46419,7 +46419,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Cru4656",
+                    "str": "\u2605Cru4656",
                     "strWidth": 143.015625
                 }
             ]
@@ -46449,7 +46449,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★PsA8728",
+                    "str": "\u2605PsA8728",
                     "strWidth": 145.453125
                 }
             ]
@@ -46479,7 +46479,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★TrA6217",
+                    "str": "\u2605TrA6217",
                     "strWidth": 140.4375
                 }
             ]
@@ -46509,7 +46509,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Cap7776",
+                    "str": "\u2605Cap7776",
                     "strWidth": 150.328125
                 }
             ]
@@ -46539,7 +46539,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Cap7754",
+                    "str": "\u2605Cap7754",
                     "strWidth": 150.328125
                 }
             ]
@@ -46569,7 +46569,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Cap8278",
+                    "str": "\u2605Cap8278",
                     "strWidth": 150.328125
                 }
             ]
@@ -46599,7 +46599,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Cap8322",
+                    "str": "\u2605Cap8322",
                     "strWidth": 150.328125
                 }
             ]
@@ -46629,7 +46629,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Cap7773",
+                    "str": "\u2605Cap7773",
                     "strWidth": 150.328125
                 }
             ]
@@ -46659,7 +46659,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Sge7479",
+                    "str": "\u2605Sge7479",
                     "strWidth": 145.140625
                 }
             ]
@@ -46689,7 +46689,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Car2326",
+                    "str": "\u2605Car2326",
                     "strWidth": 142.734375
                 }
             ]
@@ -46719,7 +46719,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Car3685",
+                    "str": "\u2605Car3685",
                     "strWidth": 142.734375
                 }
             ]
@@ -46749,7 +46749,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Car3307",
+                    "str": "\u2605Car3307",
                     "strWidth": 142.734375
                 }
             ]
@@ -46779,7 +46779,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Car3699",
+                    "str": "\u2605Car3699",
                     "strWidth": 142.734375
                 }
             ]
@@ -46809,7 +46809,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Dra5744",
+                    "str": "\u2605Dra5744",
                     "strWidth": 144.59375
                 }
             ]
@@ -46839,7 +46839,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Dra5291",
+                    "str": "\u2605Dra5291",
                     "strWidth": 140.59375
                 }
             ]
@@ -46869,7 +46869,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Dra6705",
+                    "str": "\u2605Dra6705",
                     "strWidth": 144.59375
                 }
             ]
@@ -46899,7 +46899,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Dra6536",
+                    "str": "\u2605Dra6536",
                     "strWidth": 144.59375
                 }
             ]
@@ -46929,7 +46929,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Dra7310",
+                    "str": "\u2605Dra7310",
                     "strWidth": 140.59375
                 }
             ]
@@ -46959,7 +46959,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Dra6688",
+                    "str": "\u2605Dra6688",
                     "strWidth": 144.59375
                 }
             ]
@@ -46989,7 +46989,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Dra4434",
+                    "str": "\u2605Dra4434",
                     "strWidth": 144.59375
                 }
             ]
@@ -47019,7 +47019,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Dra6370",
+                    "str": "\u2605Dra6370",
                     "strWidth": 144.59375
                 }
             ]
@@ -47049,7 +47049,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Dra7462",
+                    "str": "\u2605Dra7462",
                     "strWidth": 144.59375
                 }
             ]
@@ -47079,7 +47079,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Dra6396",
+                    "str": "\u2605Dra6396",
                     "strWidth": 144.59375
                 }
             ]
@@ -47109,7 +47109,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Dra6132",
+                    "str": "\u2605Dra6132",
                     "strWidth": 140.59375
                 }
             ]
@@ -47139,7 +47139,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Dra6636",
+                    "str": "\u2605Dra6636",
                     "strWidth": 144.59375
                 }
             ]
@@ -47169,7 +47169,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★CVn4915",
+                    "str": "\u2605CVn4915",
                     "strWidth": 149.359375
                 }
             ]
@@ -47199,7 +47199,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★CVn4785",
+                    "str": "\u2605CVn4785",
                     "strWidth": 153.359375
                 }
             ]
@@ -47229,7 +47229,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★CVn4846",
+                    "str": "\u2605CVn4846",
                     "strWidth": 153.359375
                 }
             ]
@@ -47259,7 +47259,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Aql7595",
+                    "str": "\u2605Aql7595",
                     "strWidth": 142.71875
                 }
             ]
@@ -47289,7 +47289,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Aql7557",
+                    "str": "\u2605Aql7557",
                     "strWidth": 142.71875
                 }
             ]
@@ -47319,7 +47319,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Aql7525",
+                    "str": "\u2605Aql7525",
                     "strWidth": 142.71875
                 }
             ]
@@ -47349,7 +47349,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Aql7602",
+                    "str": "\u2605Aql7602",
                     "strWidth": 142.71875
                 }
             ]
@@ -47379,7 +47379,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "★Aql7235",
+                    "str": "\u2605Aql7235",
                     "strWidth": 142.71875
                 }
             ]
