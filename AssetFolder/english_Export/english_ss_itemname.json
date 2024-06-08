@@ -12939,7 +12939,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Rainbow Wing",
+                    "str": "Rule Book",
                     "strWidth": 132.0625
                 }
             ]
@@ -13719,8 +13719,8 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Tea",
-                    "strWidth": 78.90625
+                    "str": "S.S. Ticket",
+                    "strWidth": 134.90625
                 }
             ]
         },
@@ -51369,7 +51369,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Exp. Share",
+                    "str": "Kanto Slate",
                     "strWidth": 150.34375
                 }
             ]
@@ -51737,7 +51737,7 @@
         {
             "labelIndex": 1624,
             "arrayIndex": 1824,
-            "labelName": "ITEMINFO_1624",
+            "labelName": "ITEMNAME_1624",
             "styleInfo": {
                 "styleIndex": 121,
                 "colorIndex": -1,

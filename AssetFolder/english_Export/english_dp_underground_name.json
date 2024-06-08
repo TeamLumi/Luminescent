@@ -1279,10 +1279,10 @@
             "arrayIndex": 42,
             "labelName": "UNDERGROUND_NAME_042",
             "styleInfo": {
-                "styleIndex": 121,
+                "styleIndex": 125,
                 "colorIndex": -1,
                 "fontSize": 42,
-                "maxWidth": 420,
+                "maxWidth": 504,
                 "controlID": 0
             },
             "attributeValueArray": [
@@ -1309,10 +1309,10 @@
             "arrayIndex": 43,
             "labelName": "UNDERGROUND_NAME_043",
             "styleInfo": {
-                "styleIndex": 121,
+                "styleIndex": 125,
                 "colorIndex": -1,
                 "fontSize": 42,
-                "maxWidth": 420,
+                "maxWidth": 504,
                 "controlID": 0
             },
             "attributeValueArray": [

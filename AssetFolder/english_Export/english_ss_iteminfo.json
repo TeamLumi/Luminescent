@@ -16327,16 +16327,16 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "It damages an enemy, but you'll receive recoil damage,",
-                    "strWidth": 653.9375
+                    "str": "The user shrouds itself in electricity and smashes",
+                    "strWidth": 625.484375
                 },
                 {
                     "patternID": 0,
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "too.",
-                    "strWidth": 157.75
+                    "str": "into its target. This also damages the user a little.",
+                    "strWidth": 637.3125
                 }
             ]
         },
@@ -18167,12 +18167,28 @@
             "tagDataArray": [],
             "wordDataArray": [
                 {
+                    "patternID": 7,
+                    "eventID": 1,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "It lists the rules for holding battles.",
+                    "strWidth": 450.59375
+                },
+                {
+                    "patternID": 7,
+                    "eventID": 1,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "For Link Battles, you may choose which set of rules",
+                    "strWidth": 659.09375
+                },
+                {
                     "patternID": 0,
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "A mystical rainbow feather that sparkles.",
-                    "strWidth": 524.09375
+                    "str": "you wish to use.",
+                    "strWidth": 205.8125
                 }
             ]
         },
@@ -19187,12 +19203,20 @@
             "tagDataArray": [],
             "wordDataArray": [
                 {
+                    "patternID": 7,
+                    "eventID": 1,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "A ticket required for sailing on the ferry S.S. Aqua.",
+                    "strWidth": 654.421875
+                },
+                {
                     "patternID": 0,
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "A hot drink which is good for quenching thirst.",
-                    "strWidth": 522.203125
+                    "str": "It has a drawing of a ship on its front.",
+                    "strWidth": 481.78125
                 }
             ]
         },
@@ -79197,7 +79221,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "This item, when held by a Pokémon, ",
+                    "str": "A slate overflowing with enigmatic energy. You can feel",
                     "strWidth": 720.890625
                 },
                 {
@@ -79205,7 +79229,7 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "allows it to earn EXP gained from defeating a Pokémon, ",
+                    "str": "a strong connection between it and the Kanto Room at",
                     "strWidth": 711.1875
                 },
                 {
@@ -79213,7 +79237,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "regardless of if it was used in battle or not.",
+                    "str": "Renegade Park.",
                     "strWidth": 185.953125
                 }
             ]
