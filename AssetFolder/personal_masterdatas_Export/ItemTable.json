@@ -22667,7 +22667,7 @@
             "wk_friend2": 0,
             "wk_friend3": 0,
             "wk_prm_hp_rcv": 0,
-            "flags0": 2147483712
+            "flags0": 64
         },
         {
             "no": 581,
@@ -22784,7 +22784,7 @@
             "wk_friend2": 0,
             "wk_friend3": 0,
             "wk_prm_hp_rcv": 0,
-            "flags0": 2147483712
+            "flags0": 64
         },
         {
             "no": 584,
