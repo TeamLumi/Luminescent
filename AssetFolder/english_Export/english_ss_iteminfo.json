@@ -19191,16 +19191,16 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "A ticket required for sailing on the ferry S.S. Aqua.",
-                    "strWidth": 654.421875
+                    "str": "Aromatic tea that has a slightly bitter taste.",
+                    "strWidth": 559.46875
                 },
                 {
                     "patternID": 0,
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "It has a drawing of a ship on its front.",
-                    "strWidth": 481.78125
+                    "str": "It soothes a dry throat.",
+                    "strWidth": 294.359375
                 }
             ]
         },

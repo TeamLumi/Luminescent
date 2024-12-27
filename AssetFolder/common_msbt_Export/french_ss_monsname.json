@@ -39,7 +39,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u0152uf",
+                    "str": "Œuf",
                     "strWidth": 54.046875
                 }
             ]
@@ -159,7 +159,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Salam\u00e8che",
+                    "str": "Salamèche",
                     "strWidth": 138.015625
                 }
             ]
@@ -909,7 +909,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Nidoran\u2640",
+                    "str": "Nidoran♀",
                     "strWidth": 129.796875
                 }
             ]
@@ -999,7 +999,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Nidoran\u2642",
+                    "str": "Nidoran♂",
                     "strWidth": 129.796875
                 }
             ]
@@ -1089,7 +1089,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "M\u00e9lof\u00e9e",
+                    "str": "Mélofée",
                     "strWidth": 108.59375
                 }
             ]
@@ -1119,7 +1119,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "M\u00e9lodelfe",
+                    "str": "Mélodelfe",
                     "strWidth": 133.65625
                 }
             ]
@@ -1509,7 +1509,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "A\u00e9romite",
+                    "str": "Aéromite",
                     "strWidth": 119.25
                 }
             ]
@@ -1719,7 +1719,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "F\u00e9rosinge",
+                    "str": "Férosinge",
                     "strWidth": 125.796875
                 }
             ]
@@ -1869,7 +1869,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "T\u00eatarte",
+                    "str": "Têtarte",
                     "strWidth": 94.109375
                 }
             ]
@@ -2109,7 +2109,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Ch\u00e9tiflor",
+                    "str": "Chétiflor",
                     "strWidth": 113.8125
                 }
             ]
@@ -2469,7 +2469,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Magn\u00e9ti",
+                    "str": "Magnéti",
                     "strWidth": 106.671875
                 }
             ]
@@ -2499,7 +2499,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Magn\u00e9ton",
+                    "str": "Magnéton",
                     "strWidth": 131.796875
                 }
             ]
@@ -3069,7 +3069,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u00c9lectrode",
+                    "str": "Électrode",
                     "strWidth": 123.65625
                 }
             ]
@@ -3399,7 +3399,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Rhinof\u00e9ros",
+                    "str": "Rhinoféros",
                     "strWidth": 137.609375
                 }
             ]
@@ -3549,7 +3549,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Hypoc\u00e9an",
+                    "str": "Hypocéan",
                     "strWidth": 131.59375
                 }
             ]
@@ -3579,7 +3579,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Poissir\u00e8ne",
+                    "str": "Poissirène",
                     "strWidth": 128.859375
                 }
             ]
@@ -3729,7 +3729,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Ins\u00e9cateur",
+                    "str": "Insécateur",
                     "strWidth": 131.953125
                 }
             ]
@@ -3789,7 +3789,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u00c9lektek",
+                    "str": "Élektek",
                     "strWidth": 95.234375
                 }
             ]
@@ -3939,7 +3939,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "L\u00e9viator",
+                    "str": "Léviator",
                     "strWidth": 104.78125
                 }
             ]
@@ -3999,7 +3999,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "M\u00e9tamorph",
+                    "str": "Métamorph",
                     "strWidth": 149.65625
                 }
             ]
@@ -4029,7 +4029,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u00c9voli",
+                    "str": "Évoli",
                     "strWidth": 62.46875
                 }
             ]
@@ -4299,7 +4299,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pt\u00e9ra",
+                    "str": "Ptéra",
                     "strWidth": 67.25
                 }
             ]
@@ -4389,7 +4389,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u00c9lecthor",
+                    "str": "Électhor",
                     "strWidth": 105.984375
                 }
             ]
@@ -4659,7 +4659,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "M\u00e9ganium",
+                    "str": "Méganium",
                     "strWidth": 134.921875
                 }
             ]
@@ -4689,7 +4689,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "H\u00e9ricendre",
+                    "str": "Héricendre",
                     "strWidth": 143.65625
                 }
             ]
@@ -5229,7 +5229,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "M\u00e9lo",
+                    "str": "Mélo",
                     "strWidth": 66.890625
                 }
             ]
@@ -5799,7 +5799,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "H\u00e9liatronc",
+                    "str": "Héliatronc",
                     "strWidth": 135.0625
                 }
             ]
@@ -5979,7 +5979,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Corn\u00e8bre",
+                    "str": "Cornèbre",
                     "strWidth": 121.484375
                 }
             ]
@@ -6039,7 +6039,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Feufor\u00eave",
+                    "str": "Feuforêve",
                     "strWidth": 130.296875
                 }
             ]
@@ -6099,7 +6099,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Qulbutok\u00e9",
+                    "str": "Qulbutoké",
                     "strWidth": 138.5625
                 }
             ]
@@ -6729,7 +6729,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "R\u00e9moraid",
+                    "str": "Rémoraid",
                     "strWidth": 123.3125
                 }
             ]
@@ -6819,7 +6819,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "D\u00e9manta",
+                    "str": "Démanta",
                     "strWidth": 117.015625
                 }
             ]
@@ -6909,7 +6909,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "D\u00e9molosse",
+                    "str": "Démolosse",
                     "strWidth": 141.890625
                 }
             ]
@@ -7209,7 +7209,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u00c9lekid",
+                    "str": "Élekid",
                     "strWidth": 79.296875
                 }
             ]
@@ -7269,7 +7269,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u00c9cr\u00e9meuh",
+                    "str": "Écrémeuh",
                     "strWidth": 125.265625
                 }
             ]
@@ -7749,7 +7749,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Bras\u00e9gali",
+                    "str": "Braségali",
                     "strWidth": 116.625
                 }
             ]
@@ -7869,7 +7869,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Medhy\u00e8na",
+                    "str": "Medhyèna",
                     "strWidth": 136.03125
                 }
             ]
@@ -7899,7 +7899,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Grahy\u00e8na",
+                    "str": "Grahyèna",
                     "strWidth": 125.078125
                 }
             ]
@@ -7959,7 +7959,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Lin\u00e9on",
+                    "str": "Linéon",
                     "strWidth": 86.859375
                 }
             ]
@@ -8139,7 +8139,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "N\u00e9nupiot",
+                    "str": "Nénupiot",
                     "strWidth": 120.8125
                 }
             ]
@@ -8349,7 +8349,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "H\u00e9l\u00e9delle",
+                    "str": "Hélédelle",
                     "strWidth": 126.515625
                 }
             ]
@@ -8379,7 +8379,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Go\u00e9lise",
+                    "str": "Goélise",
                     "strWidth": 99.328125
                 }
             ]
@@ -8709,7 +8709,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Monafl\u00e8mit",
+                    "str": "Monaflèmit",
                     "strWidth": 147.90625
                 }
             ]
@@ -9099,7 +9099,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "T\u00e9n\u00e9fix",
+                    "str": "Ténéfix",
                     "strWidth": 96.484375
                 }
             ]
@@ -9249,7 +9249,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "M\u00e9ditikka",
+                    "str": "Méditikka",
                     "strWidth": 129.421875
                 }
             ]
@@ -9339,7 +9339,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u00c9lecsprint",
+                    "str": "Élecsprint",
                     "strWidth": 125.203125
                 }
             ]
@@ -9399,7 +9399,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "N\u00e9gapi",
+                    "str": "Négapi",
                     "strWidth": 93.9375
                 }
             ]
@@ -9489,7 +9489,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Ros\u00e9lia",
+                    "str": "Rosélia",
                     "strWidth": 92.953125
                 }
             ]
@@ -9729,7 +9729,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Cam\u00e9rupt",
+                    "str": "Camérupt",
                     "strWidth": 126.765625
                 }
             ]
@@ -9939,7 +9939,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Lib\u00e9gon",
+                    "str": "Libégon",
                     "strWidth": 104.71875
                 }
             ]
@@ -10119,7 +10119,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "S\u00e9viper",
+                    "str": "Séviper",
                     "strWidth": 95.984375
                 }
             ]
@@ -10149,7 +10149,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "S\u00e9l\u00e9roc",
+                    "str": "Séléroc",
                     "strWidth": 95.9375
                 }
             ]
@@ -10269,7 +10269,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u00c9crapince",
+                    "str": "Écrapince",
                     "strWidth": 125.109375
                 }
             ]
@@ -10569,7 +10569,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Morph\u00e9o",
+                    "str": "Morphéo",
                     "strWidth": 118.75
                 }
             ]
@@ -10689,7 +10689,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Skel\u00e9nox",
+                    "str": "Skelénox",
                     "strWidth": 117.1875
                 }
             ]
@@ -10719,7 +10719,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "T\u00e9raclope",
+                    "str": "Téraclope",
                     "strWidth": 130.15625
                 }
             ]
@@ -10779,7 +10779,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u00c9oko",
+                    "str": "Éoko",
                     "strWidth": 64.96875
                 }
             ]
@@ -10839,7 +10839,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Ok\u00e9ok\u00e9",
+                    "str": "Okéoké",
                     "strWidth": 103.109375
                 }
             ]
@@ -11289,7 +11289,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "M\u00e9tang",
+                    "str": "Métang",
                     "strWidth": 99.0625
                 }
             ]
@@ -11319,7 +11319,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "M\u00e9talosse",
+                    "str": "Métalosse",
                     "strWidth": 131.234375
                 }
             ]
@@ -11889,7 +11889,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pingol\u00e9on",
+                    "str": "Pingoléon",
                     "strWidth": 129.296875
                 }
             ]
@@ -11919,7 +11919,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u00c9tourmi",
+                    "str": "Étourmi",
                     "strWidth": 98.609375
                 }
             ]
@@ -11949,7 +11949,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u00c9tourvol",
+                    "str": "Étourvol",
                     "strWidth": 107.296875
                 }
             ]
@@ -11979,7 +11979,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u00c9touraptor",
+                    "str": "Étouraptor",
                     "strWidth": 137.6875
                 }
             ]
@@ -12099,7 +12099,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "M\u00e9lokrik",
+                    "str": "Mélokrik",
                     "strWidth": 113.78125
                 }
             ]
@@ -12579,7 +12579,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Must\u00e9bou\u00e9e",
+                    "str": "Mustébouée",
                     "strWidth": 161.015625
                 }
             ]
@@ -12609,7 +12609,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Must\u00e9flott",
+                    "str": "Mustéflott",
                     "strWidth": 133.890625
                 }
             ]
@@ -12909,7 +12909,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Magir\u00eave",
+                    "str": "Magirêve",
                     "strWidth": 120.75
                 }
             ]
@@ -13119,7 +13119,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Arch\u00e9omire",
+                    "str": "Archéomire",
                     "strWidth": 148.390625
                 }
             ]
@@ -13149,7 +13149,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Arch\u00e9odong",
+                    "str": "Archéodong",
                     "strWidth": 158.640625
                 }
             ]
@@ -13179,7 +13179,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Manza\u00ef",
+                    "str": "Manzaï",
                     "strWidth": 92.796875
                 }
             ]
@@ -13719,7 +13719,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u00c9cayon",
+                    "str": "Écayon",
                     "strWidth": 92.203125
                 }
             ]
@@ -13749,7 +13749,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Lumin\u00e9on",
+                    "str": "Luminéon",
                     "strWidth": 125.15625
                 }
             ]
@@ -13899,7 +13899,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Magn\u00e9zone",
+                    "str": "Magnézone",
                     "strWidth": 150.75
                 }
             ]
@@ -14019,7 +14019,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u00c9lekable",
+                    "str": "Élekable",
                     "strWidth": 110.703125
                 }
             ]
@@ -14439,7 +14439,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Cr\u00e9helf",
+                    "str": "Créhelf",
                     "strWidth": 94.96875
                 }
             ]
@@ -14469,7 +14469,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Cr\u00e9follet",
+                    "str": "Créfollet",
                     "strWidth": 114.375
                 }
             ]
@@ -14499,7 +14499,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Cr\u00e9fadet",
+                    "str": "Créfadet",
                     "strWidth": 114.234375
                 }
             ]
@@ -14889,7 +14889,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Vip\u00e9lierre",
+                    "str": "Vipélierre",
                     "strWidth": 127.46875
                 }
             ]
@@ -15339,7 +15339,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "L\u00e9opardus",
+                    "str": "Léopardus",
                     "strWidth": 134.671875
                 }
             ]
@@ -15669,7 +15669,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "D\u00e9flaisan",
+                    "str": "Déflaisan",
                     "strWidth": 120.921875
                 }
             ]
@@ -15699,7 +15699,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Z\u00e9bibron",
+                    "str": "Zébibron",
                     "strWidth": 118.640625
                 }
             ]
@@ -15729,7 +15729,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Z\u00e9blitz",
+                    "str": "Zéblitz",
                     "strWidth": 89.859375
                 }
             ]
@@ -15789,7 +15789,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "G\u00e9olithe",
+                    "str": "Géolithe",
                     "strWidth": 113.4375
                 }
             ]
@@ -15969,7 +15969,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Nanm\u00e9ou\u00efe",
+                    "str": "Nanméouïe",
                     "strWidth": 147.5
                 }
             ]
@@ -16059,7 +16059,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "B\u00e9tochef",
+                    "str": "Bétochef",
                     "strWidth": 115.75
                 }
             ]
@@ -16119,7 +16119,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Batracn\u00e9",
+                    "str": "Batracné",
                     "strWidth": 113.109375
                 }
             ]
@@ -16209,7 +16209,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Karacl\u00e9e",
+                    "str": "Karaclée",
                     "strWidth": 112.96875
                 }
             ]
@@ -16569,7 +16569,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Masca\u00efman",
+                    "str": "Mascaïman",
                     "strWidth": 143.25
                 }
             ]
@@ -16839,7 +16839,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Bagga\u00efd",
+                    "str": "Baggaïd",
                     "strWidth": 105.171875
                 }
             ]
@@ -16869,7 +16869,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Crypt\u00e9ro",
+                    "str": "Cryptéro",
                     "strWidth": 114.359375
                 }
             ]
@@ -16989,7 +16989,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "M\u00e9gapagos",
+                    "str": "Mégapagos",
                     "strWidth": 150.84375
                 }
             ]
@@ -17019,7 +17019,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Ark\u00e9apti",
+                    "str": "Arkéapti",
                     "strWidth": 110.765625
                 }
             ]
@@ -17049,7 +17049,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "A\u00e9ropt\u00e9ryx",
+                    "str": "Aéroptéryx",
                     "strWidth": 144.671875
                 }
             ]
@@ -17289,7 +17289,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Mesm\u00e9rella",
+                    "str": "Mesmérella",
                     "strWidth": 148.640625
                 }
             ]
@@ -17319,7 +17319,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Sid\u00e9rella",
+                    "str": "Sidérella",
                     "strWidth": 112.796875
                 }
             ]
@@ -17349,7 +17349,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Nucl\u00e9os",
+                    "str": "Nucléos",
                     "strWidth": 103.578125
                 }
             ]
@@ -17379,7 +17379,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "M\u00e9ios",
+                    "str": "Méios",
                     "strWidth": 78.234375
                 }
             ]
@@ -17469,7 +17469,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Lakm\u00e9cygne",
+                    "str": "Lakmécygne",
                     "strWidth": 159.828125
                 }
             ]
@@ -17499,7 +17499,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Sorb\u00e9b\u00e9",
+                    "str": "Sorbébé",
                     "strWidth": 108.703125
                 }
             ]
@@ -17709,7 +17709,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Lan\u00e7argot",
+                    "str": "Lançargot",
                     "strWidth": 128.140625
                 }
             ]
@@ -18129,7 +18129,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Lamp\u00e9roie",
+                    "str": "Lampéroie",
                     "strWidth": 136.59375
                 }
             ]
@@ -18249,7 +18249,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Fun\u00e9cire",
+                    "str": "Funécire",
                     "strWidth": 110.46875
                 }
             ]
@@ -18279,7 +18279,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "M\u00e9lancolux",
+                    "str": "Mélancolux",
                     "strWidth": 149.546875
                 }
             ]
@@ -19269,7 +19269,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Bor\u00e9as",
+                    "str": "Boréas",
                     "strWidth": 86.90625
                 }
             ]
@@ -19389,7 +19389,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "D\u00e9m\u00e9t\u00e9ros",
+                    "str": "Démétéros",
                     "strWidth": 141.109375
                 }
             ]
@@ -19569,7 +19569,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Bogu\u00e9risse",
+                    "str": "Boguérisse",
                     "strWidth": 138.46875
                 }
             ]
@@ -19599,7 +19599,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Blind\u00e9pique",
+                    "str": "Blindépique",
                     "strWidth": 155.21875
                 }
             ]
@@ -19749,7 +19749,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Cro\u00e2poral",
+                    "str": "Croâporal",
                     "strWidth": 129.5
                 }
             ]
@@ -19959,7 +19959,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "L\u00e9pidonille",
+                    "str": "Lépidonille",
                     "strWidth": 144.953125
                 }
             ]
@@ -19989,7 +19989,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "P\u00e9r\u00e9grain",
+                    "str": "Pérégrain",
                     "strWidth": 122.203125
                 }
             ]
@@ -20049,7 +20049,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "H\u00e9lionceau",
+                    "str": "Hélionceau",
                     "strWidth": 146.90625
                 }
             ]
@@ -20079,7 +20079,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "N\u00e9m\u00e9lios",
+                    "str": "Némélios",
                     "strWidth": 120.34375
                 }
             ]
@@ -20109,7 +20109,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Flab\u00e9b\u00e9",
+                    "str": "Flabébé",
                     "strWidth": 105.671875
                 }
             ]
@@ -20259,7 +20259,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pandespi\u00e8gle",
+                    "str": "Pandespiègle",
                     "strWidth": 172.6875
                 }
             ]
@@ -20439,7 +20439,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Dimocl\u00e8s",
+                    "str": "Dimoclès",
                     "strWidth": 118.8125
                 }
             ]
@@ -21069,7 +21069,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Brutalibr\u00e9",
+                    "str": "Brutalibré",
                     "strWidth": 126.15625
                 }
             ]
@@ -21279,7 +21279,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Broc\u00e9l\u00f4me",
+                    "str": "Brocélôme",
                     "strWidth": 137.671875
                 }
             ]
@@ -21309,7 +21309,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Dess\u00e9liande",
+                    "str": "Desséliande",
                     "strWidth": 156.59375
                 }
             ]
@@ -21399,7 +21399,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Grela\u00e7on",
+                    "str": "Grelaçon",
                     "strWidth": 118.71875
                 }
             ]
@@ -21429,7 +21429,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "S\u00e9racrawl",
+                    "str": "Séracrawl",
                     "strWidth": 122.875
                 }
             ]
@@ -21729,7 +21729,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Effl\u00e8che",
+                    "str": "Efflèche",
                     "strWidth": 104.625
                 }
             ]
@@ -21759,7 +21759,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Arch\u00e9duc",
+                    "str": "Archéduc",
                     "strWidth": 122.09375
                 }
             ]
@@ -21849,7 +21849,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "F\u00e9linferno",
+                    "str": "Félinferno",
                     "strWidth": 131.21875
                 }
             ]
@@ -22449,7 +22449,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Vorast\u00e9rie",
+                    "str": "Vorastérie",
                     "strWidth": 132.875
                 }
             ]
@@ -22479,7 +22479,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Pr\u00e9dast\u00e9rie",
+                    "str": "Prédastérie",
                     "strWidth": 145.25
                 }
             ]
@@ -22959,7 +22959,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Gu\u00e9rilande",
+                    "str": "Guérilande",
                     "strWidth": 144.046875
                 }
             ]
@@ -23079,7 +23079,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Sarmura\u00ef",
+                    "str": "Sarmuraï",
                     "strWidth": 111.265625
                 }
             ]
@@ -23139,7 +23139,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Tr\u00e9passable",
+                    "str": "Trépassable",
                     "strWidth": 154.625
                 }
             ]
@@ -23229,7 +23229,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Silvalli\u00e9",
+                    "str": "Silvallié",
                     "strWidth": 99.359375
                 }
             ]
@@ -23259,7 +23259,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "M\u00e9t\u00e9no",
+                    "str": "Météno",
                     "strWidth": 100.703125
                 }
             ]
@@ -23439,7 +23439,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Dra\u00efeul",
+                    "str": "Draïeul",
                     "strWidth": 94.0
                 }
             ]
@@ -23499,7 +23499,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "B\u00e9b\u00e9caille",
+                    "str": "Bébécaille",
                     "strWidth": 134.890625
                 }
             ]
@@ -23529,7 +23529,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u00c9ca\u00efd",
+                    "str": "Écaïd",
                     "strWidth": 69.984375
                 }
             ]
@@ -23559,7 +23559,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u00c9ka\u00efser",
+                    "str": "Ékaïser",
                     "strWidth": 90.703125
                 }
             ]
@@ -23829,7 +23829,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Z\u00e9ro\u00efd",
+                    "str": "Zéroïd",
                     "strWidth": 85.84375
                 }
             ]
@@ -23919,7 +23919,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "C\u00e2blif\u00e8re",
+                    "str": "Câblifère",
                     "strWidth": 119.546875
                 }
             ]
@@ -24129,7 +24129,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "V\u00e9mini",
+                    "str": "Vémini",
                     "strWidth": 89.484375
                 }
             ]
@@ -24519,7 +24519,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Larm\u00e9l\u00e9on",
+                    "str": "Larméléon",
                     "strWidth": 135.09375
                 }
             ]
@@ -24579,7 +24579,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "L\u00e9zargus",
+                    "str": "Lézargus",
                     "strWidth": 112.203125
                 }
             ]
@@ -24789,7 +24789,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Col\u00e9od\u00f4me",
+                    "str": "Coléodôme",
                     "strWidth": 151.4375
                 }
             ]
@@ -25029,7 +25029,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Kh\u00e9locrok",
+                    "str": "Khélocrok",
                     "strWidth": 131.109375
                 }
             ]
@@ -25659,7 +25659,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Th\u00e9ffroi",
+                    "str": "Théffroi",
                     "strWidth": 102.625
                 }
             ]
@@ -25689,7 +25689,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Polth\u00e9geist",
+                    "str": "Polthégeist",
                     "strWidth": 144.140625
                 }
             ]
@@ -25959,7 +25959,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Coray\u00f4me",
+                    "str": "Corayôme",
                     "strWidth": 132.578125
                 }
             ]
@@ -26049,7 +26049,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Tut\u00e9t\u00e9kri",
+                    "str": "Tutétékri",
                     "strWidth": 116.8125
                 }
             ]
@@ -26079,7 +26079,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Cr\u00e8my",
+                    "str": "Crèmy",
                     "strWidth": 82.96875
                 }
             ]
@@ -26289,7 +26289,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Bekagla\u00e7on",
+                    "str": "Bekaglaçon",
                     "strWidth": 149.34375
                 }
             ]
@@ -26739,7 +26739,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "\u00c9thernatos",
+                    "str": "Éthernatos",
                     "strWidth": 136.6875
                 }
             ]
@@ -27039,7 +27039,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Hach\u00e9cateur",
+                    "str": "Hachécateur",
                     "strWidth": 163.3125
                 }
             ]
@@ -27189,7 +27189,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Amov\u00e9nus",
+                    "str": "Amovénus",
                     "strWidth": 132.71875
                 }
             ]

@@ -909,7 +909,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Nidoran\u2640",
+                    "str": "Nidoran♀",
                     "strWidth": 129.796875
                 }
             ]
@@ -999,7 +999,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Nidoran\u2642",
+                    "str": "Nidoran♂",
                     "strWidth": 129.796875
                 }
             ]
@@ -17079,7 +17079,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Unrat\u00fctox",
+                    "str": "Unratütox",
                     "strWidth": 129.171875
                 }
             ]
@@ -18969,7 +18969,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Furnifra\u00df",
+                    "str": "Furnifraß",
                     "strWidth": 116.03125
                 }
             ]
@@ -20109,7 +20109,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Flab\u00e9b\u00e9",
+                    "str": "Flabébé",
                     "strWidth": 105.671875
                 }
             ]
@@ -20199,7 +20199,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "M\u00e4hikel",
+                    "str": "Mähikel",
                     "strWidth": 103.03125
                 }
             ]
@@ -23049,7 +23049,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Rei\u00dflaus",
+                    "str": "Reißlaus",
                     "strWidth": 108.109375
                 }
             ]
@@ -25809,7 +25809,7 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "B\u00e4hmon",
+                    "str": "Bähmon",
                     "strWidth": 103.640625
                 }
             ]
