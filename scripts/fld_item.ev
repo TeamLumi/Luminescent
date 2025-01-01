@@ -554,7 +554,7 @@ ev_fld_item_113:
 	_FLD_ITEM_EVENT(49, 1)
 	_END()
 ev_fld_item_114:
-	_FLD_ITEM_EVENT(849, 1)
+	_FLD_ITEM_EVENT(246, 1)
 	_END()
 ev_fld_item_115:
 	_FLD_ITEM_EVENT(221, 1)
