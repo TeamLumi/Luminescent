@@ -9496,40 +9496,40 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "This toggleable item allows you to encounter extra",
-                    "strWidth": 657.078125
+                    "str": "Activate your Incense burner to encounter new",
+                    "strWidth": -1
+                },
+                {
+                    "patternID": 7,
+                    "eventID": 1,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "<color=#F01E1EFF>Regional Pokémon</color> from Generations 1-4.",
+                    "strWidth": -1
                 },
                 {
                     "patternID": 7,
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "<color=#F01E1EFF>Regional Pokemon</color>!",
-                    "strWidth": 521.078125
+                    "str": "The regions you choose will have no differences.",
+                    "strWidth": -1
                 },
                 {
                     "patternID": 7,
-                    "eventID": 3,
+                    "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Choosing a flower is for Luminescent 3.0 when",
-                    "strWidth": 567.203125
+                    "str": "They will all enable the same <color=#F01E1EFF>Regional Pokémon</color>",
+                    "strWidth": -1
                 },
                 {
                     "patternID": 7,
-                    "eventID": 3,
+                    "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "all previous regions will be available in the wild.",
-                    "strWidth": 620.453125
-                },
-                {
-                    "patternID": 0,
-                    "eventID": 7,
-                    "tagIndex": -1,
-                    "tagValue": 0.0,
-                    "str": "See luminescent.team for more details.",
-                    "strWidth": 501.796875
+                    "str": "in the current version.",
+                    "strWidth": -1
                 }
             ]
         },
@@ -9558,88 +9558,40 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "This toggleable item allows you to encounter extra",
-                    "strWidth": 657.078125
+                    "str": "Activate your Incense burner to encounter new",
+                    "strWidth": -1
+                },
+                {
+                    "patternID": 7,
+                    "eventID": 1,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "<color=#F01E1EFF>Regional Pokémon</color> from Generations 1-4.",
+                    "strWidth": -1
                 },
                 {
                     "patternID": 7,
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "<color=#F01E1EFF>Regional Pokemon</color>!",
-                    "strWidth": 521.078125
+                    "str": "The regions you choose will have no differences.",
+                    "strWidth": -1
                 },
                 {
                     "patternID": 7,
-                    "eventID": 3,
+                    "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Choosing a flower is for Luminescent 3.0 when all",
-                    "strWidth": 606.734375
+                    "str": "They will all enable the same <color=#F01E1EFF>Regional Pokémon</color>",
+                    "strWidth": -1
                 },
                 {
                     "patternID": 7,
-                    "eventID": 3,
+                    "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "previous regions will be available in the wild.",
-                    "strWidth": 580.921875
-                },
-                {
-                    "patternID": 7,
-                    "eventID": 3,
-                    "tagIndex": -1,
-                    "tagValue": 0.0,
-                    "str": "In the current build, all flowers lead to the same",
-                    "strWidth": 621.515625
-                },
-                {
-                    "patternID": 7,
-                    "eventID": 3,
-                    "tagIndex": -1,
-                    "tagValue": 0.0,
-                    "str": "encounters. \"Regional\" Pokémon include anything",
-                    "strWidth": 637.8125
-                },
-                {
-                    "patternID": 7,
-                    "eventID": 3,
-                    "tagIndex": -1,
-                    "tagValue": 0.0,
-                    "str": "up to gen 4 that has regionals, or regional",
-                    "strWidth": 528.125
-                },
-                {
-                    "patternID": 7,
-                    "eventID": 3,
-                    "tagIndex": -1,
-                    "tagValue": 0.0,
-                    "str": "evolutions (Braviary is not in gen 4, so there is no",
-                    "strWidth": 624.90625
-                },
-                {
-                    "patternID": 7,
-                    "eventID": 3,
-                    "tagIndex": -1,
-                    "tagValue": 0.0,
-                    "str": "Braviary or Hisuian Braviary).",
-                    "strWidth": 375.53125
-                },
-                {
-                    "patternID": 7,
-                    "eventID": 3,
-                    "tagIndex": -1,
-                    "tagValue": 0.0,
-                    "str": "More information can be found on",
-                    "strWidth": 446.4375
-                },
-                {
-                    "patternID": 0,
-                    "eventID": 7,
-                    "tagIndex": -1,
-                    "tagValue": 0.0,
-                    "str": "https://luminescent.team/.",
-                    "strWidth": 331.265625
+                    "str": "in the current version.",
+                    "strWidth": -1
                 }
             ]
         },
