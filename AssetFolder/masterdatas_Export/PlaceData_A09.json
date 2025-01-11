@@ -209,7 +209,7 @@
             "ID": "C09_BOY4",
             "zoneID": 159,
             "TrainerID": 0,
-            "ObjectGraphicIndex": 66,
+            "ObjectGraphicIndex": 118,
             "ColorIndex": 0,
             "Position": {
                 "x": 361.0,
@@ -248,7 +248,7 @@
             "ID": "C09_GIRL4",
             "zoneID": 159,
             "TrainerID": 0,
-            "ObjectGraphicIndex": 67,
+            "ObjectGraphicIndex": 119,
             "ColorIndex": 0,
             "Position": {
                 "x": 376.0,
@@ -482,7 +482,7 @@
             "ID": "C09_GIRL4A",
             "zoneID": 159,
             "TrainerID": 0,
-            "ObjectGraphicIndex": 67,
+            "ObjectGraphicIndex": 119,
             "ColorIndex": 0,
             "Position": {
                 "x": 355.0,
@@ -1652,7 +1652,7 @@
             "ID": "R217_GIRL4",
             "zoneID": 397,
             "TrainerID": 0,
-            "ObjectGraphicIndex": 67,
+            "ObjectGraphicIndex": 119,
             "ColorIndex": 0,
             "Position": {
                 "x": 313.0,

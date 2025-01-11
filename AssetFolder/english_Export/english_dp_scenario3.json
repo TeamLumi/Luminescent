@@ -89720,12 +89720,28 @@
             "tagDataArray": [],
             "wordDataArray": [
                 {
+                    "patternID": 3,
+                    "eventID": 0,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "<size=250%>",
+                    "strWidth": -1.0
+                },
+                {
                     "patternID": 0,
+                    "eventID": 0,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "DDDOOOMMM!!!",
+                    "strWidth": 239.25
+                },
+                {
+                    "patternID": 3,
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "<size=95>DDDOOOMMM!!!</size>",
-                    "strWidth": 387.53125
+                    "str": "</size>",
+                    "strWidth": -1.0
                 }
             ]
         },
