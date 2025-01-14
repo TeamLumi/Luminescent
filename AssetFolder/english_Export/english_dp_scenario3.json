@@ -68896,7 +68896,7 @@
                     "tagIndex": -1,
                     "tagValue": 0.0,
                     "str": "Was Jirachi communicating to you",
-                    "strWidth": 440.78125
+                    "strWidth": 467.875
                 },
                 {
                     "patternID": 0,
@@ -68942,7 +68942,7 @@
                     "tagIndex": -1,
                     "tagValue": 0.0,
                     "str": "Do you want to ask Jigglypuff",
-                    "strWidth": 386.4375
+                    "strWidth": 431.21875
                 },
                 {
                     "patternID": 0,
@@ -77845,19 +77845,11 @@
                 },
                 {
                     "patternID": 7,
-                    "eventID": 4,
+                    "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "so I’ve been trying to get stronger",
+                    "str": "so I’ve been trying to get stronger.",
                     "strWidth": 441.203125
-                },
-                {
-                    "patternID": 0,
-                    "eventID": 0,
-                    "tagIndex": -1,
-                    "tagValue": 0.0,
-                    "str": "",
-                    "strWidth": 0.0
                 },
                 {
                     "patternID": 5,
@@ -119324,27 +119316,67 @@
             "wordDataArray": [
                 {
                     "patternID": 7,
+                    "eventID": 1,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "Something isn't right with your mod install.",
+                    "strWidth": 551.46875
+                },
+                {
+                    "patternID": 0,
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "We do not support Shining Pearl.",
-                    "strWidth": 430.125
+                    "str": "Please visit ",
+                    "strWidth": 151.015625
+                },
+                {
+                    "patternID": 2,
+                    "eventID": 0,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "<color=#0064FFFF>",
+                    "strWidth": -1.0
+                },
+                {
+                    "patternID": 0,
+                    "eventID": 0,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "https://luminescent.team/install",
+                    "strWidth": 398.96875
+                },
+                {
+                    "patternID": 2,
+                    "eventID": 0,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "</color>",
+                    "strWidth": -1.0
+                },
+                {
+                    "patternID": 7,
+                    "eventID": 3,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": ".",
+                    "strWidth": 7.90625
                 },
                 {
                     "patternID": 7,
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Install instructions exist for a reason.",
-                    "strWidth": 470.15625
+                    "str": "Make sure you're following the instructions",
+                    "strWidth": 555.96875
                 },
                 {
                     "patternID": 0,
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Please visit https://luminescent.team/",
-                    "strWidth": 474.375
+                    "str": "for your game and platform.",
+                    "strWidth": 363.9375
                 }
             ]
         },
@@ -122804,27 +122836,67 @@
             "wordDataArray": [
                 {
                     "patternID": 7,
+                    "eventID": 1,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "Something isn't right with your mod install.",
+                    "strWidth": 551.46875
+                },
+                {
+                    "patternID": 0,
                     "eventID": 3,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Bad exefs installation found.",
-                    "strWidth": 368.15625
+                    "str": "Please visit ",
+                    "strWidth": 151.015625
+                },
+                {
+                    "patternID": 2,
+                    "eventID": 0,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "<color=#0064FFFF>",
+                    "strWidth": -1.0
+                },
+                {
+                    "patternID": 0,
+                    "eventID": 0,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "https://luminescent.team/install",
+                    "strWidth": 398.96875
+                },
+                {
+                    "patternID": 2,
+                    "eventID": 0,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": "</color>",
+                    "strWidth": -1.0
+                },
+                {
+                    "patternID": 7,
+                    "eventID": 3,
+                    "tagIndex": -1,
+                    "tagValue": 0.0,
+                    "str": ".",
+                    "strWidth": 7.90625
                 },
                 {
                     "patternID": 7,
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Install instructions exist for a reason.",
-                    "strWidth": 470.15625
+                    "str": "Make sure you're following the instructions",
+                    "strWidth": 555.96875
                 },
                 {
                     "patternID": 0,
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Please visit https://luminescent.team/",
-                    "strWidth": 474.375
+                    "str": "for your game and platform.",
+                    "strWidth": 363.9375
                 }
             ]
         },

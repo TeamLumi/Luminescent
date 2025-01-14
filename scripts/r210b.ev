@@ -89,7 +89,7 @@ pos_r210b_support_male_01_func_9:
 	_BLACK_IN('SCR_WIPE_DIV', 3)
 	_FADE_WAIT()
 	_PLAYER_NAME(0)
-	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_r210b_support_m_2', 'I last saw you in Veilstone City,\nwhen we battled those Team Galactic\fgoons who stole my Pokédex.\rI was frustrated that ever happened,\nso I’ve been trying to get stronger\fto protect myself and my Pokémon.\r{0}, let me battle you with the\nskills we’ve learnt from our training!')
+	_TALK_KEYWAIT('dp_scenario3%00_msg_r210b_support_m_2')
 	_TALK_CLOSE()
 	_CALL('pos_r210b_support_male_get_party')
 	_TRAINER_BTL_SET(@SCWK_TEMP3, 0)

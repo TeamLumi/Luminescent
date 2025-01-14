@@ -3,7 +3,7 @@ ev_common_vm:
 ev_item_return:
 	_END()
 ev_block_player_shining_pearl:
-	_MACRO_TALKMSG('dp_scenario3', '00_msg_wrong_game_00', 'We do not support Shining Pearl.\rInstall instructions exist for a reason.\nPlease visit https://luminescent.team/')
+	_TALKMSG('dp_scenario3%00_msg_wrong_game_00')
 	_LAST_KEYWAIT()
 	_TALK_CLOSE()
 	_SET_TELEPORT_ID(0, 0)
@@ -11,7 +11,7 @@ ev_block_player_shining_pearl:
 	_TALK_OBJ_END()
 	_END()
 ev_block_player_bad_exefs:
-	_MACRO_TALKMSG('dp_scenario3', '00_msg_bad_install_00', 'Bad exefs installation found.\rInstall instructions exist for a reason.\nPlease visit https://luminescent.team/')
+	_TALKMSG('dp_scenario3%00_msg_bad_install_00')
 	_LAST_KEYWAIT()
 	_TALK_OBJ_END()
 	_END()
