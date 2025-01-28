@@ -1681,6 +1681,44 @@
             "BattleBGM": "BA001",
             "WinBGM": "BA101",
             "FadeType": -1
+        },
+        {
+            "CmdSeqName": [
+                "ee350",
+                "",
+                ""
+            ],
+            "Weight": [
+                100,
+                0,
+                0
+            ],
+            "Cond": [
+                0,
+                0
+            ],
+            "BattleBGM": "BA003",
+            "WinBGM": "BA103",
+            "FadeType": 1
+        },
+        {
+            "CmdSeqName": [
+                "ee350",
+                "",
+                ""
+            ],
+            "Weight": [
+                100,
+                0,
+                0
+            ],
+            "Cond": [
+                0,
+                0
+            ],
+            "BattleBGM": "BA007",
+            "WinBGM": "BA106",
+            "FadeType": 1
         }
     ],
     "SetupIntroPlaySequenceData": [
