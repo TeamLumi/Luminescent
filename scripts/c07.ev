@@ -855,6 +855,7 @@ common_c07_gingam_3_dir:
 	_OBJ_ANIME('C07_LOOKER_2', 'anm_c07_looker2_2')
 	_OBJ_ANIME_WAIT()
 	_OBJ_DEL('C07_LOOKER_2')
+	_SET_SYS_FLAG($SYS_FLAG_BGM_D26)
 	_FLAG_SET(#2866)
 	_FLAG_SET(#2793)
 	_TALK_OBJ_END()

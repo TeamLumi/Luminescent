@@ -11421,6 +11421,26 @@
         {
             "label": "00_msg_c10r0101_tm_handler_03",
             "talk_label": "DLP_SPEAKERS_NAME_TM_HANDLER"
+        },
+        {
+            "label": "00_msg_c07looker2_1",
+            "talk_label": "DLP_SPEAKERS_NAME_Looker"
+        },
+        {
+            "label": "00_msg_c07looker2_2",
+            "talk_label": "DLP_SPEAKERS_NAME_Looker"
+        },
+        {
+            "label": "00_msg_c07r0301_looker2_1",
+            "talk_label": "DLP_SPEAKERS_NAME_Looker"
+        },
+        {
+            "label": "00_msg_c07r0301_looker2_2",
+            "talk_label": "DLP_SPEAKERS_NAME_Looker"
+        },
+        {
+            "label": "00_msg_c07r0301_looker2_3",
+            "talk_label": "DLP_SPEAKERS_NAME_Looker"
         }
     ],
     "RoadsignViewData": [
