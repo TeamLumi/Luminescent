@@ -11193,7 +11193,7 @@ ev_hudie_legality_check_heatwave:
 	_IFVAL_JUMP(@SCWK_PARAM1, 'EQ', 609, 'ev_hudie_legalitycheck_add_heatwave')
 	_IFVAL_JUMP(@SCWK_PARAM1, 'EQ', 731, 'ev_hudie_legalitycheck_add_heatwave')
 	_IFVAL_JUMP(@SCWK_PARAM1, 'EQ', 732, 'ev_hudie_legalitycheck_add_heatwave')
-	_IFVAL_JUMP(@SCWK_PARAM1, 'EQ', 733, 'ev_legalitycheck_add_heatwave')
+	_IFVAL_JUMP(@SCWK_PARAM1, 'EQ', 733, 'ev_hudie_legalitycheck_add_heatwave')
 	_RET()
 ev_hudie_legalitycheck_add_heatwave:
 	_ADD_CUSTUM_WIN_LABEL('ss_wazaname%WAZANAME_257', 257)
