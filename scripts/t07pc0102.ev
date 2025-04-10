@@ -1,5 +1,8 @@
 ev_t07pc0102:
 	_END()
+ev_t07pc0102_nurse_delete:
+	_OBJ_DEL('T07PC0102_HOTFIX_NURSE')
+	_RET()
 ev_t07pc0102_nurse:
 	_TALK_OBJ_START()
 	_MACRO_TALKMSG('dp_scenario3', '00_msg_t07pc0102_hotfix_00', 'Hello trainer.\rI’m told I have you to thank for\nsaving me.\rDo you want me to change\nyour Mewtwo’s form?')

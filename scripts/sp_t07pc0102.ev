@@ -1,0 +1,12 @@
+SP_T07PC0102_OBJ:
+	_OBJ_CHANGE_LABEL('ev_connect_obj_change')
+	_SP_EVENT_DATA_END()
+SP_T07PC0102_SCENE:
+	_SCENE_CHANGE_LABEL('sp_t07pc0102_tbl')
+	_SP_EVENT_DATA_END()
+sp_t07pc0102_tbl:
+	_IF_FLAGOFF_CALL(#2890, 'ev_t07pc0102_nurse_delete')
+	_IF_FLAGOFF_CALL(#3002, 'ev_t07pc0102_nurse_delete')
+	_SCENE_CHANGE_DATA(@UNION_TEMP0, 1, 'ev_connect_union_menu_back01')
+	_SCENE_CHANGE_DATA(@UNION_TEMP0, 2, 'ev_connect_colosseum_back')
+	_SCENE_CHANGE_END()
