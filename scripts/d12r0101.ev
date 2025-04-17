@@ -112,6 +112,7 @@ ev_d12r0101_onix_beaten:
 	_FLAG_SET(#2519); Event over.
 	_FLAG_SET(#2879); hide this ranger
 	_FLAG_SET(#2878); Hide outside rangers
+	_FLAG_RESET(#2518); Unhide outside trainers
 	_OBJ_DEL('D12R0101_RANGERM')
 	_BLACK_IN()
 	_FADE_WAIT()
