@@ -5880,8 +5880,8 @@
                     "eventID": 7,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "No! There’s no running from a Trainer battle!",
-                    "strWidth": 579.03125
+                    "str": "No! You cannot run from this battle!",
+                    "strWidth": 466.265625
                 }
             ]
         },
