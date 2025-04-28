@@ -44,28 +44,28 @@ ev_t04r0201_oldwoman_not_quite:
 	_TALK_OBJ_END()
 	_END()
 ev_t04r0201_oldwoman_ponyta:
-	_MACRO_TALKMSG('dp_scenario3', '00_msg_ev_t04r0201_oldwoman_ponyta', 'Oh, your PONYTA...')
+	_TALKMSG('dp_scenario3%00_msg_ev_t04r0201_oldwoman_ponyta')
 	_JUMP('ev_t04r0201_oldwoman_common')
 ev_t04r0201_oldwoman_rapidash:
-	_MACRO_TALKMSG('dp_scenario3', '00_msg_ev_t04r0201_oldwoman_rapidash', 'Oh, your RAPIDASH...')
+	_TALKMSG('dp_scenario3%00_msg_ev_t04r0201_oldwoman_rapidash')
 	_JUMP('ev_t04r0201_oldwoman_common')
 ev_t04r0201_oldwoman_moltres:
-	_MACRO_TALKMSG('dp_scenario3', '00_msg_ev_t04r0201_oldwoman_moltres', 'My word! Is that a MOLTRES?\nYou have a MOLTRES as a companion?!')
+	_TALKMSG('dp_scenario3%00_msg_ev_t04r0201_oldwoman_moltres')
 	_JUMP('ev_t04r0201_oldwoman_common')
 ev_t04r0201_oldwoman_quilava:
-	_MACRO_TALKMSG('dp_scenario3', '00_msg_ev_t04r0201_oldwoman_quilava', 'Oh, your QUILAVA...')
+	_TALKMSG('dp_scenario3%00_msg_ev_t04r0201_oldwoman_quilava')
 	_JUMP('ev_t04r0201_oldwoman_common')
 ev_t04r0201_oldwoman_infernape:
-	_MACRO_TALKMSG('dp_scenario3', '00_msg_ev_t04r0201_oldwoman_infernape', 'Oh, your INFERNAPE...')
+	_TALKMSG('dp_scenario3%00_msg_ev_t04r0201_oldwoman_infernape')
 	_JUMP('ev_t04r0201_oldwoman_common')
 ev_t04r0201_oldwoman_magmar:
-	_MACRO_TALKMSG('dp_scenario3', '00_msg_ev_t04r0201_oldwoman_magmar', 'Oh, your MAGMAR...')
+	_TALKMSG('dp_scenario3%00_msg_ev_t04r0201_oldwoman_magmar')
 	_JUMP('ev_t04r0201_oldwoman_not_quite')
 ev_t04r0201_oldwoman_slugma:
-	_MACRO_TALKMSG('dp_scenario3', '00_msg_ev_t04r0201_oldwoman_slugma', 'Oh, your SLUGMA...')
+	_TALKMSG('dp_scenario3%00_msg_ev_t04r0201_oldwoman_slugma')
 	_JUMP('ev_t04r0201_oldwoman_not_quite')
 ev_t04r0201_oldwoman_magmortar:
-	_MACRO_TALKMSG('dp_scenario3', '00_msg_ev_t04r0201_oldwoman_magmortar', 'Oh, your MAGMORTAR...')
+	_TALKMSG('dp_scenario3%00_msg_ev_t04r0201_oldwoman_magmortar')
 	_JUMP('ev_t04r0201_oldwoman_not_quite')
 ev_t04r0201_oldwoman_common:
 	_MACRO_TALKMSG('dp_scenario3', '00_msg_ev_t04r0201_oldwoman_success', 'There is a truly dazzling flame that\nburns upon that Pokémon’s head!\rWhat a sight to behold!\nAbsolutely ravishing!\rI can leave a happy woman!\nThank you ever so much.')

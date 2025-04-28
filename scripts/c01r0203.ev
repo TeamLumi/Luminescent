@@ -222,7 +222,7 @@ ev_c01r0203_snowball_looker:
 	_TALK_OBJ_END()
 	_END()
 ev_c01r0203_snowball_done:
-	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_c01r0203_snowball_11', 'You will not forget what happened\nhere.\rYou swear to yourself, you will\nget revenge for this embarrassment')
+	_TALK_KEYWAIT('dp_scenario3%00_msg_c01r0203_snowball_11')
 	_TALK_CLOSE()
 	_TALK_OBJ_END()
 	_END()

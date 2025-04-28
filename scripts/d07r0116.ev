@@ -29,7 +29,7 @@ ev_d07r0116_board_jirachi_wish:
 	_TALK_OBJ_END()
 	_END()
 ev_d07r0116_board_jirachi_wish_done:
-	_MACRO_TALKMSG('dp_scenario3', '00_msg_ev_d07r0116_jirachi_board_done', 'The sign is blank...\rWas JIRACHI communicating to you\nthrough the sign?')
+	_TALKMSG('dp_scenario3%00_msg_ev_d07r0116_jirachi_board_done')
 	_TALK_CLOSE()
 	_TALK_OBJ_END()
 	_END()
@@ -38,7 +38,7 @@ ev_d07r0116_jirachi:
 	_IF_FLAGON_JUMP(#2673, 'ev_d07r0116_jirachi_battle')
 	_TEMOTI_POKE_CHK(@SCWK_ANSWER, 39)
 	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_d07r0116_jirachi_no_jiggly')
-	_MACRO_TALKMSG('dp_scenario3', '00_msg_ev_d07r0116_jirachi_jiggly', 'The Pokémon is in a deep sleep.\rDo you want to ask JIGGLYPUFF\nto sing to the Pokémon?')
+	_TALKMSG('dp_scenario3%00_msg_ev_d07r0116_jirachi_jiggly')
 	_YES_NO_WIN(@SCWK_ANSWER)
 	_IFVAL_JUMP(@SCWK_ANSWER, 'NE', 0, 'ev_d07r0116_jirachi_jiggly_no_sing')
 	_TALK_CLOSE()

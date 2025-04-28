@@ -274,6 +274,7 @@ ev_t02r0101_incense_burner_tutorial:
 	_CHARA_LOOK_LOCK('T02R0101_DOCTOR', 'HERO')
 	_MACRO_TALK_KEYWAIT('dp_scenario1', '00_msg_t02r0101_incense_05', 'The fact that Shaymin itself saw fit to\nreturn it to you, {0},\fcould not be a mere coincidence.')
 	_MACRO_TALK_KEYWAIT('dp_scenario1', '00_msg_t02r0101_incense_06', 'Please keep it and use it to expand your knowledge\nof Pokémon that visit Sinnoh!')
+	_CHARA_LOOK_RELEASE('T02R0101_DOCTOR')
 	_TALK_CLOSE()
 	_RET()
 anm_t02r0101_incense_00:
