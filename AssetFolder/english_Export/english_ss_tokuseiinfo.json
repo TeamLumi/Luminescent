@@ -4435,8 +4435,8 @@
                     "eventID": 1,
                     "tagIndex": -1,
                     "tagValue": 0.0,
-                    "str": "Boosts the Attack and Sp. Def stats of itself",
-                    "strWidth": 564.59375
+                    "str": "Boosts the Sp. Atk and Sp. Def stats of itself",
+                    "strWidth": 574.578125
                 },
                 {
                     "patternID": 0,
